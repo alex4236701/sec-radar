@@ -2,20 +2,21 @@ import os
 import re
 import time
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timezone, timedelta
 
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 def send_discord_embed(ticker, form, filing_date, summary, doc_url):
     if not DISCORD_WEBHOOK_URL:
         print("未設定 DISCORD_WEBHOOK_URL，略過發送。")
         return
 
+    # 卡片側邊色彩配置
     color_map = {
         "8-K": 0xE74C3C,    # 警戒紅：重大事件、收購、突發
-        "424B5": 0xE67E22,  # 警示橘：公司發新股/發債稀釋
-        "424B7": 0x9B59B6,  # 風險紫：早期大股東倒貨離場
+        "424B5": 0xE67E22,  # 警示橘：公司發新股/發債籌資
+        "424B7": 0x9B59B6,  # 風險紫：早期大股東出清持股
         "10-Q": 0x3498DB,   # 營運藍：季度財報
         "10-K": 0x2ECC71    # 財報綠：年度財報
     }
@@ -46,7 +47,7 @@ def send_discord_embed(ticker, form, filing_date, summary, doc_url):
                         "inline": True
                     },
                     {
-                        "name": "💡 AI 核心解讀",
+                        "name": "💡 AI 核心解讀 (GPT-4o-mini)",
                         "value": summary,
                         "inline": False
                     }
@@ -54,7 +55,7 @@ def send_discord_embed(ticker, form, filing_date, summary, doc_url):
                 "footer": {
                     "text": "SEC EDGAR Automated Intelligence Radar"
                 },
-                "timestamp": datetime.utcnow().isoformat()
+                "timestamp": datetime.now(timezone.utc).isoformat()
             }
         ]
     }
@@ -73,15 +74,19 @@ def clean_html(raw_html):
     return cleared.strip()
 
 def summarize_with_ai(ticker, form, content_text):
-    if not GEMINI_API_KEY:
-        return "未設定 GEMINI_API_KEY，請直接查閱原始連結。"
+    if not OPENAI_API_KEY:
+        return "未設定 OPENAI_API_KEY，請直接查閱原始連結。"
 
     clean_text = clean_html(content_text)
     if len(clean_text) < 50:
         return "申報內文缺乏實質文字或非純文字結構，請參閱原始文件。"
 
-    api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={GEMINI_API_KEY}"
-    headers = {"Content-Type": "application/json"}
+    api_url = "https://api.openai.com/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {OPENAI_API_KEY}",
+        "Content-Type": "application/json"
+    }
+
     prompt = f"""
 你是一位專業美股研究員。請閱讀以下 {ticker} 的 SEC {form} 申報純文字內容，用台灣日常大白話繁體中文輸出重點：
 1. 核心實質動作（例如：增資總額與每股定價、大股東出清持股規模、收購合併標的、重大合約金額）。
@@ -91,29 +96,33 @@ def summarize_with_ai(ticker, form, content_text):
 申報內文節錄：
 {clean_text[:6000]}
 """
-    payload = {"contents": [{"parts": [{"text": prompt}]}]}
 
-    # 內建 3 次自動重試，若撞到限流自動等待冷卻
+    payload = {
+        "model": "gpt-4o-mini",
+        "messages": [
+            {"role": "system", "content": "你是一位專業美股研究員，專門客觀提煉 SEC 官方申報的實質數據與業務變動。"},
+            {"role": "user", "content": prompt}
+        ],
+        "temperature": 0.2
+    }
+
+    # 自動重試機制
     for attempt in range(3):
         try:
             res = requests.post(api_url, headers=headers, json=payload, timeout=25)
             data = res.json()
 
             if "error" in data:
-                err_msg = data['error'].get('message', '未知錯誤')
-                # 遇到 Quota exceeded (429 限流)，等待 30 秒後重新嘗試
-                if "Quota exceeded" in err_msg or "429" in str(data['error'].get('code', '')):
-                    time.sleep(30)
-                    continue
-                return f"API 錯誤：{err_msg}"
+                err_msg = data["error"].get("message", "未知錯誤")
+                return f"OpenAI API 錯誤：{err_msg}"
 
-            return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+            return data["choices"][0]["message"]["content"].strip()
         except Exception as e:
             if attempt == 2:
                 return f"連線異常：{str(e)}"
-            time.sleep(5)
+            time.sleep(3)
 
-    return "請求過於頻繁，已略過本次 AI 解析，請點原始連結查看。"
+    return "AI 解析逾時，請點原始連結查看。"
 
 def check_sec_filings():
     if not os.path.exists("tickers.txt"):
@@ -151,6 +160,7 @@ def check_sec_filings():
                 yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
                 today = datetime.now().strftime("%Y-%m-%d")
 
+                # 僅過濾高價值重大表單
                 if filing_date in [yesterday, today]:
                     if form in ["8-K", "10-Q", "10-K", "424B5", "424B7"]:
                         doc_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession_number}/{primary_doc}"
@@ -171,8 +181,7 @@ def check_sec_filings():
                             summary=ai_summary,
                             doc_url=doc_url
                         )
-                        # 間隔拉長至 4 秒，確保單分鐘請求不超過 15 次
-                        time.sleep(4)
+                        time.sleep(1)  # OpenAI 付費端點承受度高，僅需短暫間隔
         except Exception as e:
             print(f"處理 {ticker} 錯誤: {e}")
 
