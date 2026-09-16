@@ -11,6 +11,7 @@ DISCORD_NEWS_WEBHOOK = os.environ.get("DISCORD_NEWS_WEBHOOK")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 HISTORY_FILE = "sent_news_log.txt"
 
+# 台灣時區 (UTC+8)
 TW_TZ = timezone(timedelta(hours=8))
 
 # 排除專欄、投行升降評、以及非賣方大單之關鍵字黑名單
@@ -31,6 +32,7 @@ def save_sent_id(item_id):
         f.write(f"{item_id}\n")
 
 def make_news_fingerprint(ticker, title):
+    # 清理標題符號與多餘空白，確保相同標題產生唯一特徵雜湊
     clean_title = re.sub(r"[^\w\s]", "", title.lower())
     clean_title = " ".join(clean_title.split())
     raw_key = f"{ticker}_{clean_title}"
@@ -68,9 +70,9 @@ def send_discord_embed(ticker, title, summary, news_url, pub_date_str, source_na
     try:
         res = requests.post(DISCORD_NEWS_WEBHOOK, json=payload, timeout=15)
         res.raise_for_status()
-        print(f" -> [{ticker}] Discord 推播成功！", flush=True)
+        print(f"     🎉 [推播成功] 已發送至 Discord！", flush=True)
     except Exception as e:
-        print(f" -> [{ticker}] Discord 發送失敗: {e}", flush=True)
+        print(f"     ❌ [Discord 失敗] {e}", flush=True)
 
 def summarize_with_ai(ticker, text):
     if not OPENAI_API_KEY:
@@ -116,8 +118,7 @@ def summarize_with_ai(ticker, text):
     return "PASS"
 
 def fetch_google_wire_news(ticker):
-    # 限制搜尋三大通訊社官方來源，過濾非官方雜訊
-    query = f'{ticker} ("PR Newswire" OR "Business Wire" OR "GlobeNewswire") when:2d'
+    query = f'{ticker} (PR Newswire OR Business Wire OR GlobeNewswire OR PRNewswire OR BusinessWire) when:2d'
     encoded_query = urllib.parse.quote(query)
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
     
@@ -139,7 +140,6 @@ def fetch_google_wire_news(ticker):
             source = item.find("source").text if item.find("source") is not None else "Newswire"
             description = item.find("description").text if item.find("description") is not None else ""
             
-            # 清除 Google News 標題末尾的來源後綴（例如 " - PR Newswire"）
             clean_title = re.sub(r"\s+-\s+.*$", "", title)
 
             items.append({
@@ -150,31 +150,33 @@ def fetch_google_wire_news(ticker):
                 "snippet": description
             })
         return items
-    except Exception as e:
+    except Exception:
         return []
 
 def check_and_process_ticker(ticker, sent_history):
     wire_items = fetch_google_wire_news(ticker)
     if not wire_items:
-        print("0 則官方新聞", flush=True)
+        print("獲取到 0 則官方新聞", flush=True)
         return
 
-    print(f"{len(wire_items)} 則通訊社稿件", end=" ", flush=True)
+    print(f"獲取到 {len(wire_items)} 則通訊社稿件", flush=True)
 
     for item in wire_items:
         title = item["title"]
+        print(f"   ↳ 審核標題: {title[:55]}...", flush=True)
+
         if is_junk_title(title):
+            print("     [排除] 命中黑名單關鍵字", flush=True)
             continue
 
         fingerprint = make_news_fingerprint(ticker, title)
         if fingerprint in sent_history:
+            print("     [略過] 此新聞先前已推播過", flush=True)
             continue
 
-        # 轉換為台灣時間
         pub_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
         if item["pub_date_raw"]:
             try:
-                # 解析 GMT/UTC 時間格式 (例如: Wed, 16 Sep 2026 12:00:00 GMT)
                 pub_utc = datetime.strptime(item["pub_date_raw"][:25].strip(), "%a, %d %b %Y %H:%M:%S")
                 pub_utc = pub_utc.replace(tzinfo=timezone.utc)
                 pub_tw_str = pub_utc.astimezone(TW_TZ).strftime("%Y-%m-%d %H:%M")
@@ -184,13 +186,14 @@ def check_and_process_ticker(ticker, sent_history):
         context = f"標題: {title}\n來源: {item['source']}\n內容摘要: {item['snippet']}"
         ai_res = summarize_with_ai(ticker, context)
 
-        if "PASS" not in ai_res and len(ai_res) > 10:
+        if "PASS" in ai_res or len(ai_res) <= 10:
+            print("     [AI裁定] PASS (非實質銷售大單/例行公關稿)", flush=True)
+        else:
+            print(f"     🎯 [AI放行] 判定為商業大單！準備發送通知...", flush=True)
             send_discord_embed(ticker, title, ai_res, item["url"], pub_tw_str, item["source"])
             save_sent_id(fingerprint)
             sent_history.add(fingerprint)
             time.sleep(1)
-
-    print(flush=True)
 
 def main():
     if not os.path.exists("tickers.txt"):
@@ -205,13 +208,13 @@ def main():
     print("==========================================", flush=True)
     print(f"🏛️ 啟動三大官方通訊社直連巡檢，清單共計：{total_count} 檔標的", flush=True)
     print(f"🕒 當前台灣時間：{datetime.now(TW_TZ).strftime('%Y-%m-%d %H:%M:%S')}", flush=True)
-    print(f"📦 已攔截歷史推播紀錄：{len(sent_history)} 條", flush=True)
+    print(f"📦 已記錄歷史推播紀錄：{len(sent_history)} 條", flush=True)
     print("==========================================", flush=True)
 
     for idx, ticker in enumerate(tickers, start=1):
-        print(f"[{idx:03d}/{total_count:03d}] 正在檢索標的：{ticker:5s} ... 獲取到 ", end="", flush=True)
+        print(f"[{idx:03d}/{total_count:03d}] 檢索標的：{ticker:5s} ... ", end="", flush=True)
         check_and_process_ticker(ticker, sent_history)
-        time.sleep(0.4)
+        time.sleep(0.3)
 
     print("==========================================", flush=True)
     print(f"✅ 全量巡檢完成！共計掃描 {total_count} 檔標的。", flush=True)
