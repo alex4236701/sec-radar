@@ -26,5 +26,6 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
           python monitor.py
