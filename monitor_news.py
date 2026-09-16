@@ -12,12 +12,13 @@ DISCORD_NEWS_WEBHOOK = os.environ.get("DISCORD_NEWS_WEBHOOK")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 HISTORY_FILE = "sent_news_log.txt"
 
-# 台灣時區 (UTC+8)
 TW_TZ = timezone(timedelta(hours=8))
 
-# 易撞名股票之全名/交易所映射表，直接從搜尋源頭徹底阻絕無關生活單字
+# 易撞名股票映射表：徹底阻絕澳洲證交所 (ASX)、物聯網 (IoT)、貓咪 (CAT) 等單字干擾
 TICKER_ALIAS = {
     "CAT": '("Caterpillar" OR "NYSE:CAT")',
+    "IOT": '("Samsara" OR "NYSE:IOT")',
+    "ASX": '("ASE Technology" OR "NYSE:ASX")',
     "NOW": '("ServiceNow" OR "NYSE:NOW")',
     "ON": '("ON Semiconductor" OR "Nasdaq:ON")',
     "ALL": '("Allstate" OR "NYSE:ALL")',
@@ -26,7 +27,7 @@ TICKER_ALIAS = {
     "KEYS": '("Keysight" OR "NYSE:KEYS")'
 }
 
-# 1. 負向黑名單：純會議日程、人事升遷、律所股東訴訟索賠（本地直接封存，$0 API）
+# 1. 負向黑名單：純會議日程、人事升遷、律所索賠
 EXCLUDE_TITLE_PATTERNS = [
     r"\bto\s+report\b", r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
     r"\bconference\s+call\b", r"\binvestor\s+conference\b", r"\bpresentation\b",
@@ -35,33 +36,22 @@ EXCLUDE_TITLE_PATTERNS = [
     r"\bappoints?\b", r"\bnames?\s+new\b"
 ]
 
-# 2. 正向白名單：涵蓋能引發股價重大波動的實質資本事件
+# 2. 正向白名單：大單、併購、財報、可轉債、現增、ATM
 SIGNAL_PATTERNS = [
-    # A. 商業大單與客戶合約
     r"\bcontract\b", r"\border\b", r"\borders\b", r"\bdeal\b", r"\baward\b",
     r"\bawarded\b", r"\bagreement\b", r"\bprocurement\b", r"\bsupply\b",
     r"\bselected\s+by\b", r"\bpartnered\s+with\b", r"\bto\s+deploy\b", r"\bsecures?\b",
-
-    # B. 重大併購與股權投資
     r"\bacquisition\b", r"\bacquires?\b", r"\binvests?\s+in\b", r"\bbuyout\b",
     r"\bstake\b", r"\bmerger\b",
-
-    # C. 實質財報發布與財測調升
     r"\breports?\s+first\s+quarter\b", r"\breports?\s+second\s+quarter\b",
     r"\breports?\s+third\s+quarter\b", r"\breports?\s+fourth\s+quarter\b",
     r"\breports?\s+full\s+year\b", r"\bfinancial\s+results\b",
     r"\braises?\s+guidance\b", r"\braises?\s+outlook\b",
-
-    # D. 庫藏股回購
     r"\brepurchase\b", r"\bbuyback\b", r"\bshare\s+repurchase\b",
-
-    # E. 融資稀釋重磅事件（可轉債 / 現增 / 定價 / ATM 配售）
     r"\bconvertible\b", r"\bsenior\s+notes\b", r"\bpublic\s+offering\b",
     r"\bsecondary\s+offering\b", r"\bprices\s+offering\b", r"\bpricing\s+of\b",
     r"\bat-the-market\b", r"\batm\s+offering\b", r"\batm\s+facility\b",
     r"\bcommon\s+stock\s+offering\b",
-
-    # F. 金額特徵
     r"\$\d+", r"\bmillion\b", r"\bbillion\b"
 ]
 
@@ -100,22 +90,21 @@ def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub
         return
     now_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
 
-    # 依性質分流外觀與警告顏色
     if event_type == "DILUTION":
         card_title = f"⚠️ 資本融資與稀釋警報：{ticker}"
-        embed_color = 0xE74C3C  # 紅色警示（可轉債/增發/ATM）
+        embed_color = 0xE74C3C
         type_desc = "股權融資/稀釋（可轉債、現增或 ATM）"
     elif event_type == "M&A":
         card_title = f"🤝 戰略併購/股權投資：{ticker}"
-        embed_color = 0x9B59B6  # 紫色戰略擴張
+        embed_color = 0x9B59B6
         type_desc = "資本運作（收購/股權投資）"
     elif event_type == "EARNINGS":
         card_title = f"📊 正式財報/指引更新：{ticker}"
-        embed_color = 0x3498DB  # 藍色業績
+        embed_color = 0x3498DB
         type_desc = "官方財報或營收指引（Guidance）"
     else:
         card_title = f"💰 商業大單快訊：{ticker}"
-        embed_color = 0x2ECC71  # 綠色實質營收
+        embed_color = 0x2ECC71
         type_desc = "實質營收合約（客戶下單）"
 
     payload = {
@@ -152,16 +141,19 @@ def summarize_with_ai(ticker, text):
     prompt = f"""
 你是一位分毫不差的美股買方研究員。請審核這則官方通訊社新聞是否為【{ticker}】的重大市場衝擊事件：
 
-【監控類別】：
+【絕對駁回規則（命中任一條，一律回傳 PASS）】：
+1. 【主體非該公司】：新聞主角必須是【{ticker}】這家公司本身！
+   - 若新聞只是提到產業詞彙（例如「IoT 物聯網」業務、「CAT 貓咪」飼料），回傳 PASS。
+   - 若新聞是其他公司在澳洲證券交易所（ASX）上市或融資，回傳 PASS。
+   - 若是其他公司進行併購，僅在內文把【{ticker}】當成同業或產業名詞提及，一律強制回傳 PASS。
+2. 純法說會/論壇日程公布、例行技術發表、非具名生態圈合作。
+3. 股東律師集體訴訟索賠通告、內部高管升遷人事命令。
+
+【符合監控的四大類別】：
 1. 【ORDER】商業大單：外部客戶/政府向【{ticker}】採購產品、系統、簽訂重大供貨合約。
 2. 【M&A】重大併購/投資：【{ticker}】收購同業、買下重要公司股權、或合併案。
-3. 【DILUTION】資本稀釋融資：【{ticker}】發行可轉債（Convertible Notes）、增發新股（Public Offering）、宣布定價（Pricing）、或啟動市場即時配售（ATM Offering）。
-4. 【EARNINGS】業績與資本回饋：正式公布季度財報核心數據、調升全年財測（Raises Guidance）、或啟動大額庫藏股回購（Buyback）。
-
-【絕對駁回規則（命中任一條，一律回傳 PASS）】：
-1. 純法說會/論壇日程公布、例行技術發表、非具名生態圈合作。
-2. 股東律師集體訴訟索賠通告、內部高管升遷人事命令。
-3. 【{ticker}】僅被當作同業對比提及，並非新聞主角。
+3. 【DILUTION】資本稀釋融資：【{ticker}】發行可轉債、增發新股、宣布定價、或啟動 ATM 配售。
+4. 【EARNINGS】業績與資本回饋：【{ticker}】公布季度財報、調升全年財測、或啟動庫藏股回購。
 
 【輸出格式要求】：
 若不符合上述四大類，只回傳單字：PASS
@@ -177,7 +169,7 @@ def summarize_with_ai(ticker, text):
     payload = {
         "model": "gpt-4o-mini",
         "messages": [
-            {"role": "system", "content": "你是一位分毫不差的買方量化分析員，嚴密監控合約、併購與融資稀釋。"},
+            {"role": "system", "content": "你是一位分毫不差的買方量化分析員，嚴格確認新聞主體是否為指定股票，絕不腦補。"},
             {"role": "user", "content": prompt}
         ],
         "temperature": 0.1
@@ -201,9 +193,9 @@ def summarize_with_ai(ticker, text):
     return "PASS", ""
 
 def fetch_google_wire_news(ticker):
-    # 如果代碼容易與常見英文單字撞名，自動使用公司全名/交易所代碼搜尋
     search_target = TICKER_ALIAS.get(ticker, ticker)
-    query = f'{search_target} (PR Newswire OR Business Wire OR GlobeNewswire OR PRNewswire OR BusinessWire) when:2d'
+    # 限定三大通訊社來源，阻絕 Yahoo 等二手聚合轉載
+    query = f'{search_target} ("PR Newswire" OR "Business Wire" OR "GlobeNewswire") when:2d'
     encoded_query = urllib.parse.quote(query)
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
     
@@ -252,26 +244,23 @@ def check_and_process_ticker(ticker, sent_history):
 
         fingerprint = make_news_fingerprint(ticker, title)
         
-        # 1. 歷史記憶庫去重（審查過的一律本地跳過，$0 API）
         if fingerprint in sent_history:
             print("     [記憶庫略過] 此新聞已完成歷史審查，略過", flush=True)
             continue
 
-        # 2. 本機黑名單過濾（律師索賠、法說會時程日程、人事命令）
         if is_junk_title(title):
             print("     [本地過濾] 命中公關/人事/訴訟黑名單，跳過", flush=True)
             save_sent_id(fingerprint)
             sent_history.add(fingerprint)
             continue
 
-        # 3. 本機白名單檢查（涵蓋大單、併購、財報、可轉債、現增、ATM）
         if not has_high_impact_signal(title):
             print("     [本地過濾] 無重大財務或合約特徵詞，跳過", flush=True)
             save_sent_id(fingerprint)
             sent_history.add(fingerprint)
             continue
 
-        print("     ⚡ [命中重大事件] 提交 GPT 進行金流與性質深審...", flush=True)
+        print("     ⚡ [命中重大事件] 提交 GPT 進行主體與性質深審...", flush=True)
         
         pub_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
         if item["pub_date_raw"]:
@@ -289,7 +278,7 @@ def check_and_process_ticker(ticker, sent_history):
         sent_history.add(fingerprint)
 
         if event_type == "PASS" or len(summary_text) <= 10:
-            print("     [AI裁定] PASS (非核心實質事件)", flush=True)
+            print("     [AI裁定] PASS (主體不符/非核心事件)", flush=True)
         else:
             print(f"     🎯 [AI放行] 判定為 {event_type} 事件！準備推播...", flush=True)
             send_discord_embed(ticker, title, event_type, summary_text, item["url"], pub_tw_str, item["source"])
