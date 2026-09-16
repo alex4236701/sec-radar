@@ -1,30 +1,45 @@
-name: SEC Radar Bot
+name: SEC EDGAR Radar Bot
 
 on:
   schedule:
-    # 每 2 小時自動到 SEC 檢查一次
-    - cron: '0 */2 * * *'
+    # 盤中熱門時段 (美東開盤至收盤)：每小時 00 分執行一次
+    - cron: '0 13-21 * * *'
+    # 離峰時段：每 4 小時執行一次
+    - cron: '0 1,5,9 * * *'
   workflow_dispatch:
 
 jobs:
   run-sec-bot:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout Code
+      - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.10'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: |
           pip install requests
 
       - name: Run SEC Monitor Script
         env:
           DISCORD_SEC_WEBHOOK: ${{ secrets.DISCORD_SEC_WEBHOOK }}
+          DISCORD_NEWS_WEBHOOK: ${{ secrets.DISCORD_NEWS_WEBHOOK }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python monitor_sec.py
+
+      - name: Commit and Push Sent History
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add sent_news_log.txt || true
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update sent history [skip ci]" && git push origin main)
