@@ -1,0 +1,30 @@
+name: SEC Radar Bot
+
+on:
+  schedule:
+    # 每 2 小時自動到 SEC 檢查一次
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-sec-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Run SEC Monitor Script
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python monitor.py
