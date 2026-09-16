@@ -19,7 +19,8 @@ def summarize_with_ai(ticker, form, content_text):
     if not GEMINI_API_KEY:
         return "未設定 AI 金鑰，直接查看原始連結。"
     
-    api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    # 全面換上最新 2.5 Flash 穩定端點
+    api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     headers = {"Content-Type": "application/json"}
     prompt = f"""
 你是一位專業美股研究員。請閱讀以下 {ticker} 的 SEC {form} 申報部分內容，用台灣日常大白話繁體中文輸出重點：
