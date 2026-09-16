@@ -30,7 +30,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests yfinance
+          pip install requests
 
       - name: Run News Monitor Script
         env:
