@@ -22,9 +22,9 @@ def summarize_with_ai(ticker, form, content_text):
     api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
     prompt = f"""
 你是一位專業美股研究員。請閱讀以下 {ticker} 的 SEC {form} 申報部分內容，用台灣日常大白話繁體中文輸出重點：
-1. 核心實質動作（例如：高管賣股幾股、增資金額、具體業務變動）。
-2. 實質財務或營運影響。
-嚴禁行銷詞彙與無意義廢話，120 字以內直奔實質數據。
+1. 核心動作（例如：內部人賣出幾股、增資總額、簽訂重要合約）。
+2. 對公司營運或財務的具體影響。
+嚴禁行銷詞彙與無意義廢話，120 字以內直接說明數據與實質進展。
 
 申報內文節錄：
 {content_text[:3500]}
@@ -71,7 +71,7 @@ def check_sec_filings():
                 accession_number = recent["accessionNumber"][i].replace("-", "")
                 primary_doc = recent["primaryDocument"][i]
                 
-                # 檢查 24 小時內動態
+                # 檢查昨天與今天的申報
                 yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
                 today = datetime.now().strftime("%Y-%m-%d")
                 
