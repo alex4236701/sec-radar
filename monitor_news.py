@@ -7,6 +7,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 import requests
 from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 
 DISCORD_NEWS_WEBHOOK = os.environ.get("DISCORD_NEWS_WEBHOOK")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
@@ -27,7 +28,7 @@ TICKER_ALIAS = {
     "KEYS": '("Keysight" OR "NYSE:KEYS")'
 }
 
-# 1. 負向黑名單：純會議日程、人事升遷、律所索賠
+# 1. 負向黑名單：純會議日程、人事升遷、律所索賠（$0 本地封存）
 EXCLUDE_TITLE_PATTERNS = [
     r"\bto\s+report\b", r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
     r"\bconference\s+call\b", r"\binvestor\s+conference\b", r"\bpresentation\b",
@@ -36,22 +37,38 @@ EXCLUDE_TITLE_PATTERNS = [
     r"\bappoints?\b", r"\bnames?\s+new\b"
 ]
 
-# 2. 正向白名單：大單、併購、財報、可轉債、現增、ATM
+# 2. 正向白名單：大單 + 併購 + 財報 + 融資稀釋 + 重大產品上市/監管核准
 SIGNAL_PATTERNS = [
+    # A. 商業大單與客戶合約
     r"\bcontract\b", r"\border\b", r"\borders\b", r"\bdeal\b", r"\baward\b",
     r"\bawarded\b", r"\bagreement\b", r"\bprocurement\b", r"\bsupply\b",
     r"\bselected\s+by\b", r"\bpartnered\s+with\b", r"\bto\s+deploy\b", r"\bsecures?\b",
+
+    # B. 重大併購與股權投資
     r"\bacquisition\b", r"\bacquires?\b", r"\binvests?\s+in\b", r"\bbuyout\b",
     r"\bstake\b", r"\bmerger\b",
+
+    # C. 實質財報與財測調升
     r"\breports?\s+first\s+quarter\b", r"\breports?\s+second\s+quarter\b",
     r"\breports?\s+third\s+quarter\b", r"\breports?\s+fourth\s+quarter\b",
     r"\breports?\s+full\s+year\b", r"\bfinancial\s+results\b",
     r"\braises?\s+guidance\b", r"\braises?\s+outlook\b",
+
+    # D. 庫藏股回購
     r"\brepurchase\b", r"\bbuyback\b", r"\bshare\s+repurchase\b",
+
+    # E. 融資稀釋（可轉債 / 現增 / ATM）
     r"\bconvertible\b", r"\bsenior\s+notes\b", r"\bpublic\s+offering\b",
     r"\bsecondary\s+offering\b", r"\bprices\s+offering\b", r"\bpricing\s+of\b",
     r"\bat-the-market\b", r"\batm\s+offering\b", r"\batm\s+facility\b",
     r"\bcommon\s+stock\s+offering\b",
+
+    # F. 重大產品與監管審批（次世代旗艦、量產發布、FDA 藥證）
+    r"\blaunches\b", r"\bunveils\b", r"\bintroduces\b", r"\bnext-gen\b",
+    r"\barchitecture\b", r"\bproduction\s+release\b", r"\bfda\s+approv",
+    r"\bclearance\b", r"\bbreakthrough\b",
+
+    # G. 金額特徵
     r"\$\d+", r"\bmillion\b", r"\bbillion\b"
 ]
 
@@ -92,19 +109,23 @@ def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub
 
     if event_type == "DILUTION":
         card_title = f"⚠️ 資本融資與稀釋警報：{ticker}"
-        embed_color = 0xE74C3C
+        embed_color = 0xE74C3C  # 紅色
         type_desc = "股權融資/稀釋（可轉債、現增或 ATM）"
     elif event_type == "M&A":
         card_title = f"🤝 戰略併購/股權投資：{ticker}"
-        embed_color = 0x9B59B6
+        embed_color = 0x9B59B6  # 紫色
         type_desc = "資本運作（收購/股權投資）"
     elif event_type == "EARNINGS":
         card_title = f"📊 正式財報/指引更新：{ticker}"
-        embed_color = 0x3498DB
+        embed_color = 0x3498DB  # 藍色
         type_desc = "官方財報或營收指引（Guidance）"
+    elif event_type == "PRODUCT":
+        card_title = f"🚀 重大產品/技術突破：{ticker}"
+        embed_color = 0x1ABC9C  # 藍綠色
+        type_desc = "次世代旗艦產品上市 / 監管批准"
     else:
         card_title = f"💰 商業大單快訊：{ticker}"
-        embed_color = 0x2ECC71
+        embed_color = 0x2ECC71  # 亮綠色
         type_desc = "實質營收合約（客戶下單）"
 
     payload = {
@@ -143,24 +164,25 @@ def summarize_with_ai(ticker, text):
 
 【絕對駁回規則（命中任一條，一律回傳 PASS）】：
 1. 【主體非該公司】：新聞主角必須是【{ticker}】這家公司本身！
-   - 若新聞只是提到產業詞彙（例如「IoT 物聯網」業務、「CAT 貓咪」飼料），回傳 PASS。
+   - 若新聞只是提到產業詞彙（如「IoT 物聯網」業務、「CAT 貓咪」飼料），回傳 PASS。
    - 若新聞是其他公司在澳洲證券交易所（ASX）上市或融資，回傳 PASS。
-   - 若是其他公司進行併購，僅在內文把【{ticker}】當成同業或產業名詞提及，一律強制回傳 PASS。
-2. 純法說會/論壇日程公布、例行技術發表、非具名生態圈合作。
-3. 股東律師集體訴訟索賠通告、內部高管升遷人事命令。
+   - 若其他公司進行交易，僅在內文把【{ticker}】當成同業或產業名詞提及，一律強制回傳 PASS。
+2. 【例行行銷軟文】：常規軟體小版本更新、例行展會演講、無具體時程的純概念展示，回傳 PASS。
+3. 純法說會/論壇時程公布、律師集體訴訟通告、內部高管人事升遷。
 
-【符合監控的四大類別】：
-1. 【ORDER】商業大單：外部客戶/政府向【{ticker}】採購產品、系統、簽訂重大供貨合約。
+【符合監控的五大類別】：
+1. 【ORDER】商業大單：外部客戶/政府向【{ticker}】採購產品、簽訂重大供貨合約。
 2. 【M&A】重大併購/投資：【{ticker}】收購同業、買下重要公司股權、或合併案。
 3. 【DILUTION】資本稀釋融資：【{ticker}】發行可轉債、增發新股、宣布定價、或啟動 ATM 配售。
 4. 【EARNINGS】業績與資本回饋：【{ticker}】公布季度財報、調升全年財測、或啟動庫藏股回購。
+5. 【PRODUCT】重大產品上市/監管突破：【{ticker}】正式發布重大次世代架構/旗艦新產品（公佈量產時程或規格突破），或取得重要監管放行（如 FDA 藥證核准）。
 
 【輸出格式要求】：
-若不符合上述四大類，只回傳單字：PASS
-若符合，嚴格依照以下 JSON 格式回傳，禁止任何多餘文字：
+若不符合上述五大類，只回傳單字：PASS
+若符合，嚴格依照以下 JSON 格式回傳，禁止多餘文字：
 {{
-  "type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS",
-  "summary": "以繁體中文條列兩點（80 字以內）：\n• 【核心動作】：融資規模/合約金額/併購標的、定價或折價細節。\n• 【市場衝擊】：對 {ticker} 之稀釋壓力、營收推升或財務影響。"
+  "type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT",
+  "summary": "以繁體中文條列兩點（80 字以內）：\n• 【核心動作】：產品型號/融資規模/合約金額/併購標的及具體時程。\n• 【市場衝擊】：對 {ticker} 之營收貢獻、競爭優勢或稀釋壓力。"
 }}
 
 新聞內容：
@@ -194,7 +216,6 @@ def summarize_with_ai(ticker, text):
 
 def fetch_google_wire_news(ticker):
     search_target = TICKER_ALIAS.get(ticker, ticker)
-    # 限定三大通訊社來源，阻絕 Yahoo 等二手聚合轉載
     query = f'{search_target} ("PR Newswire" OR "Business Wire" OR "GlobeNewswire") when:2d'
     encoded_query = urllib.parse.quote(query)
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
@@ -265,9 +286,9 @@ def check_and_process_ticker(ticker, sent_history):
         pub_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
         if item["pub_date_raw"]:
             try:
-                pub_utc = datetime.strptime(item["pub_date_raw"][:25].strip(), "%a, %d %b %Y %H:%M:%S")
-                pub_utc = pub_utc.replace(tzinfo=timezone.utc)
-                pub_tw_str = pub_utc.astimezone(TW_TZ).strftime("%Y-%m-%d %H:%M")
+                # 標準 RFC 2822 解析，精準防禦所有時區文字格式
+                pub_dt = parsedate_to_datetime(item["pub_date_raw"])
+                pub_tw_str = pub_dt.astimezone(TW_TZ).strftime("%Y-%m-%d %H:%M")
             except Exception:
                 pass
 
