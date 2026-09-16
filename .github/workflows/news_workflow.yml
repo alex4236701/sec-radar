@@ -17,6 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -30,6 +31,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install requests
 
       - name: Run News Monitor Script
@@ -43,6 +45,16 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
-          git add sent_news_log.txt || true
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update sent news history [skip ci]" && git push origin main)
+          
+          # 確保檔案存在避免 git add 報錯
+          touch sent_news_log.txt
+          git add sent_news_log.txt
+          
+          # 檢查是否有新增的審查紀錄，有變動才提交並推回 GitHub
+          if [ -n "$(git status --porcelain sent_news_log.txt)" ]; then
+            git commit -m "chore: update sent news history [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "無新新聞審查紀錄需更新。"
+          fi
