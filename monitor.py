@@ -2,21 +2,69 @@ import os
 import re
 import time
 import requests
-import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
-def send_telegram_message(text):
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    payload = {"chat_id": CHAT_ID, "text": text, "parse_mode": "Markdown"}
+def send_discord_embed(ticker, form, filing_date, summary, doc_url):
+    if not DISCORD_WEBHOOK_URL:
+        print("未設定 DISCORD_WEBHOOK_URL，略過發送。")
+        return
+
+    # 針對不同申報設定卡片側邊顏色（十六進位整數）
+    color_map = {
+        "8-K": 0xE74C3C,    # 警戒紅：重大事件、收購、突發
+        "424B5": 0xE67E22,  # 警示橘：公司發新股/發債稀釋
+        "424B7": 0x9B59B6,  # 風險紫：早期大股東倒貨離場
+        "10-Q": 0x3498DB,   # 營運藍：季度財報
+        "10-K": 0x2ECC71    # 財報綠：年度財報
+    }
+    embed_color = color_map.get(form, 0x95A5A6)
+
+    payload = {
+        "username": "SEC Radar Bot",
+        "avatar_url": "https://www.sec.gov/themes/custom/uswds_sec/assets/img/sec-logo.svg",
+        "embeds": [
+            {
+                "title": f"🚨 SEC 重大申報速報：{ticker} ({form})",
+                "url": doc_url,
+                "color": embed_color,
+                "fields": [
+                    {
+                        "name": "📌 申報代號",
+                        "value": f"`{ticker}`",
+                        "inline": True
+                    },
+                    {
+                        "name": "📄 表單種類",
+                        "value": f"`{form}`",
+                        "inline": True
+                    },
+                    {
+                        "name": "📅 申報日期",
+                        "value": f"`{filing_date}`",
+                        "inline": True
+                    },
+                    {
+                        "name": "💡 AI 核心解讀",
+                        "value": summary,
+                        "inline": False
+                    }
+                ],
+                "footer": {
+                    "text": "SEC EDGAR Automated Intelligence Radar"
+                },
+                "timestamp": datetime.utcnow().isoformat()
+            }
+        ]
+    }
+
     try:
-        res = requests.post(url, json=payload)
+        res = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=15)
         res.raise_for_status()
     except Exception as e:
-        print(f"發送 Telegram 失敗: {e}")
+        print(f"發送 Discord 失敗: {e}")
 
 def clean_html(raw_html):
     cleared = re.sub(r'<(style|script)[^>]*>.*?</\1>', '', raw_html, flags=re.DOTALL | re.IGNORECASE)
@@ -25,54 +73,21 @@ def clean_html(raw_html):
     cleared = re.sub(r'\s+', ' ', cleared)
     return cleared.strip()
 
-# Form 4 專用解析器：免 AI、精確抓取高管交易數字
-def parse_form_4(xml_text):
-    try:
-        root = ET.fromstring(xml_text)
-        rpt_owner = root.findtext(".//rptOwner/reportingOwnerId/rptOwnerName", default="內部人")
-        officer_title = root.findtext(".//reportingOwnerRelationship/officerTitle", default="高管/董事")
-        
-        tx_nodes = root.findall(".//nonDerivativeTransaction")
-        if not tx_nodes:
-            return f"👤 {rpt_owner} ({officer_title})：無一般股普通買賣交易紀錄。"
-
-        details = []
-        for tx in tx_nodes[:3]:
-            code = tx.findtext(".//transactionCoding/transactionCode", default="")
-            shares = tx.findtext(".//transactionShares/value", default="0")
-            price = tx.findtext(".//transactionPricePerShare/value", default="0")
-            ad_code = tx.findtext(".//transactionAcquiredDisposedCode/value", default="")
-            
-            action = "買入 🟢" if ad_code == "A" else "賣出 🔴"
-            try:
-                shares_num = float(shares)
-                price_num = float(price)
-                total_val = shares_num * price_num
-                val_str = f"，總計約 ${total_val:,.0f}" if total_val > 0 else ""
-                details.append(f"• {action} {shares_num:,.0f} 股 (每股 ${price_num:,.2f}{val_str})")
-            except Exception:
-                details.append(f"• {action} {shares} 股")
-
-        return f"👤 *內部人*：{rpt_owner} ({officer_title})\n" + "\n".join(details)
-    except Exception:
-        return "內部人交易明細解析失敗，請查閱原始文件。"
-
-# 8-K / 10-Q 專用：只有重大長文才呼叫 AI
 def summarize_with_ai(ticker, form, content_text):
     if not GEMINI_API_KEY:
-        return "未設定 AI 金鑰，直接查看原始連結。"
-    
+        return "未設定 GEMINI_API_KEY，請直接查閱原始連結。"
+
     clean_text = clean_html(content_text)
     if len(clean_text) < 50:
-        return "文件未含實質內文。"
+        return "申報內文缺乏實質文字或非純文字結構，請參閱原始文件。"
 
     api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={GEMINI_API_KEY}"
     headers = {"Content-Type": "application/json"}
     prompt = f"""
-你是一位專業美股研究員。請閱讀以下 {ticker} 的 SEC {form} 重大公告，用繁體中文大白話輸出重點：
-1. 核心實質動作（收購、訴訟、融資、重大人事變更或簽約）。
-2. 對公司營運或財務的直接影響。
-嚴禁行銷詞彙與無意義廢話，120 字以內直接講具體數據與進展。
+你是一位專業美股研究員。請閱讀以下 {ticker} 的 SEC {form} 申報純文字內容，用台灣日常大白話繁體中文輸出重點：
+1. 核心實質動作（例如：增資總額與每股定價、大股東出清持股規模、收購合併標的、重大合約金額）。
+2. 實質財務或營運影響（股權稀釋比例、負債變動、對獲利的影響）。
+嚴禁行銷詞彙與無意義廢話，120 字以內直接講具體數據與動作。
 
 申報內文節錄：
 {clean_text[:6000]}
@@ -82,10 +97,11 @@ def summarize_with_ai(ticker, form, content_text):
         res = requests.post(api_url, headers=headers, json=payload, timeout=25)
         data = res.json()
         if "error" in data:
-            return f"AI 暫時繁忙：{data['error'].get('message', '未知錯誤')}"
+            err_msg = data['error'].get('message', '未知錯誤')
+            return f"API 錯誤：{err_msg}"
         return data["candidates"][0]["content"]["parts"][0]["text"].strip()
     except Exception as e:
-        return f"AI 連線異常：{str(e)}"
+        return f"連線異常：{str(e)}"
 
 def check_sec_filings():
     if not os.path.exists("tickers.txt"):
@@ -95,76 +111,56 @@ def check_sec_filings():
         tickers = [line.strip().upper() for line in f if line.strip()]
 
     headers = {"User-Agent": "InstitutionalResearchUser investor@example.com"}
-    
+
     for ticker in tickers:
         try:
             cik_url = "https://www.sec.gov/files/company_tickers.json"
             res = requests.get(cik_url, headers=headers).json()
-            
+
             cik = None
             for key, val in res.items():
                 if val["ticker"] == ticker:
                     cik = str(val["cik_str"]).zfill(10)
                     break
-            
+
             if not cik:
                 continue
 
             sub_url = f"https://data.sec.gov/submissions/CIK{cik}.json"
             sub_res = requests.get(sub_url, headers=headers).json()
-            
+
             recent = sub_res["filings"]["recent"]
             for i in range(min(5, len(recent["form"]))):
                 form = recent["form"][i]
                 filing_date = recent["filingDate"][i]
                 accession_number = recent["accessionNumber"][i].replace("-", "")
                 primary_doc = recent["primaryDocument"][i]
-                
+
                 yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
                 today = datetime.now().strftime("%Y-%m-%d")
-                
+
+                # 僅鎖定五大關鍵重大申報，徹底排除 4 與 144
                 if filing_date in [yesterday, today]:
-                    if form in ["8-K", "10-Q", "10-K", "4", "144"]:
+                    if form in ["8-K", "10-Q", "10-K", "424B5", "424B7"]:
                         doc_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession_number}/{primary_doc}"
-                        
-                        summary_block = ""
-                        # Form 4：走 Python 本地解析，不耗費任何 AI 額度
-                        if form == "4":
-                            # SEC Form 4 的原始檔通常為 XML 格式
-                            xml_url = doc_url.replace(".html", ".xml")
-                            try:
-                                r = requests.get(xml_url, headers=headers, timeout=10)
-                                if r.status_code == 200:
-                                    summary_block = "📊 *內部人異動明細*：\n" + parse_form_4(r.text)
-                                else:
-                                    summary_block = "📊 *內部人異動*：申報 Form 4（點擊連結看明細）"
-                            except Exception:
-                                summary_block = "📊 *內部人異動*：申報 Form 4（點擊連結看明細）"
-                        
-                        # Form 144：預計賣股通知，直接標註免調用 AI
-                        elif form == "144":
-                            summary_block = "⚠️ *賣股意向通知*：內部人申報 Form 144，預告未來 3 個月內可能在公開市場出售持股。"
-                        
-                        # 8-K / 10-Q / 10-K：真正重大的事件才呼叫 AI
-                        else:
-                            try:
-                                doc_res = requests.get(doc_url, headers=headers, timeout=10)
-                                doc_text = doc_res.text
-                            except Exception:
-                                doc_text = ""
-                            ai_res = summarize_with_ai(ticker, form, doc_text)
-                            summary_block = f"💡 *AI 白話解讀*：\n{ai_res}"
-                            time.sleep(2)
-                        
-                        msg = (
-                            f"🚨 *SEC 雷達速報*\n\n"
-                            f"公司：`{ticker}`\n"
-                            f"表單：`{form}`\n"
-                            f"日期：`{filing_date}`\n\n"
-                            f"{summary_block}\n\n"
-                            f"[點此查看 SEC 原始申報]({doc_url})"
+
+                        doc_text = ""
+                        try:
+                            doc_res = requests.get(doc_url, headers=headers, timeout=10)
+                            doc_text = doc_res.text
+                        except Exception:
+                            doc_text = ""
+
+                        ai_summary = summarize_with_ai(ticker, form, doc_text)
+
+                        send_discord_embed(
+                            ticker=ticker,
+                            form=form,
+                            filing_date=filing_date,
+                            summary=ai_summary,
+                            doc_url=doc_url
                         )
-                        send_telegram_message(msg)
+                        time.sleep(2)
         except Exception as e:
             print(f"處理 {ticker} 錯誤: {e}")
 
