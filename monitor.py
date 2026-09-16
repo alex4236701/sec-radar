@@ -15,6 +15,9 @@ def send_telegram_message(text):
         print(f"發送 Telegram 失敗: {e}")
 
 def check_sec_filings():
+    # ─── 新增這行強制測試 ───
+    send_telegram_message("🚨 報告長官！SEC雷達連線測試成功，Telegram 頻道正常運作中！")
+    # ──────────────────────
     if not os.path.exists("tickers.txt"):
         print("找不到 tickers.txt 檔案")
         return
