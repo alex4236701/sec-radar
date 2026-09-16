@@ -20,23 +20,28 @@ def summarize_with_ai(ticker, form, content_text):
         return "未設定 AI 金鑰，直接查看原始連結。"
     
     api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    headers = {"Content-Type": "application/json"}
     prompt = f"""
 你是一位專業美股研究員。請閱讀以下 {ticker} 的 SEC {form} 申報部分內容，用台灣日常大白話繁體中文輸出重點：
-1. 核心動作（例如：內部人賣出幾股、增資總額、簽訂重要合約）。
-2. 對公司營運或財務的具體影響。
-嚴禁行銷詞彙與無意義廢話，120 字以內直接說明數據與實質進展。
+1. 核心實質動作（例如：內部人賣出幾股、增資總額、簽訂重要合約）。
+2. 對公司營運或財務的直接影響。
+嚴禁行銷詞彙與無意義廢話，120 字以內直接講實質數據與動作。
 
 申報內文節錄：
 {content_text[:3500]}
 """
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
     try:
-        res = requests.post(api_url, json=payload, timeout=20)
+        res = requests.post(api_url, headers=headers, json=payload, timeout=25)
         data = res.json()
+        if "error" in data:
+            err_msg = data['error'].get('message', '未知錯誤')
+            print(f"Gemini API 回傳錯誤: {err_msg}")
+            return f"API 錯誤：{err_msg}"
         return data["candidates"][0]["content"]["parts"][0]["text"].strip()
     except Exception as e:
-        print(f"AI 解析失敗: {e}")
-        return "AI 解析暫時不可用，請直接查看原始文件。"
+        print(f"AI 解析連線異常: {e}")
+        return f"連線異常：{str(e)}"
 
 def check_sec_filings():
     if not os.path.exists("tickers.txt"):
@@ -71,7 +76,7 @@ def check_sec_filings():
                 accession_number = recent["accessionNumber"][i].replace("-", "")
                 primary_doc = recent["primaryDocument"][i]
                 
-                # 檢查昨天與今天的申報
+                # 檢查 24 小時內動態
                 yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
                 today = datetime.now().strftime("%Y-%m-%d")
                 
