@@ -7,27 +7,32 @@ from datetime import datetime, timezone, timedelta
 DISCORD_SEC_WEBHOOK = os.environ.get("DISCORD_SEC_WEBHOOK")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
-def send_discord_embed(ticker, form, summary, doc_url, color=0xE74C3C):
+def send_discord_embed(ticker, form, filing_date, summary, doc_url, color=0xE74C3C):
     if not DISCORD_SEC_WEBHOOK:
         return
 
     payload = {
-        "username": "SEC & News Radar Bot",
+        "username": "SEC Radar Bot",
         "avatar_url": "https://www.sec.gov/themes/custom/uswds_sec/assets/img/sec-logo.svg",
         "embeds": [
             {
-                "title": f"📢 {ticker} 重大情報：SEC {form}",
+                "title": f"🚨 SEC 重大申報速報：{ticker} ({form})",
                 "url": doc_url,
                 "color": color,
                 "fields": [
                     {
-                        "name": "📌 標的",
+                        "name": "📌 申報代號",
                         "value": f"`{ticker}`",
                         "inline": True
                     },
                     {
-                        "name": "📄 類別",
-                        "value": f"`SEC {form}`",
+                        "name": "📄 表單種類",
+                        "value": f"`{form}`",
+                        "inline": True
+                    },
+                    {
+                        "name": "📅 申報日期",
+                        "value": f"`{filing_date}`",
                         "inline": True
                     },
                     {
@@ -37,7 +42,7 @@ def send_discord_embed(ticker, form, summary, doc_url, color=0xE74C3C):
                     }
                 ],
                 "footer": {
-                    "text": "SEC & Finnhub Automated Intelligence Radar"
+                    "text": "SEC EDGAR Automated Radar"
                 },
                 "timestamp": datetime.now(timezone.utc).isoformat()
             }
@@ -159,6 +164,7 @@ def check_sec_filings(ticker):
                         send_discord_embed(
                             ticker=ticker,
                             form=form,
+                            filing_date=filing_date,
                             summary=ai_summary,
                             doc_url=doc_url,
                             color=color_map.get(form, 0xE74C3C)
