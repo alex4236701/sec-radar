@@ -12,7 +12,6 @@ def send_discord_embed(ticker, form, filing_date, summary, doc_url):
         print("未設定 DISCORD_WEBHOOK_URL，略過發送。")
         return
 
-    # 針對不同申報設定卡片側邊顏色（十六進位整數）
     color_map = {
         "8-K": 0xE74C3C,    # 警戒紅：重大事件、收購、突發
         "424B5": 0xE67E22,  # 警示橘：公司發新股/發債稀釋
@@ -93,15 +92,28 @@ def summarize_with_ai(ticker, form, content_text):
 {clean_text[:6000]}
 """
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
-    try:
-        res = requests.post(api_url, headers=headers, json=payload, timeout=25)
-        data = res.json()
-        if "error" in data:
-            err_msg = data['error'].get('message', '未知錯誤')
-            return f"API 錯誤：{err_msg}"
-        return data["candidates"][0]["content"]["parts"][0]["text"].strip()
-    except Exception as e:
-        return f"連線異常：{str(e)}"
+
+    # 內建 3 次自動重試，若撞到限流自動等待冷卻
+    for attempt in range(3):
+        try:
+            res = requests.post(api_url, headers=headers, json=payload, timeout=25)
+            data = res.json()
+
+            if "error" in data:
+                err_msg = data['error'].get('message', '未知錯誤')
+                # 遇到 Quota exceeded (429 限流)，等待 30 秒後重新嘗試
+                if "Quota exceeded" in err_msg or "429" in str(data['error'].get('code', '')):
+                    time.sleep(30)
+                    continue
+                return f"API 錯誤：{err_msg}"
+
+            return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+        except Exception as e:
+            if attempt == 2:
+                return f"連線異常：{str(e)}"
+            time.sleep(5)
+
+    return "請求過於頻繁，已略過本次 AI 解析，請點原始連結查看。"
 
 def check_sec_filings():
     if not os.path.exists("tickers.txt"):
@@ -139,7 +151,6 @@ def check_sec_filings():
                 yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
                 today = datetime.now().strftime("%Y-%m-%d")
 
-                # 僅鎖定五大關鍵重大申報，徹底排除 4 與 144
                 if filing_date in [yesterday, today]:
                     if form in ["8-K", "10-Q", "10-K", "424B5", "424B7"]:
                         doc_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession_number}/{primary_doc}"
@@ -160,7 +171,8 @@ def check_sec_filings():
                             summary=ai_summary,
                             doc_url=doc_url
                         )
-                        time.sleep(2)
+                        # 間隔拉長至 4 秒，確保單分鐘請求不超過 15 次
+                        time.sleep(4)
         except Exception as e:
             print(f"處理 {ticker} 錯誤: {e}")
 
