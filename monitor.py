@@ -4,31 +4,52 @@ from datetime import datetime, timedelta
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 def send_telegram_message(text):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {"chat_id": CHAT_ID, "text": text, "parse_mode": "Markdown"}
     try:
-        response = requests.post(url, json=payload)
-        response.raise_for_status()
+        res = requests.post(url, json=payload)
+        res.raise_for_status()
     except Exception as e:
         print(f"發送 Telegram 失敗: {e}")
 
+def summarize_with_ai(ticker, form, content_text):
+    if not GEMINI_API_KEY:
+        return "未設定 AI 金鑰，直接查看原始連結。"
+    
+    api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    prompt = f"""
+你是一位專業美股研究員。請閱讀以下 {ticker} 的 SEC {form} 申報部分內容，用台灣日常大白話繁體中文輸出重點：
+1. 核心實質動作（例如：高管賣股幾股、增資金額、具體業務變動）。
+2. 實質財務或營運影響。
+嚴禁行銷詞彙與無意義廢話，120 字以內直奔實質數據。
+
+申報內文節錄：
+{content_text[:3500]}
+"""
+    payload = {"contents": [{"parts": [{"text": prompt}]}]}
+    try:
+        res = requests.post(api_url, json=payload, timeout=20)
+        data = res.json()
+        return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    except Exception as e:
+        print(f"AI 解析失敗: {e}")
+        return "AI 解析暫時不可用，請直接查看原始文件。"
+
 def check_sec_filings():
     if not os.path.exists("tickers.txt"):
-        print("找不到 tickers.txt 檔案")
         return
 
     with open("tickers.txt", "r") as f:
         tickers = [line.strip().upper() for line in f if line.strip()]
 
-    print(f"正在檢查以下代號的 SEC 最新動態: {tickers}")
-    
     headers = {"User-Agent": "InstitutionalResearchUser investor@example.com"}
     
     for ticker in tickers:
         try:
-            cik_url = f"https://www.sec.gov/files/company_tickers.json"
+            cik_url = "https://www.sec.gov/files/company_tickers.json"
             res = requests.get(cik_url, headers=headers).json()
             
             cik = None
@@ -50,14 +71,34 @@ def check_sec_filings():
                 accession_number = recent["accessionNumber"][i].replace("-", "")
                 primary_doc = recent["primaryDocument"][i]
                 
-                # 檢查是否為 24 小時內的新申報
-                if filing_date == (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d") or filing_date == datetime.now().strftime("%Y-%m-%d"):
+                # 檢查 24 小時內動態
+                yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+                today = datetime.now().strftime("%Y-%m-%d")
+                
+                if filing_date in [yesterday, today]:
                     if form in ["8-K", "10-Q", "10-K", "4", "144", "424B5", "424B7"]:
                         doc_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession_number}/{primary_doc}"
-                        msg = f"🚨 *SEC 即時雷達警報*\n\n公司：`{ticker}`\n表單類型：`{form}`\n申報日期：{filing_date}\n[點此查看 SEC 官方原始文件]({doc_url})"
+                        
+                        doc_text = ""
+                        try:
+                            doc_res = requests.get(doc_url, headers=headers, timeout=10)
+                            doc_text = doc_res.text
+                        except Exception:
+                            doc_text = "無法下載內文"
+                        
+                        ai_summary = summarize_with_ai(ticker, form, doc_text)
+                        
+                        msg = (
+                            f"🚨 *SEC 雷達速報*\n\n"
+                            f"公司：`{ticker}`\n"
+                            f"表單：`{form}`\n"
+                            f"日期：`{filing_date}`\n\n"
+                            f"💡 *AI 白話解讀*：\n{ai_summary}\n\n"
+                            f"[點此查看 SEC 原始申報]({doc_url})"
+                        )
                         send_telegram_message(msg)
         except Exception as e:
-            print(f"處理代號 {ticker} 時發生錯誤: {e}")
+            print(f"處理 {ticker} 錯誤: {e}")
 
 if __name__ == "__main__":
     check_sec_filings()
