@@ -47,7 +47,7 @@ def send_discord_embed(ticker, form, filing_date, summary, doc_url):
                         "inline": True
                     },
                     {
-                        "name": "💡 AI 核心解讀 (GPT-4o-mini)",
+                        "name": "💡 AI 深度解讀 (GPT-4o-mini)",
                         "value": summary,
                         "inline": False
                     }
@@ -88,25 +88,27 @@ def summarize_with_ai(ticker, form, content_text):
     }
 
     prompt = f"""
-你是一位專業美股研究員。請閱讀以下 {ticker} 的 SEC {form} 申報純文字內容，用台灣日常大白話繁體中文輸出重點：
-1. 核心實質動作（例如：增資總額與每股定價、大股東出清持股規模、收購合併標的、重大合約金額）。
-2. 實質財務或營運影響（股權稀釋比例、負債變動、對獲利的影響）。
-嚴禁行銷詞彙與無意義廢話，120 字以內直接講具體數據與動作。
+你是一位專業美股買方研究員。請審核以下 {ticker} 的 SEC {form} 官方申報內容，直接拆解實質工程、財務或營運事實。
+強制遵守以下要求：
+1. 嚴禁任何行銷修辭、空洞廢話或「公司表示、致力於」等無意義描述。
+2. 條列式整理（最多 3 點）：
+   - 【實質動作】：交代確切事項（如：涉及的 Item 項目、收購標的名稱、增資/發債具體總額、合約簽署對象與履行期限、高管姓名與異動職位）。若有具體金額或股數，必須直接列出數字。
+   - 【財務與營運影響】：量化說明影響（如：稀釋比例、新增負債、營收貢獻或違約風險）。
+3. 若公告僅為例行展示或無實質數字，請直接寫「例行程序申報，無重大實質財務數據變更」。
 
 申報內文節錄：
-{clean_text[:6000]}
+{clean_text[:12000]}
 """
 
     payload = {
         "model": "gpt-4o-mini",
         "messages": [
-            {"role": "system", "content": "你是一位專業美股研究員，專門客觀提煉 SEC 官方申報的實質數據與業務變動。"},
+            {"role": "system", "content": "你是一位專注於 SEC 官方申報的買方研究員，僅以客觀數據與具體事實定調。"},
             {"role": "user", "content": prompt}
         ],
-        "temperature": 0.2
+        "temperature": 0.1
     }
 
-    # 自動重試機制
     for attempt in range(3):
         try:
             res = requests.post(api_url, headers=headers, json=payload, timeout=25)
@@ -160,7 +162,7 @@ def check_sec_filings():
                 yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
                 today = datetime.now().strftime("%Y-%m-%d")
 
-                # 僅過濾高價值重大表單
+                # 僅鎖定高價值重大表單
                 if filing_date in [yesterday, today]:
                     if form in ["8-K", "10-Q", "10-K", "424B5", "424B7"]:
                         doc_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession_number}/{primary_doc}"
@@ -181,7 +183,7 @@ def check_sec_filings():
                             summary=ai_summary,
                             doc_url=doc_url
                         )
-                        time.sleep(1)  # OpenAI 付費端點承受度高，僅需短暫間隔
+                        time.sleep(1)
         except Exception as e:
             print(f"處理 {ticker} 錯誤: {e}")
 
