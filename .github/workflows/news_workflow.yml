@@ -1,4 +1,4 @@
-name: Market & SEC Radar
+name: Commercial News Bot
 
 on:
   schedule:
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-radar:
+  run-news-bot:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -30,33 +30,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run News Monitor (通訊社大單與併購)
+      - name: Run News Monitor Script
         env:
           DISCORD_NEWS_WEBHOOK: ${{ secrets.DISCORD_NEWS_WEBHOOK }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python monitor_news.py
+        run: |
+          python monitor_news.py
 
-      - name: Run SEC Monitor (10-Q/K, 8-K, 424B)
-        env:
-          # 直接共用你原本設定好的 News Webhook 金鑰，推到同一個頻道
-          DISCORD_NEWS_WEBHOOK: ${{ secrets.DISCORD_NEWS_WEBHOOK }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python monitor_sec.py
-
-      - name: Commit and Push History (同步儲存新聞與SEC記憶庫)
+      - name: Commit and Push Sent History
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # 確保兩個記憶檔都存在，避免報錯
-          touch sent_news_log.txt sent_sec_log.txt
-          git add sent_news_log.txt sent_sec_log.txt
-          
-          # 只要有任何新新聞或新財報，就一併存檔推回 GitHub
-          if [ -n "$(git status --porcelain sent_news_log.txt sent_sec_log.txt)" ]; then
-            git commit -m "chore: update radar history [skip ci]"
+          touch sent_news_log.txt
+          git add sent_news_log.txt
+          if [ -n "$(git status --porcelain sent_news_log.txt)" ]; then
+            git commit -m "chore: update sent news history [skip ci]"
             git pull --rebase origin main
             git push origin main
           else
-            echo "無新紀錄需更新。"
+            echo "無新新聞審查紀錄需更新。"
           fi
