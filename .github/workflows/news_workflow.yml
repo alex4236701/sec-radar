@@ -1,19 +1,15 @@
-name: Commercial News Bot
+name: Market & SEC Radar
 
 on:
   schedule:
-    # 1. 盤中高頻期（涵蓋開盤、收盤及冬夏令時間）：每小時 30 分執行一次
-    # 對應台灣時間 21:30 到 05:30 -> UTC 13:30 至 21:30
+    # 盤中高頻期 (台灣 21:30 - 05:30)
     - cron: '30 13-21 * * *'
-
-    # 2. 離峰與休市時段：每 4 小時執行一次
-    # 對應台灣時間 09:30, 13:30, 17:30 -> UTC 01:30, 05:30, 09:30
+    # 離峰時段 (台灣 09:30, 13:30, 17:30)
     - cron: '30 1,5,9 * * *'
-
   workflow_dispatch:
 
 jobs:
-  run-news-bot:
+  run-radar:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -34,27 +30,33 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run News Monitor Script
+      - name: Run News Monitor (通訊社大單與併購)
         env:
           DISCORD_NEWS_WEBHOOK: ${{ secrets.DISCORD_NEWS_WEBHOOK }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          python monitor_news.py
+        run: python monitor_news.py
 
-      - name: Commit and Push Sent History
+      - name: Run SEC Monitor (10-Q/K, 8-K, 424B)
+        env:
+          # 直接共用你原本設定好的 News Webhook 金鑰，推到同一個頻道
+          DISCORD_NEWS_WEBHOOK: ${{ secrets.DISCORD_NEWS_WEBHOOK }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python monitor_sec.py
+
+      - name: Commit and Push History (同步儲存新聞與SEC記憶庫)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 確保檔案存在避免 git add 報錯
-          touch sent_news_log.txt
-          git add sent_news_log.txt
+          # 確保兩個記憶檔都存在，避免報錯
+          touch sent_news_log.txt sent_sec_log.txt
+          git add sent_news_log.txt sent_sec_log.txt
           
-          # 檢查是否有新增的審查紀錄，有變動才提交並推回 GitHub
-          if [ -n "$(git status --porcelain sent_news_log.txt)" ]; then
-            git commit -m "chore: update sent news history [skip ci]"
+          # 只要有任何新新聞或新財報，就一併存檔推回 GitHub
+          if [ -n "$(git status --porcelain sent_news_log.txt sent_sec_log.txt)" ]; then
+            git commit -m "chore: update radar history [skip ci]"
             git pull --rebase origin main
             git push origin main
           else
-            echo "無新新聞審查紀錄需更新。"
+            echo "無新紀錄需更新。"
           fi
