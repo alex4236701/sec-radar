@@ -2,10 +2,10 @@ name: SEC EDGAR Radar Bot
 
 on:
   schedule:
-    # 盤中熱門時段 (美東開盤至收盤)：每小時 00 分執行一次
-    - cron: '0 13-21 * * *'
+    # 涵蓋美股盤前與盤後發稿尖峰（UTC 11:00 至 22:00，對應美東早晨至盤後，每小時 00 分執行）
+    - cron: '0 11-22 * * *'
     # 離峰時段：每 4 小時執行一次
-    - cron: '0 1,5,9 * * *'
+    - cron: '0 2,6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -26,6 +27,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install requests
 
       - name: Run SEC Monitor Script
@@ -36,10 +38,17 @@ jobs:
         run: |
           python monitor_sec.py
 
-      - name: Commit and Push Sent History
+      - name: Commit and Push SEC History
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
-          git add sent_news_log.txt || true
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update sent history [skip ci]" && git push origin main)
+          touch sent_sec_log.txt
+          git add sent_sec_log.txt
+          if [ -n "$(git status --porcelain sent_sec_log.txt)" ]; then
+            git commit -m "chore: update sec filing history [skip ci]"
+            # 取得遠端最新進度（例如新聞機器人剛推的 log），並把本地這筆 commit 墊在最上方
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "無新 SEC 申報紀錄需更新。"
+          fi
