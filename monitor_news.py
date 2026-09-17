@@ -15,39 +15,69 @@ HISTORY_FILE = "sent_news_log.txt"
 
 TW_TZ = timezone(timedelta(hours=8))
 
-# SEC 合規 User-Agent
+# SEC 合規 User-Agent（建議換成你真實的聯絡信箱以確保永不被 403 阻擋）
 SEC_HEADERS = {
-    "User-Agent": "InstitutionalAlphaResearch/2.0 (compliance@alpharesearch.org)",
+    "User-Agent": "ResearchBot/2.0 (yomin701@gmail.com)",
     "Accept-Encoding": "gzip, deflate"
 }
 
-# 全域名稱快取字典（啟動時自動填滿，完全免手動維護）
 COMPANY_NAME_CACHE = {}
 
-# 嚴格鎖定三大商業通訊社原生域名
 WIRE_SITES_QUERY = "(site:prnewswire.com OR site:businesswire.com OR site:globenewswire.com)"
 
-# 1. 負向黑名單：純會議日程、人事升遷、律所索賠、分析師目標價
 EXCLUDE_TITLE_PATTERNS = [
+    # A. 純法說會、路演、會議日程與例行股東會材料
     r"\bto\s+report\b", r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
     r"\bconference\s+call\b", r"\binvestor\s+conference\b", r"\bpresentation\b",
-    r"\bprice\s+target\b", r"\brating\b", r"\bclass\s+action\b", r"\blawsuit\b",
-    r"\bshareholder\s+alert\b", r"\breminds\s+investors\b",
-    r"\bappoints?\b", r"\bnames?\s+new\b", r"\bcorrection\b"
+    r"\bfireside\s+chat\b", r"\broadshow\b", r"\bannual\s+meeting\b",
+    r"\bproxy\s+materials?\b", r"\bproxy\s+statement\b",
+
+    # B. 律師事務所徵求原告、調查宣告與截止日提醒
+    r"\bclass\s+action\b", r"\blawsuit\b", r"\bshareholder\s+alert\b",
+    r"\breminds\s+investors\b", r"\blead\s+plaintiff\b", r"\bdeadline\b",
+    r"\binvestigates?\b", r"\binvestigation\s+into\b", r"\bnotifies\s+investors\b",
+    r"\bencourages\s+investors\b", r"\bloss\s+submission\b",
+    r"\brosen\b", r"\bpomerantz\b", r"\bglancy\b", r"\bschall\b",
+    r"\bfaruqi\b", r"\bhagens\s+berman\b", r"\blevi\s+&\s+korsinsky\b",
+
+    # C. 通訊社轉載之二手分析師評等與 SEO 流量報告
+    r"\bprice\s+target\b", r"\brating\b", r"\bupgrades?\b", r"\bdowngrades?\b",
+    r"\bmarket\s+size\b", r"\bmarket\s+share\b", r"\bcagr\b",
+    r"\bmarket\s+research\b", r"\bforecast\s+to\s+20\d\d\b", r"\btop\s+players\b",
+    r"\bindustry\s+report\b",
+
+    # D. 企業公關得獎、最佳雇主、評鑑榮譽
+    r"\bnamed\s+(a\s+)?winner\b", r"\bwins?\s+award\b", r"\bhonored\s+as\b",
+    r"\brecognized\s+by\b", r"\brecognized\s+as\b", r"\bnamed\s+to\b",
+    r"\bgreat\s+place\s+to\s+work\b", r"\bmagic\s+quadrant\b", r"\bforbes\b",
+    r"\bfortune\s+500\b", r"\bfast\s+company\b",
+
+    # E. ESG 報告、慈善活動、永續發展與 DEI
+    r"\besg\s+report\b", r"\bsustainability\s+report\b", r"\bcorporate\s+responsibility\b",
+    r"\bcarbon\s+neutral\b", r"\bdonates?\b", r"\bdonation\b", r"\bfoundation\b",
+    r"\bscholarship\b", r"\bdiversity\b", r"\binclusion\b",
+
+    # F. 展會擺攤、概念展示與白皮書
+    r"\bto\s+showcase\b", r"\bto\s+exhibit\b", r"\bto\s+demonstrate\b",
+    r"\bexhibiting\s+at\b", r"\bbooth\b", r"\bwhitepaper\b",
+    r"\bsurvey\s+finds\b", r"\bsurvey\s+reveals\b", r"\bpublishes\s+study\b",
+
+    # G. 常規人事任命與文字勘誤
+    r"\bappoints?\b", r"\bnames?\s+new\b", r"\bcorrection\b", r"\badds\s+to\s+board\b"
 ]
 
-# 2. 正向白名單：大單 + 併購 + 財報 + 融資稀釋 + 重大產品上市/監管核准
 SIGNAL_PATTERNS = [
-    # A. 商業大單與客戶合約
+    # A. 商業大單與採購合約
     r"\bcontract\b", r"\border\b", r"\borders\b", r"\bdeal\b", r"\baward\b",
     r"\bawarded\b", r"\bagreement\b", r"\bprocurement\b", r"\bsupply\b",
     r"\bselected\s+by\b", r"\bpartnered\s+with\b", r"\bto\s+deploy\b", r"\bsecures?\b",
 
-    # B. 重大併購與股權投資
+    # B. 重大併購、股權投資與控制權攻防
     r"\bacquisition\b", r"\bacquires?\b", r"\binvests?\s+in\b", r"\bbuyout\b",
-    r"\bstake\b", r"\bmerger\b",
+    r"\bstake\b", r"\bmerger\b", r"\bpoison\s+pill\b", r"\bshareholder\s+rights\s+plan\b",
+    r"\bunsolicited\b", r"\bproxy\s+contest\b", r"\bstrategic\s+alternatives\b",
 
-    # C. 實質財報與財測調升
+    # C. 實質財報與業績指引調升
     r"\breports?\s+first\s+quarter\b", r"\breports?\s+second\s+quarter\b",
     r"\breports?\s+third\s+quarter\b", r"\breports?\s+fourth\s+quarter\b",
     r"\breports?\s+full\s+year\b", r"\bfinancial\s+results\b",
@@ -56,23 +86,44 @@ SIGNAL_PATTERNS = [
     # D. 庫藏股回購
     r"\brepurchase\b", r"\bbuyback\b", r"\bshare\s+repurchase\b",
 
-    # E. 融資稀釋（可轉債 / 現增 / ATM）
+    # E. 股權稀釋融資
     r"\bconvertible\b", r"\bsenior\s+notes\b", r"\bpublic\s+offering\b",
     r"\bsecondary\s+offering\b", r"\bprices\s+offering\b", r"\bpricing\s+of\b",
     r"\bat-the-market\b", r"\batm\s+offering\b", r"\batm\s+facility\b",
     r"\bcommon\s+stock\s+offering\b",
 
-    # F. 重大產品與監管審批
+    # F. 重大產品量產、次世代架構與監管放行（修正邊界詞）
     r"\blaunches\b", r"\bunveils\b", r"\bintroduces\b", r"\bnext-gen\b",
-    r"\barchitecture\b", r"\bproduction\s+release\b", r"\bfda\s+approv",
+    r"\barchitecture\b", r"\bproduction\s+release\b", r"\bfda\s+approv\w*\b",
     r"\bclearance\b", r"\bbreakthrough\b",
 
-    # G. 實質金額與政府撥款
-    r"\$\d+", r"\bmillion\b", r"\bbillion\b", r"\bgrant\b", r"\bfunding\b"
+    # G. 實質金額與政府撥款補助
+    r"\$\d+", r"\bmillion\b", r"\bbillion\b", r"\bgrant\b", r"\bfunding\b",
+
+    # H. 突發利空預警、調降指引、延遲申報與會計審計異常
+    r"\blowers?\s+guidance\b", r"\bcuts?\s+guidance\b", r"\bslashes\b",
+    r"\bwithdraws?\s+guidance\b", r"\bpreliminary\s+results\b",
+    r"\brestatement\b", r"\brestates\b", r"\bdelays?\s+filing\b",
+    r"\bresignation\s+of\s+independent\s+auditor\b",
+
+    # I. 破產重組、債務違約、退市警告與反向拆股（合股）
+    r"\bchapter\s+11\b", r"\bbankruptcy\b", r"\breverse\s+stock\s+split\b",
+    r"\bdelisting\b", r"\bnon-compliance\b", r"\bdefault\b",
+
+    # J. 主管機關調查、重大訴訟判決與業務分拆
+    r"\bsec\s+investigation\b", r"\bsubpoena\b", r"\bcomplete\s+response\s+letter\b",
+    r"\bclinical\s+hold\b", r"\bverdict\b", r"\bsettlement\s+agreement\b",
+    r"\bpatent\s+infringement\b", r"\bantitrust\b",
+    r"\bspinoff\b", r"\bspin-off\b", r"\bdivestiture\b", r"\bdivests?\b",
+    r"\bworkforce\s+reduction\b"
 ]
 
+GENERIC_FIRST_WORDS = {
+    "general", "american", "national", "global", "united", "first",
+    "advanced", "international", "standard", "western", "pacific"
+}
+
 def preload_sec_company_names():
-    """啟動時自 SEC 官方下載對照檔，全自動取得公司法人名稱"""
     global COMPANY_NAME_CACHE
     url = "https://www.sec.gov/files/company_tickers.json"
     try:
@@ -81,9 +132,8 @@ def preload_sec_company_names():
             for item in res.json().values():
                 t = item["ticker"].upper()
                 raw_title = item.get("title", "")
-                # 清除法律後綴 (INC, CORP, HOLDINGS 等)
                 clean_title = re.sub(
-                    r",?\s*(INC|CORP|LTD|HOLDINGS|CO|PLC|LLC)\.?$", 
+                    r",?\s*(INC|CORP|LTD|HOLDINGS|CO|PLC|LLC|DE)\.?$", 
                     "", 
                     raw_title, 
                     flags=re.IGNORECASE
@@ -91,7 +141,7 @@ def preload_sec_company_names():
                 COMPANY_NAME_CACHE[t] = clean_title
             print(f"✅ 成功自 SEC 預載入 {len(COMPANY_NAME_CACHE)} 檔官方公司全名！", flush=True)
     except Exception as e:
-        print(f"⚠️ 預載入 SEC 名稱失敗（將使用代號檢索）: {e}", flush=True)
+        print(f"⚠️ 預載入 SEC 名稱失敗（將退回純代號比對）: {e}", flush=True)
 
 def load_sent_history():
     if not os.path.exists(HISTORY_FILE):
@@ -124,61 +174,78 @@ def has_high_impact_signal(title):
     return False
 
 def matches_target_entity(ticker, title):
-    """
-    本地防線：標題必須明確包含『股票代號獨立詞』或『官方公司名稱』
-    彻底阻絕 ONTO (onto 單字)、ACLS (學術會)、CRUS (威士忌)
-    """
     t_lower = title.lower()
-    company_name = COMPANY_NAME_CACHE.get(ticker.upper(), "").lower()
-    
-    # 檢查獨立代號邊界（例如 \bonto\b 但要求大寫或前後無字母）
     has_ticker = bool(re.search(rf"\b{re.escape(ticker.lower())}\b", t_lower))
     
-    # 檢查是否含有 SEC 官方登記全名（長度大於 3 才比對，防太短誤判）
-    has_name = (company_name in t_lower) if len(company_name) > 3 else False
+    company_name = COMPANY_NAME_CACHE.get(ticker.upper(), "").lower()
+    has_full_name = (company_name in t_lower) if len(company_name) > 3 else False
     
-    return has_ticker or has_name
+    words = company_name.split()
+    first_word = words[0] if words else ""
+    
+    # 若首詞是通用詞，避免誤判，不單用首詞比對
+    if first_word and first_word not in GENERIC_FIRST_WORDS and len(first_word) > 3:
+        has_first_word = bool(re.search(rf"\b{re.escape(first_word)}\b", t_lower))
+    else:
+        has_first_word = False
+        
+    return has_ticker or has_full_name or has_first_word
 
 def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub_date_str, source_name):
     if not DISCORD_NEWS_WEBHOOK:
         return
     now_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
 
-    if event_type == "DILUTION":
-        card_title = f"⚠️ 資本融資與稀釋警報：{ticker}"
-        embed_color = 0xE74C3C  # 紅色
-        type_desc = "股權融資/稀釋（可轉債、現增或 ATM）"
-    elif event_type == "M&A":
-        card_title = f"🤝 戰略併購/股權投資：{ticker}"
-        embed_color = 0x9B59B6  # 紫色
-        type_desc = "資本運作（收購/股權投資）"
-    elif event_type == "EARNINGS":
-        card_title = f"📊 正式財報/指引更新：{ticker}"
-        embed_color = 0x3498DB  # 藍色
-        type_desc = "官方財報或營收指引（Guidance）"
-    elif event_type == "PRODUCT":
-        card_title = f"🚀 重大產品/技術突破：{ticker}"
-        embed_color = 0x1ABC9C  # 藍綠色
-        type_desc = "次世代旗艦產品上市 / 監管批准"
-    else:
-        card_title = f"💰 商業大單快訊：{ticker}"
-        embed_color = 0x2ECC71  # 亮綠色
-        type_desc = "實質營收合約（客戶下單）"
+    type_configs = {
+        "DILUTION": {
+            "title": f"⚠️ 資本融資與稀釋警報：{ticker}",
+            "color": 0xE74C3C,
+            "desc": "股權融資/稀釋（可轉債、現增、ATM）"
+        },
+        "CRISIS": {
+            "title": f"🚨 重大黑天鵝/利空警報：{ticker}",
+            "color": 0xC0392B,
+            "desc": "財測下修/破產重組/合股/監管調查/會計爆雷"
+        },
+        "M&A": {
+            "title": f"🤝 戰略併購/資本運作：{ticker}",
+            "color": 0x9B59B6,
+            "desc": "資本運作（收購/合併/業務分拆/股東攻防）"
+        },
+        "EARNINGS": {
+            "title": f"📊 正式財報/指引更新：{ticker}",
+            "color": 0x3498DB,
+            "desc": "官方財報、財測調升或庫藏股回購"
+        },
+        "PRODUCT": {
+            "title": f"🚀 重大產品/技術監管突破：{ticker}",
+            "color": 0x1ABC9C,
+            "desc": "次世代旗艦產品發布 / FDA 監管核准"
+        },
+        "ORDER": {
+            "title": f"💰 商業大單快訊：{ticker}",
+            "color": 0x2ECC71,
+            "desc": "實質營收合約（客戶下單/政府採購）"
+        }
+    }
+
+    cfg = type_configs.get(event_type, type_configs["ORDER"])
+    safe_summary = summary_bullets[:1000] if summary_bullets else "無內容摘要"
 
     payload = {
         "username": "Market Impact Radar",
         "avatar_url": "https://cdn-icons-png.flaticon.com/512/2965/2965879.png",
         "embeds": [{
-            "title": card_title,
+            "title": cfg["title"],
             "url": news_url,
-            "color": embed_color,
+            "color": cfg["color"],
             "fields": [
                 {"name": "📌 標的", "value": f"`{ticker}`", "inline": True},
                 {"name": "📅 發布時間 (台灣)", "value": f"`{pub_date_str}`", "inline": True},
-                {"name": "🏷️ 交易性質", "value": f"`{type_desc}`", "inline": True},
+                {"name": "🏷️ 交易性質", "value": f"`{cfg['desc']}`", "inline": True},
                 {"name": "📡 官方來源", "value": f"`{source_name}`", "inline": False},
                 {"name": "📰 標題", "value": title[:200], "inline": False},
-                {"name": "💡 核心要點解讀", "value": summary_bullets, "inline": False}
+                {"name": "💡 核心要點解讀", "value": safe_summary, "inline": False}
             ],
             "footer": {"text": f"Official Wire Feed • 推播時間: {now_tw_str}"}
         }]
@@ -186,13 +253,13 @@ def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub
     try:
         res = requests.post(DISCORD_NEWS_WEBHOOK, json=payload, timeout=15)
         res.raise_for_status()
-        print(f"     🎉 [推播成功] 已發送至 Discord！", flush=True)
+        print("      🎉 [推播成功] 已發送至 Discord！", flush=True)
     except Exception as e:
-        print(f"     ❌ [Discord 失敗] {e}", flush=True)
+        print(f"      ❌ [Discord 失敗] {e}", flush=True)
 
 def summarize_with_ai(ticker, text):
     if not OPENAI_API_KEY:
-        return "PASS", ""
+        return "PASS", "", True
     api_url = "https://api.openai.com/v1/chat/completions"
     headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
     
@@ -206,21 +273,22 @@ def summarize_with_ai(ticker, text):
    - 若新聞只是提到日常單字（如 onto、cat、it）或產業詞彙，回傳 PASS。
    - 若其他公司進行交易，僅在內文把【{ticker}】當成同業或客戶順帶提及，回傳 PASS。
 2. 【例行行銷軟文】：常規軟體小版本更新、例行展會演講、無具體時程的純概念展示，回傳 PASS。
-3. 純法說會/論壇時程公布、律師集體訴訟通告、內部高管人事升遷。
+3. 純法說會/論壇時程公布、律師集體訴訟招募（Lawsuit Alert）、內部普通高管人事異動。
 
-【符合監控的五大類別】：
+【符合監控的六大類別】：
 1. 【ORDER】商業大單：外部客戶/政府向【{ticker}】採購產品、簽訂重大供貨合約、獲得擴產補助款。
-2. 【M&A】重大併購/投資：【{ticker}】收購同業、買下重要公司股權、或合併案。
+2. 【M&A】重大併購/資本運作：【{ticker}】收購同業、買下重要股權、重大業務分拆（Spinoff）、或遭遇敵意收購/啟動毒藥丸。
 3. 【DILUTION】資本稀釋融資：【{ticker}】發行可轉債、增發新股、宣布定價、或啟動 ATM 配售。
-4. 【EARNINGS】業績與資本回饋：【{ticker}】公布季度財報、調升全年財測、或啟動庫藏股回購。
-5. 【PRODUCT】重大產品上市/監管突破：【{ticker}】正式發布重大次世代架構/旗艦新產品（公佈量產時程或規格突破），或取得重要監管放行（如 FDA 藥證核准）。
+4. 【EARNINGS】業績與回饋：【{ticker}】公布季度財報、調升全年財測、或啟動庫藏股回購。
+5. 【PRODUCT】重大產品上市/監管突破：【{ticker}】正式發布重大旗艦產品架構（公布量產時程或規格突破），或取得 FDA 藥證等關鍵核准。
+6. 【CRISIS】利空預警與黑天鵝：調降/撤回財測、會計師辭職、延遲申報財報、破產清算、收到下市警告、反壟斷阻擋或反轉合股（Reverse Split）。
 
 【輸出格式要求】：
-若不符合上述五大類，只回傳單字：PASS
+若不符合上述六大類，只回傳單字：PASS
 若符合，嚴格依照以下 JSON 格式回傳，禁止多餘文字：
 {{
-  "type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT",
-  "summary": "以繁體中文條列兩點（80 字以內）：\n• 【核心動作】：產品型號/融資規模/合約金額/併購標的及具體時程。\n• 【市場衝擊】：對 {ticker} 之營收貢獻、競爭優勢或稀釋壓力。"
+  "type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS",
+  "summary": "以繁體中文條列兩點（80 字以內）：\\n• 【核心動作】：產品型號/合約金額/融資規模/下修幅度及具體時程。\\n• 【市場衝擊】：對 {ticker} 之營收貢獻、毛利影響、稀釋壓力或營運風險。"
 }}
 
 新聞內容：
@@ -234,67 +302,80 @@ def summarize_with_ai(ticker, text):
         ],
         "temperature": 0.1
     }
+    
     for attempt in range(3):
         try:
             res = requests.post(api_url, headers=headers, json=payload, timeout=25)
             data = res.json()
             if "error" in data:
-                return "PASS", ""
+                time.sleep(2)
+                continue
             content = data["choices"][0]["message"]["content"].strip()
             if "PASS" in content:
-                return "PASS", ""
+                return "PASS", "", True
             
-            cleaned_json = re.sub(r"^```json\s*", "", content)
-            cleaned_json = re.sub(r"\s*```$", "", cleaned_json)
-            parsed = json.loads(cleaned_json)
-            return parsed.get("type", "ORDER"), parsed.get("summary", "")
+            json_match = re.search(r"\{[\s\S]*\}", content)
+            if not json_match:
+                return "PASS", "", True
+
+            parsed = json.loads(json_match.group(0))
+            return parsed.get("type", "ORDER"), parsed.get("summary", ""), True
         except Exception:
             time.sleep(2)
-    return "PASS", ""
+            
+    return "PASS", "", False
 
 def fetch_google_wire_news(ticker):
-    # 自動調取全名進行聯集
     company_name = COMPANY_NAME_CACHE.get(ticker.upper())
     if company_name and company_name.upper() != ticker.upper():
         search_target = f'("{ticker}" OR "{company_name}")'
     else:
         search_target = f'"{ticker}"'
 
-    # 強制鎖定三大通訊社 site
     query = f'{search_target} {WIRE_SITES_QUERY} when:2d'
     encoded_query = urllib.parse.quote(query)
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
     
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     }
 
-    try:
-        res = requests.get(rss_url, headers=headers, timeout=12)
-        if res.status_code != 200:
-            return []
-        
-        root = ET.fromstring(res.content)
-        items = []
-        for item in root.findall("./channel/item")[:3]:
-            title = item.find("title").text if item.find("title") is not None else ""
-            link = item.find("link").text if item.find("link") is not None else ""
-            pub_date = item.find("pubDate").text if item.find("pubDate") is not None else ""
-            source = item.find("source").text if item.find("source") is not None else "Newswire"
-            description = item.find("description").text if item.find("description") is not None else ""
+    for retry in range(2):
+        try:
+            res = requests.get(rss_url, headers=headers, timeout=12)
+            if res.status_code == 429:
+                time.sleep(3)
+                continue
+            if res.status_code != 200 or not res.content:
+                return []
             
-            clean_title = re.sub(r"\s+-\s+.*$", "", title)
+            root = ET.fromstring(res.content)
+            channel = root.find("channel")
+            if channel is None:
+                return []
 
-            items.append({
-                "title": clean_title,
-                "url": link,
-                "pub_date_raw": pub_date,
-                "source": source,
-                "snippet": description
-            })
-        return items
-    except Exception:
-        return []
+            items = []
+            for item in channel.findall("item")[:3]:
+                title = item.findtext("title") or ""
+                link = item.findtext("link") or ""
+                pub_date = item.findtext("pubDate") or ""
+                source = item.findtext("source") or "Newswire"
+                description = item.findtext("description") or ""
+                
+                clean_title = re.sub(r"\s+-\s+.*$", "", title)
+                clean_desc = re.sub(r"<[^>]+>", " ", description).strip()
+
+                items.append({
+                    "title": clean_title,
+                    "url": link,
+                    "pub_date_raw": pub_date,
+                    "source": source,
+                    "snippet": clean_desc
+                })
+            return items
+        except Exception:
+            time.sleep(1)
+    return []
 
 def check_and_process_ticker(ticker, sent_history):
     wire_items = fetch_google_wire_news(ticker)
@@ -314,23 +395,20 @@ def check_and_process_ticker(ticker, sent_history):
             print("     [記憶庫略過] 此新聞已完成歷史審查，略過", flush=True)
             continue
 
-        # 本地防線 1：標題必須明確包含該股票或公司主體（杜絕 ONTO/ACLS 撞名）
         if not matches_target_entity(ticker, title):
-            print("     [本地過濾] 標題非該公司實體（排除單字/同名撞名），跳過", flush=True)
+            print("     [本地過濾] 標題非該公司實體（排除單字/撞名），跳過", flush=True)
             save_sent_id(fingerprint)
             sent_history.add(fingerprint)
             continue
 
-        # 本地防線 2：排除公關人事、法說會日程
         if is_junk_title(title):
-            print("     [本地過濾] 命中公關/人事/訴訟黑名單，跳過", flush=True)
+            print("     [本地過濾] 命中升級版黑名單（律所/評等/公關/展會），跳過", flush=True)
             save_sent_id(fingerprint)
             sent_history.add(fingerprint)
             continue
 
-        # 本地防線 3：檢查是否包含實質大單、併購、財報或產品特徵
         if not has_high_impact_signal(title):
-            print("     [本地過濾] 無重大財務或合約特徵詞，跳過", flush=True)
+            print("     [本地過濾] 無重大財務、合約或利空特徵詞，跳過", flush=True)
             save_sent_id(fingerprint)
             sent_history.add(fingerprint)
             continue
@@ -346,7 +424,11 @@ def check_and_process_ticker(ticker, sent_history):
                 pass
 
         context = f"標題: {title}\n來源: {item['source']}\n內容摘要: {item['snippet']}"
-        event_type, summary_text = summarize_with_ai(ticker, context)
+        event_type, summary_text, is_api_ok = summarize_with_ai(ticker, context)
+
+        if not is_api_ok:
+            print("     ⚠️ [API 異常] GPT 審核超時或伺服器中斷，暫不標記，等待下次排程重審", flush=True)
+            continue
 
         save_sent_id(fingerprint)
         sent_history.add(fingerprint)
@@ -363,7 +445,6 @@ def main():
         print("❌ 錯誤：找不到 tickers.txt！", flush=True)
         return
 
-    # 啟動時一次性預載入 SEC 全名
     preload_sec_company_names()
 
     with open("tickers.txt", "r") as f:
@@ -380,7 +461,7 @@ def main():
     for idx, ticker in enumerate(tickers, start=1):
         print(f"[{idx:03d}/{total_count:03d}] 檢索標的：{ticker:5s} ... ", end="", flush=True)
         check_and_process_ticker(ticker, sent_history)
-        time.sleep(0.3)
+        time.sleep(1)
 
     print("==========================================", flush=True)
     print(f"✅ 全量巡檢完成！共計掃描 {total_count} 檔標的。", flush=True)
