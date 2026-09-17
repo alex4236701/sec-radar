@@ -7,6 +7,7 @@ from datetime import datetime, timezone, timedelta
 
 # ==================== 環境變數與路徑設定 ====================
 DISCORD_SEC_WEBHOOK = os.environ.get("DISCORD_SEC_WEBHOOK") or os.environ.get("DISCORD_NEWS_WEBHOOK")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 HISTORY_FILE = "sent_sec_log.txt"
 
 TW_TZ = timezone(timedelta(hours=8))
@@ -17,7 +18,7 @@ SEC_HEADERS = {
     "Accept-Encoding": "gzip, deflate"
 }
 
-# 專業買方雷達核心表單全覆蓋（納入修正案 /A、自動貨架 S-3ASR 與延遲 NT 變體）
+# 專業買方雷達核心表單全覆蓋
 TARGET_FORMS = {
     "8-K", "8-K/A",
     "6-K", "6-K/A",
@@ -28,15 +29,19 @@ TARGET_FORMS = {
     "12b-25"
 }
 
-# 8-K 排除與包含項目
+# 本地直接封存之無意義項目（人事、股東會）
 IGNORE_ITEMS = {"5.02", "5.07"}
-SUBSTANTIVE_8K_ITEMS = {
+
+# 值得花費 Token 審核的「硬核財務與營運條款」
+HIGH_IMPACT_8K_ITEMS = {
     "1.01", "1.02", "1.03", 
     "2.01", "2.02", "2.03", "2.04", "2.05", "2.06", 
     "3.01", "3.02", "3.03", 
-    "4.01", "4.02", 
-    "8.01"
+    "4.01", "4.02"
 }
+
+# 8-K 包含之實質項目（含 8.01，但 8.01 走本地免 Token 通道）
+SUBSTANTIVE_8K_ITEMS = HIGH_IMPACT_8K_ITEMS | {"8.01"}
 
 # 官方 SEC Item 代碼之買方意義對照庫
 ITEM_DEFINITIONS = {
@@ -54,7 +59,7 @@ ITEM_DEFINITIONS = {
     "3.03": "【權利變更】：股東權益實質重大變更（如啟動毒藥丸防衛）",
     "4.01": "【審計變更】：獨立會計師事務所閃辭或遭到更換（重大警訊）",
     "4.02": "【財報失效】：先前發布之官方財務報表不可信賴（即將重編假帳）",
-    "8.01": "【其他重大】：公司自主公告之實質重大市場未公開事項"
+    "8.01": "【自主重大】：公司自願公告之重大市場未公開事項（新聞稿存檔）"
 }
 
 # 最大申報追溯天數（徹底阻絕舊文件）
@@ -87,7 +92,6 @@ def get_cik_mapping():
     return {}
 
 def is_recent_filing(filing_date_str):
-    """嚴格校驗：僅放行最近 3 天以內的申報"""
     try:
         filing_dt = datetime.strptime(filing_date_str, "%Y-%m-%d").date()
         today_utc = datetime.now(timezone.utc).date()
@@ -113,8 +117,6 @@ def fetch_sec_filings(cik):
         results = []
         for i in range(min(15, len(forms))):
             f_date = filing_dates[i]
-            
-            # 日期防線：超期的歷史舊文件直接丟棄
             if not is_recent_filing(f_date):
                 continue
 
@@ -129,15 +131,64 @@ def fetch_sec_filings(cik):
     except Exception:
         return []
 
+def fetch_8k_text_snippet(cik, accession_num, primary_doc):
+    """專為高價值 8-K 打造的輕量內文抓取器（只抓前 4000 字純文字）"""
+    acc_clean = accession_num.replace("-", "")
+    url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_clean}/{primary_doc}"
+    try:
+        res = requests.get(url, headers=SEC_HEADERS, timeout=12)
+        if res.status_code == 200:
+            text = re.sub(r"<[^>]+>", " ", res.text)
+            text = " ".join(text.split())
+            return text[:4000]
+    except Exception:
+        pass
+    return ""
 
-# ==================== 本地定性解構引擎 ====================
-def parse_filing_intelligence(ticker, form_type, items_str):
-    """
-    純本地代碼解碼：精準、即時、無幻覺，將 SEC 代碼直譯為買方實務解讀
-    """
+
+# ==================== AI 深度解構核心 ====================
+def analyze_8k_with_ai(ticker, items_str, doc_text):
+    """交由 GPT 解析 8-K 內文中的金額、交易對手與實質條款"""
+    if not OPENAI_API_KEY or not doc_text:
+        return "• 【實質動作】：官方實質 8-K 重大條款申報。\n• 【調閱指引】：請點擊卡片連結查核官方合約原文。"
+
+    api_url = "https://api.openai.com/v1/chat/completions"
+    headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
+
+    prompt = f"""
+你是一位精準的美股買方分析師。標的【{ticker}】發布了 8-K 重大申報（涉及項目：{items_str}）。
+以下是該份文件的官方原文節錄：
+\"\"\"{doc_text}\"\"\"
+
+請精確萃取並以繁體中文條列兩點（100 字以內，嚴禁任何模板廢話，直接給出硬核事實）：
+• 【核心動作】：交易對手是誰、合約/融資具體金額（百萬/億美元）、收購或處分標的、年利率或關鍵時程。
+• 【買方評估】：對 {ticker} 之營收貢獻、資金流動性、負債壓力或股本稀釋衝擊。
+"""
+    payload = {
+        "model": "gpt-4o-mini",
+        "messages": [
+            {"role": "system", "content": "你是一位分毫不差的買方研究員，專注萃取 8-K 的具體金額、交易對手與條款數值。"},
+            {"role": "user", "content": prompt}
+        ],
+        "temperature": 0.1
+    }
+
+    for _ in range(2):
+        try:
+            res = requests.post(api_url, headers=headers, json=payload, timeout=20)
+            data = res.json()
+            if "choices" in data:
+                return data["choices"][0]["message"]["content"].strip()
+        except Exception:
+            time.sleep(1)
+            
+    return "• 【核心動作】：重大營運合約或債務變更。\n• 【調閱指引】：請點擊連結查核具體金額細節。"
+
+
+def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, primary_doc):
     clean_form = form_type.upper().strip()
 
-    # 1. 財報拖延黑天鵝（12b-25 / NT 10-Q / NT 10-K）
+    # 1. 財報拖延黑天鵝
     if clean_form in ["12B-25", "NT 10-Q", "NT 10-K"]:
         return {
             "title": f"🚨 【重大黑天鵝】財報難產延期申報：{ticker}",
@@ -145,11 +196,11 @@ def parse_filing_intelligence(ticker, form_type, items_str):
             "tag": f"{form_type} (財報拖延 / 審計異常預警)",
             "summary": (
                 f"• 【核心警報】：{ticker} 正式向 SEC 申報無法如期繳交定期財報。\n"
-                f"• 【實質風險】：通常涉及內部控制缺失、會計師審計障礙或潛在財務重編，留意二級市場跳空拋壓。"
+                f"• 【實質風險】：通常涉及內部控制缺失、審計障礙或潛在財務重編，留意二級市場跳空拋壓。"
             )
         }
 
-    # 2. 定期財報（10-Q / 10-K 及修正案）
+    # 2. 定期財報
     if clean_form.startswith("10-Q") or clean_form.startswith("10-K"):
         period_type = "季度報告" if "10-Q" in clean_form else "年度報告"
         if "/A" in clean_form:
@@ -159,20 +210,20 @@ def parse_filing_intelligence(ticker, form_type, items_str):
             "color": 0x3498DB,
             "tag": f"{form_type} ({period_type})",
             "summary": (
-                f"• 【核心動作】：{ticker} 正式提交官方法定 {period_type}。\n"
-                f"• 【查核要點】：請點擊卡片連結調閱原文確認 GAAP 營業毛利、自由現金流結構及管理層營運展望 (MD&A)。"
+                f"• 【核心動作】：{ticker} 正式提交法定 {period_type}。\n"
+                f"• 【查核要點】：請點擊卡片連結調閱原文確認 GAAP 毛利、營收指引與自由現金流結構。"
             )
         }
 
-    # 3. 增發融資補充說明書（424B5 / 424B7）
+    # 3. 增發融資與股東釋出
     if clean_form == "424B5":
         return {
             "title": f"⚠️ 【資本稀釋警報】增發定價/ATM 啟動：{ticker}",
             "color": 0xE67E22,
             "tag": "424B5 (公開發行補充說明書)",
             "summary": (
-                f"• 【核心動作】：{ticker} 提交 424B5 補充說明書，正式啟動現增、可轉債發行或 ATM 市價配售機制。\n"
-                f"• 【市場衝擊】：留意新股發行價格之折價幅度，防範流通股本增加對 EPS 產生稀釋壓力。"
+                f"• 【核心動作】：{ticker} 提交 424B5 補充說明書，正式啟動現增、可轉債發行或 ATM 配售。\n"
+                f"• 【市場衝擊】：留意新股發行折價幅度，防範股本增加對 EPS 產生稀釋壓力。"
             )
         }
 
@@ -182,53 +233,63 @@ def parse_filing_intelligence(ticker, form_type, items_str):
             "color": 0xE67E22,
             "tag": "424B7 (轉讓股權說明書)",
             "summary": (
-                f"• 【核心動作】：{ticker} 申報現有特定股東、創始團隊或機構投資人之轉讓說明書。\n"
-                f"• 【籌碼影響】：涉及非公司端募集資金之籌碼面釋出，注意二級市場短期承接胃納量。"
+                f"• 【核心動作】：{ticker} 申報現有特定股東、創始團隊或機構之轉讓說明書。\n"
+                f"• 【籌碼影響】：涉及非公司端募集資金之持股釋出，留意二級市場短期承接力道。"
             )
         }
 
-    # 4. 貨架登記（S-3 / S-3ASR 及修正案）
+    # 4. 貨架登記
     if clean_form.startswith("S-3"):
         return {
             "title": f"📑 【融資水龍頭打開】貨架註冊生效：{ticker}",
             "color": 0xF39C12,
             "tag": f"{form_type} (貨架登記申請)",
             "summary": (
-                f"• 【核心動作】：{ticker} 向 SEC 申請綜合貨架登記，取得未來三年內隨時發行新股/債券融資之總額度。\n"
-                f"• 【估值影響】：市場通常將其視為未來資本稀釋的前兆，小盤股多伴隨承壓反應。"
+                f"• 【核心動作】：{ticker} 申請綜合貨架登記，取得未來三年內隨時融資發行新股/債券之總額度。\n"
+                f"• 【估值影響】：市場通常視為未來資本稀釋前兆，小盤股多伴隨承壓反應。"
             )
         }
 
-    # 5. 外國 ADR 重大事件（6-K 及修正案）
+    # 5. 外國 ADR 重大事件
     if clean_form.startswith("6-K"):
         return {
             "title": f"🌍 【外國 ADR 官方重大事件】：{ticker}",
             "color": 0x9B59B6,
             "tag": f"{form_type} (外國發行人重大備案)",
             "summary": (
-                f"• 【核心動作】：外國掛牌實體 {ticker} 發布重大營運進展、資產處分、合約或本國交易所重大備案。\n"
+                f"• 【核心動作】：外國掛牌實體 {ticker} 發布重大營運進展、資產處分、合約或本國重大備案。\n"
                 f"• 【調閱指引】：ADR 重大事件在 SEC 無 Item 代碼，請立即點擊下方連結檢閱 6-K 附件原文。"
             )
         }
 
-    # 6. 本土 8-K 重大申報（根據 Item 代碼解讀）
+    # 6. 本土 8-K：Token 分流護城河架構
     if clean_form.startswith("8-K"):
-        item_tokens = re.findall(r"\d+\.\d+", items_str)
-        matched_descs = []
-        for it in item_tokens:
-            if it in ITEM_DEFINITIONS:
-                matched_descs.append(ITEM_DEFINITIONS[it])
+        item_tokens = set(re.findall(r"\d+\.\d+", items_str))
 
+        # A. 命中硬核條款：值得花費 Token，抓取內文讓 GPT 深度萃取金額與細節
+        if item_tokens & HIGH_IMPACT_8K_ITEMS:
+            print("      💎 [高價值 8-K] 命中硬核條款，調用 AI 審核內文...", flush=True)
+            doc_text = fetch_8k_text_snippet(cik, accession_num, primary_doc)
+            ai_analysis = analyze_8k_with_ai(ticker, items_str, doc_text)
+            return {
+                "title": f"⚡ 【實質 8-K 重大申報】：{ticker}",
+                "color": 0x2ECC71,  # 實質綠
+                "tag": f"{form_type} (核心項目: {items_str})",
+                "summary": ai_analysis
+            }
+
+        # B. 僅有 8.01/7.01 等自主揭露：本地代碼硬解，零 Token 消耗
+        matched_descs = [ITEM_DEFINITIONS[it] for it in item_tokens if it in ITEM_DEFINITIONS]
         if matched_descs:
-            desc_lines = "\n".join(f"• {d}" for d in matched_descs[:4])
+            desc_lines = "\n".join(f"• {d}" for d in matched_descs)
         else:
-            desc_lines = f"• 【實質申報】：涉及重大營運項目（代碼：{items_str or '未明確列示'}）。"
+            desc_lines = f"• 【自主揭露】：涉及備案代碼 {items_str or '8.01'}"
 
         return {
-            "title": f"⚡ 【實質 8-K 申報快訊】：{ticker}",
-            "color": 0x2ECC71,
-            "tag": f"{form_type} (項目: {items_str or '8.01'})",
-            "summary": f"{desc_lines}\n• 【查核重點】：請調閱官方原件確認交易金額、交易對手與具體時程。"
+            "title": f"📑 【8-K 例行/自主揭露】：{ticker}",
+            "color": 0x95A5A6,  # 中性灰
+            "tag": f"{form_type} (自願揭露: {items_str or '8.01'})",
+            "summary": f"{desc_lines}\n• 【調閱指引】：此申報未觸發硬核合約或融資條款，請點擊連結查閱原件。"
         }
 
     return None
@@ -253,7 +314,7 @@ def send_sec_discord_embed(ticker, form_type, filing_date, accession_num, cik, p
                 {"name": "📌 標的代號", "value": f"`{ticker}`", "inline": True},
                 {"name": "📄 官方表單", "value": f"`{intel['tag']}`", "inline": True},
                 {"name": "📅 申報日期", "value": f"`{filing_date}`", "inline": True},
-                {"name": "💡 買方核心解讀", "value": intel["summary"], "inline": False}
+                {"name": "💡 買方核心解讀", "value": intel["summary"][:1000], "inline": False}
             ],
             "footer": {"text": f"SEC EDGAR 原文直達 • 案號: {accession_num} • 推播: {now_tw_str}"}
         }]
@@ -292,7 +353,7 @@ def check_ticker_sec(ticker, cik, sent_history):
 
         print(f"   ↳ 審核表單: {form} | 案號: {accession} (日期: {filing_date}, 項目: {items or '無'})", flush=True)
 
-        # 8-K 本地排噪（注意：6-K 絕不進行此檢查，直接放行）
+        # 8-K 本地排噪：人事或股東會直接跳過（6-K 不受此限）
         if form.startswith("8-K"):
             item_tokens = set(re.findall(r"\d+\.\d+", items))
             if item_tokens and item_tokens.issubset(IGNORE_ITEMS):
@@ -307,8 +368,8 @@ def check_ticker_sec(ticker, cik, sent_history):
                 sent_history.add(accession)
                 continue
 
-        # 本地定性解讀
-        intel = parse_filing_intelligence(ticker, form, items)
+        # 解析情報（精準分流：高價值 8-K 才調用 AI）
+        intel = parse_filing_intelligence(ticker, form, items, cik, accession, filing["primaryDocument"])
         if not intel:
             continue
 
