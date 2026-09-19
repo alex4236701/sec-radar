@@ -164,26 +164,35 @@ def fetch_doc_text_snippet(cik, accession_num, primary_doc):
 
 # ==================== AI 深度解構核心 ====================
 def analyze_primary_8k_with_openai(ticker, items_str, doc_text):
-    """一級硬核條款：由 GPT-4o-mini 精確萃取金額與法律實質"""
+    """一級硬核條款：由 GPT-4o-mini 精確萃取核心要點與財務影響"""
     if not OPENAI_API_KEY or not doc_text:
-        return "• 【實質動作】：官方一級 8-K 重大條款申報。\n• 【調閱指引】：請點擊卡片連結查核官方合約原文。"
+        return (
+            f"• 【核心要點】：官方一級 8-K 重大條款申報（項目: {items_str}）。\n"
+            f"• 【財務影響】：涉及重大營運合約、債務或併購，請點擊連結查核具體金額細節。"
+        )
 
     api_url = "https://api.openai.com/v1/chat/completions"
-    headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
+    headers = {
+        "Authorization": f"Bearer {OPENAI_API_KEY}",
+        "Content-Type": "application/json"
+    }
 
     prompt = f"""
 你是一位精準的美股買方分析師。標的【{ticker}】發布了一級 8-K 重大申報（涉及項目：{items_str}）。
 以下是該份文件的官方原文節錄：
 \"\"\"{doc_text}\"\"\"
 
-請精確萃取並以繁體中文條列兩點（120 字以內，嚴禁任何模板廢話，直接給出硬核事實）：
-• 【核心動作】：交易對手是誰、合約/融資具體金額（百萬/億美元）、收購或處分標的、年利率或關鍵時程。
-• 【買方評估】：對 {ticker} 之營收貢獻、資金流動性、負債壓力或股本稀釋衝擊。
+請精確萃取並以「繁體中文」條列以下兩點（總長度 120 字以內，嚴禁任何客套話與開場白，直接講事實與數據）：
+• 【核心要點】：交易對手是誰、合約/融資具體金額（百萬/億美元）、收購或處分標的、年利率或關鍵時程。
+• 【財務影響】：對 {ticker} 之營收貢獻、自由現金流、負債壓力或股本稀釋衝擊。
 """
     payload = {
         "model": "gpt-4o-mini",
         "messages": [
-            {"role": "system", "content": "你是一位分毫不差的買方研究員，專注萃取 8-K 的具體金額、交易對手與條款數值。"},
+            {
+                "role": "system", 
+                "content": "你是一位分毫不差的買方研究員，專注萃取 8-K 的具體金額、交易對手與條款數值，直接輸出條列事實，嚴禁輸出任何引言贅字。"
+            },
             {"role": "user", "content": prompt}
         ],
         "temperature": 0.1
@@ -198,7 +207,10 @@ def analyze_primary_8k_with_openai(ticker, items_str, doc_text):
         except Exception:
             time.sleep(1)
             
-    return "• 【核心動作】：重大營運合約或債務變更。\n• 【調閱指引】：請點擊連結查核具體金額細節。"
+    return (
+        f"• 【核心要點】：重大營運合約或債務變更（項目: {items_str}）。\n"
+        f"• 【財務影響】：請點擊連結查核官方合約與財務條款原文。"
+    )
 
 
 def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
