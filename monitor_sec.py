@@ -8,6 +8,7 @@ from datetime import datetime, timezone, timedelta
 # ==================== 環境變數與路徑設定 ====================
 DISCORD_SEC_WEBHOOK = os.environ.get("DISCORD_SEC_WEBHOOK") or os.environ.get("DISCORD_NEWS_WEBHOOK")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 HISTORY_FILE = "sent_sec_log.txt"
 
 TW_TZ = timezone(timedelta(hours=8))
@@ -32,7 +33,7 @@ TARGET_FORMS = {
 # 本地直接封存之無意義項目（人事、股東會）
 IGNORE_ITEMS = {"5.02", "5.07"}
 
-# 值得花費 Token 審核的「硬核財務與營運條款」
+# 一級硬核條款：呼叫 OpenAI GPT-4o-mini
 HIGH_IMPACT_8K_ITEMS = {
     "1.01", "1.02", "1.03", 
     "2.01", "2.02", "2.03", "2.04", "2.05", "2.06", 
@@ -40,27 +41,11 @@ HIGH_IMPACT_8K_ITEMS = {
     "4.01", "4.02"
 }
 
-# 8-K 包含之實質項目（含 8.01，但 8.01 走本地免 Token 通道）
-SUBSTANTIVE_8K_ITEMS = HIGH_IMPACT_8K_ITEMS | {"8.01"}
+# 二級次要條款：呼叫免費 Gemini 2.0 Flash
+SECONDARY_8K_ITEMS = {"7.01", "8.01"}
 
-# 官方 SEC Item 代碼之買方意義對照庫
-ITEM_DEFINITIONS = {
-    "1.01": "【重大合約】：簽署實質商業採購、策略合作或關鍵供貨協議",
-    "1.02": "【合約終止】：重要重大商業合約遭到終止",
-    "1.03": "【破產重組】：公司或重要子公司進入破產保護程序",
-    "2.01": "【資本運作】：完成實質併購或重大業務部門/資產出售（Divestiture）",
-    "2.02": "【業績公布】：公布最新季度財務業績、財測指引或法說數據",
-    "2.03": "【新增債務】：承擔重大直接財務債務或表外融資安排",
-    "2.04": "【違約加速】：發生債務違約、融資觸發加速清償條款",
-    "2.05": "【重組裁員】：退出業務、啟動重組計畫或重大裁員資遣費用",
-    "2.06": "【資產減損】：確認大額資產減損或商譽減記（Impairment）",
-    "3.01": "【下市警告】：收到交易所不合規通知或下市處分警告",
-    "3.02": "【股權銷售】：未註冊股權銷售（私募發行、增發或可轉債融資）",
-    "3.03": "【權利變更】：股東權益實質重大變更（如啟動毒藥丸防衛）",
-    "4.01": "【審計變更】：獨立會計師事務所閃辭或遭到更換（重大警訊）",
-    "4.02": "【財報失效】：先前發布之官方財務報表不可信賴（即將重編假帳）",
-    "8.01": "【自主重大】：公司自願公告之重大市場未公開事項（新聞稿存檔）"
-}
+# 允許進入處理流程的 8-K 項目聯集
+SUBSTANTIVE_8K_ITEMS = HIGH_IMPACT_8K_ITEMS | SECONDARY_8K_ITEMS
 
 # 最大申報追溯天數（徹底阻絕舊文件）
 MAX_LOOKBACK_DAYS = 3
@@ -132,7 +117,7 @@ def fetch_sec_filings(cik):
         return []
 
 def fetch_8k_text_snippet(cik, accession_num, primary_doc):
-    """專為高價值 8-K 打造的輕量內文抓取器（只抓前 4000 字純文字）"""
+    """輕量內文抓取器（只抓前 4000 字純文字）"""
     acc_clean = accession_num.replace("-", "")
     url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_clean}/{primary_doc}"
     try:
@@ -147,16 +132,16 @@ def fetch_8k_text_snippet(cik, accession_num, primary_doc):
 
 
 # ==================== AI 深度解構核心 ====================
-def analyze_8k_with_ai(ticker, items_str, doc_text):
-    """交由 GPT 解析 8-K 內文中的金額、交易對手與實質條款"""
+def analyze_primary_8k_with_openai(ticker, items_str, doc_text):
+    """一級硬核條款：由 GPT-4o-mini 精確萃取金額與法律實質"""
     if not OPENAI_API_KEY or not doc_text:
-        return "• 【實質動作】：官方實質 8-K 重大條款申報。\n• 【調閱指引】：請點擊卡片連結查核官方合約原文。"
+        return "• 【實質動作】：官方一級 8-K 重大條款申報。\n• 【調閱指引】：請點擊卡片連結查核官方合約原文。"
 
     api_url = "https://api.openai.com/v1/chat/completions"
     headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
 
     prompt = f"""
-你是一位精準的美股買方分析師。標的【{ticker}】發布了 8-K 重大申報（涉及項目：{items_str}）。
+你是一位精準的美股買方分析師。標的【{ticker}】發布了一級 8-K 重大申報（涉及項目：{items_str}）。
 以下是該份文件的官方原文節錄：
 \"\"\"{doc_text}\"\"\"
 
@@ -183,6 +168,47 @@ def analyze_8k_with_ai(ticker, items_str, doc_text):
             time.sleep(1)
             
     return "• 【核心動作】：重大營運合約或債務變更。\n• 【調閱指引】：請點擊連結查核具體金額細節。"
+
+
+def analyze_secondary_8k_with_gemini(ticker, items_str, doc_text):
+    """二級自願條款（8.01/7.01）：由免費 Gemini 2.0 Flash 解析業務重點與潛在財務影響"""
+    if not GEMINI_API_KEY or not doc_text:
+        return f"• 【自主揭露】：涉及項目 {items_str}。\n• 【調閱指引】：請點擊連結查閱官方原件。"
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+    
+    prompt = f"""
+你是一位專業的美股買方分析師。標的【{ticker}】發布了 8-K 二級自願/例行申報（涉及項目：{items_str}）。
+以下是官方備案原文節錄：
+\"\"\"{doc_text}\"\"\"
+
+請精確解構該公告，並以繁體中文條列以下兩點（總字數 100 字以內，直接講事實，割除行銷贅字）：
+• 【核心要點】：公告重點是什麼（例如：債券發行規模與各期利率、重大產線進度、策略聯盟、或法說簡報主題）。
+• 【財務影響】：該事件對 {ticker} 的資本結構、現金流或短期營運之潛在財務實質影響（若純屬公關宣傳請直說無實質財務影響）。
+"""
+    payload = {
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }],
+        "generationConfig": {
+            "temperature": 0.1,
+            "maxOutputTokens": 300
+        }
+    }
+
+    for _ in range(2):
+        try:
+            res = requests.post(url, json=payload, timeout=20)
+            data = res.json()
+            candidates = data.get("candidates", [])
+            if candidates:
+                parts = candidates[0].get("content", {}).get("parts", [])
+                if parts and "text" in parts[0]:
+                    return parts[0]["text"].strip()
+        except Exception:
+            time.sleep(1)
+
+    return f"• 【自主揭露】：涉及項目 {items_str}，內容已存檔。\n• 【調閱指引】：請點擊卡片標題查閱原文。"
 
 
 def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, primary_doc):
@@ -262,15 +288,15 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             )
         }
 
-    # 6. 本土 8-K：Token 分流護城河架構
+    # 6. 本土 8-K：分流智慧解構架構
     if clean_form.startswith("8-K"):
         item_tokens = set(re.findall(r"\d+\.\d+", items_str))
 
-        # A. 命中硬核條款：值得花費 Token，抓取內文讓 GPT 深度萃取金額與細節
+        # 分支 A：命中一級硬核條款 -> 付費 GPT-4o-mini 深度萃取
         if item_tokens & HIGH_IMPACT_8K_ITEMS:
-            print("      💎 [高價值 8-K] 命中硬核條款，調用 AI 審核內文...", flush=True)
+            print("      💎 [高價值 8-K] 命中一級硬核條款，調用 OpenAI 審核內文...", flush=True)
             doc_text = fetch_8k_text_snippet(cik, accession_num, primary_doc)
-            ai_analysis = analyze_8k_with_ai(ticker, items_str, doc_text)
+            ai_analysis = analyze_primary_8k_with_openai(ticker, items_str, doc_text)
             return {
                 "title": f"⚡ 【實質 8-K 重大申報】：{ticker}",
                 "color": 0x2ECC71,  # 實質綠
@@ -278,18 +304,24 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
                 "summary": ai_analysis
             }
 
-        # B. 僅有 8.01/7.01 等自主揭露：本地代碼硬解，零 Token 消耗
-        matched_descs = [ITEM_DEFINITIONS[it] for it in item_tokens if it in ITEM_DEFINITIONS]
-        if matched_descs:
-            desc_lines = "\n".join(f"• {d}" for d in matched_descs)
-        else:
-            desc_lines = f"• 【自主揭露】：涉及備案代碼 {items_str or '8.01'}"
+        # 分支 B：二級自願揭露（8.01/7.01） -> 免費 Gemini 2.0 Flash 提取重點與財務影響
+        if item_tokens & SECONDARY_8K_ITEMS:
+            print("      💡 [二級 8-K] 命中 8.01/7.01 自願揭露，調用免費 Gemini 2.0 Flash 摘要...", flush=True)
+            doc_text = fetch_8k_text_snippet(cik, accession_num, primary_doc)
+            gemini_analysis = analyze_secondary_8k_with_gemini(ticker, items_str, doc_text)
+            return {
+                "title": f"📑 【8-K 自願揭露解讀】：{ticker}",
+                "color": 0x34495E,  # 深藍灰
+                "tag": f"{form_type} (自願備案: {items_str})",
+                "summary": gemini_analysis
+            }
 
+        # 分支 C：其他非核心雜項代碼（若未被 IGNORE_ITEMS 阻斷）
         return {
-            "title": f"📑 【8-K 例行/自主揭露】：{ticker}",
-            "color": 0x95A5A6,  # 中性灰
-            "tag": f"{form_type} (自願揭露: {items_str or '8.01'})",
-            "summary": f"{desc_lines}\n• 【調閱指引】：此申報未觸發硬核合約或融資條款，請點擊連結查閱原件。"
+            "title": f"📑 【8-K 例行申報】：{ticker}",
+            "color": 0x95A5A6,
+            "tag": f"{form_type} (項目: {items_str})",
+            "summary": f"• 【例行備案】：涉及項目代碼 {items_str}。\n• 【調閱指引】：請點擊標題查閱原文。"
         }
 
     return None
@@ -357,23 +389,23 @@ def check_ticker_sec(ticker, cik, sent_history):
         if form.startswith("8-K"):
             item_tokens = set(re.findall(r"\d+\.\d+", items))
             if item_tokens and item_tokens.issubset(IGNORE_ITEMS):
-                print("     [本地過濾] 純人事變更/股東會議程，跳過", flush=True)
+                print("      [本地過濾] 純人事變更/股東會議程，跳過", flush=True)
                 save_sec_id(accession)
                 sent_history.add(accession)
                 continue
 
             if item_tokens and not (item_tokens & SUBSTANTIVE_8K_ITEMS):
-                print("     [本地過濾] 非核心實質項目代碼，跳過", flush=True)
+                print("      [本地過濾] 非核心實質項目代碼，跳過", flush=True)
                 save_sec_id(accession)
                 sent_history.add(accession)
                 continue
 
-        # 解析情報（精準分流：高價值 8-K 才調用 AI）
+        # 解析情報（精準分流）
         intel = parse_filing_intelligence(ticker, form, items, cik, accession, filing["primaryDocument"])
         if not intel:
             continue
 
-        print(f"     🎯 [實質申報] 判定為 {form} 重大文件！推播至 Discord...", flush=True)
+        print(f"      🎯 [實質申報] 判定為 {form} 重大文件！推播至 Discord...", flush=True)
         send_sec_discord_embed(ticker, form, filing_date, accession, cik, filing["primaryDocument"], intel)
         
         # 紀錄已發案號
