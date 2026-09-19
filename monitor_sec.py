@@ -211,18 +211,16 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
         print("      ⚠️ [Gemini 略過] 內文過短或純屬索引目錄", flush=True)
         return f"• 【自主揭露】：涉及備案 {filing_context}（內文詳見官方附件）。\n• 【調閱指引】：請點擊卡片連結查閱原文附件。"
 
-    # 對齊官方指定的 gemini-3.6-flash 端點
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={GEMINI_API_KEY}"
     
-    prompt = (
-        f"你是一位精準的美股買方分析師。標的【{ticker}】發布了 SEC 官方申報（涉及類別：{filing_context}）。\n"
-        f"以下是官方原文節錄：\n\"\"\"{doc_text}\"\"\"\n\n"
-        "【輸出鐵律】：\n"
-        "1. 必須 100% 使用繁體中文回答，嚴禁照抄英文原文，嚴禁輸出開場白（如「以下為解析」）。\n"
-        "2. 嚴格依照下列格式條列兩點（總長度 120 字以內，直切本質）：\n"
-        "• 【核心要點】：精確陳述發生了什麼具體事件（如：發債金額與利率、產線推進、併購進展、策略結盟或法說簡報主題）。\n"
-        "• 【財務影響】：對公司資本結構、現金流、獲利能力或營運之實質影響（若純屬公關宣傳，直接註明無實質財務影響）。"
-    )
+    prompt = f"""
+請扮演美股買方分析師，閱讀以下標的【{ticker}】的 SEC 申報（類別：{filing_context}）：
+\"\"\"{doc_text}\"\"\"
+
+請精確萃取並以「繁體中文」條列出以下兩點（直接輸出，嚴禁任何開場白或推理自述）：
+• 【核心要點】：具體發生了什麼事（如債券規模與利率、合約金額、併購投票日程或法說主題）。
+• 【財務影響】：對公司資本結構、自由現金流或營運的具體影響（若僅為公關稿請寫無實質財務影響）。
+"""
 
     headers = {"Content-Type": "application/json"}
     payload = {
@@ -231,7 +229,11 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
         }],
         "generationConfig": {
             "temperature": 0.1,
-            "maxOutputTokens": 1000  # 徹底放寬限制，避免繁體中文遭截斷
+            "maxOutputTokens": 800,
+            # 關鍵修正：關閉思考過程輸出，強制直出結論
+            "thinkingConfig": {
+                "thinkingBudget": 0
+            }
         }
     }
 
@@ -247,8 +249,18 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
             candidates = data.get("candidates", [])
             if candidates:
                 parts = candidates[0].get("content", {}).get("parts", [])
-                if parts and "text" in parts[0]:
-                    return parts[0]["text"].strip()
+                # 排除思考標籤，只抓取真正的回傳文字
+                real_text = ""
+                for part in parts:
+                    if "thought" not in part and "text" in part:
+                        real_text += part["text"]
+                
+                # 如果沒有特別區分欄位，就拿第一個 text
+                if not real_text and parts and "text" in parts[0]:
+                    real_text = parts[0]["text"]
+
+                if real_text.strip():
+                    return real_text.strip()
             else:
                 print(f"      ⚠️ [Gemini 回傳空結構] {data}", flush=True)
         except Exception as e:
