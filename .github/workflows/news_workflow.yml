@@ -2,10 +2,12 @@ name: Commercial News Bot
 
 on:
   schedule:
-    # 盤中時段 (台灣 21:30 - 05:30，每小時執行一次)
-    - cron: '30 13-21 * * *'
-    # 離峰時段 (台灣 09:30, 13:30, 17:30)
-    - cron: '30 1,5,9 * * *'
+    # 平日時段（UTC 週日至週四，換算台灣週一至週五盤中與日常常規巡檢）
+    - cron: '30 13-21 * * 0-4'   # 盤中密集時段 (台灣 21:30 - 05:30)
+    - cron: '30 1,5,9 * * 1-5'    # 離峰時段 (台灣 09:30, 13:30, 17:30)
+    
+    # 假日時段（UTC 週五晚上至週日，換算台灣週六至週日，排程直接降為每 8 小時觸發一次）
+    - cron: '30 0,8,16 * * 5-6'   # 台灣時間週六與週日的 08:30, 16:30, 00:30
   workflow_dispatch:
 
 jobs:
@@ -37,16 +39,18 @@ jobs:
         run: |
           python monitor_news.py
 
-      - name: Commit and Push Sent History
+      - name: Commit and Push Sent History & Weekend Timestamp
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           touch sent_news_log.txt
-          git add sent_news_log.txt
-          if [ -n "$(git status --porcelain sent_news_log.txt)" ]; then
-            git commit -m "chore: update sent news history [skip ci]"
+          touch weekend_last_run.txt
+          # 關鍵修正：同時追蹤新聞歷史庫與週末時間戳
+          git add sent_news_log.txt weekend_last_run.txt
+          if [ -n "$(git status --porcelain sent_news_log.txt weekend_last_run.txt)" ]; then
+            git commit -m "chore: update sent news history & weekend state [skip ci]"
             git pull --rebase -X theirs origin main
             git push origin main
           else
-            echo "無新新聞紀錄需更新。"
+            echo "無新新聞紀錄或時間戳需更新。"
           fi
