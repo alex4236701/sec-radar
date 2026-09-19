@@ -116,19 +116,50 @@ def fetch_sec_filings(cik):
     except Exception:
         return []
 
+def clean_html_to_text(html_content):
+    text = re.sub(r"<style[\s\S]*?</style>", " ", html_content, flags=re.I)
+    text = re.sub(r"<script[\s\S]*?</script>", " ", text, flags=re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    return " ".join(text.split())
+
 def fetch_8k_text_snippet(cik, accession_num, primary_doc):
-    """輕量內文抓取器（只抓前 4000 字純文字）"""
+    """抓取 8-K 內文純文字（前 4000 字），若主檔為空殼則自動嘗試穿透 Exhibit 99.1 附件"""
     acc_clean = accession_num.replace("-", "")
-    url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_clean}/{primary_doc}"
+    base_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_clean}/"
+    
+    # 1. 抓取主申報文件
+    main_doc_url = base_url + primary_doc
+    main_text = ""
     try:
-        res = requests.get(url, headers=SEC_HEADERS, timeout=12)
+        res = requests.get(main_doc_url, headers=SEC_HEADERS, timeout=12)
         if res.status_code == 200:
-            text = re.sub(r"<[^>]+>", " ", res.text)
-            text = " ".join(text.split())
-            return text[:4000]
+            main_text = clean_html_to_text(res.text)
     except Exception:
         pass
-    return ""
+
+    # 若主文件字數充足，直接回傳
+    if len(main_text) >= 200:
+        return main_text[:4000]
+
+    # 2. 主文件過短（空殼備案），嘗試抓取常見的新聞稿 Exhibit 附件
+    print("      ℹ️ [內文穿透] 8-K 主檔過短，嘗試搜尋 Exhibit 99.1 附件...", flush=True)
+    potential_exhibits = [
+        "ex99-1.htm", "ex-99.1.htm", "ex991.htm", "ex99_1.htm", 
+        "ex-99-1.htm", "d991.htm", "exhibit99-1.htm"
+    ]
+    for ex_doc in potential_exhibits:
+        try:
+            ex_url = base_url + ex_doc
+            res_ex = requests.get(ex_url, headers=SEC_HEADERS, timeout=8)
+            if res_ex.status_code == 200:
+                ex_text = clean_html_to_text(res_ex.text)
+                if len(ex_text) >= 200:
+                    print(f"      ✅ [附件命中] 成功取得附件 {ex_doc} 內文！", flush=True)
+                    return ex_text[:4000]
+        except Exception:
+            continue
+
+    return main_text[:4000] if main_text else ""
 
 
 # ==================== AI 深度解構核心 ====================
@@ -172,20 +203,25 @@ def analyze_primary_8k_with_openai(ticker, items_str, doc_text):
 
 def analyze_secondary_8k_with_gemini(ticker, items_str, doc_text):
     """二級自願條款（8.01/7.01）：由免費 Gemini 2.0 Flash 解析業務重點與潛在財務影響"""
-    if not GEMINI_API_KEY or not doc_text:
+    if not GEMINI_API_KEY:
+        print("      ⚠️ [Gemini 略過] 系統未讀取到 GEMINI_API_KEY 環境變數", flush=True)
         return f"• 【自主揭露】：涉及項目 {items_str}。\n• 【調閱指引】：請點擊連結查閱官方原件。"
+        
+    if not doc_text or len(doc_text.strip()) < 30:
+        print("      ⚠️ [Gemini 略過] 內文過短或純屬索引目錄", flush=True)
+        return f"• 【自主揭露】：涉及項目 {items_str}（內文詳見官方附件）。\n• 【調閱指引】：請點擊卡片連結查閱原文附件。"
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
     
-    prompt = f"""
-你是一位專業的美股買方分析師。標的【{ticker}】發布了 8-K 二級自願/例行申報（涉及項目：{items_str}）。
-以下是官方備案原文節錄：
-\"\"\"{doc_text}\"\"\"
+    prompt = (
+        f"你是一位專業的美股買方分析師。標的【{ticker}】發布了 8-K 二級自願/例行申報（涉及項目：{items_str}）。\n"
+        f"以下是官方備案原文節錄：\n\"\"\"{doc_text}\"\"\"\n\n"
+        "請精確解構該公告，並以繁體中文條列以下兩點（總字數 100 字以內，直接講事實，割除行銷贅字）：\n"
+        "• 【核心要點】：公告重點是什麼（例如：債券發行規模與各期利率、重大產線進度、策略聯盟、或法說簡報主題）。\n"
+        "• 【財務影響】：該事件對資本結構、現金流或營運之潛在財務影響（若純屬公關宣傳請直說無實質財務影響）。"
+    )
 
-請精確解構該公告，並以繁體中文條列以下兩點（總字數 100 字以內，直接講事實，割除行銷贅字）：
-• 【核心要點】：公告重點是什麼（例如：債券發行規模與各期利率、重大產線進度、策略聯盟、或法說簡報主題）。
-• 【財務影響】：該事件對 {ticker} 的資本結構、現金流或短期營運之潛在財務實質影響（若純屬公關宣傳請直說無實質財務影響）。
-"""
+    headers = {"Content-Type": "application/json"}
     payload = {
         "contents": [{
             "parts": [{"text": prompt}]
@@ -196,16 +232,24 @@ def analyze_secondary_8k_with_gemini(ticker, items_str, doc_text):
         }
     }
 
-    for _ in range(2):
+    for attempt in range(2):
         try:
-            res = requests.post(url, json=payload, timeout=20)
+            res = requests.post(url, headers=headers, json=payload, timeout=20)
+            if res.status_code != 200:
+                print(f"      ❌ [Gemini API 報錯] HTTP {res.status_code}: {res.text}", flush=True)
+                time.sleep(1)
+                continue
+                
             data = res.json()
             candidates = data.get("candidates", [])
             if candidates:
                 parts = candidates[0].get("content", {}).get("parts", [])
                 if parts and "text" in parts[0]:
                     return parts[0]["text"].strip()
-        except Exception:
+            else:
+                print(f"      ⚠️ [Gemini 回傳空結構] {data}", flush=True)
+        except Exception as e:
+            print(f"      ❌ [Gemini 連線異常] {e}", flush=True)
             time.sleep(1)
 
     return f"• 【自主揭露】：涉及項目 {items_str}，內容已存檔。\n• 【調閱指引】：請點擊卡片標題查閱原文。"
@@ -316,7 +360,7 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
                 "summary": gemini_analysis
             }
 
-        # 分支 C：其他非核心雜項代碼（若未被 IGNORE_ITEMS 阻斷）
+        # 分支 C：其他非核心雜項代碼
         return {
             "title": f"📑 【8-K 例行申報】：{ticker}",
             "color": 0x95A5A6,
