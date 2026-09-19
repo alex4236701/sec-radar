@@ -41,7 +41,7 @@ HIGH_IMPACT_8K_ITEMS = {
     "4.01", "4.02"
 }
 
-# 二級次要條款：呼叫免費 Gemini 2.0 Flash
+# 二級次要條款：呼叫免費 Gemini 3.6 Flash
 SECONDARY_8K_ITEMS = {"7.01", "8.01"}
 
 # 允許進入處理流程的 8-K 項目聯集
@@ -122,8 +122,8 @@ def clean_html_to_text(html_content):
     text = re.sub(r"<[^>]+>", " ", text)
     return " ".join(text.split())
 
-def fetch_8k_text_snippet(cik, accession_num, primary_doc):
-    """抓取 8-K 內文純文字（前 4000 字），若主檔為空殼則自動嘗試穿透 Exhibit 99.1 附件"""
+def fetch_doc_text_snippet(cik, accession_num, primary_doc):
+    """抓取 8-K/6-K 內文純文字（前 4000 字），若主檔為空殼則自動嘗試穿透 Exhibit 99.1 附件"""
     acc_clean = accession_num.replace("-", "")
     base_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_clean}/"
     
@@ -142,7 +142,7 @@ def fetch_8k_text_snippet(cik, accession_num, primary_doc):
         return main_text[:4000]
 
     # 2. 主文件過短（空殼備案），嘗試抓取常見的新聞稿 Exhibit 附件
-    print("      ℹ️ [內文穿透] 8-K 主檔過短，嘗試搜尋 Exhibit 99.1 附件...", flush=True)
+    print("      ℹ️ [內文穿透] 主檔過短，嘗試搜尋 Exhibit 99.1 附件...", flush=True)
     potential_exhibits = [
         "ex99-1.htm", "ex-99.1.htm", "ex991.htm", "ex99_1.htm", 
         "ex-99-1.htm", "d991.htm", "exhibit99-1.htm"
@@ -201,23 +201,24 @@ def analyze_primary_8k_with_openai(ticker, items_str, doc_text):
     return "• 【核心動作】：重大營運合約或債務變更。\n• 【調閱指引】：請點擊連結查核具體金額細節。"
 
 
-def analyze_secondary_8k_with_gemini(ticker, items_str, doc_text):
-    """二級自願條款（8.01/7.01）：由免費 Gemini 2.0 Flash 解析業務重點與潛在財務影響"""
+def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
+    """二級自願條款（8.01/7.01）與外國 6-K：由免費 Gemini 3.6 Flash 解析業務重點與潛在財務影響"""
     if not GEMINI_API_KEY:
         print("      ⚠️ [Gemini 略過] 系統未讀取到 GEMINI_API_KEY 環境變數", flush=True)
-        return f"• 【自主揭露】：涉及項目 {items_str}。\n• 【調閱指引】：請點擊連結查閱官方原件。"
+        return f"• 【自主揭露】：涉及備案 {filing_context}。\n• 【調閱指引】：請點擊連結查閱官方原件。"
         
     if not doc_text or len(doc_text.strip()) < 30:
         print("      ⚠️ [Gemini 略過] 內文過短或純屬索引目錄", flush=True)
-        return f"• 【自主揭露】：涉及項目 {items_str}（內文詳見官方附件）。\n• 【調閱指引】：請點擊卡片連結查閱原文附件。"
+        return f"• 【自主揭露】：涉及備案 {filing_context}（內文詳見官方附件）。\n• 【調閱指引】：請點擊卡片連結查閱原文附件。"
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+    # 對齊官方指定的 gemini-3.6-flash 端點
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={GEMINI_API_KEY}"
     
     prompt = (
-        f"你是一位專業的美股買方分析師。標的【{ticker}】發布了 8-K 二級自願/例行申報（涉及項目：{items_str}）。\n"
+        f"你是一位專業的美股買方分析師。標的【{ticker}】發布了官方申報（涉及類別：{filing_context}）。\n"
         f"以下是官方備案原文節錄：\n\"\"\"{doc_text}\"\"\"\n\n"
         "請精確解構該公告，並以繁體中文條列以下兩點（總字數 100 字以內，直接講事實，割除行銷贅字）：\n"
-        "• 【核心要點】：公告重點是什麼（例如：債券發行規模與各期利率、重大產線進度、策略聯盟、或法說簡報主題）。\n"
+        "• 【核心要點】：公告重點是什麼（例如：債券發行規模與各期利率、重大產線進度、策略聯盟、外國本國重大公告或法說主題）。\n"
         "• 【財務影響】：該事件對資本結構、現金流或營運之潛在財務影響（若純屬公關宣傳請直說無實質財務影響）。"
     )
 
@@ -252,7 +253,7 @@ def analyze_secondary_8k_with_gemini(ticker, items_str, doc_text):
             print(f"      ❌ [Gemini 連線異常] {e}", flush=True)
             time.sleep(1)
 
-    return f"• 【自主揭露】：涉及項目 {items_str}，內容已存檔。\n• 【調閱指引】：請點擊卡片標題查閱原文。"
+    return f"• 【自主揭露】：涉及項目 {filing_context}，內容已存檔。\n• 【調閱指引】：請點擊卡片標題查閱原文。"
 
 
 def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, primary_doc):
@@ -320,16 +321,16 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             )
         }
 
-    # 5. 外國 ADR 重大事件
+    # 5. 外國 ADR 重大事件（直接調用免費 Gemini 3.6 Flash 自動摘要）
     if clean_form.startswith("6-K"):
+        print(f"      🌍 [外國 6-K] 檢測到 {ticker} ADR 申報，調用免費 Gemini 3.6 Flash 摘要...", flush=True)
+        doc_text = fetch_doc_text_snippet(cik, accession_num, primary_doc)
+        gemini_analysis = analyze_secondary_with_gemini(ticker, f"{form_type} (外國重大備案)", doc_text)
         return {
             "title": f"🌍 【外國 ADR 官方重大事件】：{ticker}",
-            "color": 0x9B59B6,
+            "color": 0x9B59B6,  # 專屬紫
             "tag": f"{form_type} (外國發行人重大備案)",
-            "summary": (
-                f"• 【核心動作】：外國掛牌實體 {ticker} 發布重大營運進展、資產處分、合約或本國重大備案。\n"
-                f"• 【調閱指引】：ADR 重大事件在 SEC 無 Item 代碼，請立即點擊下方連結檢閱 6-K 附件原文。"
-            )
+            "summary": gemini_analysis
         }
 
     # 6. 本土 8-K：分流智慧解構架構
@@ -339,7 +340,7 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
         # 分支 A：命中一級硬核條款 -> 付費 GPT-4o-mini 深度萃取
         if item_tokens & HIGH_IMPACT_8K_ITEMS:
             print("      💎 [高價值 8-K] 命中一級硬核條款，調用 OpenAI 審核內文...", flush=True)
-            doc_text = fetch_8k_text_snippet(cik, accession_num, primary_doc)
+            doc_text = fetch_doc_text_snippet(cik, accession_num, primary_doc)
             ai_analysis = analyze_primary_8k_with_openai(ticker, items_str, doc_text)
             return {
                 "title": f"⚡ 【實質 8-K 重大申報】：{ticker}",
@@ -348,11 +349,11 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
                 "summary": ai_analysis
             }
 
-        # 分支 B：二級自願揭露（8.01/7.01） -> 免費 Gemini 2.0 Flash 提取重點與財務影響
+        # 分支 B：二級自願揭露（8.01/7.01） -> 免費 Gemini 3.6 Flash 提取重點與財務影響
         if item_tokens & SECONDARY_8K_ITEMS:
-            print("      💡 [二級 8-K] 命中 8.01/7.01 自願揭露，調用免費 Gemini 2.0 Flash 摘要...", flush=True)
-            doc_text = fetch_8k_text_snippet(cik, accession_num, primary_doc)
-            gemini_analysis = analyze_secondary_8k_with_gemini(ticker, items_str, doc_text)
+            print("      💡 [二級 8-K] 命中 8.01/7.01 自願揭露，調用免費 Gemini 3.6 Flash 摘要...", flush=True)
+            doc_text = fetch_doc_text_snippet(cik, accession_num, primary_doc)
+            gemini_analysis = analyze_secondary_with_gemini(ticker, f"8-K 項目 {items_str}", doc_text)
             return {
                 "title": f"📑 【8-K 自願揭露解讀】：{ticker}",
                 "color": 0x34495E,  # 深藍灰
