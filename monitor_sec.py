@@ -230,42 +230,49 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
         "generationConfig": {
             "temperature": 0.1,
             "maxOutputTokens": 800,
-            # 關鍵修正：關閉思考過程輸出，強制直出結論
             "thinkingConfig": {
                 "thinkingBudget": 0
             }
         }
     }
 
-    for attempt in range(2):
+    # 針對 Free Tier 5 RPM 限制做自動重試與冷卻
+    for attempt in range(3):
         try:
-            res = requests.post(url, headers=headers, json=payload, timeout=20)
+            res = requests.post(url, headers=headers, json=payload, timeout=25)
+            
+            # 遇到 429 速率限制：動態休眠 12 秒等待冷卻
+            if res.status_code == 429:
+                print("      ⏳ [Gemini 觸發 5 RPM 上限] 休眠 12 秒等待配額重置後重試...", flush=True)
+                time.sleep(12)
+                continue
+                
             if res.status_code != 200:
                 print(f"      ❌ [Gemini API 報錯] HTTP {res.status_code}: {res.text}", flush=True)
-                time.sleep(1)
+                time.sleep(2)
                 continue
                 
             data = res.json()
             candidates = data.get("candidates", [])
             if candidates:
                 parts = candidates[0].get("content", {}).get("parts", [])
-                # 排除思考標籤，只抓取真正的回傳文字
                 real_text = ""
                 for part in parts:
                     if "thought" not in part and "text" in part:
                         real_text += part["text"]
                 
-                # 如果沒有特別區分欄位，就拿第一個 text
                 if not real_text and parts and "text" in parts[0]:
                     real_text = parts[0]["text"]
 
                 if real_text.strip():
+                    # 每次成功呼叫後短暫冷卻 2.5 秒，保護下一筆請求不撞牆
+                    time.sleep(2.5)
                     return real_text.strip()
             else:
                 print(f"      ⚠️ [Gemini 回傳空結構] {data}", flush=True)
         except Exception as e:
             print(f"      ❌ [Gemini 連線異常] {e}", flush=True)
-            time.sleep(1)
+            time.sleep(2)
 
     return f"• 【自主揭露】：涉及項目 {filing_context}，內容已存檔。\n• 【調閱指引】：請點擊卡片標題查閱原文。"
 
