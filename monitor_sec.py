@@ -13,7 +13,7 @@ HISTORY_FILE = "sent_sec_log.txt"
 
 TW_TZ = timezone(timedelta(hours=8))
 
-# SEC 官方合規 User-Agent（包含真實聯絡管道）
+# SEC 官方合規 User-Agent
 SEC_HEADERS = {
     "User-Agent": "InstitutionalAlphaResearch/2.0 (yomin701@gmail.com)",
     "Accept-Encoding": "gzip, deflate"
@@ -30,7 +30,7 @@ TARGET_FORMS = {
     "12b-25"
 }
 
-# 本地直接封存之無意義項目（人事、股東會）
+# 本地直接封存之無意義項目（人事變更、股東會議程）
 IGNORE_ITEMS = {"5.02", "5.07"}
 
 # 一級硬核條款：呼叫 OpenAI GPT-4o-mini
@@ -123,7 +123,7 @@ def clean_html_to_text(html_content):
     return " ".join(text.split())
 
 def fetch_doc_text_snippet(cik, accession_num, primary_doc):
-    """抓取 8-K/6-K 內文純文字（前 4000 字），若主檔為空殼則自動嘗試穿透 Exhibit 99.1 附件"""
+    """抓取 8-K/6-K 內文純文字（前 4000 字），若主檔為空殼則自動穿透掃描 Exhibit 99.1 附件"""
     acc_clean = accession_num.replace("-", "")
     base_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_clean}/"
     
@@ -137,12 +137,12 @@ def fetch_doc_text_snippet(cik, accession_num, primary_doc):
     except Exception:
         pass
 
-    # 若主文件字數充足，直接回傳
+    # 若主文件純文字充足，直接回傳
     if len(main_text) >= 200:
         return main_text[:4000]
 
-    # 2. 主文件過短（空殼備案），嘗試抓取常見的新聞稿 Exhibit 附件
-    print("      ℹ️ [內文穿透] 主檔過短，嘗試搜尋 Exhibit 99.1 附件...", flush=True)
+    # 2. 主文件過短（外殼備案），自動嘗試掃描常見的新聞稿 Exhibit 附件
+    print("      ℹ️ [內文穿透] 主檔過短，搜尋 Exhibit 99.1 附件...", flush=True)
     potential_exhibits = [
         "ex99-1.htm", "ex-99.1.htm", "ex991.htm", "ex99_1.htm", 
         "ex-99-1.htm", "d991.htm", "exhibit99-1.htm"
@@ -217,19 +217,20 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
     """二級自願條款（8.01/7.01）與外國 6-K：由免費 Gemini 3.6 Flash 解析業務重點與潛在財務影響"""
     if not GEMINI_API_KEY:
         print("      ⚠️ [Gemini 略過] 系統未讀取到 GEMINI_API_KEY 環境變數", flush=True)
-        return f"• 【自主揭露】：涉及備案 {filing_context}。\n• 【調閱指引】：請點擊連結查閱官方原件。"
+        return f"• 【核心要點】：涉及備案 {filing_context}。\n• 【財務影響】：請點擊連結查閱官方原件。"
         
     if not doc_text or len(doc_text.strip()) < 30:
         print("      ⚠️ [Gemini 略過] 內文過短或純屬索引目錄", flush=True)
-        return f"• 【自主揭露】：涉及備案 {filing_context}（內文詳見官方附件）。\n• 【調閱指引】：請點擊卡片連結查閱原文附件。"
+        return f"• 【核心要點】：涉及備案 {filing_context}（內文詳見官方附件）。\n• 【財務影響】：請點擊卡片連結查閱原文附件。"
 
+    # 對齊官方最新指定的 gemini-3.6-flash 端點
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={GEMINI_API_KEY}"
     
     prompt = f"""
 請扮演美股買方分析師，閱讀以下標的【{ticker}】的 SEC 申報（類別：{filing_context}）：
 \"\"\"{doc_text}\"\"\"
 
-請精確萃取並以「繁體中文」條列出以下兩點（直接輸出，嚴禁任何開場白或推理自述）：
+請精確萃取並以「繁體中文」條列出以下兩點（直接輸出，嚴禁任何開場白、標題重述或推理過程）：
 • 【核心要點】：具體發生了什麼事（如債券規模與利率、合約金額、併購投票日程或法說主題）。
 • 【財務影響】：對公司資本結構、自由現金流或營運的具體影響（若僅為公關稿請寫無實質財務影響）。
 """
@@ -242,6 +243,7 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
         "generationConfig": {
             "temperature": 0.1,
             "maxOutputTokens": 800,
+            # 強制關閉思考過程輸出，杜絕任何推理草稿外洩
             "thinkingConfig": {
                 "thinkingBudget": 0
             }
@@ -253,7 +255,7 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
         try:
             res = requests.post(url, headers=headers, json=payload, timeout=25)
             
-            # 遇到 429 速率限制：動態休眠 12 秒等待冷卻
+            # 遇到 429 速率限制：動態休眠 12 秒等待配額重置後重試
             if res.status_code == 429:
                 print("      ⏳ [Gemini 觸發 5 RPM 上限] 休眠 12 秒等待配額重置後重試...", flush=True)
                 time.sleep(12)
@@ -277,8 +279,8 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
                     real_text = parts[0]["text"]
 
                 if real_text.strip():
-                    # 每次成功呼叫後短暫冷卻 2.5 秒，保護下一筆請求不撞牆
-                    time.sleep(2.5)
+                    # 每次成功呼叫後強制冷卻 12 秒，物理鎖定在 5 RPM 免費配額內
+                    time.sleep(12)
                     return real_text.strip()
             else:
                 print(f"      ⚠️ [Gemini 回傳空結構] {data}", flush=True)
@@ -286,7 +288,7 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
             print(f"      ❌ [Gemini 連線異常] {e}", flush=True)
             time.sleep(2)
 
-    return f"• 【自主揭露】：涉及項目 {filing_context}，內容已存檔。\n• 【調閱指引】：請點擊卡片標題查閱原文。"
+    return f"• 【核心要點】：涉及項目 {filing_context}，內容已存檔。\n• 【財務影響】：請點擊卡片標題查閱原文。"
 
 
 def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, primary_doc):
@@ -299,8 +301,8 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             "color": 0xC0392B,
             "tag": f"{form_type} (財報拖延 / 審計異常預警)",
             "summary": (
-                f"• 【核心警報】：{ticker} 正式向 SEC 申報無法如期繳交定期財報。\n"
-                f"• 【實質風險】：通常涉及內部控制缺失、審計障礙或潛在財務重編，留意二級市場跳空拋壓。"
+                f"• 【核心要點】：{ticker} 正式向 SEC 申報無法如期繳交定期財報。\n"
+                f"• 【財務影響】：通常涉及內部控制缺失、審計障礙或潛在財務重編，留意二級市場跳空拋壓。"
             )
         }
 
@@ -314,8 +316,8 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             "color": 0x3498DB,
             "tag": f"{form_type} ({period_type})",
             "summary": (
-                f"• 【核心動作】：{ticker} 正式提交法定 {period_type}。\n"
-                f"• 【查核要點】：請點擊卡片連結調閱原文確認 GAAP 毛利、營收指引與自由現金流結構。"
+                f"• 【核心要點】：{ticker} 正式提交法定 {period_type}。\n"
+                f"• 【財務影響】：請點擊卡片連結調閱原文確認 GAAP 毛利、營收指引與自由現金流結構。"
             )
         }
 
@@ -326,8 +328,8 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             "color": 0xE67E22,
             "tag": "424B5 (公開發行補充說明書)",
             "summary": (
-                f"• 【核心動作】：{ticker} 提交 424B5 補充說明書，正式啟動現增、可轉債發行或 ATM 配售。\n"
-                f"• 【市場衝擊】：留意新股發行折價幅度，防範股本增加對 EPS 產生稀釋壓力。"
+                f"• 【核心要點】：{ticker} 提交 424B5 補充說明書，正式啟動現增、可轉債發行或 ATM 配售。\n"
+                f"• 【財務影響】：留意新股發行折價幅度，防範股本增加對 EPS 產生稀釋壓力。"
             )
         }
 
@@ -337,8 +339,8 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             "color": 0xE67E22,
             "tag": "424B7 (轉讓股權說明書)",
             "summary": (
-                f"• 【核心動作】：{ticker} 申報現有特定股東、創始團隊或機構之轉讓說明書。\n"
-                f"• 【籌碼影響】：涉及非公司端募集資金之持股釋出，留意二級市場短期承接力道。"
+                f"• 【核心要點】：{ticker} 申報現有特定股東、創始團隊或機構之轉讓說明書。\n"
+                f"• 【財務影響】：涉及非公司端募集資金之持股釋出，留意二級市場短期承接力道。"
             )
         }
 
@@ -349,8 +351,8 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             "color": 0xF39C12,
             "tag": f"{form_type} (貨架登記申請)",
             "summary": (
-                f"• 【核心動作】：{ticker} 申請綜合貨架登記，取得未來三年內隨時融資發行新股/債券之總額度。\n"
-                f"• 【估值影響】：市場通常視為未來資本稀釋前兆，小盤股多伴隨承壓反應。"
+                f"• 【核心要點】：{ticker} 申請綜合貨架登記，取得未來三年內隨時融資發行新股/債券之總額度。\n"
+                f"• 【財務影響】：市場通常視為未來資本稀釋前兆，小盤股多伴隨承壓反應。"
             )
         }
 
@@ -399,7 +401,7 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             "title": f"📑 【8-K 例行申報】：{ticker}",
             "color": 0x95A5A6,
             "tag": f"{form_type} (項目: {items_str})",
-            "summary": f"• 【例行備案】：涉及項目代碼 {items_str}。\n• 【調閱指引】：請點擊標題查閱原文。"
+            "summary": f"• 【核心要點】：涉及例行備案代碼 {items_str}。\n• 【財務影響】：請點擊標題查閱原文。"
         }
 
     return None
