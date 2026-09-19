@@ -176,7 +176,7 @@ def analyze_primary_8k_with_openai(ticker, items_str, doc_text):
 以下是該份文件的官方原文節錄：
 \"\"\"{doc_text}\"\"\"
 
-請精確萃取並以繁體中文條列兩點（100 字以內，嚴禁任何模板廢話，直接給出硬核事實）：
+請精確萃取並以繁體中文條列兩點（120 字以內，嚴禁任何模板廢話，直接給出硬核事實）：
 • 【核心動作】：交易對手是誰、合約/融資具體金額（百萬/億美元）、收購或處分標的、年利率或關鍵時程。
 • 【買方評估】：對 {ticker} 之營收貢獻、資金流動性、負債壓力或股本稀釋衝擊。
 """
@@ -215,11 +215,13 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={GEMINI_API_KEY}"
     
     prompt = (
-        f"你是一位專業的美股買方分析師。標的【{ticker}】發布了官方申報（涉及類別：{filing_context}）。\n"
-        f"以下是官方備案原文節錄：\n\"\"\"{doc_text}\"\"\"\n\n"
-        "請精確解構該公告，並以繁體中文條列以下兩點（總字數 100 字以內，直接講事實，割除行銷贅字）：\n"
-        "• 【核心要點】：公告重點是什麼（例如：債券發行規模與各期利率、重大產線進度、策略聯盟、外國本國重大公告或法說主題）。\n"
-        "• 【財務影響】：該事件對資本結構、現金流或營運之潛在財務影響（若純屬公關宣傳請直說無實質財務影響）。"
+        f"你是一位精準的美股買方分析師。標的【{ticker}】發布了 SEC 官方申報（涉及類別：{filing_context}）。\n"
+        f"以下是官方原文節錄：\n\"\"\"{doc_text}\"\"\"\n\n"
+        "【輸出鐵律】：\n"
+        "1. 必須 100% 使用繁體中文回答，嚴禁照抄英文原文，嚴禁輸出開場白（如「以下為解析」）。\n"
+        "2. 嚴格依照下列格式條列兩點（總長度 120 字以內，直切本質）：\n"
+        "• 【核心要點】：精確陳述發生了什麼具體事件（如：發債金額與利率、產線推進、併購進展、策略結盟或法說簡報主題）。\n"
+        "• 【財務影響】：對公司資本結構、現金流、獲利能力或營運之實質影響（若純屬公關宣傳，直接註明無實質財務影響）。"
     )
 
     headers = {"Content-Type": "application/json"}
@@ -229,7 +231,7 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
         }],
         "generationConfig": {
             "temperature": 0.1,
-            "maxOutputTokens": 300
+            "maxOutputTokens": 1000  # 徹底放寬限制，避免繁體中文遭截斷
         }
     }
 
