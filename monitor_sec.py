@@ -30,23 +30,27 @@ TARGET_FORMS = {
     "12b-25"
 }
 
-# 本地直接封存之無意義項目（人事變更、股東會議程）
-IGNORE_ITEMS = {"5.02", "5.07"}
+# 不直接忽略人事變更或股東表決
+IGNORE_ITEMS = set()
 
 # 一級硬核條款：呼叫 OpenAI GPT-4o-mini
 HIGH_IMPACT_8K_ITEMS = {
-    "1.01", "1.02", "1.03", 
+    "1.01", "1.02", "1.03","1.05", 
     "2.01", "2.02", "2.03", "2.04", "2.05", "2.06", 
     "3.01", "3.02", "3.03", 
-    "4.01", "4.02"
-    "5.01", "5.02", "5.07"
+    "4.01", "4.02",
+    "5.01", "5.02", 
 }
 
 # 二級次要條款：呼叫免費 Gemini 3.6 Flash
 SECONDARY_8K_ITEMS = {"7.01", "8.01"}
 
-# 允許進入處理流程的 8-K 項目聯集
-SUBSTANTIVE_8K_ITEMS = HIGH_IMPACT_8K_ITEMS | SECONDARY_8K_ITEMS
+# 單純股東表決保留通知，不額外呼叫 AI
+SUBSTANTIVE_8K_ITEMS = (
+    HIGH_IMPACT_8K_ITEMS
+    | SECONDARY_8K_ITEMS
+    | {"5.07"}
+)
 
 # 最大申報追溯天數（徹底阻絕舊文件）
 MAX_LOOKBACK_DAYS = 3
@@ -258,8 +262,8 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
             
             # 遇到 429 速率限制：動態休眠 12 秒等待配額重置後重試
             if res.status_code == 429:
-                print("      ⏳ [Gemini 觸發 5 RPM 上限] 休眠 12 秒等待配額重置後重試...", flush=True)
-                time.sleep(12)
+                print("      ⏳ [Gemini 觸發 5 RPM 上限] 休眠 30 秒等待配額重置後重試...", flush=True)
+                time.sleep(30)
                 continue
                 
             if res.status_code != 200:
@@ -280,8 +284,8 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
                     real_text = parts[0]["text"]
 
                 if real_text.strip():
-                    # 每次成功呼叫後強制冷卻 12 秒，物理鎖定在 5 RPM 免費配額內
-                    time.sleep(12)
+                    # 每次成功呼叫後強制冷卻 15 秒，物理鎖定在 5 RPM 免費配額內
+                    time.sleep(15)
                     return real_text.strip()
             else:
                 print(f"      ⚠️ [Gemini 回傳空結構] {data}", flush=True)
