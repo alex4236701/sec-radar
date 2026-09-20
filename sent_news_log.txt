@@ -429,3 +429,45 @@ d122b0cb929dc8e18a2fa60e44fc5a8c|||PANW|||Bernstein’s $351 Valuation Test Send
 e51ca8378fe5774320150c825ddb9bba|||TSEM|||Barclays Initiates Tower Semiconductor(TSEM.US) With Buy Rating, Announces Target Price $310
 bfa026d30f09dfa43d72d9600d707145|||RKLB|||Rocket Lab's $2.36 Billion Backlog Says More Than Its Stock Price Does
 4e613e0de050ec6bd6829b7bd6ccfca8|||PENG|||Trump, Melania to host Xi and Peng Liyuan for White House ‘double date’
+8fe06185bf3690fb91ff71949d076b47|||GOOGL|||Banks lend $22B to Blackstone, Alphabet's Crux AI, backed by chips
+be1deabde763a0d856eccfddeab2d11b|||MSFT|||Class A Dig: Inflection AI Microsoft $650M was talent+licence
+76f1fc44a00abf84f40fab3a9aaf90b7|||TSLA|||Prediction: Here's What a $1,000 Investment in Tesla (TSLA) Stock Could Be Worth By 2036
+4088d6755938b119762aea8e08c5c2a8|||AMZN|||Prediction: Here's What a $5,000 Investment in Amazon (AMZN) Stock Could Be Worth by 2036.
+fea769bd7247ef2eef4e6428c5997dc5|||AMZN|||Quantbot Technologies LP Makes New $14.69 Million Investment in Amazon.com, Inc. $AMZN
+b6daf11de5cd6e80cdfc6f684a0c4092|||AVGO|||AVGO Stock Heads For Worst Month In 7 Years: Co-Founder’s Quarterly Stake Sales Top $720M
+bfd61bb847139a1500142e3fa934edd8|||TSM|||TSMC Stock Forecast: TSM Reported $35.9B Revenue. Why Is Demand Still Outpacing Supply?
+6cbf251e74e20c20086979ba370e1056|||INTC|||Intel Core Ultra 9 275HX and NVIDIA RTX 5080 laptop with a HUGE 64GB of DDR5 RAM and 2TB storage gets $1,500 slashed off the price, dropping to its lowest ever in Amazon deal
+4f171b7f02eb0389f1cdb84f12841f24|||GFS|||GlobalFoundries Secures $375 Million from U.S. for Quantum Chip Production
+d816f5a22e9a2b29e58aa3b9a74922dc|||MU|||Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market
+84b904084faf998d71be732852cabb96|||SNDK|||Upgrade your Switch 2 storage for cheaper with this SanDisk microSD Express card deal on Amazon
+451f9a8c5011bc8cee96c5e1aecf866f|||SKHY|||Your RAM is going to stay expensive, and the SK Hynix-Intel deal won't change that
+b3e8d27f483ecdba773a4b12f37e4ecd|||ASX|||ASX to resume sell-off as traders eye three RBA rate rises
+2d704df95f702d07b035f9a5a1f459e8|||AMBA|||Ambarella-ZEDEDA Deal Targets $30B Edge AI Market [2026]
+ba43915ea84474576493028bddf840da|||BAND|||Ed Sheeran Explains Why He Removed His B Stage From Philadelphia Concert, Introduces New Backing Band Who Had 3 Days to Learn His Music
+9b7c9ad57dfdba9955f529e99f930094|||NVTS|||NVTS Stock Jumps Premarket: Navitas To Buy Power Equipment Firm Claros In $233M Deal
+29e245fd9aaae06dc9a51dbc0b058449|||IFNNY|||Learn Why The Bull Case For Infineon Stock Could Change Following SolarEdge Data Center Deal
+db145e273977dadce4025767fdb907cc|||IFNNY|||Oddo BHF Initiates INFINEON TECHNOLOGIES AG(IFNNF.US) With Buy Rating, Announces Target Price $91.85
+77ff8060743e7677331c295b1e61e199|||CRM|||Salesforce Stock Lost 8.3% During Dreamforce; Its $63 Billion Target Was Already Known
+a3bb285c6b041930cf5afd24fed8ceeb|||NET|||Despite a $34 billion net worth, Melinda French Gates refused to fund her Gen Z daughter’s startup
+ee7701035bd54fbaffd36598eafb1128|||LITE|||Retroid Pocket Duo Lite: a dual-screen Android handheld for $149
+5c2c4cc2840a6a92bcd68be4ed938a60|||LITE|||Best tablet deal: The Samsung Galaxy Tab S6 Lite (64GB) is on sale for $80 off at Amazon
+50bef546f4b89666ade20ec3279169c2|||TSEM|||Tower Semiconductor’s $1.3B Revenue Addition Gets Retail Buzzing
+d32581caa39c1ffe529072fa6a2e076e|||TSEM|||TSEM Initiates Coverage On by Barclays -- Rating Overweight with Price Target $310
+b6d3891c3769b7e5f9cf4be4d89ff671|||SMTC|||Should Product Launches Require Action From Semtech (SMTC) Investors?
+df5acdaef898c7cb27e361dd053bc0a2|||SMTC|||Semtech Director Rodolpho Cardenuto Sells 5,321 Shares of Common Stock on September 16, 2026
+cb4c0df4f272f7430fbdcdc773bcf7ec|||NOK|||Nokia Stock Forecast: Why Private Wireless Could Be More Important Than 5G; NOK To Break Above $16?
+ad2dc16387b89042d54c6ac324f29412|||NOK|||Nokia Stock Returns to EURO STOXX 50 After 162 Million-Share Friday
+de5a0b1bc83f375a39a464c4586a84c2|||SPCX|||SPCX Stock Jumps Overnight: Cursor Deal Pushes SpaceX Deeper Into 'Most Expensive' Territory, Morningstar Says
+51bc9817f0ece7349a019ccb110a754f|||VSAT|||VSAT Stock Hits Seven-Year High On Securing Department of War contract
+c64a4c09435fb04c81314fa126bf21fc|||VSAT|||Viasat (VSAT) On New Satellite And Equatys Deal Has Valuation Back In Focus
+94480bea8116b176789e3bd8d9b1240a|||CRCL|||Circle Internet Group (CRCL) Launches Arc Mainnet, Is 11% Undervalued Enough?
+be113be89000fbfbebbca4110195fc02|||NBIS|||Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next?
+468c45a2f5cbd3b7a249e166166a8083|||MP|||MP Materials Stock Falls 4.3%; China Report Reopens the Shenghe Stake Question
+9fe10c911789b68e632dd0e41a3bbb11|||FCEL|||ROSEN, A SKILLED INVESTOR RIGHTS FIRM, Encourages FuelCell
+ea84b2396e668d5e07c15740c1507c82|||EOSE|||Squarepoint Ops LLC Has $595,000 Holdings in Eos Energy Enterprises, Inc. $EOSE
+21fd877c995c6209d1cd8e7416f7d50f|||GEV|||GE Vernova will supply turbines for a 29.4 MW wind farm in Japan
+a1c8d7777b268ac3de3a567cb351adfd|||CMI|||Should Generator Orders Require Action From Cummins (CMI) Investors?
+8bea7b0d50550e1d7a7e8c16d91f358d|||ETN|||Eaton (ETN) Launches Workbench 360, Is It A Bargain Or Fully Priced?
+678818a5e04235b272e1eb991a9f82c3|||ROK|||RoK says DPRK launches short-range ballistic missile
+7534e41bb5c25de589f46018ffef9e51|||LIN|||Asian Games Aichi-Nagoya 2026: Lin Xinyu wins women's triathlon gold to secure quota at LA28 Olympics
+20bc0efe889f38ed73d0bec7a949274f|||PENG|||Is Penguin Solutions (PENG) A Bargain On Its Lektra AI Data Center Deal?
