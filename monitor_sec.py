@@ -21,7 +21,7 @@ OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 
 HISTORY_FILE = "sent_sec_log.txt"
-LOOKBACK_DAYS = 7
+LOOKBACK_DAYS = 3
 MAX_AI_PER_RUN = 12
 
 TW_TZ = timezone(timedelta(hours=8))
