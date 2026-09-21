@@ -16,6 +16,7 @@ HISTORY_FILE = "sent_news_log.txt"
 WEEKEND_RUN_LOG = "weekend_last_run.txt"
 
 TW_TZ = timezone(timedelta(hours=8))
+UTC_TZ = timezone.utc
 
 SEC_HEADERS = {
     "User-Agent": "ResearchBot/2.0 (compliance@alpharesearch.org)",
@@ -24,21 +25,23 @@ SEC_HEADERS = {
 
 COMPANY_NAME_CACHE = {}
 
-# 英文日常單字代號（禁止小寫模糊比對，杜絕 onto、cat、it 等日常單字干擾）
+# 1. 機構級來源白名單（非頂級一線來源直接本地秒殺，徹底封殺 TradingKey、Zacks 等農場）
+TRUSTED_SOURCES = [
+    # 官方一手通訊社
+    "pr newswire", "business wire", "globenewswire",
+    # 一線頂級外電與權威財經媒體
+    "reuters", "bloomberg", "wall street journal", "wsj",
+    "cnbc", "financial times", "marketwatch", "barron's", "associated press"
+]
+
+# 2. 英文日常單字代號（禁止小寫模糊比對，杜絕 onto、cat、it 等日常雜訊）
 COMMON_WORD_TICKERS = {
     "ONTO", "CAT", "NOW", "ON", "IT", "ALL", "CAN", "BE", "GO", "ARE",
     "FOR", "OUT", "WELL", "RUN", "FAST", "OPEN", "PLAY", "SAVE", "APP",
     "REAL", "TRUE", "KEY", "KEYS", "FORM", "POST", "NET", "PLUG", "SO"
 }
 
-# 本地攔截之投顧農場黑名單（在 Python 記憶體秒殺，不塞入 Google 搜尋式中搞壞 RSS）
-SPAM_DOMAINS = [
-    "zacks.com", "fool.com", "seekingalpha.com", "investorplace.com",
-    "simplywall.st", "tipranks.com", "marketbeat.com", "stocktitan.net",
-    "quiverquant.com", "investing.com", "benzinga.com"
-]
-
-# 1. 負向黑名單：阻絕律所訴訟、例行日程、公關得獎與 SEO 研報
+# 3. 負向黑名單：阻絕律所訴訟、例行日程、公關得獎與 SEO 研報
 EXCLUDE_TITLE_PATTERNS = [
     # A. 純法說會、路演、會議日程與例行股東會材料
     r"\bto\s+report\b", r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
@@ -79,9 +82,9 @@ EXCLUDE_TITLE_PATTERNS = [
     r"\bappoints?\b", r"\bnames?\s+new\b", r"\bcorrection\b", r"\badds\s+to\s+board\b"
 ]
 
-# 2. 全維度重大信號白名單（全面補足先進封裝、戰略協議與技術合作）
+# 4. 全維度重大信號白名單
 SIGNAL_PATTERNS = [
-    # A. 商業合約、先進封裝合作與戰略聯盟
+    # A. 商業大單、先進封裝合作與戰略聯盟
     r"\bcontract\b", r"\border\b", r"\borders\b", r"\bdeal\b", r"\baward\b",
     r"\bawarded\b", r"\bagreement\b", r"\bpact\b", r"\bprocurement\b", r"\bsupply\b",
     r"\bselected\s+by\b", r"\bpartner(?:ed|ing|ship|s)?\b", r"\bcollaboration\b",
@@ -256,10 +259,30 @@ def has_high_impact_signal(text):
             return True
     return False
 
-def is_spam_source(url, source_name):
-    """在本地瞬間檢查來源網域，不污染 Google 查詢式"""
-    check_str = f"{url.lower()} {source_name.lower()}"
-    return any(domain in check_str for domain in SPAM_DOMAINS)
+def is_trusted_source(source_name, url=""):
+    """白名單檢查：僅放行官方商業通訊社與一線權威財經外電"""
+    check_str = f"{source_name} {url}".lower()
+    return any(trusted in check_str for trusted in TRUSTED_SOURCES)
+
+def is_within_48_hours(pub_date_raw):
+    """
+    時間戳物理防禦：計算新聞原始發布時間是否真在 48 小時內。
+    徹底解決二級農場刷新時間欺騙 Google 的冷飯熱炒問題。
+    """
+    if not pub_date_raw:
+        return True
+    try:
+        dt = parsedate_to_datetime(pub_date_raw)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        now_utc = datetime.now(UTC_TZ)
+        diff = now_utc - dt
+        # 超過 48 小時（加 2 小時緩衝）一律判定為過期新聞
+        if diff.total_seconds() > (50 * 3600):
+            return False
+    except Exception:
+        pass
+    return True
 
 def matches_target_entity(ticker, raw_title):
     t_raw = raw_title
@@ -395,18 +418,19 @@ def summarize_with_ai(ticker, text):
 你是一位分毫不差的美股買方研究員。請審核這則新聞是否為【{ticker} - {company_name}】的重大市場衝擊事件：
 
 【絕對駁回規則（命中任一條，一律回傳 PASS）】：
-1. 【主體非該公司】：新聞主角必須是【{ticker} / {company_name}】本身！
+1. 【歷史舊聞回溯】：新聞若只是盤後評論或回顧數週前的歷史季度財報（非當前 48 小時內突發事件），回傳 PASS。
+2. 【主體非該公司】：新聞主角必須是【{ticker} / {company_name}】本身！
    - 若只是日常單字（如 onto、cat、it）或產業詞彙，回傳 PASS。
    - 若其他公司交易，僅在內文順帶提及【{ticker}】，回傳 PASS。
-2. 【例行行銷軟文】：常規小版本更新、展會演講、無具體時程之概念展示，回傳 PASS。
-3. 純法說會日程公布、律師集體訴訟招募（Lawsuit Alert）、普通人事異動。
+3. 【例行行銷軟文】：常規小版本更新、展會演講、無具體時程之概念展示，回傳 PASS。
+4. 純法說會日程公布、律師集體訴訟招募（Lawsuit Alert）、普通人事異動。
 
 【符合監控的六大類別】：
 1. 【ORDER】商業大單/合作：外部客戶/政府向【{ticker}】採購、簽訂重大技術/封裝合作協議（Partnership/Packaging/MOU）、獲得補助款。
-2. 【M&A】重大併購/資產出售/注資重組：【{ticker}】收購同業、遭外部收購（Takeover）、獲大型機構重大注資、出售業務部門、晶圓代工分拆（Spinoff/Foundry）。
+2. 【M&A】重大併購/資產出售/注資重組：【{ticker}】收購同業、遭外部收購意向（Takeover）、獲大型機構重大注資、出售業務部門、晶圓代工分拆（Spinoff/Foundry）。
 3. 【DILUTION】資本稀釋融資：【{ticker}】發行可轉債、增發新股、宣布定價、或啟動 ATM 配售。
-4. 【EARNINGS】業績與回饋：【{ticker}】公布季度財報、調升全年財測、或啟動庫藏股回購。
-5. 【PRODUCT】重大產品上市/監管突破：【{ticker}】發布旗艦架構、先進封裝技術落地（量產時程突破）或取得監管放行。
+4. 【EARNINGS】業績與回饋：【{ticker}】公布當季即時財報、調升全年財測、或啟動庫藏股回購。
+5. 【PRODUCT】重大產品上市/監管突破：【{ticker}】發布旗艦架構、先進封裝技術落地（量產突破）或取得監管放行。
 6. 【CRISIS】利空預警與黑天鵝：調降/撤回財測、會計師辭職、延遲申報財報、破產清算、收到下市警告、反壟斷調查或合股（Reverse Split）。
 
 【輸出格式要求】：
@@ -456,7 +480,7 @@ def summarize_with_ai(ticker, text):
 def fetch_google_wire_news(ticker):
     company_name = COMPANY_NAME_CACHE.get(ticker.upper())
     
-    # 使用最乾淨的標準查詢式，杜絕破壞 Google RSS 的複雜進階語法
+    # 乾淨標準檢索式，避免多餘語法破壞 Google RSS 解析
     if company_name and company_name.upper() != ticker.upper() and len(company_name) >= 3:
         search_target = f'"{company_name}" OR "{ticker}"'
     else:
@@ -485,12 +509,11 @@ def fetch_google_wire_news(ticker):
                 return []
 
             items = []
-            # 擴大至前 15 則，突破熱門舊聞佔版面的問題
             for item in channel.findall("item")[:15]:
                 raw_title = item.findtext("title") or ""
                 link = item.findtext("link") or ""
                 pub_date = item.findtext("pubDate") or ""
-                source = item.findtext("source") or "Financial News"
+                source = item.findtext("source") or "Unknown"
                 description = item.findtext("description") or ""
                 
                 clean_desc = re.sub(r"<[^>]+>", " ", description).strip()
@@ -517,42 +540,48 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
 
     for item in wire_items:
         raw_title = item["raw_title"]
+        source_name = item["source"]
         print(f"   ↳ 審核標題: {raw_title[:55]}...", flush=True)
 
-        # 1. 本地攔截：瞬間過濾投顧農場站（不浪費 Token 與網路請求）
-        if is_spam_source(item["url"], item["source"]):
-            print("      [本地過濾] 命中二級農場網站黑名單，跳過", flush=True)
+        # 1. 白名單防線：非官方通訊社或一線權威外電直接秒殺（徹底阻絕 TradingKey 等農場站）
+        if not is_trusted_source(source_name, item["url"]):
+            print(f"      [來源過濾] 來源非權威白名單 ({source_name})，跳過", flush=True)
             continue
 
-        # 2. 本地防線：核對公司主體實體（單字代號走嚴格模式）
+        # 2. 時間戳物理防線：發布時間超過 48 小時直接阻斷（杜絕農場更新 Sitemap 的舊聞）
+        if not is_within_48_hours(item["pub_date_raw"]):
+            print("      [時效過濾] 原始發布時間已超過 48 小時（舊聞回溯），跳過", flush=True)
+            continue
+
+        # 3. 本地防線：核對公司主體實體（單字代號走嚴格模式）
         if not matches_target_entity(ticker, raw_title):
             print("      [本地過濾] 標題非該公司主體，跳過", flush=True)
             continue
 
-        # 3. 精確非貪婪切除末尾發布源（防止中間破折號導致標題被腰斬）
+        # 4. 精確非貪婪切除末尾發布源（防止中間破折號導致標題被腰斬）
         clean_title = re.sub(r"\s+[\-–—]\s+[^\-–—]+$", "", raw_title).strip()
         fingerprint = make_news_fingerprint(ticker, clean_title)
         
-        # 4. 精確指紋去重
+        # 5. 精確指紋去重
         if fingerprint in sent_fingerprints:
             print("      [記憶庫略過] 此新聞精確指紋已記錄，略過", flush=True)
             continue
 
-        # 5. 模糊語意去重（相同事件標題微調）
+        # 6. 模糊語意去重（相同事件標題微調）
         if is_duplicate_news(ticker, clean_title, history_records):
             print("      [相似度攔截] 檢測到同事件相近標題，跳過", flush=True)
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 6. 排除公關人事、研報黑名單
+        # 7. 排除公關人事、研報黑名單
         if is_junk_title(clean_title):
             print("      [本地過濾] 命中公關/人事/日程黑名單，跳過", flush=True)
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 7. 【零 Token 防爆門】：標題訊號檢查 + 摘要輔助比對
+        # 8. 零 Token 本地防爆門：標題訊號檢查 + 摘要輔助比對
         title_has_signal = has_high_impact_signal(clean_title)
 
         snippet_lower = item['snippet'].lower()
@@ -574,7 +603,7 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
             except Exception:
                 pass
 
-        context = f"標題: {clean_title}\n來源: {item['source']}\n內容摘要: {item['snippet']}"
+        context = f"標題: {clean_title}\n來源: {source_name}\n內容摘要: {item['snippet']}"
         event_type, summary_text, is_api_ok = summarize_with_ai(ticker, context)
 
         if not is_api_ok:
@@ -586,10 +615,10 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
         history_records.append({"ticker": ticker, "title": clean_title})
 
         if event_type == "PASS" or len(summary_text) <= 10:
-            print("      [AI裁定] PASS (主體不符/非核心事件)", flush=True)
+            print("      [AI裁定] PASS (主體不符/非核心事件/歷史舊聞)", flush=True)
         else:
             print(f"      🎯 [AI放行] 判定為 {event_type} 事件！準備推播...", flush=True)
-            send_discord_embed(ticker, clean_title, event_type, summary_bullets=summary_text, news_url=item["url"], pub_date_str=pub_tw_str, source_name=item["source"])
+            send_discord_embed(ticker, clean_title, event_type, summary_bullets=summary_text, news_url=item["url"], pub_date_str=pub_tw_str, source_name=source_name)
             time.sleep(1)
 
 
