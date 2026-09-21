@@ -551,3 +551,40 @@ e4c8a075c483c4ca5f8ee55f3916894b|||RKLB|||Four launches in 25 days on the horizo
 a5cd4df1842b40790cf9fca600065efa|||VSAT|||Can Viasat's Deal With Addvalue Boost Its Government Business?
 4ab1ce22dcf707528f8b66d60f7093e4|||MTRN|||Bank of America Corp DE Invests $51.48 Million in Materion Corporation $MTRN
 304d0480914583bdc584a05316fb50b3|||GEV|||Wall Street Just Got More Bullish on GE Vernova. Consensus Now Puts the Target at $1,237.
+b02ad98ba8375a5e5420f2acf19eb1fe|||GOOGL|||Amazon and Alphabet invest $400B in AI in 2026, race to profit in 2027 heats up
+6a19c23f0cb7c730859404fadccb0cb1|||MSFT|||Anthropic and Microsoft Dominate Nscale’s $103 Billion in Data Center Contracts
+be4c5bee6617d1c09b0e97db611e46b2|||TSLA|||Tesla’s Roadster Is 1 Reason Why October Could Be a Different Story for the Stock
+463ac48275033d4e510d5f7a5d27ed17|||AAPL|||Apple M6 Mac mini review: $300 price hike spoils a nice upgrade
+7286c9abf69e4bbbc88cb3f6acd7a122|||QCOM|||LITE, QCOM, GLW Team Up for AI Optical D2D Breakthrough at ECOC 2026
+2986e69ef72d3f97f640dc44d875f567|||QCOM|||QCOM DCF Analysis: Intrinsic Value $284 vs Price $178
+bc68620b2fccd51f559a953e4257503f|||INTC|||Googlebook Launches with Intel Core Ultra Series 3 Processors
+8e2c9719f4a0f9b8633abf81c5cba431|||ASML|||ASML reports transactions under its current share buyback program
+e476dcf981f618e92bb9f7de88421c1c|||AMAT|||Is AMAT Overvalued? DCF Says Worth $341
+9aed3e831afdf9682b80b01643ffafd8|||AMAT|||Applied Materials to Host Investor Breakfast Presentation During SEMICON West
+0180a08b41664ff3f924e60b5e1db718|||LRCX|||LRCX DCF Analysis: Intrinsic Value $182 vs Price $288
+bb2f925a2dcaad1a1ba86e049f407027|||GFS|||GlobalFoundries Wins $375M To Build US Quantum Chip Supply
+532a5f0f1367e84cb990819fc5c4e75b|||GFS|||GlobalFoundries and Marvell sign multi-year development agreement for optical technologies
+e8b812b51220581644d098a1b4b4b394|||MU|||Stifel Maintains Micron Technology(MU.US) With Buy Rating, Maintains Target Price $1,500
+35f8ce2bf3da75a6aa02a9969de87d82|||STX|||Price Prediction: Seagate Stock Will Trade at $900 on This Date
+455e600dd025498737353063f80c58a0|||ACLS|||The silicon carbide device market is estimated to reach $11B by 2031. Axcelis will present in Japan.
+602dc63e22b5135ae4e83a75cde87f51|||ACLS|||Axcelis to showcase advanced ion implantation t...
+6c5161535bb26db37132c0f0ceb59551|||VECO|||Northland upgrades Veeco stock rating on strong order momentum By Investing.com
+183075b20e8360b2a0b7773aa45feb1e|||TTMI|||Needham maintains Buy rating on TTM Technologies, $175 price target
+6d947908446e7eb8ea8a99cf50025afb|||BAND|||Parkersburg South to Host Eighth Annual Patriot Marching Band Invitational
+c3896106aa7ce638e169d67e8a681f34|||NVTS|||$5M private stock deal gives Navitas Semiconductor (NASDAQ: NVTS) future resale rights
+357072e08e02a784b8e320e050b8193b|||PLTR|||$10,000 invested in Palantir when it went public is now worth this much
+dea4a7ac8cfdab37a50361d2dfd5b7be|||CRM|||Salesforce envisions AI agents making purchases, transforming procurement
+b3229b037848a764756bb4d7410ac1ee|||CRWV|||CRWV, NBIS Stocks Get ‘Sell’ Ratings, AI-Pivoting Bitcoin Miners Get ‘Neutral’ Calls: Rothschild Says Credit Market Is ‘Sending The More Important Signal’
+d3e0f7310b6f9d3808d424d448c1ca74|||PANW|||Morgan Stanley Raises Palo Alto Networks Price Target to $410 on AI Security Demand
+7b51fa594e80f4da8127848113785897|||CIEN|||CIEN Upgraded by Evercore ISI Group -- Price Target Raised to $5
+ebcb07f8bcadcba84803d4680342a417|||GLW|||LITE, QCOM, GLW Team Up for AI Optical D2D Breakthrough at ECOC 2026
+764dceb472f0853417c9f4fd57aaae7e|||SMTC|||Semtech Independent Director Rodolpho Cardenuto Sells 100% Of Holding
+88f1d0cb810691616f9b5d87435b8b40|||CSCO|||CSCO DCF Analysis: Intrinsic Value $49 vs Price $110
+fdbd6b8ad671d792e7352546003e3059|||RKLB|||Four Launches From 100: Rocket Lab Gets a Bullish New Call, With Iridium and Mynaric Along for the Ride
+812d0e840777ca034179a38fd064a620|||RKLB|||Cantor sees Rocket Lab stock as good entry point after Iridium funding
+613b041ee143ecd5fbd7d2a853baed79|||IRDM|||Four Launches From 100: Rocket Lab Gets a Bullish New Call, With Iridium and Mynaric Along for the Ride
+2285bd7958d194ebbabcb958cbf71726|||NBIS|||CRWV, NBIS Stocks Get ‘Sell’ Ratings, AI-Pivoting Bitcoin Miners Get ‘Neutral’ Calls: Rothschild Says Credit Market Is ‘Sending The More Important Signal’
+5c63795d24a6a3ff9bd37f220856b2b3|||USAR|||USA Rare Earth Shares Rise 6% Following Trump’s Greenland Agreement Announcement
+61b864edd3e19c379235c56528c51a72|||USAR|||Critical Metals Surges 25% as Greenland Security Pact Puts Tanbreez Rare Earth Permit in Focus; USA Rare Earth Climbs 6%, MP Materials Rises 4%
+bf19ac864c4dda9ab852717a337a9c36|||CAT|||Smalls launches largest brand campaign for cat category
+faa0b80e5242926d2d026d18f2af02e5|||LIN|||LIN DCF Analysis: Intrinsic Value $335 vs Price $460
