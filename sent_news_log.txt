@@ -512,3 +512,24 @@ c4063264d12f2b61e68f00ed0d1c8216|||GLXY|||Nasdaq, S&P 500, Dow Futures Climb Whi
 0801fe7c0830ef22aa577d3e5dc2dbbb|||GEV|||GE Vernova commissions Vietnam's first LNG power plant and announces $200 million HVDC manufacturing facility at Hanoi summit
 e927fe242ca4b30f0862bbe77644a4b1|||GEV|||GE Vernova stock gains as data-center orders double and Vineyard Wind dispute is resolved
 18dff3d15d015e92f5f62454336c64e0|||CAT|||The Caterpillar Correction Shouldn't Last Much Longer
+ee2e3243a3f1cf3399e6316afba20f49|||GOOGL|||What Does Alphabet (GOOGL) Face In This New AI Safety Lawsuit?
+69afff53c5fc6fc521f5231551f5c276|||TSLA|||Tesla's Free Cash Flow Went Negative. It Still Has a $43.5 Billion Cash Cushion.
+9aa82f49500f823d937b9bab91fad131|||QCOM|||Nasdaq, Dow, S&P 500 Futures Mixed As Oil Hits $100 Again: QCOM, ORCL, AAPL, AMD, TSLA, RKLB, HOOD, GME In Focus
+6439fb90fc1be2e13806724c4c3d8a78|||AVGO|||Broadcom Stock Forecast: Why Did AVGO Fall After $13.5B Earnings and What's Next?
+974900cadca1ea744b9db237d417bbd8|||INTC|||Intel Price Forecast: Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC
+998022f3e14033705cab82d440ab2dc2|||MRVL|||Marvell to Showcase Industry-First 2nm Optical Technology Demos for AI Data Center Infrastructure at ECOC 2026
+a74018b1b01af2d6b634806770e82867|||MRVL|||Marvell (MRVL) and GlobalFoundries (GFS) Rise on Expanded Deal: What Investors Should Know
+602113795539e5fa99272287421d3c16|||GFS|||Marvell (MRVL) and GlobalFoundries (GFS) Rise on Expanded Deal: What Investors Should Know
+ddf589b230ab166f500b07601dc407cc|||SNDK|||Best SSD deals: Shop Sandisk to save up to $92
+eec80fdcd257c7af8ac206fef5a8642b|||WOLF|||Trump order could strip endangered status from Mexican gray wolf
+5a207db6ac0620584aee186dbb46ddb0|||PLTR|||Palantir Technologies (PLTR) Unveils Alliance Push Across AI Supply Chains And Cyber Defense
+9e901c2e3d9f11f7eddb106dbca7d893|||LITE|||Grab the OBSBOT Tiny 2 Lite for $119 With a Massive 34% Discount
+1c6f58cbe7f09d76aaf84df73fc384fc|||AAOI|||Applied Optoelectronics Expands Operations with Houston Facility Acquisition
+ccf2fe90feba0ead0796309b1d98c3c0|||CIEN|||Inside Ciena’s 2029 Roadmap: Ambitious Targets Meet Bullish Analyst Ratings
+6947019438b6ab7c2ba8f26a4e65f9ee|||CIEN|||Ciena appoints Hoffman and Gage to lead supply chain and product
+45dc43916de2f1f634b55fed90b0157d|||NOK|||NOK Stock Rises Overnight: Nokia’s EURO STOXX 50 Index Return On Monday Adds To AI-Fueled Momentum
+51d8fe05b477a6c047c7d41c76c58f4d|||SPCX|||SpaceX (SPCX) Hits $199 and a $2 Trillion Valuation
+2b0baf68477355a8f47018f0fe1292dc|||RKLB|||RKLB Stock Keeps Flying Overnight: Analyst Says Rocket Lab Outbid ASTS, Other Rivals For Iridium In 'Bolt From The Blue' Deal
+f2a9ac3cf6dc28feb6ad549cec3b078f|||RKLB|||Rocket Lab Has a $1.1 Billion Backlog, 50+ Successful Launches, and Neutron Due in 2026
+1dd08ac1e5fdb71856088e7b7e5ef793|||IRDM|||RKLB Stock Keeps Flying Overnight: Analyst Says Rocket Lab Outbid ASTS, Other Rivals For Iridium In 'Bolt From The Blue' Deal
+b56169b833652eb4990a714a68600ac0|||GEV|||GE Vernova secures 71.5 MW onshore wind turbine supply deals with BBWind and Greenvolt Power in Germany
