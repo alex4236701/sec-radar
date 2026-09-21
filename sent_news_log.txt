@@ -471,3 +471,44 @@ a1c8d7777b268ac3de3a567cb351adfd|||CMI|||Should Generator Orders Require Action 
 678818a5e04235b272e1eb991a9f82c3|||ROK|||RoK says DPRK launches short-range ballistic missile
 7534e41bb5c25de589f46018ffef9e51|||LIN|||Asian Games Aichi-Nagoya 2026: Lin Xinyu wins women's triathlon gold to secure quota at LA28 Olympics
 20bc0efe889f38ed73d0bec7a949274f|||PENG|||Is Penguin Solutions (PENG) A Bargain On Its Lektra AI Data Center Deal?
+6443861d7392907a21ca4af2b1ad9d78|||GOOGL|||Alphabet (GOOGL) Could Be 28% Undervalued Following Its Antitrust Win
+99ab84b320c2bfb5d23480c273e4fb95|||MSFT|||Bill Ackman Built a $2.4 Billion Stake in Microsoft, Calling It a "Core Holding" Bought at a "Highly Compelling Valuation." Here's Why He's Betting Big on Big Tech.
+de576d1db335912be5f8c7b65d0a9699|||TSLA|||Tesla reopens $50,000 Roadster reservations ahead of October 1 unveil
+aaebee6b3018c4af3a1cebef8bfc77ed|||AAPL|||Apple (AAPL)’s New CEO Bets Big on a $1,999 Foldable iPhone
+ce655b1ac3a26d283eda8bc26cfb0a4e|||AAPL|||Apple iPhone $250M False Advertising Class Action Settlement
+960eb04ba6dd4e0f2165d6426cc4989f|||AAPL|||Apple (AAPL) Stock Could Look 31% Overvalued On New Health Device Launches
+472cfff55643f99a3796ceb298961429|||META|||Meta launches legal challenge against UK media regulator over Online Safety Act | Ofcom
+9d351c7fe829e522f3fa764deea92177|||AVGO|||Broadcom Unveils AAI v26, Bringing Financial Accountability and AI-Driven Insights to Workload Automation
+690d7a4824fc3d4213d3bed95e2b947b|||AVGO|||Jim Cramer shares a strong verdict on Broadcom stock for investors
+1a1762c4094c2ae28f049420a98cfd47|||ASML|||ASML (ASML) Q2 2026 Earnings Preview: $7.94 EPS Expected, 8% Options Swing; Triangle at $1,800
+841adad6edb6909d25c90707c7fe636f|||LRCX|||Mizuho Securities Maintains Lam Research(LRCX.US) With Buy Rating, Maintains Target Price $365
+a6c2a64972eec1824e0d788a81902ed6|||MRVL|||MRVL Stock Jumps After-Hours On S&P 500 Inclusion
+87fe368e09c426d893b9418fb2204385|||MRVL|||Marvell Stock: Can Its Custom ASIC Pipeline Drive MRVL Above $230?
+b85ea85323e926098c6dea2c74d24c40|||GFS|||GLOBALFOUNDRIES (GFS) Secures CHIPS Funding, Is It Still 37% Below Fair Value?
+3b423d82d7bee5e0ca562bd870896c7f|||SKHY|||SK Hynix Launches Silicon Valley Venture Arm To Invest Across AI Computing, Data Centers And Optical Interconnects
+3ae72ca3b1fc1f8c91c7eb758344ea8d|||ASX|||ASX Appoints Keir Barnes As Chief Financial Officer
+075bee3cef7ad1717d4f9892613bedbd|||SWKS|||Skyworks Solutions stock gains after merger confidence and trading rebound
+17228fe08a4f93b260a7afe7c9ec59ab|||SWKS|||Qorvo stock gains as Skyworks merger confidence lifts sentiment
+86cb40537eacbdc1e9b86a2eeb203740|||FORM|||Trump reportedly to form health funding board that could veto ‘woke’ initiatives
+cd3836ecc2e2d535857e4b58740b671c|||AMBA|||Don't Ignore The Insider Selling In Ambarella
+4a1717ecfc259181ecaf4d2a6f5afbe6|||AMBA|||Mahindra Holidays Launches Club Mahindra Amba Ghat and Bandhavgarh Resorts
+6b234f61221989cdf45d0a53e63bb468|||BB|||Cramer sends unmistakable verdict on BlackBerry before earnings
+0518755cbe4a88a972698834b4dbbff2|||IFNNY|||Infineon launches compact EiceDRIVER for AI datacenters
+6e722d52f8e4b8a59f220352d091696c|||MPWR|||Monolithic Power Systems (MPWR) Could Be 34% Undervalued On Its GlobalFoundries Deal
+a280895e1b5c9da43dfeb9da22fb5e47|||DDOG|||Datadog rStock (RDDOG) Tokenomics: Market Insights, Token Supply, Distribution & Price Data | MEXC
+56387424b938012f9fa3f8d6f4a66d0c|||NOW|||The New Ways to Thrive at Work Now, According to Adam Grant
+c3362e681c3097ce68a511b567577fe3|||CRWV|||CoreWeave’s 1.9% Stock Rebound Leaves a 35 Million-Share Financing Test
+4bb0367777ab6b1c0b3d230d49ce519c|||RBRK|||Stephens & Co. reiterates Overweight on Rubrik, maintains $90 price target
+ef3752e2e3186774fd08efce9e6dc79a|||IOT|||Onomondo Launches Its Own SGP.32 eSIM IoT Remote Manager to Prevent Vendor Lock-In Undermining Cellular IoT
+11f1de959e5ffa58e389b765d6f1f54b|||CIEN|||Ciena Stock Recovers 4.3% as 2029 Targets Imply $14 Billion Revenue
+b2b07c08ac58a379a7a3a05b9ea2cd42|||CIEN|||Ciena (CIEN) Faces A Valuation Test Following Its 2029 Revenue And R And D Push
+3d9770351d283e41833ef0faf953b4fd|||CIEN|||Ciena analysts raise price targets on 30% revenue CAGR guidance
+5886ab5acd9527a8a82fa72da14b21b1|||SMTC|||Trade Alert: Independent Director Of Semtech Rodolpho Cardenuto Has Sold Stock
+47e13401cb628f669472a1916de6f617|||RDW|||ASTS, RKLB, RDW, LUNR Slip Overnight: SpaceX IPO Hype Loses Orbit After Valuation Target Reportedly Falls Below $2 Trillion
+684f5c5571d885b946dfe8a965066a3d|||IRDM|||RKLB Stock Slips Overnight: CEO Peter Beck Eyes Trimming Stake By $465M After Iridium Deal
+c4063264d12f2b61e68f00ed0d1c8216|||GLXY|||Nasdaq, S&P 500, Dow Futures Climb While Oil Slides As US-Iran Deal Signals End To Hormuz Disruption: DJT, NFLX, GLXY, SPCX In Focus
+81edc6f8c60395558ad1dd016a8356f6|||CIFR|||Freedom Capital Markets Maintains Cipher Digital(CIFR.US) With Hold Rating, Maintains Target Price $22
+4795b06b594d5212ae041434f12918ae|||GEV|||GE Vernova’s (GEV) $200 Billion Backlog is Coming Sooner than Expected
+0801fe7c0830ef22aa577d3e5dc2dbbb|||GEV|||GE Vernova commissions Vietnam's first LNG power plant and announces $200 million HVDC manufacturing facility at Hanoi summit
+e927fe242ca4b30f0862bbe77644a4b1|||GEV|||GE Vernova stock gains as data-center orders double and Vineyard Wind dispute is resolved
+18dff3d15d015e92f5f62454336c64e0|||CAT|||The Caterpillar Correction Shouldn't Last Much Longer
