@@ -603,49 +603,7 @@ dc64cf5ba99a94eebd5f7afc63c862d6|||SMTC|||Semtech Advances Next-Gen AI Optical I
 9d78fa355b99f9cc3a66724fe35c2e4a|||NBIS|||NBIS Initiated Coverage by Rothschild & Co -- Rating Set to Sell
 998b63d0ee4e77ce17d015c98e3e361a|||FCEL|||Kaplan Fox Encourages Investors of FuelCell Energy, Inc. (NASDAQ: FCEL) to Contact the Firm Before Lead Plaintiff Deadline on November 10, 2026
 350feaca16b045ddefe3580d833ee3e7|||HON|||Bernstein Maintains Honeywell(HON.US) With Hold Rating, Cuts Target Price to $254
-9f3acf5bf083e2212c5078c23171589a|||GOOGL|||Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B But FCF Collapsed — Buy or Short?
-5b01e6cc7f12f9c8988024008c15615c|||GOOGL|||Alphabet Rises 1.75% as Google Faces a Six-Month Data Deadline
-08537279583bc54193f1147fc5d45035|||MSFT|||Microsoft launches $1 million Community-First Grants to support nonprofits
-baef224dea02a3dfaf6bee5de7579bcd|||MSFT|||Meta Spikes 7% as Wells Fargo Lifts Price Target to $796 Ahead of Connect; Alphabet Nudges Higher, Microsoft Holds Flat
-0662f7662e4dc2476ffdbc6f6dbf0388|||TSLA|||Did Elon Musk Just Drop a Big Hint About a Possible SpaceX-Tesla Merger?
-a2d20b1e50cc1a5aeaf92f07762298a6|||TSLA|||Tesla reopens $50,000 Roadster reservations ahead of Oct. reveal
-8368f682003dbfbd1ee83901b3fe49a3|||TSLA|||Tesla Is Taking $50,000 Roadster Deposits Again. Only Nine Years Later
-3593ff3241bf1f28e833d42ad4c30f44|||TSLA|||Tesla faces major trial for alleged bias against Black workers, law school AI policies and our column on AI hiring discrimination lawsuit ➡️
-6c8dc88fabe7c08b64bb9b7d4fb24423|||AAPL|||iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement
-0d939bcf6f0af977510615f5e5d96c39|||AAPL|||Claim your $25 in Apple's $250 million settlement over delayed Siri features
-dfa133003df9d604e8d8589a2094da64|||AAPL|||The Apple AirPods 4 are less than $100 at Walmart right now, but the deal won’t last forever
-9a2496950f01f379dc3b2c76e04a06a6|||QCOM|||Qualcomm Falls 7% After Q4 EPS Guidance Misses by 12% — Automotive Hit a Record $1.6B
-3aba7163185e93b7bdd0613f5332c023|||AMZN|||Pivotal Research Maintains Amazon(AMZN.US) With Buy Rating, Maintains Target Price $333
-89b70b9c991826de29de25683d1452e1|||META|||Meta Spikes 7% as Wells Fargo Lifts Price Target to $796 Ahead of Connect; Alphabet Nudges Higher, Microsoft Holds Flat
-5b5e815995c6697f13c422749364d55b|||DELL|||Dell Technologies Introduces XPS Googlebook: The First XPS Laptop Built for Gemini Intelligence
-23c22eb7668e1a2c549be4ee64b9eb22|||DELL|||Dell Stock Forecast: $95B AI Backlog Meets Rising Channel Support at $559
-10c68a0bd2c5984b8f8f45da09f2e525|||AVGO|||Bernstein Maintains Broadcom(AVGO.US) With Buy Rating, Maintains Target Price $575
-3cab6b53bb8e7b1b8029cd4a6eb7ccfb|||TSM|||Taiwan Semiconductor Manufacturing's Foundry Market Share Is a Massive Moat Nobody Talks About
-9a42876ae52760228a41c09d784afd30|||TSM|||Intel vs. TSM: Which Semiconductor Stock Looks Like the Better Investment?
-88226a89481bc32d2aea176cd5cb8c6d|||NVDA|||Nvidia, Meta Have $300 Billion AI Problem
-df2c1796fc0a5577c3066002fc992f18|||NVDA|||Einride Enters Strategic Collaboration with NVIDIA to Advance its Autonomous Trucking on NVIDIA Hyperion
-cb60a6cf2ff4e14c1f88b484773d8c34|||NVDA|||Wall Street Analysts Think Nvidia (NVDA) Is a Good Investment: Is It?
-9979a15b49e2490c2ffbf195782e036b|||ASML|||Here's How Much $1000 Invested In ASML Holding 15 Years Ago Would Be Worth Today
-61f59be86e8bfa53697af00898436cb1|||ASML|||What company Is ASML? Between ASML and AMD, Which Is a Better Investment?
-902eb48be1bce0560c4f7d1fb9379d39|||MRVL|||Can Investing in Marvell Technology Stock Double Your Money?
-2e907b1ff4c1d676068be7610a89607f|||MRVL|||Morgan Stanley Adjusts PT on Marvell Technology to $268 From $246, Keeps Equalweight Rating
-673d04301874c73e253aaf2a0cdb59ea|||MU|||Micron MU Stock Finally Breaks $1,050 as Chip Demand and Trump-Xi Summit Fuels Rally
-71b3d259348e3b7464c362d61c0bd133|||SNDK|||SanDisk Stock Forecast: S&P 100 Entry Meets AI NAND Boom at $1,805 Resistance
-e5b42baed0ee86015ce3891cc0fe410c|||SKHY|||Zacks Investment Ideas feature highlights: Intel, SK Hynix, Nvidia, Microsoft and Apple
-dbb9a9fa6be8979e8d11d862d0e2257b|||SKHY|||Intel: Buy The SK hynix Optionality, But Foundry Still Has To Prove It (NASDAQ:INTC)
-cc9c0d8008496840fc37710175fef7a8|||STX|||Seagate stock expected to reach $900 on Oct 27, 2026, driven by strong earnings and contracted demand.
-d4364275da0e3bd381a6cd41da61adcf|||STX|||MU, SKHY, STX, WDC And Other Memory Stocks Tumble — Evercore's Daryanani Believes Supply-Demand Imbalance Is Going To Get Bigger In 2027
-4531dd56cc664b11675675e0c3b3dc09|||WDC|||MU, SKHY, STX, WDC And Other Memory Stocks Tumble — Evercore's Daryanani Believes Supply-Demand Imbalance Is Going To Get Bigger In 2027
-b79d273c1c9dfee485a506f6d72bec95|||ASX|||ASX Preview: Australian Shares to Fall; Perpetual Rejects Further Revised Takeover Proposal From EQT
-a9b151c4c78cd536eb73e2d24e8c51b0|||AMKR|||Amkor's AI and HPC Packaging Demand Grows: Can Growth Continue?
-717879c9e3cdfdd4d08a1b6ffc30fc0c|||AMKR|||Amkor Technology eyes expanded investment in South Jeolla-Gwangju region
-c930965e4a5e0443ff18040a710b0795|||TTMI|||Dan Loeb's Third Point Builds Stake in TTM Technologies - TTM Technologies (NASDAQ:TTMI)
-0aaac671552c2f851b11d523c3335106|||AEHR|||Investment Comparison Between Aehr and KLA
-6b26d7f225ab7a3a5c90e2f8f496bcfd|||TER|||Teradyne Introduces Iris 100: Production-Proven Test System for MicroLED Devices - Eagle-Tribune
-07699c0dc456042382fc9d311cfecb90|||OUST|||OUST Stock Hits 52-Week High Today — What Is The Counter-Drone Partnership With ARGUS About?
-dd1f598526e14f4e17e75580ff47869e|||BAND|||“The band cannot invoke Brent’s identity when it is commercially useful, while denying the continuing relevance of his contributions”: Brent Hinds’ estate makes statement amid ongoing Mastodon lawsuit
-0fcd295fa8c3973f6a0cbca00f5ced14|||BB|||RBC Capital reiterates Sector Perform rating on BlackBerry, $9 price target
-05c19d5727313149ea0b5e968cf647b3|||BB|||BlackBerry Likely to Report Q2 Revenue Above Expectations, RBC Says
+1efe4eb314c704f57615f5f5f04a0fbe|||ALP|||RRB ALP Exam Date 2026 Out For CBT 1, Check Exam Shifts and Schedule
 937e35e8eb12207a15cc2a2f894ebe91|||ALP|||RRB ALP CBT 1 Exam Dates 2026 Out; Check Complete Schedule
 8a8f486355c8aba2d3a3d9ce7ad72749|||NVTS|||Magnachip Announces Strategic Investment by Navitas Semiconductor
 c59d531497de75d1a6e1ae7dda584a72|||NVTS|||Navitas Draws Intense Buzz After Q4 Report, AI Partnership Hints; Retail Feels Stock Will Sprint This Year
@@ -657,7 +615,7 @@ c59d531497de75d1a6e1ae7dda584a72|||NVTS|||Navitas Draws Intense Buzz After Q4 Re
 e05065adc893ff7b091a38ad9ef0cdaf|||SNOW|||Snowflake Stock Forecast: Can AI Demand Drive SNOW Back to Its $317 Record High?
 785442587dabc2209d885f3126a917ea|||SNOW|||'I'm More Comfortable With That Character Again': Jon Snow Actor Kit Harington Now Says 'There's a World in Which Something Could Work' With His Scrapped Game of Thrones Spinoff
 212947a1af5f9071f5e43b50c081ad7e|||CRM|||Salesforce AIforce and Headless Toolkit unlock new opportunities for services partners
-a115378ab241c1304d8a6695bbae09bb|||CRM|||CRM Software Blog Names 11 Companies to Its First Best Microsoft Dynamics 365 CRM Partner List 2026 - 24-7PressRelease.com
+46902293bf04af6771ccdbf39c1e5042|||CRM|||CRM Software Blog Names 11 Companies to Its First Best Microsoft Dynamics 365 CRM Partner List 2026 - 24-7 Press Release Newswire
 50637e082104882c72f78ccd77c1925e|||CRM|||CRM Stock Is Struggling, But CEO Says 'No SaaS Company Is Doing More' — Agentforce's $1B Run-Rate Is His Evidence
 c29bc6d190ec6ae52f213470e70e4dc1|||CRM|||CRM DCF Analysis: Intrinsic Value $526 vs Price $238
 3b8d896b3d2f4de897bdc39ec4fda8d6|||CRWV|||The Fed Just Raised Rates for the First Time Since 2023. CoreWeave’s CEO Sees an ‘Inflection Point,’ But Its $51 Billion Debt Problem Just Got Worse.
@@ -672,29 +630,33 @@ c98ab521c284e76b1e079cfe8078f8d5|||PANW|||Morgan Stanley Adjusts PT on Palo Alto
 eee42863bf51152cd12fbaaa2b47a7e5|||LITE|||Lumentum, Qualcomm, Corning partner on AI optical tech; shares rise (LITE:NASDAQ)
 eedf358cbb03c1f1c2efa46e25380834|||LITE|||LITE, QCOM, GLW Team Up for AI Optical D2D Breakthrough at ECOC 2026
 742bc5e85d32ffb4c6447b0572234cf5|||COHR|||Bluglass Enters Early-Stage Collaboration With Coherent On Novel Gan Device
+f6ba952fd095c4d632c580eb5be9c61e|||COHR|||BluGlass Enters A$286k GaN Device Collaboration with Photonics Leader Coherent
+127d790b3ad6c7ddf606c53996c87fce|||COHR|||Beyond MoU: Building A Coherent Fiscal-Monetary Policy Framework
 17a42b83008b894cbdd0e9e3073eb8fd|||CIEN|||Evercore Upgrades Ciena(CIEN.US) to Buy Rating, Raises Target Price to $550
+2d8805039bfb25867feced6ebf072f1f|||GLW|||Lumentum, Qualcomm, Corning partner on AI optical tech; shares rise
 8538ff41c759b8649fd20e1289942689|||SMTC|||Semtech joins XPO pluggable standards alliance
 c39f2c5819ff3062ca2cdcf189b77775|||SMTC|||Semtech launches 50G optics for next-gen mobile fronthaul applications
 3f66d25a0bbce77dac8a257ed816b7c0|||CRDO|||$CRDO has successfully bounced from the $150 support zone.
 c8b235862bf1c6ba94f1cf9d99c69661|||NOK|||Nokia Starts a Critical Week After a 7% Selloff — Can Strong AI Orders Reverse the Trend?
-e1a524ca43cefe23de3a7014a69fd232|||NOK|||Orkla ASA (ORK) Launches Up To NOK 4.0B Share Buyback
+81c06fc723951ed82e087486d0bf57d4|||NOK|||Nokia Oyj To Invest $30M In Pennsylvania Chip Facility Expansion — Seen Generating $500M Impact
 8ca741b0cdbd010654aa2a9622bc2dcf|||CSCO|||The AI Era Demands More Than Speed: Building Secure, Intelligent Networks from Silicon to Optics
 63680ca0966d10d21aec67667a4a655e|||SPCX|||SpaceX IPO Debuts at $135 at a $1.75 Trillion Valuation on June 12 — Where Could SPCX Trade in the First 90 Days?
 09f888d5c5b9cc3f87f4353007d4317c|||SPCX|||SPCX Stock Extends Its Relentless Rally – SpaceX Expands Historic IPO To $85.7B After Underwriters Exercise Greenshoe Option
 7cf36702de8b1c190abbd0d9e9d919c0|||SPCX|||SpaceX Stock Forecast: SPCX Falls From $225 to $206 as Former Nasdaq Chief Warns It’s Not Trading on Fundamentals
-955e0bc706157fba93fd6bae19f507d1|||RKLB|||RKLB Stock In Focus: Cantor Stays Bullish As Iridium Acquisition Funding Falls Into Place
+a84b88985fdc05b5ba163a595dea0a08|||RKLB|||Rocket Lab Climbs 7% as Cantor Reiterates $122 Target on Launch Record; Intuitive Machines Jumps 10%, AST SpaceMobile Rises 6%
 1ee765ac562c6b0801e62d1a75bd6257|||IRDM|||RKLB Stock In Focus: Cantor Stays Bullish As Iridium Acquisition Funding Falls Into Place
-a76dfbdd967667b9f2272a3ac92adf31|||CRCL|||CRCL Stock Dips On Tazapay Deal As USDC Momentum Builds
+fcc7bb2a1e579ccc82aac94f4c52ac05|||CRCL|||Crypto Stocks: MSTR, COIN, & CRCL Rally as BTC Hits $86K
+c50e3a517e600a0ddef7feacad4a5539|||NBIS|||Rothschild & Co Redburn Initiates NEBIUS(NBIS.US) With Sell Rating, Announces Target Price $84
 82e6e5658cdf3f8e1dbe1ca575ee6a33|||NBIS|||Tradr 2X Short NBIS Daily ETF To Carry Out 1-for-4 Reverse Stock Split On September 22nd, 2026
-e02b66ec5fa08cc98437589fd632f805|||NBIS|||SNDK, MU, BE, NBIS Stocks Slip: Ken Griffin’s Citadel Unwinds $4B From Situational Awareness Portfolio
 69cf1f2bfd30f7ca0a0e2c174d756449|||WULF|||Rothschild Redburn initiates TeraWulf at Neutral with $15 price target
 78db72704c3ce357f1cd607adc5258e9|||CIFR|||Cipher Digital Just Scored a Huge AI Infrastructure Breakthrough. What It Will Take for the Stock to Reclaim $30.
 a4e963fae550a7815a5d3ff76271333a|||MP|||Critical Metals Surges 25% as Greenland Security Pact Puts Tanbreez Rare Earth Permit in Focus; USA Rare Earth Climbs 6%, MP Materials Rises 4%
 fc9ecc5bc031374d92a5ca6c40229ca8|||MP|||Bavarian delegation meets MP to explore Karnataka-Bavaria cooperation
-bd86b402fcf4882acf9643ca413fe325|||MP|||Wa West Healthcare Support: MP donates GHS300,000 in medical supplies to health facilities
+11a595778f51d1c194337c8e7828dd3c|||MP|||Probiotic Medical Food* Neuralli™ MP Sweeps Double Award Win in Hong Kong: Over 90% of Healthcare Professionals Back the Brand
 11c287208fe9e0531f2e760c917daf17|||USAR|||USAR Stock In Focus: USA Rare Earth Expands European Footprint With Major France Investment
 ede5ff1991059ee0c6e64e8387eb8a49|||USAR|||USAR Turns To AI, Quantum Computing To Tackle A Key Supply Bottleneck — Why Its Partnership With Pasqal, Riven Systems Matters
-12635c5e1faba8ee6296aa2857cf6c13|||FCEL|||FuelCell Energy – San Bernardino Leads with Award-Winning Fuel Cell System Innovation - hydrogen-central.com
+14c5f6b59f3a1fdee698f69b71fd6f30|||FCEL|||FuelCell Energy – San Bernardino Leads with Award-Winning Fuel Cell System Innovation
+e066954fde5ccaa07019814c9e87b3e1|||FCEL|||FuelCell Energy, Inc. (FCEL) Investigation: Bronstein, Gewirtz & Grossman, LLC Encourages Investors to Contact the Firm to Learn More About the Investigation
 4a3ff6ce1a0a112432ca8e04be815232|||TE|||ReLeaf Financial and Inspira Te ilumina Partner to Secure Family Finance in Peru with Proof of Intent
 cc45fa170614d8f26db725b9170c1e9c|||GEV|||Wall Street Can't Agree on GE Vernova. Price Targets Range From $470 to $1,450. Here's Why the Gap Is So Wide.
 90cfdac8619c1a458c0b8870efe980d4|||GEV|||AMACO Taps GE Vernova as Turbine Partner for $1.5B Mombasa AI Project
