@@ -25,7 +25,7 @@ SEC_HEADERS = {
 
 COMPANY_NAME_CACHE = {}
 
-# 1. 機構級來源白名單（非頂級一線來源直接本地秒殺，徹底封殺 TradingKey、Zacks 等農場）
+# 1. 嚴格白名單：非官方一手通訊社或一線外電，直接秒殺（阻絕 TipRanks、MarketScreener 等二級農場）
 TRUSTED_SOURCES = [
     # 官方一手通訊社
     "pr newswire", "business wire", "globenewswire",
@@ -34,64 +34,45 @@ TRUSTED_SOURCES = [
     "cnbc", "financial times", "marketwatch", "barron's", "associated press"
 ]
 
-# 2. 英文日常單字代號（禁止小寫模糊比對，杜絕 onto、cat、it 等日常雜訊）
 COMMON_WORD_TICKERS = {
     "ONTO", "CAT", "NOW", "ON", "IT", "ALL", "CAN", "BE", "GO", "ARE",
     "FOR", "OUT", "WELL", "RUN", "FAST", "OPEN", "PLAY", "SAVE", "APP",
     "REAL", "TRUE", "KEY", "KEYS", "FORM", "POST", "NET", "PLUG", "SO"
 }
 
-# 3. 負向黑名單：阻絕律所訴訟、例行日程、公關得獎與 SEO 研報
 EXCLUDE_TITLE_PATTERNS = [
-    # A. 純法說會、路演、會議日程與例行股東會材料
     r"\bto\s+report\b", r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
     r"\bconference\s+call\b", r"\binvestor\s+conference\b", r"\bpresentation\b",
     r"\bfireside\s+chat\b", r"\broadshow\b", r"\bannual\s+meeting\b",
     r"\bproxy\s+materials?\b", r"\bproxy\s+statement\b",
-
-    # B. 律師事務所訴訟、調查宣告與截止日提醒
     r"\bclass\s+action\b", r"\blawsuit\b", r"\bshareholder\s+alert\b",
     r"\breminds\s+investors\b", r"\blead\s+plaintiff\b", r"\bdeadline\b",
     r"\binvestigates?\b", r"\binvestigation\s+into\b", r"\bnotifies\s+investors\b",
     r"\bencourages\s+investors\b", r"\bloss\s+submission\b",
     r"\brosen\b", r"\bpomerantz\b", r"\bglancy\b", r"\bschall\b",
     r"\bfaruqi\b", r"\bhagens\s+berman\b", r"\blevi\s+&\s+korsinsky\b",
-
-    # C. 產業研報與例行評等
     r"\bmarket\s+size\b", r"\bmarket\s+share\b", r"\bcagr\b",
     r"\bmarket\s+research\b", r"\bforecast\s+to\s+20\d\d\b", r"\btop\s+players\b",
     r"\bindustry\s+report\b",
-
-    # D. 企業公關得獎、評鑑榮譽
     r"\bnamed\s+(a\s+)?winner\b", r"\bwins?\s+award\b", r"\bhonored\s+as\b",
     r"\brecognized\s+by\b", r"\brecognized\s+as\b", r"\bnamed\s+to\b",
     r"\bgreat\s+place\s+to\s+work\b", r"\bmagic\s+quadrant\b", r"\bforbes\b",
     r"\bfortune\s+500\b", r"\bfast\s+company\b",
-
-    # E. ESG 報告、慈善活動
     r"\besg\s+report\b", r"\bsustainability\s+report\b", r"\bcorporate\s+responsibility\b",
     r"\bcarbon\s+neutral\b", r"\bdonates?\b", r"\bdonation\b", r"\bfoundation\b",
     r"\bscholarship\b", r"\bdiversity\b", r"\binclusion\b",
-
-    # F. 展會擺攤、產品演示與白皮書
     r"\bto\s+showcase\b", r"\bto\s+exhibit\b", r"\bto\s+demonstrate\b",
     r"\bexhibiting\s+at\b", r"\bbooth\b", r"\bwhitepaper\b",
     r"\bsurvey\s+finds\b", r"\bsurvey\s+reveals\b", r"\bpublishes\s+study\b",
-
-    # G. 常規人事任命與文字勘誤
     r"\bappoints?\b", r"\bnames?\s+new\b", r"\bcorrection\b", r"\badds\s+to\s+board\b"
 ]
 
-# 4. 全維度重大信號白名單
 SIGNAL_PATTERNS = [
-    # A. 商業大單、先進封裝合作與戰略聯盟
     r"\bcontract\b", r"\border\b", r"\borders\b", r"\bdeal\b", r"\baward\b",
     r"\bawarded\b", r"\bagreement\b", r"\bpact\b", r"\bprocurement\b", r"\bsupply\b",
     r"\bselected\s+by\b", r"\bpartner(?:ed|ing|ship|s)?\b", r"\bcollaboration\b",
     r"\balliance\b", r"\bjoint\s+venture\b", r"\bto\s+deploy\b", r"\bsecures?\b",
     r"\bpackaging\b", r"\bcooperat\w*\b", r"\bmou\b", r"\btie-up\b", r"\bmicro\s*led\b",
-
-    # B. 重大併購、收購提議、外部注資、晶圓廠與重組
     r"\btakeover\b", r"\bacquisition\b", r"\bacquires?\b", r"\bbuyout\b",
     r"\binvest(?:ment|s|ing)?\b", r"\bstake\b", r"\bmerger\b",
     r"\brestructur\w*\b", r"\bsubsidiary\b", r"\bfoundry\b",
@@ -99,42 +80,26 @@ SIGNAL_PATTERNS = [
     r"\bunsolicited\b", r"\bproxy\s+contest\b", r"\bstrategic\s+alternatives\b",
     r"\bsells?\b", r"\bsold\b", r"\bsale\s+of\b", r"\bselling\b", r"\bto\s+sell\b",
     r"\bspinoff\b", r"\bspin-off\b", r"\bdivestiture\b", r"\bdivests?\b",
-
-    # C. 實質財報與業績指引
     r"\breports?\s+first\s+quarter\b", r"\breports?\s+second\s+quarter\b",
     r"\breports?\s+third\s+quarter\b", r"\breports?\s+fourth\s+quarter\b",
     r"\breports?\s+full\s+year\b", r"\bfinancial\s+results\b",
     r"\braises?\s+guidance\b", r"\braises?\s+outlook\b",
-
-    # D. 庫藏股回購
     r"\brepurchase\b", r"\bbuyback\b", r"\bshare\s+repurchase\b",
-
-    # E. 股權稀釋融資
     r"\bconvertible\b", r"\bsenior\s+notes\b", r"\bpublic\s+offering\b",
     r"\bsecondary\s+offering\b", r"\bprices\s+offering\b", r"\bpricing\s+of\b",
     r"\bat-the-market\b", r"\batm\s+offering\b", r"\batm\s+facility\b",
     r"\bcommon\s+stock\s+offering\b",
-
-    # F. 重大產品量產、技術突破與監管核准
     r"\blaunches\b", r"\bunveils\b", r"\bintroduces\b", r"\bnext-gen\b",
     r"\barchitecture\b", r"\bproduction\s+release\b", r"\bfda\s+approv\w*\b",
     r"\bclearance\b", r"\bbreakthrough\b",
-
-    # G. 實質金額與政府補助
     r"\$\d+", r"\bmillion\b", r"\bbillion\b", r"\bgrant\b", r"\bfunding\b",
     r"\bsubsid(?:y|ies)\b", r"\bchips\s+act\b",
-
-    # H. 突發利空預警、調降指引與審計異常
     r"\blowers?\s+guidance\b", r"\bcuts?\s+guidance\b", r"\bslashes\b",
     r"\bwithdraws?\s+guidance\b", r"\bpreliminary\s+results\b",
     r"\brestatement\b", r"\brestates\b", r"\bdelays?\s+filing\b",
     r"\bresignation\s+of\s+independent\s+auditor\b",
-
-    # I. 破產重組、債務違約、退市警告與合股
     r"\bchapter\s+11\b", r"\bbankruptcy\b", r"\breverse\s+stock\s+split\b",
     r"\bdelisting\b", r"\bnon-compliance\b", r"\bdefault\b",
-
-    # J. 監管立案與裁員
     r"\bsec\s+investigation\b", r"\bsubpoena\b", r"\bcomplete\s+response\s+letter\b",
     r"\bclinical\s+hold\b", r"\bverdict\b", r"\bsettlement\s+agreement\b",
     r"\bpatent\s+infringement\b", r"\bantitrust\b",
@@ -149,7 +114,8 @@ GENERIC_FIRST_WORDS = {
 STOP_WORDS = {
     "a", "an", "the", "and", "or", "but", "about", "above", "after", "along",
     "at", "by", "for", "from", "in", "into", "of", "to", "with", "on", "its",
-    "as", "stock", "shares", "tumbles", "jumps", "falls", "rises", "plunges"
+    "as", "stock", "shares", "tumbles", "jumps", "falls", "rises", "plunges",
+    "by", "through", "announces", "announced"
 }
 
 
@@ -209,22 +175,21 @@ def make_news_fingerprint(ticker, title):
     raw_key = f"{ticker}_{clean_title}"
     return hashlib.md5(raw_key.encode("utf-8")).hexdigest()
 
+def normalize_word(word):
+    w = word.lower()
+    w = re.sub(r"(ments?|ings?|ed|s)$", "", w)
+    return w
+
 def extract_core_words(title):
     words = re.findall(r"\b[a-zA-Z0-9$]+(?:\.[0-9]+)?\b", title.lower())
-    return set(w for w in words if w not in STOP_WORDS and len(w) > 1)
-
-def extract_significant_numbers(title):
-    nums = re.findall(r"\$?\b\d+(?:\.\d+)?(?:b|m|k|billion|million)?\b", title.lower())
-    return set(n for n in nums if not re.match(r"^202\d$", n))
+    return set(normalize_word(w) for w in words if w not in STOP_WORDS and len(w) > 2)
 
 def is_duplicate_news(ticker, new_title, history_records):
     new_words = extract_core_words(new_title)
     if not new_words:
         return False
 
-    new_numbers = extract_significant_numbers(new_title)
-
-    for h in reversed(history_records[-120:]):
+    for h in reversed(history_records[-150:]):
         if h["ticker"] != ticker:
             continue
             
@@ -236,11 +201,7 @@ def is_duplicate_news(ticker, new_title, history_records):
         union = new_words | old_words
         similarity = len(intersection) / len(union) if union else 0
 
-        if similarity >= 0.75:
-            return True
-
-        old_numbers = extract_significant_numbers(h["title"])
-        if new_numbers and (new_numbers & old_numbers) and len(intersection) >= 4:
+        if similarity >= 0.45 or len(intersection) >= 3:
             return True
 
     return False
@@ -259,30 +220,31 @@ def has_high_impact_signal(text):
             return True
     return False
 
-def is_trusted_source(source_name, url=""):
-    """白名單檢查：僅放行官方商業通訊社與一線權威財經外電"""
-    check_str = f"{source_name} {url}".lower()
-    return any(trusted in check_str for trusted in TRUSTED_SOURCES)
+def is_trusted_source(source_name):
+    s_lower = source_name.lower().strip()
+    return any(trusted in s_lower for trusted in TRUSTED_SOURCES)
 
-def is_within_48_hours(pub_date_raw):
+def is_within_24_hours(pub_date_raw):
     """
-    時間戳物理防禦：計算新聞原始發布時間是否真在 48 小時內。
-    徹底解決二級農場刷新時間欺騙 Google 的冷飯熱炒問題。
+    嚴格 24 小時時效守衛：
+    1. 查無日期或解析失敗，一律直接丟棄（絕不放水）
+    2. 發布時間超過 24 小時，強制直接判定為過期拋棄
     """
-    if not pub_date_raw:
-        return True
+    if not pub_date_raw or not pub_date_raw.strip():
+        return False
     try:
         dt = parsedate_to_datetime(pub_date_raw)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
         now_utc = datetime.now(UTC_TZ)
-        diff = now_utc - dt
-        # 超過 48 小時（加 2 小時緩衝）一律判定為過期新聞
-        if diff.total_seconds() > (50 * 3600):
+        diff_hours = (now_utc - dt).total_seconds() / 3600
+
+        # 允許 1 小時伺服器時鐘誤差，超過 24 小時直接秒殺
+        if diff_hours < -1.0 or diff_hours > 24.0:
             return False
+        return True
     except Exception:
-        pass
-    return True
+        return False
 
 def matches_target_entity(ticker, raw_title):
     t_raw = raw_title
@@ -418,27 +380,26 @@ def summarize_with_ai(ticker, text):
 你是一位分毫不差的美股買方研究員。請審核這則新聞是否為【{ticker} - {company_name}】的重大市場衝擊事件：
 
 【絕對駁回規則（命中任一條，一律回傳 PASS）】：
-1. 【歷史舊聞回溯】：新聞若只是盤後評論或回顧數週前的歷史季度財報（非當前 48 小時內突發事件），回傳 PASS。
+1. 【歷史舊聞回溯】：若只是盤後評論或回顧數週前的歷史季度財報（非當前 24 小時突發事件），回傳 PASS。
 2. 【主體非該公司】：新聞主角必須是【{ticker} / {company_name}】本身！
-   - 若只是日常單字（如 onto、cat、it）或產業詞彙，回傳 PASS。
-   - 若其他公司交易，僅在內文順帶提及【{ticker}】，回傳 PASS。
 3. 【例行行銷軟文】：常規小版本更新、展會演講、無具體時程之概念展示，回傳 PASS。
-4. 純法說會日程公布、律師集體訴訟招募（Lawsuit Alert）、普通人事異動。
+4. 純法說會日程公布、律師集體訴訟招募、普通人事異動。
 
 【符合監控的六大類別】：
-1. 【ORDER】商業大單/合作：外部客戶/政府向【{ticker}】採購、簽訂重大技術/封裝合作協議（Partnership/Packaging/MOU）、獲得補助款。
-2. 【M&A】重大併購/資產出售/注資重組：【{ticker}】收購同業、遭外部收購意向（Takeover）、獲大型機構重大注資、出售業務部門、晶圓代工分拆（Spinoff/Foundry）。
-3. 【DILUTION】資本稀釋融資：【{ticker}】發行可轉債、增發新股、宣布定價、或啟動 ATM 配售。
-4. 【EARNINGS】業績與回饋：【{ticker}】公布當季即時財報、調升全年財測、或啟動庫藏股回購。
-5. 【PRODUCT】重大產品上市/監管突破：【{ticker}】發布旗艦架構、先進封裝技術落地（量產突破）或取得監管放行。
-6. 【CRISIS】利空預警與黑天鵝：調降/撤回財測、會計師辭職、延遲申報財報、破產清算、收到下市警告、反壟斷調查或合股（Reverse Split）。
+1. 【ORDER】商業大單/合作：重大技術/封裝合作協議、客戶採購合約、政府補助款。
+2. 【M&A】重大併購/資產出售/注資重組：收購、遭外部收購（Takeover）、重大股權投資（Investment）、業務出售/分拆。
+3. 【DILUTION】資本稀釋融資：發行可轉債、增發新股、ATM 配售。
+4. 【EARNINGS】業績與回饋：即時季度財報、調升全年指引、庫藏股回購。
+5. 【PRODUCT】重大產品上市/監管突破：旗艦架構發布、封裝技術量產落地、重要監管批准。
+6. 【CRISIS】利空預警與黑天鵝：下修財測、會計師辭職、延期申報、破產、合股（Reverse Split）。
 
 【輸出格式要求】：
 若不符合，只回傳單字：PASS
-若符合，嚴格依照以下 JSON 格式回傳，禁止多餘文字：
+若符合，嚴格回傳以下純 JSON 物件，嚴禁包含任何其他文字：
 {{
   "type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS",
-  "summary": "以繁體中文條列兩點（100 字以內，直切本質）：\\n• 【核心要點】：具體事件、合作/交易對手、金額或時程。\\n• 【財務影響】：對 {ticker} 之營收貢獻、封裝製程升級、現金流或股本稀釋之實質影響。"
+  "action": "具體動作、合作或交易對手、金額或時程（繁體中文，40 字以內）",
+  "impact": "對 {ticker} 之營收貢獻、製程升級、現金流或股本稀釋之實質影響（繁體中文，40 字以內）"
 }}
 
 新聞內容：
@@ -447,7 +408,7 @@ def summarize_with_ai(ticker, text):
     payload = {
         "model": "gpt-4o-mini",
         "messages": [
-            {"role": "system", "content": "你是一位嚴謹的機構買方研究員，直接輸出指定 JSON，嚴禁添加任何客套話。"},
+            {"role": "system", "content": "你是一位嚴謹的機構買方研究員，嚴格輸出指定 JSON 鍵值，嚴禁添加任何多餘字句。"},
             {"role": "user", "content": prompt}
         ],
         "temperature": 0.1
@@ -469,7 +430,15 @@ def summarize_with_ai(ticker, text):
                 return "PASS", "", True
 
             parsed = json.loads(json_match.group(0))
-            return parsed.get("type", "ORDER"), parsed.get("summary", ""), True
+            event_type = parsed.get("type", "ORDER")
+            action = parsed.get("action", "").strip()
+            impact = parsed.get("impact", "").strip()
+            
+            if not action or not impact:
+                return "PASS", "", True
+                
+            formatted_summary = f"• 【核心要點】：{action}\n• 【財務影響】：{impact}"
+            return event_type, formatted_summary, True
         except Exception:
             time.sleep(2)
             
@@ -480,18 +449,18 @@ def summarize_with_ai(ticker, text):
 def fetch_google_wire_news(ticker):
     company_name = COMPANY_NAME_CACHE.get(ticker.upper())
     
-    # 乾淨標準檢索式，避免多餘語法破壞 Google RSS 解析
     if company_name and company_name.upper() != ticker.upper() and len(company_name) >= 3:
         search_target = f'"{company_name}" OR "{ticker}"'
     else:
         search_target = f'"{ticker}"'
 
-    query = f"{search_target} when:2d"
+    # 強制鎖定在過去 24 小時內 (when:1d)
+    query = f"{search_target} when:1d"
     encoded_query = urllib.parse.quote(query)
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
     
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
 
     for retry in range(2):
@@ -543,47 +512,45 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
         source_name = item["source"]
         print(f"   ↳ 審核標題: {raw_title[:55]}...", flush=True)
 
-        # 1. 白名單防線：非官方通訊社或一線權威外電直接秒殺（徹底阻絕 TradingKey 等農場站）
-        if not is_trusted_source(source_name, item["url"]):
+        # 1. 嚴格白名單防線：非一手通訊社或一線外電直接秒殺
+        if not is_trusted_source(source_name):
             print(f"      [來源過濾] 來源非權威白名單 ({source_name})，跳過", flush=True)
             continue
 
-        # 2. 時間戳物理防線：發布時間超過 48 小時直接阻斷（杜絕農場更新 Sitemap 的舊聞）
-        if not is_within_48_hours(item["pub_date_raw"]):
-            print("      [時效過濾] 原始發布時間已超過 48 小時（舊聞回溯），跳過", flush=True)
+        # 2. 嚴格 24 小時守衛：超過 24 小時或解析失敗，一律直接拋棄
+        if not is_within_24_hours(item["pub_date_raw"]):
+            print("      [時效過濾] 發布時間已逾 24 小時或無效時間戳，跳過", flush=True)
             continue
 
-        # 3. 本地防線：核對公司主體實體（單字代號走嚴格模式）
+        # 3. 主體核對
         if not matches_target_entity(ticker, raw_title):
             print("      [本地過濾] 標題非該公司主體，跳過", flush=True)
             continue
 
-        # 4. 精確非貪婪切除末尾發布源（防止中間破折號導致標題被腰斬）
         clean_title = re.sub(r"\s+[\-–—]\s+[^\-–—]+$", "", raw_title).strip()
         fingerprint = make_news_fingerprint(ticker, clean_title)
         
-        # 5. 精確指紋去重
+        # 4. 精確指紋去重
         if fingerprint in sent_fingerprints:
-            print("      [記憶庫略過] 此新聞精確指紋已記錄，略過", flush=True)
+            print("      [記憶庫略過] 此新聞指紋已記錄，略過", flush=True)
             continue
 
-        # 6. 模糊語意去重（相同事件標題微調）
+        # 5. 語意去重（相同事件直接攔截）
         if is_duplicate_news(ticker, clean_title, history_records):
-            print("      [相似度攔截] 檢測到同事件相近標題，跳過", flush=True)
+            print("      [相似度攔截] 檢測到同事件相近報導，跳過", flush=True)
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 7. 排除公關人事、研報黑名單
+        # 6. 黑名單過濾
         if is_junk_title(clean_title):
-            print("      [本地過濾] 命中公關/人事/日程黑名單，跳過", flush=True)
+            print("      [本地過濾] 命中公關/人事黑名單，跳過", flush=True)
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 8. 零 Token 本地防爆門：標題訊號檢查 + 摘要輔助比對
+        # 7. 實質信號過濾
         title_has_signal = has_high_impact_signal(clean_title)
-
         snippet_lower = item['snippet'].lower()
         has_money = bool(re.search(r"\$\d+(?:\.\d+)?\s*(?:billion|million|b|m)\b", snippet_lower))
         has_strict_action = bool(re.search(r"\b(takeover|acquisition|merger|contract|investment|foundry|partnership|packaging)\b", snippet_lower))
