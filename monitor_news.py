@@ -24,19 +24,19 @@ SEC_HEADERS = {
 
 COMPANY_NAME_CACHE = {}
 
-# 英文日常單字代號（禁止小寫模糊比對，杜絕 onto、cat、it 等日常雜訊）
+# 英文日常單字代號（禁止小寫模糊比對，杜絕 onto、cat、it 等日常單字干擾）
 COMMON_WORD_TICKERS = {
     "ONTO", "CAT", "NOW", "ON", "IT", "ALL", "CAN", "BE", "GO", "ARE",
     "FOR", "OUT", "WELL", "RUN", "FAST", "OPEN", "PLAY", "SAVE", "APP",
     "REAL", "TRUE", "KEY", "KEYS", "FORM", "POST", "NET", "PLUG", "SO"
 }
 
-# 負向農場網站黑名單：阻絕垃圾投顧農場，保留頂級財經外電與官方通訊
-SPAM_DOMAIN_EXCLUSIONS = (
-    "-site:zacks.com -site:fool.com -site:seekingalpha.com "
-    "-site:investorplace.com -site:simplywall.st -site:tipranks.com "
-    "-site:marketbeat.com -site:stocktitan.net -site:quiverquant.com"
-)
+# 本地攔截之投顧農場黑名單（在 Python 記憶體秒殺，不塞入 Google 搜尋式中搞壞 RSS）
+SPAM_DOMAINS = [
+    "zacks.com", "fool.com", "seekingalpha.com", "investorplace.com",
+    "simplywall.st", "tipranks.com", "marketbeat.com", "stocktitan.net",
+    "quiverquant.com", "investing.com", "benzinga.com"
+]
 
 # 1. 負向黑名單：阻絕律所訴訟、例行日程、公關得獎與 SEO 研報
 EXCLUDE_TITLE_PATTERNS = [
@@ -79,15 +79,16 @@ EXCLUDE_TITLE_PATTERNS = [
     r"\bappoints?\b", r"\bnames?\s+new\b", r"\bcorrection\b", r"\badds\s+to\s+board\b"
 ]
 
-# 2. 標題正向重大信號白名單（全面補足併購、注資、重組、戰略合作與晶圓代工詞彙）
+# 2. 全維度重大信號白名單（全面補足先進封裝、戰略協議與技術合作）
 SIGNAL_PATTERNS = [
-    # A. 商業大單與戰略合作
+    # A. 商業合約、先進封裝合作與戰略聯盟
     r"\bcontract\b", r"\border\b", r"\borders\b", r"\bdeal\b", r"\baward\b",
-    r"\bawarded\b", r"\bagreement\b", r"\bprocurement\b", r"\bsupply\b",
+    r"\bawarded\b", r"\bagreement\b", r"\bpact\b", r"\bprocurement\b", r"\bsupply\b",
     r"\bselected\s+by\b", r"\bpartner(?:ed|ing|ship|s)?\b", r"\bcollaboration\b",
     r"\balliance\b", r"\bjoint\s+venture\b", r"\bto\s+deploy\b", r"\bsecures?\b",
+    r"\bpackaging\b", r"\bcooperat\w*\b", r"\bmou\b", r"\btie-up\b", r"\bmicro\s*led\b",
 
-    # B. 重大併購、收購提議、外部注資、資產剝離與重組
+    # B. 重大併購、收購提議、外部注資、晶圓廠與重組
     r"\btakeover\b", r"\bacquisition\b", r"\bacquires?\b", r"\bbuyout\b",
     r"\binvest(?:ment|s|ing)?\b", r"\bstake\b", r"\bmerger\b",
     r"\brestructur\w*\b", r"\bsubsidiary\b", r"\bfoundry\b",
@@ -255,12 +256,12 @@ def has_high_impact_signal(text):
             return True
     return False
 
+def is_spam_source(url, source_name):
+    """在本地瞬間檢查來源網域，不污染 Google 查詢式"""
+    check_str = f"{url.lower()} {source_name.lower()}"
+    return any(domain in check_str for domain in SPAM_DOMAINS)
+
 def matches_target_entity(ticker, raw_title):
-    """
-    實體核對防線：
-    1. 常見單字代號（ONTO, CAT, NOW 等）強制要求大寫代號或 SEC 官方全名
-    2. 一般代號允許小寫邊界比對或全名首詞對齊
-    """
     t_raw = raw_title
     t_lower = raw_title.lower()
     ticker_upper = ticker.upper()
@@ -343,12 +344,12 @@ def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub
         "PRODUCT": {
             "title": f"🚀 重大產品/技術突破：{ticker}",
             "color": 0x1ABC9C,
-            "desc": "次世代旗艦產品發布 / 監管核准"
+            "desc": "次世代旗艦產品發布 / 封裝合作 / 監管核准"
         },
         "ORDER": {
             "title": f"💰 商業大單/合作快訊：{ticker}",
             "color": 0x2ECC71,
-            "desc": "實質營收合約（客戶下單/戰略合作/政府補助）"
+            "desc": "實質營收合約（先進封裝協議/戰略合作/政府補助）"
         }
     }
 
@@ -401,11 +402,11 @@ def summarize_with_ai(ticker, text):
 3. 純法說會日程公布、律師集體訴訟招募（Lawsuit Alert）、普通人事異動。
 
 【符合監控的六大類別】：
-1. 【ORDER】商業大單/合作：外部客戶/政府向【{ticker}】採購、簽訂重大戰略合作（Partnership/Collaboration）、獲得擴產補助款。
-2. 【M&A】重大併購/資產出售/注資重組：【{ticker}】收購同業、遭外部收購意向（Takeover）、獲大型機構重大注資、出售業務部門、晶圓代工分拆（Spinoff/Foundry）。
+1. 【ORDER】商業大單/合作：外部客戶/政府向【{ticker}】採購、簽訂重大技術/封裝合作協議（Partnership/Packaging/MOU）、獲得補助款。
+2. 【M&A】重大併購/資產出售/注資重組：【{ticker}】收購同業、遭外部收購（Takeover）、獲大型機構重大注資、出售業務部門、晶圓代工分拆（Spinoff/Foundry）。
 3. 【DILUTION】資本稀釋融資：【{ticker}】發行可轉債、增發新股、宣布定價、或啟動 ATM 配售。
 4. 【EARNINGS】業績與回饋：【{ticker}】公布季度財報、調升全年財測、或啟動庫藏股回購。
-5. 【PRODUCT】重大產品上市/監管突破：【{ticker}】發布旗艦架構（公布量產突破）或取得重要監管放行（如 FDA）。
+5. 【PRODUCT】重大產品上市/監管突破：【{ticker}】發布旗艦架構、先進封裝技術落地（量產時程突破）或取得監管放行。
 6. 【CRISIS】利空預警與黑天鵝：調降/撤回財測、會計師辭職、延遲申報財報、破產清算、收到下市警告、反壟斷調查或合股（Reverse Split）。
 
 【輸出格式要求】：
@@ -413,7 +414,7 @@ def summarize_with_ai(ticker, text):
 若符合，嚴格依照以下 JSON 格式回傳，禁止多餘文字：
 {{
   "type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS",
-  "summary": "以繁體中文條列兩點（100 字以內，直切本質）：\\n• 【核心要點】：具體事件、交易對手、金額或時程。\\n• 【財務影響】：對 {ticker} 之營收貢獻、毛利率、現金流或股本稀釋之實質影響。"
+  "summary": "以繁體中文條列兩點（100 字以內，直切本質）：\\n• 【核心要點】：具體事件、合作/交易對手、金額或時程。\\n• 【財務影響】：對 {ticker} 之營收貢獻、封裝製程升級、現金流或股本稀釋之實質影響。"
 }}
 
 新聞內容：
@@ -455,13 +456,13 @@ def summarize_with_ai(ticker, text):
 def fetch_google_wire_news(ticker):
     company_name = COMPANY_NAME_CACHE.get(ticker.upper())
     
+    # 使用最乾淨的標準查詢式，杜絕破壞 Google RSS 的複雜進階語法
     if company_name and company_name.upper() != ticker.upper() and len(company_name) >= 3:
         search_target = f'"{company_name}" OR "{ticker}"'
     else:
         search_target = f'"{ticker}"'
 
-    # 開放檢索主流外電與通訊社，同時阻絕投顧農場站
-    query = f"({search_target}) {SPAM_DOMAIN_EXCLUSIONS} when:2d"
+    query = f"{search_target} when:2d"
     encoded_query = urllib.parse.quote(query)
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
     
@@ -484,12 +485,12 @@ def fetch_google_wire_news(ticker):
                 return []
 
             items = []
-            # 精準收斂為前 8 則，砍掉 70% 雜訊，防止 GitHub Actions 超時與過度調用
-            for item in channel.findall("item")[:8]:
+            # 擴大至前 15 則，突破熱門舊聞佔版面的問題
+            for item in channel.findall("item")[:15]:
                 raw_title = item.findtext("title") or ""
                 link = item.findtext("link") or ""
                 pub_date = item.findtext("pubDate") or ""
-                source = item.findtext("source") or "Financial Wire"
+                source = item.findtext("source") or "Financial News"
                 description = item.findtext("description") or ""
                 
                 clean_desc = re.sub(r"<[^>]+>", " ", description).strip()
@@ -518,45 +519,49 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
         raw_title = item["raw_title"]
         print(f"   ↳ 審核標題: {raw_title[:55]}...", flush=True)
 
-        # 1. 本地防線：核對公司主體實體（單字代號走嚴格模式）
+        # 1. 本地攔截：瞬間過濾投顧農場站（不浪費 Token 與網路請求）
+        if is_spam_source(item["url"], item["source"]):
+            print("      [本地過濾] 命中二級農場網站黑名單，跳過", flush=True)
+            continue
+
+        # 2. 本地防線：核對公司主體實體（單字代號走嚴格模式）
         if not matches_target_entity(ticker, raw_title):
             print("      [本地過濾] 標題非該公司主體，跳過", flush=True)
             continue
 
-        # 2. 精確非貪婪切除末尾發布源（防止標題中間的破折號導致標題被腰斬）
+        # 3. 精確非貪婪切除末尾發布源（防止中間破折號導致標題被腰斬）
         clean_title = re.sub(r"\s+[\-–—]\s+[^\-–—]+$", "", raw_title).strip()
         fingerprint = make_news_fingerprint(ticker, clean_title)
         
-        # 3. 精確指紋去重
+        # 4. 精確指紋去重
         if fingerprint in sent_fingerprints:
             print("      [記憶庫略過] 此新聞精確指紋已記錄，略過", flush=True)
             continue
 
-        # 4. 模糊語意去重（相同事件標題微調）
+        # 5. 模糊語意去重（相同事件標題微調）
         if is_duplicate_news(ticker, clean_title, history_records):
             print("      [相似度攔截] 檢測到同事件相近標題，跳過", flush=True)
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 5. 排除公關人事、研報黑名單
+        # 6. 排除公關人事、研報黑名單
         if is_junk_title(clean_title):
             print("      [本地過濾] 命中公關/人事/日程黑名單，跳過", flush=True)
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 6. 【零 Token 防爆門】：嚴格本地訊號過濾
+        # 7. 【零 Token 防爆門】：標題訊號檢查 + 摘要輔助比對
         title_has_signal = has_high_impact_signal(clean_title)
 
-        # 摘要輔助檢查：必須「同時具備明確大額金額 + 重大實質動作動詞」，嚴禁單一金額偷渡
         snippet_lower = item['snippet'].lower()
         has_money = bool(re.search(r"\$\d+(?:\.\d+)?\s*(?:billion|million|b|m)\b", snippet_lower))
-        has_strict_action = bool(re.search(r"\b(takeover|acquisition|merger|contract|investment|foundry|partnership)\b", snippet_lower))
+        has_strict_action = bool(re.search(r"\b(takeover|acquisition|merger|contract|investment|foundry|partnership|packaging)\b", snippet_lower))
         snippet_has_signal = has_money and has_strict_action
 
         if not (title_has_signal or snippet_has_signal):
-            print("      [本地過濾] 無重大財務、合約或利空特徵詞，跳過", flush=True)
+            print("      [本地過濾] 無重大合約、封裝協議或財務特徵詞，跳過", flush=True)
             continue
 
         print("      ⚡ [命中重大事件] 提交 GPT 進行實質深審...", flush=True)
@@ -584,7 +589,7 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
             print("      [AI裁定] PASS (主體不符/非核心事件)", flush=True)
         else:
             print(f"      🎯 [AI放行] 判定為 {event_type} 事件！準備推播...", flush=True)
-            send_discord_embed(ticker, clean_title, event_type, summary_text, item["url"], pub_tw_str, item["source"])
+            send_discord_embed(ticker, clean_title, event_type, summary_bullets=summary_text, news_url=item["url"], pub_date_str=pub_tw_str, source_name=item["source"])
             time.sleep(1)
 
 
