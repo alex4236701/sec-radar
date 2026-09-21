@@ -669,3 +669,5 @@ a3bb6c3f40c2eb1e006c3c4678557ee7|||FCEL|||Bronstein, Gewirtz & Grossman LLC Urge
 5b5e815995c6697f13c422749364d55b|||DELL|||Dell Technologies Introduces XPS Googlebook: The First XPS Laptop Built for Gemini Intelligence
 3ea807eaabdbaa752122a690f3477809|||INTC|||Meta’s Muse AI Agent Triggers Intel, Chip Stock Rally. AMD Hits $1T Market Cap.
 115f80c6707c70e20b816e6a7ec45e3d|||INTC|||Micron Stock Slips as Intel-Backed Start-up Takes Aim at Memory-Chip Market
+a1bcb8b63d8b75244e64bdb70f602ce0|||NVDA|||Nvidia Buying an Additional $1.5 Billion in SB Energy Shares Ahead of IPO
+3ce60b16f100ba551581ee0731eaf8a4|||FCEL|||HAGENS BERMAN, NATIONAL TRIAL ATTORNEYS, Encourages FuelCell Energy, Inc. (NASDAQ: FCEL) Investors with Substantial Losses to Contact Firm
