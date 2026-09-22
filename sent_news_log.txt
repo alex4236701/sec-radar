@@ -707,3 +707,8 @@ ac2e47c56cddf9711d430b260fb86c17|||META|||EXCLUSIVE: Meta testing a 'human conci
 ee8f142674e24c8bbfbc05679aabffb6|||FCEL|||FCEL Investors Have Opportunity to Lead FuelCell Energy, Inc. Securities Fraud Lawsuit with SBS Law
 3de27941e8e304a99c0a8cd943bfe233|||IONQ|||IonQ and SDT Announce the First Strategic Partnership to Bring Both Advanced Quantum Computing and Quantum Networking to the Asia-Pacific Region
 74b135c84e719d977b17e871e00aefda|||META|||Wall Street expects Meta's AI agent to shape into a new revenue engine
+86542a6113ce8101025cc038b0d1a964|||MSFT|||Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon
+0d43143656672ae0b00729de23df260e|||META|||Meta’s Muse Shakes Markets. AI Disruption Fears Are Back.
+efea42027c7560351324bba91907a9ec|||BB|||BlackBerry signs Alloy Kore software deal with Daimler-Volvo joint venture Coretura
+56e9e48412d9bcadcc91a8332d521144|||IBM|||Marist University and IBM Launch Innovation Incubator with IBM z17, Expanding 50-Year Partnership to Advance AI Research and Student Career Readiness
+851186eb9c4578259a4020d365663d9b|||FCEL|||Portnoy Law Firm Announces Class Action on Behalf of FuelCell Energy, Inc. Investors
