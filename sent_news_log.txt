@@ -692,3 +692,8 @@ f82de2d2c574cb1a93fc9b5479876188|||ALP|||Alpha Compute Signs Binding Contract to
 ae779aff5df2b41b522c6a9a84a96965|||PANW|||Palo Alto Networks Delivers Anthropic's Mythos and OpenAI's GPT-5.6 to Customers with Unit 42 Continuous Frontier AI Defense
 422a49ffc0b2f4b83e9f782b9396cdd5|||LITE|||Lite Coms Selected by Boeing Defence Australia to Support LAND 4140 Beyond Line-of-Sight Satellite Communications Program
 830206a7957432435ce377258a59bbae|||SMTC|||Semtech’s LoRa Plus LR2021 Transceiver Wins 2026 EDGE Award
+c1d84a33c5edbd5632eacd1ea67258cb|||NVDA|||Watch Alibaba Unveils AI Chip to Compete With Nvidia
+14dd659c0a33ecb387b9a87277e4eca1|||BAND|||Gap Is Getting Into the Boy-Band Business
+c6bc179c3ea47aafa01789261998cdf2|||NOW|||Xapien Partners With ServiceNow to Bring AI-Native Due Diligence Into Enterprise Workflows
+51183384807daf1b12f43683120e4f53|||SNOW|||ClickHouse Appoints Mike Scarpelli, Former Snowflake and ServiceNow CFO, to Board of Directors
+a1bf88c776dbec0a2e93977cd0b6ec7a|||NOK|||H2SITE Secures €3.4 Million (NOK 39.1 million) in Enova Funding to Scale Onboard Ammonia-To-Power for Commercial Maritime Applications
