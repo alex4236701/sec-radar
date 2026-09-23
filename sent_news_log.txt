@@ -964,3 +964,18 @@ c034b3a70a05d0fc27cc65437d46b107|||NVDA|||Not Intel. Not Nvidia. This Chip Giant
 d564f1763caad668c1346b7b5e7a7b62|||SNOW|||Kit Harington says there is ‘a world’ where Jon Snow spinoff returns
 b2ae0070a4f41c0caeb166d1d6b61991|||CRM|||B2B Buying Starts 124 Days Before the CRM Sees a Deal, New Factors.ai Report Finds
 cee76a3075cab67744a69bd77ed22ac6|||VRT|||VRT Alert: HAGENS BERMAN, NATIONAL TRIAL ATTORNEYS, Encourages Vertiv Holdings Co (NYSE: VRT) Investors with Significant Losses to Contact Firm
+602e9d39d4f048363dbc78830803073d|||MSFT|||Microsoft Stays Flat After Cutting an AI Phishing Supply Chain
+cb2a47d2d9d631bc682a1507df04fd12|||QCOM|||Liquid AI, in Collaboration with Qualcomm Technologies, Brings Personal AI Context to Devices Powered by Snapdragon
+3f70fd5d30e2105fc8a95ff758780d15|||QCOM|||Prediction: Here's What a $5,000 Investment in Qualcomm Could Be Worth by 2030
+45c64ce3782b384cddc6738b92df66e2|||NVDA|||Nvidia Backed This AI Drug Startup. AbbVie Just Became a Partner Before Its IPO
+cf0eec4baec91ab8316fba4b9050348b|||INTC|||Here is Why Intel (INTC) is a Bad Investment at Today’s Price
+3e00bb076d295d46e6302fc4f532b415|||ASX|||South32 (ASX:S32) Shares May Still Trade Below Fair Value On Earnings
+7884c0acca584183e1a2d85dc8ecd0dc|||CGNX|||D.A. Davidson reiterates Cognex stock neutral on RealSense deal By Investing.com
+7dbc9c7d47f3e03fee47979604539d83|||CRWV|||CoreWeave closes $4.2 billion convertible notes deal, 40% above initial proposal
+643103681c02f192c34782bbe67940ce|||OKTA|||Okta Unveils AI Agent Security Blueprint Alliance at Oktane
+e2274092c0826ba2a662a3bf537db562|||SPCX|||Space Exploration Technologies Corp. (SPCX) Stock Price, News, Quote & History
+0118e43e1a6f98ae8545c324843a01e2|||SPCX|||SPCX, RKLB, LUNR, ASTS In Focus — Space Economy Investment Surges To $23B In Year Ending June, A Near 140% Jump
+4abf378abe3a4248aa8ec6bbbd634440|||RKLB|||SPCX, RKLB, LUNR, ASTS In Focus — Space Economy Investment Surges To $23B In Year Ending June, A Near 140% Jump
+8c87e5a1632b213e432dbb5f36767681|||IRDM|||Peter Beck’s Iridium Deal Faces Its Next Big Test
+3c9efb1200776095cf5c500ed3bb1e63|||IONQ|||Quantum Stocks: IonQ Claims Key Advance, Sets Nvidia Research Pact
+b2e8c811b4ef8dbe3913a6615cc94a67|||IONQ|||Market Navigator: Portfolio Wealth Advisors Lee Munson talks IONQ and the quantum space
