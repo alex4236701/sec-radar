@@ -300,6 +300,7 @@ def should_skip_for_weekend_throttle():
 
 
 # ==================== DISCORD 推播 ====================
+# ==================== DISCORD 推播 ====================
 def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub_date_str, source_name):
     if not DISCORD_NEWS_WEBHOOK:
         return
@@ -378,29 +379,27 @@ def summarize_with_ai(ticker, text):
     company_name = COMPANY_NAME_CACHE.get(ticker.upper(), ticker)
 
     prompt = f"""
-你是一位分毫不差的美股資深買方研究員。請對【{ticker} - {company_name}】的這則即時重大消息進行深層穿透式拆解：
+你是一位分毫不差的美股資深買方研究員。請對【{ticker} - {company_name}】的這則即時消息進行精準穿透式解讀：
 
-【絕對嚴禁之廢話修辭（出現一律視為分析失敗）】：
-嚴禁使用「提升市場地位、增強競爭力、帶來正面影響、後市可期、具戰略意義、有助長遠發展」等空洞公關話術！必須用具體的「金額、年限、技術指標、資產負債代價」說話。
+【嚴格禁令】：
+嚴禁使用「提升市場地位、增強競爭力、帶來正面影響、後市可期、具戰略意義」等空洞公關廢話！
 
 【絕對駁回規則（命中任一條，一律回傳 PASS）】：
-1. 歷史舊聞：回顧數週前或上一季度的歷史數據，非當前 24-36 小時突發事件。
+1. 歷史舊聞：回顧數週前或上一季度的歷史數據。
 2. 主體不符：新聞核心主角不是【{ticker} / {company_name}】。
-3. 雜訊軟文：例行參展、無具體商業條款之純宣傳、律師股東集體訴訟招募。
+3. 雜訊軟文：例行參展、無具體條款之公關宣傳、律師股東集體訴訟招募。
 
-【實質拆解維度要求】：
-1. 【合約與事實】：對手方是誰（如政府、雲端巨頭 AWS、國防部）？交易性質是正式合約還是約束力極弱的備忘錄 (MoU)？有無披露金額或年限？
-2. 【工程與架構】：牽涉的具體產品或架構是什麼（如 SMR 小型模組化反應爐、800G 光模組、低軌衛星遙測、高階 PCB 等）？
-3. 【財務與利弊】：是實質挹注現金流，還是屬於高風險的舉債收購 (Debt-funded)、稀釋股本融資或面臨反壟斷監管審查？
+【實質拆解要求】：
+1. 【核心要點】：對手是誰？交易性質是正式合約還是意向備忘錄 (MoU)？涉及的具體產品或動作是什麼？金額或年限為何？（繁體中文，40-60 字）
+2. 【財務影響】：對實質營收認列、毛利率衝擊，或是否存在舉債 (Debt-funded)、稀釋股本融資、監管反壟斷等代價？（繁體中文，40-60 字）
 
 【輸出格式要求】：
 若不符合，只回傳單字：PASS
-若符合，嚴格回傳以下純 JSON 物件（繁體中文，內容務求直擊本質，每項 50-80 字，嚴禁多餘包裝）：
+若符合，嚴格回傳以下純 JSON 物件，嚴禁包含任何多餘文字：
 {{
   "type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS",
-  "fact": "交易對手、合約性質（正式合約/MoU）、金額時程與關鍵產品型號",
-  "tech_angle": "背後的底層硬體、物理規格或工程架構本質",
-  "financial_impact": "對毛利率、資產負債表（如舉債/稀釋）或營收認列之實質利弊分析"
+  "action": "對手方、合約/動作性質、關鍵產品型號或金額年限",
+  "impact": "實質財務營收利弊、毛利影響或資產負債代價"
 }}
 
 新聞快訊內容：
@@ -409,7 +408,7 @@ def summarize_with_ai(ticker, text):
     payload = {
         "model": "gpt-4o-mini",
         "messages": [
-            {"role": "system", "content": "你是一位硬核的買方機構研究員，只講物理工程事實與實質財務利弊，嚴禁任何公關吹捧廢話，輸出嚴格 JSON。"},
+            {"role": "system", "content": "你是一位硬核買方機構研究員，只講求事實與財務利弊，嚴禁公關吹捧廢話，嚴格輸出指定 JSON。"},
             {"role": "user", "content": prompt}
         ],
         "temperature": 0.1
@@ -420,7 +419,6 @@ def summarize_with_ai(ticker, text):
             res = requests.post(api_url, headers=headers, json=payload, timeout=20)
             data = res.json()
             if "error" in data:
-                print(f"      ⚠️ [OpenAI 報錯] {data['error'].get('message', '未知錯誤')}", flush=True)
                 time.sleep(2)
                 continue
 
@@ -434,25 +432,21 @@ def summarize_with_ai(ticker, text):
 
             parsed = json.loads(json_match.group(0))
             event_type = parsed.get("type", "ORDER")
-            fact = parsed.get("fact", "").strip()
-            tech = parsed.get("tech_angle", "").strip()
-            fin = parsed.get("financial_impact", "").strip()
+            action = parsed.get("action", "").strip()
+            impact = parsed.get("impact", "").strip()
             
-            if not fact or not fin:
+            if not action or not impact:
                 return "PASS", "", True
                 
             formatted_summary = (
-                f"• **【合約與事實】**：{fact}\n"
-                f"• **【工程與架構】**：{tech}\n"
-                f"• **【財務與利弊】**：{fin}"
+                f"• **【核心要點】**：{action}\n"
+                f"• **【財務影響】**：{impact}"
             )
             return event_type, formatted_summary, True
         except Exception as e:
-            print(f"      ⚠️ [連線重試 {attempt+1}/3] {e}", flush=True)
             time.sleep(2)
             
     return "PASS", "", False
-
 
 # ==================== 稿件檢索與巡檢邏輯 ====================
 def fetch_google_wire_news(ticker):
