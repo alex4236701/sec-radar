@@ -1,9 +1,10 @@
+import json
 import os
 import re
 import time
-import json
+from datetime import datetime, timedelta, timezone
+
 import requests
-from datetime import datetime, timezone, timedelta
 
 # ==================== 環境變數與路徑設定 ====================
 DISCORD_SEC_WEBHOOK = os.environ.get("DISCORD_SEC_WEBHOOK") or os.environ.get("DISCORD_NEWS_WEBHOOK")
@@ -19,7 +20,18 @@ SEC_HEADERS = {
     "Accept-Encoding": "gzip, deflate"
 }
 
-# 專業買方雷達核心表單全覆蓋
+# 核心標的 CIK 離線備援名冊（防禦 GitHub 雲端 IP 被 SEC 伺服器 403 阻擋）
+CORE_FALLBACK_CIK = {
+    "AAPL": "0000320193", "NVDA": "0001045810", "MSFT": "0000789019", "GOOGL": "0001652044",
+    "AMZN": "0001018724", "TSLA": "0001318605", "QCOM": "0000804328", "AVGO": "0001730168",
+    "INTC": "0000050863", "ARM": "0001973244", "TSM": "0001046179", "ASML": "0000937966",
+    "BB": "0001070235", "TSEM": "0001178913", "CRWV": "0001769628", "PLTR": "0001321655",
+    "IONQ": "0001824920", "ALAB": "0001936540", "GEV": "0001995446", "GNRC": "0001474735",
+    "TTMI": "0001116942", "PL": "0001848124", "CRCL": "0001876042", "CSCO": "0000858877",
+    "IBM": "0000051143", "TER": "0000097210", "WDC": "0000106040", "CGNX": "0000851205",
+    "RDW": "0001818874", "RKLB": "0001819994", "FEIM": "0000039020", "UAMY": "0000101538"
+}
+
 TARGET_FORMS = {
     "8-K", "8-K/A",
     "6-K", "6-K/A",
@@ -30,29 +42,20 @@ TARGET_FORMS = {
     "12b-25"
 }
 
-# 不直接忽略人事變更或股東表決
-IGNORE_ITEMS = set()
-
-# 一級硬核條款：呼叫 OpenAI GPT-4o-mini
+# 一級硬核條款：由 OpenAI GPT-4o-mini 深度解析
 HIGH_IMPACT_8K_ITEMS = {
-    "1.01", "1.02", "1.03","1.05", 
-    "2.01", "2.02", "2.03", "2.04", "2.05", "2.06", 
-    "3.01", "3.02", "3.03", 
+    "1.01", "1.02", "1.03", "1.05",
+    "2.01", "2.02", "2.03", "2.04", "2.05", "2.06",
+    "3.01", "3.02", "3.03",
     "4.01", "4.02",
-    "5.01", "5.02", 
+    "5.01", "5.02"
 }
 
-# 二級次要條款：呼叫免費 Gemini 3.6 Flash
+# 二級自願條款：由 Gemini 3.6 Flash 解析（異常時自動無縫交由 OpenAI 救援）
 SECONDARY_8K_ITEMS = {"7.01", "8.01"}
 
-# 單純股東表決保留通知，不額外呼叫 AI
-SUBSTANTIVE_8K_ITEMS = (
-    HIGH_IMPACT_8K_ITEMS
-    | SECONDARY_8K_ITEMS
-    | {"5.07"}
-)
+SUBSTANTIVE_8K_ITEMS = HIGH_IMPACT_8K_ITEMS | SECONDARY_8K_ITEMS | {"5.07"}
 
-# 最大申報追溯天數（徹底阻絕舊文件）
 MAX_LOOKBACK_DAYS = 3
 
 
@@ -63,23 +66,27 @@ def load_sec_history():
     with open(HISTORY_FILE, "r", encoding="utf-8") as f:
         return set(line.strip() for line in f if line.strip())
 
+
 def save_sec_id(accession_num):
     with open(HISTORY_FILE, "a", encoding="utf-8") as f:
         f.write(f"{accession_num}\n")
 
+
 def get_cik_mapping():
+    mapping = dict(CORE_FALLBACK_CIK)
     url = "https://www.sec.gov/files/company_tickers.json"
     try:
-        res = requests.get(url, headers=SEC_HEADERS, timeout=15)
+        res = requests.get(url, headers=SEC_HEADERS, timeout=12)
         if res.status_code == 200:
             data = res.json()
-            mapping = {}
             for item in data.values():
                 mapping[item["ticker"].upper()] = str(item["cik_str"]).zfill(10)
+            print(f"✅ 成功自 SEC 載入 {len(mapping)} 筆最新 CIK 對照表", flush=True)
             return mapping
     except Exception as e:
-        print(f"⚠️ CIK 映射下載失敗：{e}", flush=True)
-    return {}
+        print(f"⚠️ SEC 官方 CIK 下載受限 ({e})，啟用本地核心備援", flush=True)
+    return mapping
+
 
 def is_recent_filing(filing_date_str):
     try:
@@ -89,6 +96,15 @@ def is_recent_filing(filing_date_str):
     except Exception:
         return False
 
+
+def normalize_items_to_str(items_val):
+    if not items_val:
+        return ""
+    if isinstance(items_val, list):
+        return ",".join(str(x) for x in items_val if x)
+    return str(items_val)
+
+
 def fetch_sec_filings(cik):
     url = f"https://data.sec.gov/submissions/CIK{cik}.json"
     try:
@@ -97,7 +113,7 @@ def fetch_sec_filings(cik):
             return []
         data = res.json()
         recent = data.get("filings", {}).get("recent", {})
-        
+
         forms = recent.get("form", [])
         accession_numbers = recent.get("accessionNumber", [])
         filing_dates = recent.get("filingDate", [])
@@ -110,16 +126,18 @@ def fetch_sec_filings(cik):
             if not is_recent_filing(f_date):
                 continue
 
+            raw_item = items_list[i] if i < len(items_list) else ""
             results.append({
                 "form": forms[i],
                 "accessionNumber": accession_numbers[i],
                 "filingDate": f_date,
                 "primaryDocument": primary_docs[i],
-                "items": items_list[i] if i < len(items_list) else ""
+                "items": normalize_items_to_str(raw_item)
             })
         return results
     except Exception:
         return []
+
 
 def clean_html_to_text(html_content):
     text = re.sub(r"<style[\s\S]*?</style>", " ", html_content, flags=re.I)
@@ -127,53 +145,66 @@ def clean_html_to_text(html_content):
     text = re.sub(r"<[^>]+>", " ", text)
     return " ".join(text.split())
 
-def fetch_doc_text_snippet(cik, accession_num, primary_doc):
-    """抓取 8-K/6-K 內文純文字（前 4000 字），若主檔為空殼則自動穿透掃描 Exhibit 99.1 附件"""
+
+def fetch_doc_text_snippet(cik, accession_num, primary_doc, form_type=""):
+    """
+    抓取申報純文字：
+    針對 6-K 或內容通常外掛在附件的表單，優先穿透 index.json 抓取真正的 EX-99 新聞稿
+    """
     acc_clean = accession_num.replace("-", "")
     base_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_clean}/"
-    
-    # 1. 抓取主申報文件
-    main_doc_url = base_url + primary_doc
+
+    # 先檢查是否有真實的 EX-99 新聞稿附件（特別是 6-K 或外殼 8-K）
+    try:
+        idx_res = requests.get(base_url + "index.json", headers=SEC_HEADERS, timeout=10)
+        if idx_res.status_code == 200:
+            items = idx_res.json().get("directory", {}).get("item", [])
+            target_exhibit = None
+
+            for it in items:
+                fn = it.get("name", "").lower()
+                desc = it.get("description", "").lower()
+                doc_type = it.get("type", "").upper()
+
+                # 鎖定 HTML 格式的 EX-99 / 新聞稿，避開圖片或 XML
+                is_html = fn.endswith(".htm") or fn.endswith(".html")
+                if is_html:
+                    if "ex-99" in fn or "ex99" in fn or "99-1" in fn or "991" in fn:
+                        target_exhibit = it.get("name")
+                        break
+                    if "99" in doc_type or "press release" in desc or "news release" in desc:
+                        target_exhibit = it.get("name")
+                        break
+
+            if target_exhibit and target_exhibit != primary_doc:
+                ex_res = requests.get(base_url + target_exhibit, headers=SEC_HEADERS, timeout=10)
+                if ex_res.status_code == 200:
+                    ex_text = clean_html_to_text(ex_res.text)
+                    if len(ex_text) >= 200:
+                        print(f"      ✅ [附件穿透成功] 鎖定新聞稿附件 {target_exhibit}（長度: {len(ex_text)} 字）！", flush=True)
+                        return ex_text[:4500]
+    except Exception:
+        pass
+
+    # 若無附件或穿透失敗，回退讀取主文件
     main_text = ""
     try:
-        res = requests.get(main_doc_url, headers=SEC_HEADERS, timeout=12)
+        res = requests.get(base_url + primary_doc, headers=SEC_HEADERS, timeout=12)
         if res.status_code == 200:
             main_text = clean_html_to_text(res.text)
     except Exception:
         pass
 
-    # 若主文件純文字充足，直接回傳
-    if len(main_text) >= 200:
-        return main_text[:4000]
-
-    # 2. 主文件過短（外殼備案），自動嘗試掃描常見的新聞稿 Exhibit 附件
-    print("      ℹ️ [內文穿透] 主檔過短，搜尋 Exhibit 99.1 附件...", flush=True)
-    potential_exhibits = [
-        "ex99-1.htm", "ex-99.1.htm", "ex991.htm", "ex99_1.htm", 
-        "ex-99-1.htm", "d991.htm", "exhibit99-1.htm"
-    ]
-    for ex_doc in potential_exhibits:
-        try:
-            ex_url = base_url + ex_doc
-            res_ex = requests.get(ex_url, headers=SEC_HEADERS, timeout=8)
-            if res_ex.status_code == 200:
-                ex_text = clean_html_to_text(res_ex.text)
-                if len(ex_text) >= 200:
-                    print(f"      ✅ [附件命中] 成功取得附件 {ex_doc} 內文！", flush=True)
-                    return ex_text[:4000]
-        except Exception:
-            continue
-
-    return main_text[:4000] if main_text else ""
+    return main_text[:4500] if main_text else ""
 
 
-# ==================== AI 深度解構核心 ====================
-def analyze_primary_8k_with_openai(ticker, items_str, doc_text):
-    """一級硬核條款：由 GPT-4o-mini 精確萃取核心要點與財務影響"""
-    if not OPENAI_API_KEY or not doc_text:
+# ==================== AI 解構核心 (OpenAI 一級) ====================
+def analyze_primary_8k_with_openai(ticker, form_desc, doc_text):
+    """一級硬核條款：由 GPT-4o-mini 精確萃取核心事實與實質財務影響"""
+    if not OPENAI_API_KEY or not doc_text or len(doc_text.strip()) < 40:
         return (
-            f"• 【核心要點】：官方一級 8-K 重大條款申報（項目: {items_str}）。\n"
-            f"• 【財務影響】：涉及重大營運合約、債務或併購，請點擊連結查核具體金額細節。"
+            f"• **【核心要點】**：官方一級申報（{form_desc}），內文已完成存檔。\n"
+            f"• **【財務影響】**：涉及核心合約或資本變動，請點擊標題查閱原文。"
         )
 
     api_url = "https://api.openai.com/v1/chat/completions"
@@ -183,21 +214,23 @@ def analyze_primary_8k_with_openai(ticker, items_str, doc_text):
     }
 
     prompt = f"""
-你是一位精準的美股買方分析師。標的【{ticker}】發布了一級 8-K 重大申報（涉及項目：{items_str}）。
+你是一位分毫不差的美股買方分析師。標的【{ticker}】發布了官方重大申報（涉及：{form_desc}）。
 以下是該份文件的官方原文節錄：
 \"\"\"{doc_text}\"\"\"
 
-請精確萃取並以「繁體中文」條列以下兩點（總長度 120 字以內，嚴禁任何客套話與開場白，直接講事實與數據）：
-• 【核心要點】：交易對手是誰、合約/融資具體金額（百萬/億美元）、收購或處分標的、年利率或關鍵時程。
-• 【財務影響】：對 {ticker} 之營收貢獻、自由現金流、負債壓力或股本稀釋衝擊。
+【嚴格禁令】：
+1. 嚴禁機械套話！絕對禁止寫「對手方為...」、「交易/合約性質為...」、「合約性質為產品推出」等語句。
+2. 嚴禁使用「提升市場地位、增強競爭力、帶來正面影響、後市可期、具戰略意義」等空洞公關廢話。
+
+【輸出要求（請像專業研究員用自然大白話直接講重點）】：
+• **【核心要點】**：一句話白話講清楚到底發生了什麼事（融資金額與利率、重大技術或商業合約、資產處分、或關鍵時程）。（繁體中文，40-65 字）
+• **【財務影響】**：直擊實質財務衝擊（營收認列、毛利變化、負債壓力、或股本稀釋風險）。（繁體中文，40-65 字）
 """
+
     payload = {
         "model": "gpt-4o-mini",
         "messages": [
-            {
-                "role": "system", 
-                "content": "你是一位分毫不差的買方研究員，專注萃取 8-K 的具體金額、交易對手與條款數值，直接輸出條列事實，嚴禁輸出任何引言贅字。"
-            },
+            {"role": "system", "content": "你是一位硬核買方機構研究員，講求事實與數據，說話自然順暢，嚴格輸出指定格式。"},
             {"role": "user", "content": prompt}
         ],
         "temperature": 0.1
@@ -211,33 +244,41 @@ def analyze_primary_8k_with_openai(ticker, items_str, doc_text):
                 return data["choices"][0]["message"]["content"].strip()
         except Exception:
             time.sleep(1)
-            
+
     return (
-        f"• 【核心要點】：重大營運合約或債務變更（項目: {items_str}）。\n"
-        f"• 【財務影響】：請點擊連結查核官方合約與財務條款原文。"
+        f"• **【核心要點】**：重大營運合約或債務變更（{form_desc}）。\n"
+        f"• **【財務影響】**：請點擊連結查核官方合約與財務條款原文。"
     )
 
 
+# ==================== AI 解構核心 (Gemini 二級 + 自動救援鏈) ====================
 def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
-    """二級自願條款（8.01/7.01）與外國 6-K：由免費 Gemini 3.6 Flash 解析業務重點與潛在財務影響"""
-    if not GEMINI_API_KEY:
-        print("      ⚠️ [Gemini 略過] 系統未讀取到 GEMINI_API_KEY 環境變數", flush=True)
-        return f"• 【核心要點】：涉及備案 {filing_context}。\n• 【財務影響】：請點擊連結查閱官方原件。"
-        
-    if not doc_text or len(doc_text.strip()) < 30:
-        print("      ⚠️ [Gemini 略過] 內文過短或純屬索引目錄", flush=True)
-        return f"• 【核心要點】：涉及備案 {filing_context}（內文詳見官方附件）。\n• 【財務影響】：請點擊卡片連結查閱原文附件。"
+    """
+    二級自願條款（8.01/7.01）與外國 6-K：
+    優先由官方 Gemini 3.6 Flash 解析；若遭遇 429、404 或連線超時，無縫切換 OpenAI 救援！
+    """
+    if not doc_text or len(doc_text.strip()) < 40:
+        return f"• **【核心要點】**：涉及備案 {filing_context}（內文詳見官方附件）。\n• **【財務影響】**：請點擊卡片連結查閱原文附件。"
 
-    # 對齊官方最新指定的 gemini-3.6-flash 端點
+    # 若未設定 Gemini Key，直接走 OpenAI
+    if not GEMINI_API_KEY:
+        print("      ℹ️ [分流轉接] 未設定 GEMINI_API_KEY，直接調用 OpenAI 進行深度解析...", flush=True)
+        return analyze_primary_8k_with_openai(ticker, filing_context, doc_text)
+
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={GEMINI_API_KEY}"
-    
+
     prompt = f"""
-請扮演美股買方分析師，閱讀以下標的【{ticker}】的 SEC 申報（類別：{filing_context}）：
+你是一位分毫不差的美股買方分析師。標的【{ticker}】提交了 SEC 官方申報（類型：{filing_context}）。
+以下是該份文件的官方原文節錄：
 \"\"\"{doc_text}\"\"\"
 
-請精確萃取並以「繁體中文」條列出以下兩點（直接輸出，嚴禁任何開場白、標題重述或推理過程）：
-• 【核心要點】：具體發生了什麼事（如債券規模與利率、合約金額、併購投票日程或法說主題）。
-• 【財務影響】：對公司資本結構、自由現金流或營運的具體影響（若僅為公關稿請寫無實質財務影響）。
+【嚴格禁令】：
+1. 嚴禁機械套話！絕對禁止寫「對手方為...」、「交易/合約性質為...」、「合約性質為產品推出」等生硬套話。
+2. 嚴禁使用「提升市場地位、增強競爭力、帶來正面影響、後市可期、具戰略意義」等空洞公關廢話。
+
+【輸出要求（請像專業研究員用自然大白話直接講重點）】：
+• **【核心要點】**：一句話白話講清楚到底發生了什麼事（融資金額與利率、重大技術或商業合作、資產收購處分、或法說主題）。（繁體中文，40-65 字）
+• **【財務影響】**：直擊實質財務衝擊（營收貢獻、毛利變化、負債壓力、或股本稀釋風險）。（繁體中文，40-65 字）
 """
 
     headers = {"Content-Type": "application/json"}
@@ -246,56 +287,48 @@ def analyze_secondary_with_gemini(ticker, filing_context, doc_text):
             "parts": [{"text": prompt}]
         }],
         "generationConfig": {
-            "temperature": 0.1,
             "maxOutputTokens": 800,
-            # 強制關閉思考過程輸出，杜絕任何推理草稿外洩
             "thinkingConfig": {
-                "thinkingBudget": 0
+                "thinking_level": "MINIMAL"
             }
         }
     }
 
-    # 針對 Free Tier 5 RPM 限制做自動重試與冷卻
-    for attempt in range(3):
+    gemini_success = False
+    for attempt in range(2):
         try:
-            res = requests.post(url, headers=headers, json=payload, timeout=25)
-            
-            # 遇到 429 速率限制：動態休眠 12 秒等待配額重置後重試
+            res = requests.post(url, headers=headers, json=payload, timeout=22)
+
             if res.status_code == 429:
-                print("      ⏳ [Gemini 觸發 5 RPM 上限] 休眠 30 秒等待配額重置後重試...", flush=True)
-                time.sleep(30)
+                print("      ⏳ [Gemini 速率限制] 冷卻 8 秒後重試...", flush=True)
+                time.sleep(8)
                 continue
-                
+
             if res.status_code != 200:
-                print(f"      ❌ [Gemini API 報錯] HTTP {res.status_code}: {res.text}", flush=True)
-                time.sleep(2)
-                continue
-                
+                print(f"      ⚠️ [Gemini 響應異常 HTTP {res.status_code}] 準備啟動 OpenAI 備援...", flush=True)
+                break
+
             data = res.json()
             candidates = data.get("candidates", [])
             if candidates:
                 parts = candidates[0].get("content", {}).get("parts", [])
-                real_text = ""
-                for part in parts:
-                    if "thought" not in part and "text" in part:
-                        real_text += part["text"]
-                
+                real_text = "".join([p["text"] for p in parts if "text" in p and not p.get("thought", False)])
+
                 if not real_text and parts and "text" in parts[0]:
                     real_text = parts[0]["text"]
 
                 if real_text.strip():
-                    # 每次成功呼叫後強制冷卻 15 秒，物理鎖定在 5 RPM 免費配額內
-                    time.sleep(15)
                     return real_text.strip()
-            else:
-                print(f"      ⚠️ [Gemini 回傳空結構] {data}", flush=True)
         except Exception as e:
-            print(f"      ❌ [Gemini 連線異常] {e}", flush=True)
-            time.sleep(2)
+            print(f"      ⚠️ [Gemini 連線異常: {e}] 準備啟動 OpenAI 備援...", flush=True)
+            break
 
-    return f"• 【核心要點】：涉及項目 {filing_context}，內容已存檔。\n• 【財務影響】：請點擊卡片標題查閱原文。"
+    # 救援防線：只要 Gemini 失敗，零秒切換 OpenAI，杜絕廢話罐頭
+    print("      🛡️ [自動救援啟動] Gemini 連線未果，全面啟用 OpenAI GPT-4o-mini 完成解析！", flush=True)
+    return analyze_primary_8k_with_openai(ticker, filing_context, doc_text)
 
 
+# ==================== 表單情報分類分流 ====================
 def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, primary_doc):
     clean_form = form_type.upper().strip()
 
@@ -306,8 +339,8 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             "color": 0xC0392B,
             "tag": f"{form_type} (財報拖延 / 審計異常預警)",
             "summary": (
-                f"• 【核心要點】：{ticker} 正式向 SEC 申報無法如期繳交定期財報。\n"
-                f"• 【財務影響】：通常涉及內部控制缺失、審計障礙或潛在財務重編，留意二級市場跳空拋壓。"
+                f"• **【核心要點】**：{ticker} 正式向 SEC 申報無法如期繳交定期財報。\n"
+                f"• **【財務影響】**：通常涉及內部控制缺失、審計障礙或潛在財務重編，留意二級市場跳空拋壓。"
             )
         }
 
@@ -321,8 +354,8 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             "color": 0x3498DB,
             "tag": f"{form_type} ({period_type})",
             "summary": (
-                f"• 【核心要點】：{ticker} 正式提交法定 {period_type}。\n"
-                f"• 【財務影響】：請點擊卡片連結調閱原文確認 GAAP 毛利、營收指引與自由現金流結構。"
+                f"• **【核心要點】**：{ticker} 正式提交法定 {period_type}。\n"
+                f"• **【財務影響】**：請點擊卡片連結調閱原文確認 GAAP 毛利、營收指引與自由現金流結構。"
             )
         }
 
@@ -333,8 +366,8 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             "color": 0xE67E22,
             "tag": "424B5 (公開發行補充說明書)",
             "summary": (
-                f"• 【核心要點】：{ticker} 提交 424B5 補充說明書，正式啟動現增、可轉債發行或 ATM 配售。\n"
-                f"• 【財務影響】：留意新股發行折價幅度，防範股本增加對 EPS 產生稀釋壓力。"
+                f"• **【核心要點】**：{ticker} 提交 424B5 補充說明書，正式啟動現增、可轉債發行或 ATM 配售。\n"
+                f"• **【財務影響】**：留意新股發行折價幅度，防範股本增加對 EPS 產生稀釋壓力。"
             )
         }
 
@@ -344,8 +377,8 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             "color": 0xE67E22,
             "tag": "424B7 (轉讓股權說明書)",
             "summary": (
-                f"• 【核心要點】：{ticker} 申報現有特定股東、創始團隊或機構之轉讓說明書。\n"
-                f"• 【財務影響】：涉及非公司端募集資金之持股釋出，留意二級市場短期承接力道。"
+                f"• **【核心要點】**：{ticker} 申報現有特定股東、創始團隊或機構之轉讓說明書。\n"
+                f"• **【財務影響】**：涉及非公司端募集資金之持股釋出，留意二級市場短期承接力道。"
             )
         }
 
@@ -356,57 +389,67 @@ def parse_filing_intelligence(ticker, form_type, items_str, cik, accession_num, 
             "color": 0xF39C12,
             "tag": f"{form_type} (貨架登記申請)",
             "summary": (
-                f"• 【核心要點】：{ticker} 申請綜合貨架登記，取得未來三年內隨時融資發行新股/債券之總額度。\n"
-                f"• 【財務影響】：市場通常視為未來資本稀釋前兆，小盤股多伴隨承壓反應。"
+                f"• **【核心要點】**：{ticker} 申請綜合貨架登記，取得未來三年內隨時融資發行新股/債券之總額度。\n"
+                f"• **【財務影響】**：市場通常視為未來資本稀釋前兆，小盤股多伴隨承壓反應。"
             )
         }
 
-    # 5. 外國 ADR 重大事件（直接調用免費 Gemini 3.6 Flash 自動摘要）
+    # 5. 外國 ADR 6-K（啟用穿透與雙引擎解析）
     if clean_form.startswith("6-K"):
-        print(f"      🌍 [外國 6-K] 檢測到 {ticker} ADR 申報，調用免費 Gemini 3.6 Flash 摘要...", flush=True)
-        doc_text = fetch_doc_text_snippet(cik, accession_num, primary_doc)
+        print(f"      🌍 [外國 6-K] 檢測到 {ticker} ADR 申報，穿透附件並交由 AI 解析...", flush=True)
+        doc_text = fetch_doc_text_snippet(cik, accession_num, primary_doc, form_type="6-K")
         gemini_analysis = analyze_secondary_with_gemini(ticker, f"{form_type} (外國重大備案)", doc_text)
         return {
             "title": f"🌍 【外國 ADR 官方重大事件】：{ticker}",
-            "color": 0x9B59B6,  # 專屬紫
+            "color": 0x9B59B6,
             "tag": f"{form_type} (外國發行人重大備案)",
             "summary": gemini_analysis
         }
 
-    # 6. 本土 8-K：分流智慧解構架構
+    # 6. 本土 8-K：分流與穿透
     if clean_form.startswith("8-K"):
         item_tokens = set(re.findall(r"\d+\.\d+", items_str))
 
-        # 分支 A：命中一級硬核條款 -> 付費 GPT-4o-mini 深度萃取
+        # 分支 A：一級硬核條款 -> OpenAI GPT-4o-mini
         if item_tokens & HIGH_IMPACT_8K_ITEMS:
-            print("      💎 [高價值 8-K] 命中一級硬核條款，調用 OpenAI 審核內文...", flush=True)
-            doc_text = fetch_doc_text_snippet(cik, accession_num, primary_doc)
-            ai_analysis = analyze_primary_8k_with_openai(ticker, items_str, doc_text)
+            print("      💎 [一級 8-K] 命中硬核條款，調用 OpenAI 審核內文...", flush=True)
+            doc_text = fetch_doc_text_snippet(cik, accession_num, primary_doc, form_type="8-K")
+            ai_analysis = analyze_primary_8k_with_openai(ticker, f"8-K 項目 {items_str}", doc_text)
             return {
                 "title": f"⚡ 【實質 8-K 重大申報】：{ticker}",
-                "color": 0x2ECC71,  # 實質綠
+                "color": 0x2ECC71,
                 "tag": f"{form_type} (核心項目: {items_str})",
                 "summary": ai_analysis
             }
 
-        # 分支 B：二級自願揭露（8.01/7.01） -> 免費 Gemini 3.6 Flash 提取重點與財務影響
+        # 分支 B：二級自願揭露 (8.01/7.01) -> Gemini 優先，OpenAI 備援
         if item_tokens & SECONDARY_8K_ITEMS:
-            print("      💡 [二級 8-K] 命中 8.01/7.01 自願揭露，調用免費 Gemini 3.6 Flash 摘要...", flush=True)
-            doc_text = fetch_doc_text_snippet(cik, accession_num, primary_doc)
+            print("      💡 [二級 8-K] 命中 8.01/7.01 自願揭露，穿透附件並提交 AI...", flush=True)
+            doc_text = fetch_doc_text_snippet(cik, accession_num, primary_doc, form_type="8-K")
             gemini_analysis = analyze_secondary_with_gemini(ticker, f"8-K 項目 {items_str}", doc_text)
             return {
                 "title": f"📑 【8-K 自願揭露解讀】：{ticker}",
-                "color": 0x34495E,  # 深藍灰
+                "color": 0x34495E,
                 "tag": f"{form_type} (自願備案: {items_str})",
                 "summary": gemini_analysis
             }
 
-        # 分支 C：其他非核心雜項代碼
+        # 分支 C：若 items 為空但為 8-K，依然調用 AI，絕不輕易套用罐頭文字
+        doc_text = fetch_doc_text_snippet(cik, accession_num, primary_doc, form_type="8-K")
+        if doc_text and len(doc_text) > 100:
+            analysis = analyze_secondary_with_gemini(ticker, f"8-K 補充申報", doc_text)
+            return {
+                "title": f"📑 【8-K 官方申報解讀】：{ticker}",
+                "color": 0x95A5A6,
+                "tag": f"{form_type} (項目: {items_str or '補充披露'})",
+                "summary": analysis
+            }
+
         return {
             "title": f"📑 【8-K 例行申報】：{ticker}",
             "color": 0x95A5A6,
             "tag": f"{form_type} (項目: {items_str})",
-            "summary": f"• 【核心要點】：涉及例行備案代碼 {items_str}。\n• 【財務影響】：請點擊標題查閱原文。"
+            "summary": f"• **【核心要點】**：涉及例行備案代碼 {items_str}。\n• **【財務影響】**：請點擊標題查閱原文。"
         }
 
     return None
@@ -431,7 +474,7 @@ def send_sec_discord_embed(ticker, form_type, filing_date, accession_num, cik, p
                 {"name": "📌 標的代號", "value": f"`{ticker}`", "inline": True},
                 {"name": "📄 官方表單", "value": f"`{intel['tag']}`", "inline": True},
                 {"name": "📅 申報日期", "value": f"`{filing_date}`", "inline": True},
-                {"name": "💡 買方核心解讀", "value": intel["summary"][:1000], "inline": False}
+                {"name": "💡 買方深度解讀", "value": intel["summary"][:1000], "inline": False}
             ],
             "footer": {"text": f"SEC EDGAR 原文直達 • 案號: {accession_num} • 推播: {now_tw_str}"}
         }]
@@ -464,36 +507,26 @@ def check_ticker_sec(ticker, cik, sent_history):
         filing_date = filing["filingDate"]
         items = filing["items"]
 
-        # 唯一案號去重（歷史已發過的一律略過）
         if accession in sent_history:
             continue
 
         print(f"   ↳ 審核表單: {form} | 案號: {accession} (日期: {filing_date}, 項目: {items or '無'})", flush=True)
 
-        # 8-K 本地排噪：人事或股東會直接跳過（6-K 不受此限）
         if form.startswith("8-K"):
             item_tokens = set(re.findall(r"\d+\.\d+", items))
-            if item_tokens and item_tokens.issubset(IGNORE_ITEMS):
-                print("      [本地過濾] 純人事變更/股東會議程，跳過", flush=True)
-                save_sec_id(accession)
-                sent_history.add(accession)
-                continue
-
             if item_tokens and not (item_tokens & SUBSTANTIVE_8K_ITEMS):
                 print("      [本地過濾] 非核心實質項目代碼，跳過", flush=True)
                 save_sec_id(accession)
                 sent_history.add(accession)
                 continue
 
-        # 解析情報（精準分流）
         intel = parse_filing_intelligence(ticker, form, items, cik, accession, filing["primaryDocument"])
         if not intel:
             continue
 
         print(f"      🎯 [實質申報] 判定為 {form} 重大文件！推播至 Discord...", flush=True)
         send_sec_discord_embed(ticker, form, filing_date, accession, cik, filing["primaryDocument"], intel)
-        
-        # 紀錄已發案號
+
         save_sec_id(accession)
         sent_history.add(accession)
         time.sleep(1)
@@ -505,8 +538,8 @@ def main():
         print("❌ 錯誤：找不到 tickers.txt！", flush=True)
         return
 
-    with open("tickers.txt", "r") as f:
-        tickers = [line.strip().upper() for line in f if line.strip()]
+    with open("tickers.txt", "r", encoding="utf-8-sig") as f:
+        tickers = [line.strip().upper() for line in f if line.strip() and not line.strip().startswith("#")]
 
     sent_history = load_sec_history()
     print("==========================================", flush=True)
@@ -525,13 +558,12 @@ def main():
             print("❌ 無法取得 CIK")
             continue
         check_ticker_sec(ticker, cik, sent_history)
-        
-        # 嚴格遵循 SEC 官方每秒 10 次請求上限，安全休眠
         time.sleep(0.12)
 
     print("==========================================", flush=True)
     print("✅ SEC 全量申報巡檢完成！", flush=True)
     print("==========================================", flush=True)
+
 
 if __name__ == "__main__":
     main()
