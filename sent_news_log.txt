@@ -730,3 +730,5 @@ f1250a7da1e3138e6679f9977d66c358|||META|||PayPal Announces Meta Muse Partnership
 f56c5ce007af26c9351fdd91c5ebbc37|||FCEL|||ROSEN, SKILLED INVESTOR COUNSEL, Encourages FuelCell
 9eff98690ece7b05c158c5eee859a050|||META|||Meta’s New AI Agent Is an Instant Hit—and the Backlash Has Already Begun
 8a7df342c92872d9ae3e448c31831825|||META|||Why Meta Muse App Is Spooking the Stock Market—and Hammering These Stocks
+951de1c8428be011ac13bf7fe13b315c|||NVDA|||Nvidia-Backed AI Startup Seeks $10 Billion Before Australian IPO
+802a8ddcb5f303965fe9c93568af44c1|||NVDA|||Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO
