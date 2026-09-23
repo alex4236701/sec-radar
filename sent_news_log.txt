@@ -819,3 +819,27 @@ eea88ed7b4264d2368f66d136757b3f7|||IONQ|||Better Quantum Computing Stock: IonQ v
 ec61f137e8ac1c58cdd75b8a04c8308c|||IONQ|||Classiq, Israel Natural Gas Lines and IonQ Advance Quantum Optimization for Natural Gas Networks
 400b072096007b6e6bbfccde363add2a|||QNT|||QBTS vs. QNT: Buy, Hold or Sell as Quantum Valuations Reset?
 87b4d02499a7d375fefaf72f0bfd916b|||ZETA|||Zeta Global Invests in U.K. Growth with New London Hub and Leadership
+33c243ae2d25525515b738d99ab28cc2|||GOOGL|||Cathie Wood Trims Alphabet Even as Google Regains Search Share, Ark Bets Big on This Space Stock
+01b746e38178fffa5273408aa3c7d26d|||ARM|||CD&R, Warburg Pincus in talks to buy Canaccord’s UK wealth arm – report
+c4cc9ebdb17c2b7b2c1f1259fef52d7a|||AVGO|||China surveys Broadcom switch use in state data centers, FT reports
+10919a72f28fb40629b39896aa3ae96d|||AVGO|||China reviews dependence on Broadcom switches in data centres
+22f43fdbe11f6b1e187228e76a45b01c|||AVGO|||AVGO Stock Falls Premarket: China Reportedly Audits Broadcom’s Grip On State-Backed Data Centers
+40520cf0d914f89c6588958c3a3ac3b8|||AVGO|||China reviews Broadcom-data centre dependency: what are the implications?
+9cfb75dad6c76c7a9dd9c180f86b082f|||SNDK|||Sandisk Stock Is Up 695% in 2026 and This Market Indicator Predicted It. Here’s What It Says About 2027.
+d7bd7a2762a747376138b28116d64ce0|||TTMI|||TTM Technologies (TTMI) Stock Could Be 17% Overvalued Following Third Point Interest
+70d55081fbbd53bb892281d86fc299f4|||VIAV|||Stifel reiterates Buy on Viavi Solutions stock, $65 target By Investing.com
+88bd9dacf16f4932f7c3cdcf63cb046f|||TWLO|||Why Shopify Stock, Twilio Are Rising On Meta's Muse Rollout
+3bdbf432f47c2a74d3af68856b2f542d|||CGNX|||Cognex Buys Intel-Spun RealSense For $500 Million
+96ecc8ff62b2f7887e975e91b4d30c45|||CGNX|||Cognex Corporation (CGNX) RealSense, Inc. - M&A Call - Slideshow (NASDAQ:CGNX) 2026-09-22
+6cc4c38a0ee4aa0c3c42cd8fc9a8c426|||CGNX|||D.A. Davidson reiterates Cognex stock neutral on RealSense deal
+49d174ca3dd9ec3af8408b7b736ff0b6|||LTRX|||Lantronix Nominates Defense Technology Executive and Former Navy SEAL Jason Lamb to Board of Directors
+cff99ecb761e76846cc57ea42cac50c1|||LTRX|||Form DEF 14A LANTRONIX For: 22 September By Investing.com
+ced2d8fc3be40a4394470315dbd8f3f5|||IBM|||Exclusive: Hashgraph lands IBM marketplace listing for AI-agent identity tool
+364060e66b1ae7700f5a4bf56a9eb019|||CRWV|||CoreWeave to power Harell Data’s AI model training platform (CRWV:NASDAQ)
+3e157105d6ea2dea5ea88af9c109eb9d|||PANW|||Why Bernstein Still Sees 46% Upside in Zscaler (ZS) but Downgraded Palo Alto (PANW)
+73867de9fe6dae942ca22a5082e18648|||CSCO|||Cisco Stock Falls as Piper Sandler Cuts Price Target - Cisco Systems (NASDAQ:CSCO)
+5088245b06c98f3920f5f133e729035e|||RKLB|||Cathie Wood Loads Up On RKLB Stock — Cantor Pegs Iridium And Neutron As Major Catalysts For Rocket Lab
+2d6e3cfd4278916e7ed5277126e08a4a|||CRCL|||Why Is Circle Internet Group (CRCL) Drawing $100 Million In New Backing?
+f78da17bcd6cbe39057b377b0ac348d4|||WULF|||UBS initiates Terawulf stock with buy rating on leasing growth
+2be8460f6cb230098bbe0e1da8a5ed57|||PWR|||Here's How Much $100 Invested In Quanta Services 10 Years Ago Would Be Worth Today
+e32b9c38dceb18b8fa6f26090d8acca1|||IONQ|||IonQ Stock Jumps 12% on Quantum Error-Correction Milestone
