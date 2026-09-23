@@ -947,3 +947,14 @@ e0bb3073ae3972aa14bac08234fe08b1|||IONQ|||IonQ stock jumps after quantum error c
 ef682bc9d45d0a0d5df93be8b9c5ac34|||NVTS|||Form 8K Navitas Semiconductor Corp For: 23 September By Investing.com
 9ccff9cc7bc15c2b7b7e1f464fcbeb75|||GEV|||Form 4 GE Vernova LLC For: 23 September By Investing.com
 3df67f78d0ed57feb417bbd1c5fc4ab3|||IONQ|||IonQ shares rise after company says it made a major quantum computing breakthrough
+f65756aacb852f74f523235e935cb5a2|||MSFT|||Microsoft plans $10 billion-plus Gulf investment with focus on resilience
+c4f9d4eda76ce3e9ccee0ee853de38a5|||AVGO|||Richard W. Allen buys Broadcom and Taiwan Semiconductor, sells Rollins stock
+772bf956d3dc3bf054463fdca356742f|||NVDA|||Nvidia Scores Winning Streak: Trump-Xi Meeting, China Sales Outlook In Focus
+90db4d28f9b93f7c80527f6f0a1bfcb1|||INTC|||Not Intel. Not Nvidia. This Chip Giant Holds an Unbreakable Moat in Next-Gen Data Centers.
+84522a34adfeed815d515b4a05501c31|||MU|||Micron Faces Short Pressure Ahead Earnings, Analysts Reaffirm Buy Consensus
+e9f8ec95c97ae8e164f30afe6e3eea03|||KEYS|||Form 144 Keysight Technologies For: 23 September By Investing.com
+6b0b0ed59dd32b208a405c8f0d2a8c01|||VUZI|||Vuzix signs distribution deal with CommsPlus for Pacific region By Investing.com
+ebe922b27d948991534986924d4def1d|||TWLO|||Twilio vs Shopify: two different bets on the agentic commerce era
+e31bda361882b9807022ed133152e96d|||CRWV|||Why is CoreWeave stock gaining today?
+dea1e2ef436ae07de15deea4b59a159d|||OKTA|||Okta at oktane call 2026 investor summit: push to secure ai agents By Investing.com
+2dddff1a91f650b09411bd6a7f30c4e7|||IONQ|||IonQ Surges 11% as NVIDIA Research Center Deal Follows Error-Decoder Breakthrough; D-Wave Climbs 5%, Rigetti Rises 4%
