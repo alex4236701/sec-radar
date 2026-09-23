@@ -24,7 +24,7 @@ SEC_HEADERS = {
     "Accept-Encoding": "gzip, deflate"
 }
 
-# 核心標的備援名冊：防禦微軟 Azure (GitHub Actions) 雲端 IP 被 SEC 伺服器 403 阻擋
+# 核心標的備援名冊：防禦 GitHub Actions 雲端 IP 被 SEC 伺服器 403 阻擋
 CORE_FALLBACK_NAMES = {
     "QCOM": "Qualcomm", "NVDA": "Nvidia", "AAPL": "Apple", "TSLA": "Tesla",
     "MSFT": "Microsoft", "GOOGL": "Alphabet", "AMZN": "Amazon", "ARM": "Arm Holdings",
@@ -37,12 +37,12 @@ CORE_FALLBACK_NAMES = {
     "RDW": "Redwire", "RKLB": "Rocket Lab", "FEIM": "Frequency Electronics", "UAMY": "United States Antimony",
     "ECL": "Ecolab", "VIAV": "Viavi Solutions", "KEYS": "Keysight", "FORM": "FormFactor",
     "GEV": "GE Vernova", "GNRC": "Generac", "TTMI": "TTM Technologies", "CRCL": "Circle",
-    "PL": "Planet Labs", "CRWV": "CoreWeave", "CSCO": "Cisco", "IBM": "IBM"
+    "PL": "Planet Labs", "CRWV": "CoreWeave", "CSCO": "Cisco", "IBM": "IBM", "BAND": "Bandwidth"
 }
 
 COMPANY_NAME_CACHE = {}
 
-# 1. 實戰外電與通訊社白名單 (一手官方通訊社、一線財經外電與核心科技媒體)
+# 1. 權威外電與通訊社白名單
 TRUSTED_SOURCES = [
     # 一手官方通訊社
     "pr newswire", "business wire", "globenewswire", "accesswire",
@@ -55,10 +55,11 @@ TRUSTED_SOURCES = [
     "the verge", "techcrunch", "tom's hardware", "wccftech", "ars technica", "anandtech", "semiengineering"
 ]
 
+# 擴充易混淆常用英文單詞代號名冊
 COMMON_WORD_TICKERS = {
-    "ONTO", "CAT", "NOW", "ON", "IT", "ALL", "CAN", "BE", "GO", "ARE",
+    "ARM", "BAND", "CAT", "NOW", "ON", "IT", "ALL", "CAN", "BE", "GO", "ARE",
     "FOR", "OUT", "WELL", "RUN", "FAST", "OPEN", "PLAY", "SAVE", "APP",
-    "REAL", "TRUE", "KEY", "KEYS", "FORM", "POST", "NET", "PLUG", "SO"
+    "REAL", "TRUE", "KEY", "KEYS", "FORM", "POST", "NET", "PLUG", "SO", "PL", "MP", "HON"
 }
 
 # 2. 精準排除黑名單：精確鎖定「律師集體訴訟招募」與「例行公關軟文」，絕不誤殺專利授權戰與反壟斷調查
@@ -79,25 +80,32 @@ EXCLUDE_TITLE_PATTERNS = [
     r"\bdonates?\b", r"\bwhitepaper\b", r"\bsurvey\s+finds\b", r"\badds\s+to\s+board\b"
 ]
 
-# 3. 催化劑信號詞庫 (涵蓋商業大單、併購、晶片架構、專利授權、核能 SMR 與舉債擴張)
+# 3. 催化劑信號庫 (補齊財報、營收、獲利、晶片架構與大單詞彙)
 SIGNAL_PATTERNS = [
+    # 財報、營收與業績指引
+    r"\bearnings\b", r"\brevenue\b", r"\beps\b", r"\bquarterly\b", r"\bfinancial\s+results\b",
+    r"\braises?\s+guidance\b", r"\blowers?\s+guidance\b", r"\bcuts?\s+guidance\b", r"\bguidance\b",
+    r"\boutlook\b", r"\bprofit\b", r"\bsales\b", r"\bq[1-4]\b", r"\bbuyback\b", r"\brepurchase\b",
+    # 商業合約與客戶大單
     r"\bcontract\b", r"\border\b", r"\borders\b", r"\bdeal\b", r"\baward\b",
     r"\bagreement\b", r"\bpact\b", r"\bprocurement\b", r"\bsupply\b",
     r"\bpartner(?:ed|ing|ship|s)?\b", r"\bcollaboration\b", r"\balliance\b",
     r"\bjoint\s+venture\b", r"\bto\s+deploy\b", r"\bpackaging\b", r"\bdesign\s+win\b",
+    # 併購、收購與重組
     r"\btakeover\b", r"\bacquisition\b", r"\bacquires?\b", r"\bbuyout\b", r"\bbid\b",
     r"\bapproach\w*\b", r"\btalks?\b", r"\bpursues?\b", r"\bweighs?\b", r"\bexplor\w*\b",
     r"\binvest(?:ment|s|ing)?\b", r"\bstake\b", r"\bmerger\b", r"\brestructur\w*\b",
     r"\bsells?\b", r"\bsold\b", r"\bsale\s+of\b", r"\bspinoff\b", r"\bdivest\w*\b",
+    # 專利、授權與反壟斷監管戰火
     r"\blicens(?:e|ing|ee)\b", r"\broyalt(?:y|ies)\b", r"\bpatent\b", r"\binfringement\b",
     r"\bantitrust\b", r"\bmonopoly\b", r"\bdoj\b", r"\bftc\b", r"\bprobe\b", r"\bsubpoena\b",
     r"\bexport\s+control\b", r"\bsanction\w*\b", r"\bchips\s+act\b", r"\binjunction\b",
+    # 旗艦產品、晶片與能源技術
     r"\blaunches\b", r"\bunveils\b", r"\bintroduces\b", r"\bnext-gen\b",
     r"\barchitecture\b", r"\bprocessor\b", r"\bchipset?\b", r"\bsnapdragon\b", r"\bbreakthrough\b",
-    r"\bfinancial\s+results\b", r"\braises?\s+guidance\b", r"\blowers?\s+guidance\b",
-    r"\bcuts?\s+guidance\b", r"\bbuyback\b", r"\brepurchase\b", r"\bconvertible\b",
-    r"\bpublic\s+offering\b", r"\bat-the-market\b", r"\bchapter\s+11\b", r"\bbankruptcy\b",
-    r"\bsmr\b", r"\breactor\b", r"\bpower\s+deal\b", r"\bdebt-funded\b"
+    r"\bsmr\b", r"\breactor\b", r"\bpower\s+deal\b", r"\bdebt-funded\b",
+    # 資本稀釋與信用事件
+    r"\bconvertible\b", r"\bpublic\s+offering\b", r"\bat-the-market\b", r"\bchapter\s+11\b", r"\bbankruptcy\b"
 ]
 
 GENERIC_FIRST_WORDS = {
@@ -115,7 +123,6 @@ STOP_WORDS = {
 
 # ==================== 工具函式 ====================
 def clean_company_name(raw_name):
-    # 清洗 SEC 登記特有的州名標籤 (如 QUALCOMM INC/DE -> Qualcomm)
     name = re.sub(r"/(?:DE|MD|ADR|CA|NY|NV|VA|PA|OH|TX)/?", "", raw_name, flags=re.IGNORECASE)
     cleaned = re.sub(
         r",?\s*(INC|CORP|LTD|HOLDINGS|CO|PLC|LLC|AG|SE|SA|NV|GMBH|TECHNOLOGIES|CORP\s*/DE)\.?$", 
@@ -190,6 +197,7 @@ def extract_core_words(title):
 
 
 def is_duplicate_news(ticker, new_title, history_records):
+    """改採純 Jaccard 語意相似度，徹底廢除固定 3 字誤殺機制"""
     new_words = extract_core_words(new_title)
     if not new_words:
         return False
@@ -206,7 +214,8 @@ def is_duplicate_news(ticker, new_title, history_records):
         union = new_words | old_words
         similarity = len(intersection) / len(union) if union else 0
 
-        if similarity >= 0.45 or len(intersection) >= 3:
+        # 相似度超過 55% 且核心特徵詞高度一致才視為同事件轉載
+        if similarity >= 0.55:
             return True
 
     return False
@@ -256,7 +265,7 @@ def matches_target_entity(ticker, raw_title):
     has_full_name = (company_name in t_lower) if len(company_name) > 3 else False
 
     if ticker_upper in COMMON_WORD_TICKERS:
-        has_strict_ticker = bool(re.search(rf"\b({ticker_upper}|NYSE:{ticker_upper}|NASDAQ:{ticker_upper})\b", t_raw))
+        has_strict_ticker = bool(re.search(rf"\b({ticker_upper}|NYSE:{ticker_upper}|NASDAQ:{ticker_upper}|\${ticker_upper})\b", t_raw))
         return has_full_name or has_strict_ticker
 
     has_ticker = bool(re.search(rf"\b{re.escape(ticker.lower())}\b", t_lower))
@@ -342,7 +351,6 @@ def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub
     cfg = type_configs.get(event_type, type_configs["ORDER"])
     safe_summary = summary_bullets[:1000] if summary_bullets else "無內容摘要"
 
-    # 若成功翻譯，顯示「繁中標題 + 英文原標題」；若無則顯示原英文
     if title_zh and title_zh != title:
         display_title = f"{title_zh}\n({title[:180]})"
     else:
@@ -461,13 +469,23 @@ def summarize_with_ai(ticker, text):
 # ==================== 稿件檢索與巡檢邏輯 ====================
 def fetch_google_wire_news(ticker):
     company_name = COMPANY_NAME_CACHE.get(ticker.upper())
-    
-    if company_name and company_name.upper() != ticker.upper() and len(company_name) >= 3:
-        search_target = f'"{company_name}" OR "{ticker}" OR "${ticker}"'
-    else:
-        search_target = f'"{ticker}" OR "${ticker}"'
+    is_common = ticker.upper() in COMMON_WORD_TICKERS
 
-    encoded_query = urllib.parse.quote(search_target)
+    # 針對 ARM, BE, CAT 等常用詞代號，嚴禁單獨搜純英文字母，必須加 $ 或用全名
+    if is_common:
+        if company_name and len(company_name) >= 3:
+            search_target = f'"{company_name}" OR "${ticker}"'
+        else:
+            search_target = f'"${ticker}"'
+    else:
+        if company_name and company_name.upper() != ticker.upper() and len(company_name) >= 3:
+            search_target = f'"{company_name}" OR "{ticker}" OR "${ticker}"'
+        else:
+            search_target = f'"{ticker}" OR "${ticker}"'
+
+    # 強制鎖定在 48 小時內 (when:2d)，確保 Google 回傳最新消息，而非數月前舊聞
+    query = f"{search_target} when:2d"
+    encoded_query = urllib.parse.quote(query)
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
     
     headers = {
@@ -528,7 +546,7 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
         if not is_trusted_source(source_name):
             continue
 
-        # 2. 寬限至 36 小時時效守衛
+        # 2. 36 小時時效守衛
         if not is_within_36_hours(item["pub_date_raw"]):
             continue
 
@@ -543,7 +561,7 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
         if fingerprint in sent_fingerprints:
             continue
 
-        # 5. 語意去重
+        # 5. 語意去重 (修復版：不再粗暴以 3 字相同為由誤殺)
         if is_duplicate_news(ticker, clean_title, history_records):
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
@@ -555,7 +573,7 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 7. 實質信號過濾
+        # 7. 實質信號過濾 (涵蓋財報、營收、併購、大單與晶片架構)
         title_has_signal = has_high_impact_signal(clean_title)
         snippet_has_signal = has_high_impact_signal(item['snippet'])
 
