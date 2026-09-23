@@ -732,3 +732,90 @@ f56c5ce007af26c9351fdd91c5ebbc37|||FCEL|||ROSEN, SKILLED INVESTOR COUNSEL, Encou
 8a7df342c92872d9ae3e448c31831825|||META|||Why Meta Muse App Is Spooking the Stock Market—and Hammering These Stocks
 951de1c8428be011ac13bf7fe13b315c|||NVDA|||Nvidia-Backed AI Startup Seeks $10 Billion Before Australian IPO
 802a8ddcb5f303965fe9c93568af44c1|||NVDA|||Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO
+db14b812a35d8919438e348a6202d0a9|||GOOGL|||Cathie Wood’s ARK sells Alphabet stock, buys Rocket Lab
+6911f3a540a588a0831e3d4ced61d702|||TSLA|||Tesla CEO Elon Musk Confronts China Tariffs at Xi-Trump Dinner
+f1f7d2fc86d804a5d9d3cde24f09bd71|||TSLA|||Gary Black Says Legacy Automakers Will Not License Tesla FSD, Instead Bet on In-House Self-Driving Efforts: ‘Inclined to Build’
+d153684e5393db7be9d878fc1a8aaf1c|||TSLA|||Elon Musk Is Teasing a Tesla-SpaceX Merger Again. Terafab Shows Why AI Could Be the Logic
+3618cae673c33492933f83dfd5dfc553|||TSLA|||The Tesla Semi Just Got A Massive Boost From The Biggest U.S. Electric Truck Order Yet
+59c8a6d1ff412c5aaf47adcd4cb55fd2|||QCOM|||Qualcomm releases Android chip built for AI as memory shortage weighs on smartphone market
+3509b9ea33f1f3e421069a08836cb205|||QCOM|||Qualcomm launches two new smartphone chips with emphasis on AI
+4a049c9bfa35ee6670916cdefcfce997|||QCOM|||Qualcomm Launches Two New Smartphone Chips As AI Push Intensifies — QCOM Stock Edges Lower After-Hours
+5c7b015f1c7afefbcc49512aef5aae32|||QCOM|||Qualcomm reveals 2 new smartphone chips focusing on agentic AI
+ccb117022b6cdbc68608384cdfc79016|||META|||Meta's Muse reignites AI disruption fears. Traders are targeting this brokerage stock as next casualty
+bd51be00d0fbc2fc9e3555259a9a1517|||META|||Why Muse just added billions to Meta's market cap
+f4dca18b43e556054b29154d89457ff1|||META|||Meta’s Muse Hit No. 1. Google Suddenly Has an AI-Agent Distribution Problem
+1575b307c4dcec67077b183840196781|||HPE|||HPE's Networking Orders Signal Continued Growth: What's Ahead?
+2fb0d40c786f97300fe91d047c13db82|||AVGO|||China reviews Broadcom switch use in state-backed data centres, FT reports
+a83bc1a3ead1e7f37df84e5164bb1df5|||AVGO|||Broadcom Faces China Data Center Threat as Beijing Finds Its Switches in Up to 90% of State-Owned Firms: Report
+378a5cc0231accd32f02d36efab76d7d|||AVGO|||History Says a $1,000 Investment in Broadcom Will Be Worth This Much by 2028
+80557213103f57cf3f70277e6394b17b|||TSM|||Here is What to Know Beyond Why Taiwan Semiconductor Manufacturing Company Ltd. (TSM) is a Trending Stock
+fe4fc4f28793dce562eea9c514cd944a|||INTC|||SK Hynix Is Eyeing Intel’s (INTC) Ohio Site. Why Micron (MU) Should Pay Attention
+d984f6184c0563fb60d21be409c175cf|||MRVL|||AT&S and Marvell Technology Expand Collaboration to Support Next-generation AI Infrastructure
+5e84c5a6eb6c00d9e4fffa393b9a9985|||GFS|||GFS Augments Photonics Portfolio: Will SMART Partnership Boost Growth?
+80e495f94df8e371cb81d8d30c4f20b0|||MU|||Why is Micron Technology stock slipping today?
+4a900bbcbdf985ac03ec24d3f8889a94|||MU|||Prediction: This Is What a $5,000 Investment in Micron Technology Will Be Worth by 2028
+a3639ec5920b8e605f6aa30ebc7f15f1|||MU|||Why Gabelli Global Growth Fund Added Micron Technology (MU) in Q2
+25ea2c2d8b7708d3d6d023f9d66871d4|||SNDK|||SanDisk stock outlook: What to expect into year-end and 2027
+1578cfa3631b00998b8192caf63fe5bb|||SKHY|||SK Hynix CEO Says That AI Industry Cannot Exist Without Memory As the Company Builds Next-Gen Memory Across A Fleet of Global Production Bases to Maintain Market Dominance
+c993975600154e0de78fcb5a67aa0c9b|||SKHY|||Samsung’s HBM growth outpaces SK Hynix in August, Bernstein says
+48efa1132d5068d1515e46d39d734ecb|||WDC|||Why is Western Digital stock rallying today?
+5ba9394e0c9a0fb316bb15cb0b95dcba|||ASX|||Australia stocks higher at close of trade; S&P/ASX 200 up 0.09%
+8fc2d05c4d55f30590cd83d37a1f83ef|||ASX|||RBA pressure on ASX persists as clearing shortcomings remain By Reuters
+f2555bcc1e0de16e2dceaf04f8482abf|||CAMT|||Cantor Fitzgerald reiterates Camtek stock rating at Neutral with $175 target
+74dec961f57075a97c903988b0fc2c94|||TTMI|||TTM Technologies (TTMI) Is Up 9.5% After Debt-Funded AI and Defense Acquisition Push Announcement
+1a970236de9c4c5890e27f82979f18f8|||TTMI|||TTM Technologies (TTMI) Piles On Debt To Chase Growth
+59c6593be2c625263f15b34fe57984c4|||VIAV|||Stifel reiterates Buy on Viavi Solutions stock, $65 target
+4d5ae96054c0ae7285751c607eab7232|||TER|||GSME, Teradyne form partnership for semiconductor test center
+c3e261a86600dbeb8d3f7eeb56f8d158|||OUST|||Ouster (OUST) Could Be 30% Below Fair Value After INTERGEO 2026 Launches
+7b669acc9b37b21a18201665c2bd46e8|||OUST|||Ouster (OUST) Showcases New Color Lidar For Industrial Inspections At INTERGEO 2026
+86060ab83e3995870631af261357cab9|||TWLO|||Why is Twilio stock surging today?
+35219f7f4a6710ce35bd6df1e380fc1e|||TWLO|||Stifel sees Meta Muse driving Shopify, Twilio stock gains
+772a6be06535aa7197eb5f9c41559671|||TWLO|||Why Is Twilio (TWLO) Stock Soaring Today
+236607665b514c6a3cdf9204ed7aa2e2|||BB|||Why is BlackBerry stock surging today?
+459b71c863131d0923af6c4c118af191|||BB|||BlackBerry Jumps 7% as Coretura Selects QNX-Based Alloy Kore for Truck Platform; Aptiv Edges Higher, Mobileye Barely Budges
+52ff543dfe92d5bcda82b74f9d548c5b|||CGNX|||Cognex Acquires RealSense for $500M to Expand Robotic Vision Platform
+bbcbe9309bd89e4ad74509efdf9a0724|||CGNX|||Cognex to buy robotics firm RealSense in $500M deal (CGNX:NASDAQ)
+20cf1d10b6ae0c1adb696046121df969|||LTRX|||Lantronix nominates Jason Lamb to board, two directors to exit
+6e3b57bd23021384be1e5dfa8c6a7302|||LTRX|||Form DEF 14A LANTRONIX For: 22 September
+737eff2db1e321984a35ec8468e1a67f|||ALP|||Alpha Compute acquires Pennsylvania land and oil assets for $5.5m
+76a2caf1292217a77dfad70a329faeb6|||VICR|||Vicor: VPD Licensing Is A Game Changer (NASDAQ:VICR)
+d7655603f6dac126d9d28ebd48e1ced7|||VICR|||Amgen, Vicor among market cap stock movers on Tuesday
+b970ae95ac1f39ec457a8f0592f996db|||CRWV|||CoreWeave signs multi-year cloud deal with Harell Data
+97a545b4549f08320d20534abfd5639b|||PANW|||Why Palo Alto Networks (PANW) Is Getting Fresh Attention
+b7b1324dec7d35581a6b8737d86c3cc5|||PANW|||Palo Alto Networks Trending After Launching AI-Powered Cyber Defense Service
+c60bcc24b15c8efbd0ee5a94f48cc0ff|||PANW|||Palo Alto Networks Launches AI-Powered Continuous Security Testing Service
+c85f8716cbbe30944da66e2ce5da0db0|||RBRK|||Baird raises Rubrik stock price target on AI resilience positioning
+2032d05e421e790eee875826ca0f45ec|||CIEN|||Ciena (CIEN) Following Record Q3 Results And 2029 Targets Looks Back In Valuation Focus
+58958baec9b7c274b238766cd68d2dbd|||CSCO|||Cisco (CSCO) Unveils Quantum Networking Push With New Distributed Systems Collaboration
+543155febac38e9cde6589b399e68d0d|||CSCO|||Cisco Systems, Inc. (CSCO) Options Chain - Yahoo Finance
+51a0d45eeb5a70f1c987712763b161f7|||SPCX|||SpaceX (SPCX) Stock Looks Rich On Fresh Merger Speculation
+ce4bf8256256ad8b4e128ee168ba3070|||SPCX|||SpaceX: Why I’m Turning Bullish After The Drop (NASDAQ:SPCX)
+2f97878a6e3c07919757617ba6b89a19|||SPCX|||What Could A Space Exploration Technologies (SPCX) Merger Mean For Investors?
+1a353e2c84f2c0664c86880eecf6260d|||RKLB|||Cathie Wood’s ARK sells Alphabet stock, buys Rocket Lab
+f5e9ef2c139838b4a95f8d02d4095338|||PL|||Planet Labs (PL) Stock May Trade Above Fair Value After German Contract
+60ce90de663fe5aa73d3a6298a710fcc|||BKSY|||BlackSky CEO Brian O’Toole sells $457,600 in BKSY shares. By Investing.com
+7e7180de759c64455a69371b46fd7e50|||BKSY|||Form 4 Blacksky Technology Inc For: 22 September By Investing.com
+cd9a97b660696499b2e7e823ba2239a3|||BKSY|||BlackSky technology general counsel & CAO Lin sells $138,600 in stock
+cadec09e706a1519d003f2b056ca4643|||VSAT|||Viasat Wins First Task Order Award as part of $307 Million
+fe9e5505e2d1a53a48a525e29ea39597|||VSAT|||Viasat wins $307M Marine Corps satellite services contract
+b26c3a3aad2971cbe5b1abcb870d9b2d|||CRCL|||Circle, Binance Deepen USDC Ties with $100 Million Investment
+d943220cb7cc33b1d4b2c7a72da0d8a2|||CRCL|||CRCL Stock Alert: What to Know as Circle Lands $100 Billion Deal With Binance
+a08941efc7047af23927f84704f58e59|||WULF|||UBS initiates Terawulf stock with buy rating on leasing growth By Investing.com
+47accb14b9292e09166b26b841e6ff2a|||CIFR|||Cipher Digital Inc. (CIFR) Stock Moves 1.01%: What You Should Know
+859975097a85ebd66b7c1ee893ee50dd|||MP|||America’s Rare Earth Bet Nears a Real Test: MP Materials Closes In on GM Deliveries
+c356e26900e8ceadef3af861bcbdafd8|||MP|||Critical Metals Drops 6% as Greenland Surge Meets Profit Taking; USA Rare Earth Slips, MP Materials Eases
+92dc0665510af5d82731db54b1668d28|||USAR|||Critical Metals Drops 6% as Greenland Surge Meets Profit Taking; USA Rare Earth Slips, MP Materials Eases
+c23d78e4adc1bf6acfee3ece14e77c11|||FCEL|||Renewable Energy Stocks Q2 Highlights: FuelCell Energy (NASDAQ:FCEL)
+0a41ff395ebe4bceed8ea96233fa3d11|||TE|||Bernstein initiates TE Connectivity stock coverage with outperform rating
+c09ed2f78996322f1cc78087f278e2f4|||GEV|||GE Vernova, partners sign MoU to advance BWRX-300 small modular reactors in Europe (GEV:NYSE)
+db5796ed836e42f3e7c102abb3528074|||PWR|||Quanta Services (PWR) Is Considered a Good Investment by Brokers: Is That True?
+31a48dc2e02b250ee31d45709943b946|||GNRC|||Generac Rallies on Power Deal With Amazon. How to Play GNRC Stock Now.
+885419bf38c41e91573530a4c3ca615a|||GNRC|||Is Generac Holdings Inc. (GNRC) Stock a Top AI Infrastructure Play After $2.4 Billion Amazon Deal?
+458b998f87804cc963c3202dd8de8777|||IONQ|||IonQ Shares Rise 11.8% After Quantum Error Correction Decoder Test
+47bfd6d3e304ed526651c0d1d17a312f|||IONQ|||IonQ Stock Jumps After Real-Time Quantum Error Decoder Demonstration
+63404884ee0941504b3b927203899fd3|||IONQ|||IonQ stock jumps 7% on quantum error correction breakthrough
+b2c87e1dd8d475a131ab1e2bd26814ce|||IONQ|||IonQ Soars 10% After Breakthrough Sends Quantum Stocks Higher
+eea88ed7b4264d2368f66d136757b3f7|||IONQ|||Better Quantum Computing Stock: IonQ vs. Rigetti
+ec61f137e8ac1c58cdd75b8a04c8308c|||IONQ|||Classiq, Israel Natural Gas Lines and IonQ Advance Quantum Optimization for Natural Gas Networks
+400b072096007b6e6bbfccde363add2a|||QNT|||QBTS vs. QNT: Buy, Hold or Sell as Quantum Valuations Reset?
+87b4d02499a7d375fefaf72f0bfd916b|||ZETA|||Zeta Global Invests in U.K. Growth with New London Hub and Leadership
