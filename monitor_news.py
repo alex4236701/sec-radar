@@ -24,7 +24,7 @@ SEC_HEADERS = {
     "Accept-Encoding": "gzip, deflate"
 }
 
-# 核心標的備援對照庫：防範 GitHub Actions (微軟 Azure IP) 被 SEC 403 阻擋導致公司名全空
+# 核心標的備援名冊：防禦微軟 Azure (GitHub Actions) 雲端 IP 被 SEC 伺服器 403 阻擋
 CORE_FALLBACK_NAMES = {
     "QCOM": "Qualcomm", "NVDA": "Nvidia", "AAPL": "Apple", "TSLA": "Tesla",
     "MSFT": "Microsoft", "GOOGL": "Alphabet", "AMZN": "Amazon", "ARM": "Arm Holdings",
@@ -37,12 +37,12 @@ CORE_FALLBACK_NAMES = {
     "RDW": "Redwire", "RKLB": "Rocket Lab", "FEIM": "Frequency Electronics", "UAMY": "United States Antimony",
     "ECL": "Ecolab", "VIAV": "Viavi Solutions", "KEYS": "Keysight", "FORM": "FormFactor",
     "GEV": "GE Vernova", "GNRC": "Generac", "TTMI": "TTM Technologies", "CRCL": "Circle",
-    "PL": "Planet Labs", "CRWV": "CoreWeave", "CSCO": "Cisco"
+    "PL": "Planet Labs", "CRWV": "CoreWeave", "CSCO": "Cisco", "IBM": "IBM"
 }
 
 COMPANY_NAME_CACHE = {}
 
-# 1. 權威外電與通訊社白名單 (納入半導體專門外電與主流財經聚合)
+# 1. 實戰外電與通訊社白名單 (一手官方通訊社、一線財經外電與核心科技媒體)
 TRUSTED_SOURCES = [
     # 一手官方通訊社
     "pr newswire", "business wire", "globenewswire", "accesswire",
@@ -51,7 +51,7 @@ TRUSTED_SOURCES = [
     "cnbc", "financial times", "marketwatch", "barron's", "associated press", "ap news",
     # 財經主流聚合與專業平台
     "yahoo finance", "yahoo", "investor's business daily", "ibd", "seeking alpha", "benzinga", "investing.com",
-    # 核心硬體、半導體與科技權威媒體
+    # 核心半導體、能源與硬體權威外電
     "the verge", "techcrunch", "tom's hardware", "wccftech", "ars technica", "anandtech", "semiengineering"
 ]
 
@@ -61,7 +61,7 @@ COMMON_WORD_TICKERS = {
     "REAL", "TRUE", "KEY", "KEYS", "FORM", "POST", "NET", "PLUG", "SO"
 }
 
-# 2. 精準排除黑名單：精確封鎖「股東集體訴訟」與「公關軟文」，絕不誤殺專利授權戰與反壟斷調查
+# 2. 精準排除黑名單：精確鎖定「律師集體訴訟招募」與「例行公關軟文」，絕不誤殺專利授權戰與反壟斷調查
 EXCLUDE_TITLE_PATTERNS = [
     r"\bclass\s+action\b", r"\bshareholder\s+alert\b", r"\breminds\s+investors\b",
     r"\blead\s+plaintiff\b", r"\bloss\s+submission\b", r"\bsecurities\s+fraud\b",
@@ -79,7 +79,7 @@ EXCLUDE_TITLE_PATTERNS = [
     r"\bdonates?\b", r"\bwhitepaper\b", r"\bsurvey\s+finds\b", r"\badds\s+to\s+board\b"
 ]
 
-# 3. 晶片、能源、衛星與重大催化劑信號庫
+# 3. 催化劑信號詞庫 (涵蓋商業大單、併購、晶片架構、專利授權、核能 SMR 與舉債擴張)
 SIGNAL_PATTERNS = [
     r"\bcontract\b", r"\border\b", r"\borders\b", r"\bdeal\b", r"\baward\b",
     r"\bagreement\b", r"\bpact\b", r"\bprocurement\b", r"\bsupply\b",
@@ -115,6 +115,7 @@ STOP_WORDS = {
 
 # ==================== 工具函式 ====================
 def clean_company_name(raw_name):
+    # 清洗 SEC 登記特有的州名標籤 (如 QUALCOMM INC/DE -> Qualcomm)
     name = re.sub(r"/(?:DE|MD|ADR|CA|NY|NV|VA|PA|OH|TX)/?", "", raw_name, flags=re.IGNORECASE)
     cleaned = re.sub(
         r",?\s*(INC|CORP|LTD|HOLDINGS|CO|PLC|LLC|AG|SE|SA|NV|GMBH|TECHNOLOGIES|CORP\s*/DE)\.?$", 
@@ -300,8 +301,7 @@ def should_skip_for_weekend_throttle():
 
 
 # ==================== DISCORD 推播 ====================
-# ==================== DISCORD 推播 ====================
-def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub_date_str, source_name):
+def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub_date_str, source_name, title_zh=""):
     if not DISCORD_NEWS_WEBHOOK:
         return
     now_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
@@ -342,6 +342,12 @@ def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub
     cfg = type_configs.get(event_type, type_configs["ORDER"])
     safe_summary = summary_bullets[:1000] if summary_bullets else "無內容摘要"
 
+    # 若成功翻譯，顯示「繁中標題 + 英文原標題」；若無則顯示原英文
+    if title_zh and title_zh != title:
+        display_title = f"{title_zh}\n({title[:180]})"
+    else:
+        display_title = title[:200]
+
     payload = {
         "username": "Market Impact Radar",
         "avatar_url": "https://cdn-icons-png.flaticon.com/512/2965/2965879.png",
@@ -354,7 +360,7 @@ def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub
                 {"name": "📅 發布時間 (台灣)", "value": f"`{pub_date_str}`", "inline": True},
                 {"name": "🏷️ 交易性質", "value": f"`{cfg['desc']}`", "inline": True},
                 {"name": "📡 來源管道", "value": f"`{source_name}`", "inline": False},
-                {"name": "📰 標題", "value": title[:200], "inline": False},
+                {"name": "📰 標題", "value": display_title, "inline": False},
                 {"name": "💡 買方深度解讀", "value": safe_summary, "inline": False}
             ],
             "footer": {"text": f"Market Radar • 推播時間: {now_tw_str}"}
@@ -372,7 +378,7 @@ def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub
 def summarize_with_ai(ticker, text):
     if not OPENAI_API_KEY:
         print("      ❌ [環境變數警告] 未設定 OPENAI_API_KEY！", flush=True)
-        return "PASS", "", False
+        return "PASS", "", "", False
 
     api_url = "https://api.openai.com/v1/chat/completions"
     headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
@@ -390,14 +396,16 @@ def summarize_with_ai(ticker, text):
 3. 雜訊軟文：例行參展、無具體條款之公關宣傳、律師股東集體訴訟招募。
 
 【實質拆解要求】：
-1. 【核心要點】：對手是誰？交易性質是正式合約還是意向備忘錄 (MoU)？涉及的具體產品或動作是什麼？金額或年限為何？（繁體中文，40-60 字）
-2. 【財務影響】：對實質營收認列、毛利率衝擊，或是否存在舉債 (Debt-funded)、稀釋股本融資、監管反壟斷等代價？（繁體中文，40-60 字）
+1. 【繁中標題】：將原英文標題精準流暢地翻譯為繁體中文（保留型號與代號）。
+2. 【核心要點】：對手是誰？交易性質是正式合約還是意向備忘錄 (MoU)？涉及的具體產品或動作是什麼？金額或年限為何？（繁體中文，40-60 字）
+3. 【財務影響】：對實質營收認列、毛利率衝擊，或是否存在舉債 (Debt-funded)、稀釋股本融資、監管反壟斷等代價？（繁體中文，40-60 字）
 
 【輸出格式要求】：
 若不符合，只回傳單字：PASS
 若符合，嚴格回傳以下純 JSON 物件，嚴禁包含任何多餘文字：
 {{
   "type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS",
+  "title_zh": "英文標題之繁體中文翻譯",
   "action": "對手方、合約/動作性質、關鍵產品型號或金額年限",
   "impact": "實質財務營收利弊、毛利影響或資產負債代價"
 }}
@@ -424,29 +432,31 @@ def summarize_with_ai(ticker, text):
 
             content = data["choices"][0]["message"]["content"].strip()
             if "PASS" in content:
-                return "PASS", "", True
+                return "PASS", "", "", True
             
             json_match = re.search(r"\{[\s\S]*\}", content)
             if not json_match:
-                return "PASS", "", True
+                return "PASS", "", "", True
 
             parsed = json.loads(json_match.group(0))
             event_type = parsed.get("type", "ORDER")
+            title_zh = parsed.get("title_zh", "").strip()
             action = parsed.get("action", "").strip()
             impact = parsed.get("impact", "").strip()
             
             if not action or not impact:
-                return "PASS", "", True
+                return "PASS", "", "", True
                 
             formatted_summary = (
                 f"• **【核心要點】**：{action}\n"
                 f"• **【財務影響】**：{impact}"
             )
-            return event_type, formatted_summary, True
-        except Exception as e:
+            return event_type, formatted_summary, title_zh, True
+        except Exception:
             time.sleep(2)
             
-    return "PASS", "", False
+    return "PASS", "", "", False
+
 
 # ==================== 稿件檢索與巡檢邏輯 ====================
 def fetch_google_wire_news(ticker):
@@ -563,7 +573,7 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
                 pass
 
         context = f"標題: {clean_title}\n來源: {source_name}\n內容摘要: {item['snippet']}"
-        event_type, summary_text, is_api_ok = summarize_with_ai(ticker, context)
+        event_type, summary_text, title_zh, is_api_ok = summarize_with_ai(ticker, context)
 
         if not is_api_ok:
             continue
@@ -576,7 +586,16 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
             print("      [AI裁定] PASS (主體不符/非核心衝擊事件)", flush=True)
         else:
             print(f"      🎯 [AI放行] 判定為 {event_type} 事件！發送 Discord...", flush=True)
-            send_discord_embed(ticker, clean_title, event_type, summary_bullets=summary_text, news_url=item["url"], pub_date_str=pub_tw_str, source_name=source_name)
+            send_discord_embed(
+                ticker, 
+                clean_title, 
+                event_type, 
+                summary_bullets=summary_text, 
+                news_url=item["url"], 
+                pub_date_str=pub_tw_str, 
+                source_name=source_name,
+                title_zh=title_zh
+            )
             time.sleep(1)
 
 
