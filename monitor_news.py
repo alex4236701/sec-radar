@@ -24,7 +24,7 @@ SEC_HEADERS = {
     "Accept-Encoding": "gzip, deflate"
 }
 
-# 本地離線備援字典：專防 GitHub Actions (微軟 Azure IP) 被 SEC 403 阻擋導致名稱全空
+# 核心標的備援對照庫：防範 GitHub Actions (微軟 Azure IP) 被 SEC 403 阻擋導致公司名全空
 CORE_FALLBACK_NAMES = {
     "QCOM": "Qualcomm", "NVDA": "Nvidia", "AAPL": "Apple", "TSLA": "Tesla",
     "MSFT": "Microsoft", "GOOGL": "Alphabet", "AMZN": "Amazon", "ARM": "Arm Holdings",
@@ -35,21 +35,23 @@ CORE_FALLBACK_NAMES = {
     "COHR": "Coherent", "LITE": "Lumentum", "CRDO": "Credo Technology", "POWI": "Power Integrations",
     "VSH": "Vishay", "VICR": "Vicor", "WOLF": "Wolfspeed", "VRT": "Vertiv",
     "RDW": "Redwire", "RKLB": "Rocket Lab", "FEIM": "Frequency Electronics", "UAMY": "United States Antimony",
-    "ECL": "Ecolab", "VIAV": "Viavi Solutions", "KEYS": "Keysight", "FORM": "FormFactor"
+    "ECL": "Ecolab", "VIAV": "Viavi Solutions", "KEYS": "Keysight", "FORM": "FormFactor",
+    "GEV": "GE Vernova", "GNRC": "Generac", "TTMI": "TTM Technologies", "CRCL": "Circle",
+    "PL": "Planet Labs", "CRWV": "CoreWeave", "CSCO": "Cisco"
 }
 
 COMPANY_NAME_CACHE = {}
 
-# 1. 權威外電與通訊社白名單 (擴充主流財經與半導體專業外電)
+# 1. 權威外電與通訊社白名單 (納入半導體專門外電與主流財經聚合)
 TRUSTED_SOURCES = [
     # 一手官方通訊社
     "pr newswire", "business wire", "globenewswire", "accesswire",
-    # 一線頂級外電與財經巨頭
+    # 一線頂級財經外電
     "reuters", "bloomberg", "wall street journal", "wsj",
     "cnbc", "financial times", "marketwatch", "barron's", "associated press", "ap news",
-    # 財經聚合權威
+    # 財經主流聚合與專業平台
     "yahoo finance", "yahoo", "investor's business daily", "ibd", "seeking alpha", "benzinga", "investing.com",
-    # 硬體、半導體與科技權威媒體 (晶片架構與供應鏈第一線)
+    # 核心硬體、半導體與科技權威媒體
     "the verge", "techcrunch", "tom's hardware", "wccftech", "ars technica", "anandtech", "semiengineering"
 ]
 
@@ -59,17 +61,14 @@ COMMON_WORD_TICKERS = {
     "REAL", "TRUE", "KEY", "KEYS", "FORM", "POST", "NET", "PLUG", "SO"
 }
 
-# 2. 精準排除黑名單：精確鎖定「股東律師集體訴訟」與「公關軟文」，絕不誤殺廠商間的專利授權戰與政府反壟斷
+# 2. 精準排除黑名單：精確封鎖「股東集體訴訟」與「公關軟文」，絕不誤殺專利授權戰與反壟斷調查
 EXCLUDE_TITLE_PATTERNS = [
-    # 律師吸血廣告特徵詞
     r"\bclass\s+action\b", r"\bshareholder\s+alert\b", r"\breminds\s+investors\b",
     r"\blead\s+plaintiff\b", r"\bloss\s+submission\b", r"\bsecurities\s+fraud\b",
     r"\binvestor\s+rights?\b", r"\blaw\s+offices?\s+of\b", r"\bnotifies\s+shareholders\b",
-    # 專門發垃圾訴訟的知名律所名稱
     r"\brosen\b", r"\bpomerantz\b", r"\bglancy\b", r"\bschall\b",
     r"\bfaruqi\b", r"\bhagens\s+berman\b", r"\blevi\s+&\s+korsinsky\b",
     r"\bbronstein\b", r"\bkaskela\b", r"\bblock\s+&\s+leviton\b",
-    # 行銷軟文與常規會議
     r"\bto\s+report\b", r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
     r"\bconference\s+call\b", r"\binvestor\s+conference\b", r"\bfireside\s+chat\b",
     r"\broadshow\b", r"\bannual\s+meeting\b", r"\bproxy\s+statement\b",
@@ -80,29 +79,25 @@ EXCLUDE_TITLE_PATTERNS = [
     r"\bdonates?\b", r"\bwhitepaper\b", r"\bsurvey\s+finds\b", r"\badds\s+to\s+board\b"
 ]
 
-# 3. 晶片與重大催化劑信號庫 (補足授權、權利金、反壟斷、出口管制等半導體核心詞)
+# 3. 晶片、能源、衛星與重大催化劑信號庫
 SIGNAL_PATTERNS = [
-    # 商業合約與合作
     r"\bcontract\b", r"\border\b", r"\borders\b", r"\bdeal\b", r"\baward\b",
     r"\bagreement\b", r"\bpact\b", r"\bprocurement\b", r"\bsupply\b",
     r"\bpartner(?:ed|ing|ship|s)?\b", r"\bcollaboration\b", r"\balliance\b",
     r"\bjoint\s+venture\b", r"\bto\s+deploy\b", r"\bpackaging\b", r"\bdesign\s+win\b",
-    # 併購、收購與股權投資
     r"\btakeover\b", r"\bacquisition\b", r"\bacquires?\b", r"\bbuyout\b", r"\bbid\b",
     r"\bapproach\w*\b", r"\btalks?\b", r"\bpursues?\b", r"\bweighs?\b", r"\bexplor\w*\b",
     r"\binvest(?:ment|s|ing)?\b", r"\bstake\b", r"\bmerger\b", r"\brestructur\w*\b",
     r"\bsells?\b", r"\bsold\b", r"\bsale\s+of\b", r"\bspinoff\b", r"\bdivest\w*\b",
-    # 晶片、授權、專利與監管戰火
     r"\blicens(?:e|ing|ee)\b", r"\broyalt(?:y|ies)\b", r"\bpatent\b", r"\binfringement\b",
     r"\bantitrust\b", r"\bmonopoly\b", r"\bdoj\b", r"\bftc\b", r"\bprobe\b", r"\bsubpoena\b",
     r"\bexport\s+control\b", r"\bsanction\w*\b", r"\bchips\s+act\b", r"\binjunction\b",
-    # 旗艦產品與技術架構
     r"\blaunches\b", r"\bunveils\b", r"\bintroduces\b", r"\bnext-gen\b",
     r"\barchitecture\b", r"\bprocessor\b", r"\bchipset?\b", r"\bsnapdragon\b", r"\bbreakthrough\b",
-    # 財務、業績與資本稀釋
     r"\bfinancial\s+results\b", r"\braises?\s+guidance\b", r"\blowers?\s+guidance\b",
     r"\bcuts?\s+guidance\b", r"\bbuyback\b", r"\brepurchase\b", r"\bconvertible\b",
-    r"\bpublic\s+offering\b", r"\bat-the-market\b", r"\bchapter\s+11\b", r"\bbankruptcy\b"
+    r"\bpublic\s+offering\b", r"\bat-the-market\b", r"\bchapter\s+11\b", r"\bbankruptcy\b",
+    r"\bsmr\b", r"\breactor\b", r"\bpower\s+deal\b", r"\bdebt-funded\b"
 ]
 
 GENERIC_FIRST_WORDS = {
@@ -120,7 +115,6 @@ STOP_WORDS = {
 
 # ==================== 工具函式 ====================
 def clean_company_name(raw_name):
-    # 徹底清除 /DE, /MD 等 SEC 註冊州名標籤與常見組織後綴
     name = re.sub(r"/(?:DE|MD|ADR|CA|NY|NV|VA|PA|OH|TX)/?", "", raw_name, flags=re.IGNORECASE)
     cleaned = re.sub(
         r",?\s*(INC|CORP|LTD|HOLDINGS|CO|PLC|LLC|AG|SE|SA|NV|GMBH|TECHNOLOGIES|CORP\s*/DE)\.?$", 
@@ -134,7 +128,6 @@ def clean_company_name(raw_name):
 def preload_sec_company_names():
     global COMPANY_NAME_CACHE
     url = "https://www.sec.gov/files/company_tickers.json"
-    loaded = 0
     try:
         res = requests.get(url, headers=SEC_HEADERS, timeout=10)
         if res.status_code == 200:
@@ -142,12 +135,10 @@ def preload_sec_company_names():
                 t = item["ticker"].upper()
                 raw_title = item.get("title", "")
                 COMPANY_NAME_CACHE[t] = clean_company_name(raw_title)
-            loaded = len(COMPANY_NAME_CACHE)
-            print(f"✅ 成功自 SEC 即時載入 {loaded} 檔官方公司全名！", flush=True)
+            print(f"✅ 成功自 SEC 載入 {len(COMPANY_NAME_CACHE)} 檔公司名單", flush=True)
     except Exception as e:
-        print(f"⚠️ SEC 官方名冊獲取受限 (原因: {e})，啟動本地備援字典...", flush=True)
+        print(f"⚠️ SEC 官方名冊獲取受限 ({e})，使用本地備援名冊", flush=True)
 
-    # 用本地核心字典填補，確保 QCOM、NVDA、AAPL 等絕不漏失
     for t, name in CORE_FALLBACK_NAMES.items():
         if t not in COMPANY_NAME_CACHE:
             COMPANY_NAME_CACHE[t] = name
@@ -242,7 +233,6 @@ def is_trusted_source(source_name):
 
 
 def is_within_36_hours(pub_date_raw):
-    """寬限至 36 小時，防禦美東週五盤後外電在週一或週末排程被直接判死"""
     if not pub_date_raw or not pub_date_raw.strip():
         return False
     try:
@@ -297,7 +287,7 @@ def should_skip_for_weekend_throttle():
             elapsed_hours = (time.time() - last_run_ts) / 3600
             if elapsed_hours < 8.0:
                 remaining_hours = 8.0 - elapsed_hours
-                print(f"⏳ [週末節流] 距上次掃描僅過 {elapsed_hours:.1f} 小時，尚需冷卻 {remaining_hours:.1f} 小時，跳過。", flush=True)
+                print(f"⏳ [週末節流] 距上次掃描僅 {elapsed_hours:.1f} 小時，尚需冷卻 {remaining_hours:.1f} 小時，跳過。", flush=True)
                 return True
         except Exception:
             pass
@@ -364,7 +354,7 @@ def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub
                 {"name": "🏷️ 交易性質", "value": f"`{cfg['desc']}`", "inline": True},
                 {"name": "📡 來源管道", "value": f"`{source_name}`", "inline": False},
                 {"name": "📰 標題", "value": title[:200], "inline": False},
-                {"name": "💡 買方核心解讀", "value": safe_summary, "inline": False}
+                {"name": "💡 買方深度解讀", "value": safe_summary, "inline": False}
             ],
             "footer": {"text": f"Market Radar • 推播時間: {now_tw_str}"}
         }]
@@ -377,10 +367,10 @@ def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub
         print(f"      ❌ [Discord 發送失敗] {e}", flush=True)
 
 
-# ==================== AI 審核核心 ====================
+# ==================== AI 深度審核核心 ====================
 def summarize_with_ai(ticker, text):
     if not OPENAI_API_KEY:
-        print("      ❌ [環境變數警告] 未設定 OPENAI_API_KEY，請至 GitHub Secrets 檢查！", flush=True)
+        print("      ❌ [環境變數警告] 未設定 OPENAI_API_KEY！", flush=True)
         return "PASS", "", False
 
     api_url = "https://api.openai.com/v1/chat/completions"
@@ -388,40 +378,38 @@ def summarize_with_ai(ticker, text):
     company_name = COMPANY_NAME_CACHE.get(ticker.upper(), ticker)
 
     prompt = f"""
-你是一位敏銳的美股買方機構研究員。請審核這則新聞是否為【{ticker} - {company_name}】的重大市場衝擊事件：
+你是一位分毫不差的美股資深買方研究員。請對【{ticker} - {company_name}】的這則即時重大消息進行深層穿透式拆解：
+
+【絕對嚴禁之廢話修辭（出現一律視為分析失敗）】：
+嚴禁使用「提升市場地位、增強競爭力、帶來正面影響、後市可期、具戰略意義、有助長遠發展」等空洞公關話術！必須用具體的「金額、年限、技術指標、資產負債代價」說話。
 
 【絕對駁回規則（命中任一條，一律回傳 PASS）】：
-1. 【歷史舊聞回顧】：非當前突發事件，僅為數週前或上一季度的歷史數據回顧。
-2. 【核心主體不符】：新聞核心主角不是【{ticker} / {company_name}】。
-3. 【微小雜訊】：例行小軟體更新、展會普通致詞、律師招募集體訴訟、一般員工例行招聘。
+1. 歷史舊聞：回顧數週前或上一季度的歷史數據，非當前 24-36 小時突發事件。
+2. 主體不符：新聞核心主角不是【{ticker} / {company_name}】。
+3. 雜訊軟文：例行參展、無具體商業條款之純宣傳、律師股東集體訴訟招募。
 
-【符合監控的重大類別】：
-1. 【M&A】重大併購/收購意向：收購提案（如傳聞洽購或正式接觸他廠）、遭外部收購、重大股權投資、資產拆分出售。
-2. 【PRODUCT】旗艦晶片/架構突破：次世代處理器（如 Snapdragon/旗艦 SoC）、架構突破、重大封裝突破。
-3. 【ORDER】商業大單/授權協議：大額採購合約、專利或架構授權協議（Licensing Deal）、戰略生態聯盟、政府補助。
-4. 【CRISIS】利空預警與黑天鵝：架構授權遭終止或訴訟（如 Arm vs Qualcomm）、反壟斷調查（FTC/DOJ）、出口管制制裁、下修財測。
-5. 【DILUTION】資本稀釋融資：發行可轉債、現增、ATM 配售。
-6. 【EARNINGS】業績與指引：即時季度財報公布、調升/調降全年指引、大額庫藏股回購。
-
-【實戰審核指引】：
-新聞快訊若提及重大併購意圖、旗艦晶片架構發表、或授權反壟斷戰火，即便尚未披露具體營收數字，只要對產業格局或估值具實質衝擊，一律判定符合！
+【實質拆解維度要求】：
+1. 【合約與事實】：對手方是誰（如政府、雲端巨頭 AWS、國防部）？交易性質是正式合約還是約束力極弱的備忘錄 (MoU)？有無披露金額或年限？
+2. 【工程與架構】：牽涉的具體產品或架構是什麼（如 SMR 小型模組化反應爐、800G 光模組、低軌衛星遙測、高階 PCB 等）？
+3. 【財務與利弊】：是實質挹注現金流，還是屬於高風險的舉債收購 (Debt-funded)、稀釋股本融資或面臨反壟斷監管審查？
 
 【輸出格式要求】：
 若不符合，只回傳單字：PASS
-若符合，嚴格回傳以下純 JSON 物件，嚴禁包含任何其他文字：
+若符合，嚴格回傳以下純 JSON 物件（繁體中文，內容務求直擊本質，每項 50-80 字，嚴禁多餘包裝）：
 {{
   "type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS",
-  "action": "具體動作、涉及對手或產品名稱（繁體中文，40 字以內）",
-  "impact": "對 {ticker} 之戰略地位、晶片競爭力或市場估值之實質影響（繁體中文，40 字以內）"
+  "fact": "交易對手、合約性質（正式合約/MoU）、金額時程與關鍵產品型號",
+  "tech_angle": "背後的底層硬體、物理規格或工程架構本質",
+  "financial_impact": "對毛利率、資產負債表（如舉債/稀釋）或營收認列之實質利弊分析"
 }}
 
-新聞快訊：
-{text[:4000]}
+新聞快訊內容：
+{text[:4500]}
 """
     payload = {
         "model": "gpt-4o-mini",
         "messages": [
-            {"role": "system", "content": "你是一位嚴謹的買方研究員，嚴格輸出指定 JSON 鍵值，嚴禁添加任何多餘字句。"},
+            {"role": "system", "content": "你是一位硬核的買方機構研究員，只講物理工程事實與實質財務利弊，嚴禁任何公關吹捧廢話，輸出嚴格 JSON。"},
             {"role": "user", "content": prompt}
         ],
         "temperature": 0.1
@@ -446,13 +434,18 @@ def summarize_with_ai(ticker, text):
 
             parsed = json.loads(json_match.group(0))
             event_type = parsed.get("type", "ORDER")
-            action = parsed.get("action", "").strip()
-            impact = parsed.get("impact", "").strip()
+            fact = parsed.get("fact", "").strip()
+            tech = parsed.get("tech_angle", "").strip()
+            fin = parsed.get("financial_impact", "").strip()
             
-            if not action or not impact:
+            if not fact or not fin:
                 return "PASS", "", True
                 
-            formatted_summary = f"• 【核心要點】：{action}\n• 【戰略影響】：{impact}"
+            formatted_summary = (
+                f"• **【合約與事實】**：{fact}\n"
+                f"• **【工程與架構】**：{tech}\n"
+                f"• **【財務與利弊】**：{fin}"
+            )
             return event_type, formatted_summary, True
         except Exception as e:
             print(f"      ⚠️ [連線重試 {attempt+1}/3] {e}", flush=True)
@@ -465,7 +458,6 @@ def summarize_with_ai(ticker, text):
 def fetch_google_wire_news(ticker):
     company_name = COMPANY_NAME_CACHE.get(ticker.upper())
     
-    # 雙軌搜尋：外電常用公司名（如 Qualcomm），財經短訊常用 $QCOM
     if company_name and company_name.upper() != ticker.upper() and len(company_name) >= 3:
         search_target = f'"{company_name}" OR "{ticker}" OR "${ticker}"'
     else:
@@ -553,13 +545,13 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 6. 黑名單過濾 (僅排除吸血訴訟與公關文)
+        # 6. 黑名單過濾
         if is_junk_title(clean_title):
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 7. 實質信號過濾 (標題或內文摘要命中任一核心特徵詞即可放行)
+        # 7. 實質信號過濾
         title_has_signal = has_high_impact_signal(clean_title)
         snippet_has_signal = has_high_impact_signal(item['snippet'])
 
@@ -622,7 +614,6 @@ def main():
     for idx, ticker in enumerate(tickers, start=1):
         print(f"[{idx:03d}/{total_count:03d}] 檢索標的：{ticker:5s} ... ", end="", flush=True)
         check_and_process_ticker(ticker, sent_fingerprints, history_records)
-        # 節流防護：每次請求間隔調降為 0.6 秒，保護 Google RSS 額度
         time.sleep(0.6)
 
     print("==========================================", flush=True)
