@@ -1149,3 +1149,78 @@ de87f120c1eff5da5d92a0f3ab3ac86b|||INTC|||Why Is Intel Stock Falling on Wednesda
 2e5d44ae70442120a7c36233a88548a4|||SNOW|||Oracle Drops 6% as Selloff Runs Ahead of the Cloud Group; Snowflake Slips, CoreWeave Barely Budges
 9afd55543d5017505e56cb93c7d683ca|||OKTA|||Guggenheim raises Okta stock price target on AI security momentum By Investing.com
 48dfbcafdc338cd9ecce1cbb44cc1262|||IONQ|||Why is IonQ stock surging today?
+9cca8e48804d8fcf2da84c6af0207306|||MSFT|||Goldman Sachs doubles down on Microsoft stock
+5d9ef47232aa3dc00642aa07aeec8fd1|||QCOM|||Qualcomm vs. Marvell: Which Underdog AI Chip Stock Has More Upside From Here?
+499c8850926c3adb7c715648eb7e97d6|||QCOM|||Qualcomm Takes AI To The Edge With New Mobile Chips
+da91f02e942266e1c8d31f9e648f93cd|||QCOM|||How Qualcomm is targeting agentic AI with its 2 new smartphone chips
+273e8f8d9b9b32b1238c9b0f5ff51984|||META|||Meta Debuts Dedicated ‘Charm’ Device for Using Muse AI
+3a47fe9b6a5e4263fb51acc83c94c17c|||META|||Why Meta Stock Won’t Care If New Muse AI Gadget Flops
+d635d68d4cbe1ea0250ca13b3e3ca2a5|||META|||Mark Zuckerberg debuts $1,299 Meta VR Glasses and Muse Charm pendant as part of AI agent push
+73fbd7d850e7c3d3cf84c108fd7c93d3|||META|||Meta's Charm gadget carries CEO Zuckerberg's big AI ambitions
+554daad16c543ca3add0de72a9e60897|||META|||Veteran Analyst Resets Meta Stock Price Target For 2027
+2f58302a20f8314376518bae8ef46090|||META|||Meta’s Muse AI Charms can interact with each other
+08059b6de7e371725ed5530970d23c95|||META|||Meta wants to put its Muse AI assistant on your face — but will consumers buy in?
+c6252f8c10f5a677e1aed8fcaf546acd|||META|||Meta's Muse agent has the potential to dominate the AI space, says JPMorgan
+1a3bb3c9665504c3585fb7d77ee4e1ed|||META|||Meta's Zuckerberg says Muse AI agent will take a small fee from transactions
+801f5d17ecd4f2ca5949ae8d43666338|||META|||Everything new coming to Meta’s AI agent Muse
+d587c24deca4751b9b57a57aa725a320|||META|||What Mark Zuckerberg needs to answer about Meta Glasses, Muse, and teen safety
+d08c74de65c0d79173a2e416f959e049|||META|||Meta CEO Mark Zuckerberg Reveals Muse AI Agent Will Take a ‘Fee From Transactions’ It Makes
+04a759a8745be801dad9e0df63ba2149|||META|||Meta Debuts $349 Camera-Free Ray-Bans and Brings Muse to Glasses
+e591afac427ed4fd1684c31e83ad57f6|||META|||Meta made a Tamagotchi-like wearable for its Muse AI agent
+55d5bc9060362a7b826dcecc11bbfeb0|||TSM|||Taiwan Semiconductor (TSM): The Key Enabler of AI Chips and a Durable Long-Term Share Gainer
+65d952424ae66515075004c16fb2ff5f|||NVDA|||Nvidia-Backed Firmus Grid Just Made a $7 Billion IPO Move
+109ec7b93fda9d3b0cc6bca0c3478698|||NVDA|||Nvidia Stock Falls. It Has a Google AI Chip Conundrum.
+4e54f425bb0c931e1ea0952baf1cc932|||NVDA|||Nvidia Is Backing This AI IPO Candidate. It Lost $1 Billion in Just 6 Months
+b530fe33e7fbb4e967d5591765ec9062|||ALAB|||Astera Labs Inc. R (64B.MU) stock price, news, quote and history - Yahoo Finance
+6115a16d7ac14b6edb4f98c830c2f0b8|||MU|||What's Going On With Micron Technology Stock Thursday? - Micron Technology (NASDAQ:MU)
+92192431bcc0260d72d51aca27d6f028|||MU|||Micron: Signs Of A Rebellion In The Memory Market (NASDAQ:MU)
+afe6016dd7c77f9c2889387858ffa23c|||MU|||Is Micron a Value Stock? Why a Value ETF Holds 23% In MU - Micron Technology (NASDAQ:MU)
+7967d7239013d17704bad89f5d57bfab|||SNDK|||Sandisk: Market Is Still Undervaluing The AI Supercycle Upside (NASDAQ:SNDK)
+acac732a95f22612a8a7828b65d671e5|||SNDK|||Micron vs. Sandisk: Which AI Memory Stock Has More Room to Run?
+046c00621f0f9d8cf50370d5d0d28302|||WDC|||What's Going On With Western Digital Stock Thursday?
+9d74a32a2f3c47484108ea79d2b3177b|||ASX|||Why South32 (ASX:S32) Is Getting Attention Today
+37a3ecc85fe7a113dcdea97342b79ab0|||AEHR|||Aehr Test Systems: A Real Tension Between AI-Related Growth And Valuation (NASDAQ:AEHR)
+c6ac69a98e30dee879ba275db1ab457a|||VIAV|||Viavi Solutions Inc. (VIAV) stock price, news, quote and history
+290a68a4a5d56b1fb974bce63726e7fa|||VIAV|||Form 144 VIAVI SOLUTIONS INC. For: 23 September
+26428719cd450f7a8b0a864d9eb8d088|||VUZI|||Vuzix Broadens Enterprise Smart Glasses Distribution Across Australia, New Zealand and the Pacific Markets Through CommsPlus
+34d28ccef8660998fdd8988e3ad81bbe|||TWLO|||Why the Market Dipped But Twilio (TWLO) Gained Today
+cf96b845b18a1824c991dd92379bea0f|||BB|||BlackBerry Limited Q2 2027 Earnings Call Summary
+4a6995bf4442073d38e17c2037ecb16a|||BB|||BlackBerry Reports Second Quarter Fiscal Year 2027 Results
+42d2a037fb8b16cdf0f2714b0dcb732b|||BB|||BlackBerry Q2 FY27 slides: QNX hits record, Alloy Kore wins big
+a842b2e3f4bd51060ecf1efadee2e028|||BB|||BlackBerry earnings up next: Can QNX win translate to growth?
+0b0c07f1038e1cb3a27a9aad77b66bca|||NVTS|||Navitas Semiconductor Corporation (7J70.F) Company Profile & Facts - Yahoo Finance
+02d95d11f8b76999636f4990369a7cec|||DDOG|||Datadog, Inc. (DDOG) Stock Forecasts
+5bbb3f601590a9e7a38ab0a59b348694|||CRWV|||CoreWeave Just Scored Another Big AI Win
+fee31a385b87d14d5d94b929664c0ed2|||CRWV|||Why CoreWeave’s beaten-down stock could be due for a major comeback
+cb16f73dc9f9825a7a8d144feea20903|||CRWV|||CoreWeave Stock Trends Higher Today: What's Happening?
+5bfcd8a51e5607d4352e74b614d41ef8|||CRWV|||Harell Data Selects CoreWeave to Power Its Secure Platform for AI Model Training
+ba0e18e7596b9460853a66979d3e1869|||CRWV|||Why is CoreWeave stock climbing today? By Investing.com
+25d9d781dc196b73c64427fb3f86c38e|||PANW|||What's Going On with Palo Alto Networks Stock Thursday?
+f881276fe978c044274ffa67a5bd6f04|||PANW|||Why Palo Alto Networks (PANW) Stock Is Trading Up Today
+83147b8b6c846f001f1e190932092ed5|||PANW|||Palo Alto Networks Surges 3%, What's Going On?
+13f27b3ddfec8db9793e278f438f0666|||PANW|||Palo Alto Networks, Inc. (PANW) Stock Forecasts
+4a85623105bf7d87d95349b8dd3c255c|||OKTA|||Does Okta (OKTA) Stock Look Pricey After AI Security Updates?
+89004fba9f1fd531c2e90e13062606a2|||OKTA|||RBC Capital raises Okta stock price target on AI security growth
+ddcc7dcfff19f0a31dc695fc86bf33a0|||OKTA|||OKTA Stock Pulls Back From 4-Year High Despite Three Price Target Hikes: Jefferies Sees ‘More Pronounced’ Growth By 2027
+32af951878fc3c0010ff6abb8c1f5812|||OKTA|||Okta Sees AI Agent Identity Market Outgrowing Traditional IAM at Oktane 2026
+b31a79cbd55776d427376b42902242c6|||OKTA|||Okta CEO Todd McKinnon on new tools for managing AI agents: We want innovation and security
+900713c52d8ada75d11669df9f15138a|||OKTA|||TD Cowen raises Okta stock price target to $200 on AI products
+e410d11a9b7a55846d76cab0c1c84527|||OKTA|||Okta at Oktane call 2026 investor summit: betting on agentic AI By Investing.com
+fd45bf5e38a5f81649840ae058f5a3d5|||NET|||Cloudflare, Inc. Class A Common Stock (Derivatives) USD Price (NET41771-USD)
+71d17ae76d2d80a76c650debd0d00863|||LITE|||Lumentum Holdings Inc. (LITE) Stock Forecasts
+dc56e48ec34a6308ad617cab9ffc72a4|||SPCX|||SPCX Sep 2026 65.000 call (SPCX260925C00065000) stock price, news, quote and history
+a7d5861eb161d598a5d15a7cf7de1e86|||SPCX|||SPCX Oct 2026 126.000 put (SPCX261002P00126000) stock price, news, quote and history
+320d66375f486f5cc0f95d6348a9d133|||VSAT|||ViaSat, Inc. (VSAT) Stock Forecasts
+8b0869dedd5733f5db6bdf32c31d1798|||BE|||Bloom Energy Corporation (BE): A Critical Player in AI Buildout
+ee70cc2d4c30dd1e146734599076945a|||BE|||Bloom Energy Corporation (BE) Stock Forecasts
+8e83f4f60e8d790db03e0bdddde1f432|||FCEL|||FCEL Investors: FuelCell Energy, Inc. Shares Declined By
+e60c710fa2143b677d119836ee68c9f3|||FCEL|||FuelCell Energy Inc. stock falls Wednesday, underperforms market
+dbdc6410e1e2be2cc45c4210a9b67304|||ROK|||Rockwell Automation Announces Executive Leadership Team Role Transitions
+2647028bb7a0d7d7fcf58ec65ea9d2b6|||FEIM|||Frequency Electronics, Inc. (FEIM) Stock Price, News, Quote & History
+4796186d6e8e4a1c64cc0df4881ba2d2|||IONQ|||IonQ (IONQ) Stock Looks Reasonably Priced On Book Value Today
+084b5ab86457fd9832654eaa80410299|||IONQ|||Why IonQ (IONQ) Stock Is Trading Up Today
+5dba5485ba0b6262bfbf719d28d5e08a|||IONQ|||IonQ Sends Strong Signal on Quantum Computing
+5356baf75220d017bfe831ac73debc41|||IONQ|||IonQ Wanted to Be the ‘Nvidia of Quantum.’ Now It’s Powering Nvidia’s Quantum Lab.
+8a1563b4e4258ce9fefa055643d3019a|||IONQ|||IonQ Makes First On-Premise Quantum Deployment At NVIDIA Research Center
+18158a7958f6b618a7d6e365d36e11b0|||IONQ|||IONQ’s Breakthrough Ignites Quantum Computing Stocks
+937d6a8003d09218c62318eb4cdebe4f|||IONQ|||Rigetti Stock Rises as IonQ-NVIDIA Deal Lifts Quantum Computing Sector - Rigetti Computing (NASDAQ:RGTI)
