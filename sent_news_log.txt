@@ -1025,3 +1025,52 @@ b1fb30348306025c038a9699ea54f28a|||VSAT|||Viasat Wins First Task Order Award as 
 8311c84aae002c3380ebb46f10d7f6bd|||GLXY|||Galaxy Digital, Sky Protocol Partner in Lending, Capital Markets
 5c3b17f68dc3655fe8c7ef016564f95e|||PWR|||Bernstein upgrades Quanta Services stock rating on data center labor shift
 910a9dee34a0200ebfd530b2db36ad6b|||FEIM|||Form 4 Frequency Electronics Inc For: 24 September
+f268775175958c28868a8a2f4a41a627|||GOOGL|||Lowe's is launching a drone delivery service in partnership with DoorDash, Alphabet
+e486c73020e4cb51085e53a21fae279e|||MSFT|||Hitachi Solutions achieves the 2026-2027 Microsoft AI Business Solutions Inner Circle award.
+0fbca3d21d7bff252beb6dd6aa200c76|||MSFT|||Microsoft doubles down on investment in the Gulf
+654e8eb5d868e36d780f7b6aaaf08482|||AAPL|||Qualcomm, Apple extend licensing agreement for chips
+61e958c350f51d127cccf697aff64e6a|||AAPL|||Qualcomm Renews Licensing Pact With Apple Starting in 2027
+5172817978f627d8fe3aa90fa75d54ea|||AAPL|||Qualcomm Announces Renewal of Global Patent License Agreement with Apple
+a1a892cc3e8a0139bd5e835e63a6365d|||AAPL|||Qualcomm rises as it renews patent license agreement with Apple (QCOM:NASDAQ)
+239f3728a1ae116ef676f7f8802a122b|||QCOM|||Qualcomm, Apple extend licensing agreement for chips
+3802d04981728e113a2e2e13d5b3eeaf|||QCOM|||Qualcomm Announces Renewal of Global Patent License Agreement with Apple
+df9a195e0a3cd0cf84bba929ad8d0836|||QCOM|||Qualcomm Renews Licensing Pact With Apple Starting in 2027
+7339ce9ccc666737832ffb6fb7696694|||QCOM|||Qualcomm rises as it renews patent license agreement with Apple (QCOM:NASDAQ)
+a4f860a7824d656fff714c5c2ee765f2|||QCOM|||Qualcomm secures long-term Apple patent deal, easing revenue fears
+e9357d32d16208f3d323f7b6e339450e|||QCOM|||Qualcomm to acquire robotics software firm PickNik
+69b7de4a68b73b229f3b24c573fd0867|||META|||Meta Unveils Muse Charm Handheld Device and Expands AI Agent Features
+494a3e32498447460bbceff02a3b3511|||NVDA|||SpaceX and Nvidia Just Deepened Their Compute Alliance. 1 Stock Offers Far Greater Upside Before 2028.
+8ae77256fb8ff997a31eb250dc0b4790|||ASML|||ASML says it sold 'absolutely nothing' in Europe in 2026 — lithography giant calls on EU to help create demand
+d24ceb97cef461a0ced9d7f9338269e7|||SNDK|||Sandisk Dips Premarket on Market Weakness, But Multi-Year AI Storage Outlook Remains Intact
+52dbc8890d8c877894e5ff7c9de50d79|||WDC|||Newegg Business Partners with Western Digital to Help IT Teams Scale Storage for AI-Driven NAS Environments
+985d8acb18862e532cdcda730d666bf8|||CRUS|||Cirrus Logic EVP sells $138,754 in common stock
+dcfb569d7fddb2459bd0228fca0a8b17|||AEHR|||Aehr Test Systems: Momentum Will Push It Up Once Again If Q1 Report Is Solid (NASDAQ:AEHR)
+15a5f77020efd0c2fdc6fa091b23f407|||TWLO|||Twilio (TWLO) Could Be 12% Undervalued On Raised 2026 Growth Outlook
+bf2fc8174efdc8fad89832c84c392f15|||TWLO|||Q2 Earnings Highlights: Twilio (NYSE:TWLO) Vs The Rest Of The Software Development Stocks
+70b0494ed0ee017b4040d4de53b167c2|||BB|||BlackBerry Posts Strong Earnings, Driven by Car Software. The Stock Jumps.
+c0079e09f64c86f3de0b18c3c0b6180f|||BB|||BlackBerry lifts annual revenue forecast on strength in automotive software business
+9a31e45079848dafd6b160419bb58d2e|||BB|||BlackBerry Reports Q2 2027 Results: Full Earnings Call Transcript
+1f41bec84dd8af1112e9daad5b3ccf85|||BB|||Why is BlackBerry stock rallying today?
+10377ce2b06531183a15bad55d3483ff|||BB|||BlackBerry shares gain premarket as Q2 results, guidance beat estimates
+da0e781f0dbb9fc1cbe749fea55191d8|||BB|||BlackBerry (BB) Surpasses Q2 Earnings and Revenue Estimates
+6e3a6b13c457b1e74af81718b58516b7|||BB|||BlackBerry earnings beat by $0.03, revenue topped estimates
+65e952dcd0427b545d5c7f1f3829eecd|||ONDS|||Ondas Acquires 3 Defense Technology Firms for $56 Million
+07c5b72e117d43e2d4d94123bd456513|||WOLF|||Wolf Haldenstein Adler Freeman & Herz LLP reminds investors
+a71c45d0f80bc4cb3924a62faa00f3ae|||NVTS|||Navitas Semiconductor Corp. R (7J70.F) Q4 FY2025 earnings call transcript
+5540c00bbd4642fbebbdc929a45b834e|||DDOG|||Datadog CFO David Obstler sells $3.86 million in stock By Investing.com
+2192aadd60212103171c54f1304f076d|||DDOG|||Form 4 Datadog Inc For: 24 September By Investing.com
+555ba3f1aa558e3cde7df45729ba7838|||SNOW|||Snowflake’s (SNOW) Profit Outlook Strengthens as Product Adoption Accelerates
+9fa47765c11da4f80c4276ca5934a2d5|||PANW|||Palo Alto Networks Reports Q4 2026 Results: Full Earnings Call Transcript
+86879544c113bb5178daf67d74fa9f64|||OKTA|||Guggenheim raises Okta stock price target on AI security momentum
+09b98e27d4d1956e8f6a0c0f710d5919|||OKTA|||BofA raises Okta stock price target on AI agent strategy
+da80450a7faf3abd7eceb00f47c6f367|||OKTA|||Stifel raises Okta stock price target to $215 on AI security push
+40f4396f4b6ef5313f66f77d3f3257f0|||OKTA|||Jefferies raises Okta stock price target on AI agent momentum
+d39ad3389805b3cb754985a22e11b9ff|||OKTA|||Mizuho raises Okta stock price target on agentic AI momentum
+870178f6ba757e8c14b05cddddc5f954|||NET|||Cloudflare director Ledbetter sells $1.76 million in stock By Investing.com
+ea027c63af7df0b27b4a3dda294fa355|||LITE|||Form 4 Lumentum Holdings Inc For: 24 September By Investing.com
+f505f86b1e054971ab193f79f3cd8c58|||RDW|||Redwire lands spot on $980M Space Force contract vehicle (RDW:NYSE)
+ff3864f2a6ec81e458dca959d13469b9|||RDW|||Redwire wins spot on $980M space testing contract
+4da96a1011f0c2b1101493c7f19e0a1e|||CIFR|||Cipher Digital (CIFR) Stock Looks Above Fair Value On Sales
+f6dfdbdeb3ff974ff3cc166eb6861bb5|||UUUU|||Clean Energy Fuels sells $30.7m in federal tax credits By Investing.com
+874a2ee4f75f461b2dc71f7be6b3d451|||ROK|||Rockwell Automation announces leadership changes effective Oct. 1
+f11e62d57f30fea6f42a290b9bfad9eb|||PENG|||Penguin Solutions Is Heating Up, But It's Still Down 30% From Its All-Time High. Here's What Investors Should Know Before It Reports Earnings in Early October.
