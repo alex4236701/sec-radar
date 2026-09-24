@@ -62,17 +62,45 @@ COMMON_WORD_TICKERS = {
     "REAL", "TRUE", "KEY", "KEYS", "FORM", "POST", "NET", "PLUG", "SO", "PL", "MP", "HON"
 }
 
-# 2. 精準排除黑名單：精確鎖定「律師集體訴訟招募」與「例行公關軟文」，絕不誤殺專利授權戰與反壟斷調查
+# 2. 精準排除黑名單：徹底阻絕「點擊農場文」、「盤面漲跌隨筆」、「集體訴訟」與「公關灌水」
 EXCLUDE_TITLE_PATTERNS = [
+    # --- 律師訴訟招募與股東大會 ---
     r"\bclass\s+action\b", r"\bshareholder\s+alert\b", r"\breminds\s+investors\b",
     r"\blead\s+plaintiff\b", r"\bloss\s+submission\b", r"\bsecurities\s+fraud\b",
     r"\binvestor\s+rights?\b", r"\blaw\s+offices?\s+of\b", r"\bnotifies\s+shareholders\b",
     r"\brosen\b", r"\bpomerantz\b", r"\bglancy\b", r"\bschall\b",
     r"\bfaruqi\b", r"\bhagens\s+berman\b", r"\blevi\s+&\s+korsinsky\b",
     r"\bbronstein\b", r"\bkaskela\b", r"\bblock\s+&\s+leviton\b",
+
+    # --- Zacks / Motley Fool 財經農場文與模板套話 ---
+    r"\bzacks\b", r"\bmotley\s+fool\b",
+    r"\b(?:up|down|gains?|drops?|falls?|slips?|surges?|climbs?|plunges?)\s+\d+(?:\.\d+)?%\s+since\s+(?:(?:its|the|last)\s+)*earnings\b",
+    r"\b(?:can|will)\s+(?:the\s+[\w\s]+\s+)?continue\b",
+    r"\bahead\s+of\s+(?:its\s+)?earnings\b",
+    r"\bbefore\s+(?:its\s+)?earnings\b",
+    r"\bwhat\s+to\s+expect\s+(?:from|for)\s+earnings\b",
+    r"\bearnings\s+(?:preview|whisper|scorecard|recap)\b",
+    r"\bwhy\s+(?:is|did|are)\s+[\w\s]+\s+(?:up|down|falling|dropping|rising|surging|sliding|moving)\b",
+    r"\bhere'?s\s+why\b",
+    r"\bshould\s+you\s+(?:buy|sell|hold)\b",
+    r"\bis\s+[\w\s]+\s+(?:a\s+)?(?:good\s+)?(?:buy|sell|hold|bargain)\b",
+    r"\bwhat(?:'?s|\s+is)\s+next\s+for\b",
+    r"\bbetter\s+buy\b",
+    r"\b3\s+reasons\b",
+
+    # --- 盤中常規行情走勢、漲跌幅與獲利了結隨筆 ---
+    r"\bprofit[\s-]taking\b",
+    r"\bytd\s+(?:run|gain|drop|loss|rally)\b",
+    r"\b(?:stock|shares?)\s+(?:drops?|falls?|slips?|surges?|climbs?|rises?|slides?|tumbles?|down|up)\s+\d+(?:\.\d+)?%\b",
+    r"\b(?:drops?|falls?|slips?|surges?|climbs?|rises?|slides?|tumbles?|down|up)\s+(?:by\s+)?\d+(?:\.\d+)?%\s+(?:as|after|amid|on|following|today|premarket|in\s+premarket|in\s+after[\s-]hours)\b",
+    r"\bshares\s+(?:fall|drop|slip|slide|surge|jump|tumble)\b",
+
+    # --- 例行會議、電話會排程 ---
     r"\bto\s+report\b", r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
     r"\bconference\s+call\b", r"\binvestor\s+conference\b", r"\bfireside\s+chat\b",
     r"\broadshow\b", r"\bannual\s+meeting\b", r"\bproxy\s+statement\b",
+
+    # --- 行業研報、評選獲獎與公關軟文 ---
     r"\bmarket\s+size\b", r"\bmarket\s+share\b", r"\bcagr\b", r"\bmarket\s+research\b",
     r"\bforecast\s+to\s+20\d\d\b", r"\btop\s+players\b", r"\bindustry\s+report\b",
     r"\bnamed\s+(a\s+)?winner\b", r"\bwins?\s+award\b", r"\bgreat\s+place\s+to\s+work\b",
@@ -80,32 +108,42 @@ EXCLUDE_TITLE_PATTERNS = [
     r"\bdonates?\b", r"\bwhitepaper\b", r"\bsurvey\s+finds\b", r"\badds\s+to\s+board\b"
 ]
 
-# 3. 催化劑信號庫 (補齊財報、營收、獲利、晶片架構與大單詞彙)
+# 3. 催化劑信號庫 (收緊單字匹配，杜絕 in order to 或 profit-taking 濫觴)
 SIGNAL_PATTERNS = [
     # 財報、營收與業績指引
-    r"\bearnings\b", r"\brevenue\b", r"\beps\b", r"\bquarterly\b", r"\bfinancial\s+results\b",
-    r"\braises?\s+guidance\b", r"\blowers?\s+guidance\b", r"\bcuts?\s+guidance\b", r"\bguidance\b",
-    r"\boutlook\b", r"\bprofit\b", r"\bsales\b", r"\bq[1-4]\b", r"\bbuyback\b", r"\brepurchase\b",
-    # 商業合約與客戶大單
-    r"\bcontract\b", r"\border\b", r"\borders\b", r"\bdeal\b", r"\baward\b",
-    r"\bagreement\b", r"\bpact\b", r"\bprocurement\b", r"\bsupply\b",
-    r"\bpartner(?:ed|ing|ship|s)?\b", r"\bcollaboration\b", r"\balliance\b",
-    r"\bjoint\s+venture\b", r"\bto\s+deploy\b", r"\bpackaging\b", r"\bdesign\s+win\b",
+    r"\bearnings\s+results\b", r"\breports?\s+(?:first|second|third|fourth|q[1-4]|full[\s-]year)?\s*(?:quarter\s+)?results\b",
+    r"\brevenue\b", r"\beps\b", r"\bquarterly\s+results\b", r"\bfinancial\s+results\b",
+    r"\braises?\s+guidance\b", r"\blowers?\s+guidance\b", r"\bcuts?\s+guidance\b",
+    r"\bannual\s+guidance\b", r"\bquarterly\s+guidance\b",
+    r"\bq[1-4]\s+results\b", r"\bbuyback\b", r"\brepurchase\s+program\b",
+    
+    # 商業合約與客戶大單 (綁定動態動詞，杜絕 in order to)
+    r"\bawarded\s+(?:a\s+)?contract\b", r"\bsigns?\s+(?:a\s+)?contract\b", r"\bsecures?\s+(?:a\s+)?contract\b",
+    r"\bpurchase\s+order\b", r"\breceives?\s+(?:an?\s+)?order\b",
+    r"\b(?:inks?|strikes?|signs?|seals?)\s+(?:a\s+)?(?:deal|pact|agreement)\b",
+    r"\bmulti[\s-]year\s+agreement\b", r"\bprocurement\s+contract\b", r"\bsupply\s+agreement\b",
+    r"\bpartner(?:ed|ing|ship|s)?\s+with\b", r"\bcollaboration\s+agreement\b",
+    r"\bjoint\s+venture\b", r"\bto\s+deploy\b", r"\bdesign\s+win\b",
+    
     # 併購、收購與重組
-    r"\btakeover\b", r"\bacquisition\b", r"\bacquires?\b", r"\bbuyout\b", r"\bbid\b",
-    r"\bapproach\w*\b", r"\btalks?\b", r"\bpursues?\b", r"\bweighs?\b", r"\bexplor\w*\b",
-    r"\binvest(?:ment|s|ing)?\b", r"\bstake\b", r"\bmerger\b", r"\brestructur\w*\b",
-    r"\bsells?\b", r"\bsold\b", r"\bsale\s+of\b", r"\bspinoff\b", r"\bdivest\w*\b",
+    r"\btakeover\b", r"\bacquisition\b", r"\bacquires?\b", r"\bbuyout\b",
+    r"\bin\s+talks\s+to\s+(?:acquire|buy)\b", r"\bexplor\w*\s+sale\b",
+    r"\bstrategic\s+investment\b", r"\bmerger\b", r"\brestructur\w*\b",
+    r"\bsale\s+of\b", r"\bspinoff\b", r"\bdivest\w*\b",
+    
     # 專利、授權與反壟斷監管戰火
-    r"\blicens(?:e|ing|ee)\b", r"\broyalt(?:y|ies)\b", r"\bpatent\b", r"\binfringement\b",
-    r"\bantitrust\b", r"\bmonopoly\b", r"\bdoj\b", r"\bftc\b", r"\bprobe\b", r"\bsubpoena\b",
-    r"\bexport\s+control\b", r"\bsanction\w*\b", r"\bchips\s+act\b", r"\binjunction\b",
+    r"\blicensing\s+agreement\b", r"\broyalt(?:y|ies)\b", r"\bpatent\s+infringement\b",
+    r"\bantitrust\b", r"\bdoj\s+probe\b", r"\bftc\s+probe\b", r"\bsubpoena\b",
+    r"\bexport\s+control\b", r"\bsanction\w*\b", r"\bchips\s+act\s+award\b", r"\binjunction\b",
+    
     # 旗艦產品、晶片與能源技術
     r"\blaunches\b", r"\bunveils\b", r"\bintroduces\b", r"\bnext-gen\b",
-    r"\barchitecture\b", r"\bprocessor\b", r"\bchipset?\b", r"\bsnapdragon\b", r"\bbreakthrough\b",
-    r"\bsmr\b", r"\breactor\b", r"\bpower\s+deal\b", r"\bdebt-funded\b",
+    r"\barchitecture\b", r"\bprocessor\b", r"\bchipset?\b", r"\bsnapdragon\b",
+    r"\bsmr\s+deployment\b", r"\bnuclear\s+reactor\b", r"\bpower\s+purchase\s+agreement\b",
+    
     # 資本稀釋與信用事件
-    r"\bconvertible\b", r"\bpublic\s+offering\b", r"\bat-the-market\b", r"\bchapter\s+11\b", r"\bbankruptcy\b"
+    r"\bconvertible\s+notes\b", r"\bpublic\s+offering\b", r"\bat-the-market\s+offering\b",
+    r"\bchapter\s+11\b", r"\bbankruptcy\b"
 ]
 
 GENERIC_FIRST_WORDS = {
@@ -117,7 +155,7 @@ STOP_WORDS = {
     "a", "an", "the", "and", "or", "but", "about", "above", "after", "along",
     "at", "by", "for", "from", "in", "into", "of", "to", "with", "on", "its",
     "as", "stock", "shares", "tumbles", "jumps", "falls", "rises", "plunges",
-    "by", "through", "announces", "announced"
+    "through", "announces", "announced"
 }
 
 
@@ -197,7 +235,7 @@ def extract_core_words(title):
 
 
 def is_duplicate_news(ticker, new_title, history_records):
-    """改採純 Jaccard 語意相似度，徹底廢除固定 3 字誤殺機制"""
+    """採 Jaccard 語意相似度檢驗"""
     new_words = extract_core_words(new_title)
     if not new_words:
         return False
@@ -214,7 +252,6 @@ def is_duplicate_news(ticker, new_title, history_records):
         union = new_words | old_words
         similarity = len(intersection) / len(union) if union else 0
 
-        # 相似度超過 55% 且核心特徵詞高度一致才視為同事件轉載
         if similarity >= 0.55:
             return True
 
@@ -400,9 +437,14 @@ def summarize_with_ai(ticker, text):
 2. 嚴禁使用「提升市場地位、增強競爭力、帶來正面影響、後市可期、具戰略意義」等空洞公關廢話。
 
 【絕對駁回規則（命中任一條，一律回傳 PASS）】：
-1. 歷史舊聞：回顧數週前或上一季度的歷史數據。
-2. 主體不符：新聞核心主角不是【{ticker} / {company_name}】。
-3. 雜訊軟文：例行參展、無具體條款之公關宣傳、律師股東集體訴訟招募。
+1. 歷史舊聞與走勢回顧：凡是回顧數週前、上一季度財報表現（如「Since last earnings report」、「Ahead of earnings」），或單純分析過去股價漲跌幅，一律回傳 PASS。
+2. 盤面行情走勢與獲利了結：純粹描述股價下跌幾趴、上漲幾趴、獲利了結 (Profit taking)、大盤或板塊連帶回檔，或分析師主觀猜測「能否持續」，一律回傳 PASS。
+3. 雜訊軟文與買賣建議：Motley Fool/Zacks 類型的「該買入嗎？」、「3 隻值得買的股票」、例行參展、無具體條款之公關宣傳、律師股東集體訴訟招募，一律回傳 PASS。
+4. 主體不符：新聞核心主角不是【{ticker} / {company_name}】。
+
+【分類嚴格防禦守則】：
+- 嚴禁濫用 CRISIS：常規盤中股價下跌（如跌 3%、跌 5%）絕非黑天鵝！只有遭司法部/SEC 調查、反壟斷起訴、專利強制禁令、正式聲請破產或官方公告下修年度指引，方可歸類為 CRISIS。
+- 嚴禁濫用 EARNINGS：必須是「今日/昨日最新公布」之官方季度財報、正式法說指引更新或庫藏股，任何「Since Last Earnings」的回顧文章一律回傳 PASS。
 
 【撰寫口吻與維度要求（請像真人朋友在聊天，順暢自然講重點）】：
 1. 【繁中標題】：將原英文標題精準翻譯為繁體中文（保留型號與代號）。
@@ -454,7 +496,7 @@ def summarize_with_ai(ticker, text):
             impact = parsed.get("impact", "").strip()
             
             if not action or not impact:
-                return "PASS", "", True
+                return "PASS", "", "", True
                 
             formatted_summary = (
                 f"• **【核心要點】**：{action}\n"
@@ -466,12 +508,12 @@ def summarize_with_ai(ticker, text):
             
     return "PASS", "", "", False
 
+
 # ==================== 稿件檢索與巡檢邏輯 ====================
 def fetch_google_wire_news(ticker):
     company_name = COMPANY_NAME_CACHE.get(ticker.upper())
     is_common = ticker.upper() in COMMON_WORD_TICKERS
 
-    # 針對 ARM, BE, CAT 等常用詞代號，嚴禁單獨搜純英文字母，必須加 $ 或用全名
     if is_common:
         if company_name and len(company_name) >= 3:
             search_target = f'"{company_name}" OR "${ticker}"'
@@ -483,7 +525,6 @@ def fetch_google_wire_news(ticker):
         else:
             search_target = f'"{ticker}" OR "${ticker}"'
 
-    # 強制鎖定在 48 小時內 (when:2d)，確保 Google 回傳最新消息，而非數月前舊聞
     query = f"{search_target} when:2d"
     encoded_query = urllib.parse.quote(query)
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
@@ -561,19 +602,19 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
         if fingerprint in sent_fingerprints:
             continue
 
-        # 5. 語意去重 (修復版：不再粗暴以 3 字相同為由誤殺)
+        # 5. 語意去重
         if is_duplicate_news(ticker, clean_title, history_records):
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 6. 黑名單過濾
+        # 6. 黑名單過濾 (第一道鐵壁：全面清除 Zacks、農場問句與常規行情漲跌隨筆)
         if is_junk_title(clean_title):
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 7. 實質信號過濾 (涵蓋財報、營收、併購、大單與晶片架構)
+        # 7. 實質信號過濾 (第二道鐵壁：嚴格驗證實質合約與動能詞)
         title_has_signal = has_high_impact_signal(clean_title)
         snippet_has_signal = has_high_impact_signal(item['snippet'])
 
