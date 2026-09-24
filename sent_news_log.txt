@@ -1224,3 +1224,44 @@ dbdc6410e1e2be2cc45c4210a9b67304|||ROK|||Rockwell Automation Announces Executive
 8a1563b4e4258ce9fefa055643d3019a|||IONQ|||IonQ Makes First On-Premise Quantum Deployment At NVIDIA Research Center
 18158a7958f6b618a7d6e365d36e11b0|||IONQ|||IONQ’s Breakthrough Ignites Quantum Computing Stocks
 937d6a8003d09218c62318eb4cdebe4f|||IONQ|||Rigetti Stock Rises as IonQ-NVIDIA Deal Lifts Quantum Computing Sector - Rigetti Computing (NASDAQ:RGTI)
+776a09c60d4644e33564a6c7ad674c99|||QCOM|||Can QCOM's Snapdragon Sound Elite Gen 2 for AI Wearables Drive Growth?
+abdb7ab47cd00c71d5120ef050269df1|||META|||Meta Rises 3% as Its Month-Long Run Extends on Muse Buzz; Reddit Nudges Higher
+1fca9aa352b995483eb74ae43bfff61d|||META|||Meta bets big on wearable AI, new AI agent as Zuckerberg pushes back against AI doom
+59625cf81e58d01a46e87441cac6aa02|||META|||Zuckerberg’s ‘Tamagotchi-Like’ AI Could Be Meta’s iPod Moment
+a23a40346c915a9ce2dfd11806e1d2f6|||META|||It’s sinister that Meta’s Muse AI mascot is so cute
+ae17e1ee8ca171df8635e1526da62270|||META|||Why Some Traders Are Ditching Meta for Cleaner AI Plays
+3a7ddcbbee0c7dd7041609f1c3e9d3f1|||META|||Meta CEO Mark Zuckerberg lays out AI vision
+f17b8ea334f08dca04ebf57b969bf795|||META|||First look at Meta's new VR glasses
+6e531581f5640dd74681496e69d5f420|||META|||Meta Muse's E-Commerce Adoption Remains Uncertain, Wedbush Says
+c0b34ae1073f12516a1864a5c5cfe981|||INTC|||Intel Shares Rise as Agentic AI Keeps CPUs in the Loop
+73ee4044e1639ab42b5dc417d6f88977|||ALAB|||Astera Labs, Inc. (ALAB) stock price, news, quote and history - Yahoo Finance
+b197b2bc6ac92cb837f14ce12c130e47|||MU|||Micron Is Winning By Losing The HBM Race (NASDAQ:MU)
+36cbc08358e2e00205c613ea09954ddb|||AEHR|||Aehr Test Systems: Strong Growth Potential, But The Valuation Demands Execution
+ecb8899350b0f752f08957e98ae17cfb|||VIAV|||VIAV Dec 2026 38.000 put (VIAV261218P00038000) stock price, news, quote and history
+398f279eb2493ca530c3980db0b79015|||TWLO|||Twilio (TWLO) Surges 6.9%: Is This an Indication of Further Gains?
+69dcd2f28a7f824729a568104607601d|||BB|||BlackBerry posts a beat-and-raise helped by QNX growth (BB:NYSE)
+fb9349f3ee99725acd8a65c87ad0ce46|||BB|||BlackBerry earnings analysis: questions answered and next catalysts
+cfb6e96d07b98fe1361d0edcb4bf0cd7|||VSH|||Vishay launches four thick film resistor sample kits
+e349feeddba1e982abbc03ba9f4d3821|||CRWV|||CoreWeave Stock Upgraded On 'Favorable' AI Cloud Pricing Power
+ae899a1817f5b6958c060d4555339b5a|||CRWV|||CoreWeave Just Got a Big Vote of Confidence But There's a Catch
+8fa953f353c2892f91ca14905ef067c6|||CRWV|||JPMorgan upgrades CoreWeave stock rating on strong pricing By Investing.com
+d82a91c579df9d3a153a6099f6005dd4|||PANW|||Palo Alto Networks (PANW) is Strengthening from Enterprise Security Consolidation Amid Rising AI Threats
+09e6464947c732b0aee66efd3db1afcd|||PANW|||Palo Alto Networks Makes Mythos and GPT-5.6 Testing Always-On. Here’s Where the Stock Could Go
+c9759820518f80c92111a748715487ec|||PANW|||Palo Alto Networks CEO warns AI is making cyberattacks faster and more scalable
+7e0a5b0e491b90dacfe9d47f23a19f9c|||PANW|||Has Palo Alto Networks (PANW) Become Fully Priced After AI Security Gains?
+0c596f8c640883c230e995c3a6d8ba74|||PANW|||Meta Platforms, McDonald's, Beneficient, Palantir and Palo Alto Networks: Why These 5 Stocks Are on Inves
+f4a5db4e12f3e87cae2c130015b26bc6|||OKTA|||Okta Agentic AI Security Opportunity Could Drive Platform Demand, RBC Says
+768c1be747613cb1cdd8b03af08f0360|||OKTA|||Watch CNBC's full interview with Okta CEO Todd McKinnon
+b70c9b3283a7eb7914c0113732e60260|||SPCX|||SPCX Sep 2026 162.500 put (SPCX260925P00162500) interactive stock chart
+3a114998731c117c0fa8114c2b8aa716|||SPCX|||SPCX Sep 2026 110.000 put (SPCX260925P00110000) interactive stock chart
+bab59b3bbef0d457c3dc8057a6b5cc37|||VSAT|||Viasat, Inc. (VSAT) stock price, news, quote and history
+23014b0ee861edff1526b2085352a2ca|||USAR|||USA Rare Earth Is Breaking Ground on Its $1.2 Billion South Carolina Facility. Is It Time to Buy the Critical Minerals Stock?
+372a496e3643560a0f937d14194156b7|||BE|||Bloom Energy’s Single Largest Fuel Cell Deployment Is In Trouble
+45ac6e4c79bc5a3270f7c0e2c4a0dd5c|||BE|||Plug Power vs. Bloom Energy: Which Clean Energy Stock Has More Upside?
+ab20dc3f8f7a6c9c153818f57f39f8a5|||FCEL|||FuelCell Energy, Inc. (FEY.F) Stock Price, News, Quote & History
+d20e01c7b2d0f4ea91051d62f20af1e9|||FCEL|||FuelCell (NASDAQ: FCEL) Scrutinized Over Fit Energy Disclosures Driving Stock Down 15% -- HBSS
+de8dfe37803c1f4f83667e7edd9afcdb|||CMI|||Bloom Energy Sinks 6% as Traders Take Profits on a 190% YTD Run; Generac and Cummins Pull Back
+c6ddc57c15065e501c94a9e72215c74a|||FEIM|||Frequency Electronics (FEIM) Posted Stronger First Quarter Results, Is It Still Cheap?
+30fef1f11db13e415df4aeb84b7a2517|||IONQ|||Why IonQ Stock Is Up Today
+55cd31bfd6b14b3427fcb2507cfc7ba5|||IONQ|||IonQ (IONQ) Will Deploy Superion 256 On Premise At A Major AI Research Center
+5bdfeda1f0c968e0f1eacf47889ad010|||IONQ|||S&P 500 Futures Flat in Premarket Trading; IonQ, Quantinuum Lead
