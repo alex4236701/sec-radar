@@ -1302,3 +1302,38 @@ b80220fcfe32000cee9c053b713f22f6|||IONQ|||IonQ Just Solved Quantum Computing’s
 da807c0df76435e21616a21bec2715a3|||IONQ|||IonQ Superion 256 Platform Selected by Florida International University for First Florida Deployment
 f1a9e923038420bda303b53c98b7f0db|||IONQ|||IonQ’s Superion 256 Platform Selected by Florida International University for Flagship Deployment
 0c0f7cf7aa3405b544ac5c76509f5cba|||IONQ|||What's Going On With IonQ Stock On Wednesday?
+ea466d7ee9d10592e26a4c3a073ac6fe|||QCOM|||PrismML brings its tiny LLMs to Qualcomm-powered smart glasses
+771f8a90fe9786d98f5150b82085d607|||META|||Meta nears first new high in a year as Muse success showcases winning AI strategy
+8d8dd3e5e7edd72d9b3362dd0bff6355|||META|||JPMorgan raises Meta price target to $920 after Muse AI launch
+6dce1ee998bfcb0d41432219911df51f|||META|||Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend
+fc2fa151b1e0c69c97113cefbe33bb7d|||META|||Gaming stocks fall after Meta unveils AI game-building tools
+86e56ab2dfd9ed13aa623c31aa8efd29|||META|||Meta’s Muse Is Already Outpacing ChatGPT’s Early Downloads, JPMorgan Says It Could Be AI’s Biggest Consumer App Yet
+f9ef10832b6e17d276cc70371d4e5465|||NVDA|||Marvell vs. NVIDIA: One AI Stock Looks Like the Better Buy Now
+8f636e286e5db883a466ca42f4f38d3b|||INTC|||Intel Is Storming Back Into The AI Conversation - Reiterate Buy (NASDAQ:INTC)
+e00ff4ddfdf17e659354166f008b2ee1|||INTC|||Intel: Beware The Muse AI-Driven FOMO Rally (NASDAQ:INTC)
+1726f2dad4b4fcedb997bf2b8abcd030|||ALAB|||ALAB Oct 2026 480.000 call (ALAB261030C00480000) stock historical prices and data
+313f8dfa0a459c7f86e7bd978c591ac2|||ALAB|||ALAB Oct 2026 490.000 call (ALAB261030C00490000) stock price, news, quote and history
+4c2186dda24c6fd765a958c63ad3adb6|||ALAB|||ALAB Oct 2026 190.000 put (ALAB261009P00190000) interactive stock chart
+bf115a357f883866a8737ed5d01b43ed|||ALAB|||ALAB Oct 2026 370.000 put (ALAB261030P00370000) interactive stock chart – Yahoo Finance
+0694847d35ac5c547ad514c09b4d40ed|||ALAB|||ALAB Sep 2026 342.500 call (ALAB260925C00342500) Interactive Stock Chart - Yahoo Finance
+1525d9a773476d1ad06b7bb74b086041|||ALAB|||ALAB Oct 2026 490.000 put (ALAB261009P00490000) Interactive Stock Chart - Yahoo Finance
+538ae598346f9df51b4fd91306dab122|||ALAB|||ALAB Sep 2026 327.500 call (ALAB260925C00327500) Interactive Stock Chart - Yahoo Finance
+ae9d5c99fb0f1d8a2a9f0a1707db9b22|||ALAB|||ALAB Oct 2026 230.000 put (ALAB261030P00230000) Interactive Stock Chart - Yahoo Finance
+9f525c4394d8b6764f01160e35a4f86d|||ALAB|||ALAB Oct 2026 292.500 call (ALAB261009C00292500) stock historical prices and data
+ce7ab2514651414ef77249517e25c88b|||ALAB|||ALAB Oct 2026 297.500 call (ALAB261009C00297500) interactive stock chart – Yahoo Finance
+e359ccfb85944e4010aef661e9f711d3|||MU|||Micron: Exit Before It’s Too Late (NASDAQ:MU)
+a0258626b3a78a3cb83ed2de1edb13b6|||VIAV|||VIAV Dec 2026 31.000 put (VIAV261218P00031000) interactive stock chart – Yahoo Finance
+8652af66a907f3c82273cf937d1dfc48|||VUZI|||Vuzix Enters Enterprise Smart Glasses Distribution Agreement With CommsPlus Distribution
+3395f9a5c4803746d14cfa7d745cfdad|||BB|||BlackBerry Ltd (BB) (Q2 2027) Earnings Call Highlights: Record QNX Revenue and Raised Full-Year ...
+490d95938ff7a8c0e1348c7eb46dfebe|||BB|||Stocks in play: BlackBerry Limited
+78acc1cc1f204fe4ff205c486726b88b|||BB|||Investor Outlook: BlackBerry raises forecast on software growth
+3461056b88acb3abe4c7b75386261401|||IBM|||IBM Unveils Two Capabilities to Expand Digital Banking Infrastructure
+59c761b33e100f5ba5c5bae0c704bcfc|||CRWV|||JPMorgan Resets CoreWeave Stock Price Target for 2026
+e4c811307954cb03c9c245890fe5465c|||CRWV|||Nebius Surges 6%, CoreWeave Treads Water as JPMorgan Upgrade Flags Rising Compute Pricing; IREN Slides 4%
+10453a40405e210b6b2b366e3db2596b|||CRWV|||JPMorgan upgrades CoreWeave stock rating on strong pricing
+9feb90fd3a915979e57016ad25ba455c|||COHR|||Coherent Has Ripped 59% in 2026: Is It Too Late to Buy COHR Stock Now?
+bff0e94ae1ab444e3c270c391e6634a8|||VSAT|||VSAT Oct 2026 90.000 call (VSAT261016C00090000) interactive stock chart
+be20bb59c592421324a070e58d37b764|||FCEL|||FCEL Oct 2026 13.000 call (FCEL261002C00013000) interactive stock chart
+90571a0127aa2fc6b1aa6ee01afad6b4|||FCEL|||FCEL Oct 2026 21.500 put (FCEL261002P00021500) interactive stock chart
+85cf1f8602f3569b58a2afbae7f8b4ff|||FCEL|||FCEL261002P00021500 Interactive Stock Chart | FCEL Oct 2026 21.500 put Stock
+c863af4b6d6f8ef38388eac890bb9884|||FCEL|||FCEL Oct 2026 7.000 call (FCEL261002C00007000) interactive stock chart – Yahoo Finance
