@@ -108,7 +108,7 @@ EXCLUDE_TITLE_PATTERNS = [
     r"\bdonates?\b", r"\bwhitepaper\b", r"\bsurvey\s+finds\b", r"\badds\s+to\s+board\b"
 ]
 
-# 3. 催化劑信號庫 (收緊單字匹配，杜絕 in order to 或 profit-taking 濫觴)
+# 3. 催化劑信號庫 (收緊單字匹配，杜絕 in order to 或 profit-taking 誤觸)
 SIGNAL_PATTERNS = [
     # 財報、營收與業績指引
     r"\bearnings\s+results\b", r"\breports?\s+(?:first|second|third|fourth|q[1-4]|full[\s-]year)?\s*(?:quarter\s+)?results\b",
@@ -117,7 +117,7 @@ SIGNAL_PATTERNS = [
     r"\bannual\s+guidance\b", r"\bquarterly\s+guidance\b",
     r"\bq[1-4]\s+results\b", r"\bbuyback\b", r"\brepurchase\s+program\b",
     
-    # 商業合約與客戶大單 (綁定動態動詞，杜絕 in order to)
+    # 商業合約與客戶大單 (綁定實質動態動詞)
     r"\bawarded\s+(?:a\s+)?contract\b", r"\bsigns?\s+(?:a\s+)?contract\b", r"\bsecures?\s+(?:a\s+)?contract\b",
     r"\bpurchase\s+order\b", r"\breceives?\s+(?:an?\s+)?order\b",
     r"\b(?:inks?|strikes?|signs?|seals?)\s+(?:a\s+)?(?:deal|pact|agreement)\b",
@@ -509,7 +509,7 @@ def summarize_with_ai(ticker, text):
     return "PASS", "", "", False
 
 
-# ==================== 稿件檢索與巡檢邏輯 ====================
+# ==================== 稿件檢索與巡檢邏輯 (無截斷無死角版) ====================
 def fetch_google_wire_news(ticker):
     company_name = COMPANY_NAME_CACHE.get(ticker.upper())
     is_common = ticker.upper() in COMMON_WORD_TICKERS
@@ -548,8 +548,9 @@ def fetch_google_wire_news(ticker):
             if channel is None:
                 return []
 
+            # 核心修正：取消 [:20] 截斷限制，讓 Google 回傳的所有稿件完整通過後續的白名單與正則鐵壁
             items = []
-            for item in channel.findall("item")[:20]:
+            for item in channel.findall("item"):
                 raw_title = item.findtext("title") or ""
                 link = item.findtext("link") or ""
                 pub_date = item.findtext("pubDate") or ""
