@@ -1363,3 +1363,20 @@ a3c60f10b8c1caedf197e0fe264bc674|||VIAV|||VIAV Oct 2026 26.000 put (VIAV261016P0
 726c987c3349a0250e8fc989320d2f52|||FCEL|||INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in FuelCell Energy, Inc. of Class Action Lawsuit and Upcoming Deadlines - FCEL
 41f1b19b90c047ad2616d795e12f2a79|||FCEL|||FCEL Oct 2026 31.000 put (FCEL261002P00031000) interactive stock chart – Yahoo Finance
 105cd5096025c5218933438fb8097331|||GEV|||GE Vernova Falls 1.3% as $200 Billion Backlog Test Approaches
+6ac36b5362937e3b1b4b9c3c73b89980|||TSLA|||Tesla's FSD Just Hit a Major Roadblock Ahead of EU Review
+23031db8cac01949aaa5dfd714b25bb0|||META|||Wall Street sees Muse as Meta’s next big catalyst after Connect event
+46f3e684f2e3666e096f5baac50f3a7b|||META|||Meta has successfully integrated AI, hardware and data: Constellation's Ray Wang
+d74468bbe1ad80860602c1d7f32a4f02|||META|||Meta’s Muse gains ground as personalized AI apps grow (META:NASDAQ)
+340d630c3948ee77680accc81b141a7f|||DELL|||Dell Gains 1.4% as $999 Googlebook Tests Consumer AI Margins
+f59846abf85bd92decb05e87ee05cb06|||ALAB|||ALAB Oct 2026 510.000 call (ALAB261030C00510000) stock historical prices and data
+6420f1c89ae8a4a4d1f32b70f27dd678|||SNDK|||Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?
+b51a6c8da9bf110741c5f7776141c1c1|||SNDK|||Micron vs. SanDisk: 2 AI Memory Winners, But Only 1 Is Built for the Long Term
+57c81cb594a37ed2368a70c9db035ea2|||AKAM|||Akamai lands $11.6 billion Anthropic deal, shares soar
+0455d1c3fe183ff9952afdf2e9330d17|||AKAM|||Akamai Stock Soars on $11.6 Billion Anthropic Deal
+84792577d8dcb195d366b14a5f4ef3d8|||AKAM|||Anthropic to Pay Akamai Technologies $11.6 Billion Over Seven Years for Cloud Services
+fd8fce58b5eaacb80a70fd7845e35d9a|||AKAM|||Why is Akamai Technologies stock surging today?
+5ae779830cf000ea8a44305642161cad|||AKAM|||Akamai, Anthropic sign $11.6 billion cloud services deal
+fad58dcb9e40a7c4c6d2aecf1fef1bef|||IBM|||IBM expands digital asset push with Swift blockchain integration
+5bf875e70e649f7115b0bfe14369d7ca|||IBM|||IBM Adds Swift Ledger Integration and On-Premises Option to Digital Asset Haven
+f2643e5fc979ca1a84a41a7ae4288f05|||NET|||Cloudflare, Inc. (NET) Stock Price, News, Quote & History
+c95f5d5eb6c846c18fd25e37d1038d18|||RKLB|||What's Going On with the Pop In Rocket Lab Stock?
