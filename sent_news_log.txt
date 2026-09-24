@@ -1265,3 +1265,40 @@ c6ddc57c15065e501c94a9e72215c74a|||FEIM|||Frequency Electronics (FEIM) Posted St
 30fef1f11db13e415df4aeb84b7a2517|||IONQ|||Why IonQ Stock Is Up Today
 55cd31bfd6b14b3427fcb2507cfc7ba5|||IONQ|||IonQ (IONQ) Will Deploy Superion 256 On Premise At A Major AI Research Center
 5bdfeda1f0c968e0f1eacf47889ad010|||IONQ|||S&P 500 Futures Flat in Premarket Trading; IonQ, Quantinuum Lead
+718b4ed88078528515af89d6d5dfaa57|||TSLA|||UBS Has a Stark Message for Tesla Stock Ahead of Oct. 2
+fb2ad387722febd100d978a5962c2381|||META|||Meta is banking its future on its Muse AI agent — and winning user trust
+804f2b9d4aa0d622efc04c5f76631857|||META|||Meta's Mark Zuckerberg is in 'founder mode': Adviser and former longtime top exec
+f338885f16f910c898beb60e8678d285|||META|||Watch Meta Bets on AI, Devices for Its Next Chapter
+6127f81829fcf40d50ddb3d210d3d568|||INTC|||SA Asks: Is Intel a buy, hold or sell right now? (INTC:NASDAQ)
+ddf7e1e188d77d2d3bc9027e4fa0ca24|||ALAB|||Astera Labs, Inc. (ALAB) Stock Price, News, Quote & History
+3b0668a9f6810c84eac33206e6e4f7b9|||ALAB|||ALAB Sep 2026 352.500 put (ALAB260925P00352500) stock price, news, quote and history
+3c7a4e59498801afd9709747c6d4284d|||ALAB|||ALAB Jan 2029 160.000 call (ALAB290119C00160000) stock price, news, quote and history
+21db4cc3b289d64e9a1db0ddfd171971|||ALAB|||ALAB Sep 2026 345.000 call (ALAB260925C00345000) stock price, news, quote and history
+3c8a7abfa400a6e588d0480269b73183|||ALAB|||ALAB Oct 2026 510.000 call (ALAB261030C00510000) stock price, news, quote and history
+581fb25948c2702ee61dbb4407b9e3db|||ALAB|||ALAB Sep 2026 367.500 put (ALAB260925P00367500) stock price, news, quote and history
+ec954912d96961d877346b1b9327412f|||ALAB|||ALAB Oct 2026 165.000 call (ALAB261009C00165000) stock price, news, quote and history
+713855a5ae3a630f87dca92e6e9bc41b|||ALAB|||ALAB Oct 2026 320.000 call (ALAB261030C00320000) Stock Price, News, Quote & History
+d5da68606be50514d20d733e0ae9c54f|||ALAB|||ALAB Oct 2026 200.000 put (ALAB261030P00200000) Stock Price, News, Quote & History
+675c5ee184aea84e41dfbd38ca7c5468|||ALAB|||ALAB Oct 2026 395.000 put (ALAB261009P00395000) Stock Price, News, Quote & History
+aedfa7a2793f9ba5241630592fb5fd51|||ALAB|||ALAB Oct 2026 345.000 put (ALAB261009P00345000) Stock Price, News, Quote & History
+0957d5d3d2c55cf3ca5d9f26dce36a53|||ALAB|||ALAB Oct 2026 245.000 call (ALAB261023C00245000) stock price, news, quote and history
+a56ff2c071cb2052722b4e5e20173b73|||ALAB|||ALAB Oct 2026 420.000 call (ALAB261009C00420000) stock price, news, quote and history
+945c91d99c8c544f1c4494c1c2fb04c5|||SNDK|||Sandisk (SNDK) Stock May Still Look Reasonable After AI Slowdown Fears
+54b6f51f6dd33bffe47ea7372c5ba424|||VSH|||Vishay Intertechnology Thick Film Resistor Sample Kits
+c6d2de8b65903304500d7dedcf8825e7|||CRWV|||Why is CoreWeave stock climbing today?
+e008178cb2c15f73d0b09d46c4bff4c4|||CRWV|||CoreWeave Wins JPMorgan Upgrade on Premium Compute Pricing
+3df5e3a5572755120619be6eed783861|||CRWV|||JPMorgan upgrades CoreWeave on stronger compute pricing
+dfed258fabc42c0493322c289746cff3|||CRWV|||CoreWeave Lands Fresh Wall Street Vote of Confidence as UBS Sets $120 Target
+80f92c259d455bd0da375dca168191db|||PANW|||Palo Alto CEO says slowing down AI is ‘unrealistic’, extinction threat ‘extremely small’
+485eb5b0a8e55f821bfaeb6a168e54b0|||OKTA|||Jefferies raises Okta stock price target on AI agent momentum By Investing.com
+7c5912f6fa03b529116bff4e55eb2def|||VSAT|||VSAT Nov 2026 80.000 call (VSAT261120C00080000) stock price, news, quote and history
+13128d55f87371705a2321d194ece602|||VSAT|||VSAT Nov 2026 90.000 call (VSAT261120C00090000) stock price, news, quote and history
+25ae2a7f9d413a9ead39e83abd12e1c3|||NBIS|||Why is Nebius stock surging today?
+db6350b4776b633a2456c41471913b09|||USAR|||Can the Blacksburg Facility Fuel USA Rare Earth's Long-Term Growth?
+67a18568f3febf3a3c9a4ddab94d37ef|||BE|||We Said Bloom Energy and Plug Power Had Different Fates. The Gap Has Grown.
+306b2046d1111e89b124531712377848|||FCEL|||FCEL Oct 2026 18.000 call (FCEL261002C00018000) Stock Price, News, Quote & History
+bea85e37ca322eaa9ebe5065c3285765|||CAT|||Is Caterpillar the Best Industrials Stock to Buy Right Now?
+b80220fcfe32000cee9c053b713f22f6|||IONQ|||IonQ Just Solved Quantum Computing’s Hardest Problem. The Stock Is Still Down 43% in a Year.
+da807c0df76435e21616a21bec2715a3|||IONQ|||IonQ Superion 256 Platform Selected by Florida International University for First Florida Deployment
+f1a9e923038420bda303b53c98b7f0db|||IONQ|||IonQ’s Superion 256 Platform Selected by Florida International University for Flagship Deployment
+0c0f7cf7aa3405b544ac5c76509f5cba|||IONQ|||What's Going On With IonQ Stock On Wednesday?
