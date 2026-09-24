@@ -24,7 +24,7 @@ SEC_HEADERS = {
     "Accept-Encoding": "gzip, deflate"
 }
 
-# 核心標的備援名冊：防禦 GitHub Actions 雲端 IP 被 SEC 伺服器 403 阻擋
+# 核心標的備援名冊
 CORE_FALLBACK_NAMES = {
     "QCOM": "Qualcomm", "NVDA": "Nvidia", "AAPL": "Apple", "TSLA": "Tesla",
     "MSFT": "Microsoft", "GOOGL": "Alphabet", "AMZN": "Amazon", "ARM": "Arm Holdings",
@@ -37,32 +37,28 @@ CORE_FALLBACK_NAMES = {
     "RDW": "Redwire", "RKLB": "Rocket Lab", "FEIM": "Frequency Electronics", "UAMY": "United States Antimony",
     "ECL": "Ecolab", "VIAV": "Viavi Solutions", "KEYS": "Keysight", "FORM": "FormFactor",
     "GEV": "GE Vernova", "GNRC": "Generac", "TTMI": "TTM Technologies", "CRCL": "Circle",
-    "PL": "Planet Labs", "CRWV": "CoreWeave", "CSCO": "Cisco", "IBM": "IBM", "BAND": "Bandwidth"
+    "PL": "Planet Labs", "CRWV": "CoreWeave", "CSCO": "Cisco", "IBM": "IBM", "BAND": "Bandwidth",
+    "META": "Meta Platforms"
 }
 
 COMPANY_NAME_CACHE = {}
 
 # 1. 權威外電與通訊社白名單
 TRUSTED_SOURCES = [
-    # 一手官方通訊社
     "pr newswire", "business wire", "globenewswire", "accesswire",
-    # 一線頂級財經外電
     "reuters", "bloomberg", "wall street journal", "wsj",
     "cnbc", "financial times", "marketwatch", "barron's", "associated press", "ap news",
-    # 財經主流聚合與專業平台
     "yahoo finance", "yahoo", "investor's business daily", "ibd", "seeking alpha", "benzinga", "investing.com",
-    # 核心半導體、能源與硬體權威外電
     "the verge", "techcrunch", "tom's hardware", "wccftech", "ars technica", "anandtech", "semiengineering"
 ]
 
-# 擴充易混淆常用英文單詞代號名冊
 COMMON_WORD_TICKERS = {
     "ARM", "BAND", "CAT", "NOW", "ON", "IT", "ALL", "CAN", "BE", "GO", "ARE",
     "FOR", "OUT", "WELL", "RUN", "FAST", "OPEN", "PLAY", "SAVE", "APP",
     "REAL", "TRUE", "KEY", "KEYS", "FORM", "POST", "NET", "PLUG", "SO", "PL", "MP", "HON"
 }
 
-# 2. 精準排除黑名單：徹底阻絕「點擊農場文」、「盤面漲跌隨筆」、「集體訴訟」與「公關灌水」
+# 2. 精準排除黑名單：徹底阻絕農場文、盤面漲跌隨筆與律師訴訟招募
 EXCLUDE_TITLE_PATTERNS = [
     # --- 律師訴訟招募與股東大會 ---
     r"\bclass\s+action\b", r"\bshareholder\s+alert\b", r"\breminds\s+investors\b",
@@ -108,40 +104,30 @@ EXCLUDE_TITLE_PATTERNS = [
     r"\bdonates?\b", r"\bwhitepaper\b", r"\bsurvey\s+finds\b", r"\badds\s+to\s+board\b"
 ]
 
-# 3. 催化劑信號庫 (收緊單字匹配，杜絕 in order to 或 profit-taking 誤觸)
+# 3. 催化劑信號庫
 SIGNAL_PATTERNS = [
-    # 財報、營收與業績指引
     r"\bearnings\s+results\b", r"\breports?\s+(?:first|second|third|fourth|q[1-4]|full[\s-]year)?\s*(?:quarter\s+)?results\b",
     r"\brevenue\b", r"\beps\b", r"\bquarterly\s+results\b", r"\bfinancial\s+results\b",
     r"\braises?\s+guidance\b", r"\blowers?\s+guidance\b", r"\bcuts?\s+guidance\b",
     r"\bannual\s+guidance\b", r"\bquarterly\s+guidance\b",
     r"\bq[1-4]\s+results\b", r"\bbuyback\b", r"\brepurchase\s+program\b",
-    
-    # 商業合約與客戶大單 (綁定實質動態動詞)
     r"\bawarded\s+(?:a\s+)?contract\b", r"\bsigns?\s+(?:a\s+)?contract\b", r"\bsecures?\s+(?:a\s+)?contract\b",
     r"\bpurchase\s+order\b", r"\breceives?\s+(?:an?\s+)?order\b",
     r"\b(?:inks?|strikes?|signs?|seals?)\s+(?:a\s+)?(?:deal|pact|agreement)\b",
     r"\bmulti[\s-]year\s+agreement\b", r"\bprocurement\s+contract\b", r"\bsupply\s+agreement\b",
     r"\bpartner(?:ed|ing|ship|s)?\s+with\b", r"\bcollaboration\s+agreement\b",
     r"\bjoint\s+venture\b", r"\bto\s+deploy\b", r"\bdesign\s+win\b",
-    
-    # 併購、收購與重組
     r"\btakeover\b", r"\bacquisition\b", r"\bacquires?\b", r"\bbuyout\b",
     r"\bin\s+talks\s+to\s+(?:acquire|buy)\b", r"\bexplor\w*\s+sale\b",
     r"\bstrategic\s+investment\b", r"\bmerger\b", r"\brestructur\w*\b",
     r"\bsale\s+of\b", r"\bspinoff\b", r"\bdivest\w*\b",
-    
-    # 專利、授權與反壟斷監管戰火
     r"\blicensing\s+agreement\b", r"\broyalt(?:y|ies)\b", r"\bpatent\s+infringement\b",
     r"\bantitrust\b", r"\bdoj\s+probe\b", r"\bftc\s+probe\b", r"\bsubpoena\b",
     r"\bexport\s+control\b", r"\bsanction\w*\b", r"\bchips\s+act\s+award\b", r"\binjunction\b",
-    
-    # 旗艦產品、晶片與能源技術
     r"\blaunches\b", r"\bunveils\b", r"\bintroduces\b", r"\bnext-gen\b",
     r"\barchitecture\b", r"\bprocessor\b", r"\bchipset?\b", r"\bsnapdragon\b",
     r"\bsmr\s+deployment\b", r"\bnuclear\s+reactor\b", r"\bpower\s+purchase\s+agreement\b",
-    
-    # 資本稀釋與信用事件
+    r"\bheadset\b", r"\bdevice\b", r"\bglasses\b",
     r"\bconvertible\s+notes\b", r"\bpublic\s+offering\b", r"\bat-the-market\s+offering\b",
     r"\bchapter\s+11\b", r"\bbankruptcy\b"
 ]
@@ -155,8 +141,11 @@ STOP_WORDS = {
     "a", "an", "the", "and", "or", "but", "about", "above", "after", "along",
     "at", "by", "for", "from", "in", "into", "of", "to", "with", "on", "its",
     "as", "stock", "shares", "tumbles", "jumps", "falls", "rises", "plunges",
-    "through", "announces", "announced"
+    "through", "announces", "announced", "watch", "designed", "work", "use"
 }
+
+# 允許保留的 2 字母核心專業詞彙（絕不濾除）
+VALID_SHORT_TECH_TERMS = {"ai", "vr", "ar", "ev", "ip", "5g", "6g", "os", "pc", "mr", "xr"}
 
 
 # ==================== 工具函式 ====================
@@ -231,20 +220,36 @@ def normalize_word(word):
 
 def extract_core_words(title):
     words = re.findall(r"\b[a-zA-Z0-9$]+(?:\.[0-9]+)?\b", title.lower())
-    return set(normalize_word(w) for w in words if w not in STOP_WORDS and len(w) > 2)
+    core = set()
+    for w in words:
+        if w in STOP_WORDS:
+            continue
+        norm = normalize_word(w)
+        if len(norm) > 2 or norm in VALID_SHORT_TECH_TERMS:
+            core.add(norm)
+    return core
+
+
+def extract_rare_entities(title):
+    """提取專有名詞與代號 (如 Muse, Charm, Orion)"""
+    tokens = re.findall(r"\b[A-Z][a-zA-Z0-9_-]+\b", title)
+    common_biz = {"Meta", "Apple", "Google", "Microsoft", "Amazon", "Intel", "Nvidia", "Watch", "Launches", "Unveils", "Introduces"}
+    return set(t.lower() for t in tokens if t not in common_biz and len(t) > 2)
 
 
 def is_duplicate_news(ticker, new_title, history_records):
-    """採 Jaccard 語意相似度檢驗"""
+    """強化版去重：多外電改寫同事件阻截 + 專有名詞攔截"""
     new_words = extract_core_words(new_title)
+    new_entities = extract_rare_entities(new_title)
     if not new_words:
         return False
 
-    for h in reversed(history_records[-150:]):
+    for h in reversed(history_records[-200:]):
         if h["ticker"] != ticker:
             continue
             
         old_words = extract_core_words(h["title"])
+        old_entities = extract_rare_entities(h["title"])
         if not old_words:
             continue
             
@@ -252,7 +257,13 @@ def is_duplicate_news(ticker, new_title, history_records):
         union = new_words | old_words
         similarity = len(intersection) / len(union) if union else 0
 
-        if similarity >= 0.55:
+        # 1. 專有名詞撞車（例如兩篇都提到 Muse 或 Charm）：重疊度只要 >= 20% 直接視為同一事件
+        shared_entities = new_entities & old_entities
+        if shared_entities and similarity >= 0.20:
+            return True
+
+        # 2. 常規語意重疊度門檻由 0.55 下調至 0.30 (徹底捕捉 Bloomberg vs CNBC 改寫)
+        if similarity >= 0.30:
             return True
 
     return False
@@ -448,7 +459,7 @@ def summarize_with_ai(ticker, text):
 
 【撰寫口吻與維度要求（請像真人朋友在聊天，順暢自然講重點）】：
 1. 【繁中標題】：將原英文標題精準翻譯為繁體中文（保留型號與代號）。
-2. 【核心要點】：直接用一句話白話講清楚到底發生了什麼事（例如：「推出新型晶圓讀取器擴大半導體產能」、「與戴姆勒簽約導入 QNX 系統」、「高管申報出售 5,200 萬美元持股」），有合作對手或具體金額就順暢帶出，沒有就不用硬湊。（繁體中文，40-60 字）
+2. 【核心要點】：直接用一句話白話講清楚到底發生了什麼事（例如：「推出新型晶圓讀取器擴大半導體產能」、「與戴姆勒簽約導入 QNX 系統」、「發布 Muse AI 隨身裝置與智慧眼鏡」），有合作對手或具體金額就順暢帶出，沒有就不用硬湊。（繁體中文，40-60 字）
 3. 【財務影響】：直擊實質營收認列、毛利率變化、或是否存在舉債 (Debt-funded)、股本稀釋等財務代價。（繁體中文，40-60 字）
 
 【輸出格式要求】：
@@ -509,7 +520,7 @@ def summarize_with_ai(ticker, text):
     return "PASS", "", "", False
 
 
-# ==================== 稿件檢索與巡檢邏輯 (無截斷無死角版) ====================
+# ==================== 稿件檢索與巡檢邏輯 ====================
 def fetch_google_wire_news(ticker):
     company_name = COMPANY_NAME_CACHE.get(ticker.upper())
     is_common = ticker.upper() in COMMON_WORD_TICKERS
@@ -548,7 +559,6 @@ def fetch_google_wire_news(ticker):
             if channel is None:
                 return []
 
-            # 核心修正：取消 [:20] 截斷限制，讓 Google 回傳的所有稿件完整通過後續的白名單與正則鐵壁
             items = []
             for item in channel.findall("item"):
                 raw_title = item.findtext("title") or ""
@@ -579,43 +589,43 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
         return
 
     print(f"候選稿件 {len(wire_items)} 則", flush=True)
+    sent_in_this_round_count = 0
 
     for item in wire_items:
+        # 單輪同標的熔斷：一輪巡檢中，同一檔股票最多推播 2 則不同維度重大事件，杜絕洗版
+        if sent_in_this_round_count >= 2:
+            break
+
         raw_title = item["raw_title"]
         source_name = item["source"]
 
-        # 1. 權威白名單過濾
         if not is_trusted_source(source_name):
             continue
 
-        # 2. 36 小時時效守衛
         if not is_within_36_hours(item["pub_date_raw"]):
             continue
 
-        # 3. 主體核對
         if not matches_target_entity(ticker, raw_title):
             continue
 
         clean_title = re.sub(r"\s+[\-–—]\s+[^\-–—]+$", "", raw_title).strip()
         fingerprint = make_news_fingerprint(ticker, clean_title)
         
-        # 4. 精確指紋去重
+        # 精確 MD5 去重
         if fingerprint in sent_fingerprints:
             continue
 
-        # 5. 語意去重
+        # 核心升級：語意去重 + 專有名詞撞車攔截
         if is_duplicate_news(ticker, clean_title, history_records):
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 6. 黑名單過濾 (第一道鐵壁：全面清除 Zacks、農場問句與常規行情漲跌隨筆)
         if is_junk_title(clean_title):
             save_sent_record(fingerprint, ticker, clean_title)
             sent_fingerprints.add(fingerprint)
             continue
 
-        # 7. 實質信號過濾 (第二道鐵壁：嚴格驗證實質合約與動能詞)
         title_has_signal = has_high_impact_signal(clean_title)
         snippet_has_signal = has_high_impact_signal(item['snippet'])
 
@@ -638,6 +648,7 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
         if not is_api_ok:
             continue
 
+        # 即時寫入記憶庫：讓同一輪迴圈後續的文章能立刻對位攔截
         save_sent_record(fingerprint, ticker, clean_title)
         sent_fingerprints.add(fingerprint)
         history_records.append({"ticker": ticker, "title": clean_title})
@@ -656,6 +667,7 @@ def check_and_process_ticker(ticker, sent_fingerprints, history_records):
                 source_name=source_name,
                 title_zh=title_zh
             )
+            sent_in_this_round_count += 1
             time.sleep(1)
 
 
