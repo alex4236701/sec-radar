@@ -1527,3 +1527,97 @@ e59d94e8caff726644f447ad2189185e|||SPCX|||Form 4 SPACE EXPLORATION TECHNOLOGIES 
 ad0a6d560f2e419a998dc23f882de36c|||NBIS|||Nebius Stock Soars 8% as BNP Paribas Delivers Massive Price Target Hike
 87b78da02417021bc090dbbf6ef5b2ae|||NBIS|||What Does Nebius Group (NBIS) Stock Face After Michael Burry Expanded His Short?
 9323cdd927d2f70961ebf34ac95dc51e|||FCEL|||FCEL Oct 2026 18.500 call (FCEL261009C00018500) stock price, news, quote and history
+4bf067e545fa669f14490c8f3e41db25|||GOOGL|||Alphabet Trades for 17 Times Earnings. The S&P 500 Trades for 25 Times Earnings. Is This the Best Stock to Buy in the Market?
+f8a196d38b9a8a648ac07f92de09747e|||GOOGL|||Microsoft Climbs 3% as Oppenheimer Lifts Target to $570 on Copilot Enterprise Pivot; Alphabet Ticks Up
+dc1ae858114b9c70830d625dde46816e|||MSFT|||Microsoft Climbs 3% as Oppenheimer Lifts Target to $570 on Copilot Enterprise Pivot; Alphabet Ticks Up
+c0ec86edd36d70f5cd4a0aea6f924468|||MSFT|||Microsoft unveils unified Copilot, cedes consumer AI market to focus on enterprise
+b532c6cde684a28c1a7b06e8c4d8f665|||TSLA|||Tesla poised to scale production of heavy-duty Semi trucks with opening of Nevada factory
+7d8ef356843031e96d706ca1328da4c3|||TSLA|||Tesla Semi: Diesel's surge gives the electric truck an opening as high prices improve the math for fleets
+7f71d27af9ca8be6edd9f17cf90dad88|||TSLA|||Tesla is beginning Semi electric truck deliveries
+4e62b463bedbe74e2016edc7bf4f09ee|||TSLA|||Elon Musk Pushes Tesla Semi Into Its Biggest Phase Yet
+9b6274054a776ae6f4ef9e42b88bc4a6|||TSLA|||Is Trending Stock Tesla, Inc. (TSLA) a Buy Now?
+fba82b20efcc2a1e1a35d9727e159c7c|||TSLA|||Tesla Begins High-Volume Semi Production at Nevada Factory, Musk Says
+278964bf7d885ff27d149f201c469264|||TSLA|||Tesla's big semi truck bet is officially in motion
+e8f873a8dffcd66fad8d794d844ad4f6|||TSLA|||Tesla Launches the Semi Truck. The New Roadster Is Up Next.
+f12f2b659fb32eabc45d127e7e14844f|||TSLA|||The Zacks Analyst Blog Highlights Tesla, Bank of America, Coca-Cola and Texas Community Bancshares
+758105a2416760dc87de28efbbf8275c|||TSLA|||Tesla Semi Hits The Road As $6 Diesel Prices Bite Trucking Industry
+2df29672f1bb601c031ac62a84d47864|||TSLA|||EU vote on Tesla Full Self-Driving approval delayed to December
+fa92c1da94b41fd53dbb8803176d47a5|||TSLA|||Tesla Reportedly Opens Semi Electric Truck Plant in Nevada
+2dc888e2de07d410705dcc71d2de1e63|||TSLA|||Tesla's Roadster reveal: Rocket science or reality check? (TSLA:NASDAQ)
+033c5aaf3bb9b58418a77c74e5bbf62b|||TSLA|||TSLA Stock Climbs Overnight: Roadster Teaser Stokes SpaceX Buzz — Musk Calls New Semi A ‘Game-Changer’
+553375547a7125c77868ec25f0c42ca8|||TSLA|||Tesla faces production challenges with Optimus robot hands, report says
+74eb480037b9387da1949f2c0168d284|||QCOM|||Qualcomm's CMO reveals the secret behind Snapdragon's rise
+764ec525ec05d50bec6f8cd0871b2c25|||META|||Meta's Muse Shakes Up The AI Battle. Here's What Investors Should Know.
+6bc401e31b23b204723b61eb80648fb9|||META|||This Meta stock stat doesn't make sense after the Muse mic drop
+4531ee437f48e657f9d26a25417053f3|||META|||Meta is putting its muscle behind Muse as the AI app takes off
+d2323ca4c893b663dbe2b2a6158a6158|||META|||Meta Just Got a Big New Partner for Its AI Glasses Push
+b201db0d5f1e1c6cc21c1efeef7cce51|||META|||Why is Meta Platforms stock sliding today?
+82ba29aecba78262a996d30adaf98078|||META|||Customer Haggling in the Age of Meta’s Muse and Other AI Agents
+39bd09fb3eb615a6c55802d02f44f4a2|||META|||Meta bets on the 'Muse AI' revenue roadmap
+fb74ffb97db2a56d273cb2613006b25f|||META|||Piper Sandler Adjusts PT on Meta Platforms to $875 From $785, Keeps Overweight Rating
+73978c7a7f19439c0b4f9efa4511fe8c|||META|||Meta’s Muse AI Downloads Are Soaring. Is It Time to Buy This Bargain AI Stock?
+b294843f3723a8f3d34780d3bf788067|||META|||How Meta’s Muse Saved the Market—While Savaging These Stocks
+99a8b879aa1adcaccf25d3dc7e680641|||META|||These are stocks getting lifted up by Meta's Muse
+dfb3033444e65e365eb309f6a3e08647|||META|||TD Cowen Adjusts Price Target on Meta Platforms to $865 From $750, Keeps Buy Rating
+134374ebd2ed0aa26b2bea7432734de2|||META|||Twilio Stock Is Falling. Yes, It’s About Meta’s Muse.
+3bd50355a01d39e44bdf9e1047b7637e|||META|||Meta's Muse Agent Makes Waves: Market Snapshot
+4878e069a88153467b35d0351dd0a26f|||DELL|||Why Is Dell Stock Surging on Friday?
+40820f4a43f9dec3a786e92c54e3f8a4|||DELL|||Wall Street Bulls Look Optimistic About Dell Technologies (DELL): Should You Buy?
+7e692296aca1676177e3a83a51dbdc94|||DELL|||Is Dell Technologies (DELL) Stock a Buy After its $5 Billion AI-Fueled Bond Sale?
+1247f1806cdbdb9a97a1cf02c7afd219|||HPE|||HPE vs. Super Micro: Which AI Server Stock Offers the Better Risk-Reward?
+4d5241715c9dca033e1f2d052c2286fd|||NVDA|||Nvidia Stock: Here’s How Many AI Chips SpaceX Is Buying.
+8277ed118af608364e82691cf1966eff|||NVDA|||Better Quantum Computing Stock: Nvidia vs. IonQ
+bb13c1cc1a910cf70b9ed9e4324b80fc|||NVDA|||I've Changed My Mind on AMD. The AI Supercycle Has Room for More Than Just Nvidia.
+7abb0285daae5b22af40fb869e12d8f4|||NVDA|||RMX Signs Compute Supply Purchase Order with Technologent for NVIDIA H200 GPUs
+fda96d61313653f9759f858eee344b40|||LRCX|||Wall Street Bulls Look Optimistic About Lam Research (LRCX): Should You Buy?
+f58462a209d2be88b06f7fa1b646eafa|||MRVL|||What's Going On With Marvell Technology Stock Thursday?
+b929e2f86182c461f57a4ba105a72fb6|||MU|||Micron Earnings: 80% Odds Of Beating Every Estimate - Micron Technology (NASDAQ:MU)
+70336422565620470604f24e4f896eeb|||MU|||Countdown to Micron (MU) Q4 Earnings: A Look at Estimates Beyond Revenue and EPS
+15a7b8a0861759554ec361241c6280c3|||SNDK|||Are AI Memory Stocks Ready For Another Run? Micron, Sandisk Attempt To Clear New Buy Points
+6a146c71c3fd36e3daff7eea500b651e|||SNDK|||Zacks Investment Ideas feature highlights: SanDisk
+045c1209cc2de2a725ff9b67c0476a30|||WDC|||What Is Going on With Western Digital Stock on Friday?
+c9b348740daa1368d02abbf9f7c1273e|||ASX|||ASE Technology Hldg (ASX) is on the Move, Here's Why the Trend Could be Sustainable
+69d2040d8f2403220bba8fd38ee09f51|||AEIS|||Zacks Investment Ideas feature highlights: Celestica, Advanced Energy Industries and EMCOR
+04b1819881ca749cfb6e3c365d067bcf|||VIAV|||Why is Viavi Solutions stock surging today? By Investing.com
+bee47bd9acf991fc93872825dd961875|||VIAV|||VIAV Oct 2026 21.000 call (VIAV261016C00021000) stock price, news, quote and history
+9a3a8ca6129be3e2b7408e08386920a2|||VIAV|||VIAV Oct 2026 44.000 put (VIAV261016P00044000) interactive stock chart – Yahoo Finance
+4cef6841cf5c4d93471e1a46a2ad32d9|||VIAV|||VIAV Oct 2026 49.000 put (VIAV261016P00049000) interactive stock chart – Yahoo Finance
+96895ed98ac232108df132b0aed7937c|||VIAV|||VIAV261016P00049000 interactive stock chart | VIAV Oct 2026 49.000 put stock
+81d07fb44d3cbaa13007a8b976b96cfd|||AKAM|||Why Is Akamai Technologies Stock Surging Friday?
+149561d9de2c8fad2646d9c242898bd3|||AKAM|||Akamai: So Now Anthropic Is Here To Save The Day (NASDAQ:AKAM)
+4721f7e7287dcb6362d53c0882bd5a04|||AKAM|||Akamai extends Anthropic rally with Lenovo, Jabil deals (AKAM:NASDAQ)
+9cb2ced48ea8c865941b384bf03f0385|||AKAM|||Akamai's deal with Anthropic should boost CPU demand, GF says (AKAM:NASDAQ)
+f8ba24035dc86515f7fbeb2f1f394615|||TWLO|||Why is Twilio stock sliding today?
+3ec489c67885a0433bf56a5cd518494a|||ONDS|||Ondas Went on an Acquisition Spree This Month — Here's What It Bought
+7400888534d7340ec65235b59e757ccd|||IBM|||Quantum vs. IBM: Which Data Storage Stock is the Better Buy?
+f198687d6862f9127f3ccb36407f90b8|||DDOG|||Why is Datadog stock surging today?
+ee9c793ec40ce860e9619bb30abc2775|||CRWV|||Akamai Surges 15% on $11.6B Anthropic Cloud Deal; CoreWeave and Cloudflare Tick Up
+9f3c020643829189af6a3ed82864c002|||CRWV|||CoreWeave (CRWV) CEO Michael Intrator sells $26.7m in stock
+3451c336596ab6fff8ac43085982f892|||CRWV|||CoreWeave CFO Nitin Agrawal sells $4.84m in company stock By Investing.com
+5e75aaf1532c5b062bed524dd8d3aa7e|||PANW|||AI Slowdown Push 'Unrealistic,' Says Palo Alto Networks CEO, AI Firms Trying to Seek Regulatory 'Sympathy
+5aa5e83ed6e24e34ddc9a478ed92427d|||PANW|||Form 144 Palo Alto Networks For: 24 September
+d13c350351881cb8da501ff85395912e|||OKTA|||Truist raises Okta stock price target on AI agent strategy
+0997c42e184d23fb934bbeb1eab744e2|||OKTA|||BMO Capital raises Okta stock price target on AI expansion By Investing.com
+b64e2f021e933f60c9e4c52116235766|||OKTA|||Okta price target lifted to $220 as BofA sees stronger AI agent positioning
+24d474bdfab05fbb2322873b8307b9b0|||NET|||Akamai Surges 15% on $11.6B Anthropic Cloud Deal; CoreWeave and Cloudflare Tick Up
+25218529dca2694fa292f58e9857d509|||COHR|||What Is Coherent (COHR) Really Betting On With PhotonLink For AI Datacenters?
+32597202b09039510b3cdb8cb0b53b2d|||TSEM|||Why is Tower Semiconductor stock surging today? By Investing.com
+0287ade2403bb7f9a258cdc0d5215a91|||SMTC|||Zacks.com featured highlights include Match Group, monday.com, Ubiquiti and Semtech
+d77dd81e6cae850213912485ebd24b63|||SPCX|||SPCX Sep 2026 117.000 call (SPCX260925C00117000) stock price, news, quote and history
+8c5a4c770eb591a0178c83f087b46786|||SPCX|||SPCX Sep 2026 131.000 put (SPCX260925P00131000) stock price, news, quote and history
+a003ca69d49761e671e3fa451d5ae1df|||RKLB|||What's Going On With Rocket Lab Stock Friday?
+03990b972838c25686c8dcc7ef36bfe2|||RKLB|||Why Rocket Lab Wants To Pay Up Big For Iridium (NASDAQ:RKLB)
+d6bb52bc544e8f48423eecadad99c1fd|||RKLB|||RKLB Jan 2029 40.000 put (RKLB290119P00040000) interactive stock chart – Yahoo Finance
+1aa23d534a4b732681f18d15bd0e9e3c|||VRT|||Vertiv Holdings Co (VRT) Shares Drop Into Securities Probe After Q2 Miss
+6c50c2777ff4f71327a416c036f1cc02|||NBIS|||Why Is Nebius Stock Surging on Friday?
+db39bdc99e8fdb18ab7ec270d946c439|||MTRN|||Zacks.com featured highlights include CareDx, Ciena, Celestica, Materion and MACOM Technology Solutions
+a5473cee383f028d16fbb4cab84f9e25|||BE|||Bloom Energy Stock Rebounds: What's Going On?
+6d510c5cbfcf65bf3a8c5931ad8ffb9f|||BE|||Why is Bloom Energy stock rallying today?
+d63301df6490f412d54bb25665f6001c|||FCEL|||DEADLINE ALERT for DKS, BBNX, FCEL, and LINC: The Law
+9cc436cb20b9d3a4ca3f2c2893aee1ec|||FCEL|||FCEL Sep 2026 8.000 call (FCEL260925C00008000) stock price, news, quote and history
+397baae1e8cb930233cc4716c5a74b5a|||FCEL|||FCEL Oct 2026 13.000 call (FCEL261009C00013000) interactive stock chart
+dad3300692c13db99914613a6215a68c|||FCEL|||FCEL Oct 2026 17.500 put (FCEL261009P00017500) stock price, news, quote and history
+bf83b9d921fef4a0a64a61f3e11d44ba|||FCEL|||FCEL Sep 2026 36.000 put (FCEL260925P00036000) stock price, news, quote and history
+18d632ec36aded60ea6bae7b2170ad76|||GEV|||GE Vernova Will Continue To Underperform Even As Growth Impresses
+c85c2e69df733eb7ffbf017402bed376|||CAT|||Caterpillar vs. Corning: Which Industrials Stock Is a Better Buy in 2026?
+b53c79ebb36832372ef17d64827de891|||IONQ|||Better Quantum Computing Stock: Nvidia vs. IonQ
