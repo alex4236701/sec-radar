@@ -1484,3 +1484,30 @@ b3da1534d871851b4c3b50595df45a7d|||FCEL|||HAGENS BERMAN, NATIONAL TRIAL ATTORNEY
 7ceee48fb77bb37df2f5a69b3fb2ba0b|||FCEL|||FCEL Oct 2026 19.500 call (FCEL261009C00019500) stock price, news, quote and history
 f6b294a46ff6b20a9ac7f6702e5f5d88|||IONQ|||Update: IonQ Shares Rise After Signing Quantum Computer Contract With Florida International University
 b94902acc3fb1bc59795e77b4611e1e1|||IONQ|||IonQ Signs Contract to Provide Quantum Computer to Florida International University
+eb8027956be322ae3fd38e90b0abecdc|||TSLA|||Tesla (TSLA) vs Rivian (RIVN): Which is a Better EV Stock to Buy
+7fad0f26c91a6d5b570a6c2a295967b6|||TSLA|||Tesla Drops New Roadster Teaser Ahead of Oct. 1 Reveal—Elon Musk Says Semi Volume Production Has Begun
+60e1f2945140790a1a32d2ade35f234e|||META|||Meta Has Lost More Than $85 Billion on Its Glasses and Headsets. Here's What Would Stop It.
+91524697f279cda8f067a7827d2bfab4|||META|||Watch Meta's Muse Agent Makes Waves: Market Snapshot
+70815a0fc3e73b2a6fd7561b05cd2d7a|||META|||Piper Sandler raises Meta stock price target to $875 on AI optimism
+2e75c386f72c5916ccbc3756ee9781d3|||META|||TD Cowen raises Meta stock price target on AI monetization path
+0db9003778daf810555916d775522df1|||INTC|||Meta’s AI Agents Are Putting CPUs In Data Centers, But That’s Not Bullish For Intel (INTC)
+82729ce625052f260c124a89fd696c82|||AKAM|||Akamai Technologies, Inc. (AKAM) Stock Price, News, Quote & History
+160bb3cb1ff9dcba26486e124f362c7f|||PANW|||Form 144 PALO ALTO NETWORKS For: 25 September By Investing.com
+f5f4dc3f3ac2456c41c21ef842eb194e|||NET|||Do Cloudflare’s (NET) New AI Crawler Controls Quietly Strengthen Its Data-Moat Narrative?
+fcffabf0ef3b9d19a006a76bf87578b8|||RKLB|||RKLB Oct 2026 40.000 put (RKLB261030P00040000) Interactive Stock Chart - Yahoo Finance
+e66700ace0cac9922ae2ad62610ee0f8|||RKLB|||RKLB Oct 2026 76.000 put (RKLB261030P00076000) interactive stock chart
+42d129a0e46e48af6b4ed7b0015c111c|||RKLB|||RKLB Oct 2026 85.000 put (RKLB261030P00085000) interactive stock chart
+bc8adbf20e0cfa7d277f095c91445842|||RKLB|||RKLB Nov 2026 60.000 call (RKLB261120C00060000) Interactive Stock Chart
+8db3994d73d21698588018eb84db6e3e|||RKLB|||RKLB Jan 2029 95.000 put (RKLB290119P00095000) interactive stock chart – Yahoo Finance
+09807c16b872a88ad4bbffb8aca1e6d7|||RKLB|||Rocket Lab Corporation (1RKLB.MI) stock price, news, quote and history - Yahoo Finance
+c649d5e32a8500032ab95d94310bed5a|||RKLB|||RKLB Jan 2029 35.000 call (RKLB290119C00035000) interactive stock chart – Yahoo Finance
+b5776fa65324e34e1dd71fc61a06948b|||RKLB|||RKLB Oct 2026 85.000 put (RKLB261030P00085000) interactive stock chart – Yahoo Finance
+9332f1f8cc661f7a21a7762233df5ee2|||RKLB|||RKLB Oct 2026 66.000 call (RKLB261002C00066000) interactive stock chart
+b8cfbd33117e00bfd62739f4aebca97d|||RKLB|||RKLB Nov 2026 35.000 call (RKLB261120C00035000) interactive stock chart – Yahoo Finance
+70969b0fccee2bce5f70084923482ae6|||RKLB|||RKLB Oct 2026 68.000 put (RKLB261016P00068000) Interactive Stock Chart - Yahoo Finance
+e3d0d16a577437cf8c4cc416383fabd8|||RKLB|||RKLB Oct 2026 68.000 put (RKLB261016P00068000) stock historical prices and data
+3af6c881f8acd8c1fc7934ab6d6a57de|||NBIS|||Nebius Group (NBIS) to Hike Prices Next Week, Shares Rocket
+768ffd4db64dcf0bdbb3019602f4340e|||NBIS|||What Is Going on With Nebius Stock on Thursday? - Nebius Group (NASDAQ:NBIS)
+0e1e80e637b97ad27cb6e20e5bd71898|||FCEL|||FCEL Oct 2026 13.000 call (FCEL261009C00013000) Stock Price, News, Quote & History
+d8fd935891cd5953b76fe23b3a67fc65|||FCEL|||FCEL261009P00014000 Interactive Stock Chart | FCEL Oct 2026 14.000 put Stock
+4a4462b21b02ff045cf11b212382c64e|||FCEL|||FCEL Oct 2026 21.500 call (FCEL261009C00021500) Stock Historical Prices & Data - Yahoo Finance
