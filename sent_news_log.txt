@@ -1414,3 +1414,33 @@ da68a1d6d151ca075d8a24d46362ba73|||SPCX|||SPCX Aug 2027 75.000 put (SPCX270820P0
 3cb0dd2f4a22fb1f638deb41fc8650ee|||FCEL|||FCEL Oct 2026 15.500 call (FCEL261009C00015500) interactive stock chart – Yahoo Finance
 cf40b1e8558b1065e161e9ea4d3c1eea|||IONQ|||How IonQ’s On‑Prem Quantum System At NVIDIA (NVDA) Has Changed Its Investment Story
 a84aa78bea6fa61580e0aaed74408d82|||IONQ|||IonQ Rises 4% as Post-Breakthrough Buying Continues; D-Wave Quantum Gains 3%, Rigetti Adds 2%
+e9cf803d11ad9af307eea970a337756c|||QCOM|||What's Going On With Qualcomm Stock Thursday
+a7c67a451e8bcd215c996c09159bab96|||QCOM|||Qualcomm’s new ‘Elite’ sound chip might finally deliver the Wi-Fi earbud dream
+21ca56e600a7c68e641190cd52733a7c|||META|||META Stock Hits One-Year High — Meta Launches Tool To Let Users Build Games Through AI
+2288172c958fc63ba3756a04a98cffdf|||META|||BLACKPINK’s LISA Designed Meta Glasses With Charms Inspired by Her Pets & Exclusive Digital Treats
+e9d694a94f257b6706f303d9a3f2e3eb|||META|||First impressions of Meta's new camera-free Ray-Ban Audio glasses
+9718a5c0436a9e17c5530b1e8e5d797c|||META|||Videogame Stocks Fall After Meta Announces AI Game Tool. Don’t Be Spooked Yet.
+01b8ab1602f3272f4b64bc56eddd9be8|||META|||Meta: Muse AI Set To Create New Multibillion-Dollar Revenue Stream (NASDAQ:META)
+68ff9cc3c0640bbd196a2ada7fa77c3a|||META|||Meta's new AI device changes everything
+c9530726fc5f002b09f75927f6e89f39|||META|||I Put Meta’s Muse AI Agent to Work. It Saved Me $25 a Month—and Found Me a Doctor.
+926d0d54c4c7102ad34ca7837a43d0fa|||ALAB|||ALAB Jun 2028 180.000 call (ALAB280616C00180000) stock price, news, quote and history
+f1f151d31499566e10b003bcba326993|||ALAB|||ALAB Jun 2028 210.000 put (ALAB280616P00210000) interactive stock chart – Yahoo Finance
+73404e0e53fd8c16347fe9bd9d4f0e8e|||VIAV|||VIAV Oct 2026 18.000 call (VIAV261016C00018000) interactive stock chart
+7374e74323a832ddb3a6156a99f0fc05|||VIAV|||VIAV261016C00018000 Interactive Stock Chart | VIAV Oct 2026 18.000 call Stock
+17d095e2aba5e0ac4565c75bb20099c5|||AKAM|||Akamai Stock Soars on $11.6 Billion Anthropic Deal - Akamai Technologies (NASDAQ:AKAM)
+7f33d861efaf955cbcef981c61c524e4|||AKAM|||Meta, Everpure, Akamai Technologies, Apimeds Pharmaceuticals and Costco: Why These 5 Stocks Are on Invest
+bf53c793c65a4ec252856b98e53704c8|||WOLF|||Wolfspeed, Inc. (WOLF) options chain – Yahoo Finance
+0ed90c03c80ae73868900ca7a69ebf37|||IBM|||IBM's New Swift Connection Is One More Headache for XRP Investors
+e338a24076c46e16a6bb19d2e1eda871|||OKTA|||Mizuho raises Okta stock price target on agentic AI momentum By Investing.com
+5948c1d6d8cddd169cfa570187cd6744|||SPCX|||Space Exploration Technologies Corp. (SPCX.TO) stock price, news, quote and history
+1d3859d42ff359306757e8eb277d41d7|||SPCX|||SPCX Sep 2026 149.000 put (SPCX260925P00149000) stock price, news, quote and history
+1c240c8171f37bfc57a64c8986f321c1|||SPCX|||SPCX Jan 2029 60.000 put (SPCX290119P00060000) stock price, news, quote and history
+38bf5504922f2837cdba3357d81e41fa|||SPCX|||SPCX Mar 2027 275.000 put (SPCX270319P00275000) interactive stock chart – Yahoo Finance
+2b7c59459a0af57f1e9ba1783aaed31e|||SPCX|||SPCX Sep 2026 225.000 call (SPCX260925C00225000) interactive stock chart
+c47f889d25bdbf384d00c471a3fcf775|||RKLB|||Cathie Wood Just Made Another Big Bet on Rocket Lab
+829aa17a8e988a95f81c92e8afb5d49c|||RKLB|||Redwire, Rocket Lab, Firefly Split a $981 Million Space Force Pie
+e598829efcf0758552c500b751efa0a1|||RKLB|||Rocket Lab Corporation (RKLB.MX) Stock Price, News, Quote & History
+eb83de7ed45d684641be65115787da6b|||RKLB|||Rocket Lab Corporation (RKLB.MX) income statement
+03d9adc463c4688cf16bc7f40a204713|||FCEL|||FCEL Oct 2026 21.500 call (FCEL261009C00021500) stock historical prices and data
+123dd19f2073f3711569c20d46d02d09|||FCEL|||FCEL Oct 2026 30.000 call (FCEL261009C00030000) interactive stock chart – Yahoo Finance
+72a4d67ef1bb1baee90706ee751b6337|||FCEL|||FCEL Oct 2026 31.000 put (FCEL261002P00031000) stock price, news, quote and history
