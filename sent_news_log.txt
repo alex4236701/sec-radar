@@ -1511,3 +1511,19 @@ e3d0d16a577437cf8c4cc416383fabd8|||RKLB|||RKLB Oct 2026 68.000 put (RKLB261016P0
 0e1e80e637b97ad27cb6e20e5bd71898|||FCEL|||FCEL Oct 2026 13.000 call (FCEL261009C00013000) Stock Price, News, Quote & History
 d8fd935891cd5953b76fe23b3a67fc65|||FCEL|||FCEL261009P00014000 Interactive Stock Chart | FCEL Oct 2026 14.000 put Stock
 4a4462b21b02ff045cf11b212382c64e|||FCEL|||FCEL Oct 2026 21.500 call (FCEL261009C00021500) Stock Historical Prices & Data - Yahoo Finance
+5ea42a30ed47f9404650ac53fc3fcb67|||TSLA|||Tesla has begun ‘high volume’ production of semi truck, Musk says
+02b07e338408928cf206fed46f84c6ae|||META|||Meta Stock Soared on Muse AI. The Easy Gains Are Gone.
+e61843248add5651f7a1a236c7ce0b48|||DELL|||Dell vs. HPE: Which AI Server Stock Is the Better Buy?
+68a3acede0a0efdc3f0108f90c0a3fec|||HPE|||Dell vs. HPE: Which AI Server Stock Is the Better Buy?
+562f90bd207052cdd1ea553d72736473|||NVDA|||The Zacks Analyst Blog Highlights Marvell Technology and NVIDIA
+5de0e058d17c3eca4e65b18a5342fb52|||MRVL|||The Zacks Analyst Blog Highlights Marvell Technology and NVIDIA
+74df0c662324ab2342a01b93ae15cb42|||ALAB|||ALAB Sep 2026 377.500 call (ALAB260925C00377500) stock price, news, quote and history
+c054a9124136b5c88cc9e01a82ceaa7c|||MU|||The Zacks Analyst Blog Highlights Micron Technology, Costco Wholesale, Interactive Brokers, Canterbury Park and Stran & Company
+c14250740292433f33a63896dbe211ae|||AKAM|||Akamai Technologies Inc. stock underperforms Thursday when compared to competitors
+b4766aad9eb327567e335328955f39f4|||AKAM|||AKAM Dec 2028 105.000 put (AKAM281215P00105000) stock price, news, quote and history
+2e8f33355fa959c688aa0a16d48aa580|||CRWV|||CoreWeave (CRWV) CEO Michael Intrator sells $26.7m in stock By Investing.com
+e59d94e8caff726644f447ad2189185e|||SPCX|||Form 4 SPACE EXPLORATION TECHNOLOGIES CORP For: 25 September By Investing.com
+64a0b8d9e867d5f69f35a7edec705089|||RKLB|||RKLB Jun 2028 85.000 call (RKLB280616C00085000) interactive stock chart
+ad0a6d560f2e419a998dc23f882de36c|||NBIS|||Nebius Stock Soars 8% as BNP Paribas Delivers Massive Price Target Hike
+87b78da02417021bc090dbbf6ef5b2ae|||NBIS|||What Does Nebius Group (NBIS) Stock Face After Michael Burry Expanded His Short?
+9323cdd927d2f70961ebf34ac95dc51e|||FCEL|||FCEL Oct 2026 18.500 call (FCEL261009C00018500) stock price, news, quote and history
