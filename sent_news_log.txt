@@ -1723,3 +1723,60 @@ f61854edfdea12b67c11cf22678a2358|||BE|||JELD-WEN, Shoals, Advanced Energy, Ameri
 37d3d01b101496440736d15a1972dcd2|||ETN|||Eaton signs agreement to acquire COL Group, expanding manufacturing capacity and capabilities for data center and utility markets in EMEA
 41ef2deaa01a4eb5cbe200c4d36676f2|||IONQ|||IonQ: Nvidia QPU Catalyst Isn’t Enough (NYSE:IONQ)
 c65bf8de3635034599d01f8e3dc31133|||IONQ|||Does IonQ's NVIDIA Quantum Tie-Up Reframe the Long-Term Hardware Opportunity for Rigetti Computing (RGTI)?
+9d1972659811a9e7d059683a60af836b|||GOOGL|||Microsoft Climbs 4% as Oppenheimer Lifts Target to $570 on Copilot Enterprise Pivot; Alphabet Ticks Up
+9df8c020ddee0a4bb6f0a033e7bd0708|||MSFT|||Should You Buy Microsoft Stock Now That It's Back Within 6% of Its Record?
+e3895f2c8276794780907aa868a313ca|||MSFT|||What Is Microsoft (MSFT) Planning With Its $10 Billion Gulf Cloud And AI Push?
+626645aa3275c55402219ec2d5f9b12f|||MSFT|||Microsoft thinks its new Copilot ‘super app’ will be as influential as Office
+195ab625292a1be8f2d5e53f1b0ca1f5|||MSFT|||Microsoft Climbs 4% as Oppenheimer Lifts Target to $570 on Copilot Enterprise Pivot; Alphabet Ticks Up
+02530e506c0d24d1386d490163f85260|||MSFT|||What's Going On With Microsoft Stock Friday? - Microsoft (NASDAQ:MSFT)
+ab68bf5ff8748458531fcaba4321f838|||MSFT|||Microsoft’s Jacob Andreou on Copilot upgrade and its use cases
+b6f59b2c038fa84f4d47aec05c39834d|||MSFT|||Microsoft releases Copilot update: Here's what you need to know
+33317173370f98fc40effdaac1a7c9c2|||TSLA|||Tesla (TSLA) Stock Falls Amid Market Uptick: What Investors Need to Know
+125048ace02ee54ed711f818c30f9920|||TSLA|||Tesla’s Nine-Year Wait for the Semi Is Finally Over
+eab27ba18975c3492e27097ab796d08f|||TSLA|||Tesla Semi Hits The Road As $6 Diesel Bites Trucking Industry
+67bed89907bdbd8cd0201df04d453df9|||AAPL|||Apple (AAPL) Plans a Health App Overhaul. Can Better Insights Boost Device Sales?
+7a6dd3a4b876f37b055d2378790f60e4|||AAPL|||How Investors May Respond To Apple (AAPL) Launching Its First Foldable iPhone With On‑Device AI
+b983542b8a826ff2c478bca635aa654e|||QCOM|||Qualcomm (QCOM) Renews its Global Patent License With Apple (AAPL)
+2ca66e2138381dc8112f727e04d7b701|||QCOM|||Qualcomm Renews Apple Patent Deal: Can QTL Regain Momentum?
+2c00a62fad6af74ebeed4ccc97cde029|||QCOM|||Bernstein reiterates Qualcomm stock rating after Apple licensing renewal
+39526accb43d007d40314e7c17684b6a|||META|||Why Meta Stock Could Spike if It Crosses This Price Target
+ff7a3c07e803f6be7b73ef311bb606e2|||META|||At Meta Connect, the company’s smart glasses were everywhere
+229b37de34b1868b9383cc12187726e1|||META|||Meta Stock Surges 11% on AI Monetization Hopes
+807cd93facc558b6c911053c6895fc23|||DELL|||Here's How Much a $1000 Investment in Dell Technologies Made 10 Years Ago Would Be Worth Today
+7501f3b1b1bc4b370cedfdc5d4bf9095|||DELL|||Why is Dell Technologies stock rallying today? By Investing.com
+1f52e0d15b74437dde43d9677bcdf170|||NVDA|||NVIDIA (NVDA) vs. Broadcom (AVGO): Which AI Chip Stock Has the Stronger Moat?
+7debdd4a9b5780ccc89edbc69c35bebf|||NVDA|||Nvidia (NVDA) Is Central To New Global AI Rules Debate
+1521e2428e5800e47ce48ff1a02c2daa|||NVDA|||Nvidia Stock Moves Lower as Einride Scales Physical AI
+c4f94d3f6c8e9be1389bdbe9c0be0ffb|||NVDA|||Elon Musk Aims to Double Colossus 2’s Nvidia Chips by Year-End
+19add2b40c27c0f2eb859ae07d1c8612|||NVDA|||NVIDIA CEO’s message to kids about AI
+df3b86181873437eb872b4fbdf66bdca|||INTC|||ARM vs. Intel: What Revenue Growth Trends Reveal About These Artificial Intelligence Companies
+ec0b47a433b792a02c391f3f2b543f51|||INTC|||What Is Intel (INTC) Doing In Edge AI And Brain Inspired Computing?
+72d0780462f6bcb7b8b1cc12863f4d78|||LRCX|||Lam Research Corp. stock outperforms competitors on strong trading day
+8e74b263ababa9d1360020c05ae7ff19|||LRCX|||Lam Research, Marvell Technology, Western Digital, FormFactor, and Penguin Solutions Shares Are Falling, What You Need To Know
+059e4552eabea4b153edf36c252e0d03|||ALAB|||ALAB Sep 2026 382.500 put (ALAB260925P00382500) Stock Price, News, Quote & History
+f6c7391526d4050de10b00f2f9143d30|||ALAB|||ALAB260925C00237500 Interactive Stock Chart | ALAB Sep 2026 237.500 call Stock
+37c72bf06fbbc1836baaf2acea66c8c1|||ALAB|||ALAB Sep 2026 420.000 put (ALAB260925P00420000) interactive stock chart
+e5a2022e0faca80d99b9af02b84d1dbb|||ALAB|||ALAB Sep 2026 357.500 put (ALAB260925P00357500) interactive stock chart
+7d5582440417d0ed97cd41caeedbb705|||ALAB|||ALAB260925P00207500 Interactive Stock Chart | ALAB Sep 2026 207.500 put Stock - Yahoo Finance
+9510f86b7bce22dd4a6d5fb053d3ca59|||MU|||Form 4 Micron Technology Inc For: 25 September By Investing.com
+faaa0b0188dc40142e728a37abae007e|||AKAM|||Stocks making the biggest moves midday: Akamai Technologies, Genius Sports, People Inc & more
+32e996b5c99f7cba0d883122c5420950|||AKAM|||Akamai (AKAM) Lands an $11.6 Billion Anthropic Deal
+141b098ece85ccbe90019c826fa73a67|||TWLO|||Why Twilio (TWLO) Shares Are Getting Obliterated Today
+5714add6939e20b7a7708b55cd90a2c6|||TWLO|||Twilio Shares Drop After Downgrade From HSBC
+c3d194ef233277e5c327d33806ffc5b8|||TWLO|||HSBC Just Downgraded Twilio Stock. Here's Why.
+6e7578090210a383516c06f7aa89b602|||PLTR|||Why Palantir (PLTR) Is Up 6.8% After Expanding AIP Deals And Announcing Nebius AI Partnership
+82235f0add72994ca08ee2bb1b8c1e33|||DDOG|||Why Is Datadog (DDOG) Stock Rocketing Higher Today
+b709dbd47736fa3f8f2b1fdb4df65b00|||PANW|||Palo Alto Networks, Inc. (PANW) latest stock news and headlines
+31be507c4dcf8faae4a3de97d094b250|||PANW|||Form 144 PALO ALTO NETWORKS For: 25 September
+61201ecec0d08d4bf5e190f9cc4fb9f0|||TSEM|||Mizuho bullish on Tower Semiconductor, points to AI optical growth
+457009f655d4cf488b4d0fc29b6dc974|||TSEM|||Mizuho initiates Tower Semiconductor stock at Outperform on AI growth
+5a1d4def6bd5f92e3b6e4948dfea246f|||SPCX|||SPCX Oct 2026 122.000 put (SPCX261002P00122000) Stock Price, News, Quote & History
+cca5ea0bcb32f69cc95e794f19671014|||SPCX|||SPCX260925C00190000 Interactive Stock Chart | SPCX Sep 2026 190.000 call Stock
+7338d7bf9a524106ecea53f74a67941d|||VRT|||Why Vertiv Holdings Co (VRT) Is Back In The Spotlight
+efa67bdb05680a205f1e9f2be07c8980|||VRT|||How to Play VRT Stock as Vertiv Acquires King Environmental Services
+fd5efcd6d47dfa7388fc121cbac16eed|||VRT|||Will Vertiv Holdings (VRT)’s $1.45 Billion UIG Deal Accelerate its AI Infrastructure Growth?
+24429ef2cf7912993e19a399a07c3572|||VRT|||Form 4 Vertiv Holdings Co For: 25 September By Investing.com
+378bdba35e8cc1dc9b5afca17b5649c4|||CIFR|||Cipher Digital extends Barber Lake lease to 20 years
+e213eb4e5ec0546c23b530f0b9954bb0|||BE|||Fluence Energy, Generac, Bloom Energy, Columbus McKinnon, and Viavi Solutions Shares Are Soaring, What You Need To Know
+32e9b13f4b89742188cb3a4d2280829c|||FCEL|||FCEL Nov 2026 11.000 put (FCEL261120P00011000) Interactive Stock Chart
+1612229614c280744a4bd3abb3e48060|||FCEL|||FCEL Nov 2026 25.000 call (FCEL261120C00025000) Stock Price, News, Quote & History
