@@ -1780,3 +1780,41 @@ fd5efcd6d47dfa7388fc121cbac16eed|||VRT|||Will Vertiv Holdings (VRT)’s $1.45 Bi
 e213eb4e5ec0546c23b530f0b9954bb0|||BE|||Fluence Energy, Generac, Bloom Energy, Columbus McKinnon, and Viavi Solutions Shares Are Soaring, What You Need To Know
 32e9b13f4b89742188cb3a4d2280829c|||FCEL|||FCEL Nov 2026 11.000 put (FCEL261120P00011000) Interactive Stock Chart
 1612229614c280744a4bd3abb3e48060|||FCEL|||FCEL Nov 2026 25.000 call (FCEL261120C00025000) Stock Price, News, Quote & History
+02ee8718818c176ac720c6100cc4fdd5|||GOOGL|||Oracle vs. Alphabet: Which AI Cloud Stock Is the Better Buy?
+92ba828120f79a75ba3a564cc682d0ce|||MSFT|||Microsoft Copilot Is Turning Into An ‘AI Operating System’ — Here’s What It Means For MSFT Stock, According To Oppenheimer’s Brian Schwartz
+28dcd0dd4264b360884e543d1199f7b1|||MSFT|||Microsoft Rises as It Unifies Copilot AI | Closing Bell
+2c63e864db5d5af70ab683620e3546d8|||MSFT|||Microsoft unveils Copilot redesign
+307ce91af1fda46adcaa1f6c5fb05351|||TSLA|||What Do Tesla (TSLA) Tunnel And Grid Plans Mean For Investors?
+bcf4df98b931ccc4cfc61703109db1c4|||AAPL|||Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics
+c1fbbc9b8ad919aad1930a2cc7130f1b|||AAPL|||Apple Owes $5.7 Billion for Infringement of Haptics Patents (2)
+e0e98da6216ff188c808b12a685be048|||AAPL|||Apple (AAPL) Eyes an Apple Pay Launch in India. How Much can it Grow Without UPI?
+ead37ca816611b905e829eccf21676c6|||AAPL|||Italy’s Labor Dispute Added a Twist to Apple (AAPL)’s iPhone Launch
+d2816cbf4375e24bf6f9c8b3f599f3af|||QCOM|||ASML vs. Qualcomm: Which AI Semiconductor Stock Is a Better Buy in 2026?
+1c6a9c6cc9a9bd702506522407129cec|||QCOM|||Qualcomm’s Next Flagship Snapdragon SoC To Target Higher Frequencies Of 5.40GHz While Sticking With TSMC’s 2nm N2P Node, But IPC Gains Are Rumored To Stay Under 10%
+f1650dda1688aa92b8c5a20982f30340|||META|||What Meta’s Muse Tells Us About the Agentic Era
+008766bc0767580abccc05c438b8c4c9|||DELL|||Here’s How Much You Would Have Made Owning Dell Technologies Stock In The Last 5 Years
+247e314507277dfce9c62637817104d3|||NVDA|||Nvidia CEO Pushes Back On The 'AI Apocalypse,' But The Risk Of A Slowdown Remains
+a18afb477e21af905d4d15358853acf2|||INTC|||What Is The Case For Waiting On Intel Stock?
+bbd409769ac0e2ac5e487163435421b1|||INTC|||Arm Climbs 5% as Buyers Return After Sharp Pullback; Qualcomm Nudges Higher, Intel Sits Out the Rally
+b7bf8e71645fe51ad83526c627d3fe11|||ASML|||ASML vs. Qualcomm: Which AI Semiconductor Stock Is a Better Buy in 2026?
+10e079e69b064e8c711db8d12f9c4425|||ALAB|||ALAB Oct 2026 175.000 put (ALAB261002P00175000) stock price, news, quote and history
+0edb8304397a5773642970215ce667ef|||MU|||Q4 Earnings Are Likely to Boost the ‘Strong Buy’ Case for Micron Stock
+cc1874f576c8198228ac4aad75951567|||VIAV|||VIAV261218C00041000 Interactive Stock Chart | VIAV Dec 2026 41.000 call Stock
+fe9ebb2bb6b059312f36e9ce59d30d2c|||AKAM|||Why Akamai Technologies (AKAM) Is Up 9.0% After Massive Anthropic AI Cloud Deal - And What's Next
+4b86a6337403de24a27c8fec14f55747|||AKAM|||AKAM’s $11.6B Anthropic Deal Has Wall Street Rethinking The Stock — What Analysts See
+150b58871258949dffe791bf19418cf6|||TWLO|||Twilio Stock Drops After HSBC Downgrade to Reduce
+426e89ab5d7afc59c3cb69ca5d4e42fc|||TWLO|||Twilio downgraded at HSBC despite Muse-induced hype (TWLO:NYSE)
+f1cdd02173c9d56a02ede7b4bbbfa1ad|||TWLO|||Twilio Stock Drops After HSBC Delivers Stark Warning on Meta's Muse AI
+b7c71ca7f54c8cc4b21d4dc7cb8d2857|||TWLO|||HSBC Downgrades Twilio to Reduce From Hold, Price Target is $211
+82700f99c0e3a52685e1c92a4f9000ef|||PLTR|||Figma vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?
+0b145fd004e2c12f9158b9617499a4b0|||PANW|||Qualys, Okta, Palo Alto Networks, Rapid7, and SentinelOne Shares Plummet, What You Need To Know
+96424fd569e50c67e835d20e052c0bdc|||OKTA|||Truist raises Okta stock price target on AI agent strategy By Investing.com
+4c4c1f0fc556f83920c820173ad4ac46|||TSEM|||Tower Semiconductor Ltd. (TSEM) latest stock news and headlines
+9028afc64e34035ac9bf92dc8b0178a5|||SPCX|||SPCX Oct 2026 119.000 call (SPCX261002C00119000) Stock Price, News, Quote & History
+6d48f4c6baf8a2e3d2e9aa7dccddaae5|||SPCX|||SPCX Oct 2026 119.000 call (SPCX261002C00119000) Interactive Stock Chart - Yahoo Finance
+6918d01f290c013e6d9bb8fdef4c05cb|||SPCX|||SPCX Sep 2027 65.000 put (SPCX270917P00065000) stock price, news, quote and history
+7638050d4b2e2f2c2997c710ffc7dd3e|||RKLB|||What's Going On With Rocket Lab Stock Friday? - Rocket Lab (NASDAQ:RKLB)
+8ee59a185169c880547a900d6c67963f|||CIFR|||Cipher Digital extends Barber Lake lease to 20 years By Investing.com
+abd7e395ef4758992d77e7ecbedd0c10|||BE|||Bloom Energy, TSM Lead 5 Stocks Near Buy Points As AI Rebounds
+b02efcd2b1b824367fafa1d2574b5706|||BE|||BE INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP
+4fed0aefc5ef0beb5c6b80b48f0f2653|||BE|||Why is Bloom Energy stock rallying today? By Investing.com
