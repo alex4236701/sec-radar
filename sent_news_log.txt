@@ -1621,3 +1621,105 @@ bf83b9d921fef4a0a64a61f3e11d44ba|||FCEL|||FCEL Sep 2026 36.000 put (FCEL260925P0
 18d632ec36aded60ea6bae7b2170ad76|||GEV|||GE Vernova Will Continue To Underperform Even As Growth Impresses
 c85c2e69df733eb7ffbf017402bed376|||CAT|||Caterpillar vs. Corning: Which Industrials Stock Is a Better Buy in 2026?
 b53c79ebb36832372ef17d64827de891|||IONQ|||Better Quantum Computing Stock: Nvidia vs. IonQ
+bd4c69b963db749c1233e40cb0d66b8c|||GOOGL|||Sundar Pichai Reported Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter, With Nearly 90% of the Fortune 100 Using Gemini Enterprise. Is Google Cloud Becoming a Bigger Growth Driver Than Search?
+d75e72a16ee132ab23cba1980475e999|||MSFT|||Microsoft, IBD Stock Of The Day, Makes Bullish Move As Software Giant Launches AI Super-App
+1309b830f38c09cb4853431e01e73f54|||MSFT|||Stock Market Today, Sept. 25: Microsoft Stock Jumps 4% After Revamping Copilot With Code Generation and Agentic AI Tools
+5e0c84509ba45e90804a4c82e6f947b9|||MSFT|||Microsoft revamps Copilot with code generation, agentic AI tools
+74fc91e4e08416b51a8b912addd45da6|||MSFT|||What's different about Microsoft's Copilot AI reboot
+9e4cf26e7a498db25e88648bd36739f9|||MSFT|||Microsoft Abandons Personal AI Chatbot Race With Copilot Reboot
+ba67b5f6e8952373a99d6394885ef478|||MSFT|||Watch Microsoft Rises as It Unifies Copilot AI | Closing Bell
+9023a4919e3376f5bbf8c6ebe86c29dc|||MSFT|||Microsoft Launches Copilot ‘Super App’ in Push to Monetize AI
+98d7d964326cf5aed4cd95e5545b4a1d|||MSFT|||Microsoft Introduces Three New Capabilities to Copilot App
+0828f784912994c7a16727033877abe4|||TSLA|||Tesla’s stock falls as launch of Semi truck fails to excite investors
+e1474752083e39ae4cf05576ee38cfc4|||TSLA|||EU vote on Tesla's supervised self-driving system pushed back
+c58f88eae4e01768d6aedba6c3d66ada|||TSLA|||Tesla opens new semi factory: What you need to know
+2a064bc68fe4eb5121e163f7e925d3ea|||TSLA|||Tesla workers balk at training Optimus humanoid robots as replacements
+a38ec0db9a3adfdcc960bdc6cca571cb|||TSLA|||Tesla pullback a buying opportunity, expert says
+c37f19c4a67b9be71ff769d8dae72b1f|||TSLA|||Tesla’s Optimus robot is going through growing pains
+46d9660d477735255694be8443b9f78f|||TSLA|||Tesla's Semi Is Finally Moving Into a Bigger Test
+8396ba280a31394d16b6ed65bdc687be|||TSLA|||Tesla Starts Semi Deliveries Nearly Nine Years After Unveiling
+9434106e1cf0857e343b14c0332f9b53|||AAPL|||Qualcomm Stocks Jump as Apple Extends the Royalty Bridge
+48d07de1d3d17dd34f6aebec6ad085c9|||QCOM|||Qualcomm Stocks Jump as Apple Extends the Royalty Bridge
+be5bde31d23b60a2e371588c4ce0017c|||QCOM|||Qualcomm Inc. stock outperforms competitors on strong trading day
+3cc571e73efb8982e076bfb9146d68c8|||QCOM|||Arm Climbs 5% as Buyers Return After Sharp Pullback; Qualcomm Nudges Higher, Intel Sits Out the Rally
+7a8971f7054f91717141ee3209fad19f|||QCOM|||Qualcomm Renews Global Apple Patent License — Extends Key Licensing Relationship Into 2027
+c83db9ffe35a6a55ece5147a6c2a40c7|||META|||Shopify to Use Meta’s Muse for Agentic Checkout
+e44d1a5185212742eae4c49fa4028008|||META|||Meta Seeks Success Where Others Failed With New AI Lineup
+07be6a437a2a24d9474dbd56316169ab|||META|||Why Meta Platforms Stock Reversed Today
+7f98931d57c4713866985bd07dfa0786|||META|||Meta makes the Muse filesystem even more accessible
+d82f859ddb00da9a7c42a404075de1d9|||META|||As Meta Platforms Launches New VR Glasses, This Is How You Should Play META Stock
+2ad62f87475e5dd7669bd55ef22d9f90|||META|||Meta Drops 2.8% as Muse Escapes the Smartphone
+7cb94dfc3e2a655ad88bcb550c8b1f5c|||META|||Deutsche Bank Raises Price Target on Meta Platforms to $820 From $750, Keeps Buy Rating
+e69ed8a81cf5529b33fa0d2522379627|||META|||Twilio Stock Drops After HSBC Delivers Stark Warning on Meta's Muse AI
+8af89872a7e1b48ffffc9f1eb8bae699|||META|||Can Meta Stock Keep Climbing After a 30% Month? JPMorgan Raises Its Price Target
+5b684e14190acc02d01509eb0a0ea3ea|||DELL|||Dell Technologies climbs 5% as choppy trading continues (DELL:NYSE)
+0915a77f7541c506942c9fcaecdf148e|||DELL|||Dell Rises 7% as Morgan Stanley Lifts Odds on $756 Bull Case; Hewlett Packard Enterprise Edges Higher
+cee9cd3a026517a031d4db027efa58fb|||DELL|||Why is Dell Technologies stock rallying today?
+75ab6f6f4332a161f65fed32452a42d9|||DELL|||Why Is Dell Technologies (DELL) Reworking Its AI Strategy Under John Roese?
+5b2259c6679801ea298b8755d540fa36|||DELL|||Dell Technologies Inc. (DELL) Stock Forecasts
+75bbdf19889a59ace21b13ee6f7f18b6|||HPE|||Dell Rises 7% as Morgan Stanley Lifts Odds on $756 Bull Case; Hewlett Packard Enterprise Edges Higher
+41840958356a1fa1484eba0c12119816|||NVDA|||Micron vs. NVIDIA: 1 AI Stock to Buy Now and 1 to Watch
+d7f5f2e4ea2a93e6c18627c586ce34c7|||NVDA|||Does IonQ's NVIDIA Quantum Tie-Up Reframe the Long-Term Hardware Opportunity for Rigetti Computing (RGTI)?
+7b0dc27800077843ceefd6cfbc35a6a1|||NVDA|||Nvidia (NVDA) Down 1.5% Since Last Earnings Report: Can It Rebound?
+71f173171c2fe7181b9bb2c492672e77|||NVDA|||Nvidia Stock Rises as Elon Musk Reveals Huge New AI Chip Plans
+b3835f84f4c8cbf6756ff28ead897b18|||NVDA|||IonQ: Nvidia QPU Catalyst Isn’t Enough (NYSE:IONQ)
+9787e3ec52e14f0c73655706409e4261|||NVDA|||How IonQ’s On‑Prem Quantum System At NVIDIA (NVDA) Has Changed Its Investment Story
+72326ba62a8aa83bb595bbe893b82c99|||INTC|||Is Now the Time to Bet on Intel’s (INTC) Server CPU Comeback and AI Ambitions?
+4997c65773c9e2f7bcdf2e262b737302|||LRCX|||Lam Research (LRCX) Outperforms Broader Market: What You Need to Know
+616fb97ae67b6c3fb2560cc88075a0f8|||MRVL|||Marvell Technology, Inc. Declares Quarterly Dividend Payment
+f28ac76d90cc2dc1c663443d2f1708ee|||MRVL|||Lam Research, Marvell Technology, Western Digital, FormFactor, and Penguin Solutions Shares Are Falling, What You Need To Know
+df5dc5a41688b67bed2bbe548e63c187|||MRVL|||Form 4 Marvell Technology Inc For: 25 September
+963fc4da930eaf387a38b20fb13dd2fa|||ALAB|||Astera Labs, Inc. (ALAB) Exceeds Market Returns: Some Facts to Consider
+0a13005bd3a7c32c603c1dc8610200a2|||ALAB|||ALAB Sep 2026 225.000 put (ALAB260925P00225000) interactive stock chart
+bd36eb201424da9e7939f1b5467da0e8|||ALAB|||ALAB Sep 2026 322.500 put (ALAB260925P00322500) interactive stock chart
+1f0aed4cd8210079b05e2cce74b4a36a|||MU|||Micron Technology Stock Wavers Ahead Of Fiscal Q4 Earnings Report
+4027fdbca65d7d6baa72be8fcbd22eae|||MU|||Micron Likely to Beat Q4 Earnings Estimates: How to Play MU Stock?
+fc8d501854ff721faae7d07d47704e32|||MU|||EXCLUSIVE: Micron’s Low P/E May Be Lying to Investors
+83f228ef3902de7d4d11ab2a334d0047|||MU|||Form 4 Micron Technology Inc For: 25 September
+f62e674b830b806bb89bb8e54feb3ade|||SNDK|||Form 4 SanDisk Corporation For: 25 September By Investing.com
+5dc32638f149783cda1b6edccd90e575|||WDC|||Western Digital, FormFactor, Penguin Solutions, Himax, and Power Integrations Shares Are Falling, What You Need To Know
+162dc1736b2cc625b131e21945168edb|||VIAV|||Why is Viavi Solutions stock surging today?
+da31ccfef2f5878c85c278d9d81a2456|||VIAV|||VIAV270115P00025000 interactive stock chart | VIAV Jan 2027 25.000 put stock
+eba39488e9024bb84c23bdd7b4fe53f1|||AKAM|||Akamai (AKAM) Stock Trades Up, Here Is Why
+b53db67469469df90f2f50330aa992cb|||AKAM|||Akamai Technologies: Anthropic's Multibillion-Dollar Infrastructure Partner (NASDAQ:AKAM)
+9f2a9e0eeda8b87a4ac3ca9c584df16e|||AKAM|||CrowdStrike Stock Slides Amid Akamai's $11.6 Billion Deal
+9281bd70673a46bd99e5c786ccc8e005|||AKAM|||Akamai Technologies Soars on Anthropic Deal; Costco Earnings Beat | Stock Movers
+9de28285baef14b5659e3d21b5501b39|||AKAM|||Akamai Technologies' Anthropic Deal Improves Cloud Business Visibility, Oppenheimer Says
+01ce4a354407a3991b9d57b1bf682084|||AKAM|||Akamai Technologies, Inc. (AKAM) Stock Forecasts
+da1781d2bd90eb71368104fae2735b44|||AKAM|||Form 144 AKAMAI TECHNOLOGIES INC For: 25 September By Investing.com
+29102d22973bd625774ee3c8494e531f|||BB|||Why Is BlackBerry Stock Falling Friday? - BlackBerry (NYSE:BB)
+5a5a61d429d6625a9b9070df53f14e2d|||BB|||BlackBerry Drops 7% as Post-Earnings Rally Unwinds Despite Record QNX Quarter; MobilEye Adds 2%
+8134b4d4fc473a208b8a904075e88957|||BB|||BB Stock Eyes Best Week In 3 Months As QNX Royalties Become ‘Star Of The Show’ — President’s Holdings Revealed
+688de6bbaa40d86195e3bec3db6bb6ad|||VICR|||Vicor (VICR) Stock Is Rallying on Royalties. History Says Be Careful
+e8d630d8cc19a6b50e00b5e9f42d22a9|||CRWV|||CoreWeave CFO Nitin Agrawal sells $4.84m in company stock
+35f35a9539986085e03701bacea7aa24|||PANW|||Palo Alto Networks (PANW) Stock Slides as Market Rises: Facts to Know Before You Trade
+5df97e34d875923c444ea160f71d6df9|||PANW|||Palo Alto Networks (PANW): Can Platformization Keep Driving Growth?
+852eeedfc8a4aa2087948591825f908c|||PANW|||Palo Alto Networks Is Turning OpenAI and Anthropic Into a New Revenue Opportunity
+ce4cfade1899e219468cccf13c729c89|||OKTA|||BMO Capital raises Okta stock price target on AI expansion
+0e2b5e55fa3dd97f7cc14af40ad552fd|||OKTA|||Okta Poised for Sustainable Revenue Acceleration, Macquarie Equity Research Says
+a478529b4b97b1de87ecfd3d00ebda10|||OKTA|||Okta, Inc. (OKTA) stock price, news, quote and history
+d4eff286c48b551a8902180e97336f04|||NET|||Is Cloudflare (NET) Overvalued On Its New AI Controls Launch?
+f5742dd83a4c46882396d365a4f4a892|||LITE|||Lumentum’s $40 EPS Bet Changes Everything (NASDAQ:LITE)
+e3a8544a349a36cd9513df184606f90f|||CIEN|||Here is Why Growth Investors Should Buy Ciena (CIEN) Now
+329ed9a75bb5bb492121280fa1865beb|||TSEM|||Tower Semiconductor to invest $4 billion in Japanese ops to set up massive optical connectivity hub
+20f5958627d662135726b7b3efc12141|||TSEM|||Why is Tower Semiconductor stock surging today?
+bf3a25ebaa9248c0c5852384716c5434|||TSEM|||Mizuho initiates Tower Semiconductor stock at Outperform on AI growth By Investing.com
+78fe51fd98665933caa3e19e54373f7d|||SPCX|||SPCX Sep 2026 143.000 put (SPCX260925P00143000) stock price, news, quote and history
+7449730977350b0f6983f261938676ee|||SPCX|||SPCX260925P00155000 interactive stock chart | SPCX Sep 2026 155.000 put stock
+405380423c4469459639b13d690b8114|||RKLB|||RKLB Oct 2026 76.000 put (RKLB261030P00076000) stock price, news, quote and history
+f9776679f933835225a828e43a5ed711|||RKLB|||RKLB Jan 2029 40.000 call (RKLB290119C00040000) interactive stock chart – Yahoo Finance
+822163f66709b874a0bd8f6761a622d7|||VRT|||Form 4 Vertiv Holdings Co For: 25 September
+5bb5246d92163d04eaf9df65e32ed3d1|||VRT|||What's Going On With Vertiv Stock Thursday? - Vertiv Holdings (NYSE:VRT)
+05dd11dbc9f05796a53c4f91fbae1adc|||NBIS|||Why Is Nebius Stock Surging on Friday? - Nebius Group (NASDAQ:NBIS)
+b900299a6956af6f83eaf4b102fb0687|||CIFR|||Cipher Digital Stock Rises as Contracted Revenue Tops $9 Billion
+8060cd1befbe9b311e288b34fddb399b|||CIFR|||Cipher Digital stock jumps after extending Barber Lake lease
+d9619f92c85d5f8cf28289c32dde7819|||CIFR|||Cipher Digital Expands Barber Lake Contracted Term to 20 Years
+f5fbf2602703416cf984b7598adda268|||BE|||Bloom Energy (BE) Is Up 8.7% After Oracle Reaffirms 2.4 GW AI Fuel Cell Deal Commitment – Has The Bull Case Changed?
+d5c875cc2521dc4d395192443507752c|||BE|||Bloom Energy Stock Is Today’s Top S&P 500 Performer. It Has a Lot to Do With Oracle.
+8c13d78ddacda24a8b82a000b062197d|||BE|||BLOOM ENERGY CLASS ACTION DEADLINE MONDAY: Bragar Eagel &
+b12d4452daf8ab4e4e52c5760116b895|||BE|||U.S. Markets Rose Friday; Bloom Energy Topped Leaders
+f61854edfdea12b67c11cf22678a2358|||BE|||JELD-WEN, Shoals, Advanced Energy, American Superconductor, and Bloom Energy Shares Plummet, What You Need To Know
+9e340cada9fe9e6b2c95c19b2e9be2a9|||FCEL|||FCEL Nov 2026 15.000 put (FCEL261120P00015000) interactive stock chart
+37d3d01b101496440736d15a1972dcd2|||ETN|||Eaton signs agreement to acquire COL Group, expanding manufacturing capacity and capabilities for data center and utility markets in EMEA
+41ef2deaa01a4eb5cbe200c4d36676f2|||IONQ|||IonQ: Nvidia QPU Catalyst Isn’t Enough (NYSE:IONQ)
+c65bf8de3635034599d01f8e3dc31133|||IONQ|||Does IonQ's NVIDIA Quantum Tie-Up Reframe the Long-Term Hardware Opportunity for Rigetti Computing (RGTI)?
