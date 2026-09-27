@@ -1818,3 +1818,38 @@ b7c71ca7f54c8cc4b21d4dc7cb8d2857|||TWLO|||HSBC Downgrades Twilio to Reduce From 
 abd7e395ef4758992d77e7ecbedd0c10|||BE|||Bloom Energy, TSM Lead 5 Stocks Near Buy Points As AI Rebounds
 b02efcd2b1b824367fafa1d2574b5706|||BE|||BE INVESTOR DEADLINE APPROACHING: Faruqi & Faruqi, LLP
 4fed0aefc5ef0beb5c6b80b48f0f2653|||BE|||Why is Bloom Energy stock rallying today? By Investing.com
+385253d08f98acd41f6ebe9b4ad8702e|||MSFT|||3 Cloud And AI Stocks Retail Investors Are Watching After Microsoft Copilot Expansion
+3ea15dbc3d860c055c749814b6fbbda0|||TSLA|||Diesel Prices Are Soaring, and Tesla Is Finally Delivering Its Semi
+eedacbad8a26c46c5f407e0109f775d8|||TSLA|||Tesla Stock Sits 25% Below Its High as Semi Deliveries Begin
+cb5c294cfe2c2267f37a8d9ee00eefba|||TSLA|||Groundbreaking Developments Every Tesla Investor Needs to Know
+6ac32d71e8a9231f5aa0a50b73bf53cc|||TSLA|||Tesla Says Its Semi Is Finally in Volume Production. So, Why Did the Stock Fall?
+8725ddfdb73467bab8a2dc288a0450fa|||AAPL|||US jury says Apple owes record $5.7 billion in haptic technology patent case
+adc701e78ae4c92edd0c7f38446b486e|||AAPL|||Apple hit with $5.7 billion in damages over haptic patents
+45a03fb39b739dad09b075934d88d894|||AAPL|||Apple Hit With $5.7 Billion Patent Verdict Over iPhone, Apple Watch Haptics - Apple (NASDAQ:AAPL)
+dac7eb4fe370f9302dda28743c512f7e|||AAPL|||Apple owes Taction Technology $5.7B for violating haptics patents
+8418060d8d0ae3c843ce0112bf8f59bc|||QCOM|||QUALCOMM Incorporated (QCOM) Stock Forecasts
+1e35bfcec900808efbcec1df03645d28|||META|||Shopify (SHOP) Is Up 10.7% After New Meta AI Pact And Tailwind Labs Deal - Has The Bull Case Changed?
+81da0f85f078a70341a52a07d19c2006|||META|||Mark Zuckerberg Loses Nearly $9 Billion in One Day as Meta Stock Slides 4% After Goldman Questions AI Spe
+baef946ff4a3baed8ca48fe1fbda70ef|||META|||Consumer Tech (Sep 21-25): Meta Launches Muse & Smart Glasses, US-China Ensure AI Remains "Under Human Co
+32859f6525ef59f510240194d604b0f5|||META|||Fastly (FSLY) Is Getting More Interesting. Meta’s Muse Is Part of the Reason
+acf3c9ebb6429e200493e3a75cb94d38|||NVDA|||3 Reasons Why Nvidia Fits Warren Buffett's Investment Style
+5cd1328c08f2585f549a94c228004e51|||ALAB|||Form 4 Astera Labs Inc For: 27 September By Investing.com
+dc6fba1725182cb2ae3d45e22331385a|||ALAB|||Astera Labs Inc. R (64B.DU) Q1 FY2026 earnings call transcript
+68c4f45f006d73e8d258d2f035e575a8|||ALAB|||ALAB Oct 2026 175.000 put (ALAB261002P00175000) Stock Price, News, Quote & History
+fc8bd207b66d29b8580d05a77edadfbf|||ALAB|||ALAB Oct 2026 272.500 call (ALAB261002C00272500) Interactive Stock Chart - Yahoo Finance
+1b2b5e38aee7b99fe4eae664e064154d|||MU|||What Lies Ahead for Micron (MU) in the Upcoming Fourth Quarter Report?
+0e230625f06b21cdbe007cd421259d1a|||MU|||Prediction: Micron Will Crush Earnings And...
+d1fd757a4de8fa0f0ba6325bef708862|||MU|||Micron Stock Clears Key Resistance as Analysts Predict 352% Revenue Surge
+c22ac41a69badcaf21469a77126692b5|||MU|||Form 4 Micron Technology Inc For: 27 September By Investing.com
+d9cc822168601940bf2c187e056da8e7|||SNDK|||Down 23%, Should You Buy the Dip on Sandisk Stock?
+569955dbd5fdee49a18aa733ea305c84|||VIAV|||Form 4 Viavi Solutions Inc For: 27 September By Investing.com
+8a688c849fb8bc3fe10a493e44c8ce14|||OKTA|||Form 4 Okta Inc For: 27 September By Investing.com
+98d538f4578875dad118201602d6aad6|||TSEM|||Tower Semiconductor Ltd. (TSEM.TA) Stock Price, News, Quote & History
+368bd98b799a30e4851b9fd859394591|||TSEM|||Tower Semiconductor (TSEM) Jumped, What Is Behind The Latest Attention?
+eff95916155fb843cca19b2337efb1f1|||SPCX|||SPCX Oct 2026 121.000 put (SPCX261002P00121000) stock price, news, quote and history
+fc14924bedb10ce0b0952a11764b940d|||RKLB|||RKLB Oct 2026 52.000 call (RKLB261002C00052000) Interactive Stock Chart - Yahoo Finance
+8e61ebfb3ce0c46f2cafa169ffa89492|||CIFR|||Cipher Digital signs $5.2B, 10-year extension for Barber Lake Fluidstack Deal
+e9beadbc52730908834c0db046ed1be9|||FCEL|||FuelCell Energy (FCEL) Is Down 8.9% After Securities Suits Alleging Misleading Capacity And CEPA Disclosures
+a645cd0bda3fab3d062eee8494d234cd|||FCEL|||FCEL Investors Have Opportunity to Lead FuelCell Energy, Inc. Securities Fraud Lawsuit
+9dcee512bfde16fa2f206773773c2f4b|||GEV|||Is It Too Late to Buy GE Vernova After Its 45% Gain in 2026?
+7e0fea610cdcc502d586db64145535db|||IONQ|||IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang’s 30-Year Quantum Warning
