@@ -1911,3 +1911,25 @@ b31e53194d8893ef12322c4840c0e962|||OKTA|||Okta (OKTA)’s AI Agent Opportunity I
 2992920b04d3442199f443b8f7389f81|||SPCX|||SPCX Oct 2026 85.000 put (SPCX261023P00085000) stock price, news, quote and history
 6259618667b5c1b6f886edfc0902a9d1|||SPCX|||SPCX Aug 2027 160.000 call (SPCX270820C00160000) Stock Price, News, Quote & History
 d92851e8f0715f52c13b2fde98e39d41|||GEV|||X-Energy vs. GE Vernova: Is the New IPO the Better Buy?
+4e6e6a66fa0faf48e6fb9f23b3576f0d|||MSFT|||Citizens reiterates Microsoft stock rating on new Copilot features
+6771b60bf20fe58283aee1d2e5a3613b|||META|||Why Investors Should Be Bullish on Meta Platforms and Its AI Strategy
+a7242ffcef7132147a1f404fe203f7fb|||META|||Could AI Commerce Reshape Meta (META)’s Business Model?
+9a9e41c8b5a03eff3a0c2a2e5f57e025|||AVGO|||Broadcom Stock Is Back Where It Ended 2025, but Its Earnings Are About 43% Higher. Is It a Buy?
+f52f023203ff8e34e45249ee919fc561|||NVDA|||Market Chatter: Nvidia's New AI Chips Could Enter Chinese Market
+9c8aef3c5c7e5cece2bc1ce0b4debf6e|||NVDA|||Update: Market Chatter: Nvidia's New AI Chips Could Enter Chinese Market
+1bce2190fe88276567f7d16ca22c4191|||NVDA|||Nvidia introduces open-source tool to boost AI security (NVDA:NASDAQ)
+1e3da11fc946292610fa4344fc3f0c4e|||NVDA|||Nvidia launches AI security tools to prevent agent breaches
+59e48c7ca97892132784be7b79ac4bbc|||ALAB|||Astera Labs: Promising Growth, Concentrated Revenue, And A Demanding Price (NASDAQ:ALAB)
+354dc73b398a60682aceb8ba530399d4|||MU|||Micron: Remains A Strong Buy Ahead Of Q4 Earnings (NASDAQ:MU)
+640e6fb26452882b2838cc91c87b6cb9|||MU|||Micron Earnings Preview: Analysts See Over 350% Revenue Jump As Retail Bulls Bet On Fresh Buyback
+0c48722d09e48822abe298ed422c0ced|||SKHY|||SK Hynix falls as Solidigm US IPO plan sours mood (SKHY:NASDAQ)
+79d2c22f954667ab1bf3a8231d59ea0c|||SKHY|||Why is SK Hynix stock sliding today?
+7642bf619e83040b77c8bd4e281dfb37|||SKHY|||SK Hynix falls on Solidigm IPO concerns, Samsung also drops
+f3be1ee0679886fc04289f1dbce033d5|||SKHY|||SK Hynix falls on Solidigm IPO concerns, Samsung also drops By Investing.com
+fbbf7d08083c78b6f67d46fdc302e565|||SKHY|||SK Hynix doji at Fibonacci inflection ₩1,808,000: Live levels By Investing.com
+d7cecf9b07c3cf3adb0604c65ad77a4b|||ASX|||ASX defies rate hike fears to edge higher
+8d737a197b1662b368c227c9b1680914|||VIAV|||VIAV261120C00026000 Interactive Stock Chart | VIAV Nov 2026 26.000 call Stock
+55952a766f2efb8e440c68e7c8ca83d0|||PANW|||Palo Alto Networks (PANW) Lets Customers Pay Later. Is Credit Risk Rising?
+5ba945dfafcbc452e4aa3e6b8fc9cd26|||OKTA|||Citizens raises Okta stock price target to $225 on AI security demand
+e869db93855d83693a70aec420a68324|||TSEM|||Tower Semiconductor Ltd. (TSEM) stock price, news, quote and history
+b07367c6e48a422dc10ec9a8169690a3|||ETN|||Eaton to acquire COL Group for $923m
