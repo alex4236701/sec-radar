@@ -26,7 +26,7 @@ SEC_HEADERS = {
 
 # 核心標的備援名冊
 CORE_FALLBACK_NAMES = {
-    "QCOM": "Qualcomm", "NVDA": "Nvidia", "AAPL": "Apple", "TSLA": "Tesla",
+    "QCOM": "Qualcomm", "NVDA": "Nvidia", "AAPL": "Apple", "TSLA": "Tesla", "AMD": "Advanced Micro Devices",
     "MSFT": "Microsoft", "GOOGL": "Alphabet", "AMZN": "Amazon", "ARM": "Arm Holdings",
     "AVGO": "Broadcom", "INTC": "Intel", "MRVL": "Marvell", "TSM": "TSMC",
     "ASML": "ASML", "AMAT": "Applied Materials", "LRCX": "Lam Research", "KLAC": "KLA",
