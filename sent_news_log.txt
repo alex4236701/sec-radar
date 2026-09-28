@@ -1894,3 +1894,20 @@ a36977a9f3a079f631a66547ef4c0216|||WDC|||Up 163% Year to Date, Is Western Digita
 4a19005ad4698cae911d5cf8b758cbc5|||ASX|||ASX Preview: Australian Shares Set for Muted Open Ahead of Expected RBA Rate Hike; Northern Star Resources Rejects Unsolicited Gold Fields Takeover Proposal
 4661227f52f8df1f21df782ae7edfcbd|||SPCX|||SPCX261023P00157500 Interactive Stock Chart | SPCX Oct 2026 157.500 put Stock
 46d96c15520a6b4b5c197c201ec17ac3|||CIFR|||Cipher Digital (CIFR) Extends Barber Lake Deal to $9 Billion and 300 MW
+ff2f1062c7ca9ea8f4e88309b487b5ae|||MSFT|||Microsoft Corporation (MSFT) Wants AI to Do More. Can Customers Keep Up?
+cd6af56e1d539c89d4baba1bcc0292e9|||MSFT|||Microsoft overhauls Copilot to take on AI rivals like Anthropic
+772b7f6ff59ef3b144bab6b86b22a1fe|||AAPL|||Apple (AAPL)’s Premium iPhone Strategy Faces a Test Beyond Early Adopters
+d87be7c3e40b9bfb39d952f297acb6cb|||META|||Why Meta Platforms Stock Jumped 13% This Week
+708f203c6ccf0a789e09d2b1522857c6|||META|||Muse Could Be the Third ‘S-Curve’ in AI So Buy Meta Platforms Stock Now
+8791366be9bb1524d70102c61aeccc1d|||META|||Elon Musk Amplifies Privacy Concerns Over Meta’s Muse After Reports Emerge AI Agent Accessed Private Messages
+1fea9ff056806855bc1a832804a6fa1b|||DELL|||Dell CFO David Kennedy sells $14 million in company stock By Investing.com
+476c094765e446194d83d9216829307d|||MRVL|||AMAT,NVDA,META,CSCO,EXPE,LYFT,MRVL,CART | Stock Prices | Quote Comparison - Yahoo Finance
+35ea5ea6015537c7e1116a3aeecc4a93|||SNDK|||Should You Buy Sandisk Stock After Its $14 Billion Buyback Announcement?
+76dee2ce19c7c5b9824b3761d910274a|||SKHY|||SK Hynix Shares Fall as Solidigm’s Potential US IPO Sours Mood
+d655a5cc6d41495c6492de4c668141ca|||SKHY|||Why is SK Hynix stock sliding today? By Investing.com
+e77ec16185358987d8d985af1777d9d3|||ASX|||The Morning Catch-Up: ASX set for cautious start as RBA rate hike looms
+b31e53194d8893ef12322c4840c0e962|||OKTA|||Okta (OKTA)’s AI Agent Opportunity Is Expanding. Is the Stock Already Pricing It In?
+4381645c7c6b9bb70c2c4f4c32aa7dc4|||TSEM|||TSEM271217C00430000 interactive stock chart | TSEM Dec 2027 430.000 call stock
+2992920b04d3442199f443b8f7389f81|||SPCX|||SPCX Oct 2026 85.000 put (SPCX261023P00085000) stock price, news, quote and history
+6259618667b5c1b6f886edfc0902a9d1|||SPCX|||SPCX Aug 2027 160.000 call (SPCX270820C00160000) Stock Price, News, Quote & History
+d92851e8f0715f52c13b2fde98e39d41|||GEV|||X-Energy vs. GE Vernova: Is the New IPO the Better Buy?
