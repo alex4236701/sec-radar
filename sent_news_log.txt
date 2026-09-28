@@ -1933,3 +1933,48 @@ d7cecf9b07c3cf3adb0604c65ad77a4b|||ASX|||ASX defies rate hike fears to edge high
 5ba945dfafcbc452e4aa3e6b8fc9cd26|||OKTA|||Citizens raises Okta stock price target to $225 on AI security demand
 e869db93855d83693a70aec420a68324|||TSEM|||Tower Semiconductor Ltd. (TSEM) stock price, news, quote and history
 b07367c6e48a422dc10ec9a8169690a3|||ETN|||Eaton to acquire COL Group for $923m
+ea82824feb0dc7f685baf3d4f3ebc594|||GOOGL|||Zacks Investment Ideas feature highlights: Alphabet, Apple and NVIDIA
+6a230b2093b34aceb1f4876c621d2da3|||GOOGL|||Nvidia, Micron, Alphabet, Oracle and Adobe are part of Zacks Earnings Preview
+f9d619bf2f4e97ab61cac6d276b49eab|||TSLA|||Tesla says Gigafactory Texas helps power Semi production milestone
+2e9c64c879a2539e4625647a2a89cb19|||AAPL|||Zacks Investment Ideas feature highlights: Alphabet, Apple and NVIDIA
+ae6e58d232d6eede4bb3ad1e15d86d1d|||AAPL|||Nvidia Tops Apple With the Largest Stock Buyback in U.S. History
+7ef431fa6a7c7a2349e37fd7e3435b86|||AAPL|||Apple Had the Blueprint for a Lighter Vision Pro But Scrapped It—Now Meta’s $1,299 VR Glasses Could Succe
+3d629491000ce35ecf568283a5f72a83|||AAPL|||Apple, Amazon face UK consumer class action over 2018 sales deal
+42ae9b021181a1b6449fb90b710f6bcd|||META|||Meta Seeks Payoff From AI Spending With New Push for Business Customers
+9dc88c2f9d382fb7137996ba3f006d66|||META|||Meta Stock Drops Again. Is Its Muse Boost Already Fading?
+2dfbeb17593698e54cf4c7c1d5cf6687|||META|||Meta Stock Pulls Back After Muse-Fueled Rally. What Investors Are Watching Next.
+e61b8fd1b433ceac346434680880d2db|||META|||MongoDB stock drops 15% as CEO Desai resigns for Meta
+8893350d1bef997f6817ac1daa0d1594|||META|||Meta: This Was Just A Warm-Up (NASDAQ:META)
+c17d299b7ff0f6266756b8095a66111e|||META|||Meta's Muse AI Rally Is About To Disappoint You (NASDAQ:META)
+c6471c54bc73a9bd4cbb207dbea15b51|||META|||Sportradar: Meta’s Muse Could Change The Story, But I Need Proof (NASDAQ:SRAD)
+0fee05a2a8e6abe82b39fa4c7826e98e|||META|||Why Meta’s 13% Stock Gain Last Week Could Be Just the Start — Gene Munster Sees $11 Billion Revenue Oppor
+1039fd51964fb4b9ff2205e33a3de55b|||META|||Jefferies reiterates Meta stock rating on Muse AI product strength
+631a28b882ed7c25e8fd654e637b1118|||NVDA|||Nvidia boosts share buyback by record $150 billion as AI boom fuels growth
+8f5baad6407f291a3f3358013e064d40|||NVDA|||Nvidia Adds Record $150 Billion to Stock Buyback
+21360d62287220c0638b544382adc9d3|||NVDA|||Nvidia announces jaw-dropping $150 billion stock buyback, largest single authorization in history
+7782e1d5a4effbe3903f297fcbd43f6a|||ALAB|||Astera Labs: The Multi-Year AI Connectivity Boom Is Too Hot To Handle (NASDAQ:ALAB)
+168df6e1cc709ea836843ba3635a4042|||MU|||Micron's Stock Faces Another Post-Earnings Plunge (NASDAQ:MU)
+1c96873fdbcff49373183cf825096bf4|||MU|||What's Going On With Micron Technology Stock Monday? - Micron Technology (NASDAQ:MU)
+d8ee9545972337efc837179c22f16f7e|||MU|||Micron Likely to Report Upbeat Quarterly Earnings Amid Favorable Memory Pricing Trends, Wedbush Says
+3b439c20b559cc6717006a78b3319e59|||MU|||Earnings Week Ahead: MU, NKE, CCL, and more (NASDAQ:MU)
+e97f2524711f255b5023c20879d5f4a5|||SKHY|||Why Is SK hynix Stock Falling Monday?
+ae212571976a67772bf6c29fb632c0e9|||SKHY|||SK Hynix Shares Plunge After Report Reveals Potential $100 Billion Solidigm IPO
+17b6d267b826e114563d29c509eea64c|||SKHY|||SK hynix: Massive Capex Ramp Puts The Company In A Tough Spot (NASDAQ:SKHY)
+db4a44eaa768e49a0c7d95e4b94e98d2|||SKHY|||SK Hynix (SKHY): Can Solidigm Become a Bigger Part of the Story?
+03c3b685978056b9910bfda539b7399e|||SKHY|||SK Hynix coils at ₩1,786,000 in classic squeeze: Live levels
+e932378be12a331f9289e5574b5d36e4|||STX|||Is Seagate Stock a Buy, Hold, or Sell Above $900?
+285897a474271a513d5de0d423655ddf|||VIAV|||Viavi Solutions Inc. (VIAV) Stock Price, News, Quote & History
+bf548cee2d4ed2c0669a1cb192940eb2|||SNOW|||Snowflake shares slide as $3.5B debt offering sparks dilution jitters
+0925878b3acd6781a82c8fa58db1dea2|||SNOW|||Snowflake Shares Fall After $3.5 Billion Convertible Note Offering
+bc38a127d0d1b6b813a483963aa24173|||SNOW|||Snowflake plans $3.5 billion convertible notes offering By Investing.com
+9af0c7912156e71bc52280a8bf9ab703|||SNOW|||Why is Snowflake stock sliding today? By Investing.com
+e0b31f3abe92dd5771a9f065fe8db556|||SNOW|||PhillipCapital initiates Snowflake stock with buy rating on AI growth By Investing.com
+3866b24dba0fdba02e8e59c5f6c9dcdd|||SNOW|||Form 144 Snowflake Inc. For: 27 September By Investing.com
+32420caae9517b2b138d980c780941e9|||OKTA|||Okta’s AI Security Role Can Drive ‘Durable Growth Re-Acceleration,’ Says Citizens — Lifts Target To $225
+c995f4ff7912c16cdf99f1f5e472bc70|||OKTA|||Scotiabank raises Okta stock price target on AI agent demand
+1189b01cf4381b2832d2166a37d9c264|||OKTA|||Okta, Inc. (OKTA) Stock Price, News, Quote & History
+3a79512350320f85578b73646b631d55|||TSEM|||TSEM261016P00095000 Interactive Stock Chart | TSEM Oct 2026 95.000 put Stock
+1d607c4394ddd8ba521bb11660f074cb|||TSEM|||TSEM Apr 2027 260.000 call (TSEM270416C00260000) Interactive Stock Chart - Yahoo Finance
+f14516ba163db6a1dc8011bc803fe557|||RKLB|||Why Is Rocket Lab Stock Falling Today?
+f54b0f4cdd8d24ed02370893d1af82ed|||CRCL|||Circle Internet Group Shares Fall After CFO Announces Departure
+78d187ad8f4dfc4aec234cd0089683c9|||IONQ|||IonQ Is Building a Quantum Empire, BofA Says. Why the Stock Is a Buy.
