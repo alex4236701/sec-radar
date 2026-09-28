@@ -2198,3 +2198,40 @@ af979830093949f73f6c4becd43db095|||PANW|||PANW261002C00105000 Interactive Stock 
 cd35e53b4cb2f196fb9b2d0b3d3f5cc6|||PANW|||PANW261016P00342500 Interactive Stock Chart | PANW Oct 2026 342.500 put Stock
 57c0aa6f03ae5bd55d9d4077198fa221|||PANW|||PANW261002C00327500 Interactive Stock Chart | PANW Oct 2026 327.500 call Stock
 4abbf6f6883e47aae7f529e813a9defe|||BE|||Bloom Energy Corporation (BE) stock price, news, quote and history
+e0a8c40eb033ce1116332311d44f3e35|||MSFT|||Microsoft, Oracle Stocks Tumble After Meta Unveils New AI Enterprise Push
+cb386a72f8733e98ffdb1986a31c4cf5|||MSFT|||Microsoft's Autopilot opens new AI revenue path, Jefferies writes
+eefd5a0c2e5ba858dda9ccf2e6a07221|||TSLA|||Tesla Preps Roadster Unveil Ahead Of Q3 Delivery Release; Stock Drops
+e9f1f07f628033a59c8f44fa5577b0a0|||AAPL|||A US Jury Orders Apple (AAPL) to Pay a Record $5.7 Billion in a Patent Case
+ae205af7199af7d3af2b554e88dfb3b6|||AAPL|||Burford Looking at $1.4 Billion Payday After Apple Patent Ruling
+cdabafcef697922d1b1677ef358740ab|||QCOM|||Qualcomm Inc. stock underperforms Monday when compared to competitors
+709d4abb5c1833dbe205bfed2cbddf2e|||META|||Meta Stocks Slides 3.6% as Muse Moves Into Glasses
+d65f3232b1c05335ad92b24364497007|||META|||Meta Up 37%: Was It The Muse App Or The Ad Machine?
+42e92cadc2c8b983febac2cd5fbb12bb|||META|||Meta Platform Takes Aim at Salesforce, ServiceNow With AI Push
+a225508eb4b5de78678f50531a3e7c7d|||META|||Meta Platforms: Muse Could Become The Next Metaverse (NASDAQ:META)
+fc3ae50902d3bd9ab0030222595eda8c|||META|||Meta: More Cautious Than Before, More Bullish Than Ever (NASDAQ:META)
+0672c6a436e8f3531ffd80064d6e807a|||NVDA|||Nvidia unveils security platform to stop AI agents from going rogue
+ba426a55d6bee95a0d66735aca6402da|||NVDA|||Nvidia buyback plan a 'genius move,' says Yorkville and Ives' Dan Ives
+b3302626e6d45ae92be0a6d8a1bd827f|||NVDA|||Nvidia Sends Wake-Up Call on AI Safety
+97a8d6a8a0bdf84e9364e93e5ac92605|||NVDA|||Nvidia's biggest-ever buyback plan signals confidence in AI boom
+49d89ea7e3db7a8acb56d79eb5e5e781|||NVDA|||Nvidia’s $235 Billion Buyback Shows Who Is Really Winning the AI Boom
+c5c485f85239a7f03a9a73efa7e27bf0|||AMD|||AMD to Acquire World Labs to Advance the Future of AI Compute
+708cac2b42a198f0d7b67ab4034c129e|||AMD|||AMD to acquire Fei-Fei Li's World Labs in $8.2 billion deal
+b04a8302c66f5081b533d4a67fa5efaf|||AMD|||AMD Stock Drops 4.5% as Perplexity Puts Agents on Local PCs
+933574249b7fa918d19aad57f4bd4508|||AMD|||AMD to acquire AI research firm World Labs for $8.2 billion
+fca05f4f52b5878afd4d784cb0b04161|||AMD|||AMD to Acquire World Labs for $8.2 Billion
+c5c19787ccf072db8a480ea2223f4015|||AMD|||AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion
+6b33b34927c3f0c1cc35405728f73155|||AMD|||AMD to Buy AI Firm World Labs in $8.2 Billion Deal
+0c478ed0b4361e2b766bc34aa62028b7|||AMD|||AMD’s $8.2B bet on World Labs is a direct shot at Nvidia’s AI dominance
+79f226d700e7e69003ac6089b8a4dcb9|||AMD|||CEO Predicts: “Demand Will Continue to Rise” as AMD and Intel Soar up to 17% Thanks to Muse
+34b5a7ccb7a1929cf2737fcaaf5e9236|||AMD|||NVIDIA Rises 2% as Board Authorizes Record $150B Buyback Increase; AMD and Broadcom Slip
+d66bdbdbe07c6db889a6ea3e0765f0d7|||AMD|||Watch AMD Acquires Fei-Fei Li’s World Labs for $8.2 Billion
+d431d8ee366588b23bba168ad5594c99|||INTC|||INTC261030P00117000 Interactive Stock Chart | INTC Oct 2026 117.000 put Stock
+450018bf72ed3a560a1435608251f3b4|||INTC|||INTC Sep 2026 170.000 call (INTC260928C00170000) Interactive Stock Chart - Yahoo Finance
+4e499c4fd0698a732af1a5858ca1aafc|||MU|||Micron 'super bull' reiterates $2,000 target ahead of earnings
+389d79270d7c5ea454cbe69f25a10ccd|||NVTS|||Navitas Semiconductor stock surges 20% on U.S. defense contract
+6e9a20015d9f7bc1fd6cbd0ed31e6c84|||NOW|||Meta Platform Takes Aim at Salesforce, ServiceNow With AI Push
+acb120541fb6f58792b6fd30581fd9f5|||PANW|||PANW Oct 2026 342.500 call (PANW261002C00342500) Interactive Stock Chart - Yahoo Finance
+f43121771b6d041b58b1a2d647858da7|||PANW|||PANW261002P00135000 Interactive Stock Chart | PANW Oct 2026 135.000 put Stock
+77d041cc074ed5b0e1912ddde7dcbee8|||BE|||Take the Zacks Approach to Beat the Markets: Bloom Energy, Microsoft & Amgen in Focus
+10d3200bfdbca5ee68026888b74e89a4|||FCEL|||Robbins LLP Urges FCEL Stockholders Who Lost Money Investing in FuelCell Energy, Inc. to Contact the Firm for Information About Leading the Class Action
+ce715b13499ab1ea34a43b6ae41edc7f|||IONQ|||IonQ Stock Gets BofA's Buy Call In Quantum Computing Race
