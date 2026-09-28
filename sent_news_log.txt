@@ -2173,3 +2173,28 @@ caccbc733954c0b8b0ab8499e2e2544b|||BB|||BlackBerry Jumps 4% as Record QNX Revenu
 d6337d6a67d80bbba59a61fd71e7265e|||IBM|||IBM: The Cheapest Entry Since My Coverage Began Is Now A Sell (NYSE:IBM)
 5a81f4a02132b1083b9d395a9ba2ba2d|||PANW|||PANW Oct 2026 115.000 put (PANW261002P00115000) stock price, news, quote and history
 f55c158382e9d1b6c9d9eed2c810190c|||PANW|||PANW Oct 2026 347.500 call (PANW261002C00347500) Stock Price, News, Quote & History
+e00091b091736ceccee3a31c68e6b7a0|||TSLA|||Tesla Stock Drops: What's Going On Today?
+4e1e2222974f17be2d56e8a24526fb68|||AAPL|||Apple Accused of Patent Infringement With Biometric Tech Feature
+1211daa99795c9a46affac871bc17b10|||QCOM|||Qualcomm Just Agreed to Acquire Robotics Software Firm Picknik. How to Approach the Stock Now.
+88f06668a353e65824ad254af0a04b42|||META|||Meta hires MongoDB CEO to lead company's enterprise ambitions
+9d1050b5284455ee5b2e2a6ca8f57705|||META|||Meta Shares Slide 4%, Shaving Billions from Zuckerberg’s Paper Wealth
+9db36d14c6259582b9fd50ade7d19ad7|||META|||Meta Muse Collects More Data Than Most AI Apps, Analysis Finds - Meta Platforms (NASDAQ:META)
+f6e3bbc812dad2e9a8d922f586a3dfda|||META|||Meta the conqueror: The AI titan just poached MongoDB’s CEO and sent its stock down 27%
+8a4a8c3c3dcdf6126105f49cf0ed9617|||META|||Meta’s AI Breakthrough Came At The Wrong Price (NASDAQ:META)
+37d5d4fedef4147ee8b07f59bacf2bf1|||META|||Why Meta's Muse May Support The AI Bull Market
+c1b4e3d9af6aba1c6e0c53e79ff12cba|||NVDA|||Nvidia sets biggest-ever buyback plan as AI chip competition weighs on stock performance
+d5fc766d93873a58a48686ba336d7476|||NVDA|||Nvidia Launches Open Software Platform to Help Strengthen Governance of AI Agents
+2a11d9471b469538fe3e81dd3ce46e2d|||NVDA|||Nvidia Ramps Up Buybacks With Historic $150 Billion Authorization
+7c2ad6c13e060b9bc3833f86ca261524|||NVDA|||Nvidia’s $150B Buyback Has Traders Piling into this ETF
+bc7e83287d4cb02a4a5b6b4f52086be5|||NVDA|||Watch Nvidia Up on Share-Repurchase Program; Mining Stocks Slide | Stock Movers
+92d026768d1d94a8d3545b55d8b3239f|||INTC|||Intel Shares Tumble 5% as Fresh AI Risks Rattle Chip Stocks
+dc0c115c308fdf8cbeeaafed37fce946|||INTC|||INTC Oct 2026 125.000 put (INTC261007P00125000) Interactive Stock Chart - Yahoo Finance
+84521ab00bb55e0ee98fa431cf548058|||INTC|||INTC Oct 2026 124.000 put (INTC261007P00124000) Interactive Stock Chart - Yahoo Finance
+a00d8660f77644437be57931701e0592|||TER|||3 Reasons to Sell TER and 1 Stock to Buy Instead
+0dfcece638ba6be570ab7b3bf2f5c67b|||PANW|||PANW261009P00315000 Interactive Stock Chart | PANW Oct 2026 315.000 put Stock
+af979830093949f73f6c4becd43db095|||PANW|||PANW261002C00105000 Interactive Stock Chart | PANW Oct 2026 105.000 call Stock
+52daf5097dd9c77e4345cc1257f97edc|||PANW|||PANW Oct 2026 120.000 put (PANW261002P00120000) Interactive Stock Chart - Yahoo Finance
+7fff5b0ba5fc48fbac5824fd4b6280f1|||PANW|||PANW261002C00580000 interactive stock chart | PANW Oct 2026 580.000 call stock
+cd35e53b4cb2f196fb9b2d0b3d3f5cc6|||PANW|||PANW261016P00342500 Interactive Stock Chart | PANW Oct 2026 342.500 put Stock
+57c0aa6f03ae5bd55d9d4077198fa221|||PANW|||PANW261002C00327500 Interactive Stock Chart | PANW Oct 2026 327.500 call Stock
+4abbf6f6883e47aae7f529e813a9defe|||BE|||Bloom Energy Corporation (BE) stock price, news, quote and history
