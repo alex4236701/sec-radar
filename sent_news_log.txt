@@ -2147,3 +2147,29 @@ a34e7bc343d6927931447f37911bfa1a|||TSEM|||TSEM270416C00240000 Interaktive Aktien
 25b5102da6019aa0dd43bf2ab6a51e16|||IONQ|||Bank of America Doubles Down on IonQ Stock For Key Reason
 fd0dfdbca9e47fbb2e789a2cba4efc72|||IONQ|||IonQ Stock Earns New Analyst Buy Rating. Inside Its ‘Nvidia of Quantum’ Push.
 aae25dc68ac2fb276bd0c7cae4896650|||IONQ|||IonQ gets initated at Buy as BofA backs its chips-over-lasers approach
+d90f5021b5eec2431adf1f119e08e813|||MSFT|||Centrilogic Names Former Microsoft Partnerships Leader Dominic Cristelli Chief Revenue Officer
+129343b0985d3c005161fbbaf5be7bd4|||TSLA|||Why Tesla Stock Is Tied to SpaceX Ahead of a Big Week for the EV Maker
+77087f0e5cd9033b0356c33ce0b44e55|||TSLA|||Why is Tesla stock sliding 3.5% today?
+e691af151633d43f9505bda785dadd01|||AAPL|||Here's Why Apple Is Waiting Until 2027 To Release The iPhone 18
+780b597763188ba45355b1d5010b02f6|||META|||MongoDB’s stock is down nearly 20% as CEO decamps to Meta
+985fe003713c29b14f84932f10b7e212|||META|||Meta and ServiceNow Drop 4% as Enterprise Platform Launch Reprices Software; MongoDB Tumbles 19%
+35c9324c83022c066e8745b13062963c|||META|||Wall Street Lunch: MongoDB Tumbles As CEO CJ Desai Joins Meta To Lead Enterprise Push
+3d652361c9e38a8503b6f59abf2ce4e8|||NVDA|||Jim Cramer says Nvidia’s record buyback could ‘change the trajectory’ of the stock
+84c8b57bf2dfb108dda8788510131e5b|||NVDA|||When Should You Buy NVIDIA Stock After This Run?
+9ff0c7127dfe0fbddde5c667eff612b1|||NVDA|||Nvidia Thinks Its Stock Is Cheap. It’s Buying Back $150 Billion.
+baea8f2fa02f6d2aacda16a3056c0006|||NVDA|||Nvidia launches new platform for reining in rogue AI agents
+8757aad846dee16c5d3ecb347e517d6b|||NVDA|||CNBC Excerpts: Nvidia Founder & CEO Jensen Huang Speaks with CNBC’s “Squawk Box” Today
+83b82d8e99044dee148690894a0b7a3b|||NVDA|||Nvidia Stock Gains on Record Buyback: Jim Cramer Gets His Wish
+d1c6452c3e3dab94ef6ea84ac884632b|||NVDA|||SAP and NVIDIA OpenShell: Working Toward Governance and Security for Auditable AI Agents in Enterprise Systems
+abe7d76f55ae7220e11b55d343f0cdfb|||NVDA|||Nvidia: Ramping Up The Buyback (NASDAQ:NVDA)
+137edc471ab9242dbee27119aaaebccf|||NVDA|||NVIDIA Upsizes Share Buyback Program to $235B amid AI Safety Tool Release
+e1ca8db2b6cb04143a3e3a5b8990ec16|||NVDA|||Nvidia Stock Rises As AI Chipmaker Plans Huge Share Buyback
+f8cf47fecc733a4787d154656520c8d0|||INTC|||Intel and Palo Alto among market cap stock movers on Monday
+85c091ab0ea355b42aec09165ca8e324|||INTC|||INTC261007C00065000 Interactive Stock Chart | INTC Oct 2026 65.000 call Stock - Yahoo Finance
+1a811d3d49eae7732cfedcd7e40f09bf|||INTC|||INTC Oct 2026 90.000 put (INTC261007P00090000) Stock Price, News, Quote & History
+6634651e2a3f6e8a8f071a0d3bbbf22a|||INTC|||INTC Oct 2026 65.000 call (INTC261007C00065000) Interactive Stock Chart - Yahoo Finance
+79707090773a521987f8b4a32b44140d|||SKHY|||SK Hynix Is Finding a New Opportunity in Intel's $100 Billion U.S. Chipmaking Push
+caccbc733954c0b8b0ab8499e2e2544b|||BB|||BlackBerry Jumps 4% as Record QNX Revenue Lifts Full-Year Outlook; Mobileye and Aptiv Dip
+d6337d6a67d80bbba59a61fd71e7265e|||IBM|||IBM: The Cheapest Entry Since My Coverage Began Is Now A Sell (NYSE:IBM)
+5a81f4a02132b1083b9d395a9ba2ba2d|||PANW|||PANW Oct 2026 115.000 put (PANW261002P00115000) stock price, news, quote and history
+f55c158382e9d1b6c9d9eed2c810190c|||PANW|||PANW Oct 2026 347.500 call (PANW261002C00347500) Stock Price, News, Quote & History
