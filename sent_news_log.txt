@@ -2235,3 +2235,42 @@ f43121771b6d041b58b1a2d647858da7|||PANW|||PANW261002P00135000 Interactive Stock 
 77d041cc074ed5b0e1912ddde7dcbee8|||BE|||Take the Zacks Approach to Beat the Markets: Bloom Energy, Microsoft & Amgen in Focus
 10d3200bfdbca5ee68026888b74e89a4|||FCEL|||Robbins LLP Urges FCEL Stockholders Who Lost Money Investing in FuelCell Energy, Inc. to Contact the Firm for Information About Leading the Class Action
 ce715b13499ab1ea34a43b6ae41edc7f|||IONQ|||IonQ Stock Gets BofA's Buy Call In Quantum Computing Race
+4292535178fc5a1e7dfd5976a747491a|||MSFT|||Microsoft Stock Drops 2.2% as AI Adoption Gap Reaches 12.6 Points
+e2250ee7872878a2782198649b07d132|||MSFT|||Microsoft’s AI Gains Can Push the Stock Higher. That’s Good News for Software Peers.
+2595ea63227ef0b1383e3b2d49b17bfc|||MSFT|||Meta's new enterprise push hits ServiceNow, Salesforce and Microsoft
+81568da56abed9893ae06002741216c7|||TSLA|||Tesla Postpones Roadster Unveil Ahead Of Q3 Delivery Release; Stock Drops
+2cdd7abd4a23de53cf74ddb72a56f928|||TSLA|||Dow Jones Futures: Trump Sparks Stock Market Losses; Elon Musk-Led SpaceX, Tesla In Focus
+ff2d80c8b1c54b27f9c7d6929833ee4a|||TSLA|||Tesla Stock: Why Deliveries May Not Matter as Much as the Roadster This Week
+89c7a500aaf3b5edd2c59421fd4d4330|||QCOM|||Intel vs. Qualcomm: Which Chip Stock Is a Better Buy in 2026?
+cb71506d5ea67e9c8ec258017dc990b4|||QCOM|||QUALCOMM slides 7% amid longer-term upswing (QCOM:NASDAQ)
+18fd508c32d384ef53981a61f4624fcc|||META|||Meta Just Put Microsoft, Salesforce and ServiceNow on Notice
+3a82cad9b4654c78e3866db1df4d701c|||META|||MongoDB Stock Crashes Nearly 20% After CEO Desai Leaves to Meta
+3a22f3b52b5015f8dadafb4b698b80bb|||META|||Microsoft, Oracle Stocks Tumble After Meta Unveils New AI Enterprise Push
+b4ee1d0aa66664202974c3908ff4113a|||META|||Meta Bets Its Future on an Enterprise Platform That Does Not Exist Yet
+df4f077f7bdbe4964f6f48b2bc503ec2|||META|||Meta’s Muse Is BLOWING Minds…. But At What Cost?
+5255bba20559e103cce6d2f27225b924|||META|||Meta Platforms: Ignore The CapEx Fears, Buy The Hidden Ecosystem (NASDAQ:META)
+744960d50fd3b337c1d4d40d3f27aee1|||META|||OpenAI DevDay: Can ‘O’ Take the Spotlight From Meta’s Muse?
+c3cf207939e4f27f3ed634b157e510ba|||NVDA|||What Nvidia's $150 billion stock buyback means for shareholders and potential investors
+857ce378af9954dd0ccc0a02fbc17df3|||NVDA|||Nvidia showing market it's confident in what it's doing with buyback, says Melius' Ben Reitzes
+8f4f3e31ae50b9a7f8228048d97b047f|||NVDA|||Watch Nvidia Boosts Share Buyback Authorization by $150 Billion
+5b65f5d097f86676c2d79ef464c1abe8|||NVDA|||Nvidia's $150B buyback fails to keep chip stocks buoyant (NVDA:NASDAQ)
+d64c7011d9054464770e7e9827214926|||NVDA|||Nvidia shares rise after largest-ever $150 billion buyback plan is announced
+edce389d4f0652e6cfa2f0a54c9dd816|||AMD|||AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion
+3784931992da93f2878d40496877979c|||AMD|||AMD acquires World Labs in $8.2 billion deal to bolster AI systems strategy
+4615be88d7cb047486d8bc4e336f8933|||AMD|||AMD to Buy Fei-Fei Li’s World Labs AI Startup for $8.2 Billion
+0feded519ef8813f99d7bc18ed3f4bc0|||AMD|||AMD to buy Fei-Fei Li’s AI start-up for $8bn
+0e8d4ab2e642b82bf30e0b733f9dc528|||AMD|||AMD to Buy AI Company World Labs for $8.2 Billion
+2173235ee2b8514b1e82d52f73b85352|||AMD|||AMD to acquire World Labs in all-stock transaction valued at approximately $8.2 billion
+4bda1a065d6320a8ec66c85a501a72eb|||AMD|||Nvidia and AMD Just Got a New AI Demand Risk to Watch
+a124d5f222e4ec1495dfa1ca6d52dac4|||AMD|||AMD makes a big bet on the next era of AI with World Labs acquisition
+0643257ca7f26c0be026bada0d847294|||AMD|||AMD is acquiring AI company World Labs in a deal worth more than $8 billion
+a03e853b47eb5ee345ad6ce3a25ecf02|||TER|||Is Teradyne (TER) Fully Priced After Record Q2 Results?
+bc4f56fa808b98a259756e616c5c91a6|||AMPX|||Amprius Technologies, Inc. (AMPX) Stock Price, News, Quote & History
+dba5012660fa2ef642fb584df8d5e0f0|||NVTS|||Navitas Semiconductor Stock Surges After Hours: Here's Why
+56e5615856a58a3d5893e11a4d2a6c01|||NVTS|||Navitas jumps after US Army picks it to develop next-gen silicon carbide technology (NVTS:NASDAQ)
+1baf0951e6e34e8fa248484701860ddb|||NVTS|||Why is Navitas Semiconductor stock surging today?
+84db97cad23f7c725091fc21b50b85e4|||NOW|||Meta Just Put Microsoft, Salesforce and ServiceNow on Notice
+6b23f27a0140c39197916f86f4ed44b8|||PANW|||Palo Alto Networks, Inc. (PANW) Stock Price, News, Quote & History
+d1fd684bdd62a3ffc2b0f96340c63e0e|||WULF|||Why is Terawulf stock sliding today?
+5cd063e87e781dc3e14770173aa4cb80|||BE|||S&P 500 Stocks: Bloom Energy, Index's Newest Member Is Monday's Biggest Loser
+cd5e8311b6df612b36500a1e33c498a7|||IONQ|||IonQ Shares Rise After BofA Starts Coverage at Buy
