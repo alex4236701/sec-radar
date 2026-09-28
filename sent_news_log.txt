@@ -2108,3 +2108,42 @@ ed4ea990010db9390301c99897f271cd|||SNOW|||Why Are Snowflake Shares Trading Lower
 d3f01857a3c9a9db254e8ac31d7ee12f|||CRCL|||CRCL Apr 2027 100.000 put (CRCL270416P00100000) Stock Price, News, Quote & History
 4a3c8f6e646e44186a1768c9d82896f7|||CIFR|||Why Is Cipher Digital Stock Falling on Monday?
 bcb000cacd5410a4840fb1f743e52a31|||BE|||BE CLASS ACTION DEADLINE TONIGHT: Faruqi & Faruqi, LLP Reminds Bloom Energy (BE) Investors of Securities Class Action Lawsuit Deadline on September 28, 2026
+29b493538c0e9518480b29a91a6728ba|||MSFT|||US sanctions force The Netherlands off Microsoft and toward alternative NixOS-based software ecosystem — trial programs running now, first release expected at end of 2027
+eee6d74261f534ca5626ccd6d14e030d|||AAPL|||Apple Faces $5.7 Billion Jury Verdict Over Haptic Engine Patent Dispute
+9f0a84c21da07bdcfb6032f8c037b1db|||META|||Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative
+12776ba84892de32968e2491d835b703|||META|||Meta enters the enterprise AI battle
+d1fc1ad0ab92454f2283204a444b1876|||META|||Meta Shares Trim Premarket Losses After Hiring MongoDB CEO
+b5308380e80fd021ff9c83f10bfd24c5|||NVDA|||Nvidia Stock Climbs After $150 Billion Buyback Bombshell
+df21f65b48ac91a23528d4f8040a78d5|||NVDA|||Nvidia launches AI safety platform after Jensen Huang calls Anthropic, OpenAI warnings 'odd'
+35df104c680f8f37ca733870be9c58b7|||NVDA|||Chip stocks fall as AI breach fuels safety concerns, but Nvidia bucks the trend: Chart of the Day
+575b504f11204932ac8af4730fedc0d7|||NVDA|||Jensen Huang Just Gave Investors 150 Billion Reasons to Buy Nvidia Stock
+d189b153d78f89dc5124a2bb42707fd6|||NVDA|||Nvidia is right: Its stock is a bargain by this measure
+f8d1955f4ac7e5f1fce263ac7c098107|||NVDA|||Top Midday Stories: MongoDB CEO Leaves to Lead Meta Enterprise Platform; Nvidia Ups Buyback Program by $150 Billion
+2d6ea206bb87f7fc47161e150dbd98ae|||NVDA|||Nvidia unveils massive $150B increase to share buyback program (NVDA:NASDAQ)
+28b30bec8262e4ca4a285ee0e5670b33|||NVDA|||Nvidia Just Announced the Largest Stock Buyback Authorization Increase in History. Should You Buy the Stock?
+cc9673a788560c88a299847f4155b7dd|||NVDA|||Nvidia Boosts Share Buyback Authorization by $150 Billion
+1879301067aebaffc774d337013dfba3|||NVDA|||Nvidia boosts buyback by $150B, the largest increase ever
+23e5a8cc7fc2b0e011da00f504df95cb|||NVDA|||Nvidia’s AI dominance funds historic $150 billion buyback
+8397caae6790f43daa58b9011609141d|||NVDA|||Nvidia’s board increases chipmaker’s share buyback plan by $150 billion
+12387f4e9eaf0033041919de06d3db07|||NVDA|||Nvidia CEO Jensen Huang: All systems around AI systems must be designed with restrictive rights
+763a05bdfe9028f37e88e0d742c5c805|||NVDA|||Nvidia announces record $150 billion share buyback increase
+be469ac00a772be5dd74799475a2c0c7|||NVDA|||Nvidia's Record Buyback Couldn't Keep the Nasdaq Out of the Red on Monday Morning
+39e388d664695bb75365bbf5f1977047|||NVDA|||NVDA Stock Climbs After Nvidia Approves ‘Largest Buyback Increase’ In Company History
+9c8d24c9766be4c033260cfb2db1092e|||NVDA|||Nvidia Boosts Share Buyback by a Record $150 Billion
+7c586e8a811f50913c1143ae04a04f59|||NVDA|||Nvidia introduces AI security system to ‘set boundaries’ and stop rogue agents
+53990bc08e13c2972a5fa9f47df6d4f3|||NVDA|||Nvidia just greenlit the biggest buyback in stock market history
+361404f58a1fae8b991b87e1de7cbb5f|||INTC|||Why Is Intel Stock Falling on Monday?
+822aa74d6c6f189073816ac42d8cde72|||INTC|||INTC Oct 2026 139.000 call (INTC261007C00139000) Stock Price, News, Quote & History
+16eabf62d275d02cb6f42317804421dd|||ALAB|||Astera Labs: Priced Beyond Its Own Bull Case (NASDAQ:ALAB)
+c90072c89612acd78acd7f2a1873e68c|||MU|||Citi Raises Estimates for Micron Ahead of Earnings. How to Play MU Stock Now.
+2e49bbf541f05ac5c1b54c14feaec540|||MU|||Micron Heads Into Earnings, JPMorgan Sees 2 More Years Of HBM Shortage - Micron Technology (NASDAQ:MU)
+d100dcc2de4847fea61ba864dc372d68|||SKHY|||Why Is SK hynix Stock Falling Monday? (UPDATED)
+11e25972baf39069d77cefde149057c8|||NOW|||Meta's new enterprise push hits ServiceNow, Salesforce and Microsoft
+bb25047e1dc08f4a9a30600772cf52bb|||SNOW|||Why Salesforce, ServiceNow and Snowflake All Dropped 4% Within Minutes of a Meta Announcement Monday
+9b55cb57749c6a59501de3f4b0c0b2b5|||PANW|||Palo Alto Networks in spotlight as BTIG ups price target (PANW:NASDAQ)
+3e6cf62eabfcbafd81d113fbc10d6f84|||PANW|||Palo Alto Networks, Inc. (PANW) stock price, news, quote and history
+a34e7bc343d6927931447f37911bfa1a|||TSEM|||TSEM270416C00240000 Interaktive Aktienkurve | TSEM Apr 2027 240.000 call Aktie
+2e1cad723cad7c9a0a254b2a9b313ee7|||BE|||What's Going On With Bloom Energy Stock Monday?
+25b5102da6019aa0dd43bf2ab6a51e16|||IONQ|||Bank of America Doubles Down on IonQ Stock For Key Reason
+fd0dfdbca9e47fbb2e789a2cba4efc72|||IONQ|||IonQ Stock Earns New Analyst Buy Rating. Inside Its ‘Nvidia of Quantum’ Push.
+aae25dc68ac2fb276bd0c7cae4896650|||IONQ|||IonQ gets initated at Buy as BofA backs its chips-over-lasers approach
