@@ -1978,3 +1978,61 @@ c995f4ff7912c16cdf99f1f5e472bc70|||OKTA|||Scotiabank raises Okta stock price tar
 f14516ba163db6a1dc8011bc803fe557|||RKLB|||Why Is Rocket Lab Stock Falling Today?
 f54b0f4cdd8d24ed02370893d1af82ed|||CRCL|||Circle Internet Group Shares Fall After CFO Announces Departure
 78d187ad8f4dfc4aec234cd0089683c9|||IONQ|||IonQ Is Building a Quantum Empire, BofA Says. Why the Stock Is a Buy.
+818babd684be8882a92e6bdf63efaefb|||MSFT|||Microsoft: Why The $3.8T Fortress Won't Deliver An AI Moonshot (NASDAQ:MSFT)
+c3a461964686f6e7bb2ffeb280d6724b|||AAPL|||Apple, Amazon face revived UK consumer lawsuit over product sales
+56757a2e2563cad24cabc97abd318287|||AAPL|||Update: Apple, Amazon Face Renewed UK Consumer Lawsuit
+ab19f7466e25e60d212163d3cbad9b36|||AAPL|||Apple hit with $5.7 billion jury verdict over haptic patents
+fccc8754e09950583978aeef6a5939cd|||AAPL|||Federal Jury Orders Apple to Pay $5.7 Billion Over Haptics Patent Infringement Case
+1ba9fb820ebeb81092ccf49f5b190147|||AAPL|||Apple and Amazon Face UK Consumer Lawsuit Over Marketplace Sales
+d79506ec5777726044d3e1ecac3e75aa|||AAPL|||Apple, Amazon Face Renewed UK Consumer Lawsuit
+b6f6570ac58da74d571034973220a0a3|||AAPL|||Apple And Amazon Face Fresh UK Legal Challenge Over Product Sales
+eb416594a922f4656de3cc67ce9e72a8|||QCOM|||Why is Qualcomm stock sliding today?
+e43a66ebe6ffedc62ae66dad0166e7fa|||QCOM|||Nvidia, Qualcomm among market cap stock movers on Monday By Investing.com
+6310ddef352a8d0cb40f3debd1bfc426|||META|||Meta hires MongoDB CEO CJ Desai to lead enterprise unit. MongoDB shares crater
+cf02f3a05ba314587f6eb755c95eb350|||META|||Meta Stock Drops Again. What Happened to Its Muse Boost?
+650ddf2f0f8d287d55e45afd9259b801|||META|||Meta hires MongoDB CEO CJ Desai, sending shares of data services company down
+99ded8e2fd2443f1166b4113d52ebe56|||META|||Meta Poaches MongoDB CEO “Effective Immediately” – Stock Sinks 24%
+1b63c6072eb9dc40703149096f982de6|||META|||MongoDB’s stock is down more than 20% as CEO decamps to Meta
+f5ca2036b430178fb8505ac71f42c659|||META|||MongoDB’s CEO Steps Down for Senior Role at Meta, Shares Plunge
+556457ada6dd184623acfba9a8cbac13|||META|||MongoDB Stock Sinks 20% as CEO Departs for Meta. ‘Real Shocker,’ Says Analyst.
+c3c1584577418a3bc50d7db8b88a1018|||META|||MongoDB Shares Fall 15% as CEO Chirantan Desai Resigns to Join Meta
+b458a5f74c0916c84c9fdf5b8233a38e|||META|||Meta hires MongoDB CEO to run new 'Meta Enterprise' platform
+db38ec8fad46a58fb119b34a0efa39a5|||META|||MongoDB crashes after CEO Desai suddenly steps down for Meta role (MDB:NASDAQ)
+ecf9107263f81c41c2fd52d7f5e090d0|||META|||Meta Hires MongoDB CEO For Enterprise Push. MongoDB Stock Tumbles On 'Shocker' News.
+f8292c6f335bb86965a18e0778c96f54|||META|||Meta establishes new Enterprise Platform for corporate clients; taps MongoDB CEO to lead
+82075159993e8b607272c554030eb65f|||AVGO|||NVIDIA Rises 2% as Board Authorizes Record $150B Buyback Increase; AMD and Broadcom Slip
+a4a758b1246d1b3789e78b58b4d501f1|||NVDA|||Nvidia unveils security platform to stop AI agents from going rogue after new, troubling incidents
+0d0c525ce232a629cd3224b563df7e34|||NVDA|||Nvidia share buyback plan gets $150 billion boost
+7fee6122c2603fe17986840b7b48b3b7|||NVDA|||Nvidia releases software platform to stop AI agents from misbehaving
+3cdcdd1d5f1e9666fdb307c530af83c7|||NVDA|||Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue
+3d110ad44eb24a5d6c7b8fac8f4608d6|||NVDA|||Nvidia stock jumps after largest share buyback ever
+c817305e27af5a794d96ee3749e8a135|||INTC|||CEO Predicts: “Demand Will Continue to Rise” as AMD and Intel Soar up to 17% Thanks to Muse
+df758c2a24cb7f02af23b9946fbf7384|||INTC|||Why is Intel stock sliding today?
+e156c2731df1f86bf66a80a8e9d09ef2|||ALAB|||ALAB261023C00395000 Interactive Stock Chart | ALAB Oct 2026 395.000 call Stock
+f1a23bc8ff1e32b6698f706bbd887042|||MU|||Prediction: This Will Be Micron Technology’s Stock Price by the End of 2026
+dacf8521c671d8a29eedec3129d94542|||MU|||Micron: The Memory Cycle May Never Be The Same (NASDAQ:MU)
+b0881028f5706f62fbb5ef224013814b|||MU|||Micron Q4: The Market Is Already Looking Beyond 2027 (NASDAQ:MU)
+75b7b481c1f62f418896cf33967614b0|||SKHY|||SK Hynix's Solidigm Eyes $150 Billion IPO, Nvidia's GPU Demand Skyrockets and Disney+ Hikes Prices Again
+e5c414570f19fb436ce2f70defce8058|||AKAM|||Akamai's Anthropic Deal Changes Everything, But The Real Opportunity Is Overlooked (AKAM)
+19b3be718c9aee497404690728c86a05|||AKAM|||Watch Akamai CEO: Anthropic Is an Ideal Partner
+85f81673b7621537e63cd448f1c77020|||AMPX|||Amprius Technologies Shares Rise 11% After Securing Up to $75 Million Defense Grant
+0f206f11baae292244c00ad66a2dc79a|||DDOG|||Snowflake Slides 4% on Proposed $3.5B Convertible Offering; Oracle Falls 3%, Datadog Drops 4%
+8bac87cd3d40976fc6754693d4108e51|||NOW|||Why is ServiceNow stock sliding today? By Investing.com
+584c0fd91aa4aefb41a50c72f068128f|||SNOW|||Snowflake Stock Falls Amid $3.5 billion Convertible Debt Offering
+bd0563432048827d1edaa5838ea599c2|||SNOW|||Transcend Launches as a Snowflake Native App on Snowflake Marketplace
+0f7aa87bb70f819ff8432b16c674fea6|||SNOW|||Snowflake in spotlight as PhilipCapital starts with Buy rating (SNOW:NYSE)
+0a647df8acd3bdae90f8365baa116ba8|||SNOW|||Snowflake Slides 4% on Proposed $3.5B Convertible Offering; Oracle Falls 3%, Datadog Drops 4%
+6ddb9e20d859f9b05deb3f4dceb47a24|||PANW|||Palo Alto Networks (PANW) Brings Industrial Edge Connectivity To Its Firewall Ecosystem
+34e11f122871b6da3c13c54c3e715f13|||OKTA|||Scotiabank raises Okta stock price target on AI agent demand By Investing.com
+1cd1e216019878bde643f09c83f41d91|||OKTA|||AI Pivot Can Give Okta (OKTA)’s Growth Engine a Second Gear
+86c36f1ec5450c7f0f83df302ca8e554|||TSEM|||TSEM Jan 2029 110.000 put (TSEM290119P00110000) Interactive Stock Chart - Yahoo Finance
+c6cb2f3c9d0a1e10ad84f567c2999684|||TSEM|||TSEM Jan 2029 200.000 call (TSEM290119C00200000) Stock Price, News, Quote & History
+aa662d21b4fcd4f665db72f079d09a4c|||SPCX|||SPCX Aug 2027 115.000 call (SPCX270820C00115000) Stock Price, News, Quote & History
+e932a364df7670b22cda9c94f101cfa4|||CRCL|||Circle Internet Group (CRCL) stock price, news, quote and history
+a6815d33699998c487bf6309b6497325|||CIFR|||Cipher Digital Extends Barber Lake Lease, Boosts Revenues Above $9B
+94a9e38a8cee38b6ea3fd8e65cdde36d|||BE|||Why is Bloom Energy stock sliding today? By Investing.com
+2f54bbfbdfb25d3d13d7f8ff6d45702a|||FCEL|||FCEL Deadline Alert: Levi & Korsinsky Reminds FuelCell
+e8c26e7ec8a1f62e17e5a19ca6c8128f|||IONQ|||IonQ has been on fire this month. Bank of America says buy the quantum computing stock
+4f81a8c04d92099121576374202f2eb4|||IONQ|||IonQ in focus as BofA starts with Buy rating (IONQ:NYSE)
+d78a89f4a60719742d039b461eecfa3f|||IONQ|||Why is IonQ stock rallying today?
+7218a49f397ddf30649480aadcfe71a8|||IONQ|||BofA initiates IonQ stock coverage with buy rating on scaling potential
