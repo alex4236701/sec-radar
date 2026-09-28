@@ -2071,3 +2071,40 @@ b749ae662b59063a351e76de57e95806|||SNOW|||Snowflake Plans to Offer $3.5 Billion 
 1d4fe430f282ed383f3ab06e450ffbb9|||CRCL|||CRCL Apr 2027 55.000 put (CRCL270416P00055000) Stock Price, News, Quote & History
 c8b0137ae571775e88c503e24e89522a|||WULF|||Why is Terawulf stock sliding today? By Investing.com
 da1a055fb6d03bd59d6a5051d5d51042|||IONQ|||Bank of Of America Initiates IonQ Stock With Buy Rating
+62a18a391e249fd9e315fa14ee76dda4|||MSFT|||Microsoft's New Copilot Push Gets a $550 Vote From Wall Street
+d776546eb65dd7c38c71e917edd2e641|||TSLA|||Elon Musk's Tesla and SpaceX have a huge week on tap
+1641c0bd08d204a4d538da6c472d68aa|||TSLA|||SpaceX vs. Tesla: Which Will Be the Largest Company at the End of 2027?
+610cc9c9f28f7b6e545c4338265b48e1|||AAPL|||Litigation funder Burford says it would be entitled to $1.4 billion of Apple patent verdict
+3f4e5628f81f08048b539729d6f50341|||AAPL|||Burford Capital could gain up to $1.4bn from Apple patent defeat
+f7cacfa12825055dead44022ddfdbaed|||AAPL|||Burford Capital shares gain on $5.7B Apple patent verdict
+a7b36b276346ad47c0ebf7cf787947ae|||QCOM|||What Is Going on With Qualcomm Stock on Monday?
+2163531e8dc14d475d4c78c9544d1ee6|||META|||MongoDB stock tanks after Meta poaches CEO
+d881e0708adc36ca5980f90b4e1b0c84|||META|||MongoDB Stock Falls 16% as CEO Leaves for Meta
+4bcb9a280ad0e3520457eaa9f4628416|||META|||Meta Taps MongoDB CEO to Lead New Enterprise AI Platform
+55d1eeda86856ede8149ad8cd4e71d1d|||META|||MongoDB stock drops 20% as CEO Desai resigns for Meta
+bb80a3196ad3f3dfe77bd736d1f643ae|||META|||The 1 Reason Why Meta’s Muse Is No. 1 AI App — And It Has Nothing to Do With If It’s Good
+9e2454e9c872d2fbd203630203c37e7f|||META|||Meta launches enterprise AI business seeking to cash in on vast spending
+1ce6f942b6485790e6c220c9cc016428|||META|||Meta Enterprise Platform to bring Muse AI tools to businesses
+37092f1a259e475fc8f43d3f031bf9b3|||META|||What's Going On With Meta Platforms Stock Monday? - Meta Platforms (NASDAQ:META)
+eba3e9c647b75fb03d99002b94d299de|||NVDA|||Nvidia Stock Rises After $150 Billion Buyback Boost
+f3b6ae49f836cd40f3b19017c51cf64b|||NVDA|||Why Is NVIDIA Stock Gaining Monday? - NVIDIA (NASDAQ:NVDA)
+561608d00c1e5ab3f798a007c9b51f7b|||NVDA|||Nvidia Just Put Another $150 Billion Behind Its Own Stock
+21ed51d94af55fc13fd11b5c10208b19|||NVDA|||Nvidia Announces Largest Buyback In History. Cramer Says “It Will Change Trajectory Of The Stock” If The Buyback Is Active
+8336c2712503266880f1dbc2f760e41f|||NVDA|||Nvidia makes a statement with historic $150 billion buyback announcement
+0aa88e933749f5e3eb70778ff6f1c4c9|||NVDA|||Nvidia Stock in Focus -- Chip Giant Unveils Powerful AI Safety Platform
+7ab90759527f7925b5f7b83e71e5799f|||INTC|||Intel Corporation (INTC) Stock Price, News, Quote & History
+1bd1f3c3ba92d59f23f76b8a7c473271|||MRVL|||Marvell Likely to Lift Fiscal 2029 AI Revenue Estimate by at Least $2 Billion Largely Due to Google Deal, RBC Says
+16a443d7889015e33b5553d5700b44b1|||MU|||Micron Technology Growth Supported by Strong Demand, Rising Memory Prices, Wedbush Says
+0fbd870b63f8e20cccdaee9363f3c93e|||MU|||Micron Earnings: What to Expect as AI Demand Drives Growth
+0c724b1223fc7a92149c252bc6a6bb59|||UMAC|||Unusual Machines' Revenue Boom: What Drives the Next Leg?
+bba75f2de76509dd33709db9b2fa8a80|||AMPX|||Why Is Amprius Technologies Stock Gaining Monday? - Amprius Technologies (NYSE:AMPX)
+157dbf22edc7088da62963ec907598ce|||AMPX|||Amprius Technologies Wins $75 Million Grant for Unmanned Aerial Systems' Battery Production
+38076694966ed877d3cd1cfeffde4c2e|||NOW|||Why is ServiceNow stock sliding today?
+096409e0ce1d8babc7bfc90ce1e5cba1|||NOW|||Meta and ServiceNow Drop 4% as Enterprise Platform Launch Reprices Software; MongoDB Tumbles 19%
+ed4ea990010db9390301c99897f271cd|||SNOW|||Why Are Snowflake Shares Trading Lower On Monday?
+75793cc8b6ea00f3849a341375d12a6d|||SNOW|||Why is Snowflake stock sliding today?
+1714d1c46f2a5b8562232cf1b6f2e8b3|||CRM|||Is Salesforce (CRM) Cheap After AIforce And Koa Launches?
+55b4102a121ff8ced820344f1b116b9b|||CRCL|||Circle Internet Group (CRCL) Stock Price, News, Quote & History
+d3f01857a3c9a9db254e8ac31d7ee12f|||CRCL|||CRCL Apr 2027 100.000 put (CRCL270416P00100000) Stock Price, News, Quote & History
+4a3c8f6e646e44186a1768c9d82896f7|||CIFR|||Why Is Cipher Digital Stock Falling on Monday?
+bcb000cacd5410a4840fb1f743e52a31|||BE|||BE CLASS ACTION DEADLINE TONIGHT: Faruqi & Faruqi, LLP Reminds Bloom Energy (BE) Investors of Securities Class Action Lawsuit Deadline on September 28, 2026
