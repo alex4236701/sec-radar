@@ -2274,3 +2274,42 @@ dba5012660fa2ef642fb584df8d5e0f0|||NVTS|||Navitas Semiconductor Stock Surges Aft
 d1fd684bdd62a3ffc2b0f96340c63e0e|||WULF|||Why is Terawulf stock sliding today?
 5cd063e87e781dc3e14770173aa4cb80|||BE|||S&P 500 Stocks: Bloom Energy, Index's Newest Member Is Monday's Biggest Loser
 cd5e8311b6df612b36500a1e33c498a7|||IONQ|||IonQ Shares Rise After BofA Starts Coverage at Buy
+f7dbb9da37d3e7b6891416fee814920d|||MSFT|||Meta Just Put Microsoft, Salesforce and ServiceNow on Notice
+e0be55727f6d105ed0fe2d92bd64ff23|||MSFT|||Here's Why Microsoft (MSFT) Fell More Than Broader Market
+782d48e00a028fb0dec39462e795e39b|||META|||I Tried Meta’s Muse AI Agent. It’s Helpful and Scary at the Same Time.
+54facbc302eef2bb68cc5f36ab42c632|||META|||Meta Platforms (META): Are You Going to Buy the Promise?
+83e0ec066fc1f6137c4764bbcbd03036|||META|||Meta launches enterprise AI platform
+448eb15129f7d4ab309187b8e8d5a19f|||META|||Meta: Building Entirely New Revenue Streams (NASDAQ:META)
+a773c28b539da0088b357eb99667e1f2|||META|||Meta platforms CEO Mark Zuckerberg sells $21.36m in stock
+a35b7a4b500fa9af1b605e04dcce02dd|||META|||Watch Nvidia’s $235 Billion Buyback, SpaceX Milestone and Meta’s AI Push
+f8184f4ffc6e48827d34d8a0a1604942|||NVDA|||Why Nvidia (NVDA) Stock Is Trading Up Today
+995778652bbb5e99ad3cefb6d0ed8159|||NVDA|||Samsung Commits $1.0 Billion to AI Infrastructure Firm Backed by KKR, Nvidia
+387e90b59cdb286a4409aa4df5f402e2|||NVDA|||Nvidia Just Put a Record $150 Billion Behind Its Own Stock
+b0758e56ab71d06cf28bd8acd8927615|||NVDA|||Is CEO Jensen Huang Becoming Nvidia (NVDA)’s Most Valuable Political Asset?
+be2a81fd2e52366f781b776965d5a123|||NVDA|||Why the Market Dipped But Nvidia (NVDA) Gained Today
+dc2b1b94870fbcaac070fb454a055a7e|||NVDA|||Nvidia stock sends investors a $150 billion signal
+2319e8e08e79fd13d4443df26c1f205b|||NVDA|||Pope Leo criticises Nvidia’s Jensen Huang over AI safety
+e4d2050e507d45f6c99188b539202848|||NVDA|||Jim Cramer on Nvidia's $150 billion buyback expansion
+964e6a018f9675be7ab1748def1583ce|||NVDA|||Nvidia sets biggest-ever buyback plan as AI chip competition weighs on stock performance By Reuters
+7bcbed2a5dd3de33d04fef90fc4f6f49|||NVDA|||Nvidia Stock Rises as Company Boosts Buyback Plan
+117d77e2ad8002e095da023a44228ad9|||AMD|||AMD to buy Fei-Fei Li's World Labs in $8.2 billion bet on 'physical AI'
+55724cfeb44e62f5c9d436596eae8e77|||AMD|||AMD just spent $8.2 billion to enlist the 'Godmother of AI'
+1e75a23003ad1e33b2144e98ca0d8eca|||AMD|||AMD to acquire World Labs in $8.2B all-stock deal (AMD:NASDAQ)
+c9fb2486298f1ee08ced4cdf0aa98a96|||AMD|||Advanced Micro Devices to Acquire World Labs in $8.2 Billion All-Stock Deal
+58ed0164d9928dec4334cc00a6c513da|||AMD|||AMD buys firm founded by AI 'godmother' Fei-Fei Li
+18b13c76584b4e9b80e7e2081d605c9b|||AMD|||AMD Acquires Fei-Fei Li’s World Labs for $8.2 Billion
+fdb2e994bc0947b9ab289a3aeaacc048|||AMD|||S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus
+84ec129d11099d09b6a53d8d79dd5777|||AMD|||AMD Acquires World Labs For $8.2 Billion In What Is Essentially A Talent Grab For Building A Competitor To NVIDIA’s Cosmos AI Model
+1a8fe5498100dbb2fb84bbeeb7bce03f|||INTC|||Here's Why Intel (INTC) Fell More Than Broader Market
+4b38ed1fdc41bfd91193927ce25f4b61|||INTC|||INTC Sep 2026 120.000 put (INTC260930P00120000) stock price, news, quote and history
+6f770e8b79e131eaa07c2fc116b45dbe|||MRVL|||Arm vs. Marvell Technology: Which AI Chip Stock Is a Better Buy in 2026?
+08e966c18b298fec0c0bef7098de4987|||ALAB|||Astera Labs: The Next AI Bottleneck Winner (NASDAQ:ALAB)
+83e21fd488907ba06d335cb32c7a4773|||AMPX|||Amprius Secures $75 Million Grant for American High-Energy Density Battery Production
+3b7cdcd26d85b3d425c885ca5b585fec|||NVTS|||S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus
+5e13b98890e40efbaa3ace268b26760e|||NOW|||Why Salesforce, ServiceNow and Snowflake All Dropped 4% Within Minutes of a Meta Announcement Monday
+050853f20bd422ed05308ff96932e3f4|||SNOW|||Why Snowflake (SNOW) Stock Is Falling Today
+f448992a5d2cdf573b4a0adf9ca2db4b|||PANW|||Palo Alto Networks (PANW) Stock Trades Up, Here Is Why
+35f8207c718e9d89e6398d4652ec474b|||CRDO|||Why is Credo Technology stock sliding today?
+b84a8d592c5c3e7983689de30c727496|||RKLB|||Rocket Lab (RKLB) Nails Back To Back September Launches With 100% Mission Record
+0967e35ac61f10e78157b817c3b4e267|||RKLB|||Cantor Fitzgerald reiterates Rocket Lab stock rating on launch record
+b4d92ec1f2ac894c32176033534c09c2|||BE|||Why Bloom Energy (BE) Shares Are Sliding Today
