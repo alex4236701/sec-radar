@@ -2549,3 +2549,34 @@ ad88f1e6f039c4bc983c9179ab9676f6|||BE|||Why Bloom Energy Stock Is Powering Highe
 4008e41e90b22c526c51f278f1081a3c|||BE|||Bloom Energy Jumps 13% As AI Stocks Defy 5.3% Treasury Yields - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ)
 e3671f4734d87334829f338f09363e19|||FCEL|||Oppenheimer initiates FuelCell Energy stock with outperform rating
 f36e06b74209c21858a2509c53d6c4b3|||PWR|||Is Quanta Services (PWR) a Solid Growth Stock? 3 Reasons to Think "Yes"
+2dfa20c2871c1ea7a2dcc00846d744a5|||GOOGL|||Apple Falls 2% as Bank of America Flags Meta’s Shopping Agent; Alphabet Slips, Microsoft Holds Steady
+6a0242fd333c315df38f6fdc807ba768|||MSFT|||Apple Falls 2% as Bank of America Flags Meta’s Shopping Agent; Alphabet Slips, Microsoft Holds Steady
+89ae10197f45e8261a4e56c9d3ce72ba|||TSLA|||Why Tesla Stock Is Still Not a Buy
+da3e0b2f388e7b9ed51c3f2d4f2a0b28|||AAPL|||Apple plans engineering-focused overhaul under Ternus, Bloomberg News reports
+305e19846aeddad6abb120055a878a69|||AAPL|||Apple Falls 2% as Bank of America Flags Meta’s Shopping Agent; Alphabet Slips, Microsoft Holds Steady
+905072cda4ffa0e9923591841d80f3a4|||AAPL|||Market Chatter: New Apple CEO Looking to Overhaul Company
+5f918a033e004c263847042368069b3f|||META|||Meta Wants Its AI to Help Run Your Business
+1ad98efc8c5bd1e0b55668f79d9fd79b|||META|||OpenAI debuts Dots AI agents in challenge to Meta’s popular Muse agent
+dd52df04195c29c013e994f5fa7ead57|||META|||Apple Falls 2% as Bank of America Flags Meta’s Shopping Agent; Alphabet Slips, Microsoft Holds Steady
+44039767d701b4d6b094e7b678a2c6f3|||META|||3.4 Million Reasons to Buy Meta Platforms Stock
+3494d929b5982e4b66636449a7bb26b5|||META|||Warby Parker Stock Surges on Meta’s AI Glasses Push. Why Smart Eyewear Is Booming.
+2c2a8fb5209f053144ab694be0c24751|||META|||Meta Expands Muse To Small Businesses — AI Agent Can Connect With Payments, Commerce And Productivity Tools
+b141ee96e1c95e4a14c0078d2093e30b|||META|||OpenAI launches a rival to Meta’s Muse, as the battle for AI agents kicks into high gear
+602b4027e1ecd020d458e2227813193c|||NVDA|||Nvidia Stock Gains as $235 Billion Buyback Tests Capital Discipline
+bf5e2cc5de30faa74e9b51ac9e389e8e|||NVDA|||Cramer Says Nvidia’s $150 Billion Buyback Only Matters If It Copies One Apple Executive
+448a6250263702b480b19524a13576fb|||NVDA|||Nvidia $150B Buyback: Is NVDA Stock Cheap Enough? - NVIDIA (NASDAQ:NVDA)
+0b9b53ed09f2301a3b288fad328e404f|||NVDA|||Palo Alto Networks Stock Rose Nearly 5% as Nvidia Launched an AI Agent Safety Platform. Here’s What Palo Alto Is Building on Top of It
+dbb1d19422391211cbf58ccf930cf26f|||NVDA|||Nvidia Is Spending Big on Buybacks. Why Apple Is the Only Mag 7 Rival Joining In.
+17dd502264854e625df99b9ac8599bb0|||AMD|||World Labs’ Fei-Fei Li Is Worth $1.6 Billion After AMD Deal
+883f14b0d79d23a620547edd93acd180|||MU|||Micron to report Q4 earnings, as memory boom powers on
+a867963924239962215663a8280f0244|||MU|||Why I Wouldn't Own Micron Into The Print - Earnings Preview (NASDAQ:MU)
+dd9b7edf9d606d8fd03bde870f336491|||MU|||MU Oct 2026 1082.500 call (MU261002C01082500) stock price, news, quote and history
+9f02ec8c53f9f0ffad2aafb0051deb6e|||ONTO|||Apple Stock Drops 1.5% as Local AI Moves Onto Desktops
+8bbc9681d2599588d33679d3a0556fc4|||ALP|||Alpha Compute Operating Oil and Gas Assets Due Diligence
+f7c2d84e84069628694a421f3cf5f954|||PLTR|||PLTR vs. COHR: Which AI-Driven Tech Stock is a Better Buy?
+f140f86cc99d988c176117cf4f102440|||COHR|||PLTR vs. COHR: Which AI-Driven Tech Stock is a Better Buy?
+3d67f0092184bd4ed91471ca74564c4f|||CAT|||Caterpillar Inc. (CAT) Stock Price, News, Quote & History
+b4cbccf32a80f22de811bc9d23cd21b9|||PWR|||Quanta Services, Inc. (PWR) interactive stock chart – Yahoo Finance
+4e3db193accd75783af0d5bdafeb4ca1|||PWR|||Quanta Services, Inc. (PWR) stock price, news, quote and history - Yahoo Finance
+bdef01f2763cdac894bd80819e06fdfe|||PWR|||Quanta Services, Inc. (PWR) stock price, news, quote and history
+712d77dfd96b3781c3c9971bd3440a27|||IONQ|||BofA Rated IonQ a Buy at $60 but Valued Its Foundry at 2 Times Sales. Here’s Why That Split Matters
