@@ -2505,3 +2505,30 @@ df8eae55b2332f12553ccb8d96555024|||NET|||Cloudflare Taps Deutsche Telekom’s En
 ba6e19db356e06f5c3b665bdedf2b6a4|||FCEL|||FuelCell Energy jumps on Oppenheimer initiation, citing data center demand
 7991fa684a52bc784256f6e874ba0738|||FCEL|||FuelCell Energy rated Outperform as Oppenheimer sees data center growth (FCEL:NASDAQ)
 8ef85d742407f37118ecc2ac1a4d6b65|||CAT|||Caterpillar Inc. (CAT) Is a Trending Stock: Facts to Know Before Betting on It
+9381a7106a4555623668527e877d0ec1|||MSFT|||Microsoft Has Given Snapdragon SoCs Priority Over AMD In Its Surface Products But A Company Executive Implies That It Has Nothing To Do With Quality
+ed5bf33bf2449a6a8ba23fbeadc6ed6f|||AAPL|||Apple's Ternus eyes engineering-led overhaul, Bloomberg News reports
+dd43b0242950c77d0b9fc30d78fa48db|||AAPL|||Apple’s new CEO could change when it launches phones and laptops
+54d4f46ad3a16c3da8df6e991aabbe14|||META|||Meta Launches Camera-Free Smart Glasses as Privacy Debate Rages. Are Wearable QR Codes the Answer?
+b7cc858e2c39545e23b42e05aea90e95|||META|||Meta: The Advertising Engine Still Has To Pay For The AI Ambition (NASDAQ:META)
+265baa18206a69aa0fc1700e4eb9f111|||DELL|||Dell in focus as Susquehanna says inferencing can be a 'tailwind' for server revenue (DELL:NYSE)
+01b5f2ebbc140cb1dc3124ff11dcd2af|||NVDA|||Trump Set to Host Nvidia, Anthropic CEOs to Discuss AI Risks
+77fea2fc728a2d27a23d6af22af99f6f|||NVDA|||Nvidia: A Deep Analysis About The AI CapEx (NASDAQ:NVDA)
+daa8792f3fcba688083c23874fabd4c8|||INTC|||INTC Sep 2026 147.000 call (INTC260930C00147000) Stock Price, News, Quote & History
+4d62da57c7995e6b184507c5b7a9a347|||INTC|||INTC260930C00140000 Interactive Stock Chart | INTC Sep 2026 140.000 call Stock
+ae8ee6037867c80bb56fe9e37f3c1fa1|||INTC|||INTC Sep 2026 142.000 call (INTC260930C00142000) Stock Historical Prices & Data - Yahoo Finance
+f4b36f43261573e9beee572af95153ce|||INTC|||INTC Sep 2026 138.000 call (INTC260930C00138000) stock price, news, quote and history
+4a1252fee501e2f3ca611bf1003b25ed|||ASML|||Why is ASML NV ADR stock rising today?
+51c0b42b26f4c3c4e2be6efe5346ca9f|||ALAB|||Astera Labs (ALAB) is Powering High-Speed Connectivity for AI Data Centers
+854b8f5d55d1c8e6013c902b5fcb4ab0|||MU|||YieldMax MU Option Income Strategy ETF (MUY) latest stock news and headlines
+85ab80b8513466d3be8b26f9d8ee3166|||MU|||MU Oct 2026 1365.000 call (MU261002C01365000) Stock Price, News, Quote & History
+9c91972fb3f45af860069786cba52398|||MU|||MU Oct 2026 1670.000 call (MU261002C01670000) Stock Price, News, Quote & History
+246c1198c3201697c41c6882ed9a35d4|||MU|||MU Oct 2026 755.000 call (MU261002C00755000) Stock Price, News, Quote & History
+c17a18fc983a39097b20e6f0004a12e8|||MU|||MU Oct 2026 730.000 call (MU261002C00730000) Interactive Stock Chart
+db985bb88c05fa5c0da3f172feb538a8|||MU|||MU Nov 2026 1480.000 call (MU261106C01480000) Interactive Stock Chart - Yahoo Finance
+e30d618572c903870edde3a091940c8a|||NET|||Cloudflare to launch public certificate authority with quantum-safe tech
+044df489985c3f650444adedf6248148|||BE|||Bloom Energy stock gains on factory expansion, fuel-cell demand outlook (BE:NYSE)
+ef89489492fe37396c571357c231a00a|||BE|||Bloom Energy Rallies 11% as Fuel Cell Selloff Reverses; FuelCell Surges 7%, Plug Power Rises 3%
+86144799fdb400fae7521defd145a97f|||BE|||Fair Isaac, Carnival, Bloom Energy, SpaceX, Iovance, and More Stocks That Explain Today’s Market
+86a3444402dd2ece121e3ad91eb1742b|||BE|||Bloom Energy Sinks 8% as Sharp Run Unwinds; Plug Power Drops 6%, FuelCell Eases
+f870e1e379c25cc120d6b7ecd0054ea7|||BE|||Can the AI Power Boom Justify Bloom Energy’s (BE) $85 Billion Valuation?
+3dcd0f309cf953e6005a3b9204d170e2|||CAT|||Caterpillar to acquire John Fabick Tractor dealership
