@@ -2433,3 +2433,36 @@ e90facb9c6c2ea8a5016cc4b73b56822|||FCEL|||Why is FuelCell Energy stock surging t
 9f8acedd4801e8ee11422669461c6dc7|||CAT|||Caterpillar to acquire John Fabick Tractor dealership By Investing.com
 53784f17a1b83fae90b7ab4e9c864df8|||CAT|||Caterpillar Inc. (CAT) stock price, news, quote and history
 f087ddd91dca4ded2df30c724499a674|||CMI|||EquipmentShare and Cummins Announce Landmark Collaboration to Deploy 1 Gigawatt of Mobile Power
+00235c21bf4e1eff616f9dd6b656d432|||TSLA|||Tesla Pushes Roadster Event to October 15, Blaming Severe Weather in Waco
+2344fc20695542a78edab127a4eee821|||META|||Meta is expanding its AI agent Muse to small businesses
+694b30428e0fad6c669201b38e553497|||META|||Meta Brings Its New Enterprise AI Push to the White House
+ad65c00784d23d862f59b523edfd3d6a|||META|||Meta’s Muse AI sent a YouTuber’s address to a stranger
+ad18771018186f6bcd616c908453d2c5|||META|||Full Transcript: Meta Platforms Q2 2026 Earnings Call
+04ffc350a10b14962682532dfca8c360|||META|||Meta’s Muse AI threatens Apple’s mobile commerce dominance
+d26311a5ed101012081f461618bc83a8|||NVDA|||Trump to host Anthropic's Amodei, Nvidia's Huang, other AI execs, as fears mount
+149767762032f8f28ddad88c51374a47|||NVDA|||Nvidia Just Put $150 Billion Behind Its Stock. Is It Cheap Enough?
+332fd60a2b0ad17124330b1324ff0fd4|||AMD|||AMD Expands AI Expertise With World Labs Acquisition
+a0b254a448dd2f7202b4f6701ef13c8d|||AMD|||AMD Buys Its Way Into Physical AI With World Labs Deal
+0492609d386f91baefe1acba6e5c01c4|||AMD|||Why AMD's World Labs deal just turned up the heat in the AI chip race
+d6450e2562421fcf8802dba93af2764c|||INTC|||Intel Is Trying to Reinvent Itself. Here’s Where INTC Stock Could Be in 2027
+539981a9c73d20135e274b317225ff45|||INTC|||INTC260930C00118000 Interactive Stock Chart | INTC Sep 2026 118.000 call Stock
+aa21310a0c9ecf01771212685ad650d7|||INTC|||Graphique interactif des capital-actions INTC271217P00115000| Capital-actions INTC Dec 2027 115.000 put
+24269d5e5cd607cfa16ac3c827069610|||ASML|||Why is ASML NV ADR stock rising today? By Investing.com
+9f319b35927101e3a4b814500f488022|||MU|||Why Is Micron Technology Stock Gaining Tuesday? - Micron Technology (NASDAQ:MU)
+d4069e7b7f927dd1dc24a1ce2a331412|||MU|||YieldMax MU Option Income Strategy ETF (MUY) balance sheet
+3796dd1f5a77d3508b89b36573fbbc45|||MU|||MU Oct 2026 90.000 put (MU261002P00090000) Stock Price, News, Quote & History
+afd550ac5c6a79d19d5514f736af2e06|||MU|||MU Oct 2026 480.000 call (MU261002C00480000) Stock Price, News, Quote & History
+d488254216789a92597dd0f247f2dd87|||MU|||MU Nov 2026 1480.000 call (MU261106C01480000) Stock Price, News, Quote & History
+fd7b6543b2baf827c2c95e53e3d770f0|||MU|||YieldMax MU Option Income Strategy ETF (MUY) Analyst Ratings, Estimates & Forecasts - Yahoo Finance
+62c9e22260bad985478675ee40dbcec3|||TER|||Teradyne launches memory test system for advanced chips
+3e2d0ab1beca60400212029cc1a67283|||NOW|||ServiceNOW, A Bellwether For The AI Vs. Software Trade (NYSE:NOW)
+68fed35692cb9509d6d1f7cf03915205|||PANW|||Why is Palo Alto Networks stock sliding today?
+fd1b393ac44b8a3f8c7753beed1ab0e0|||PANW|||PANW270617C00580000 Interactive Stock Chart | PANW Jun 2027 580.000 call Stock
+308e2110fae266a8a19958e2c83e9988|||PANW|||Palo Alto’s AI Security Trio Could Fuel a Growth Surge, BTIG Says
+681d68f3c8cf5557b37d58a6e8ef9440|||NET|||Deutsche Telekom partners with Cloudflare on security solutions
+13fd0b122865dfd83037588590cb3d95|||NET|||Cloudflare to launch public certificate authority with quantum-safe tech By Investing.com
+b4cec4dcb41bbb299ea06f4558c92669|||RKLB|||What's Going On With Rocket Lab Stock Tuesday?
+cffe29366d07564c02ac7a1d816f721d|||BE|||What's Up With the Jump in Bloom Energy Stock?
+ee9f0f88276489c3ff108679cd4cb7a9|||BE|||Why is Bloom Energy stock surging today?
+4d75620a91ee190b14a723d420653b0e|||FCEL|||FuelCell Energy jumps on Oppenheimer initiation, citing data center demand By Investing.com
+0bd54a6a5ea131036c4ccb678228e68e|||FCEL|||Oppenheimer initiates FuelCell Energy stock with outperform rating By Investing.com
