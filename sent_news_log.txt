@@ -2580,3 +2580,19 @@ b4cbccf32a80f22de811bc9d23cd21b9|||PWR|||Quanta Services, Inc. (PWR) interactive
 4e3db193accd75783af0d5bdafeb4ca1|||PWR|||Quanta Services, Inc. (PWR) stock price, news, quote and history - Yahoo Finance
 bdef01f2763cdac894bd80819e06fdfe|||PWR|||Quanta Services, Inc. (PWR) stock price, news, quote and history
 712d77dfd96b3781c3c9971bd3440a27|||IONQ|||BofA Rated IonQ a Buy at $60 but Valued Its Foundry at 2 Times Sales. Here’s Why That Split Matters
+2d2985e1f432169b820c3f4ee603580f|||TSLA|||Tesla delays Roadster 2 event again due to bad weather
+1c48aa6c7a1703cfdc8ea932e6536ff2|||AAPL|||Apple Stock Falls After Bank of America Flags a New AI Threat
+694e520d0e3651cf128f67fcf83ce24c|||META|||Meta Expands Its AI Agent Push With Muse Tools For Small Businesses
+c08e9ee5a403b37fd3f746d4616a158d|||META|||Jim Cramer’s META Muse Bull Case Is About to Get a Revenue Test
+7ec9775ae422c856b95919abe392d1e0|||META|||Meta Expands Muse AI Agent to Enterprise Software and Small Businesses
+427e627372b3c27bb1a5df7eca57874c|||AMD|||The real prize in AMD’s $8 billion World Labs acquisition isn’t what you’d think
+aa2270651da0636c780c8b995bc35352|||AMD|||AMD's $8.2 Billion AI Deal Takes Aim at Nvidia's Biggest Advantage
+9b27525476b7443e267e9e92a6095869|||AMD|||AMD Stock Rises as $8.2 Billion World Labs Bet Raises Bar
+ac4a4f1a26d659e878eee0951b97200f|||MU|||Micron options chain skews bullish in run-up to Q4 earnings (MU:NASDAQ)
+09aa944eba50955d3266f24f3ccb3c0e|||MU|||MU Oct 2026 730.000 call (MU261002C00730000) Stock Price, News, Quote & History
+25994acc50d79162c57c8e85b5d1c5d0|||SNDK|||Examine Sandisk Carefully Before You Jump in on The Buyback News
+71cc404d1447dfff75acc60e392a2680|||BE|||Apple, Meta, Iovance, Carnival, Fair Isaac, Bloom Energy, SpaceX, and More Stocks That Explain Today’s Market
+d455d388b3bad27c804b100d7f31ef29|||BE|||Jefferies Lifts Bloom Energy Target but Flags Project Risks
+e87d0d71d8a7fd827e57b022338b5681|||FCEL|||FuelCell Energy Inc. stock falls Monday, underperforms market
+918f627e8e4c6c73ac9c0bdd16198159|||FCEL|||ROSEN, LEADING INVESTOR COUNSEL, Encourages FuelCell
+100aa34ccf8951fc30af2a2bacb540e7|||QNT|||Market Are Selling The Quant News: Here's Why (Cryptocurrency:QNT-USD)
