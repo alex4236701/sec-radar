@@ -2466,3 +2466,42 @@ cffe29366d07564c02ac7a1d816f721d|||BE|||What's Up With the Jump in Bloom Energy 
 ee9f0f88276489c3ff108679cd4cb7a9|||BE|||Why is Bloom Energy stock surging today?
 4d75620a91ee190b14a723d420653b0e|||FCEL|||FuelCell Energy jumps on Oppenheimer initiation, citing data center demand By Investing.com
 0bd54a6a5ea131036c4ccb678228e68e|||FCEL|||Oppenheimer initiates FuelCell Energy stock with outperform rating By Investing.com
+7f52a9a3920bca93ceda3f0ecee1b6f9|||MSFT|||BastionGPT Launches Microsoft-Certified Power Platform Connector, Bringing HIPAA-Compliant AI to Power Automate, Power Apps, and Copilot Studio
+787a6ded77a692726f590ca6374f24ae|||TSLA|||Nio Slides 4% as Geely Takes 30% Stake in Nio Power Unit; XPeng Drops 4%, Tesla Slips
+457693af86c5a530fce551d8ef36c06a|||TSLA|||Tesla Pushes Roadster Event To Oct. 15 After Storm Forecast, Says It ‘Can Only Be Held Outdoors’
+a1458fcae1172185f2c3489f2632f8da|||AAPL|||Apple CEO Ternus plots restructure to supercharge products, report says
+208ec2277cf9a4c79e8b8138fe5cf63f|||AAPL|||Apple CEO Ternus may look to unveil products faster, become more experimental: report (AAPL:NASDAQ)
+453239150ab552726f73de9a46360323|||META|||Apple Stock Faces AI Threat From Meta’s Muse, BofA Says
+07b7dcf91043de6a3fb1638874f6db4c|||NVDA|||Nvidia, Anthropic CEOs to Attend Trump Meeting on AI Risks
+2685b1de0211c9b54b6af9b5cac1ceb6|||NVDA|||Pope Leo pushes back on Nvidia’s Jensen Huang over AI regulation (NVDA:NASDAQ)
+130c8779470468c5ef9535caa2a339bb|||NVDA|||Nvidia, Anthropic CEOs to Attend Trump-Johnson Lunch on AI Risks
+191d9000d6e1bfcd9e7e9e207a78cf19|||NVDA|||Nvidia Stock Buyback Impresses Market Experts: ‘Very Much Like This Move’
+1756246086fec49d871c529c598120d6|||MU|||Micron Q4 earnings on deck: What to expect (MU:NASDAQ)
+4aee38a7fc2f454fbd7b140b0af21e9e|||MU|||MU Oct 2026 55.000 put (MU261023P00055000) Stock Price, News, Quote & History
+eea4a438daffb5e096fe9c888a0d8030|||MU|||MU Oct 2026 115.000 put (MU261002P00115000) interactive stock chart
+88afc0f7d5a9cd022cda2cc9edb5d8a7|||MU|||MU Oct 2026 702.500 put (MU261002P00702500) interactive stock chart
+9baab9dacdcf292f30510a4234711875|||MU|||MU Oct 2026 1245.000 call (MU261002C01245000) stock price, news, quote and history
+818f9b31a3e37b468536dc6fe9665139|||MU|||MU Oct 2026 90.000 put (MU261002P00090000) stock price, news, quote and history
+9c000a99526048a94e18308ec3f394ca|||MU|||MU Oct 2026 390.000 put (MU261030P00390000) Interactive Stock Chart
+a2e436928f8679ef385abcfa4a4a3ffd|||MU|||MU Oct 2026 490.000 call (MU261002C00490000) interactive stock chart
+fde3a34aa231c0adcc8d9122b41c5f6e|||MU|||MU Oct 2026 490.000 call (MU261002C00490000) Stock Price, News, Quote & History
+8425d5beed7ca593bbe3e557eaa9f89d|||MU|||MU Oct 2026 80.000 call (MU261002C00080000) Stock Price, News, Quote & History
+497208877758eb0793c84f5163ac87ca|||MU|||MU Oct 2026 712.500 put (MU261002P00712500) Interactive Stock Chart - Yahoo Finance
+44ec040d98865384a207e7d26bb1064d|||MU|||MU Oct 2026 732.500 put (MU261002P00732500) Interactive Stock Chart - Yahoo Finance
+d8dc3452c2d3a520d48b4d4f6b246d3e|||MU|||MU Nov 2026 1480.000 call (MU261106C01480000) Stock Historical Prices & Data - Yahoo Finance
+61c436f1af6f3c35b81a0820295e19ff|||MU|||MU Oct 2026 1670.000 call (MU261002C01670000) stock price, news, quote and history
+a4565a3a6b59923a896b014657eb6217|||MU|||MU Oct 2026 490.000 call (MU261002C00490000) stock price, news, quote and history
+fe5142189b0e66932cc95606895261ee|||BB|||Why Is Blackberry Stock Falling on Tuesday?
+35166223136343243e4e74b00bfa6172|||NET|||Cloudflare, Deutsche Telekom Collaborating on Enterprise Security in Europe
+df8eae55b2332f12553ccb8d96555024|||NET|||Cloudflare Taps Deutsche Telekom’s Enterprise Muscle in European Expansion
+6f1de3aaf8a0ee4402b5c4ef3a703621|||NET|||Cloudflare, Deutsche Telekom agree cybersecurity partnership
+1dbcbc8b901f80d6489a07987d3f7f7e|||CRDO|||Credo Technology: The Copper King Has Already Paid For Its Crown
+64b1cea3a224376c86edb4715814ba4c|||RKLB|||Cantor Backs Rocket Lab’s Launch Momentum After 97th Electron Mission – Highlights These ‘Competitive Advantages’
+30ef106423dad1990ffe8ea027094d41|||BE|||Why Bloom Energy and AI Stocks Rise Even as OpenAI Safety Concerns Persist
+2d97a7e4c569124eca708c294faa3302|||BE|||Bloom Energy: The Power Bottleneck Was Just The Beginning (NYSE:BE)
+504ff29fa8f97066018282741ca5382a|||BE|||Bloom Energy stock jumps 10.9% as RBC maintains rating on demand
+1378430b5156605aeeecedc832aff660|||FCEL|||FuelCell Energy Shares Rise After Oppenheimer Initiates Coverage With Outperform Rating
+693a6a391c4ef9d4f8a45da23e8d5072|||FCEL|||FuelCell Energy Stock Surges Following Oppenheimer Initiation: What Investors Need to Know
+ba6e19db356e06f5c3b665bdedf2b6a4|||FCEL|||FuelCell Energy jumps on Oppenheimer initiation, citing data center demand
+7991fa684a52bc784256f6e874ba0738|||FCEL|||FuelCell Energy rated Outperform as Oppenheimer sees data center growth (FCEL:NASDAQ)
+8ef85d742407f37118ecc2ac1a4d6b65|||CAT|||Caterpillar Inc. (CAT) Is a Trending Stock: Facts to Know Before Betting on It
