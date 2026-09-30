@@ -2865,3 +2865,26 @@ a6b5ebe06a65adffc98b7f44fe4f7238|||CRWV|||William Blair bullish on CoreWeave and
 1db6a5e51dd57a9af58d298ecbf2279d|||COHR|||Coherent: A Cautious Buy (NYSE:COHR)
 f3e8380669426b871bad5f47f6139fc0|||COHR|||Why Coherent (COHR) Stock Is Up Today
 aa55251ea762f63a3d88e516a04a0142|||BE|||Bloom Energy Stock Rose 16-Fold in 5 Years. All of the Gain Came in the Last 2.
+9cc67b791cb7e3d1bbe5b64262fb4cd6|||AAPL|||Apple’s new CEO John Ternus plans on making some changes
+d9bbf41d84d2243a8218893497f56046|||AAPL|||Apple rises amid iPhone Duo excitement, though UBS sees 'flattish' wait times for Pro (AAPL:NASDAQ)
+12c8229e57ab178cbcc690d7b907261c|||AAPL|||QUALCOMM (QCOM) Is Down 6.7% After Renewing Apple Patent Deal And Deepening AI, Cloud Push
+d794f79f7b8c1bf0f5608f2e4e661b45|||QCOM|||One Of Qualcomm’s Earliest SoCs To Support Windows And Help The Company Set Up The Snapdragon X Family Will No Longer Be Compatible With Microsoft’s Next Update
+0933fa6ef1a6f8c7c5d0a6dc7f8867ec|||QCOM|||QUALCOMM (QCOM) Is Down 6.7% After Renewing Apple Patent Deal And Deepening AI, Cloud Push
+8964c1071ce8ede4992e615b921e8892|||META|||Meta is bringing Muse AI to small businesses — and it already has a huge head start
+6f60db05cb61675a29863b36f7580b7b|||HPE|||Hewlett Packard Enterprise: The Comeback Has A Catch (NYSE:HPE)
+8d55c63652453034fd0173b56b728713|||HPE|||HPE stock climbs after landing $1.2 billion AI infrastructure order from Vultr
+0a1ecaef3e825020975d7c71000b8f9b|||HPE|||Hewlett Packard Enterprise Co. stock outperforms competitors despite losses on the day
+2ad2dcac3c430db1375e4cf43ea4a65f|||NVDA|||DeepSeek and Huawei Just Took Aim at Nvidia's Biggest Software Advantage
+9dc6a01bd8a9402a48c7da4100081f90|||AMD|||AMD Stocks Slip After $8.2 Billion World Labs Deal Announcement
+45570f356a61add587675d1848e0b5ed|||AMD|||Cathie Wood Just Dumped $110 Million of AMD--and Bought Nvidia and Broadcom
+1b2b9c9005a36b73d7d19c7f76338ef9|||AMD|||Minisforum Launches AtomMan G1 Pro With AMD Radeon RX 9060 XT 16 GB Capped At 140W At $1759
+b33c80ac2ee6a025669fa4460692d67b|||INTC|||INTC Sep 2026 121.000 call (INTC260930C00121000) stock price, news, quote and history
+6ffb20d5bc19f7b67032dcf8aef95c94|||ALAB|||Astera Labs: The Only Level I Buy At (Rating Downgrade) (NASDAQ:ALAB)
+76585f5e09943506f41bb1f697e30dce|||MU|||Earnings Preview: Micron (MU) (NASDAQ:MU)
+c43c0865930666bda99f999dcc8dfa54|||MU|||MU Nov 2026 1110.000 put (MU261106P01110000) Stock Price, News, Quote & History
+827ec4f631ac39e0ef12664b6c6bfae8|||SKHY|||Broadcom vs. SK Hynix: Which Technology Stock Is a Better Buy in 2026?
+84950d41878714bf4e5198e634ff93cd|||CRM|||Salesforce up 3.2% after announcing Listen Labs acquisition
+52e64ffafe6e1e7779e344c4fcb2fa35|||CRWV|||CoreWeave Stock Rises After Neocloud Goes Live With New Nvidia Hardware
+acd4b5eb66a576dc840786f1ac9f4080|||CRWV|||William Blair initiates CoreWeave stock with outperform rating
+fbd68e9fd3c1000a123cbe3033b80a7b|||RKLB|||RKLB Nov 2026 85.000 put (RKLB261106P00085000) Stock Price, News, Quote & History
+307554fb96b2aaa8b709983feee64078|||ZETA|||UiPath vs. Zeta Global: Which AI Stock Is the Better Buy?
