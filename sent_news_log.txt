@@ -2826,3 +2826,42 @@ d735360751cb167be21462b9ea1e15b3|||RKLB|||AST SpaceMobile Jumps 5% on Takeover S
 54bc991a07cf01ff42355bac0ea061a8|||CAT|||Caterpillar to Invest $1 Billion in North Carolina to Expand Cat Compact Manufacturing Capacity
 3b12adcca37754d78b8eea0fae773daa|||CAT|||Caterpillar to invest $1 billion in North Carolina facility By Investing.com
 292a77f562217b418b02f6772e2ed966|||CAT|||Caterpillar Inc. Enters into Agreement to Acquire Fabick Cat Dealership – Company Announcement
+512345d374b201b5d5380accca0ed4a8|||MSFT|||Microsoft's Copilot Could Unlock $2 Billion in Annual Revenue by 2028
+03629d2f4a3469889c1f39c72ce1bc37|||AAPL|||Apple stock pops on report it will unveil all-new smart home hub at Oct. 13 event
+9777f05dd3f3c7e39fd0d6d9044e72f3|||AAPL|||Apple Reportedly Prepares Major Smart-Home Push With Siri AI At Center — New Hub, Apple TV And HomePod Mini Nearly Ready
+d6128861bf5e506fa973ba624d758220|||META|||Meta Stocks Drop as OpenAI Dots Targets Muse's Agent Market
+b11437f6b5b74ed2aa11d669170e40e8|||META|||From OpenAI to Meta, why AI companies want cute ‘agents’ to run your life
+3dc70fed7ec3c385a870af8b7dcc16b4|||META|||MongoDB (MDB) Is Down 21.2% After CEO Desai’s Sudden Exit to Join Meta Platforms
+92065b11f8a55246f1389febedd22995|||HPE|||HPE Boosts Forecast, Gets $1.2 Billion Gear Order From Vultr
+346c9edbc3ed44a25e4bb41089b6ff55|||HPE|||Hewlett Packard Enterprise, Capital Bancorp, FormFactor And Other Big Stocks Moving Higher On Wednesday
+82177fb7c3a5625604d3f76f9f14047d|||HPE|||HPE Secures Its First AMD Helios Order in $1.2 Billion Deal With Vultr – Company Announcement
+b8f7a336c069104bac594e5592740121|||AVGO|||Better AI Chip Stock to Buy Today: Broadcom vs. Marvell
+34f098863735ce18bbc3553511feb900|||AVGO|||Broadcom vs. SK Hynix: Which Technology Stock Is a Better Buy in 2026?
+8d98c6bb3bc5a1c64bd1bf33507f39b2|||NVDA|||How Nvidia’s Big Win at Trump’s AI Lunch Will Help the Stock
+b553d92ebd1afb6a73e12f504329902f|||NVDA|||Nvidia (NVDA) Unveils Open Agent Safety Platform
+07d52e3c9a40c681c9615c36124341c5|||NVDA|||Nvidia (NVDA) Ships an AI Safety Platform After Huang Called Rival Warnings Odd
+38abf98a96b29dd6f6757027bc4ae33d|||AMD|||Cathie Wood Sold $110 Million of AMD and Bought Nvidia Instead
+dea2db108e228d1c01b8a974e5af05d8|||AMD|||EMS Broadens Product Offering Across Fencing and Hurricane Protection with Acquisition of AMD Supply
+280ce68fd41f072cc089faf876e3d83c|||AMD|||Eaton, AMD and SpaceX: CNBC ‘Final Trades’ - Advanced Micro Devices (NASDAQ:AMD)
+cd386a1575f78b0aac0ab747a5352b3c|||MU|||Micron Earnings Prediction Market Preview: Can the AI Memory Boom Keep Running?
+335c071ddfc81ae3372e216091e04da5|||MU|||Micron Technology (MU) Could Be 47% Undervalued On Its Enterprise Memory Narrative
+a77b2aba484e9b7142dbec153c013284|||MU|||MU Oct 2026 1145.000 call (MU261009C01145000) Stock Price, News, Quote & History
+d5baa6d044ae606c93fb0baaa2326cc4|||MU|||MU Oct 2026 600.000 call (MU261030C00600000) Stock Price, News, Quote & History
+35031686e3d9f99f71d23d925126fbe1|||MU|||Sept. 30 Could Be the Start of a New Paradigm for Micron
+df92cbd9dbf4c1ede541a3b84ed9d539|||MU|||Micron Q4 Preview: Market Expert Highlights $1,575 as Stock Price to Watch
+0093ca32465f2d1ea3bbf270e1b698dc|||FORM|||Why is FormFactor stock surging today? By Investing.com
+aeefab10b21a6dcae862a55a43511a64|||BB|||BlackBerry's Alloy Kore Scores Big: Can It Unlock Higher QNX Revenue?
+93c186033d3ca2e4ecd8ae7cb56cc79f|||NVTS|||LITE vs. NVTS: Which AI Data Center Stock Is the Better Buy?
+cbcc52bb960009ba78d6e41a9de2eab1|||CRWV|||CoreWeave Expands Enterprise Push As AI Cloud Competition Heats Up
+410b4682ba567edc472256c46c96cfcc|||CRWV|||CoreWeave Stock Rises After Debuting Nvidia Vera Rubin, New Software
+032a7938473a8d90495c8eb504cdc03e|||CRWV|||Ennoble Care Selects CoreWeave to Power AI Inference Across Its Home-Based Care Network
+8a53cce87b8cc2a8d3645e891fa40324|||CRWV|||CoreWeave Delivers NVIDIA Vera Rubin NVL72 Performance at Production Scale, Starting With Cognition
+a6b5ebe06a65adffc98b7f44fe4f7238|||CRWV|||William Blair bullish on CoreWeave and Nebius as AI buildout accelerates
+1e8d24e124a3f7cd1bfd4a916eabffe9|||CRWV|||CoreWeave to add NVIDIA Vera CPU to cloud computing portfolio
+9ef367a7b4ea798c7aba92ba9ef28987|||CRWV|||CoreWeave to add NVIDIA Vera CPU to cloud computing portfolio By Investing.com
+70e6f6069020dc40177f5bb400003a08|||PANW|||CrowdStrike, Palo Alto Double As AI Cybersecurity Trade Begins
+7bb167eef663e67f09f0f083b8f2ab86|||LITE|||LITE vs. NVTS: Which AI Data Center Stock Is the Better Buy?
+952306b0fef94d5fef8b6d276d50ab71|||COHR|||Is Coherent's PhotonLink Push Reframing Its AI Datacenter Optics Edge For Investors (COHR)?
+1db6a5e51dd57a9af58d298ecbf2279d|||COHR|||Coherent: A Cautious Buy (NYSE:COHR)
+f3e8380669426b871bad5f47f6139fc0|||COHR|||Why Coherent (COHR) Stock Is Up Today
+aa55251ea762f63a3d88e516a04a0142|||BE|||Bloom Energy Stock Rose 16-Fold in 5 Years. All of the Gain Came in the Last 2.
