@@ -2888,3 +2888,33 @@ c43c0865930666bda99f999dcc8dfa54|||MU|||MU Nov 2026 1110.000 put (MU261106P01110
 acd4b5eb66a576dc840786f1ac9f4080|||CRWV|||William Blair initiates CoreWeave stock with outperform rating
 fbd68e9fd3c1000a123cbe3033b80a7b|||RKLB|||RKLB Nov 2026 85.000 put (RKLB261106P00085000) Stock Price, News, Quote & History
 307554fb96b2aaa8b709983feee64078|||ZETA|||UiPath vs. Zeta Global: Which AI Stock Is the Better Buy?
+874913a0af6dd0b725d31cf24ac5c8e0|||AAPL|||New Apple CEO John Ternus is reportedly planning layoffs as he looks to reshape the iPhone maker
+6c85f91ea30193e731d6fe1175ea1856|||AAPL|||Apple to enter smart-home market with Siri AI hub
+cc6b46196d34be83585617e5f0ff60a4|||AAPL|||Watch Stocks Jump on inflation Surprise, Apple's Smart-Home Push
+3239ba763621a59c540ce2edc7b7addb|||AAPL|||Apple Beats Huawei And Xiaomi As iPhone 18 Pro Tops China’s Phone Sales
+945fd63396df79694e2bbf79c4962ef8|||QCOM|||QUALCOMM (QCOM) Renewed A Global Patent License Effective April 2027
+79f729e1830a656f7ea1b75cab2663e4|||META|||Needham names top SaaS picks amid Meta Enterprise Platform concerns
+6c3c98081a344ecbe6efb93be7e19a39|||META|||Virtuix Expands Omni One for Quest Library to 75+ Games as Meta Unveils Next-Generation VR Glasses
+15eb28daf70cb0b61421135c44450030|||META|||All the latest news on Meta’s cute, creepy Muse AI agent
+41f36c99f2ae14d3fb3b540df54973db|||HPE|||Why HPE Stock Is on Pace for a Closing High Today
+0cf2111661f2bcdc3302c4e03a65e7e5|||HPE|||Hewlett Packard Enterprise Jumps 5% on AMD Order; Dell and Super Micro Barely Move
+766d48c25038b6347d4269193bc45879|||HPE|||HPE’s $1.2 Billion Helios Win Comes with Bigger Networking Growth Bet
+7c425c66a254007cb830a4f92cfc453d|||TSM|||TSMC (TSM) is a Great Momentum Stock: Should You Buy?
+6dc6e517fce2e8c3c5cf2e84796f150c|||NVDA|||Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips
+0c7292263072e1d2f8bbc49baf2ed65f|||NVDA|||Trump Unveils 'Morally Binding' AI Accord Signed by OpenAI, Google and Nvidia
+ac834fe9eb9f7fc1a01a06825fe7130b|||AMD|||Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips
+5f2ed70aede89f6efcebea51d3747655|||INTC|||Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips
+768625940331a4048257b8566eb1e322|||INTC|||INTC Sep 2026 144.000 put (INTC260930P00144000) Interactive Stock Chart
+83027f4ffb52bf7bbab52ea3164f625a|||INTC|||INTC Sep 2026 132.000 put (INTC260930P00132000) Interactive Stock Chart
+24dcac30fbeb3575c52e1101d667bf0e|||MU|||Micron Earnings: Options Price in a 6.3% Move. Too Small? - Micron Technology (NASDAQ:MU)
+b88fb74a26484c93fe79b5a1d9969219|||MU|||MU Oct 2026 270.000 call (MU261030C00270000) Stock Historical Prices & Data
+cbd1cb2d3219d977806b40687740eba1|||MU|||MU Oct 2026 605.000 put (MU261009P00605000) interactive stock chart
+1c16e196852d348743553af98427b5b5|||NVTS|||Navitas Semiconductor (NVTS) Lands Army Chip Program, Is The Stock Still A Bargain?
+848cbbf69f49e0ad57272db2b2c27fbb|||VICR|||Vicor (VICR) is a Great Momentum Stock: Should You Buy?
+bcce86f4ee167530357541f5e7dcf09f|||CRWV|||CRWV CEO Says ‘No Reduction In Orders’ As CoreWeave Rolls Out Nvidia Vera Rubin AI Systems
+3148367476e6f85f1fed209ad941509e|||PANW|||BlackBerry Advances 5% on Continued QNX Momentum; Palo Alto Networks Gains 4%, CrowdStrike Edges Up 2%
+69761e204ddf8de19830f09e29039fa8|||FTNT|||Is Fortinet (FTNT) a Solid Growth Stock? 3 Reasons to Think "Yes"
+dff937d3e2b0620763245f472b4e287a|||RKLB|||RKLB Nov 2026 85.000 call (RKLB261106C00085000) Stock Price, News, Quote & History
+b72f0a9de3a06b65ed2ba163a311fa95|||CRCL|||Circle Internet Group (CRCL) Launches Arc Mainnet And Expands Into Bank Payments
+31d958663c8f50b5aac29b8b54c95002|||VRT|||3 Reasons Why Growth Investors Shouldn't Overlook Vertiv (VRT)
+e427b1e31611769c4b76f33da26f4c9a|||FCEL|||FCEL Shareholder Alert: November 10, 2026 Lead Plaintiff Deadline in FuelCell Energy, Inc. Securities Class Action - Contact Levi & Korsinsky
