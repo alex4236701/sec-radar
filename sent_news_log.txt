@@ -2681,3 +2681,42 @@ d72d7a64635c0c74d5d7e45e8e83162c|||RKLB|||Rocket Lab Steps In Where SpaceX Just 
 0398bc19958150f17b462894dec5cc37|||RKLB|||RKLB Nov 2026 62.000 put (RKLB261106P00062000) Stock Price, News, Quote & History
 b3b2d0579da8054077a51ceb25a205c1|||BE|||Bloom Energy (BE) Stock Still Looks Undervalued After a 24x Run
 352299c283b2db0294532aabbe9e110f|||BE|||Form 4 Bloom Energy Corp Class A For: 30 September By Investing.com
+d4fe5c7fbacf6f3e3a648bb2c9fe59ef|||GOOGL|||AMZN, MSFT, GOOGL Need $1 Trillion in Revenue To Earn 15% Return on AI Capex — Here's What Goldman Says A
+c3a7a6df9f68bb2cced5764f0ed2923c|||GOOGL|||Zacks Investment Ideas feature highlights: Advanced Micro Devices, Micron, Nebius, Alphabet, Meta Platform and Apple
+96030ecbb7f0439530fd8a9cefd641a1|||MSFT|||AMZN, MSFT, GOOGL Need $1 Trillion in Revenue To Earn 15% Return on AI Capex — Here's What Goldman Says A
+40b23c38fa0f85cf21783b0f633308e1|||TSLA|||Why Are Nasdaq Futures Rising Premarket? MU, TSLA, CAPR, VNDA, ASTS, HOOD, BA Stocks In Focus
+48e6108d3883f13e4fac7a973ba8731e|||AAPL|||Amazon (AMZN) and Apple (AAPL) Must Face a UK Class Action Over Marketplace Sales
+1efb031129d992aba1862e82efacbaf4|||AAPL|||Apple Launches Mobile Payment Services in India
+9ca02bec29b063e0bcf9348ee585492f|||AAPL|||Apple enters India payments market, taking on Google and Paytm (AAPL:NASDAQ)
+e02268782f2435e9f9afb386e0c1f899|||AAPL|||Market Chatter: Apple Pay to Launch in India Tuesday With Axis Bank
+2b3824e1ccf39d052e79111fad00cd04|||AMZN|||Amazon (AMZN) and Apple (AAPL) Must Face a UK Class Action Over Marketplace Sales
+a762c7a05302608e407b44b090358b31|||AMZN|||AMZN, MSFT, GOOGL Need $1 Trillion in Revenue To Earn 15% Return on AI Capex — Here's What Goldman Says A
+34aa2c00527980aac8c0ee604f2e9aee|||META|||Mark Zuckerberg sends bold message to Meta investors after Muse
+4d1dce2fd76a8f1d660becd5be9b979d|||META|||Zacks Investment Ideas feature highlights: Advanced Micro Devices, Micron, Nebius, Alphabet, Meta Platform and Apple
+30ee4772f7aa0022dc8cfcbe0fa980b3|||META|||The Case For Meta Enterprise Platform (META)
+e4a58165573484ae49540674a14eb91b|||META|||Meta’s Muse AI agent pressures online travel stocks, Truist comments
+c66830c884d06a4afefa58ca4b15eb3e|||META|||Jim Cramer Says Wall Street May Be Overreacting to Meta’s Muse AI Threat — This Stock Could Be ‘Mostly In
+c032c0fe700c19d94f5c7958d7b82c0c|||META|||OpenAI CFO Accidentally Calls Dots as Muse Giving Meta's AI Agent an Unexpected Shoutout in Faux Pas Mome
+fe8bbf4a505fd550731286e400ef140b|||META|||Meta’s Muse AI agent goes rogue on Facebook Marketplace seller and sends stranger to his door
+18d051b7d9591423eb7b08a8d9469dc0|||NVDA|||Nvidia Was the Big Winner of Trump’s AI Lunch, Here’s Why
+6703d871188bbf410583758e2d4660c2|||NVDA|||Nvidia Turns to Insurers to Spread AI Chip Financing Risk
+b45e1dd25277132a1a77d100cff2dabe|||NVDA|||DeepSeek unveils Huawei AI chip software to challenge Nvidia
+ea141bbc44bf10b2e716a90bd41b84f4|||AMD|||Zacks Investment Ideas feature highlights: Advanced Micro Devices, Micron, Nebius, Alphabet, Meta Platform and Apple
+21f672ab9a32645a76e45ef1f4411060|||AMD|||AMD acquires AI legend Fei-Fei Li's World Labs for $8.2 billion — ImageNet pioneer will become AMD chief scientist as the chipmaker brings her lab in-house
+e17faac74ea538ad9b0687874bfdb677|||AMD|||Cathie Wood’s ARK sells AMD stock, buys Nvidia and Tesla
+2c4abd4b774455105b3f48439c2a068c|||INTC|||INTC261007C00080000 Interactive Stock Chart | INTC Oct 2026 80.000 call Stock
+17d0cfcbe2d046b3e1b96348a656d982|||INTC|||INTC Oct 2026 80.000 call (INTC261007C00080000) stock price, news, quote and history
+ae5734fb4f370e4f2657645dcf223076|||ALAB|||Bull of the Day: Astera Labs (ALAB)
+2d27dd94644194665aa63944fbe35ab0|||MU|||Zacks Investment Ideas feature highlights: Micron Technology
+f171499eefb26c23225b80baf0d28638|||MU|||Micron Stock Split Chatter Grows Ahead of Q4 Earnings - Micron Technology (NASDAQ:MU)
+70b7a55e55b6c71356254454bf0748c0|||MU|||Why Are Nasdaq Futures Rising Premarket? MU, TSLA, CAPR, VNDA, ASTS, HOOD, BA Stocks In Focus
+c61627dfa7ac449467b676613a040319|||MU|||MU Oct 2026 670.000 call (MU261005C00670000) Stock Price, News, Quote & History
+71bdd60b2696e2d47c66bce3498bf55c|||MU|||MU Nov 2026 1015.000 put (MU261106P01015000) Stock Historical Prices & Data
+b665e356af3cf16acdb803e39502ff20|||MU|||MU Sep 2026 1020.000 call (MU260923C01020000) interactive stock chart
+591dc14a8f289a0ffa95c0b0fa0d13f6|||MU|||MU Oct 2026 970.000 call (MU261023C00970000) interactive stock chart
+ab4bd4f6405b9c8829060f989f25fe4e|||SNDK|||The Zacks Analyst Blog Highlights Seagate, Western Digital, Micron and Sandisk
+36c083b455d9502c91079c478d826bb8|||WDC|||The Zacks Analyst Blog Highlights Seagate, Western Digital, Micron and Sandisk
+7aa72264f57afb8776448c70869b8e40|||SNOW|||MongoDB (MDB) vs Snowflake (SNOW): Which is a Better Stock to Buy?
+a1a087dd2802cbd4b0d175016c1378bd|||PANW|||Form 4 Palo Alto Networks Inc For: 30 September By Investing.com
+919cb211b34c711c4962ab6d1f64fe27|||RKLB|||RKLB Nov 2026 82.000 put (RKLB261106P00082000) Interactive Stock Chart - Yahoo Finance
+acd65a4d43ecc854c5faa2150a4aa7c2|||IONQ|||Cerebras Systems vs. IonQ: Which Technology Stock Is a Better Buy in 2026?
