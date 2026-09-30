@@ -2656,3 +2656,28 @@ a0f62726585def97232c4c5ba4b92737|||GLW|||Why Corning Stock Topped the Market on 
 dcca983d6f675adcb8bb08d3843be1ca|||BE|||Bloom Energy CEO: Power Demand Is Coming From All Angles
 9b9d30e9b54f198d162643dc378a0f44|||FCEL|||FuelCell Energy Inc. stock rises Tuesday, outperforms market
 9fffd1ebd0e49504402d333dc74d3a82|||PWR|||Quanta Services, Inc. (PWR) Stock Price, News, Quote & History
+918ad8e2c02cf28df9ed29e8d01c19e9|||AAPL|||New Apple CEO John Ternus is reportedly planning layoffs as memory chip costs rise
+18566deb3969aca3758577d187da9515|||AAPL|||Apple Pay finally launches in India after years on the sidelines
+17c0457658397dc4def3368c85ae70ed|||AAPL|||Apple Pay launches in India with Axis Bank partnership
+07bf0da3e31e796dd029f2b4c6fc3457|||AAPL|||Apple Starts India Payments Service to Take On Google, Paytm
+fe9bc5990e4e3ea0658c4ac1f84333c9|||AAPL|||Apple Pay set to launch in India with Axis Bank today, sources say
+247cfe7737480641c899cf38c616fef2|||META|||Meta Platforms President Dina Powell McCormick goes one-on-one with Jim Cramer
+4cf9b9a3b39ec3cb157e7969319b6480|||NVDA|||DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia
+5dd0af9610eb007f4ea2601d2bc486fa|||NVDA|||History Says Nvidia's Record $150 Billion Buyback Is Good News for the Stock
+bb9a1fb01d75ba280c5dffdb149f064a|||NVDA|||DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s
+6abca97f88a2a66fe6cf233d04acab27|||AMD|||Stocks making the biggest moves premarket: Fair Isaac, SpaceX, AMD & more
+97149970ffaa4808efe74cac973dc0f0|||AMD|||Cathie Wood Goes Big on Nvidia After $150 Billion Buyback, Sells $110 Million of AMD: ARK Invest Also Pic
+383ec937b46d1ee2c99867eadc7283f1|||AMD|||AMD will acquire Fei-Fei Li’s World Labs for $8.2B
+37a180fa1d848ebe5e9511381369b5a2|||INTC|||Intel vs. Nvidia: Which Semiconductor Stock Is a Better Buy in 2026?
+b2a908eccf763e87fac72b9664199c36|||MU|||JPMorgan Sees Micron Positioned for Beat-and-Raise Ahead of Q4 Results
+76c66fb514a0b87d8ddb6dfeb8edd958|||MU|||MU Oct 2026 1070.000 call (MU261030C01070000) interactive stock chart
+69b5ea6a67d4272ece3f716e5817c709|||MU|||MU Nov 2026 1050.000 call (MU261106C01050000) Stock Price, News, Quote & History
+dfd5a38253556962e3aa14914dac39ae|||MU|||MU Nov 2026 185.000 put (MU261106P00185000) Stock Price, News, Quote & History
+d7232dc5a9025c4138f3395b00436955|||COHR|||Optics Stocks Slide Despite Citi’s $11B Switching Forecast: Coherent and Applied Optoelectronics Drop 5%, Corning Falls 3%
+d073e13527133f10a0ebbd4c5fc0d2c4|||GLW|||Corning Inc. stock outperforms competitors on strong trading day
+d72d7a64635c0c74d5d7e45e8e83162c|||RKLB|||Rocket Lab Steps In Where SpaceX Just Walked Away
+51f22cf519708b219f4f3b4f86559685|||RKLB|||Rocket Lab: Iridium Financing Solved, Neutron Next (NASDAQ:RKLB)
+1c9da12e0ced9cafaa0f97721d7719c9|||RKLB|||Rocket Lab Corporation (RKLB) Declines More Than Market: Some Information for Investors
+0398bc19958150f17b462894dec5cc37|||RKLB|||RKLB Nov 2026 62.000 put (RKLB261106P00062000) Stock Price, News, Quote & History
+b3b2d0579da8054077a51ceb25a205c1|||BE|||Bloom Energy (BE) Stock Still Looks Undervalued After a 24x Run
+352299c283b2db0294532aabbe9e110f|||BE|||Form 4 Bloom Energy Corp Class A For: 30 September By Investing.com
