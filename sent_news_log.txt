@@ -2777,3 +2777,52 @@ bf66b308bc42875bfa7d5a4050cc7eda|||SPCX|||SPCX Stock Eyes 2-Month Winning Streak
 4f054dee217db22123132274b0382a7c|||BE|||Dow Jones Futures Fall; Inflation Data, Micron Earnings Due Bloom Energy, AI Stocks Shrug Off Yields
 1b22720d33fbaf158c7beb4292d6877e|||CAT|||Caterpillar plans $1B North Carolina expansion, agrees to buy Fabick dealership (CAT:NYSE)
 681ac12d36d511b98e966ae79a1d4e44|||ROK|||Rockwell Automation to Host Annual Investor Meeting
+27152b054243524a944a12c714122a39|||TSLA|||Should You Buy Tesla Stock Before Oct. 2?
+969971daf37cf8f7d3f4876a6a12d75e|||AAPL|||AAPL Stock Retreats From All-Time High: Research Firm Says Apple Could Sell 6M iPhone Duos This Year
+aa13346fcc65b365b3a35594f557fe1b|||AAPL|||Watch Apple to Make Debut in Smart-Home Market on Oct. 13
+2bc831e782fb6840d275a90882255c79|||AAPL|||Apple Predicted To Sell 6 Million iPhone Duo Handsets This Year
+0371c3ac6ea46e325044d355ad31663b|||AAPL|||Apple plans smart-home hub launch in October: report (AAPL:NASDAQ)
+84b6d491352465cba994caaf2a454624|||AAPL|||Apple iPhone 18 Pro China Launch-Week Sales Rise 12%, Counterpoint Says
+e01c478e0b1a7ef9846d2ffef7b37ed7|||AAPL|||Apple iPhone 18 Pro sales rise 12% in China launch week - Counterpoint
+7a0bc8dfc5b60382b0080a04426f1e4f|||AAPL|||Apple likely to sell 6M iPhone Duos this year, Counterpoint says (AAPL:NASDAQ)
+c09f321144c01f3dd1b1e662f8e81c03|||AAPL|||Apple Will Sell 6 Million iPhone Duos in 2026, Counterpoint Says
+50a383eed9a16b42ba0f441dcdf92a95|||AAPL|||Apple to unveil smart-home hub on Oct. 13 in major AI push - Bloomberg
+a5416cbd81b1dd72a5c80b85efce93be|||META|||Meta Stock Slides as Muse Faces OpenAI Threat
+087378956564fddb8f038e87a6851133|||META|||OpenAI Launches Muse Competitor. Meta Seen As 'Clear Leader' In Personal AI Agent Battle.
+34750b789c6e202974d1d87e550771d2|||META|||Meta Faces Challenge in Enterprise Market As OpenAI Launches Autonomous Dots Agents
+88d3f2c20646bf842cca95c445fc000e|||META|||Lisa Greets Fans at Her Meta Glasses Pop-Up in L.A.
+8ee556640ca143219206bc92431fa965|||HPE|||HPE Stock Is Rising. AI Demand Is Boosting Its Networking Business.
+2a32e6593e87936f78430d968414195a|||HPE|||HPE boosts networking growth outlook, gets $1.2 billion AI order from cloud firm Vultr
+56e5b462a2d6fb7909ef77ebcf0b6287|||HPE|||HPE Hikes Networking Segment Guidance, Announces AMD Helios Order
+a98dbe9fd5b1b7a4b4a457bb6aaf86de|||HPE|||HPE Gets $1.2 Billion AMD Gear Order From Vultr in Latest AI Win
+d8ed3a265a4a5c7bcb3422cda3b87935|||HPE|||HPE Secures Its First AMD Helios Order in $1.2 Billion Deal With Vultr
+3b4554df0ff99cefa21f069a0e2073ce|||HPE|||HPE Stock Gains After Securing Its First AMD Helios Order In $1.2B Deal With Vultr
+d803e2ba2b81f0b2ffaa43d925c10400|||HPE|||Why is Hewlett Packard Enterprise stock surging today?
+69150f367761ba23f2bcec61a3d9dc1e|||HPE|||HPE secures $1.2B order from Vultr for AI systems
+caeae8cbd7e018774ae5c169ab5d842a|||HPE|||Form 144 Hewlett Packard Enterprise Company For: 29 September By Investing.com
+36a4920d535488940e8ad9df9d34ab72|||NVDA|||NVIDIA (NVDA) Approves Record Buyback, Is The Stock Still Undervalued?
+7323dd9e58a903c1e001a46a220a1dc4|||NVDA|||Nvidia Stock Just Gave Investors Notice Its Best Days Are Over
+a8eda4b90a1929c7f8537db791748496|||NVDA|||How Nvidia is tackling the AI safety problem
+8a768b3c203cbd12708da3216a152f51|||INTC|||INTC Sep 2026 126.000 put (INTC260930P00126000) stock price, news, quote and history
+12b9fe65ad9c85680075be4a90719f98|||MU|||Micron Earnings Prediction Market Preview: Can The Chip Boom Continue? - Micron Technology (NASDAQ:MU)
+98550a0444e756485296e26a3123f87b|||MU|||Micron Stock Could Swing 8% After Today's Earnings
+2da5a1dbaf08449c30868d4d0bfe3548|||MU|||MU Nov 2026 1085.000 call (MU261106C01085000) Stock Price, News, Quote & History
+b625212ed17f1a02682f7cd1a310c278|||MU|||MU Nov 2026 1000.000 call (MU261106C01000000) Stock Price, News, Quote & History
+b1f2ca72e3a65c52b75783038258a16f|||MU|||MU Apr 2027 1220.000 call (MU270416C01220000) stock price, news, quote and history
+35e5bed5e9eac20b4a477d3e5544ec7e|||MU|||MU Nov 2026 1015.000 put (MU261106P01015000) Interactive Stock Chart
+afb7fbf4a70cbf32c48caecb5353ff18|||MU|||Form 4 Micron Technology Inc For: 30 September By Investing.com
+bfeb39bcf222a860a806614a3ff9f3d7|||MU|||MU Oct 2026 727.500 put (MU261002P00727500) stock price, news, quote and history
+4dc7b2b079a2172a35882074b60c9cf5|||FORM|||Why is FormFactor stock surging today?
+48e3e52a2d8c3acbd1174040b32a7d60|||NVTS|||Navitas Semiconductor (NVTS) Is Down 5.9% After Winning Army-Funded 10 kV SiC Program - Has The Bull Case Changed?
+787ceb92aa259226a9aefec734438df1|||CRWV|||CoreWeave Launches Partner Network for AI Cloud Integrations
+107888195a15ec1f051a98f6df180b4d|||CRWV|||CoreWeave Partner Network Accelerates the Path to AI Innovation
+85e0b3b9ce36b05984e4e71510bb86e7|||CRWV|||CoreWeave launches Nvidia Vera Rubin NVL72 cloud service By Investing.com
+c186d924db260bdebf84104120a94235|||CRWV|||Form 4 CoreWeave Inc Class A For: 29 September By Investing.com
+3ed3b60d5a8ff82116d0c7e278dabe0b|||PANW|||All In On Cybersecurity: The Choice Between Palo Alto Networks or Crowdstrike Not Difficult
+2249d6ac1adca79e4d4422b32873ad79|||PANW|||Palo Alto Networks stock hits all-time high at 399.03 USD
+7ca6bb0d5ba205132a7df01274e25e39|||COHR|||3 Reasons Investors Love Coherent (COHR)
+d735360751cb167be21462b9ea1e15b3|||RKLB|||AST SpaceMobile Jumps 5% on Takeover Speculation; Rocket Lab Rises 5%, SpaceX Treads Water
+3d8e9e63024568a989aedec653c0da2f|||RKLB|||RKLB Nov 2026 82.000 put (RKLB261106P00082000) Stock Price, News, Quote & History
+54bc991a07cf01ff42355bac0ea061a8|||CAT|||Caterpillar to Invest $1 Billion in North Carolina to Expand Cat Compact Manufacturing Capacity
+3b12adcca37754d78b8eea0fae773daa|||CAT|||Caterpillar to invest $1 billion in North Carolina facility By Investing.com
+292a77f562217b418b02f6772e2ed966|||CAT|||Caterpillar Inc. Enters into Agreement to Acquire Fabick Cat Dealership – Company Announcement
