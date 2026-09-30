@@ -2983,3 +2983,23 @@ b268485b4fc0a77d8c90ac09a1034e73|||MPWR|||Monolithic Power (MPWR) is a Great Mom
 73494beb72b557ad79596f547eed5d8d|||PANW|||Palo Alto Networks Stocks Surges 2.4% as AI Defense Becomes Continuous Service
 8050de47cbc884f19d14472ca232084f|||PANW|||Palo Alto Stock Rises on Cool Inflation, Easing Fed Fears
 04d842237837ed5c4fb75d88e63fcc11|||RKLB|||RKLB Oct 2026 67.000 put (RKLB261016P00067000) Stock Price, News, Quote & History
+ef9a998a99a332961230b26a10691077|||GOOGL|||Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher
+ed0fe8d4faa313303acd28cd3ec23a9f|||GOOGL|||Alphabet Stock Jumps as Google Releases Gemini 4 Argon
+36ff723a7ac67334b62dc899550f0ea3|||GOOGL|||Alphabet Stock Slips as Google Appeals EU AI-Access Orders
+7d165b1592f7de8e23d356913e30cc5b|||NVDA|||Nvidia Looks Criminally Cheap (NASDAQ:NVDA)
+fa802135fba31bf830f43e3fc190f087|||AMD|||HPE stock closes at record high on growing networking orders, $1.2 billion AMD Helios order
+451c0036c244b156187d4dcccc9f1873|||AMD|||Hewlett Packard Enterprise Jumps 5% on AMD Order; Dell and Super Micro Barely Move
+0c90564d3e3c800f6a52376e1073521e|||MU|||Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook
+dd4212fe3646eceb00ddbaea17b3a690|||MU|||Micron Forecast Tops Estimates on Booming Demand for Memory
+2cc9b07250bd74a160667764fb3657cd|||MU|||Micron Earnings Could Be the Catalyst This Wildly Popular ETF Needs
+a884d91ac232bfb161a654a6e20f0460|||MU|||$100 Invested In Micron Technology 20 Years Ago Would Be Worth This Much Today
+66e3cca7fd398f732e291c70a2df10f7|||MU|||Micron Technology, Inc. 2026 Q4 - Results - Earnings Call Presentation (NASDAQ:MU) 2026-09-30
+595669cdcf1cef19c45e89fc376fb677|||MU|||Simply Outstanding: Micron's Absolutely Enormous Day (NASDAQ:MU)
+ce9f590e16ad0a3721c444b253c57782|||MU|||Transcript: Micron Technology Q4 2026 Earnings Conference Call
+08d8035294c3d68ba87b482174527cc4|||SWKS|||Form 4 Skyworks Solutions For: 30 September By Investing.com
+6b32edf0672c01825c158a1c802779d1|||TTMI|||TTM Technologies, Inc. Completes Acquisition of Epiq Solutions, Enhancing TTM’s Strategic A&D Portfolio
+00101f26483fcfb8f1d9f35f05040512|||CRWV|||Form 144 COREWEAVE For: 30 September By Investing.com
+7e1fa1e890f98be3eb79c8f2af963779|||CRWV|||Why is CoreWeave stock gaining today? By Investing.com
+55312e04a5c9212c071882c249888571|||CRWV|||William Blair initiates CoreWeave stock with outperform rating By Investing.com
+f8070b2a19c3400bb1ee42f82631e534|||PANW|||Stocks making big moves yesterday: TTM Technologies, PacBio, Nvidia, Palo Alto Networks, and Teleflex
+fb497e51cfce5fa93be8eb87239d07df|||RKLB|||RKLB Nov 2026 83.000 call (RKLB261106C00083000) Stock Price, News, Quote & History
