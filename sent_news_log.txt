@@ -2630,3 +2630,29 @@ c8355a7f41bae7f4e941b21e75be3ea6|||PANW|||Choppy Market Persists; Palo Alto Netw
 b8fe47369ca9c9d3e608b0f69e970bff|||BE|||Watch Bloom Energy CEO: Power Demand Is Coming From All Angles
 859b38a7e10ddaa89b67034a9dea2dcb|||FCEL|||Why Is FuelCell Energy (FCEL) Stock Rocketing Higher Today
 e49cbe878eb8316250aa3ee13e359d55|||PWR|||Quanta Services, Inc. (PWR) latest stock news and headlines
+ca787551d3017e69b3fe5be12487c3b0|||TSLA|||Tesla Delays Roadster Reveal Over Severe Weather in Texas
+d039755ac088950a6e690b8737864c58|||AAPL|||Apple CEO John Ternus Reportedly Weighs A Leaner Organization – Here’s The Key Things Under Consideration
+28141a0e53ff9ff69bdefc87b4f38ee5|||AAPL|||BofA warns Meta's Muse could threaten Apple
+f1cd3c80bc8c825657bcad9822d050b5|||AAPL|||Billionaire Investor: Meta’s Muse Puts Apple’s “30% Rev Share on Notice”
+aaade3aeb7bd0ef64b732e269c334458|||META|||OpenAI takes on Meta with dots agent in autonomous AI push
+9721f9824ad0e191fb5366ce89491905|||META|||BofA warns Meta's Muse could threaten Apple
+64f78735da0506cf1cfb37998891b1ab|||META|||Jim Cramer on his bull case for Meta's Muse for small businesses
+fc1134a5edd492fa827b641e0b21a875|||META|||Billionaire Investor: Meta’s Muse Puts Apple’s “30% Rev Share on Notice”
+84675c0741f8272f4b15c869836c144e|||META|||Meta Platforms: Why Missing The Rally May Be The Better Trade (NASDAQ:META)
+ead9d63eabebefd9617e5cc9ed0d5b1b|||META|||Meta puts popular new tool in hands of small businesses
+5a3b1f80ac5cee723a20d6a8e18f9652|||NVDA|||AMD acquires World Labs AI startup, upping the ante against Nvidia
+972ea5d0bb7b38ddd76b5f6ae92b87ee|||AMD|||AMD acquires World Labs AI startup, upping the ante against Nvidia
+54e65120afa3770ca32f035c9f084675|||AMD|||AMD to acquire World Labs for $8.2B in AI infrastructure push
+a6cf5dbd69291fd3d51387f7ece3a75b|||AMD|||AMD Makes Its Biggest Move Against Nvidia Yet
+e047ce6f5022ed80c195f35db52a2d37|||MU|||MU Oct 2026 1260.000 call (MU261007C01260000) stock price, news, quote and history
+b2d8129f4787270d12c690b122d50b54|||MU|||MU Oct 2026 5.000 put (MU261002P00005000) stock price, news, quote and history
+f0f02dd3a3cc02176a842d1c251b3b90|||TER|||Teradyne (TER) Debuts Magnum E2 For AI Memory Testing
+334976920df0831e08fdc2b533f8ddce|||PANW|||Why You Should Stay on the Sidelines for Now With Palo Alto Networks Stock
+445f6b3d6a776b8ec422312b60662b56|||NET|||Cloudflare (NET) Partners With A European Telecom To Reach More Enterprise Customers
+de26c4c3e6f92ea896f194c6f413ec92|||COHR|||Lumentum Climbs 7% as Optics Selloff Reverses a Day After Citi’s $11B Switching Call; Coherent and Corning Rise 5%
+5b875cd09e3756a730467e78143058cd|||GLW|||Why Corning (GLW) Stock Is Trading Up Today
+a0f62726585def97232c4c5ba4b92737|||GLW|||Why Corning Stock Topped the Market on Tuesday
+18e0e843b3bab23a7c75c9c5d92ecb26|||RKLB|||Rocket Lab Corporation (RKLB) stock price, news, quote and history
+dcca983d6f675adcb8bb08d3843be1ca|||BE|||Bloom Energy CEO: Power Demand Is Coming From All Angles
+9b9d30e9b54f198d162643dc378a0f44|||FCEL|||FuelCell Energy Inc. stock rises Tuesday, outperforms market
+9fffd1ebd0e49504402d333dc74d3a82|||PWR|||Quanta Services, Inc. (PWR) Stock Price, News, Quote & History
