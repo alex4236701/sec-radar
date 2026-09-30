@@ -2720,3 +2720,60 @@ ab4bd4f6405b9c8829060f989f25fe4e|||SNDK|||The Zacks Analyst Blog Highlights Seag
 a1a087dd2802cbd4b0d175016c1378bd|||PANW|||Form 4 Palo Alto Networks Inc For: 30 September By Investing.com
 919cb211b34c711c4962ab6d1f64fe27|||RKLB|||RKLB Nov 2026 82.000 put (RKLB261106P00082000) Interactive Stock Chart - Yahoo Finance
 acd65a4d43ecc854c5faa2150a4aa7c2|||IONQ|||Cerebras Systems vs. IonQ: Which Technology Stock Is a Better Buy in 2026?
+202526b65fe00bd51c83485b8a7dc9ea|||TSLA|||SpaceX Just Got a Little Closer to a Tesla Merger
+1b11c75aada01b31c97859dd4f58b3d0|||TSLA|||Tesla Is Running Their Old Announce And Delay Playbook With The Roadster
+9c9f5bdaa227479816ab58991aa2f392|||AAPL|||Apple plans to launch new smart-home hub on Oct 13, Bloomberg News reports
+38131063699f0224d9a2fb0083aead32|||AAPL|||Why Is Apple Stock Falling When Chipmakers Are Rising?
+eaba19ec9092319b4a3aa67237974e52|||AAPL|||Bank of America Flags Surprising Risk to Apple Stock
+75e39f4c6e34b951d077e84eca7a22e7|||AAPL|||Apple's New CEO Targets Middle Management in Shake-Up
+fb85e09fc021ff3b96f24b59958fab7c|||AAPL|||Apple's New CEO Just Signaled a Major ShakeUp -- Faster Products, Fewer Managers
+e11990bb0e5f9e5206b5c9248ffa9a09|||AAPL|||Market Chatter: Apple Poised to Sell 6 Million iPhone Duos in 2026
+272fd33d62ed5122f2832c79b70af5eb|||AAPL|||Could AI Agents Cut Apple Out of the Checkout? Analyst Flags Meta’s Muse Threat
+a4dbd93e00ce615f1c37220ac0a1836d|||AAPL|||Is Apple's Strategy Paying Off? Strong iPhone 18 Pro China Demand Sparks Revenue Upside
+aa21d41abd8af8ed78dfc204dc15ea30|||QCOM|||Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026?
+d753e493c662fa982e3705984ed9d0f3|||META|||OpenAI follows Meta into the red-hot market for personal agents. But will users pay?
+a9503d3833e510e8ca5ef139bd43c296|||META|||Meta Stock Slides as Meta’s Muse Faces OpenAI Threat
+be47f2316ec20151c8bcb848708d55a3|||META|||META Eyes Best Month Since 2013 On Muse AI Strength
+32dc0875d9262d01f61178ff83fa26db|||META|||Jim Cramer Says Meta Must Be Seen as an ‘Enterprise Company’ as Muse AI Could Drive an '18 Times Multiple' to 24-25x
+7d2981b72dbf680ed93639eae2957b5d|||META|||Truist Assesses Potential Impact of Meta Muse AI Agent on Online Travel Agencies
+e7549a32dfbed0d7e3c8f45677317f0a|||META|||Meta Eyes Massive AI Payday As Muse Moves Into Small Business - Meta Platforms (NASDAQ:META)
+3ae9df840a5172fc3d52c5ab0a776a91|||META|||Mark Zuckerberg's Muse Could Charge You for Saving You Money — META President Reveals AI Agent's Potentia
+32210380a491c6a3420a541b7b28e31f|||META|||HighLevel connects to Muse, a new AI product from Meta, bringing AI into everyday business workflows
+da1a8c7bd35f740a98f2568ce31d8871|||META|||Could AI Agents Cut Apple Out of the Checkout? Analyst Flags Meta’s Muse Threat
+7a9f9f19c145d104b954d50b859f7a2a|||META|||These 3 AI Stocks Are Poised to Be Big Winners from Amazon's Choice to Block Meta's Muse
+5608d0cb2c5e011fbff3cad3dab92897|||HPE|||HPE shares surge on upgraded networking outlook and $1.2B Vultr AI deal
+ce06759612f24a1bf10e97163cd60f38|||HPE|||HPE Shares Rise 4.5% After Networking Outlook Upgrade and $1.2 Billion Vultr AI Deal
+0d854b64f4f8b8eb3286101e2b818924|||HPE|||Why is Hewlett Packard Enterprise stock surging today? By Investing.com
+f2bdc25d2077f08fd4353480bb57ec14|||HPE|||HPE raises networking revenue outlook, reports $1.2B order By Investing.com
+ecaf29f73774a5dd94cbb0617f7f70d3|||AVGO|||Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026?
+916f8c123d7c7cf8b46e792825e02ad3|||TSM|||US Wants to Break Taiwan Dependence — But Here's Why Taipei Will Remain 'Central' Character in the AI Chips Story
+a69f46e0438f8916b03b597a58e708ec|||NVDA|||How Nvidia’s Big Win at Trump’s AI Lunch Will Boost the Stock
+3f587a50fcc26683397cc016af463b2d|||NVDA|||DeepSeek Targets Nvidia's Software Moat With Huawei Partnership
+ee1d386c0f2d512dcd3ecc926569c8f1|||NVDA|||DeepSeek Just Gave Huawei a New Weapon in the Race Against Nvidia
+a663900cd0ac17893151568c72377a53|||NVDA|||Nvidia Reportedly Turns To Insurers To De-Risk AI Chip Loans As Jensen Huang Pushes Beyond Big Tech — Could This Unlock Billions For Smaller Cloud Players?
+c9bc4ffdf5073f447633cd19ad376bbb|||NVDA|||Nvidia’s Software Advantage Under Threat by DeepSeek-Huawei Alliance
+0acc4fc62e050f53dc898dd9cfb50a2b|||NVDA|||Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents
+b1f9b7cc050fa2a9c7c083895e49391e|||NVDA|||Nvidia turns to insurers to spread the risk of AI build-out
+ce99ae18a90ec1e6e62f06a50833d8a7|||AMD|||Advanced Micro Devices (AMD) Is Spending $8.2 Billion On World Labs
+cfb72ad2b570e285e48882e2b7735ee6|||AMD|||AI Chips Update - AMD Expands AI Horizons with World Labs Acquisition
+16d567959e13b16d8aa2f12935432959|||ALAB|||Astera Labs: A Big Opportunity For Aggressive Growth Investors (NASDAQ:ALAB)
+9cf2a0f48d09cfe0307048155e8f3452|||MU|||Why Is Micron Technology Stock Gaining Wednesday? - Micron Technology (NASDAQ:MU)
+6dc0b8200833b3426f94ea78bcf21194|||MU|||MU Oct 2026 1185.000 call (MU261005C01185000) Stock Price, News, Quote & History
+a3a99789728a8cf756a667a6ed40e5bf|||MU|||MU Oct 2026 270.000 call (MU261030C00270000) Interactive Stock Chart
+177219fdfba601e37b60e7b210252311|||MU|||MU Oct 2026 1005.000 put (MU261007P01005000) Interactive Stock Chart
+df0e255cb764e8fb3328da0da65b4080|||MU|||Nasdaq Futures Tread Water After Monday Rout: MU, NVTS, NVO, KOD, SMMT, ASTS Stocks In Focus
+cdee56e2e864ee5b7e12e23c2e72ebdf|||QRVO|||Skyworks receives regulatory clearance for Qorvo merger By Investing.com
+b0d399bd552e2c04463a03f4ad2907ad|||TER|||Teradyne Announces Magnum E2 to Address Next-Generation Memory Test Demands Driven by AI and High-Performance Computing
+5ea2fe85dc9cc73789ac9e108417ab00|||VUZI|||Vuzix introduces Shrike: Configurable 3,000-nit defense waveguide display for drones
+a4ced9077392188c3950caa7c79ef06e|||ONDS|||Ondas launches long-range counter-drone system for military use
+32569c17aecf982f82961e263a961aa9|||SNOW|||UiPath expands Snowflake partnership with zero-copy integration By Investing.com
+d0ec222b25568065b299b80ad4b6880e|||SNOW|||Snowflake stock rating reiterated at Buy by StoneX
+dc09eaeb545f637fe9362be980d485ff|||CRM|||Salesforce to Acquire Client Research Platform Listen Labs
+4b2a47c59766755bbd8c9a1c77e1bcea|||CRWV|||CoreWeave Forge Launches, Turning the AI Loop Production Run Into a Better Model and Agent
+e59c0c609ee6c4372b1b7a0d64235060|||CRWV|||CoreWeave launches partner network for AI infrastructure By Investing.com
+5fd6c3023aef8a7a08740323e0665383|||NOK|||Nokia Oyj (HLSE:NOKIA) Expands AI Partnerships, Is The Stock Still A Bargain?
+bf66b308bc42875bfa7d5a4050cc7eda|||SPCX|||SPCX Stock Eyes 2-Month Winning Streak: Analyst Says SpaceX Could Double On 2,200 Annual Launches By 2030
+75a258ebef32b92647682766e4112bbf|||RKLB|||SpaceX Rises 2% After Starship’s First Orbital Satellite Deployment; Rocket Lab Falls 3%, AST SpaceMobile Drops 3%
+4f054dee217db22123132274b0382a7c|||BE|||Dow Jones Futures Fall; Inflation Data, Micron Earnings Due Bloom Energy, AI Stocks Shrug Off Yields
+1b22720d33fbaf158c7beb4292d6877e|||CAT|||Caterpillar plans $1B North Carolina expansion, agrees to buy Fabick dealership (CAT:NYSE)
+681ac12d36d511b98e966ae79a1d4e44|||ROK|||Rockwell Automation to Host Annual Investor Meeting
