@@ -3225,3 +3225,25 @@ c2e97747306071e7c6e9a6155edff01e|||MU|||Micron Technology Tops Lofty Fiscal Q4 G
 9698974201a8b7143d76766aacadb155|||RKLB|||Rocket Lab Just Got a Massive Vote of Confidence in Electron
 566d144ead16592caebf10886c8ddabc|||RKLB|||Rocket Lab stock jumps on 20-launch deal with Synspective
 8d71b5928690c844d3b143d963c7dc7e|||VRT|||VRT Alert: HAGENS BERMAN, NATIONAL TRIAL ATTORNEYS,
+2a85ab45c85f9616de0476568653583a|||GOOGL|||Alphabet Slips After Gemini 4 Argon Launch as Tech Sector Rises; Microsoft Holds Steady, Amazon Dips
+1ac2350b9242eda8c93994bae57bd8e5|||GOOGL|||Alphabet Stocks Drop as Gemini 4 Argon Waits Behind Safety Gate
+0c2c1c2f02a6ad0132cacd083627b376|||MSFT|||Alphabet vs. Amazon vs. Microsoft: Which "Magnificent Seven" Stock Is the Better Buy Right Now?
+ce79d7fb6be844e96b883b7d44e9aa82|||MSFT|||Microsoft unveils new transcription, voice models (MSFT:NASDAQ)
+6b1a762cbd5b5cc1682af704824eeadc|||MSFT|||Microsoft: Beware Of Meta's Muse Hype (NASDAQ:MSFT)
+6fa98c2ff6bb3b68160ca3048cede5b3|||AAPL|||Apple To $355? Here Are 10 Top Analyst Forecasts For Thursday
+a5cf2e49beb1f019bdfb18507e423fc0|||META|||RAY-BAN META AND VICTORIA MONÉT BRING A LISTENING LOUNGE TO COMPLEXCON, GIVING FANS AN EARLY LOOK AT NEW RAY-BAN META AUDIO GLASSES BEFORE THEY HIT SHELVES
+09f991c8190740c6ec70870d8f8aa383|||DELL|||Why Is Dell Technologies (DELL) Up 9.3% Since Last Earnings Report?
+b5f052d98591f47856d48770d2cc34d6|||AVGO|||Broadcom to lend Anthropic up to $42 billion to lease chips, in latest circular investing deal
+bac455a9f327fac38d0e49d273d8051e|||AVGO|||Broadcom Bets $42 Billion on Anthropic - Broadcom (NASDAQ:AVGO)
+a4ed8ac44b38c3bf8b52d6f062da2219|||AVGO|||Broadcom to provide Anthropic with up to $42 billion in financing, Reuters reports
+c29d74901d117398bb7b48cd4d2f21d9|||AVGO|||Broadcom's $42 Billion Anthropic Bet Adds a New Layer of AI Risk
+8a172a336ca06e48cec53e44b40238e8|||AVGO|||Anthropic may borrow up to $42bn from Broadcom to lease its chips - report
+dfafe11bb01326ddb95ce58f26b5e109|||AVGO|||Broadcom to lend Anthropic up to $42B to lease chips: report (AVGO:NASDAQ)
+23e463b32517ec9845ddd889addd299a|||AMD|||AMD Stock Slides as New AI Agent Launch Fails to Lift Shares
+97b6a30103c5261ae770ed7a1770a272|||AMD|||AMD acquires AI legend Fei-Fei Li's World Labs for $8.2 billion
+0f549d5da1633b4268da2c1245ca1bae|||MU|||Dow Falls Over 200 Points; Micron Earnings Top Views
+3eed95d67efced1deceaa5ba370b2637|||CRWV|||Why Now Is the Ideal Time to Buy CoreWeave Stock
+ab996fb07cba1862654cd16357b26a06|||FTNT|||FTNT Oct 2026 160.000 put (FTNT261030P00160000) Interactive Stock Chart
+b63c16936ed29a42f809a0dc3a4dc571|||CRDO|||Credo Technology Group Holding Ltd (CRDO) stock price, news, quote and history
+84ca747dd58d1cdc87815ca8765b9f28|||CRDO|||Credo Technology Group Holding Ltd (CRDO) Interactive Stock Chart
+67b0e41aba6eba39931fb9b84ae9cbfc|||SPCX|||Anthropic Eyes November IPO - SpaceX (NASDAQ:SPCX)
