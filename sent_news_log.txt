@@ -3081,3 +3081,62 @@ b17962ae679c2bc2a6a8556b4eabaf36|||CRWV|||CoreWeave: Pricing Increases Aren't De
 cb16a536069ad9d7eb4ed91448ed3937|||FTNT|||Fortinet: I’m Up Over 100% But I’m Still Not Selling (NASDAQ:FTNT)
 a8d2c3d0f007f123a91f4e0643304042|||FTNT|||Fortinet Inc. stock outperforms competitors on strong trading day
 7717a1dd7e74110ef0e7028a4d61359f|||NOK|||Inseego completes acquisition of Nokia’s FWA business
+1848402e509285f93a8783d4f8fc9740|||GOOGL|||Premarket movers: Alphabet rises on new AI model, Zealand Pharma sinks
+e474ce069c5c759bc70baa9641e68e7f|||GOOGL|||GOOGL Stock Rises After Gemini 4 Argon Launch, But JPMorgan Says Google Must Reclaim AI Leadership
+8f7e2a7ce2bd2f218d0b806f1e345344|||GOOGL|||Alphabet Shares Rise After Google Launches Gemini 4 Argon AI Model
+375e1ded425d341342def0ce3fffe1a2|||GOOGL|||Market Chatter: Alphabet's Google Staff Question Gemini 4 Performance Despite Strong Benchmarks
+6cac3475d4c14cf1256e3c9ab0d154de|||MSFT|||Elizabeth Warren demands answers on $96B in lost federal revenue as Amazon, Google, Meta and Microsoft claim tax breaks
+2fee355d6ffe8f414e8098dd93a8386c|||MSFT|||Top Analyst Reports for Apple, Microsoft & Broadcom
+247ae813a8e4ee8933ed4e781837be93|||TSLA|||TSLA, SPCX Rise After Cathie Wood Says Musk Is ‘Working All Angles’ With Trump, Xi Amid China Merger Hurdles
+7035baff7c7158b82acfa7bc568c4277|||AAPL|||Apple Takes Aim at the Smart Home: ETFs to Tap?
+f1495e4ff1ebf60ccf14516cbbdbe229|||AAPL|||Lysol Air Sanitizer Launches Limited-Edition Apple Cinnamon and Winter Woods Scents for Fall
+19497c1831a15d50a44d77267c808a3f|||AAPL|||Top Analyst Reports for Apple, Microsoft & Broadcom
+f0b9fe5e2d49f4be141c461d80d2e0cf|||QCOM|||Qualcomm targets $5 billion data centre revenue next year as Apple business shrinks
+8e3b36d9f7007a8eb5daf3903230952b|||META|||Why Meta's Muse and OpenAI's Dots could be an 'iPhone moment' for consumer AI
+60467ebb46d4ae258c7991b32ed7a651|||META|||Needham retains Hold on Meta stock amid Muse AI agent launch
+e26199cdad1787f694581d368cbb37a9|||META|||Frontier Model at $2 Per Million Tokens: Google Unveils Gemini 4 Argon to Challenge OpenAI and Meta
+13a55734685f741fa954dce490b2abcc|||META|||Elizabeth Warren demands answers on $96B in lost federal revenue as Amazon, Google, Meta and Microsoft claim tax breaks
+e1eda9f98faafada0905686f395c0df5|||HPE|||HPE raises networking outlook, lands $1.2 billion Vultr AI order
+2adf1a7ab3293f892b1ee0f0cf50faf9|||HPE|||HPE in spotlight as Citi ups price target after investor event (HPE:NYSE)
+c588e3e5a81f32e54b82102253c240b6|||AVGO|||Top Analyst Reports for Apple, Microsoft & Broadcom
+0b6621aea70988e2e973937020f56327|||NVDA|||Fresh data suggests upside to Nvidia’s hyperscaler revenue: Barclays
+0590387660789ff98f5b6ae9c4b1c27d|||INTC|||INTC261002C00065000 Interactive Stock Chart | INTC Oct 2026 65.000 call Stock
+08207f29d59e8b0b99cb2d6e06bbc275|||MU|||Micron Technology Inc (MU) (Q4 2026) Earnings Call Highlights: Record $54. ...
+10b4e97317e9f68f75d447e1337af2ed|||MU|||Goldman Sachs reiterates Micron Technology stock rating on strong results
+ee0c1c451a0794a7080d84db161da11f|||MU|||Stifel reiterates Micron Technology stock rating on strong revenue
+24613971bd48a2a0c4cab5cd0db829e8|||MU|||NKT A/S N (NKT.MU) Q1 FY2026 earnings call transcript
+b2419af4b18522a7850e9e73f3f8f454|||MU|||Japanese chipmakers rally as Micron earnings boost AI trade
+62b1828a165292803b99927fe35b90b8|||TTMI|||TTM Technologies completes $1.1 billion Epiq acquisition
+f4c47c381bc6a96038d628beea369427|||VICR|||Needham raises Vicor stock price target to $350 on AI revenue outlook
+2a00f975e6dba8210d26dbcff505a961|||VICR|||Why Is Vicor Stock Soaring Thursday? - Vicor (NASDAQ:VICR)
+b3bd975dd82779f5f13a8a67d6e04d02|||VICR|||Vicor raises Q3 sequential growth guidance to over 30%
+7555f137981c339131bb3deb59c875e7|||IBM|||IBM Stock Rises After Unveiling Self-Hosted Deployment for IBM Bob
+5cce48744e24dc0554c1bd2f6699df46|||IBM|||IBM Adds Self-Hosted Deployment Option for Bob AI Development Platform
+2c7baa450bdd32fbd592967bc6b17912|||NOW|||ServiceNow Shares Rise 2.5% as Company Co-Hosts Enterprise AI Summit
+f6e4b16754f1bf6b9c1ec61fdf4614e7|||NOW|||ServiceNow launches conversational AI service desk product By Investing.com
+b08b010960d1b5c8ad449bc67fdf7729|||NOW|||LSEG appoints ServiceNow executive to board By Investing.com
+0ad7dfab3294f72d3f5d7d0be2294d0b|||CRWV|||Can CoreWeave's Partner Network and AI Deals Expand Its Reach?
+1c539e8c8786e2a55bbac265ce5f1b8b|||CRWV|||CoreWeave: The Bond Market Remains Cautious (NASDAQ:CRWV)
+0a8ff8a2833278ee7f08c394fa2c83f5|||PANW|||Cyderes Partners with Palo Alto Networks to Accelerate AI-Powered Security Operations for Global Enterprises
+c508d3c503e43f58bd8e0fa8bc295e2c|||PANW|||These Telltale Clues Shine A Spotlight On Palo Alto Networks
+f8d9c2411f99df971e0eb14c68a0190a|||FTNT|||Fortinet Launches P.A.U.S.E., a Free National Campaign Helping Canadians Stop and Think Before AI-Driven Scams Succeed
+dce849793f55f108fb6b0f221c607500|||FTNT|||FTNT Oct 2026 180.000 call (FTNT261002C00180000) Stock Price, News, Quote & History
+6186567e14512785a1707b34754769fb|||FTNT|||FTNT Oct 2026 155.000 put (FTNT261002P00155000) Stock Price, News, Quote & History
+a3c44bd0fde98a1c9319d590e6416148|||FTNT|||FTNT Oct 2026 182.500 put (FTNT261002P00182500) Stock Price, News, Quote & History
+38ce73791e300f13882f51374daa1bf5|||FTNT|||FTNT Oct 2026 190.000 call (FTNT261002C00190000) Stock Price, News, Quote & History
+be5b555bbc78b6e9778ffc3f453b3831|||NET|||Cloudflare Launches Basin: A More Open and Accessible Data Platform for Developers
+d7aaf1010d61bdd8c84979cb1c5e086a|||NOK|||Inseego completes acquisition of Nokia’s FWA business By Investing.com
+c02e17ab15a7cee02f42da061cb4dbdb|||SPCX|||TSLA, SPCX Rise After Cathie Wood Says Musk Is ‘Working All Angles’ With Trump, Xi Amid China Merger Hurdles
+e11cbe3f3513dbe559d9174db60b9f10|||RKLB|||Rocket Lab Shares Rise 5.2% After Synspective Launch Agreement
+a23029a9e3950db3e5c59a557abf36c5|||RKLB|||Rocket Lab rises after landing biggest-ever Electron commercial launch deal (RKLB:NASDAQ)
+0fbeb45733e293785da737e5b21a3a90|||RKLB|||Why is Rocket Lab stock surging today? By Investing.com
+90f06e3074193c6bfd11a80795d9cc07|||RKLB|||RKLB261002C00068000 Interactive Stock Chart | RKLB Oct 2026 68.000 call Stock
+e4dc4f12d2d126a2c747d4abb290651d|||RKLB|||RKLB Nov 2026 59.000 call (RKLB261106C00059000) Stock Price, News, Quote & History
+bfd7ce6537760c17e250facfe22c00cf|||RKLB|||RKLB Nov 2026 90.000 call (RKLB261106C00090000) Stock Price, News, Quote & History
+44e33a41b19d4bfaa3e8b0df85bd810c|||RKLB|||RKLB Nov 2026 66.000 put (RKLB261106P00066000) Stock Price, News, Quote & History
+7041cac7a572cb699038329cabed8194|||RKLB|||RKLB Nov 2026 65.000 put (RKLB261106P00065000) Stock Price, News, Quote & History
+8d755a671a0871c166128f27a30a11de|||RKLB|||RKLB Nov 2026 61.000 put (RKLB261106P00061000) Stock Price, News, Quote & History
+04f51dac4470e4f21fc3d99dbc736d69|||RDW|||Honda partners with Redwire on space station robotics system By Investing.com
+5752da17f5521f4e1512e83cc46aa942|||NBIS|||Nebius acquires Inferize to strengthen Nebius Token Factory's production inference stack
+6bf2488957339b2506f87064b5d513cd|||BE|||Plug Power Advances 4% on Electrolyzer Supply Agreement; Bloom Energy Sinks 3%, FuelCell Energy Treads Water
+1b1fcc899db16195909e63f3eb63e16c|||CAT|||Caterpillar to invest $1 billion in North Carolina manufacturing capacity By Reuters
