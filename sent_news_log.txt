@@ -3247,3 +3247,17 @@ ab996fb07cba1862654cd16357b26a06|||FTNT|||FTNT Oct 2026 160.000 put (FTNT261030P
 b63c16936ed29a42f809a0dc3a4dc571|||CRDO|||Credo Technology Group Holding Ltd (CRDO) stock price, news, quote and history
 84ca747dd58d1cdc87815ca8765b9f28|||CRDO|||Credo Technology Group Holding Ltd (CRDO) Interactive Stock Chart
 67b0e41aba6eba39931fb9b84ae9cbfc|||SPCX|||Anthropic Eyes November IPO - SpaceX (NASDAQ:SPCX)
+1d8fcbca12529b853e0d916d613ef904|||MSFT|||Microsoft in focus as Wells Fargo adds to Tactical Ideas list (MSFT:NASDAQ)
+0a2995e72a8aecda84983daf1b626010|||MSFT|||Microsoft: A Multi-Year Compounder With Seat Growth And Azure Acceleration (NASDAQ:MSFT)
+93bad341c966cb3fd5432a2948eae925|||META|||Meta Brings Victoria Monét To ComplexCon For Ray-Ban Meta Lounge Event
+5534618bfb6f7f984c027deea8be4961|||AVGO|||Broadcom Stock Rises. Anthropic and Broadcom Are Becoming More Intertwined.
+a23b2c07dbb316f8995c4290f39b8b8c|||AVGO|||Broadcom Stocks Fall as $42 Billion Financing Links Chips to Anthropic
+e61098f3a587d075ac0efa1f1cd15d55|||AVGO|||The Only Way I Stop Adding Broadcom is an AI Collapse
+f75de09d73c207370cfccaf91fb5e3d0|||ASML|||ASML vs. Applied Digital: Which Is the Better Semiconductor Equipment Stock to Own for the Next 1 Year?
+ff13e1c7ed9d0a1c966a6f78c043ed90|||MU|||Micron Stock Erases Losses As Analysts Lift Price Targets - Micron Technology (NASDAQ:MU)
+0c1e64fe6f9236ad9c5205c9f162321c|||SWKS|||Skyworks receives regulatory clearance for Qorvo merger
+66ef1222daad1dcdd0ff7f9aba68676d|||FTNT|||FTNT Oct 2026 150.000 call (FTNT261002C00150000) Stock Price, News, Quote & History
+6d523f68e4892a8e1b78f28f0ed761d7|||COHR|||Why is Coherent stock surging today?
+43ce7cddf1592a33d38338437b63b65e|||CIEN|||Ciena Climbs 6% After a Week of Bullish Analyst Calls; Arista Ticks Up, Cisco Holds Steady
+3ea919d3e2c5fa8bb04d8997fad7cb31|||CRDO|||Credo Technology Might Reclaim All-Time Highs (NASDAQ:CRDO)
+637ff73fc9fccfb9ac0d27e65cca8cf1|||SPCX|||SpaceX and Anthropic IPO Filings Diverge Sharply on AI's Future - SpaceX (NASDAQ:SPCX)
