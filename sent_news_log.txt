@@ -3003,3 +3003,41 @@ ce9f590e16ad0a3721c444b253c57782|||MU|||Transcript: Micron Technology Q4 2026 Ea
 55312e04a5c9212c071882c249888571|||CRWV|||William Blair initiates CoreWeave stock with outperform rating By Investing.com
 f8070b2a19c3400bb1ee42f82631e534|||PANW|||Stocks making big moves yesterday: TTM Technologies, PacBio, Nvidia, Palo Alto Networks, and Teleflex
 fb497e51cfce5fa93be8eb87239d07df|||RKLB|||RKLB Nov 2026 83.000 call (RKLB261106C00083000) Stock Price, News, Quote & History
+a71c98d0732f0d4f0da826d888ca4a5c|||GOOGL|||Alphabet stock slips on report of internal doubts over Gemini 4
+714ff8ebe9be0db979fb73c22fe3f632|||META|||Meta’s Muse and OpenAI’s Dots Increase Demand for Chips and Software
+fc0c8d748aed26388f4a82ac03c27da6|||HPE|||Why Hewlett Packard Enterprise (HPE) Stock Is Up Today
+9f631e582d2c9283a6271f1858e434ba|||HPE|||HPE stock closes at record high on growing networking orders, $1.2 billion AMD Helios order
+b171aca0630685026637833a61069d4f|||HPE|||HPE Boosts Forecast on Positive Networking Outlook
+3266de69f7a2a147d389bd840da74dd6|||HPE|||Bank of America backs HPE stock before crucial investor day
+d8733ed4327db4aadaf5d8e603304dd7|||NVDA|||Nvidia Could Have a Monster October. Here's Why.
+abb65e585fc7663c5c3c7c6b16e76b2b|||AMD|||AMD Just Got a $1,000 Price Target as AI Demand Accelerates
+d341d4e2b877a343bb4597791c13914b|||INTC|||INTC Oct 2026 100.000 call (INTC261007C00100000) interactive stock chart
+477f096d8c2b03b58ba3d44c4fd78f2e|||MU|||Micron Technology Q4 Earnings Call Highlights
+f925a198450e2ee06bc962c47e8d1c1b|||MU|||What Micron Technology (MU) Said on Its Q4 Earnings Call
+683c3402e42a87dffe29039576d24e81|||MU|||Micron (MU) Q4 Earnings and Revenues Beat Estimates
+415e7cf4e82b9c69257f4f41a899b5bb|||MU|||Micron Profit, Revenue Surge as Memory Crunch Looks to Last Through 2028
+d8595c3668cd23c01bf5bf9cccc8a0c7|||MU|||Micron (MU) Reports Q4 Earnings: What Key Metrics Have to Say
+53ac1b38e9ab01f4b309f84fe06171b4|||MU|||Transcript: Micron Technology Q4 2026 Earnings Conference Call - Micron Technology (NASDAQ:MU)
+7c3a210af7ae51513539b4e0fd1e1dc7|||MU|||Micron Q4: The Bull Case Is Getting Very Hard To Ignore (NASDAQ:MU)
+db0e2aa0f861cf1af4e59e5ab5f15951|||MU|||Micron Q4 2026 Earnings Call: Live Updates of $MU Earnings, Outlook
+89b9dd9c5fd88eef761dbe7314478b8d|||MU|||Micron Q4 2026: These Numbers Don’t Look Real (NASDAQ:MU)
+10693c6823794ee8085a2747232d4986|||MU|||Micron Outlines Upbeat Outlook, Reports Strong Results as Memory Prices Rise
+7804d037f84e1a873ca6b0c3f1a71746|||MU|||MU Oct 2026 60.000 put (MU261023P00060000) Stock Price, News, Quote & History
+6cfd6836f464d3627e16d489be8017b2|||ASX|||WiseTech Global (ASX:WTC) Rolls Out Clippership Migration Program, Is It Still A Bargain?
+c4400e9db2eeaaee506c654d9c5bc668|||SWKS|||Skyworks Solutions Receives All Regulatory Clearances for Qorvo Merger
+788fef4fd58b14698d5dd7d9804fa4f2|||QRVO|||Skyworks Solutions Receives All Regulatory Clearances for Qorvo Merger
+26d4d81e04b868f6314b01a429103bac|||ONTO|||Onto Innovation (ONTO) Gets A Zacks Boost Following Rising Estimates And Fair Value Debate
+dcb92bfdd1f76c8d1d3a052d38165ba1|||TTMI|||TTM Technologies, Inc. (TTMI) Stock Price, News, Quote & History
+b7b4f2bacc8b70b7fcda0aa34763571f|||TTMI|||TTM Technologies, Inc. (TTMI) stock price, news, quote and history
+81fa2b0720fb3214258669590fa0cb5e|||NVTS|||Navitas Semiconductor's U.S. Army Deal Could Be Just The Beginning (Rating Upgrade) (NVTS)
+f7d7db8d888947e5ff50224bb159602e|||NVTS|||Is Navitas Semiconductor (NVTS) Cheap After Its U.S. Army Win?
+4ade09f886a50ed75a0344bfc6a5d3d0|||VICR|||Vicor raises third-quarter revenue guidance; stock rips higher
+3c6824ecd1eebcb21898a25bff273cb9|||CRWV|||Analysts Are Feeling Bullish on CoreWeave Stock. Here's Why.
+2e61a617aca4d565f78d93a31d0adee8|||CRWV|||CoreWeave launches Nvidia Vera Rubin NVL72 cloud service
+40425545144620c0151c267103b7bc71|||COHR|||Coherent Corp. (COHR) Options Chain
+3c2f5c3aeedda95d7246963dca867bd3|||RKLB|||RKLB Nov 2026 60.000 put (RKLB261106P00060000) Stock Price, News, Quote & History
+dae4b96d4db125cef33fc7567ab82f8a|||RKLB|||RKLB Nov 2026 63.000 call (RKLB261106C00063000) Stock Price, News, Quote & History
+d66f2b6b4cd5bcedc5c9632991e3f281|||RKLB|||RKLB Oct 2026 67.000 call (RKLB261016C00067000) Stock Price, News, Quote & History
+f89282dfa2a49cd3fc409226fda4f6ab|||RKLB|||RKLB Nov 2026 60.000 put (RKLB261106P00060000) Interactive Stock Chart
+34df73b4d2ff7ec821fdc2ab4bacb1ef|||CAT|||Caterpillar to Invest $1 Billion in Expanding Cat Compact Manufacturing Capacity in North Carolina
+c0971911ae3e2b43de0c9ac92744538c|||ZETA|||Procore Technologies, Zeta Global, and SoundHound AI Stocks Trade Up, What You Need To Know
