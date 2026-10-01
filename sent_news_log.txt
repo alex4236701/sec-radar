@@ -3140,3 +3140,29 @@ bfd7ce6537760c17e250facfe22c00cf|||RKLB|||RKLB Nov 2026 90.000 call (RKLB261106C
 5752da17f5521f4e1512e83cc46aa942|||NBIS|||Nebius acquires Inferize to strengthen Nebius Token Factory's production inference stack
 6bf2488957339b2506f87064b5d513cd|||BE|||Plug Power Advances 4% on Electrolyzer Supply Agreement; Bloom Energy Sinks 3%, FuelCell Energy Treads Water
 1b1fcc899db16195909e63f3eb63e16c|||CAT|||Caterpillar to invest $1 billion in North Carolina manufacturing capacity By Reuters
+56c9ce75ef90dad7064143dc09fdeaaf|||GOOGL|||Is Alphabet's Argon AI Model Benchmaxxed? Probably, But The Stock Remains A Buy (GOOG)
+c54caab4df005754aaeb0677bfa2d234|||GOOGL|||Alphabet's Google Unveils Gemini 4 Argon AI Model
+48b5972131bd88c0ab8a031bf039f57f|||META|||Needham reiterates Hold on Apple stock citing Meta competition risks
+8e092188336e9caa70ff8dd86023a6cd|||NVDA|||La Rosa Holdings Acquires Next-Generation NVIDIA GPUs, Advancing AI Infrastructure Strategy
+20c8ed00ab2bd524964e21a43cd31f73|||NVDA|||Will Jacobs' Digital Twin Strengthen NVIDIA's AI Infrastructure Reach?
+dc7c11df86a80c1f96195cefbe8ef485|||NVDA|||Nvidia launches Open Agent Safety Platform to restrain rogue AI agents — new hardware-and-software security stack can quarantine agents in milliseconds
+a072df125d0444560844234620f84b10|||MU|||MU Q4 Earnings Call Points to Tighter Supply and Higher Investment
+cead6f31ca018a3134e8f4c1c5b9ee00|||MU|||Micron Q4: Favorable Outlook As Memory Shortage Persists (NASDAQ:MU)
+e2a4085fdb7de56ac7f2b4af59a8e443|||MU|||Citi reiterates Micron Technology stock Buy rating on DRAM outlook
+74b6336fd7d9078e53dfbc6b45b857e3|||SWKS|||RBC Capital raises Skyworks Solutions price target on deal approval By Investing.com
+a68b6fc98cd4e781bae05ad0153b9ee7|||VICR|||Vicor Stock Surges as Royalty Revenue Boosts Growth Outlook
+ba67cf6feee81a53a1a64291e88f8f56|||IBM|||IBM Jumps 5% as Bob Coding Agent Gains Self-Hosted Deployment; Salesforce Rises 3%, Palantir Inches Higher
+fbeef4fcb71125c0c9e57be249969982|||IBM|||Hedera Jumped 27% on an IBM Cloud Deal and Gave Back 16% the Next Day. HBAR vs XRP: Which Enterprise Coin Is the Better Buy?
+9039a637f9378c17fee50d15bb0afa00|||NOW|||ServiceNow Climbs 4% as Software Names Lead a Rebound; Intuit Jumps 4%, Adobe Rises 3%
+279fb1a2552ea7bf5ee05ed38a48f6ac|||NOW|||ServiceNow launches conversational AI service desk product
+87846840aca35b8172b3102f7548e923|||FTNT|||FTNT Oct 2026 170.000 call (FTNT261023C00170000) Stock Price, News, Quote & History
+f9d801dba139d083b7a008886b346b62|||FTNT|||FTNT Oct 2026 135.000 call (FTNT261002C00135000) interactive stock chart
+4c91aa6f9dc6868461160a884808ae78|||RKLB|||Rocket Lab Stock Rises on Record Electron Launch Deal and Citi Buy Rating
+1828866c6dca59feb1ef77ee5bb3e1a8|||RKLB|||Rocket Lab’s 20-Launch Synspective Deal Pushes Backlog Above 100 Missions
+a1860a0fb2e7c0aa2b0cb76d4ff6b7cf|||RKLB|||Rocket Lab rated Buy at Citi as ‘core holding for space bulls’ (RKLB:NASDAQ)
+91a1bc2672588daef14a7c225c62a259|||RKLB|||Rocket Lab stock jumps on 20-launch deal with Synspective By Investing.com
+712c3b0304521e5def7bf13d20b880aa|||RKLB|||Rocket Lab secures 20-mission contract with Synspective
+e25d9bf74bc268848f7913d9e5e4c7db|||RKLB|||Why is Rocket Lab stock rallying today?
+a13bbf81388f7941cbf6b29fddbc6b18|||RKLB|||What's Happening With Rocket Lab Stock Wednesday?
+20d4620eef3c55f22d081aa27bd5fae5|||RDW|||Honda, Redwire team up on robotics for future space stations (HMC:NYSE)
+439aabd56077f5918ed48833fc44a2d1|||FCEL|||FCEL Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in FuelCell Energy, Inc. Securities Lawsuit - Contact SueWallSt
