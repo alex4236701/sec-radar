@@ -3041,3 +3041,24 @@ d66f2b6b4cd5bcedc5c9632991e3f281|||RKLB|||RKLB Oct 2026 67.000 call (RKLB261016C
 f89282dfa2a49cd3fc409226fda4f6ab|||RKLB|||RKLB Nov 2026 60.000 put (RKLB261106P00060000) Interactive Stock Chart
 34df73b4d2ff7ec821fdc2ab4bacb1ef|||CAT|||Caterpillar to Invest $1 Billion in Expanding Cat Compact Manufacturing Capacity in North Carolina
 c0971911ae3e2b43de0c9ac92744538c|||ZETA|||Procore Technologies, Zeta Global, and SoundHound AI Stocks Trade Up, What You Need To Know
+0355cc38a70c227e18afa90e3631a48e|||MSFT|||Patriot Consulting Launches Free ISOC Cost Evaluation and Agentic MXDR365 Operations for Microsoft's New Integrated Security Operations Center
+6b7c92cea529f50a1b4acdb4e882a9c9|||AAPL|||Apple’s Biggest Battleground for Foldable Phones Is China
+44eb24b5ec4d92ac39569ffe02ff53b6|||HPE|||Why Did WBD, HPE, CRWD Stocks Rise To 52-Week Highs Today?
+4cfb31c71a6c90273dd21e0005214287|||NVDA|||Jacobs to deploy data center digital twin for NVIDIA’s R&D facility
+50a08d0aed2784acb13ac4a8d6e0178a|||INTC|||INTC Oct 2026 144.000 call (INTC261002C00144000) Interactive Stock Chart
+b575f34036cb94ce0566d22fa9c067b7|||MU|||Micron's AI-fueled revenue forecast blows past estimates, backlog swells
+11b31d38020923214915e4cea4d56833|||MU|||Micron Says Humanoid Robots Could Drive Future Memory Demand - Micron Technology (NASDAQ:MU)
+512b584e4a4f993c2d51c1dd3853c410|||MU|||MICRON TECHNOLOGY INC (MU.MX) Q4 FY2026 earnings call transcript
+475c0e1f01a929588e86d84b77de6618|||ASX|||EQ Resources (ASX:EQR) Is Down 11.6% After Swinging Back To Full-Year Profitability – What's Changed
+606089ea231a652b0e4e86b6322fd67f|||NVTS|||What's Happening With Navitas Semiconductor Stock Wednesday?
+f588b2ef5d192f49f3ba1251db9bd033|||VICR|||Vicor Corporation (VICR) Stock Forecasts
+7652e7959f33f3789271e515b809b45e|||IBM|||IBM Introduces Self-Hosted Deployment for IBM Bob to Help Enterprises Advance AI Sovereignty and Governance
+4d8625cee4c75a272d1a36101579d69a|||CRWV|||CoreWeave (CRWV) Unveils Forge For AI Development
+31d1b7273a466a49930e216143ae2e2e|||CRWV|||NOTICE: Investors in CoreWeave, Inc. (NASDAQ: CRWV) shares
+6a990367d83a8346f82532b46223a504|||CRWV|||CoreWeave Launches Forge AI Development Platform, Partner Network
+0c64982ec45778658bf7bc4c82b29825|||CRWV|||Form 144 COREWEAVE For: 1 October By Investing.com
+d630144d7a235aa50b658edf51c15e9a|||CRWV|||CoreWeave launches partner network for AI infrastructure
+1b472127b4b4542969721bacfb6311da|||PANW|||Is AI-Driven Edge Security Integration With Nvidia’s Stack Altering The Investment Case For Palo Alto Networks (PANW)?
+b4881c16b928ae2201a860f38f82f14a|||FTNT|||Fortinet, Inc. (FTNT) Stock Forecasts
+cef70e8233fc3afaa7e79cd8aa1e92b6|||RKLB|||RKLB Stock Jumps After-Hours: Rocket Lab Lands Its Biggest-Ever Commercial Electron Deal With 20 New Launches
+7b54aea6a42631947a05233b063a1241|||ZETA|||Behind Zeta Global’s (ZETA) 60.4% Rally in Q3
