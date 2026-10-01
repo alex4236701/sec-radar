@@ -3277,3 +3277,18 @@ c696f0a33425e5bce8041f9148a0e469|||ENTG|||Entegris to Report Results for Third Q
 f8abf9e9586084e8a80f12cc4e23ec82|||FTNT|||FTNT261009C00145000 Interactive Stock Chart | FTNT Oct 2026 145.000 call Stock
 28191e1a372e30e1f28bd0cc131f5706|||FTNT|||FTNT Oct 2026 160.000 put (FTNT261002P00160000) Stock Price, News, Quote & History
 d00dec56ec5566c35c7e7734f9e0c626|||AAOI|||Applied Optoelectronics Is Up 205% This Year. Is It Too Late to Buy AAOI Stock Now?
+16780ebe0eee6831c32707131f3edd83|||MSFT|||Microsoft Just Got a $725 Price Target as Wells Fargo Bets on Its AI Edge
+40009d49ed90c44d66a81d35f7194f59|||AAPL|||Watch Apple Wants to Take Over Your Home. Is Siri AI Ready?
+ce8e4c910bc196bdf47f83e9ebe733cc|||META|||Simply Brings Real-Time Music Learning to Meta Ray-Ban Display
+66c1035f0dfff1c8a2a3fbc76d94b60b|||META|||OpenAI’s new agent is a shot at Meta — but can it compete with free?
+7cd1d10d18e0769987735a4626f537db|||META|||Meta: Agentic AI Push And Enterprise Ambitions Warrant Skepticism (NASDAQ:META)
+0332a0fa3ae58a6e0ed32d9b4827cd9a|||NVDA|||NVIDIA Soars 17% in Three Months: Should Investors Buy the Stock?
+9906b90a319839fc4fc56b5da1e8ba71|||AMD|||AMD Is Buying World Labs for $8.2 Billion. What This Could Mean for AMD Stock.
+7d9dd39efe00bca57a04a1d1bd64857a|||ASML|||Arm vs. ASML: Which Semiconductor Stock Is a Better Buy in 2026?
+61ffb6378364690f25b4f911d6433c64|||MU|||Buy Micron Stock After AI Memory Demand Fuels Record Q4 Results?
+5c35f156b71b842677b7ba85fd096858|||FTNT|||FTNT Oct 2026 145.000 call (FTNT261002C00145000) Stock Price, News, Quote & History
+53ed567960328a24d5dd0f02ac239bcf|||FTNT|||FTNT Oct 2026 145.000 put (FTNT261002P00145000) Stock Price, News, Quote & History
+57f10d72b518f183772904dbc1051b0b|||AAOI|||Applied Optoelectronics, Inc. (AAOI) Latest Stock News & Headlines
+a20620a4ac8654c715ec614c3c955ab8|||AAOI|||Applied Optoelectronics: The Biggest Test Is Still Ahead (NASDAQ:AAOI)
+bc1c41be068ff287fc49f17bf2e4c577|||CRDO|||Form 4 Credo Technology Group Holding Ltd For: 1 October By Investing.com
+3f8ef418dcd2ca02a88683a69c32e361|||IONQ|||IonQ vs. SoundHound AI: Which Tech Stock Is a Better Buy in 2026?
