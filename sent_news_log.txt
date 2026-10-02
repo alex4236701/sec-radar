@@ -3353,3 +3353,12 @@ dfedc04691a2551c3027a7ee8e8295d6|||PANW|||Graphique interactif des capital-actio
 2f926edd282ffc03dccc64fd9a42ff20|||PANW|||PANW261030P00265000 Interactive Stock Chart | PANW Oct 2026 265.000 put Stock
 f2433e19605c242e199e10ad16e3ce52|||PANW|||Graphique interactif des capital-actions PANW261016P00480000| Capital-actions PANW Oct 2026 480.000 put
 57cd000a346abf64ff9b5b6c7f650ef5|||RKLB|||Update: Rocket Lab Shares Rise After Securing 20-Launch Synspective Deal
+cdca77ce50450c96d404f6c92d8e19a2|||TSLA|||Futures Rise Into Jobs, Tesla; Buy Signal For Micron
+96a32fb03c4a950884567fda10632941|||AVGO|||Market Chatter: Broadcom Lines Up $60 Billion War Chest to Fund AI-Chip Sales, Production
+43a9ac9c9b3dc1c6c87277fa896497da|||NVDA|||Here’s Why Investors Keep Buying Nvidia (NVDA)
+49fa4bcbf241153db64583e15e8c4e89|||NVDA|||Stocktwits AI Roundup: Micron’s Blowout Quarter, Nvidia’s $150B Buyback And The Race For AI Agents
+29636027aab0f9050870e204b09d6caf|||PANW|||Graphique interactif des capital-actions PANW271217P00195000| Capital-actions PANW Dec 2027 195.000 put
+db55bd1f7173ffa7be7f83d848fa8ef9|||PANW|||Graphique interactif des capital-actions PANW261120C00640000| Capital-actions PANW Nov 2026 640.000 call
+136aeb1c78b3f98caec9c59be41228a4|||PANW|||Graphique interactif des capital-actions PANW261016P00310000| Capital-actions PANW Oct 2026 310.000 put
+03fb6351db3aff422e69c3a9d66a175b|||PANW|||Graphique interactif des capital-actions PANW261009C00345000| Capital-actions PANW Oct 2026 345.000 call
+1c275ddd58c2e11dc107c25ba8b62fa9|||CRDO|||Credo Technology Group Holding Ltd (CRDO) latest stock news and headlines – Yahoo Finance
