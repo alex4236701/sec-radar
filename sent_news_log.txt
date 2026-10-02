@@ -3325,3 +3325,23 @@ ff279ef29da5d2e90aabb056f332e42d|||COHR|||Why is Coherent stock surging today? B
 5878d2add9a7576389b2992f2cadbf65|||CRDO|||CRDO261002P00157500 Interactive Stock Chart | CRDO Oct 2026 157.500 put Stock
 999e5c5cd6c330820f8a6412101447b9|||RKLB|||Rocket Lab Climbs 5% as Largest-Ever Electron Deal Lifts Backlog Past 100 Missions; AST SpaceMobile Ticks Up, SpaceX Holds Flat
 bc6ed8c7438a92aa458010d61910eb01|||RDW|||RDW Stock Alert: What to Know as Redwire Teams Up With Honda on Robotics
+4d77f9385eee4fea8f00b7738e89aee1|||GOOGL|||KeyBanc reiterates Alphabet stock rating on Gemini 4 progress By Investing.com
+d752e6dcf449490d621a8d9fd303da1d|||TSLA|||Futures Await Jobs, Tesla; Micron Flashes Buy Signal
+55beb52c0c44c68de708963700bc51e5|||AVGO|||Broadcom Starts Amassing $60 Billion to Fund Chips for Anthropic
+85c76d0bc485934811e79e90e2b3708f|||AVGO|||Broadcom starts amassing $60 bln to fund chips for Anthropic- Bloomberg
+4278d5bf83bd4a4a82d43ea250185ac3|||AVGO|||Broadcom gathers $60B financing package to fund AI chips for Anthropic: report (AVGO:NASDAQ)
+9aea534b1261cca83bcb574cc645a664|||MU|||Micron Says Record Employee Bonuses Weigh on Margins - Micron Technology (NASDAQ:MU)
+28838a838c8aee7fa4b13eab05651f89|||MU|||Micron Technology Reports Q4 Earnings: Revenue Up 379%, EPS Up 1,003%
+24bd599e4f6ffd8c136e1e8fbc001af0|||SNDK|||SanDisk (SNDK) vs. Seagate (STX): Which Storage Stock Is the Better Buy Right Now?
+65d152072d312929ed07269dd527eb6d|||STX|||SanDisk (SNDK) vs. Seagate (STX): Which Storage Stock Is the Better Buy Right Now?
+cc7cce67d21cb9def8eef980d6e5308b|||ONTO|||Scott Bessent Says Iran Transported 'Zero' Oil Onto Tankers Last Month — Trump’s Sanctions Are Targeting
+e40738a950d6e0b04e93a3a8e08f4a13|||ONTO|||Iran Loaded No Oil Onto Tankers Last Month as US Blockade Bites
+710cfc3bbc1434af992d06b2e9fdb0e1|||PLTR|||Palantir Technologies Inc. (PLTR) stock price, news, quote and history
+f6d0ebb20c700ff601764f1915eb2dd7|||PLTR|||Form 4 Palantir Technologies Inc For: 1 October By Investing.com
+39dbdc747bdf823119255807904d9908|||PANW|||PANW Oct 2026 205.000 put (PANW261002P00205000) stock price, news, quote and history
+017de1136e66968fec2c505acb0f29b7|||RBRK|||Okta (OKTA) vs. Rubrik (RBRK): Which Security Stock Is the Better Buy Right Now?
+c467867187e4d524d1a1b972e85d707a|||OKTA|||Okta (OKTA) vs. Rubrik (RBRK): Which Security Stock Is the Better Buy Right Now?
+add46d8c151f826f39ea24d411f639d8|||COHR|||Coherent Corp. (COHR) Stock Price, News, Quote & History
+816d012df7f11c9e05eaa13c31b5ec10|||COHR|||COHR Stock Leads AI Infrastructure Stocks Higher as Coherent Launches Data Optics Platform
+ae7167670b8733de464a44df8e2fac91|||FCEL|||FCEL Stockholders Have Rights - If You Lost Money Investing in FuelCell Energy, Inc. Contact Robbins LLP for Information About Recovering Your Losses
+1fabc319b642ce9b75385f638e31065d|||ROK|||Harpak-ULMA Launches Hygienic Robotic Loading Platform with Integrated Rockwell Automation Controls
