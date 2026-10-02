@@ -3362,3 +3362,83 @@ db55bd1f7173ffa7be7f83d848fa8ef9|||PANW|||Graphique interactif des capital-actio
 136aeb1c78b3f98caec9c59be41228a4|||PANW|||Graphique interactif des capital-actions PANW261016P00310000| Capital-actions PANW Oct 2026 310.000 put
 03fb6351db3aff422e69c3a9d66a175b|||PANW|||Graphique interactif des capital-actions PANW261009C00345000| Capital-actions PANW Oct 2026 345.000 call
 1c275ddd58c2e11dc107c25ba8b62fa9|||CRDO|||Credo Technology Group Holding Ltd (CRDO) latest stock news and headlines – Yahoo Finance
+ef5bc176efd2e7a32a8f8a018b93b37c|||GOOGL|||Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Time to Buy
+0a581ec2848a401924a3b577063883bb|||GOOGL|||Alphabet Launches Homegrown AI Tensor Processing Chips Into Orbit On SpaceX Rocket
+0a81b50978747885e7df3fbdb577d53b|||GOOGL|||Alphabet vs. Amazon vs. Microsoft: Which "Magnificent Seven" Stock Is the Better Buy Right Now?
+2e14781bd90925510aa3d06695b98c71|||GOOGL|||Alphabet today launching AI chips into space on SpaceX rocket
+63c185ebcc9f74f700627c74c8ab63e3|||MSFT|||52 Analysts, Zero Sells: What Microsoft’s Price Target Really Implies
+bfc6e7f31c1984eabdf6517202a2947e|||TSLA|||Why is Tesla stock surging today?
+32287d3a3dc1fb5b2bf716378651bafa|||TSLA|||Tesla Surges 5% as 486,532 Deliveries Top Company Consensus; Rivian Slides 3%
+1595d38fa8fa7b2c92fdd78564f33ef6|||TSLA|||Tesla deliveries fall 2% as US consumers buy fewer electric vehicles
+253e1788065dc06788b5face91bd0d29|||TSLA|||Tesla shares jump 5% as Q3 deliveries beat expectations
+149a6f9115927ff0049c69ca87ef2ea7|||TSLA|||Dow Jones Futures Rise, Oil Prices Tumble With Tesla, Jobs Due; Nike, Seagate, Western Digital Are Big Losers
+bb47ead5553d81dc216bd329a370b60b|||TSLA|||Tesla earnings missed by $0.01, revenue topped estimates
+a5d71425ea713998659fd8a6787dab14|||AAPL|||Apple (AAPL) Prepares A Siri Powered Smart Home Hub
+a6587ccc12d0d600d9b09c6cd23fbaff|||META|||Dutch eyewear chain Hans Anders halts sale of Meta glasses, citing privacy concerns
+cfc3bdb7cb2bf0ed008bfd4d7c00aca8|||META|||Meta CEO Zuckerberg Unloads $21.3 Million of Stock in First Sale of the Year
+a4937751d0fbb4953b8cebcf7e97bbe6|||HPE|||Hewlett Packard Enterprise (HPE) Up 18.6% Since Last Earnings Report: Can It Continue?
+a238c440132e25bf2f58ab72529ee1a9|||AVGO|||Blackstone, Banks Amass $60 Billion for Broadcom’s AI Chip Deal
+5a9ceeb79440a8885b9269fe0a7a3ebc|||AVGO|||Broadcom Chases NVIDIA With $60 Billion Financing Plan for AI Customers
+abc9c415216dee67b4deebf247937f05|||AVGO|||Broadcom: The Anthropic Panic Looks Overblown
+bb857b3af0c12a7d9409db78c43c7de6|||AVGO|||Broadcom Reportedly Lines Up $60B AI Chip Financing As Anthropic Expands Compute
+9e73f1ebf4634b65a20d4f8ae9cd9bf7|||AVGO|||Why Is Broadcom Inc. (AVGO) Down 3.8% Since Last Earnings Report?
+1f518c322d51bd17ec03cd80c1974c50|||AVGO|||Broadcom Is Lining Up $60 Billion to Fuel the AI Chip Race Against Nvidia
+718c76994034e496e4bf73219fdf686e|||AVGO|||Broadcom Financing Syndicate Reportedly Seeks $60 Billion for Anthropic and Other AI Companies
+e4e6430997c2574ab9166fa3775cc611|||AVGO|||Broadcom Isn’t Just Selling Anthropic Chips Anymore. It’s Underwriting Them With Up to $42 Billion
+f55ccbe61fda340c53fdc0561478e96b|||AVGO|||Watch Blackstone, Banks Gather $60 Billon for Broadcom AI Chip Deal
+91a026d72800d543fef3cabada409442|||AVGO|||Watch Nike Slides on Job Cuts; Broadcom Gathers AI Chip Funding | Stock Movers
+211bb7292ad01a2424f79bdfc56a814b|||AVGO|||UBS reiterates Broadcom stock Buy rating on AI revenue outlook By Investing.com
+1ce91d857e119591d2a6d9d62964453b|||AVGO|||Form 4 Broadcom Inc For: 2 October By Investing.com
+9f2f1c8774a04d133e4be0fd33723ca2|||NVDA|||Why is NVIDIA stock climbing today?
+8a62645ad4adfc4ab24741e49a4b0684|||NVDA|||Nvidia and Micron Can't Make AI Chips Without This Growth Stock. Here's Why It Could Soar.
+6ec7e881c31e501c6b2019b7e7a61e3a|||NVDA|||Nvidia is cheaper than it looks. Here's why I'm buying the stock
+aec5d9c55458affd0412d42b57e93039|||NVDA|||Nvidia introduces 64GB DGX Spark to throw local AI fans a lifeline amid the RAMpocalypse — new GB10 config starts at $4999 for those who can work with less
+5014a9b76aa4779b23888c993e8ad795|||NVDA|||AMD Climbs 3% as Chip Stocks Extend Their Run; Arm Jumps 8%, NVIDIA Rises 2%
+4fad89b2a17ededbc9b855e94589aff4|||NVDA|||An $8 Billion Reason Why Amazon and Nvidia Are in Focus
+6b594065a49c2fa377cfbc16710b12d3|||NVDA|||You think Nvidia's $235 billion buyback is big? Just wait and see what Micron might do
+ec209c7278ff2317ac7930c23299e2d0|||NVDA|||Amazon Wants Investors to Take $8 Billion of Nvidia Chips Off Its Balance Sheet
+fa05c29765313f74e80660e5e24bbaed|||NVDA|||Amazon Reportedly Seeks Investors for $8 Billion Nvidia Chip Financing Structure
+c6b0b93b5bb42a97517fe457551f6012|||NVDA|||Zacks Investment Ideas feature highlights: Micron and NVIDIA
+ba89883d6fe4165f98a39b61068b539d|||NVDA|||Nvidia hits record high as AI optimism, buyback lift shares
+d6a936728527b2285eb0b7e4babea73a|||NVDA|||NVIDIA’s 64 GB DGX Spark “AI Supercomputer” Launches This Month For $4999, While The 128 GB Spark Jumps Past $6000
+7084c79da746628ab1a686a1cdde919e|||AMD|||AMD Climbs 3% as Chip Stocks Extend Their Run; Arm Jumps 8%, NVIDIA Rises 2%
+9518197b2b84ebce161815cddb0e2a55|||INTC|||Rumored Intel Nova Lake table lists three 'BFC' chips with up to 144MB of L3 — next-gen CPU lineup takes shape with up to 28 cores in Core Ultra 9 4970K BFC
+3ae072700834db004a9fe6cdd35e2f29|||INTC|||Intel Nova Lake Desktop CPU Lineup Leak Reveals 7 SKUs: Core Ultra 9 4970K 28-Core Flagship With 125W TDP & 144 MB of bLLC, Core Ultra 7 4870K With 24 Cores & Core Ultra 5 4650K With 22 Cores
+eee8e1edaeb8427ec2ddbbb4f51bdc55|||MU|||Latest News In AI Chips - Micron Technology Thrives with AI-Driven Demand Surge
+c6596d304954a8ff0837b84b25a85ea9|||MU|||Micron NAND Revenue Surges 526% on AI Storage Demand - Micron Technology (NASDAQ:MU)
+8d65b7279d46c7b6eea8517f94295d49|||MU|||Micron: The Memory Cycle Won't Last Forever (NASDAQ:MU)
+ca41a575aad357e04bad46228b930c2f|||MU|||Micron: A Top AI Chip Stock With Potential To Double On HBM Demand
+196e77372283b74a0754e96d97191f2b|||MU|||Micron Analyst Dismisses Supply Glut Fears As AI Memory Crunch Deepens
+25647601e7ff1d4a36f80d2f0bc38359|||MU|||The Prophet Report: Why I Sold Micron For Now (NASDAQ:MU)
+74b1ba6fd67a30ed0cb2dab12a2c276d|||SNDK|||Sandisk Just Got a $2,100 Price Target as AI Keeps NAND Supply Tight
+f9b184c9443e5adcb69d983d001ca6d2|||STX|||Seagate Tumbles 10%, Western Digital Drops 7% as Toshiba Moves to Double Hard Disk Output
+e7c960ba53f8e6cec2376240e1c3d285|||WDC|||Seagate and Western Digital shares fall on Toshiba HDD expansion
+f88b24a6a52597cc55701bdd456daf5d|||WDC|||Seagate Tumbles 10%, Western Digital Drops 7% as Toshiba Moves to Double Hard Disk Output
+7488b44ce50a4696d89c751dd8c1573b|||WDC|||Why is Western Digital stock sliding today?
+3d73b71d21a98e5c1b0a2a3a7ec7c53b|||SWKS|||Skyworks Solutions Inc. stock underperforms Thursday when compared to competitors
+97d97c32cf5ace640eeef0f3199a38f4|||ONTO|||Why is Onto Innovation stock surging today?
+5f134e8fd07cc9e6ae4bc79a99322b40|||ALGM|||Why is Allegro Microsystems stock surging today?
+2f6a5b4d71eee91a15819ba3702be7d6|||IFNNY|||Why is Infineon Technologies stock surging 6% today?
+441eb1e95ede6b4d0cc14ccb3b2a385d|||VSH|||Vishay launches four 650V power modules for industrial use By Investing.com
+4f578b27c3f9fb1288dcb3628db38d61|||SNOW|||Why Is Snowflake (SNOW) Down 4.1% Since Last Earnings Report?
+dfae10c3a4a2e789df779e0afa68611c|||PANW|||Is Trending Stock Palo Alto Networks, Inc. (PANW) a Buy Now?
+ad837a0ec7e2eed1510507b91a863f58|||PANW|||TD Cowen raises Palo Alto Networks stock price target on AI tailwinds
+84df003aa0384aecaf814210eb3ec76e|||PANW|||Palo Alto Networks, Inc. (PANW) Options Chain
+78ca79fa63137d709bed8e15b0efccd8|||PANW|||PANW Oct 2026 215.000 put (PANW261030P00215000) Stock Price, News, Quote & History
+24cf863c360cc202c2e5738a41d944d4|||PANW|||PANW Nov 2026 385.000 put (PANW261106P00385000) Stock Price, News, Quote & History
+dd05f662ad74b9d9b0cef22655f2ae70|||PANW|||Graphique interactif des capital-actions PANW261016P00340000| Capital-actions PANW Oct 2026 340.000 put
+9a214b1a6f727d3212ba2bc353f1ab2a|||PANW|||PANW261009P00390000 Interactive Stock Chart | PANW Oct 2026 390.000 put Stock
+11d40d73d9a7908a33df30fe79401729|||PANW|||Graphique interactif des capital-actions PANW261002C00200000| Capital-actions PANW Oct 2026 200.000 call
+6bd22e5fccc42d981a264e5d56f8b438|||PANW|||Graphique interactif des capital-actions PANW261002C00570000| Capital-actions PANW Oct 2026 570.000 call
+7c6b764efe6874e62bcbdc8efc03501a|||FTNT|||Fortinet to Announce Third Quarter 2026 Financial Results
+c36d95206f9ed0a7895d7f8e6d1ae8da|||CRDO|||Credo Technology Group Holding Ltd (CRDO) interactive stock chart – Yahoo Finance
+889d74b7ab780cc47b5aea52525cc842|||NOK|||Inseego Completes Acquisition of Nokia’s Fixed Wireless Access Business
+96811edd63192c5f80df564487f6571b|||CSCO|||The Zacks Analyst Blog Highlights Cisco Systems, Shopify, Starbucks and Smith-Midland
+05597dfa4f442519cc120453b46f43f8|||SPCX|||Why is Space Exploration Technologies stock surging 6% today?
+4e2d11da1cb75584733c7445a4edede5|||SPCX|||Why is Space Exploration Technologies stock surging today?
+5f45511a6210b4c6ad3dabbccddbab16|||RKLB|||SpaceX Climbs 6% on Fresh Falcon 9 Rideshare Launch; Rocket Lab Jumps 7%, AST SpaceMobile Ticks Up
+2a47d7ea2198edb967e191efc04ed27c|||RKLB|||Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract
+b77d45fb222e5f1a84ef39e52aace22e|||RKLB|||Why Is Rocket Lab Stock Surging on Friday?
+ed54c6ffff4fefa962ba8ba7eb76b2b7|||RKLB|||Cathie Wood Just Bought $16 Million of Rocket Lab--and Sold Palantir
+79f05626379753bbdceaf801981b0be0|||CAT|||Caterpillar and Ultium Cells make $1B facility investments
+e049317ece20f039bf938332e7e7a260|||CAT|||Caterpillar announces $1 billion Sanford manufacturing investment
