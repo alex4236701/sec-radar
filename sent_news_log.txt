@@ -3585,3 +3585,41 @@ e6c3feb91af36af32b2d3f2e5b0a084f|||CRM|||Salesforce vs. CrowdStrike: What Revenu
 fd0ad81a4d41c213984de7e4d27dd810|||PANW|||Palo Alto Networks (PANW) Is a Good Business. But Can Its Growth Justify the Valuation?
 f0553f0f140b17796f6ec3a193a725e6|||FTNT|||FTNT Oct 2026 187.500 call (FTNT261009C00187500) Stock Price, News, Quote & History
 54ba1797e52be51b6f006336f5e11edb|||RKLB|||Prediction: 2 Space Stocks That Could Join SpaceX and Rocket Lab in the Nasdaq-100 by 2030
+8f73f425f75ab45332ab8d546b111735|||GOOGL|||Form 4 Alphabet Inc Class A For: 2 October By Investing.com
+741ea1c4b0388e38e6b3db1200772e64|||TSLA|||Tesla Q3 Deliveries Top Expectations; The Stock Is Rising
+754fca2a44b11d9e2fbd92d8d4a9c114|||TSLA|||Elon Musk Hints at Tesla-SpaceX Merger: “Who Can Imagine What Action One Might Take”
+17504867f1cb5473a66ceb72fc1f2cec|||TSLA|||Tesla Gets A Very Big Sales Win
+92256d6b5e22541a931db967742543dc|||TSLA|||Tesla Posts Delivery Beat, Gives No Update on AI Projects, Truist Says
+6b9d5322942fafca7ec87a2702f982a3|||TSLA|||William Blair reiterates Tesla stock rating after delivery beat By Investing.com
+d9567d02bbf57d23bc8cada5c64f4cfb|||AAPL|||Apple to replace iPhone 18 Pro Max facing AT&T glitch (AAPL)
+3336bc03fb35e4b732e2d5fe46cf0d86|||AAPL|||Apple Says Some AT&T iPhone 18 Pro Max Users Must Replace Phones After Service-Loss Bug
+520986782c355c05e711a5fe4569d1a0|||AAPL|||Apple MacBook Pro Release Schedule: What To Expect When
+60a2700dac619159872db0bfd65ad4ec|||DELL|||Dell Technologies (DELL) Joined A $15 Billion AI Data Center Project In Japan
+caa5df47663220c173ec232726e01a8a|||AVGO|||Broadcom’s $42 Billion Loan to Anthropic Turns the Chipmaker Into Its Customer’s Bank
+3d82eaa4c52b2e0a1badf2a932ead9a5|||NVDA|||NVDA Stock Is Back As Morgan Stanley’s Top Pick – All AI Trends Play To Nvidia’s ‘Strengths,’ Says Analyst
+ed756414503b4d383457cfd0a37edfd3|||NVDA|||Options Action: Nvidia hits fresh high
+4f2fc485f9285a893e5b31529ce7df3c|||INTC|||Schedule Intel: Longhorns Incoming?
+15539b3056fe14eca072e51576f1e897|||INTC|||INTC261009P00093000 Interactive Stock Chart | INTC Oct 2026 93.000 put Stock
+b065508add7c798f58aea51f76aa3767|||LRCX|||Analog Devices, AMD, KLA Corporation, Lam Research, and Marvell Technology Stocks Trade Up, What You Need To Know
+98609881bf9986c6da2bb283e9c1c401|||LRCX|||Lam Research (LRCX) Stock May Look Stretched After Its Big Five Year Run
+b7042be6ecbe9b42d8611eac99267907|||MU|||Micron: The Memory Equity Cycle Is At Its Zenith
+3c055c756fc751dde363971759e1a21a|||MU|||Micron: The Memory Peak Is Still Ahead (NASDAQ:MU)
+0a9e86efdb9092cfe85f2ab3c91fd859|||MU|||Form 4 Micron Technology Inc For: 3 October By Investing.com
+f49dc7b428751c7397bbfb1c4115224c|||MU|||EXCLUSIVE: Micron’s NAND Revenue Surged 526%: Why AI Data Centers Need So Much Storage
+6fce65c7dabc7e2cc222eb6526c6c6c6|||STX|||Why Western Digital and Seagate saw big stock drops Friday
+27a86abc8df87e6808c44eeec70d8014|||STX|||STX, WDC Stocks Sink On Toshiba’s Reported Plan To Double AI Hard-Disk Capacity: Analysts Call The Drop Overdone
+6346971cb08f454e2df5aa7dee987dbf|||STX|||Seagate and Western Digital shares fall on Toshiba HDD expansion
+5d4d4e180be486b8b087ade56513add6|||WDC|||Why Western Digital and Seagate saw big stock drops Friday
+a4649c664905b89ed3e41ebe8c3a89bb|||WDC|||Western Digital: Buy Aggressively Because The Market Is Wrong (NASDAQ:WDC)
+2a556c19356010b311d7fffd379208f0|||WDC|||STX, WDC Stocks Sink On Toshiba’s Reported Plan To Double AI Hard-Disk Capacity: Analysts Call The Drop Overdone
+a9ac8027bd5fdc318e0cfd48415d9526|||ONTO|||Bull of the Day: Onto Innovation (ONTO)
+b6d72977a0f0d317e1e7fa45a4f7b132|||ALGM|||Allegro MicroSystems' Data Center, Auto Content Gains Support Momentum, RBC Says
+b21e11933fd6e4ac4981b41c1b7749da|||PLTR|||Palantir Stock Rises on Armada Deal for Air-Gapped Sovereign AI - Palantir Technologies (NASDAQ:PLTR)
+fed0f93184be2808ceb5177162e15b1b|||SNOW|||Snow Rothschild Acquisition Corp (ISNR) recent insider transactions
+a1033ef59024f86bdeb157006ac3b1c2|||PANW|||PANW Oct 2026 457.500 call (PANW261002C00457500) stock price, news, quote and history
+b67ce18de27ba579bda2c28e8d9f510c|||FTNT|||FTNT261016C00165000 Interactive Stock Chart | FTNT Oct 2026 165.000 call Stock
+63978768d6bcfe29a69b876e94662165|||COHR|||COHR261002P00350000 Gráfico interactivo de acciones | COHR Oct 2026 350.000 put Acciones
+67d2de7b3dcc1fad1e5d6e123855d8d1|||GLW|||First Solar files patent infringement lawsuit against China's JA Solar, Corning subsidiary (FSLR:NASDAQ)
+a9b278382d82dab92bccb28d4d6cb6d8|||RKLB|||Rocket Lab Just Signed the Biggest Commercial Electron Deal in Its History. Its Launch Backlog Now Tops 100.
+dc3e348274800d80e1f8af5a5dabb898|||FCEL|||FuelCell Energy, Inc. (FCEL) stock price, news, quote and history
+5b26088d4b0c5e0a369ccda46be525f0|||PENG|||Penguin Solutions: AI Growth Is Real, But The Revenue Mix Matters (NASDAQ:PENG)
