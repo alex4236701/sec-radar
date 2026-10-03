@@ -3539,3 +3539,49 @@ a3e5c9857b976d25be05e12424150da8|||RKLB|||Cathie Wood’s ARK stock trades inclu
 29054cd1372e38113f1bd78e0ff63427|||BE|||FuelCell Jumps 7%, Bloom Energy Climbs 3% as Hydrogen Stocks Rally; Plug Power Sits Out
 5aa5581cc1571db641a118c7aba39062|||FCEL|||Why Is FuelCell Energy (FCEL) Up 13% Since Last Earnings Report?
 42c55f86333f95b1ad6af3a6586ed010|||ETN|||Eaton Analyst Sees Strong Orders, Raises 2027 EPS Forecast
+9b2c9e4bdd4936f3781e9003ef6bed93|||GOOGL|||Investor Alert: Robbins LLP Informs Investors of the Alphabet Inc. Class Action Lawsuit
+b88d24964ccf4420c5c42fcb689c3b0a|||TSLA|||Cybertruck sales in free fall as Tesla reports mediocre sales for Q3
+e76e9838955ce8cf7b6cf75395e1c40d|||TSLA|||Tesla Sales Slump in Third Quarter
+a6bcbff79ca4ed3d85247dc5dd7093cd|||TSLA|||Stock Market Today, Oct. 2: Tesla Rises on Q3 Delivery Beat
+dcdb5902f7117966a67468bf7f52f02e|||TSLA|||Tesla, Rivian Deliveries Beat Estimates: Analysts Explain Why TSLA Rallied While RIVN Fell
+c3956fd2ad0eb8fcaad36809c9a462e4|||TSLA|||TSLA Stock Pops as Tesla Surprises on Q3 Deliveries
+b55c3068ebf4ba6da4959f7ac802bb85|||TSLA|||Tesla shares jump after global car sales top estimates
+90ccbfa225821ce5c6e2e88b8e094733|||TSLA|||Tesla sold a lot more EVs than Wall Street expected, and the stock is surging
+edd86ab6713a22c7d317203272e481ec|||TSLA|||Tesla Delivered 486,532 Vehicles in Q3. Here’s Why the Real Test Could Come on Oct. 21.
+8c5868bbcc45ceaa00eb74e3377fb966|||TSLA|||Tesla sustains its EV sales momentum despite US troubles
+3ae38daaadd09ddda97ea9a39da1c8ab|||TSLA|||Tesla beats Q3 delivery estimates with 486,000 vehicles delivered
+3152c316d4ada342d2808e8ec807893a|||TSLA|||Tesla’s EV Sales Top Estimates With Car Business Stabilizing
+ae0b3de6a14629d70bf39891690a10ac|||TSLA|||Tesla Sales Are Down. But They're Doing A Lot Better Than Some Competitors
+8bc7b70f1507f977067c6611cfa0a395|||AMZN|||Should You Buy Amazon Stock (AMZN) in October?
+6ed4342d3fbcd84ed4b1977efd07d5a0|||DELL|||Dell Stocks Jump 4.4% as AI Server Guide Reaches $74 Billion
+ea50af652cc5b7915f0b2187ae36e492|||HPE|||This Hewlett Packard Enterprise Analyst Turns Bullish; Here Are Top 5 Upgrades For Friday
+27c4c4d6b0dcd178613c467338e7fa8a|||HPE|||Hewlett Packard Enterprise stock hits all-time high at 67.33 USD
+befac762fc6b190212634bedfdf3fa96|||AVGO|||Nike Slides on Job Cuts; Broadcom Gathers AI Chip Funding | Stock Movers
+08e265d5e154c205853b8f2ca7e6796e|||NVDA|||Nvidia stock hits new all-time high, market cap at $5.7 trillion
+f0254bf6df1e2bcf5237bcc7c62b1496|||NVDA|||Nvidia Stock Climbs After Morgan Stanley Names It a 'Top Semiconductor Pick'
+655ec01135badadd9f0f30582ba52ef9|||NVDA|||Nvidia Hits First Record Since May as Value Nears $6 Trillion
+18cd0571c65c10f4ce55564fccbdab9d|||NVDA|||3 AI Chip Stocks To Watch After Nvidia Stock Hit A Fresh All Time High
+f393d0faf8fc85707f829eb5c9e1679d|||NVDA|||Nvidia stock hits record high, market cap nears $6 trillion
+73bde187498afa7396bcfb2e80a6d68b|||NVDA|||Morgan Stanley Has Strong Message For Nvidia Stock Investors
+a4e2d473aee101f1d3363f2035b77798|||NVDA|||Nvidia Stock Regains ‘Top Pick’ Status At Morgan Stanley
+e9a458282bf99915f20f4e71baefe3fd|||NVDA|||Nvidia: Competition Caps The Upside Case (NASDAQ:NVDA)
+09ba550af44df103ee1d5a04cb0b5451|||NVDA|||Nvidia Stock Is Back at Its May Record. Its Quarterly Revenue Is 41% Higher.
+8079aa9998905cb3d0dbb89fc38c5edc|||NVDA|||Nvidia returns as Morgan Stanley’s Top Pick on attractive valuation
+d9a91261d57f83791aeaa42cddcebb03|||NVDA|||What Could Send NVIDIA Stock Higher?
+1462842ea0c6363d090ba137af6f29ca|||LRCX|||Are Computer and Technology Stocks Lagging Lam Research (LRCX) This Year?
+d5b8e677e65b3bbb74688a2d401cef54|||MU|||Altice USA Inc (15PA.MU) stock price, news, quote and history
+d6cbb965dc4513930d07204393e2ed7e|||MU|||MU Jan 2029 230.000 put (MU290119P00230000) stock price, news, quote and history
+b0dc637d5b7007db57809060246ecdbd|||WDC|||Western Digital retreats 10% amid storage selloff (WDC:NASDAQ)
+76455ef871b03bfcc83853b65825ecc2|||WDC|||Why Toshiba's Expansion Plans Just Sent Western Digital Stock Lower
+740b42feb37d97e48acfe20008392504|||WDC|||Western Digital (WDC) Exceeds Market Returns: Some Facts to Consider
+b24b74b2e0aad2e1694e6cf18fab95e8|||WDC|||Dow Jones Futures Rise, Oil Prices Tumble With Tesla, Jobs Due; Nike, Seagate, Western Digital Are Big Losers
+77ef0b1f5fd53316e24c744176293fbb|||ALGM|||Allegro Microsystems, Onto Innovation in focus as RBC starts with Outperform rating (ALGM:NASDAQ)
+2dcf5ab8d19b2f6e754912124bf612c7|||ALGM|||Allegro MicroSystems, Inc. (ALGM) Stock Price, News, Quote & History
+e2bf5950e186e3252e290d5ec77ef7f9|||ALGM|||Allegro MicroSystems, Inc. (ALGM) stock price, news, quote and history
+4f04affb47816a71fa6534e54bbdc8fe|||ALGM|||RBC Capital initiates Allegro MicroSystems stock at outperform
+a74f97e9314ceddf87e7f00bfc125995|||VSH|||Vishay Intertechnology, Inc. (VSH) Stock Price, News, Quote & History
+8051b1a3ed3db81ef07a81b0f0cf063d|||VSH|||Vishay Intertechnology, Inc. (VSH) stock price, news, quote and history
+e6c3feb91af36af32b2d3f2e5b0a084f|||CRM|||Salesforce vs. CrowdStrike: What Revenue Growth Trends for These Software Giants Tell Investors
+fd0ad81a4d41c213984de7e4d27dd810|||PANW|||Palo Alto Networks (PANW) Is a Good Business. But Can Its Growth Justify the Valuation?
+f0553f0f140b17796f6ec3a193a725e6|||FTNT|||FTNT Oct 2026 187.500 call (FTNT261009C00187500) Stock Price, News, Quote & History
+54ba1797e52be51b6f006336f5e11edb|||RKLB|||Prediction: 2 Space Stocks That Could Join SpaceX and Rocket Lab in the Nasdaq-100 by 2030
