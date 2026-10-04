@@ -3623,3 +3623,47 @@ b67ce18de27ba579bda2c28e8d9f510c|||FTNT|||FTNT261016C00165000 Interactive Stock 
 a9b278382d82dab92bccb28d4d6cb6d8|||RKLB|||Rocket Lab Just Signed the Biggest Commercial Electron Deal in Its History. Its Launch Backlog Now Tops 100.
 dc3e348274800d80e1f8af5a5dabb898|||FCEL|||FuelCell Energy, Inc. (FCEL) stock price, news, quote and history
 5b26088d4b0c5e0a369ccda46be525f0|||PENG|||Penguin Solutions: AI Growth Is Real, But The Revenue Mix Matters (NASDAQ:PENG)
+e106ccd6765367df7f9e74cbc0f9fcd6|||GOOGL|||Alphabet (GOOGL) Prevails In Two US Antitrust Lawsuits
+a864ed4cee93305317050c8263ff40a1|||MSFT|||Accenture vs. Microsoft: Which Technology Stock Is a Better Buy in 2026?
+022f350a90161b55f3cf3b6b9ca0e570|||MSFT|||How Much Revenue Visibility Does Microsoft’s Backlog Really Provide?
+ff85c4aa85668abe28ffe0d8319eb8fd|||TSLA|||Tesla Delivered 22,141 More Vehicles Than It Built in Q3. Here’s the Production Number That Decides What Comes Next
+a82a30baf39b263d1f9ab70d64c7ede9|||TSLA|||Tesla, Inc. (TSLA) Options Chain
+3744dcec686726ac01ccb72d7cb7d2e6|||AAPL|||Apple Weekly Roundup: AI Privacy, iPhone Demand, Wearables And Restructuring - Apple (NASDAQ:AAPL)
+77b0a8e87cc63d2f2fcdfa59bdaa5e19|||QCOM|||Micron Technology vs. Qualcomm: What Revenue Trends Tell Investors About These Tech Companies
+848ec6c4de429d8db1eebfb62cef1f01|||QCOM|||Snap stock rises after Qualcomm partnership on smart glasses By Investing.com
+cb8d119eb3ba2b54794f6bd1101eb2d5|||QCOM|||Form 4 QUALCOMM Incorporated For: 3 October By Investing.com
+17b90db546ed0132eccc3aa2a3040e7f|||AVGO|||Broadcom’s Massive $42 Billion Chip-Buying Deal with Anthropic Raises Circular Financing Worries
+e32a8ef8686c188c46a468a4ebef37b8|||TSM|||TSMC Q3 Earnings Preview: I’m Loading Up Before The Print, And You Should Too (NYSE:TSM)
+f31c8e8e2113298fb3394be70c62b719|||TSM|||ASML vs. Taiwan Semiconductor Manufacturing Company: What Revenue Trends Tell Investors About These Companies Tied to Artificial Intelligence
+0fc8c9d81ef3711fb32c2456e63a8a66|||NVDA|||AMD Reaches a $1 Trillion Market Cap. Can It Finally Dethrone Nvidia?
+7cd926292aa04b844a3e5fb681355d28|||NVDA|||Amazon Wants to Move $8 Billion in Nvidia Chips Off Its Books. Is AI’s Financing Model Starting to Change?
+bd632aed5d243650b91e028ebaea5507|||NVDA|||Nvidia (NVDA) Is At The Center Of An $8 Billion AI Financing Shift
+7ad49bcf2ea9355c8a02f802dee04450|||NVDA|||Nvidia Gets Its Leather Jacket Back
+0a09a5ac11b8e3f0ae219440f570c12a|||NVDA|||Jay Clayton Appointed as White House AI Czar - NVIDIA (NASDAQ:NVDA)
+863965450b9130eec46e412e81c27502|||INTC|||INTC261005P00080000 Interactive Stock Chart | INTC Oct 2026 80.000 put Stock
+e8e1c03e80d6379d6dc9be8405df3bd7|||INTC|||INTC Oct 2026 134.000 put (INTC261002P00134000) stock price, news, quote and history
+c04bb5095b4590c1f17795414a84db51|||INTC|||INTC Oct 2026 137.000 call (INTC261002C00137000) stock price, news, quote and history
+f647d041b388906ffeeeb28b6d4d5d58|||MRVL|||Intel vs. Marvell Technology: Which AI Chip Stock Is a Better Buy in 2026?
+4963d089dd1b7ec14b8d90bd90e73d0d|||MU|||Micron: The Trade Of The Decade Has Arrived (NASDAQ:MU)
+c167fbe9f6d7106e2ace0dbd2676282f|||MU|||Micron's Hidden Financing Advantage (NASDAQ:MU)
+f3aa22add6ead2f896110e8e7d020b1c|||MU|||Micron Technology vs. Qualcomm: What Revenue Trends Tell Investors About These Tech Companies
+e4e30ff1ad8cf15e944806c0f023c362|||MU|||Micron: The Market Is In Disbelief. Ignore Them (NASDAQ:MU)
+6a2142db64eeab80735c6eb21a1466b8|||MU|||Is Micron Stock Cheap Enough to Survive Lower Memory Profits?
+fc3cd974cded7235470c398d034cb341|||MU|||Micron Technology’s Buyback Is Tiny Next to Its Cash Pile. Is a Bigger One Coming?
+1083ee2ad910b9499d1c49a83ed5a011|||MU|||MU Nov 2026 1075.000 put (MU261106P01075000) stock price, news, quote and history
+aab14fcc4f243d9f2098c5edc0a1f534|||MU|||MU Oct 2026 770.000 put (MU261005P00770000) stock price, news, quote and history
+5cd4bec855ea3f9bebb1021972e4fa56|||MU|||MU Oct 2026 1335.000 call (MU261002C01335000) stock price, news, quote and history
+907958117627c5140441225c2bc232c6|||MU|||MU Oct 2026 1345.000 call (MU261005C01345000) stock price, news, quote and history
+16bd47bdefa26f8d0a82a144938f3a09|||MU|||MU Oct 2026 940.000 call (MU261005C00940000) stock price, news, quote and history
+0e91510a39ed7d98846d24938308ad69|||MU|||MU Oct 2026 1360.000 call (MU261005C01360000) stock price, news, quote and history
+a3cc3639a3b1c3077c3757313d8e80d9|||MU|||MU Oct 2026 1365.000 call (MU261005C01365000) stock price, news, quote and history
+9a8b6cc138b20d47679c35aec6ca2261|||MU|||MU Oct 2026 815.000 call (MU261005C00815000) stock price, news, quote and history
+590ba7b01abd2440abf203b4efd7bd1b|||ASX|||Minerals 260 (ASX:MI6) Is Down 8.0% After Swinging Back To Profitability - Has The Bull Case Changed?
+85461b65ec04c39e08e9720d52ad219b|||SNOW|||Snowflake (SNOW) Is Up 50%—Is the Stock Still a Buy?
+6419c9a47e624933ce66a649b86e5648|||CRWV|||Is CoreWeave Stock a Buy Right Now?
+c4d8148f4b4b479a03d737f540f6618d|||FTNT|||FTNT Oct 2026 182.500 put (FTNT261009P00182500) Stock Price, News, Quote & History
+d58ea55aea9480c5e5cdde8fb690feeb|||FTNT|||FTNT Oct 2026 148.000 call (FTNT261009C00148000) Stock Price, News, Quote & History
+2f5937252cee1951d396f931afc656bb|||COHR|||Coherent Corp. (COHR) stock price, news, quote and history
+d07be62c62fc1a7db71687b484adfec0|||COHR|||COHR Oct 2026 362.500 call (COHR261002C00362500) stock price, news, quote and history
+4afa0e3de10acca48bc454e9bcf0a552|||COHR|||COHR261002P00335000 interactive stock chart | COHR Oct 2026 335.000 put stock
+51f143fbe83174586d58d970f549846e|||RKLB|||How Investors May Respond To Rocket Lab (RKLB) Winning Synspective’s Record 20-Launch Electron Contract
