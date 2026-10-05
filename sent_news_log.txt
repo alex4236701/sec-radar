@@ -3711,3 +3711,65 @@ f9a853a682e7598964fa2f9c6a822a45|||ALGM|||Strength Seen in Allegro MicroSystems 
 f8e6d526428d869556330f42d65578bb|||PANW|||PANW Dec 2027 480.000 call (PANW271217C00480000) Interactive Stock Chart
 5f0680db966462e06cba309a176614e0|||COHR|||Coherent Corp. (COHR) latest stock news and headlines
 d20b24a5b3ca758abf54c53e8f20d223|||PENG|||Penguin Solutions (PENG) Q3 Earnings: What To Expect
+ac3db644bfdf803548d44484c949faed|||GOOGL|||Alphabet coiling in $335-$353 chop zone: Live breakout levels By Investing.com
+b05457c9f1edccc4b915cf8126b66430|||GOOGL|||Alphabet C consolidates $332-$350: Breakout levels live By Investing.com
+c965283f98489e4b62451bb83f74127b|||MSFT|||Microsoft Rises 2% as Melius Research Upgrades to Buy With $665 Target; Amazon and Alphabet Hold Steady
+5f467e8dcd34d23e38d2a3aa227454bf|||TSLA|||What’s Next for Tesla Stock After Strong Q3 Deliveries
+8622f34c49c40f4162131ee03126b9f6|||TSLA|||HSBC raises Tesla stock price target on delivery beat
+60eef0dc6a308c636ab809f27dd85d2a|||TSLA|||Tesla Beat on Deliveries. Why the Upside Case Is Only 9%
+5583601b43b669d1da4985da0e4e5d51|||TSLA|||Tesla Beat Q3 Delivery Estimates--So Why Is HSBC Still Saying Sell?
+c5583808c6cc8f631bd1e6680fcade3e|||TSLA|||UBS maintains Tesla stock neutral rating on mixed delivery results
+02bed23480a00c861dea5b5738366fb9|||TSLA|||Baird reiterates Tesla stock rating on Q3 delivery beat
+63cb05d670b70b67461fa11d8e364357|||TSLA|||Elon Musk's Tesla Delivered More Cars Than Wall Street Expected — So Why Is This Top Analyst Still Wary o
+b975aafb35810547c77b1b79942282a6|||META|||Norway plans temporary AI glasses ban over privacy concerns (META:NASDAQ)
+4c6ece39dc85dfa0069808b30d7994d5|||HPE|||Zacks Investment Ideas feature highlights: Hewlett, PBF Energy and NetApp
+88d098e29ce2c4b234edad0dca69929e|||AVGO|||Broadcom vs. Micron: Which Semiconductor Stock Is the Better AI Buy over the Next 3 Years?
+2b1d43b0eb1d876cdebacaf9bd0d7eeb|||NVDA|||Nvidia Stock Chases Record as Key Supplier’s Revenue Booms on AI Demand
+b0fafb394876c5f5ad3c675d35f2974e|||NVDA|||Nvidia stock tests all-time highs, market cap at $5.7 trillion
+9918c234fda0f39e65af4424a48993a1|||NVDA|||The Zacks Analyst Blog Highlights NVIDIA, Micron, Chevron and Exxon
+9ae2ca8ecdd75708c5a01e2e4d3f09ce|||NVDA|||Nvidia stock nears record highs on Foxconn numbers, Cerebras rises on Altman comments
+23d56c7a548cfef3a16a3b65d5f97e25|||NVDA|||Alphabet, Micron, Nike and Nvidia are part of Zacks Earnings Preview
+7fa1e6ef16c7c7f508df3a344d3a8db5|||NVDA|||Nvidia: Reaching The Point Of An Explosive Upside Breakout (NASDAQ:NVDA)
+f3d189f4bcb79407813322914e717488|||NVDA|||Nvidia Just Added $150 Billion to Its Buyback Plan. Selling Shares Inside Your IRA Won’t Make More Social Security Taxable, but Taking the Money Out Could
+364a3645a897dc4b8de5625f5c30448f|||NVDA|||Nvidia’s valuation shows AI stocks are far from a bubble, DBS CIO says (NVDA:NASDAQ)
+832727237e42b86de084a7d3d8dcdcf6|||NVDA|||NVIDIA hits all-time high at $237.88 amid fading volume: Live
+b3d2caece1356224bd5f2d324c2fd6af|||NVDA|||Cerebras vs Nvidia: The AI Inference Fight - NVIDIA (NASDAQ:NVDA), Cerebras Systems (NASDAQ:CBRS)
+82c45389aec92c24e42bac836005aee6|||NVDA|||Nvidia, Okta and Cognex On CNBC’s ‘Final Trades’ - NVIDIA (NASDAQ:NVDA)
+a2147af66fe68dc9c17aef36950db53a|||NVDA|||Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady
+5299f00952c958c7ecc6a27739bc4b79|||NVDA|||Amazon Reportedly Seeks to Move $8 Billion of Nvidia Chips Off Its Balance Sheet
+480722ede77991bf02cee06c18c3aa13|||INTC|||Intel Shares Fall as TSMC Discusses Potential Terafab Collaboration
+58e8451c2ff3ee3c9d11bacfc60b77f7|||INTC|||Why Is Intel Stock Falling Monday? - Intel (NASDAQ:INTC)
+11cbb957b4f0a292e11537d77ec45e2a|||INTC|||Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady
+0664f215513fba65671a66e3c0eb0dbc|||INTC|||INTC Oct 2026 143.000 call (INTC261005C00143000) stock price, news, quote and history
+c71393e22aad0302b7c6ae91bb6d3305|||MRVL|||Zacks Investment Ideas feature highlights: Arm Holdings, Advanced Micro Devices, Marvell, Applied Optoelectronics and Nebius
+aa24f51c4049a8fda0b4013c6d6eac60|||GFS|||Why is GlobalFoundries stock sliding today?
+b9d111c7ae9600d48ad7637e7925116a|||MU|||Micron Q4: My Thoughts On Results And DCF Adjustments (NASDAQ:MU)
+1ebd1e151d253cbe0da6fdc74dbaef24|||MU|||Quantinuum Inc (R5P.MU) stock price, news, quote and history
+2933ff778ea4a3b48016206a6562746f|||MU|||Micron: The Market May Be Pricing In Future Revenue Declines, But I'm Still Bullish Now (NASDAQ:MU)
+380fc15188aa4184c2fa914e1dad58c4|||MU|||MU Oct 2026 990.000 call (MU261005C00990000) stock price, news, quote and history
+e8d8c45acbf1a6e9e57e1a8a03c5e8ec|||MU|||MU Oct 2026 890.000 call (MU261005C00890000) Stock Price, News, Quote & History
+124027fbb3554275b042f71559496350|||MU|||Form 4 Micron Technology Inc For: 5 October By Investing.com
+99c7f37a3d46fb1a72eb12d48cd96f17|||MU|||MU Oct 2026 770.000 put (MU261005P00770000) Stock Price, News, Quote & History
+8b6b94bf5b5748ee2c50c8862116c6fa|||MU|||Is It Too Late to Buy Micron Technology Stock After Its 12-Month Gain of 500%?
+56a41f36caf82899d5db9ba3d9683b4d|||MU|||MU Oct 2026 1250.000 put (MU261005P01250000) interactive stock chart – Yahoo Finance
+ebd098506476b87ae9a50abe20850236|||SNDK|||History Says Sandisk Stock Crashes Soon. Here's Why That's Not Going to Happen.
+021fe0d71c82ba19c013317ed42b583a|||WDC|||Western Digital Jumps 7%, Seagate Climbs 5% as Bernstein Calls Toshiba Selloff a Storm in a Teacup; SanDisk Inches Higher
+7bd222a67aa080517676c474052c02f9|||WDC|||Western Digital and Seagate Technology Stock Jump as Analysts Say ‘Buy the Dip’
+2c3a55285cf828cbcc6f25e67e6b485c|||AMKR|||Amkor Technology to Announce Third Quarter 2026 Financial Results on October 26, 2026
+5edd9ba570b732d8f017da967cb4b938|||SWKS|||Skyworks Solutions completes Qorvo acquisition (SWKS:NASDAQ)
+8b0de48348be2f74d8fb4d06ec41399b|||SWKS|||Does Skyworks’ Russell Index Exit Recast the Mobile Concentration Narrative for Skyworks Solutions (SWKS)?
+9789c4439ee132ff5efd7c4930b0349d|||QRVO|||Skyworks Solutions completes Qorvo acquisition (SWKS:NASDAQ)
+161a8974f79859fb83ce969b509c2987|||QRVO|||Skyworks completes merger with Qorvo in $32.5B deal By Investing.com
+28d2a1b9bd082d1ff34b7836008d296e|||ONTO|||JGINYUE Crams AMD’s B650 Chipset Onto A $58 PCIe Card With Four M.2 Slots And 20 Gbps USB-C Port
+1d08e62830edb376811e2e6cc98b05c9|||TER|||Teradyne Makes Strategic Investment in Bright Machines to Advance AI Infrastructure Manufacturing
+c81f28b944f99cfbc4fe175de1144030|||UMAC|||Transcript: Unusual Machines Q2 2026 Earnings Conference Call
+e823a0a66da09b4d02385e45a532cfec|||SNOW|||Snowflake: The Business Deserves A Buy, The Stock Doesn't (Downgrade)
+80ab895220a9d6d9e35b60cdee2ac933|||SNOW|||The Zacks Analyst Blog Highlights TotalEnergies, Snowflake, Marathon, MIND and Zeo Energy
+479cf7e95cdc66db1b5e1de0772f4250|||CRWV|||Truist reiterates CoreWeave stock buy rating on pricing power
+01e7a11ae36c86b9152d535bde33c77d|||PANW|||Graphique interactif des capital-actions PANW261002P00405000| Capital-actions PANW Oct 2026 405.000 put
+e7562445523a6ce97b7e72e89e310274|||IOT|||Why Samsara (IOT) Is Up 8.4% After Asplundh Deal And New AI Integration Push
+be7a7fa1a979818cd70dae3aa1fc09f9|||COHR|||COHR Oct 2026 322.500 put (COHR261002P00322500) Stock Price, News, Quote & History
+2a7fe161c628a4d5a822434541575707|||SPCX|||SpaceX gains after Morgan Stanley flags AI, Starship upside (SPCX:NASDAQ)
+2623b836094ed49c8e8dfb8f7e978cc4|||SPCX|||Highest Yielding Hyperscaler Bonds In October 2026 - SpaceX (NASDAQ:SPCX)
+fa82984259e439130e3e5066209e0acb|||RKLB|||Down More Than 50% From Its High, Is Rocket Lab Stock a Good Buy Right Now?
+63ee8455d5f99a33489cc6b1c3f46e6e|||QNT|||Quantinuum partners with University of Western Australia By Investing.com
