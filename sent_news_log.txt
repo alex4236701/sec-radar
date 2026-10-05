@@ -3683,3 +3683,12 @@ b76f23276d843d31d304c1f0ce9a6b86|||SNOW|||Micron, Snowflake Lead Five Stocks Nea
 c7083cadd238507de34f22fc80c68eb0|||TSM|||TSM261030C00285000 interactive stock chart | TSM Oct 2026 285.000 call stock
 6858cd9faff94d15c10c7293dd556d37|||MU|||MU261002P00737500 interactive stock chart | MU Oct 2026 737.500 put stock
 50c8234390e019bb1bd66815ee3cc24e|||COHR|||COHR Oct 2026 230.000 call (COHR261023C00230000) Stock Price, News, Quote & History
+2d10ca0473862e7978eaf0c516274ba8|||TSM|||TSM Oct 2026 310.000 call (TSM261002C00310000) stock price, news, quote and history
+129e086f5b5ecd0013dc3bdb339b666e|||INTC|||Should You Buy Intel Stock as Its Foundry Turnaround Takes Shape?
+3df45a3f3acf64569723c32352d5baa2|||INTC|||INTC Oct 2026 132.000 call (INTC261002C00132000) Interactive Stock Chart
+eaf204af6bd6727f2e530bcf87157552|||MU|||Micron: Memory Boom Still Has Legs (NASDAQ:MU)
+3966188f12e67a4bca6542c24cb435bf|||MU|||MU Oct 2026 70.000 put (MU261023P00070000) stock price, news, quote and history
+4e94249501fe5e706a784da2da28ff93|||ASX|||ASX Preview: Australian Shares to Rise as Oil Climbs on Saudi Attacks; CSL Partners With Alentis Therapeutics to Develop Rare Kidney, Liver Disease Drug
+2f0cd0c57c214fb4ca4a7afc8f451db8|||PANW|||PANW Jan 2027 730.000 call (PANW270115C00730000) Stock Price, News, Quote & History
+169d9bbacce7fb446a80d2b42ff64da0|||SPCX|||SpaceX (SPCX) vs Rocket Lab (RKLB): Which is a Better Stock to Buy?
+efd5817227c402b4c21e301b7bb1f0db|||RKLB|||SpaceX (SPCX) vs Rocket Lab (RKLB): Which is a Better Stock to Buy?
