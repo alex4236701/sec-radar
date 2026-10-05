@@ -3835,3 +3835,20 @@ f785fe6ee0fb806f9aa983b18e0ba4c8|||PANW|||Graphique interactif des capital-actio
 c9c9b84a9302fc67e7b2da5c1cb9e8a8|||PANW|||Graphique interactif des capital-actions PANW261016C00405000| Capital-actions PANW Oct 2026 405.000 call
 91552f68cfa0156eaeb1d46edb8f147a|||PANW|||PANW270115P00640000 Interaktive Aktienkurve | PANW Jan 2027 640.000 put Aktie
 2805118d3a10dca369144b5b12b57900|||COHR|||COHR280121P00095000 Interaktive Aktienkurve | COHR Jan 2028 95.000 put Aktie
+6b8e2e2b0777d586309dda438ca88c23|||MSFT|||MSFT Gets A Bullish Call From Melius — Analyst Says AI Fears Could Benefit Leaders Like Microsoft
+627f3e3713c8ded361cd8e7bca7f473f|||MSFT|||Analyst Drops Massive Take on Microsoft Stock Over AI's Biggest Fear
+4f9e520364c3b3c3f127839fcfbe7d65|||TSLA|||Tesla’s Q3 Deliveries Beat UBS’ Estimates — But Energy Storage Miss Keeps This Analyst Neutral
+6fbc7e4eb3d34a9315114aacedfff5cf|||TSLA|||UBS maintains Tesla stock neutral rating on mixed delivery results By Investing.com
+ac8fc3f7e36a8050251dfedb87114376|||QCOM|||Qualcomm Licenses Huawei Chip Tech as Its Push Beyond Smartphones Picks Up Speed
+a0a634961367ec2c232e4adb05fc23ab|||QCOM|||Qualcomm Secures Major Multiyear AI and 5G Patent License Agreement With Huawei
+e47acf2fd925d677440ea322fb32690d|||TSM|||Taiwan Semiconductor Manufacturing Company Limited (TSM) stock price, news, quote and history
+1d3331feebd1519637465b128a1db458|||NVDA|||Final Trades: Nvidia, Cheniere Energy, Antofagasta and Steel Dynamics
+206d0106730c97f3afccbe298681f663|||NVDA|||Nvidia Stock at New All-Time Highs: Market Expert Says ‘Cusp of a Major Breakout’
+06595399fe09056981931c698626a868|||INTC|||Why Intel Stock Slips as TSMC Eyes a Seat at Musk’s Terafab
+ad60cb25c1043085c4cde58d46d38815|||INTC|||INTC Oct 2026 84.000 put (INTC261023P00084000) interactive stock chart
+89acd2fbeed2d65e37cc0f6e47f6425c|||MU|||MU Oct 2026 1100.000 call (MU261005C01100000) stock price, news, quote and history
+6705ec2c117dbf5f9dee5ed5f671c3d6|||WDC|||Western Digital and Seagate shares bounce back as analysts downplay the Toshiba threat
+af305a76efc81f0f9dbf190b63650ef7|||QRVO|||Skyworks completes merger with Qorvo in $32.5B deal
+db51bb187ecbfd025c199efb34910f8b|||PANW|||PANW261120C00510000 interactive stock chart | PANW Nov 2026 510.000 call stock
+0524271800da55b281e0aa697c3e1a89|||FTNT|||FTNT Oct 2026 167.500 call (FTNT261009C00167500) Stock Price, News, Quote & History
+545c304263cbd3884122a9327fae42e9|||SPCX|||Trump, Musk and the Rise of ‘Super Intelligence’ - SpaceX (NASDAQ:SPCX)
