@@ -3852,3 +3852,16 @@ af305a76efc81f0f9dbf190b63650ef7|||QRVO|||Skyworks completes merger with Qorvo i
 db51bb187ecbfd025c199efb34910f8b|||PANW|||PANW261120C00510000 interactive stock chart | PANW Nov 2026 510.000 call stock
 0524271800da55b281e0aa697c3e1a89|||FTNT|||FTNT Oct 2026 167.500 call (FTNT261009C00167500) Stock Price, News, Quote & History
 545c304263cbd3884122a9327fae42e9|||SPCX|||Trump, Musk and the Rise of ‘Super Intelligence’ - SpaceX (NASDAQ:SPCX)
+a71efebf3a9b54f32187aec2df0daef8|||GOOGL|||Alphabet, Micron, Nike and Nvidia are part of Zacks Earnings Preview
+0544d272e81ca356a6e95d995face69b|||MSFT|||Melius Research upgrades Microsoft stock to Buy, $665 target
+d185e090b12d9e0cae492d64b7c3e3c2|||MSFT|||Microsoft Stock Could Be One of the AI Era’s Biggest Winners
+4ee8c090531a0ee1dc7c2f5312e3c88a|||TSLA|||Options Action: Tesla zooms higher
+b0cd1f06cd7a29c28887692b18a28704|||TSLA|||SA Asks: What was the biggest takeaway from Tesla's Q3 report? (Update) (TSLA:NASDAQ)
+759b15693297917bc1237af3c4b06670|||TSLA|||Tesla deliveries top consensus, but energy storage deployments miss estimates
+820020dec028d718013aa98ca83c55e3|||NVDA|||Nvidia, Okta, Cognex And An Industrial Stock On CNBC’s ‘Final Trades’
+e1b4e388329e62b3f82efbcc03a4291e|||GFS|||Why is GlobalFoundries stock sliding today? By Investing.com
+8cbaee4ff44b30b55657ff6cf5536c4f|||WDC|||Western Digital, Seagate Stock Rebound. What Wall Street Is Saying About Toshiba Competition.
+3aa2404202f4401ae7f6405c20de7457|||FORM|||Semiconductor Manufacturing Stocks Q2 Results: Benchmarking FormFactor (NASDAQ:FORM)
+99b3bcd6569821f45fff9516df9c3bb9|||NET|||Cloudflare (NET): 3 Reasons We Love This Stock
+72e909ef7ab19d31c0a972f7f689ebdf|||NET|||Cloudflare Climbs 4% as Risk Appetite Favors High-Beta Cloud Names; Oracle Ticks Up, CoreWeave Slips
+da701547f897d57330db257809e2a4bd|||SPCX|||SpaceXAI to be rebranded as SpaceXSI, Elon Musk says (SPCX:NASDAQ)
