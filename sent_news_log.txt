@@ -3692,3 +3692,9 @@ eaf204af6bd6727f2e530bcf87157552|||MU|||Micron: Memory Boom Still Has Legs (NASD
 2f0cd0c57c214fb4ca4a7afc8f451db8|||PANW|||PANW Jan 2027 730.000 call (PANW270115C00730000) Stock Price, News, Quote & History
 169d9bbacce7fb446a80d2b42ff64da0|||SPCX|||SpaceX (SPCX) vs Rocket Lab (RKLB): Which is a Better Stock to Buy?
 efd5817227c402b4c21e301b7bb1f0db|||RKLB|||SpaceX (SPCX) vs Rocket Lab (RKLB): Which is a Better Stock to Buy?
+d31278de7a9e74bb0e29a9a315c9c8c1|||INTC|||Intel Corporation (INTC) stock price, news, quote and history
+a66a26329e3839c0e35fcac799a08ae8|||MRVL|||Marvell Technology: Poised To Thrive During The AI Buildout (NASDAQ:MRVL)
+8c7d0f8b4c9537d7fb52f3e7634540bf|||MU|||MU Oct 2026 470.000 put (MU261002P00470000) stock price, news, quote and history
+6fdd7f163756214c86c22c3eb70efb21|||PLTR|||Palantir (PLTR) Defense Momentum Strengthens the Bullish Case
+35387d75c7f6b4ca7c5698194856fd51|||FTNT|||FTNT261030C00100000 interactive stock chart | FTNT Oct 2026 100.000 call stock
+55aac9d63667f86fda927364d62b7e5f|||CRDO|||Credo (CRDO) Grew Revenue 114.70%. Why Can Nobody Price It?
