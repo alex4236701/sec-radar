@@ -3865,3 +3865,110 @@ e1b4e388329e62b3f82efbcc03a4291e|||GFS|||Why is GlobalFoundries stock sliding to
 99b3bcd6569821f45fff9516df9c3bb9|||NET|||Cloudflare (NET): 3 Reasons We Love This Stock
 72e909ef7ab19d31c0a972f7f689ebdf|||NET|||Cloudflare Climbs 4% as Risk Appetite Favors High-Beta Cloud Names; Oracle Ticks Up, CoreWeave Slips
 da701547f897d57330db257809e2a4bd|||SPCX|||SpaceXAI to be rebranded as SpaceXSI, Elon Musk says (SPCX:NASDAQ)
+ca2ab16f43620a8c0aeb6894fa265479|||GOOGL|||Bronstein, Gewirtz & Grossman LLC Urges Alphabet Inc. Investors to Act: Class Action Filed Alleging Investor Harm
+c795ce04b3165bfafab1b09945bb3835|||GOOGL|||Alphabet C wedged near $350 resistance: Live levels
+cc4872342c3e17ad5b8045b70e83c87e|||GOOGL|||Alphabet A trapped in $338-$351 range: Live levels By Investing.com
+243a6703e142d8b10882a2ed36bf145f|||TSLA|||Rivian Deliveries Jump 46%, but Its Stock Falls as Tesla Stock Jumps
+128255ff3113697e3d89d65c87a5805c|||TSLA|||Tesla's Q3 Delivery Beat Is Just the Start: Gene Munster Says TSLA Will ‘Crush Traditional Automakers’
+61f522151a5b17df7519a4a863dd7269|||QCOM|||Huawei agrees to a multi-year patent licensing deal with Qualcomm By Reuters
+72d8422ffcedbb26d7e51198e160a2ac|||META|||Meta's AI Glasses Just Hit a Privacy Roadblock in Norway
+ffcd7d67819d0a64e11a935495d4df98|||META|||Meta Muse could soon drive up to 8% of revenue by 2030: Deutsche Bank analyst
+8817fdea4a887984b8e34e99b245e619|||NVDA|||Nvidia Stock Hits Record as Key Supplier’s Revenue Booms on AI Demand
+4e5b0c23b19e8cdb52c6c3f40fbffc87|||NVDA|||Nvidia-backed Reflection unveils first AI model to take on Chinese open models
+9ff990b8b303587a442837577565251a|||NVDA|||Nvidia stock hits all-time high, as market cap closes in on $6 trillion
+b757b86a2140e466bbc61fc4219569a9|||NVDA|||Nvidia-Backed Reflection Unveils Open AI Model, Taking on China
+da2bde5e92afccf41c8d1f06a6ecba85|||NVDA|||Nvidia Stock Climbs as AI Finds New Growth Path in Healthcare
+ae8c9e4e9043ca3549138e46d80c1e09|||NVDA|||Dow Jones Futures: Nasdaq Hits Record Highs; TSMC, Nvidia, Elon Musk-Led SpaceX, Tesla Rally
+10b89db1583125574c2cb402d42dd863|||NVDA|||NVIDIA nears ATH resistance with fading volume: Live levels
+b1a137045892cc93a3365a342180a3f8|||NVDA|||Nvidia, Broadcom May Be Safe From 32-GW AI Power Shortfall: Morgan Stanley - NVIDIA (NASDAQ:NVDA)
+abd7a5e34d09f53c6914b23435f8ac83|||GFS|||BNP Paribas Exane cuts GlobalFoundries stock rating on growth concerns By Investing.com
+d39505e3ad40303e592d926202482be1|||MU|||Micron Memory Crunch Could Last A Decade, Ross Gerber Says: MU Is ‘a Gift’
+5bcafc34693e005922a9a508c1bdd71d|||MU|||MU Oct 2026 700.000 call (MU261005C00700000) Stock Price, News, Quote & History
+2289d0175fad5fe4b0671b3d34ea2ab9|||MU|||MU Oct 2026 690.000 call (MU261005C00690000) Stock Price, News, Quote & History
+14d720075e6c43a2605e2c3cebd29236|||MU|||MU Oct 2026 850.000 call (MU261005C00850000) Stock Price, News, Quote & History
+fc89e0ff6b3bbb40578afa8f9190d9a0|||MU|||MU Oct 2026 1270.000 call (MU261005C01270000) Stock Price, News, Quote & History
+40481ff8254eff5d6adda8785f832411|||MU|||MU Oct 2026 815.000 call (MU261005C00815000) Stock Price, News, Quote & History
+b4c09cb21c7f9ed62007dba5e43a09c7|||MU|||MU Oct 2026 1200.000 call (MU261005C01200000) Stock Price, News, Quote & History
+d5d58339c3543f3be8f936b27dfb702a|||MU|||MU Oct 2026 1040.000 call (MU261005C01040000) Stock Price, News, Quote & History
+94e9158219dd5fbd093ccff163b42c39|||MU|||MU Oct 2026 1315.000 call (MU261005C01315000) Stock Price, News, Quote & History
+dc4d322d3801a72db8f23c03a295b242|||MU|||MU Oct 2026 955.000 call (MU261005C00955000) Stock Price, News, Quote & History
+937c1214f19699123c1f1154b76b2dbe|||MU|||MU Oct 2026 1045.000 put (MU261005P01045000) Stock Price, News, Quote & History
+8d00a3de0f4930b3d648ca26c48484a7|||MU|||MU Oct 2026 650.000 call (MU261005C00650000) Stock Price, News, Quote & History
+d327f2c42c6acce5e67c49be79cc18de|||MU|||MU Oct 2026 1235.000 call (MU261005C01235000) Stock Price, News, Quote & History
+cf2e84c09964379c752978f0b56ac260|||MU|||MU Oct 2026 1095.000 call (MU261005C01095000) Stock Price, News, Quote & History
+a94264932a4f13d90fcf333651f43327|||MU|||MU Oct 2026 1035.000 call (MU261005C01035000) Stock Price, News, Quote & History
+737e4f3311ee8ab8927d164793d4266c|||MU|||MU Oct 2026 1210.000 put (MU261005P01210000) Stock Price, News, Quote & History
+11922b08f5d4dcc5d8fa88fd08ed9581|||MU|||MU Oct 2026 800.000 put (MU261005P00800000) Stock Price, News, Quote & History
+a3d5e34398a9ba6a041cc595ee07aa6c|||MU|||MU Oct 2026 1390.000 call (MU261005C01390000) Stock Price, News, Quote & History
+5a63f63da4203e8d6674151739dcc7a6|||MU|||MU Oct 2026 1445.000 call (MU261005C01445000) Stock Price, News, Quote & History
+881dc2b9ceb9892c59ee1faa18b5e25f|||MU|||MU Oct 2026 680.000 put (MU261005P00680000) Stock Price, News, Quote & History
+27e381d037d9e7299deba6924021008e|||MU|||MU Oct 2026 975.000 call (MU261005C00975000) Stock Price, News, Quote & History
+2cbb0e088b67dbb3b6aa796973462335|||MU|||MU Oct 2026 960.000 call (MU261005C00960000) Stock Price, News, Quote & History
+22e15fc9b0bf7370cbb916f8629b9bfe|||MU|||MU Oct 2026 875.000 call (MU261005C00875000) Stock Price, News, Quote & History
+2076149803225cb8546f9818c945365d|||MU|||MU Oct 2026 1145.000 call (MU261005C01145000) Stock Price, News, Quote & History
+c071f5b6e2a2f6da2a80d70faf464c75|||MU|||MU Oct 2026 1400.000 call (MU261005C01400000) Stock Price, News, Quote & History
+7ab017da15412c47a0c7d81102f69479|||MU|||MU Oct 2026 785.000 call (MU261005C00785000) Stock Price, News, Quote & History
+0fdf5560a9c13f5ac920b0f9dbc1e12a|||MU|||MU Oct 2026 830.000 put (MU261005P00830000) Stock Price, News, Quote & History
+832c4a7030a5907fa269d80178139a80|||MU|||MU Oct 2026 910.000 put (MU261005P00910000) Stock Price, News, Quote & History
+e5fbf96ff5a11444a332d50c9a1aacfb|||MU|||MU Oct 2026 915.000 call (MU261005C00915000) Stock Price, News, Quote & History
+c6311d09e143117af92ea3bc5318d64c|||MU|||MU Oct 2026 1260.000 call (MU261005C01260000) Stock Price, News, Quote & History
+889d259fbf193c42c4ad1b6759b6d9e3|||MU|||MU Oct 2026 1180.000 call (MU261005C01180000) Stock Price, News, Quote & History
+c04b128e468064be9871a2ab4d91fcdc|||MU|||MU Oct 2026 840.000 call (MU261005C00840000) Stock Price, News, Quote & History
+7405f7eced793b76b32d38b531f2f91b|||MU|||MU Oct 2026 1355.000 put (MU261005P01355000) Stock Price, News, Quote & History
+7194e04bac4a95eb9a75288204b8b1c1|||MU|||MU Oct 2026 860.000 call (MU261005C00860000) Stock Price, News, Quote & History
+d983304e0563143a4d5b4962eb0a0fd9|||MU|||MU Oct 2026 750.000 put (MU261005P00750000) Stock Price, News, Quote & History
+5efeb13c334a6082f2d17a7df0fea3a9|||MU|||MU Oct 2026 810.000 put (MU261005P00810000) Stock Price, News, Quote & History
+1852062a7e2d8930efd57bc97e2f239a|||MU|||MU Oct 2026 990.000 call (MU261005C00990000) Stock Price, News, Quote & History
+e6ce8834f011b09ea31e45be652c0dea|||MU|||MU Oct 2026 1060.000 put (MU261005P01060000) Stock Price, News, Quote & History
+135e041c7a429e7472331211a41f1ec9|||MU|||MU Oct 2026 1225.000 call (MU261005C01225000) Stock Price, News, Quote & History
+ca54d5fe83c3cb8b4f6b509d0da12efa|||MU|||MU Oct 2026 775.000 put (MU261005P00775000) Stock Price, News, Quote & History
+447cbcf6e8c72f9a9d3129ba620b0cb2|||MU|||MU Oct 2026 630.000 put (MU261005P00630000) Stock Price, News, Quote & History
+82e1afc534152037f9830db3eb5a2694|||MU|||MU Oct 2026 970.000 call (MU261005C00970000) Stock Price, News, Quote & History
+9e5cc3b5560b16cfe7acb61b21934421|||MU|||MU Oct 2026 1260.000 put (MU261005P01260000) Stock Price, News, Quote & History
+7c53fbfe7b0da4cde8813a7db458caed|||MU|||MU Oct 2026 1020.000 put (MU261005P01020000) Stock Price, News, Quote & History
+f040609d9d30cd54b063c1ee5a5fbfd6|||MU|||MU Oct 2026 740.000 put (MU261005P00740000) Stock Price, News, Quote & History
+3cf4d88aad4ba8a41ba0af525b39d0e8|||MU|||MU Oct 2026 1140.000 call (MU261005C01140000) Stock Price, News, Quote & History
+679fe250e03b5c1b581dc23f59701380|||MU|||MU Oct 2026 1240.000 put (MU261005P01240000) Stock Price, News, Quote & History
+385c5c1ac1186edd35f3bf6c173b858b|||MU|||MU Oct 2026 1155.000 call (MU261005C01155000) Stock Price, News, Quote & History
+b2bf02cb19108d42b07dc495e37b636f|||MU|||MU Oct 2026 1130.000 call (MU261005C01130000) Stock Price, News, Quote & History
+0678d81b9b50d82ddb4d3e8e4db2d96a|||MU|||MU Oct 2026 900.000 call (MU261005C00900000) Stock Price, News, Quote & History
+2a818b81309101a4c6f94d547c48a15a|||MU|||MU Oct 2026 1420.000 call (MU261005C01420000) Stock Price, News, Quote & History
+f9868ae53ead8dd9dcffaed940a4ea01|||MU|||MU Oct 2026 1415.000 call (MU261005C01415000) Stock Price, News, Quote & History
+4c1808388df4375de179b775d115c485|||MU|||MU Oct 2026 945.000 put (MU261005P00945000) Stock Price, News, Quote & History
+2020fa2c39c3c79abc51bbecfca18b5c|||MU|||MU Oct 2026 1435.000 call (MU261005C01435000) Stock Price, News, Quote & History
+e2ee88fd34bf5613492451470f17c304|||MU|||MU Oct 2026 1135.000 call (MU261005C01135000) Stock Price, News, Quote & History
+d6a8c70bf84a72795af96264c1e66134|||MU|||MU Oct 2026 660.000 put (MU261005P00660000) Stock Price, News, Quote & History
+617deef7e20b8b3e7d480a38da33271f|||MU|||MU Oct 2026 1325.000 call (MU261005C01325000) Stock Price, News, Quote & History
+cb70230244971a98a8f1136dc46f6128|||MU|||MU Oct 2026 1140.000 put (MU261005P01140000) Stock Price, News, Quote & History
+375368ef394a9791c90b31c798566541|||MU|||MU Oct 2026 1180.000 put (MU261005P01180000) Stock Price, News, Quote & History
+288de910e65e4f9deb004e6f2fe597d8|||MU|||MU Oct 2026 955.000 put (MU261005P00955000) Stock Price, News, Quote & History
+56738bcf2d254ce721106ce1647d27e6|||MU|||MU Oct 2026 1305.000 call (MU261005C01305000) Stock Price, News, Quote & History
+e052872121afc646b1d547f14d3902f4|||MU|||MU Oct 2026 1150.000 call (MU261005C01150000) Stock Price, News, Quote & History
+adabaa8fef00d968e72d5a3119513129|||MU|||MU Oct 2026 1285.000 call (MU261005C01285000) Stock Price, News, Quote & History
+b4a55046877cea3427fe4617c462e88f|||MU|||MU Oct 2026 1350.000 put (MU261005P01350000) Stock Price, News, Quote & History
+160a2d2dbd8f2406f5f8a6ed91c5fba2|||MU|||MU Oct 2026 1050.000 put (MU261005P01050000) Stock Price, News, Quote & History
+3e7d1260f5ebaf3d502398e41dab21c7|||MU|||MU Oct 2026 1320.000 call (MU261005C01320000) Stock Price, News, Quote & History
+641cd8386e1f918f0b5b95d89100db19|||MU|||MU Oct 2026 1305.000 put (MU261005P01305000) Stock Price, News, Quote & History
+fdf3068d5666b5ac2410375bca1cf089|||MU|||MU Oct 2026 1380.000 call (MU261005C01380000) Stock Price, News, Quote & History
+8ebf9a44902b968db86ffbbc471d0a29|||MU|||MU Oct 2026 1245.000 call (MU261005C01245000) Stock Price, News, Quote & History
+822802346bddce83e77359c63dd5be2b|||MU|||MU Oct 2026 1155.000 put (MU261005P01155000) Stock Price, News, Quote & History
+dd741f03a847e408249f3346beefb0a3|||MU|||MU Oct 2026 1380.000 put (MU261005P01380000) Stock Price, News, Quote & History
+62fb4052a0cfa72860579968a4521597|||MU|||MU Oct 2026 1010.000 put (MU261005P01010000) Stock Price, News, Quote & History
+283819c01edcc4ddf1987096f13fde0e|||MU|||MU Oct 2026 1080.000 put (MU261005P01080000) Stock Price, News, Quote & History
+c35794ed5258cea78a62078f7475de89|||MU|||MU Oct 2026 1450.000 put (MU261005P01450000) Stock Price, News, Quote & History
+1e5ec2ba36f23f1446859674f49918ad|||MU|||MU Oct 2026 1110.000 put (MU261005P01110000) Stock Price, News, Quote & History
+3a12f1cccab9245527477c8a907ec58c|||MU|||MU Oct 2026 1225.000 put (MU261005P01225000) Stock Price, News, Quote & History
+4500131df3a1e8dea5780a779544fc75|||MU|||MU Oct 2026 1230.000 put (MU261005P01230000) Stock Price, News, Quote & History
+98d6b81a60e3ff7fd9d0a38096e22cb5|||MU|||MU Oct 2026 855.000 put (MU261005P00855000) Stock Price, News, Quote & History
+cf594d574ff41594a59f78a47cb4fc5a|||MU|||MU Oct 2026 1360.000 call (MU261005C01360000) Stock Price, News, Quote & History
+3c8b3c39e496dd0bb1128ffbddfe6672|||MU|||MU Oct 2026 850.000 put (MU261005P00850000) Stock Price, News, Quote & History
+b4925c685ebd160c582eb7e90aad8e01|||MU|||MU Oct 2026 900.000 put (MU261005P00900000) Stock Price, News, Quote & History
+386955a12717770d3dbf6ffd0ba8f3b3|||MU|||MU Oct 2026 1410.000 call (MU261005C01410000) Stock Price, News, Quote & History
+854effcc8c177e5efb2e04996de57f1e|||IBM|||Quantum Technology Market Report 2026: Global Size, Share, Trends, and Forecast to 2030 | Capture $5.41B as Microsoft, IBM, AWS, Huawei, and Intel Scale Quantum Security
+a11432780123be0f20d747e6818e9407|||PANW|||PANW261002P00392500 Interactive Stock Chart | PANW Oct 2026 392.500 put Stock
+f8a65b4d4a25b62f72b009c5dc33ae48|||PANW|||PANW270617P00320000 interactive stock chart | PANW Jun 2027 320.000 put stock
+a7cc13946e8009aba7ac424c069ef8c1|||PANW|||PANW270115P00057500 Interaktive Aktienkurve | PANW Jan 2027 57.500 put Aktie
+dd85a22ab73b0a2e9471f7c5ad00487b|||COHR|||Graphique interactif des capital-actions COHR290119P00140000| Capital-actions COHR Jan 2029 140.000 put
+5d5feef5b9f7fce38a11cee5eefa0681|||SPCX|||Microsoft Could Be SpaceX’s Next Big AI Customer as Revenue Projection Surges - SpaceX (NASDAQ:SPCX)
+8aea446b1a19823a3ce61a9f3396d57b|||RKLB|||SpaceX Isn't Rocket Lab's Biggest Threat Now -- Blue Origin Is
+246276d049bb02c0aaf5f3337cf2e4d8|||HON|||Honeywell International's Quarterly Earnings Preview: What You Need to Know
