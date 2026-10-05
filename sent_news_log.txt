@@ -3773,3 +3773,38 @@ be7a7fa1a979818cd70dae3aa1fc09f9|||COHR|||COHR Oct 2026 322.500 put (COHR261002P
 2623b836094ed49c8e8dfb8f7e978cc4|||SPCX|||Highest Yielding Hyperscaler Bonds In October 2026 - SpaceX (NASDAQ:SPCX)
 fa82984259e439130e3e5066209e0acb|||RKLB|||Down More Than 50% From Its High, Is Rocket Lab Stock a Good Buy Right Now?
 63ee8455d5f99a33489cc6b1c3f46e6e|||QNT|||Quantinuum partners with University of Western Australia By Investing.com
+2096076975b632521bfa5c3dbf6f0e00|||GOOGL|||Alphabet C consolidates $332-$350: Breakout levels live
+0ab272f562bd7a4c4f0b2e71c6fe1de1|||MSFT|||Melius Upgrades Microsoft to Buy With $665 Target on AI Security Demand
+da545f4883c0e7f10d446e4207095db8|||MSFT|||Melius upgrades Microsoft stock rating on AI security demand
+2c7274fcab2799d7ff40da1b18077486|||TSLA|||Tesla And Rivian Sales Jump
+6f19669544aea76a5b76eacccf3bed77|||QCOM|||Qualcomm Signs Huawei to Its First 5G Patent Deal as Licensing Revenue Slips
+2e3a23bdebe41eaa5f027fa3b2f99eab|||QCOM|||Watch PTC Rallies on Deal; Qualcomm Up on Chip Patent Licensing | Stock Movers
+a662eafab01d52d27857d2cac760e521|||TSM|||TSM261106C00500000 interactive stock chart | TSM Nov 2026 500.000 call stock
+b38974b5a21250cf0eed19a13cbdbd4b|||NVDA|||3 reasons Nvidia and AMD stocks can't stop climbing
+b233cdad5a7bf1da595564125cbf865c|||NVDA|||Nvidia stock hits record, SpaceX gets a bullish call, Cerebras rises on Altman comments
+61de02bd13d454123ed70d5fd21f7113|||NVDA|||Nvidia’s Valuations Show AI Rally Isn’t a Bubble, DBS Says
+bdacc3b87b1a243d1dc28790268fe8a4|||NVDA|||Nvidia stock surges, SpaceX gets a bullish call, Cerebras rises on Altman comments
+560ed86ba7d335e5b6aaff204f4945f8|||NVDA|||BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA:NASDAQ)
+42d8d675a63729737f63df2de6dce088|||NVDA|||Nvidia Outweighs 256 S&P 500 Companies Combined - NVIDIA (NASDAQ:NVDA)
+ab04d757e3dbe6042ca623ff78be64c8|||AMD|||3 reasons Nvidia and AMD stocks can't stop climbing
+ff38e5ddab4abf499c6eb5bbc3243fed|||AMD|||Zacks Investment Ideas feature highlights: Arm Holdings, Advanced Micro Devices, Marvell, Applied Optoelectronics and Nebius
+41728bf0053d45d25297c750d4eb0e09|||AMD|||JGINYUE Crams AMD’s B650 Chipset Onto A $58 PCIe Card With Four M.2 Slots And 20 Gbps USB-C Port
+cf9a4aad5a4091795a20f0c16f0c5d3f|||INTC|||Intel Stock Tumbles -- TSMC Eyes Elon Musk's Terafab Project
+2789bb04fc9f90a51e0818bc0f21d064|||INTC|||Intel stock slides as TSMC explores Terafab tie-up, analyst flags share losses
+350b6bbd0773b5a270ecb50fcd65dd75|||ASML|||China stockpiled 343 immersion DUV tools for advanced chipmaking — report claims 270 ASML scanners can produce 7nm processors without sanctioned EUV tools
+bf8955207722b5b75cb3b10e724a6a5c|||MU|||Is Trending Stock Micron Technology, Inc. (MU) a Buy Now?
+c26cf077da625c574fec36cef589ee00|||MU|||Micron Analysis: Quant Strong Buy vs. Analyst Sentiment (NASDAQ:MU)
+16c24ad8531eaf2f2d671b22851e0fad|||MU|||Analysts Are Bullish on Micron, But Is the Stock Still a Buy?
+cd054dbc293c4d63b6314eb9668a81b9|||MU|||Micron: The Market May Be Pricing In Future Revenue Declines, But I'm Still Bullish Now
+258f047775c16b14691c3591cf9ed776|||MU|||MU Oct 2026 1200.000 put (MU261005P01200000) Stock Price, News, Quote & History
+0f723f9bb1d2a4b6b37eb40b5de7a668|||STX|||WDC, STX Stocks Rebound Premarket As Analysts Downplay Toshiba Capacity Expansion Fears
+fb1173d30fe0335a1797645de5ba8270|||SWKS|||Skyworks completes merger with Qorvo in $32.5B deal
+0961a04bd87061b519b37959d2b8ce4a|||PANW|||PANW261023P00360000 Interactive Stock Chart | PANW Oct 2026 360.000 put Stock
+5fdd9e547bfcce6f531cdafeef308f17|||PANW|||PANW Jun 2027 320.000 put (PANW270617P00320000) interactive stock chart
+74f15bbb274b95a4933682008bbc1eb5|||PANW|||PANW Oct 2026 155.000 put (PANW261009P00155000) stock price, news, quote and history
+2f42476542381fbe4c51bec26d71fb9d|||FTNT|||3 Reasons to Buy Fortinet Stock After a 119.9% Rise in 6 Months
+bf2d720e91a95ecb5a2ae3db9733be5d|||NET|||NET Stock Surges 65% in 6 Months: Should You Hold or Book Profits?
+ff078ea89297bb0407a03a05b83aa9fd|||COHR|||COHR261009P00302500 Interaktive Aktienkurve | COHR Oct 2026 302.500 put Aktie
+30164ebb140e735b1edab10fbd21aba3|||AAOI|||Zacks Investment Ideas feature highlights: Arm Holdings, Advanced Micro Devices, Marvell, Applied Optoelectronics and Nebius
+ae3f16c68e21432cfa8082afaf5cc757|||FCEL|||Levi & Korsinsky Reminds FuelCell Energy Investors of the
+d15300b9409027a381cda553a5e872ed|||QNT|||Quantinuum and The University of Western Australia Partner to Advance Australia's Quantum Capability
