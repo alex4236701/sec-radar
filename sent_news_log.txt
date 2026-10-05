@@ -3808,3 +3808,30 @@ ff078ea89297bb0407a03a05b83aa9fd|||COHR|||COHR261009P00302500 Interaktive Aktien
 30164ebb140e735b1edab10fbd21aba3|||AAOI|||Zacks Investment Ideas feature highlights: Arm Holdings, Advanced Micro Devices, Marvell, Applied Optoelectronics and Nebius
 ae3f16c68e21432cfa8082afaf5cc757|||FCEL|||Levi & Korsinsky Reminds FuelCell Energy Investors of the
 d15300b9409027a381cda553a5e872ed|||QNT|||Quantinuum and The University of Western Australia Partner to Advance Australia's Quantum Capability
+dd65b57efab71c7a08a62b637e8ff75f|||MSFT|||Microsoft Is the ‘Adult in Charge’ on Fears Over AI Security. The Stock Gets Upgraded to Buy.
+1b1449d3a03f415bdf0d2e598b946039|||MSFT|||Microsoft Stock Gets a $665 Target as Melius Turns Bullish on AI Security. Here’s What It Takes to Reach $1,145
+6e668778ad878325daaab925b3e25597|||MSFT|||Microsoft Seen As 'Adults In Charge' Of AI. Stock Upgraded To Buy.
+7f81be05dbfb35a86df77a08ea238be3|||MSFT|||Microsoft Could Be SpaceX’s Next Big AI Customer as Revenue Projection Surges - SpaceX (NASDAQ:SPCX)
+e31bd6345b7169390e0863a508a99179|||TSLA|||Tesla Set to Snap 2-Year Delivery Slump in 2026: Is TSLA a Buy Now?
+7bff139d4c90d6054497c738888acf34|||TSLA|||Tesla Stock Trends Higher: What's Happening?
+94328c37b568cb7560b1514286ae6c0f|||TSLA|||Baird reiterates Tesla stock rating on Q3 delivery beat By Investing.com
+dcb28d1805ffb63e08ccb1c74c32b769|||QCOM|||Qualcomm Licenses Patents on Huawei’s LogicFolding Chip Tech
+fa9a8a895e7114fa99be1ad231c47906|||QCOM|||Huawei Says Qualcomm Will Pay for Its Patents for the First Time. Here’s What It Means for Qualcomm Stock
+55d6f1f417c4e543e1d0b51294068c01|||QCOM|||Huawei agrees to a multi-year patent licensing deal with Qualcomm
+6eadc28877811a1748fa35bd7d45b23d|||NVDA|||Nvidia Stock Chases Record High as Key Supplier’s Revenue Booms on AI Demand
+5b38765bf7bccce8a287e7de21d6ab4c|||NVDA|||Cramer is closely watching Nvidia's massive buyback. Here's what he wants to see
+e6d4ddf7e172c66cc23cfe3d33c5f9b2|||NVDA|||Nvidia and AMD just hit record highs, but tech stocks still look cheap
+3fd0fe49fde5865c0efc27979347016c|||NVDA|||Nvidia's Valuation Is Giving AI Bubble Fears a New Counterargument
+5a7ce399ca0cfe7c0ae09aa132e2ea64|||AMD|||Nvidia and AMD just hit record highs, but tech stocks still look cheap
+66bc84b6ece3460ec873fd515e04f141|||AMD|||JGINYUE Crams AMD’s B650 Chipset Onto A $58 PCIe Card With Four M.2 Slots And 10 Gbps USB-C Port
+6960d6fa59bde3d2a5c4b63e1c6f1959|||MU|||Micron Memory Crunch Could Last A Decade, Ross Gerber Says - Micron Technology (NASDAQ:MU)
+00f6bf55ef75c4045b0f37ae62ed4e39|||WDC|||Western Digital and Seagate Stock Jump as Analysts Say ‘Buy the Dip’
+e323b490470b89b61627d0a34c52646d|||WDC|||Western Digital Analysis - Will WDC Continue to Head Higher? - Western Digital (NASDAQ:WDC)
+9fb33737a1e3c9db4af2a80e1b2fc8a1|||WDC|||WDC, STX Stocks Rebound Premarket As Analysts Downplay Toshiba Capacity Expansion Fears
+f07a2df688f9dce509b45bad85c9539a|||SWKS|||Skyworks completes merger with Qorvo in $32.5B deal By Investing.com
+a87a5c2bd32cca494bb8d5949b4b9bc0|||ONTO|||JGINYUE Crams AMD’s B650 Chipset Onto A $58 PCIe Card With Four M.2 Slots And 10 Gbps USB-C Port
+17363b162d4fa31d0931f62b46b46041|||AMPX|||CAMINUS Signs Contract Manufacturing Agreement with Amprius Technologies for U.S. Pouch Cell Production
+f785fe6ee0fb806f9aa983b18e0ba4c8|||PANW|||Graphique interactif des capital-actions PANW270617P00110000| Capital-actions PANW Jun 2027 110.000 put
+c9c9b84a9302fc67e7b2da5c1cb9e8a8|||PANW|||Graphique interactif des capital-actions PANW261016C00405000| Capital-actions PANW Oct 2026 405.000 call
+91552f68cfa0156eaeb1d46edb8f147a|||PANW|||PANW270115P00640000 Interaktive Aktienkurve | PANW Jan 2027 640.000 put Aktie
+2805118d3a10dca369144b5b12b57900|||COHR|||COHR280121P00095000 Interaktive Aktienkurve | COHR Jan 2028 95.000 put Aktie
