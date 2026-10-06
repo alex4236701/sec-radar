@@ -4265,3 +4265,8 @@
 2026-10-06T15:48:34+00:00|||PASS|||f2c8c62e5075e57eed8c06d2d43130e0|||INTC|||FieldAI Raises $700 Million at $10 Billion Valuation - Meta Platforms (NASDAQ:META), Intel (NASDAQ:INTC)
 2026-10-06T15:49:37+00:00|||PASS|||7cdf9df9a3329af1e78d3c70ac7dd931|||SNOW|||Has ASOS been hacked? Customers sent alarming 'Snowflake' app alert - latest updates
 2026-10-06T15:49:45+00:00|||PASS|||539a3241a577e754edda6772fdb4da8b|||ZS|||Zscaler reaffirms guidance at investor day; shares rise (ZS:NASDAQ)
+2026-10-06T16:24:17+00:00|||SENT|||362f2943eac38f9b92041bf5cdcaf920|||NVTS|||​Microchip, Navitas Unveil 800V Power Reference Design for AI Servers
+2026-10-06T16:24:45+00:00|||PASS|||3c7f6716e938e3446b2b91db76c1ccdf|||NVDA|||ETFs to Buy as NVIDIA Marches Toward $6 Trillion Market Cap
+2026-10-06T16:24:49+00:00|||PASS|||d30a1b6be69bac7cabc2156a39dd9046|||MRVL|||Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SPY:NYSEARCA)
+2026-10-06T16:25:26+00:00|||PASS|||d99b7479feb93aa88d87e786d91b0c9f|||LITE|||Applied Optoelectronics Surges 6% as $600M Share Sale Program Closes; Lumentum Sits Out the Rally, Corning Edges Higher
+2026-10-06T16:25:31+00:00|||SENT|||a6058ebbdb1c610d1f42497fa1306017|||AAOI|||Applied Optoelectronics Surges 6% as $600M Share Sale Program Closes; Lumentum Sits Out the Rally, Corning Edges Higher
