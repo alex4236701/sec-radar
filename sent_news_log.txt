@@ -4254,3 +4254,6 @@
 2026-10-06T14:51:01+00:00|||PASS|||cf12208ab98a954a501f718470bec4e9|||SPCX|||TSLA Stock Rises Overnight: Analyst Says SpaceX Merger Buzz Could ‘Dominate’ Near-Term Narrative — Gary Black Sees More Gains Ahead
 2026-10-06T14:51:35+00:00|||SENT|||07da039f8f886b91bdd83dca228d01c6|||QNT|||Quantinuum partners with University of Western Australia to expand quantum computing access
 2026-10-06T14:51:38+00:00|||PASS|||66333a66e128dfcc825a7ca976c44129|||CRCL|||Crypto Exchange OKX Raises at $25 Billion From StanChart, Circle
+2026-10-06T14:57:39+00:00|||SENT|||dfae65e1b8ac252fff36a99594acccfd|||GOOGL|||Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case
+2026-10-06T14:57:59+00:00|||PASS|||c59865ff10d062f1876f3c9e03e1cb11|||CIEN|||Cramer's lightning round: 'I think Ciena is very good'
+2026-10-06T14:59:00+00:00|||SENT|||f4cd941024fbc5be15108cbb5cc18c2d|||AAOI|||Applied Optoelectronics Stock Rises on Possible Continued Momentum as It Completes Share Sale
