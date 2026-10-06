@@ -13,54 +13,243 @@ import requests
 # ==================== 環境變數與路徑設定 ====================
 DISCORD_NEWS_WEBHOOK = os.environ.get("DISCORD_NEWS_WEBHOOK")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+# SEC 要求真實聯絡資訊，例如 "sec-radar your_email@example.com"，請放在 GitHub Secrets
+SEC_USER_AGENT = (os.environ.get("SEC_USER_AGENT") or "").strip()
+
 HISTORY_FILE = "sent_news_log.txt"
 WEEKEND_RUN_LOG = "weekend_last_run.txt"
 
 TW_TZ = timezone(timedelta(hours=8))
 UTC_TZ = timezone.utc
 
-SEC_HEADERS = {
-    "User-Agent": "ResearchDesk/3.0 (compliance@institutional-research.org)",
-    "Accept-Encoding": "gzip, deflate"
+OPENAI_MODEL = "gpt-4o-mini"
+
+# ==================== 可調整參數 ====================
+NEWS_WINDOW_HOURS = 36          # 只看最近幾小時內發布的新聞
+DEDUP_WINDOW_HOURS = 72         # 和最近幾小時內「已推播」的新聞比對是否為同一事件
+HISTORY_KEEP_DAYS = 14          # 歷史紀錄保留天數，超過自動刪除
+MAX_PUSH_PER_TICKER = 2         # 單輪每檔最多推播幾則
+MAX_PUSH_PER_HOLDING = 3        # 持股單輪最多推播幾則
+FETCH_FAIL_ALERT_RATIO = 0.20   # 抓取失敗比例超過此值，立即推播警報
+HEARTBEAT_HOUR_TW = 6           # 每天台灣時間幾點之後的第一次執行，推播一則健康回報
+SLEEP_BETWEEN_TICKERS = 0.8
+WEEKEND_MIN_GAP_HOURS = 6.0     # 週末兩次掃描至少間隔幾小時（排程是每 8 小時，留緩衝給 GitHub 排程延遲）
+MAX_CONSECUTIVE_FETCH_FAILS = 8  # 連續幾檔抓取失敗就判定被封鎖，提前結束並警報
+MAX_AI_PER_TICKER = 8           # 單輪每檔最多送 AI 判讀幾則，其餘留到下次執行（控制費用）
+MAX_RUN_MINUTES = 30            # 整輪最多跑幾分鐘（workflow 上限 40 分鐘），超過就提前結束並警報
+
+# 持股：條件放寬（可信來源的新聞不必命中催化劑也會送 AI 判讀）
+HOLDINGS = {"VSH", "MKSI", "UMAC"}
+
+# ==================== 新聞常用名稱對照表 ====================
+# 格式：代號: ([不分大小寫的名稱], [必須大小寫完全相同的名稱])
+# 第二組用在名稱本身是普通英文字的情況，例如 Arm、Circle、Coherent
+# 新增觀察股時，請在這裡加一行；沒加的話會退回使用 SEC 法定名稱（準確度較差）
+TICKER_PROFILES = {
+    # 科技巨頭
+    "GOOGL": (["Alphabet", "Google", "Waymo"], []),
+    "MSFT": (["Microsoft"], []),
+    "TSLA": (["Tesla"], []),
+    "AAPL": (["Apple"], []),
+    "AMZN": (["Amazon", "AWS"], []),
+    "META": (["Meta Platforms", "Facebook", "Instagram", "WhatsApp"], ["Meta"]),
+    # AI 晶片與 IP
+    "NVDA": (["Nvidia"], []),
+    "AMD": (["Advanced Micro Devices"], []),
+    "AVGO": (["Broadcom"], []),
+    "MRVL": (["Marvell"], []),
+    "QCOM": (["Qualcomm", "Snapdragon"], []),
+    "ARM": (["Arm Holdings"], ["Arm"]),
+    "INTC": (["Intel"], []),
+    # 代工與封測
+    "TSM": (["TSMC", "Taiwan Semiconductor"], []),
+    "GFS": (["GlobalFoundries"], []),
+    "TSEM": (["Tower Semiconductor"], []),
+    "ASX": (["ASE Technology", "ASE Holding"], ["ASE"]),
+    "AMKR": (["Amkor"], []),
+    # 記憶體與儲存
+    "MU": (["Micron"], []),
+    "SKHY": (["SK hynix", "Hynix"], []),
+    "SNDK": (["SanDisk"], []),
+    "WDC": (["Western Digital"], []),
+    "STX": (["Seagate"], []),
+    "PENG": (["Penguin Solutions"], []),
+    # 半導體設備
+    "ASML": (["ASML"], []),
+    "AMAT": (["Applied Materials"], []),
+    "LRCX": (["Lam Research"], []),
+    "KLAC": (["KLA Corp"], ["KLA"]),
+    "ACLS": (["Axcelis"], []),
+    "VECO": (["Veeco"], []),
+    "ONTO": (["Onto Innovation"], []),
+    "CAMT": (["Camtek"], []),
+    "KLIC": (["Kulicke & Soffa", "Kulicke and Soffa", "Kulicke"], []),
+    "FORM": (["FormFactor"], []),
+    "COHU": (["Cohu"], []),
+    "TER": (["Teradyne"], []),
+    "AEHR": (["Aehr Test", "Aehr"], []),
+    "MKSI": (["MKS Instruments", "MKS Inc"], ["MKS"]),
+    "AEIS": (["Advanced Energy Industries"], ["Advanced Energy"]),
+    "UCTT": (["Ultra Clean"], []),
+    "ICHR": (["Ichor Holdings"], ["Ichor"]),
+    "ENTG": (["Entegris"], []),
+    # 網路連接與光通訊
+    "ALAB": (["Astera Labs"], []),
+    "CRDO": (["Credo Technology"], ["Credo"]),
+    "MTSI": (["MACOM"], []),
+    "SMTC": (["Semtech"], []),
+    "LITE": (["Lumentum"], []),
+    "COHR": (["Coherent Corp"], ["Coherent"]),
+    "AAOI": (["Applied Optoelectronics"], []),
+    "AXTI": (["AXT Inc"], ["AXT"]),
+    "CIEN": (["Ciena"], []),
+    "GLW": (["Corning"], []),
+    "CSCO": (["Cisco"], []),
+    "NOK": (["Nokia"], []),
+    # 類比、射頻與功率
+    "CRUS": (["Cirrus Logic"], []),
+    "SWKS": (["Skyworks"], []),
+    "QRVO": (["Qorvo"], []),
+    "MPWR": (["Monolithic Power"], []),
+    "VICR": (["Vicor"], []),
+    "POWI": (["Power Integrations"], []),
+    "VSH": (["Vishay"], []),
+    "IFNNY": (["Infineon"], []),
+    "ALGM": (["Allegro MicroSystems", "Allegro Micro"], []),
+    "WOLF": (["Wolfspeed"], []),
+    "NVTS": (["Navitas"], []),
+    # 伺服器與資料中心硬體
+    "DELL": (["Dell"], []),
+    "HPE": (["Hewlett Packard Enterprise"], []),
+    "VRT": (["Vertiv"], []),
+    "TTMI": (["TTM Technologies"], ["TTM"]),
+    # 新興雲端算力
+    "CRWV": (["CoreWeave"], []),
+    "NBIS": (["Nebius"], []),
+    "WULF": (["TeraWulf"], []),
+    "CIFR": (["Cipher Mining", "Cipher Digital"], []),
+    # 企業軟體
+    "PLTR": (["Palantir"], []),
+    "NOW": (["ServiceNow"], []),
+    "CRM": (["Salesforce"], []),
+    "SNOW": (["Snowflake"], []),
+    "DDOG": (["Datadog"], []),
+    "IBM": (["IBM"], []),
+    "ZETA": (["Zeta Global"], []),
+    # 資安
+    "PANW": (["Palo Alto Networks"], []),
+    "FTNT": (["Fortinet"], []),
+    "ZS": (["Zscaler"], []),
+    "OKTA": (["Okta"], []),
+    "NET": (["Cloudflare"], []),
+    "AKAM": (["Akamai"], []),
+    "RBRK": (["Rubrik"], []),
+    "VRNS": (["Varonis"], []),
+    # 通訊、物聯網與邊緣運算
+    "TWLO": (["Twilio"], []),
+    "BAND": (["Bandwidth Inc"], []),
+    "IOT": (["Samsara"], []),
+    "LTRX": (["Lantronix"], []),
+    "BB": (["BlackBerry"], []),
+    "AMBA": (["Ambarella"], []),
+    "HIMX": (["Himax"], []),
+    "VUZI": (["Vuzix"], []),
+    "KEYS": (["Keysight"], []),
+    "VIAV": (["Viavi"], []),
+    # 機器人、無人機與國防
+    "CGNX": (["Cognex"], []),
+    "RRX": (["Regal Rexnord"], []),
+    "OUST": (["Ouster"], []),
+    "PDYN": (["Palladyne"], []),
+    "AVAV": (["AeroVironment"], []),
+    "ONDS": (["Ondas"], []),
+    "UMAC": (["Unusual Machines"], []),
+    "AMPX": (["Amprius"], []),
+    "FEIM": (["Frequency Electronics"], []),
+    "VELO": (["Velo3D"], []),
+    # 太空
+    "SPCX": (["SpaceX", "Starlink"], []),
+    "RKLB": (["Rocket Lab"], []),
+    "RDW": (["Redwire"], []),
+    "PL": (["Planet Labs"], []),
+    "BKSY": (["BlackSky"], []),
+    "VSAT": (["Viasat"], []),
+    "IRDM": (["Iridium"], []),
+    # 關鍵礦物與材料
+    "MP": (["MP Materials"], []),
+    "USAR": (["USA Rare Earth"], []),
+    "UUUU": (["Energy Fuels"], []),
+    "PPTA": (["Perpetua Resources", "Perpetua"], []),
+    "UAMY": (["United States Antimony", "US Antimony"], []),
+    "MTRN": (["Materion"], []),
+    # 能源與電力
+    "LEU": (["Centrus"], []),
+    "BE": (["Bloom Energy"], []),
+    "FCEL": (["FuelCell Energy"], []),
+    "EOSE": (["Eos Energy"], []),
+    "TE": (["T1 Energy"], []),
+    "GEV": (["GE Vernova"], []),
+    "ETN": (["Eaton"], []),
+    "PWR": (["Quanta Services"], []),
+    "CAT": (["Caterpillar"], []),
+    "CMI": (["Cummins"], []),
+    "GNRC": (["Generac"], []),
+    "HON": (["Honeywell"], []),
+    "ROK": (["Rockwell Automation"], []),
+    "LIN": (["Linde"], []),
+    "ECL": (["Ecolab"], []),
+    # 量子與數位資產
+    "IONQ": (["IonQ"], []),
+    "QNT": (["Quantinuum"], []),
+    "CRCL": (["Circle Internet", "USDC"], ["Circle"]),
+    "GLXY": (["Galaxy Digital"], []),
 }
 
-# 核心標的備援名冊
-CORE_FALLBACK_NAMES = {
-    "QCOM": "Qualcomm", "NVDA": "Nvidia", "AAPL": "Apple", "TSLA": "Tesla", "AMD": "Advanced Micro Devices",
-    "MSFT": "Microsoft", "GOOGL": "Alphabet", "AMZN": "Amazon", "ARM": "Arm Holdings",
-    "AVGO": "Broadcom", "INTC": "Intel", "MRVL": "Marvell", "TSM": "TSMC",
-    "ASML": "ASML", "AMAT": "Applied Materials", "LRCX": "Lam Research", "KLAC": "KLA",
-    "MU": "Micron", "CRWD": "CrowdStrike", "PLTR": "Palantir", "IONQ": "IonQ",
-    "ALAB": "Astera Labs", "GFS": "GlobalFoundries", "CAMT": "Camtek", "ONTO": "Onto Innovation",
-    "COHR": "Coherent", "LITE": "Lumentum", "CRDO": "Credo Technology", "POWI": "Power Integrations",
-    "VSH": "Vishay", "VICR": "Vicor", "WOLF": "Wolfspeed", "VRT": "Vertiv",
-    "RDW": "Redwire", "RKLB": "Rocket Lab", "FEIM": "Frequency Electronics", "UAMY": "United States Antimony",
-    "ECL": "Ecolab", "VIAV": "Viavi Solutions", "KEYS": "Keysight", "FORM": "FormFactor",
-    "GEV": "GE Vernova", "GNRC": "Generac", "TTMI": "TTM Technologies", "CRCL": "Circle",
-    "PL": "Planet Labs", "CRWV": "CoreWeave", "CSCO": "Cisco", "IBM": "IBM", "BAND": "Bandwidth",
-    "META": "Meta Platforms"
+# 代號本身是普通字、貨幣、人名或其他機構縮寫的股票：
+# 標題裡單獨出現代號不算數，必須寫成 $ARM、NASDAQ: ARM 或 (ARM) 才算，搜尋時也不用代號
+STRICT_TICKERS = {
+    "ARM", "BAND", "BB", "NOW", "SNOW", "NET", "IOT", "LITE", "NOK", "PL", "MP",
+    "BE", "TE", "CAT", "HON", "ROK", "LIN", "QNT", "ZETA", "ONTO", "WOLF", "FORM",
+    "KEYS", "TER", "ASX", "MU", "ZS", "VELO", "CRM", "LEU", "PENG", "ETN", "PWR",
+    "CMI", "ECL", "GLW", "STX", "WDC", "GFS", "RRX"
 }
 
-COMPANY_NAME_CACHE = {}
-
-# 1. 權威外電與通訊社白名單
-TRUSTED_SOURCES = [
-    "pr newswire", "business wire", "globenewswire", "accesswire",
-    "reuters", "bloomberg", "wall street journal", "wsj",
-    "cnbc", "financial times", "marketwatch", "barron's", "associated press", "ap news",
-    "yahoo finance", "yahoo", "investor's business daily", "ibd", "seeking alpha", "benzinga", "investing.com",
-    "the verge", "techcrunch", "tom's hardware", "wccftech", "ars technica", "anandtech", "semiengineering"
+# ==================== 來源分級 ====================
+# 一級來源：通訊社、主流財經媒體、各產業專業媒體
+PRIMARY_SOURCES = [
+    # 通訊社與新聞稿
+    "pr newswire", "business wire", "globenewswire", "accesswire", "newsfile",
+    "reuters", "bloomberg", "associated press", "ap news",
+    # 主流財經媒體
+    "wall street journal", "wsj", "cnbc", "financial times", "marketwatch", "barron's",
+    "investor's business daily", "fortune", "axios", "new york times", "the economist",
+    "the information",
+    # 科技與半導體
+    "the verge", "techcrunch", "tom's hardware", "wccftech", "ars technica", "anandtech",
+    "semiconductor engineering", "semiengineering", "nikkei", "digitimes", "trendforce",
+    "ee times", "eetimes", "the register", "focus taiwan", "taipei times", "the elec",
+    "korea economic daily", "the korea herald", "electrek", "servethehome",
+    "the next platform", "data center dynamics", "datacenterdynamics", "crn",
+    "siliconangle", "light reading", "lightwave", "fierce",
+    # 資安
+    "securityweek", "bleepingcomputer", "the record", "dark reading",
+    # 太空與國防
+    "spacenews", "breaking defense", "defense news", "defensescoop", "the war zone",
+    # 能源、核能與礦業
+    "world nuclear news", "utility dive", "mining.com", "mining weekly", "s&p global",
+    # 加密資產
+    "coindesk", "the block",
 ]
 
-COMMON_WORD_TICKERS = {
-    "ARM", "BAND", "CAT", "NOW", "ON", "IT", "ALL", "CAN", "BE", "GO", "ARE",
-    "FOR", "OUT", "WELL", "RUN", "FAST", "OPEN", "PLAY", "SAVE", "APP",
-    "REAL", "TRUE", "KEY", "KEYS", "FORM", "POST", "NET", "PLUG", "SO", "PL", "MP", "HON"
-}
+# 二級來源：會大量轉載 Zacks、Motley Fool 等評論文章，只放行命中「強催化劑」的新聞
+SECONDARY_SOURCES = [
+    "yahoo", "seeking alpha", "benzinga", "investing.com",
+]
 
-# 2. 精準排除黑名單：徹底阻絕農場文、盤面漲跌隨筆與律師訴訟招募
-EXCLUDE_TITLE_PATTERNS = [
-    # --- 律師訴訟招募與股東大會 ---
+# ==================== 標題排除規則 ====================
+# 第一類：一律排除（律師招募、農場文、預告排程、產業研報、公關軟文）
+ALWAYS_JUNK_PATTERNS = [
+    # 律師訴訟招募
     r"\bclass\s+action\b", r"\bshareholder\s+alert\b", r"\breminds\s+investors\b",
     r"\blead\s+plaintiff\b", r"\bloss\s+submission\b", r"\bsecurities\s+fraud\b",
     r"\binvestor\s+rights?\b", r"\blaw\s+offices?\s+of\b", r"\bnotifies\s+shareholders\b",
@@ -68,145 +257,313 @@ EXCLUDE_TITLE_PATTERNS = [
     r"\bfaruqi\b", r"\bhagens\s+berman\b", r"\blevi\s+&\s+korsinsky\b",
     r"\bbronstein\b", r"\bkaskela\b", r"\bblock\s+&\s+leviton\b",
 
-    # --- Zacks / Motley Fool 財經農場文與模板套話 ---
+    # 財經農場文與投資建議
     r"\bzacks\b", r"\bmotley\s+fool\b",
     r"\b(?:up|down|gains?|drops?|falls?|slips?|surges?|climbs?|plunges?)\s+\d+(?:\.\d+)?%\s+since\s+(?:(?:its|the|last)\s+)*earnings\b",
-    r"\b(?:can|will)\s+(?:the\s+[\w\s]+\s+)?continue\b",
+    r"\bcan\s+[\w\s.']+?\s+(?:rally|run|momentum|surge|gains?|streak)\s+continue\b",
+    r"\bwill\s+the\s+(?:rally|surge|run|momentum|streak)\s+continue\b",
     r"\bahead\s+of\s+(?:its\s+)?earnings\b",
     r"\bbefore\s+(?:its\s+)?earnings\b",
     r"\bwhat\s+to\s+expect\s+(?:from|for)\s+earnings\b",
     r"\bearnings\s+(?:preview|whisper|scorecard|recap)\b",
-    r"\bwhy\s+(?:is|did|are)\s+[\w\s]+\s+(?:up|down|falling|dropping|rising|surging|sliding|moving)\b",
-    r"\bhere'?s\s+why\b",
     r"\bshould\s+you\s+(?:buy|sell|hold)\b",
-    r"\bis\s+[\w\s]+\s+(?:a\s+)?(?:good\s+)?(?:buy|sell|hold|bargain)\b",
+    r"\bis\s+[\w\s.']+?\s+(?:stock\s+)?a\s+(?:good\s+|strong\s+|smart\s+|screaming\s+)?(?:buy|sell|bargain)\b",
+    r"\bbuy,?\s+sell,?\s+or\s+hold\b",
     r"\bwhat(?:'?s|\s+is)\s+next\s+for\b",
     r"\bbetter\s+buy\b",
-    r"\b3\s+reasons\b",
+    r"\b\d+\s+reasons\b",
+    r"\bstocks?\s+to\s+(?:buy|watch|own|hold)\b",
+    r"\btop\s+\d+\s+[\w\s]*stocks\b",
+    r"\bmillionaire\b",
+    r"\bprice\s+target\b",
 
-    # --- 盤中常規行情走勢、漲跌幅與獲利了結隨筆 ---
-    r"\bprofit[\s-]taking\b",
-    r"\bytd\s+(?:run|gain|drop|loss|rally)\b",
-    r"\b(?:stock|shares?)\s+(?:drops?|falls?|slips?|surges?|climbs?|rises?|slides?|tumbles?|down|up)\s+\d+(?:\.\d+)?%\b",
-    r"\b(?:drops?|falls?|slips?|surges?|climbs?|rises?|slides?|tumbles?|down|up)\s+(?:by\s+)?\d+(?:\.\d+)?%\s+(?:as|after|amid|on|following|today|premarket|in\s+premarket|in\s+after[\s-]hours)\b",
-    r"\bshares\s+(?:fall|drop|slip|slide|surge|jump|tumble)\b",
-
-    # --- 例行會議、電話會排程 ---
+    # 例行會議、電話會排程
     r"\bto\s+report\b", r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
     r"\bconference\s+call\b", r"\binvestor\s+conference\b", r"\bfireside\s+chat\b",
     r"\broadshow\b", r"\bannual\s+meeting\b", r"\bproxy\s+statement\b",
 
-    # --- 行業研報、評選獲獎與公關軟文 ---
-    r"\bmarket\s+size\b", r"\bmarket\s+share\b", r"\bcagr\b", r"\bmarket\s+research\b",
+    # 產業研報、評選獲獎與公關軟文
+    r"\bmarket\s+size\b", r"\bcagr\b", r"\bmarket\s+research\b",
     r"\bforecast\s+to\s+20\d\d\b", r"\btop\s+players\b", r"\bindustry\s+report\b",
-    r"\bnamed\s+(a\s+)?winner\b", r"\bwins?\s+award\b", r"\bgreat\s+place\s+to\s+work\b",
+    r"\bnamed\s+(?:a\s+)?winner\b", r"\bwins?\s+award\b", r"\bgreat\s+place\s+to\s+work\b",
     r"\besg\s+report\b", r"\bsustainability\s+report\b", r"\bcarbon\s+neutral\b",
-    r"\bdonates?\b", r"\bwhitepaper\b", r"\bsurvey\s+finds\b", r"\badds\s+to\s+board\b"
+    r"\bdonates?\b", r"\bwhitepaper\b", r"\bsurvey\s+finds\b",
 ]
 
-# 3. 催化劑信號庫
+# 第二類：股價走勢類標題。只有在「沒有強催化劑」時才排除
+# 例如「Intel shares surge 20% on Nvidia $5 billion investment」雖然寫了漲幅，但有實質事件，必須放行
+MOVE_JUNK_PATTERNS = [
+    r"\bwhy\s+(?:is|did|are)\s+[\w\s]+\s+(?:up|down|falling|dropping|rising|surging|sliding|moving)\b",
+    r"\bhere'?s\s+why\b",
+    r"\bprofit[\s-]taking\b",
+    r"\bytd\s+(?:run|gain|drop|loss|rally)\b",
+    r"\b(?:stock|shares?)\s+(?:drops?|falls?|slips?|surges?|climbs?|rises?|slides?|tumbles?|jumps?|soars?|sinks?|down|up)\s+\d+(?:\.\d+)?%",
+    r"\b(?:drops?|falls?|slips?|surges?|climbs?|rises?|slides?|tumbles?|jumps?|soars?|sinks?|down|up)\s+(?:by\s+)?\d+(?:\.\d+)?%\s+(?:as|after|amid|on|following|today|premarket|in\s+premarket|in\s+after[\s-]hours)\b",
+    r"\bshares\s+(?:fall|drop|slip|slide|surge|jump|tumble|soar|sink|rally)\b",
+    r"\bstock\s+(?:is\s+)?(?:soaring|sinking|plunging|surging|tumbling|rallying)\b",
+]
+
+# ==================== 催化劑信號 ====================
+# 強催化劑：財報與財測、併購、融資稀釋、破產、調查與禁令、高層異動、做空報告、大額合約等
+STRONG_SIGNAL_PATTERNS = [
+    # 財報與財測
+    r"\bearnings\s+results\b", r"\bquarterly\s+results\b", r"\bfinancial\s+results\b",
+    r"\breports?\s+(?:record\s+)?(?:first|second|third|fourth|q[1-4]|full[\s-]year|fiscal)?\s*(?:quarter\s+)?(?:fiscal\s+)?(?:20\d\d\s+)?results\b",
+    r"\bq[1-4]\s+(?:results|earnings|revenue|sales)\b",
+    r"\b(?:beats?|miss(?:es)?|tops?)\s+(?:\w+\s+)?(?:estimates|expectations|forecasts?)\b",
+    r"\b(?:raises?|lifts?|boosts?|hikes?|lowers?|cuts?|slashes?|reduces?|trims?|withdraws?|reaffirms?)\s+(?:its\s+)?(?:full[\s-]year\s+|annual\s+|quarterly\s+|fiscal\s+|20\d\d\s+)?(?:guidance|outlook|forecast)\b",
+    r"\b(?:guidance|outlook|forecast)\s+(?:raise|cut|hike)\b",
+    r"\bmonthly\s+(?:revenue|sales)\b", r"\brecord\s+(?:revenue|sales|quarter)\b",
+    r"\b(?:january|february|march|april|may|june|july|august|september|october|november|december)\s+(?:revenue|sales)\b",
+    r"\bbuyback\b", r"\brepurchase\s+(?:program|plan|authorization)\b",
+    # 併購與投資
+    r"\btakeover\b", r"\bacquisition\b", r"\bacquires?\b", r"\bto\s+acquire\b", r"\bbuyout\b",
+    r"\bto\s+buy\b", r"\bin\s+talks\b", r"\bexplor\w*\s+(?:a\s+)?sale\b", r"\bmerger\b", r"\bmerge\b",
+    r"\bstrategic\s+investment\b", r"\btakes?\s+(?:a\s+)?stake\b", r"\bstake\s+in\b",
+    r"\binvest(?:s|ing|ment)?\s+\$\d", r"\bspin[\s-]?off\b", r"\bdivest\w*\b", r"\bsale\s+of\b",
+    # 融資與稀釋
+    r"\bpublic\s+offering\b", r"\bregistered\s+direct\b", r"\bprivate\s+placement\b",
+    r"\bprices?\s+(?:\$[\d.,]+\s+(?:million|billion)\s+)?(?:upsized\s+)?offering\b",
+    r"\bat[\s-]the[\s-]market\b", r"\bconvertible\s+(?:senior\s+)?notes\b",
+    r"\b(?:stock|share|equity)\s+(?:offering|sale)\b", r"\bdilut\w*\b",
+    # 破產與財務危機
+    r"\bchapter\s+11\b", r"\bbankruptcy\b", r"\bgoing\s+concern\b", r"\bdelist\w*\b",
+    r"\bdefault\b", r"\brestructur\w*\b",
+    # 調查、訴訟、禁令
+    r"\bantitrust\b", r"\bprobe\b", r"\binvestigation\b", r"\bsubpoena\b", r"\binjunction\b",
+    r"\bsues\b", r"\blawsuit\b", r"\bpatent\s+infringement\b", r"\bfined\b", r"\bfines?\s+\$",
+    r"\bexport\s+(?:control|ban|curb|restriction|license)s?\b", r"\bsanction\w*\b",
+    r"\btariffs?\b", r"\bban(?:s|ned)?\b", r"\bentity\s+list\b",
+    r"\bchips\s+act\b",
+    # 高層異動
+    r"\b(?:ceo|cfo|coo|cto|chief\s+executive|chief\s+financial|chairman|president)\b.*\b(?:resign\w*|steps?\s+down|depart\w*|retire\w*|ousted|fired|exit\w*|leav\w*|replac\w*|succe\w*|appoint\w*|names?|named|hires?)\b",
+    r"\b(?:resign\w*|steps?\s+down|appoint\w*|names?|named|hires?)\b.*\b(?:ceo|cfo|chief\s+executive|chief\s+financial)\b",
+    # 做空與重大負面事件
+    r"\bshort[\s-]seller\b", r"\bshort\s+report\b", r"\bhindenburg\b", r"\bmuddy\s+waters\b",
+    r"\bcitron\b", r"\bspruce\s+point\b", r"\bkerrisdale\b", r"\bgrizzly\b",
+    r"\brecall\w*\b", r"\boutage\b", r"\bbreach\b", r"\bhack\w*\b", r"\bcyberattack\b",
+    r"\blayoffs?\b", r"\bjob\s+cuts?\b", r"\bcuts?\s+\d[\d,]*\s+jobs\b",
+    r"\bdowngrade[sd]?\s+to\s+(?:sell|underperform|underweight)\b",
+    # 大額合約與訂單
+    r"\bawarded\s+(?:an?\s+)?(?:\$[\d.,]+\s*(?:million|billion|bn|m)\s+)?contract\b",
+    r"\b(?:wins?|secures?|lands?|signs?|inks?)\s+(?:an?\s+)?(?:\$[\d.,]+\s*(?:million|billion|bn|m)\s+)?(?:contract|deal|order)\b",
+    r"\$[\d.,]+\s*(?:billion|bn)\b",
+    r"\bmulti[\s-]?billion\b",
+]
+
+# 一般催化劑：產品發表、合作、設計案、部署等
 SIGNAL_PATTERNS = [
-    r"\bearnings\s+results\b", r"\breports?\s+(?:first|second|third|fourth|q[1-4]|full[\s-]year)?\s*(?:quarter\s+)?results\b",
-    r"\brevenue\b", r"\beps\b", r"\bquarterly\s+results\b", r"\bfinancial\s+results\b",
-    r"\braises?\s+guidance\b", r"\blowers?\s+guidance\b", r"\bcuts?\s+guidance\b",
-    r"\bannual\s+guidance\b", r"\bquarterly\s+guidance\b",
-    r"\bq[1-4]\s+results\b", r"\bbuyback\b", r"\brepurchase\s+program\b",
-    r"\bawarded\s+(?:a\s+)?contract\b", r"\bsigns?\s+(?:a\s+)?contract\b", r"\bsecures?\s+(?:a\s+)?contract\b",
-    r"\bpurchase\s+order\b", r"\breceives?\s+(?:an?\s+)?order\b",
+    r"\brevenue\b", r"\beps\b", r"\bearnings\b", r"\bguidance\b", r"\boutlook\b",
+    r"\bsigns?\s+(?:a\s+)?contract\b", r"\bsecures?\s+(?:a\s+)?contract\b",
+    r"\bpurchase\s+order\b", r"\breceives?\s+(?:an?\s+)?order\b", r"\border\s+from\b",
     r"\b(?:inks?|strikes?|signs?|seals?)\s+(?:a\s+)?(?:deal|pact|agreement)\b",
     r"\bmulti[\s-]year\s+agreement\b", r"\bprocurement\s+contract\b", r"\bsupply\s+agreement\b",
-    r"\bpartner(?:ed|ing|ship|s)?\s+with\b", r"\bcollaboration\s+agreement\b",
-    r"\bjoint\s+venture\b", r"\bto\s+deploy\b", r"\bdesign\s+win\b",
-    r"\btakeover\b", r"\bacquisition\b", r"\bacquires?\b", r"\bbuyout\b",
-    r"\bin\s+talks\s+to\s+(?:acquire|buy)\b", r"\bexplor\w*\s+sale\b",
-    r"\bstrategic\s+investment\b", r"\bmerger\b", r"\brestructur\w*\b",
-    r"\bsale\s+of\b", r"\bspinoff\b", r"\bdivest\w*\b",
-    r"\blicensing\s+agreement\b", r"\broyalt(?:y|ies)\b", r"\bpatent\s+infringement\b",
-    r"\bantitrust\b", r"\bdoj\s+probe\b", r"\bftc\s+probe\b", r"\bsubpoena\b",
-    r"\bexport\s+control\b", r"\bsanction\w*\b", r"\bchips\s+act\s+award\b", r"\binjunction\b",
-    r"\blaunches\b", r"\bunveils\b", r"\bintroduces\b", r"\bnext-gen\b",
-    r"\barchitecture\b", r"\bprocessor\b", r"\bchipset?\b", r"\bsnapdragon\b",
-    r"\bsmr\s+deployment\b", r"\bnuclear\s+reactor\b", r"\bpower\s+purchase\s+agreement\b",
-    r"\bheadset\b", r"\bdevice\b", r"\bglasses\b",
-    r"\bconvertible\s+notes\b", r"\bpublic\s+offering\b", r"\bat-the-market\s+offering\b",
-    r"\bchapter\s+11\b", r"\bbankruptcy\b"
+    r"\bpartner(?:ed|ing|ship|s)?\s+with\b", r"\bcollaborat\w*\b",
+    r"\bjoint\s+venture\b", r"\bto\s+deploy\b", r"\bdeploy\w*\b", r"\bdesign\s+win\b",
+    r"\blicensing\s+agreement\b", r"\broyalt(?:y|ies)\b", r"\bselected\s+by\b",
+    r"\blaunch(?:es|ed)?\b", r"\bunveil\w*\b", r"\bintroduc\w*\b", r"\bdebuts?\b",
+    r"\bnext[\s-]gen\w*\b", r"\barchitecture\b", r"\bprocessor\b", r"\bchipset?s?\b",
+    r"\bsmr\b", r"\bnuclear\s+reactor\b", r"\bpower\s+purchase\s+agreement\b",
+    r"\bheadset\b", r"\bdevice\b", r"\bglasses\b", r"\bapproval\b", r"\bapproves?\b",
+    r"\bcertif\w*\b", r"\bfda\b", r"\bfaa\b", r"\bfcc\b",
+    r"\$[\d.,]+\s*(?:million|m)\b", r"\bdividend\b",
 ]
 
-GENERIC_FIRST_WORDS = {
-    "general", "american", "national", "global", "united", "first",
-    "advanced", "international", "standard", "western", "pacific"
-}
-
+# ==================== 去重用詞表 ====================
 STOP_WORDS = {
-    "a", "an", "the", "and", "or", "but", "about", "above", "after", "along",
-    "at", "by", "for", "from", "in", "into", "of", "to", "with", "on", "its",
-    "as", "stock", "shares", "tumbles", "jumps", "falls", "rises", "plunges",
-    "through", "announces", "announced", "watch", "designed", "work", "use"
+    "a", "an", "the", "and", "or", "but", "about", "above", "after", "along", "amid",
+    "at", "by", "for", "from", "in", "into", "of", "to", "with", "on", "its", "it",
+    "as", "is", "are", "be", "will", "over", "says", "say", "new", "stock", "shares",
+    "tumbles", "jumps", "falls", "rises", "plunges", "surges", "soars", "slides",
+    "through", "announces", "announced", "watch", "designed", "work", "use", "inc",
+    "corp", "co", "ltd", "report", "reports", "this", "that", "than", "more", "has", "have"
 }
-
-# 允許保留的 2 字母核心專業詞彙（絕不濾除）
 VALID_SHORT_TECH_TERMS = {"ai", "vr", "ar", "ev", "ip", "5g", "6g", "os", "pc", "mr", "xr"}
 
+# 常見縮寫，不算「具體型號」
+COMMON_ACRONYMS = {
+    "AI", "GPU", "GPUS", "CPU", "CPUS", "CEO", "CFO", "COO", "CTO", "US", "USA", "UK", "EU",
+    "IPO", "ETF", "SEC", "DOJ", "FTC", "FDA", "FAA", "FCC", "NASA", "DOD", "Q1", "Q2", "Q3", "Q4",
+    "EPS", "ATM", "M&A", "PC", "PCS", "EV", "EVS", "TV", "AR", "VR", "XR", "5G", "6G", "LLC", "INC", "NYSE", "NASDAQ"
+}
 
-# ==================== 工具函式 ====================
+SEC_NAME_CACHE = {}
+
+VALID_EVENT_TYPES = {"ORDER", "M&A", "DILUTION", "EARNINGS", "PRODUCT", "CRISIS", "LEADERSHIP"}
+
+
+# ==================== 公司名稱與比對 ====================
 def clean_company_name(raw_name):
-    name = re.sub(r"/(?:DE|MD|ADR|CA|NY|NV|VA|PA|OH|TX)/?", "", raw_name, flags=re.IGNORECASE)
-    cleaned = re.sub(
-        r",?\s*(INC|CORP|LTD|HOLDINGS|CO|PLC|LLC|AG|SE|SA|NV|GMBH|TECHNOLOGIES|CORP\s*/DE)\.?$", 
-        "", 
-        name, 
-        flags=re.IGNORECASE
-    ).strip()
-    return cleaned if len(cleaned) >= 2 else raw_name.strip()
+    name = re.sub(r"\s*/[A-Z]{2,3}/?\s*$", "", raw_name.strip(), flags=re.IGNORECASE)
+    for _ in range(2):
+        name = re.sub(
+            r",?\s*(INC|CORP|CORPORATION|LTD|LIMITED|HOLDINGS?|CO|PLC|LLC|AG|SE|SA|NV|N\.V|GMBH|GROUP)\.?$",
+            "", name, flags=re.IGNORECASE
+        ).strip()
+    return name if len(name) >= 3 else raw_name.strip()
 
 
-def preload_sec_company_names():
-    global COMPANY_NAME_CACHE
-    url = "https://www.sec.gov/files/company_tickers.json"
+def preload_sec_names_for_missing(tickers):
+    """只有在 tickers.txt 裡有對照表沒收錄的代號時，才去 SEC 抓法定名稱當備援"""
+    missing = [t for t in tickers if t not in TICKER_PROFILES]
+    if not missing:
+        return missing
+    print(f"⚠️ 以下代號不在新聞名稱對照表中，將以 SEC 法定名稱備援（建議補進 TICKER_PROFILES）：{', '.join(missing)}", flush=True)
+    if not SEC_USER_AGENT:
+        print("⚠️ 未設定 SEC_USER_AGENT，略過 SEC 名稱下載，這些代號只能用代號比對", flush=True)
+        return missing
     try:
-        res = requests.get(url, headers=SEC_HEADERS, timeout=10)
+        res = requests.get(
+            "https://www.sec.gov/files/company_tickers.json",
+            headers={"User-Agent": SEC_USER_AGENT, "Accept-Encoding": "gzip, deflate"},
+            timeout=12
+        )
         if res.status_code == 200:
             for item in res.json().values():
                 t = item["ticker"].upper()
-                raw_title = item.get("title", "")
-                COMPANY_NAME_CACHE[t] = clean_company_name(raw_title)
-            print(f"✅ 成功自 SEC 載入 {len(COMPANY_NAME_CACHE)} 檔公司名單", flush=True)
+                if t in missing:
+                    SEC_NAME_CACHE[t] = clean_company_name(item.get("title", ""))
+            print(f"✅ 已自 SEC 取得 {len(SEC_NAME_CACHE)} 檔備援名稱", flush=True)
+        else:
+            print(f"⚠️ SEC 名稱下載失敗（HTTP {res.status_code}）", flush=True)
     except Exception as e:
-        print(f"⚠️ SEC 官方名冊獲取受限 ({e})，使用本地備援名冊", flush=True)
-
-    for t, name in CORE_FALLBACK_NAMES.items():
-        if t not in COMPANY_NAME_CACHE:
-            COMPANY_NAME_CACHE[t] = name
+        print(f"⚠️ SEC 名稱下載失敗（{e}）", flush=True)
+    return missing
 
 
-def load_sent_history():
-    if not os.path.exists(HISTORY_FILE):
-        return set(), []
-    
-    fingerprints = set()
-    history_records = []
-    with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-        for line in f:
-            clean_line = line.strip()
-            if not clean_line:
-                continue
-            if "|||" in clean_line:
-                parts = clean_line.split("|||")
-                fingerprints.add(parts[0])
-                if len(parts) >= 3:
-                    history_records.append({"ticker": parts[1], "title": parts[2]})
-            else:
-                fingerprints.add(clean_line)
-                
-    return fingerprints, history_records
+def get_names(ticker):
+    if ticker in TICKER_PROFILES:
+        names, cs_names = TICKER_PROFILES[ticker]
+        return list(names), list(cs_names)
+    sec_name = SEC_NAME_CACHE.get(ticker)
+    return ([sec_name] if sec_name else []), []
 
 
-def save_sent_record(fingerprint, ticker, title):
-    with open(HISTORY_FILE, "a", encoding="utf-8") as f:
-        f.write(f"{fingerprint}|||{ticker}|||{title}\n")
+def get_display_name(ticker):
+    names, cs_names = get_names(ticker)
+    all_names = names + cs_names
+    return all_names[0] if all_names else ticker
 
 
+def contains_phrase(text, phrase, case_sensitive=False):
+    flags = 0 if case_sensitive else re.IGNORECASE
+    return re.search(rf"(?<![\w$]){re.escape(phrase)}(?!\w)", text, flags) is not None
+
+
+def matches_ticker_symbol(ticker, title):
+    t = re.escape(ticker)
+    explicit = (
+        rf"(?:\${t}\b"
+        rf"|\b(?:NASDAQ|NYSE|NYSE\s+American|NYSEAMERICAN|AMEX|OTC|OTCQX|OTCQB)\s*:\s*{t}\b"
+        rf"|\(\s*{t}\s*\))"
+    )
+    if re.search(explicit, title, flags=re.IGNORECASE):
+        return True
+    if ticker in STRICT_TICKERS:
+        return False
+    # 一般代號：大小寫必須完全相同（標題寫 NVDA 才算）
+    return re.search(rf"(?<![\w$]){t}(?!\w)", title) is not None
+
+
+def matches_target_entity(ticker, title):
+    names, cs_names = get_names(ticker)
+    for n in names:
+        if contains_phrase(title, n):
+            return True
+    for n in cs_names:
+        if contains_phrase(title, n, case_sensitive=True):
+            return True
+    return matches_ticker_symbol(ticker, title)
+
+
+def build_search_query(ticker):
+    names, cs_names = get_names(ticker)
+    terms, seen = [], set()
+    for n in names + cs_names:
+        key = n.lower()
+        if key not in seen:
+            seen.add(key)
+            terms.append(f'"{n}"')
+        if len(terms) >= 4:
+            break
+    if ticker not in STRICT_TICKERS and ticker.lower() not in seen:
+        terms.append(f'"{ticker}"')
+    if not terms:
+        terms.append(f'"{ticker}"')
+    return " OR ".join(terms) + " when:2d"
+
+
+# ==================== 標題過濾 ====================
+def matches_any(text, patterns):
+    t_lower = text.lower()
+    return any(re.search(p, t_lower) for p in patterns)
+
+
+def get_source_tier(source_name):
+    s = source_name.lower().strip()
+    if any(src in s for src in PRIMARY_SOURCES):
+        return "PRIMARY"
+    if any(src in s for src in SECONDARY_SOURCES):
+        return "SECONDARY"
+    return None
+
+
+def parse_pub_time(pub_date_raw):
+    try:
+        dt = parsedate_to_datetime(pub_date_raw)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=UTC_TZ)
+        return dt
+    except Exception:
+        return datetime(1970, 1, 1, tzinfo=UTC_TZ)
+
+
+def is_within_hours(pub_date_raw, hours):
+    if not pub_date_raw or not pub_date_raw.strip():
+        return False
+    try:
+        dt = parsedate_to_datetime(pub_date_raw)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=UTC_TZ)
+        diff_hours = (datetime.now(UTC_TZ) - dt).total_seconds() / 3600
+        return -1.0 <= diff_hours <= hours
+    except Exception:
+        return False
+
+
+def evaluate_title(ticker, title, snippet, source_tier):
+    """
+    回傳 (是否放行送 AI, 原因)
+    規則：
+      1. 一律排除類（律師、農場文、排程、研報、軟文）→ 排除
+      2. 股價走勢類 → 沒有強催化劑才排除
+      3. 二級來源 → 必須命中強催化劑（持股只需一般催化劑）
+      4. 一級來源 → 必須命中催化劑（持股不需要）
+    """
+    if matches_any(title, ALWAYS_JUNK_PATTERNS):
+        return False, "排除規則"
+
+    combined = f"{title} {snippet}"
+    strong = matches_any(combined, STRONG_SIGNAL_PATTERNS)
+    normal = strong or matches_any(combined, SIGNAL_PATTERNS)
+    is_holding = ticker in HOLDINGS
+
+    if matches_any(title, MOVE_JUNK_PATTERNS) and not strong:
+        return False, "股價走勢文"
+
+    if source_tier == "SECONDARY":
+        if strong or (is_holding and normal):
+            return True, "強催化劑" if strong else "持股放寬"
+        return False, "二級來源無強催化劑"
+
+    if normal or is_holding:
+        return True, "強催化劑" if strong else ("催化劑" if normal else "持股放寬")
+    return False, "無催化劑"
+
+
+# ==================== 去重 ====================
 def make_news_fingerprint(ticker, title):
+    # 與舊版完全相同的算法，舊紀錄才能繼續沿用
     clean_title = re.sub(r"[^\w\s]", "", title.lower())
     clean_title = " ".join(clean_title.split())
     raw_key = f"{ticker}_{clean_title}"
@@ -214,118 +571,141 @@ def make_news_fingerprint(ticker, title):
 
 
 def normalize_word(word):
-    w = word.lower()
+    w = word.lower().lstrip("$")
+    if any(ch.isdigit() for ch in w):
+        return w.replace(",", "")
     return re.sub(r"(ments?|ings?|ed|s)$", "", w)
 
 
 def extract_core_words(title):
-    words = re.findall(r"\b[a-zA-Z0-9$]+(?:\.[0-9]+)?\b", title.lower())
+    words = re.findall(r"\$?[a-zA-Z0-9]+(?:[.,][0-9]+)?", title)
     core = set()
     for w in words:
-        if w in STOP_WORDS:
+        lw = w.lower()
+        if lw in STOP_WORDS:
             continue
-        norm = normalize_word(w)
-        if len(norm) > 2 or norm in VALID_SHORT_TECH_TERMS:
+        norm = normalize_word(lw)
+        if not norm:
+            continue
+        if any(ch.isdigit() for ch in norm) or len(norm) > 2 or norm in VALID_SHORT_TECH_TERMS:
             core.add(norm)
     return core
 
 
-def extract_rare_entities(title):
-    """提取專有名詞與代號 (如 Muse, Charm, Orion)"""
-    tokens = re.findall(r"\b[A-Z][a-zA-Z0-9_-]+\b", title)
-    common_biz = {"Meta", "Apple", "Google", "Microsoft", "Amazon", "Intel", "Nvidia", "Watch", "Launches", "Unveils", "Introduces"}
-    return set(t.lower() for t in tokens if t not in common_biz and len(t) > 2)
+def get_alias_tokens(ticker):
+    names, cs_names = get_names(ticker)
+    tokens = {ticker.lower()}
+    for n in names + cs_names:
+        for w in re.findall(r"[a-zA-Z0-9]+", n):
+            tokens.add(normalize_word(w))
+    return tokens
 
 
-def is_duplicate_news(ticker, new_title, history_records):
-    """強化版去重：多外電改寫同事件阻截 + 專有名詞攔截"""
-    new_words = extract_core_words(new_title)
-    new_entities = extract_rare_entities(new_title)
-    if not new_words:
-        return False
-
-    for h in reversed(history_records[-200:]):
-        if h["ticker"] != ticker:
+def extract_specific_tokens(title, ticker):
+    """具體識別詞：含數字的字（$5、H200、18A）或非常見縮寫的全大寫字（CPX、HBM4）"""
+    tokens = set()
+    for w in re.findall(r"\$?[A-Za-z0-9]+(?:[.,][0-9]+)?", title):
+        bare = w.lstrip("$")
+        if bare.upper() == ticker:
             continue
-            
-        old_words = extract_core_words(h["title"])
-        old_entities = extract_rare_entities(h["title"])
+        if any(ch.isdigit() for ch in bare):
+            tokens.add(normalize_word(bare))
+        elif len(bare) >= 2 and bare.isupper() and bare not in COMMON_ACRONYMS:
+            tokens.add(bare.lower())
+    return tokens
+
+
+def is_duplicate_news(ticker, new_title, history_entries):
+    """
+    只和「最近 72 小時內、同一檔、實際推播過」的標題比對。
+    比對前先拿掉公司名稱本身（否則同一家公司的所有新聞都會因為名字相同而被判重複）。
+    """
+    alias_tokens = get_alias_tokens(ticker)
+    new_words = extract_core_words(new_title) - alias_tokens
+    if len(new_words) < 2:
+        return False
+    new_specific = extract_specific_tokens(new_title, ticker) - alias_tokens
+    cutoff = datetime.now(UTC_TZ) - timedelta(hours=DEDUP_WINDOW_HOURS)
+
+    for h in history_entries:
+        if h["status"] != "SENT" or h["ticker"] != ticker or h["time"] < cutoff:
+            continue
+        old_words = extract_core_words(h["title"]) - alias_tokens
         if not old_words:
             continue
-            
-        intersection = new_words & old_words
         union = new_words | old_words
-        similarity = len(intersection) / len(union) if union else 0
-
-        # 1. 專有名詞撞車（例如兩篇都提到 Muse 或 Charm）：重疊度只要 >= 20% 直接視為同一事件
-        shared_entities = new_entities & old_entities
-        if shared_entities and similarity >= 0.20:
+        similarity = len(new_words & old_words) / len(union) if union else 0
+        if similarity >= 0.35:
             return True
-
-        # 2. 常規語意重疊度門檻由 0.55 下調至 0.30 (徹底捕捉 Bloomberg vs CNBC 改寫)
-        if similarity >= 0.30:
-            return True
-
-    return False
-
-
-def is_junk_title(title):
-    t_lower = title.lower()
-    for pattern in EXCLUDE_TITLE_PATTERNS:
-        if re.search(pattern, t_lower):
+        old_specific = extract_specific_tokens(h["title"], ticker) - alias_tokens
+        # 共享同一個具體數字或型號（例如 $5 billion、H200、CPX）時，門檻放寬
+        if new_specific & old_specific and similarity >= 0.20:
             return True
     return False
 
 
-def has_high_impact_signal(text):
-    t_lower = text.lower()
-    for pattern in SIGNAL_PATTERNS:
-        if re.search(pattern, t_lower):
-            return True
-    return False
+# ==================== 歷史紀錄 ====================
+# 新格式：時間|||狀態|||指紋|||代號|||標題
+# 狀態：SENT（已推播）、PASS（AI 判定不推）、LEGACY（舊版紀錄，只用來避免重複送 AI）
+HEARTBEAT_PREFIX = "@@HEARTBEAT"
 
 
-def is_trusted_source(source_name):
-    s_lower = source_name.lower().strip()
-    return any(trusted in s_lower for trusted in TRUSTED_SOURCES)
+def load_history():
+    entries, heartbeat_date = [], ""
+    if not os.path.exists(HISTORY_FILE):
+        return entries, heartbeat_date
+    now = datetime.now(UTC_TZ)
+    with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith(HEARTBEAT_PREFIX):
+                parts = line.split("|||")
+                if len(parts) >= 2:
+                    heartbeat_date = parts[1].strip()
+                continue
+            parts = line.split("|||")
+            if len(parts) == 5 and parts[1] in {"SENT", "PASS", "LEGACY"}:
+                try:
+                    t = datetime.fromisoformat(parts[0])
+                except Exception:
+                    t = now
+                entries.append({"time": t, "status": parts[1], "fp": parts[2],
+                                "ticker": parts[3], "title": parts[4]})
+            elif len(parts) >= 3:
+                entries.append({"time": now, "status": "LEGACY", "fp": parts[0],
+                                "ticker": parts[1], "title": parts[2]})
+            else:
+                entries.append({"time": now, "status": "LEGACY", "fp": parts[0],
+                                "ticker": "", "title": ""})
+    return entries, heartbeat_date
 
 
-def is_within_36_hours(pub_date_raw):
-    if not pub_date_raw or not pub_date_raw.strip():
-        return False
-    try:
-        dt = parsedate_to_datetime(pub_date_raw)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        now_utc = datetime.now(UTC_TZ)
-        diff_hours = (now_utc - dt).total_seconds() / 3600
-        return -1.0 <= diff_hours <= 36.0
-    except Exception:
-        return False
+def format_history_line(entry):
+    title = entry["title"].replace("|||", " ").replace("\n", " ")
+    return f"{entry['time'].isoformat(timespec='seconds')}|||{entry['status']}|||{entry['fp']}|||{entry['ticker']}|||{title}"
 
 
-def matches_target_entity(ticker, raw_title):
-    t_raw = raw_title
-    t_lower = raw_title.lower()
-    ticker_upper = ticker.upper()
+def append_history(entry, history_entries, seen_fps):
+    history_entries.append(entry)
+    seen_fps.add(entry["fp"])
+    with open(HISTORY_FILE, "a", encoding="utf-8") as f:
+        f.write(format_history_line(entry) + "\n")
 
-    company_name = COMPANY_NAME_CACHE.get(ticker_upper, "").lower()
-    has_full_name = (company_name in t_lower) if len(company_name) > 3 else False
 
-    if ticker_upper in COMMON_WORD_TICKERS:
-        has_strict_ticker = bool(re.search(rf"\b({ticker_upper}|NYSE:{ticker_upper}|NASDAQ:{ticker_upper}|\${ticker_upper})\b", t_raw))
-        return has_full_name or has_strict_ticker
-
-    has_ticker = bool(re.search(rf"\b{re.escape(ticker.lower())}\b", t_lower))
-    
-    words = company_name.split()
-    first_word = words[0] if words else ""
-    if first_word and first_word not in GENERIC_FIRST_WORDS and len(first_word) > 3:
-        has_first_word = bool(re.search(rf"\b{re.escape(first_word)}\b", t_lower))
-    else:
-        has_first_word = False
-        
-    return has_ticker or has_full_name or has_first_word
+def rewrite_history(history_entries, heartbeat_date):
+    """刪除超過保留天數的紀錄，並把舊格式紀錄轉成新格式"""
+    cutoff = datetime.now(UTC_TZ) - timedelta(days=HISTORY_KEEP_DAYS)
+    kept = [e for e in history_entries if e["time"] >= cutoff]
+    tmp_file = HISTORY_FILE + ".tmp"
+    with open(tmp_file, "w", encoding="utf-8") as f:
+        if heartbeat_date:
+            f.write(f"{HEARTBEAT_PREFIX}|||{heartbeat_date}\n")
+        for e in kept:
+            f.write(format_history_line(e) + "\n")
+    os.replace(tmp_file, HISTORY_FILE)
+    return len(history_entries) - len(kept)
 
 
 # ==================== 週末節流機制 ====================
@@ -343,8 +723,8 @@ def should_skip_for_weekend_throttle():
             with open(WEEKEND_RUN_LOG, "r", encoding="utf-8") as f:
                 last_run_ts = float(f.read().strip())
             elapsed_hours = (time.time() - last_run_ts) / 3600
-            if elapsed_hours < 8.0:
-                remaining_hours = 8.0 - elapsed_hours
+            if elapsed_hours < WEEKEND_MIN_GAP_HOURS:
+                remaining_hours = WEEKEND_MIN_GAP_HOURS - elapsed_hours
                 print(f"⏳ [週末節流] 距上次掃描僅 {elapsed_hours:.1f} 小時，尚需冷卻 {remaining_hours:.1f} 小時，跳過。", flush=True)
                 return True
         except Exception:
@@ -352,52 +732,60 @@ def should_skip_for_weekend_throttle():
 
     with open(WEEKEND_RUN_LOG, "w", encoding="utf-8") as f:
         f.write(str(time.time()))
-        
-    print("🚀 [週末巡檢放行] 距離上次執行已達 8 小時，啟動本次掃描。", flush=True)
+
+    print(f"🚀 [週末巡檢放行] 距離上次執行已達 {WEEKEND_MIN_GAP_HOURS:.0f} 小時，啟動本次掃描。", flush=True)
     return False
 
 
 # ==================== DISCORD 推播 ====================
-def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub_date_str, source_name, title_zh=""):
+def post_to_discord(payload):
+    """回傳 True 代表推播成功；遇到 Discord 速率限制會依指示等待後重試"""
     if not DISCORD_NEWS_WEBHOOK:
-        return
+        print("      ❌ [環境變數警告] 未設定 DISCORD_NEWS_WEBHOOK", flush=True)
+        return False
+    for attempt in range(4):
+        try:
+            res = requests.post(DISCORD_NEWS_WEBHOOK, json=payload, timeout=15)
+            if res.status_code == 429:
+                try:
+                    wait = float(res.json().get("retry_after", 2))
+                except Exception:
+                    wait = 2.0
+                print(f"      ⏳ [Discord 速率限制] 等待 {wait:.1f} 秒後重試", flush=True)
+                time.sleep(min(wait + 0.5, 30))
+                continue
+            if 200 <= res.status_code < 300:
+                return True
+            print(f"      ❌ [Discord 發送失敗] HTTP {res.status_code}", flush=True)
+            time.sleep(2)
+        except Exception as e:
+            print(f"      ❌ [Discord 連線異常] {e}", flush=True)
+            time.sleep(2)
+    return False
+
+
+TYPE_CONFIGS = {
+    "DILUTION": {"label": "⚠️ 資本融資與稀釋警報", "color": 0xE74C3C,
+                 "desc": "股權融資/稀釋（可轉債、現增、ATM）"},
+    "CRISIS": {"label": "🚨 重大利空警報", "color": 0xC0392B,
+               "desc": "調查/反壟斷/制裁/禁令/做空報告/財測下修/破產"},
+    "M&A": {"label": "🤝 併購/重大投資", "color": 0x9B59B6,
+            "desc": "收購/資產出售/重組拆分/外部注資"},
+    "EARNINGS": {"label": "📊 財報/財測更新", "color": 0x3498DB,
+                 "desc": "官方財報公布、財測調整或庫藏股"},
+    "PRODUCT": {"label": "🚀 產品/技術發表", "color": 0x1ABC9C,
+                "desc": "新產品發表 / 技術突破 / 監管核准"},
+    "ORDER": {"label": "💰 訂單/合作/授權", "color": 0x2ECC71,
+              "desc": "客戶合約 / 採購訂單 / 授權協議 / 合作"},
+    "LEADERSHIP": {"label": "👤 高層異動", "color": 0xF1C40F,
+                   "desc": "執行長、財務長等高層任命或離職"},
+}
+
+
+def send_news_embed(ticker, title, event_type, summary, news_url, pub_date_str, source_name, title_zh=""):
     now_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
-
-    type_configs = {
-        "DILUTION": {
-            "title": f"⚠️ 資本融資與稀釋警報：{ticker}",
-            "color": 0xE74C3C,
-            "desc": "股權融資/稀釋（可轉債、現增、ATM）"
-        },
-        "CRISIS": {
-            "title": f"🚨 重大黑天鵝/利空警報：{ticker}",
-            "color": 0xC0392B,
-            "desc": "授權撤銷/反壟斷/制裁/專利敗訴/財測下修/破產"
-        },
-        "M&A": {
-            "title": f"🤝 戰略併購/重大投資：{ticker}",
-            "color": 0x9B59B6,
-            "desc": "資本運作（洽談收購/資產出售/重組拆分/外部注資）"
-        },
-        "EARNINGS": {
-            "title": f"📊 正式財報/指引更新：{ticker}",
-            "color": 0x3498DB,
-            "desc": "官方財報公布、財測調升或庫藏股回購"
-        },
-        "PRODUCT": {
-            "title": f"🚀 旗艦產品/架構突破：{ticker}",
-            "color": 0x1ABC9C,
-            "desc": "次世代旗艦晶片發布 / 專利架構突破 / 監管核准"
-        },
-        "ORDER": {
-            "title": f"💰 商業大單/授權快訊：{ticker}",
-            "color": 0x2ECC71,
-            "desc": "實質商業授權協議 / 先進封裝大單 / 客戶採購合約"
-        }
-    }
-
-    cfg = type_configs.get(event_type, type_configs["ORDER"])
-    safe_summary = summary_bullets[:1000] if summary_bullets else "無內容摘要"
+    cfg = TYPE_CONFIGS.get(event_type, TYPE_CONFIGS["ORDER"])
+    holding_mark = "★ 持股｜" if ticker in HOLDINGS else ""
 
     if title_zh and title_zh != title:
         display_title = f"{title_zh}\n({title[:180]})"
@@ -408,267 +796,300 @@ def send_discord_embed(ticker, title, event_type, summary_bullets, news_url, pub
         "username": "Market Impact Radar",
         "avatar_url": "https://cdn-icons-png.flaticon.com/512/2965/2965879.png",
         "embeds": [{
-            "title": cfg["title"],
+            "title": f"{holding_mark}{cfg['label']}：{ticker}",
             "url": news_url,
             "color": cfg["color"],
             "fields": [
                 {"name": "📌 標的", "value": f"`{ticker}`", "inline": True},
                 {"name": "📅 發布時間 (台灣)", "value": f"`{pub_date_str}`", "inline": True},
-                {"name": "🏷️ 交易性質", "value": f"`{cfg['desc']}`", "inline": True},
+                {"name": "🏷️ 事件性質", "value": f"`{cfg['desc']}`", "inline": True},
                 {"name": "📡 來源管道", "value": f"`{source_name}`", "inline": False},
-                {"name": "📰 標題", "value": display_title, "inline": False},
-                {"name": "💡 買方深度解讀", "value": safe_summary, "inline": False}
+                {"name": "📰 標題", "value": display_title[:1000], "inline": False},
+                {"name": "💡 重點解讀", "value": (summary or "無內容摘要")[:1000], "inline": False}
             ],
             "footer": {"text": f"Market Radar • 推播時間: {now_tw_str}"}
         }]
     }
-    try:
-        res = requests.post(DISCORD_NEWS_WEBHOOK, json=payload, timeout=12)
-        res.raise_for_status()
-        print("      🎉 [推播成功] 已發送至 Discord！", flush=True)
-    except Exception as e:
-        print(f"      ❌ [Discord 發送失敗] {e}", flush=True)
+    return post_to_discord(payload)
 
 
-# ==================== AI 深度審核核心 ====================
-def summarize_with_ai(ticker, text):
+def send_run_summary(stats, total, is_alert):
+    now_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
+    failed = stats["fetch_failed"]
+    failed_text = "、".join(failed[:15]) + ("…" if len(failed) > 15 else "") if failed else "無"
+    lines = [
+        f"掃描標的：{total} 檔",
+        f"抓取失敗：{len(failed)} 檔（{failed_text}）",
+        f"送 AI 判讀：{stats['ai_checked']} 則",
+        f"AI 判定不推：{stats['ai_pass']} 則",
+        f"成功推播：{stats['pushed']} 則",
+        f"AI 呼叫失敗：{stats['ai_error']} 則",
+        f"超過單檔上限、留到下次判讀：{stats['ai_deferred']} 則",
+        f"推播失敗（下次重試）：{stats['push_failed']} 則",
+    ]
+    if stats["timed_out"]:
+        lines.append(f"因執行超時未掃描：{len(stats['timed_out'])} 檔")
+    if is_alert:
+        title = "🚨 新聞巡檢異常：本次結果不完整"
+        color = 0xC0392B
+        if stats["timed_out"]:
+            lines.append("執行時間過長，可能是 Google 回應變慢或限流。")
+        else:
+            lines.append("抓取失敗比例過高，可能是 Google 對 GitHub 雲端 IP 限流。")
+    else:
+        title = "✅ 新聞巡檢每日健康回報"
+        color = 0x7F8C8D
+        if stats["pushed"] == 0:
+            lines.append("本次無重大事項。")
+    payload = {
+        "username": "Market Impact Radar",
+        "embeds": [{
+            "title": title,
+            "color": color,
+            "description": "\n".join(lines),
+            "footer": {"text": f"Market Radar • {now_tw_str}"}
+        }]
+    }
+    return post_to_discord(payload)
+
+
+# ==================== AI 判讀 ====================
+def summarize_with_ai(ticker, context):
+    """
+    回傳 (狀態, 事件類型, 摘要, 中文標題)
+    狀態：OK（放行）、PASS（不推）、ERROR（呼叫失敗，下次重試）
+    """
     if not OPENAI_API_KEY:
         print("      ❌ [環境變數警告] 未設定 OPENAI_API_KEY！", flush=True)
-        return "PASS", "", "", False
+        return "ERROR", "", "", ""
 
-    api_url = "https://api.openai.com/v1/chat/completions"
-    headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
-    company_name = COMPANY_NAME_CACHE.get(ticker.upper(), ticker)
-
+    company_name = get_display_name(ticker)
     prompt = f"""
-你是一位分毫不差的美股資深買方研究員。請對【{ticker} - {company_name}】的這則即時消息進行精準穿透式解讀：
+你是一位嚴謹的美股買方研究員。請判讀【{ticker} - {company_name}】的這則即時消息。
 
-【絕對嚴禁之僵化模板句（出現一律視為分析失敗）】：
-1. 嚴禁填鴨式機械句型！絕對禁止開頭寫「對手方為...」、「交易/合約性質為...」、「合約性質為產品推出」等生硬套話。
-2. 嚴禁使用「提升市場地位、增強競爭力、帶來正面影響、後市可期、具戰略意義」等空洞公關廢話。
+【資訊限制，最重要】：
+你只看得到新聞標題與一小段摘要（通常就是標題本身），看不到內文。
+1. 只能寫標題或摘要中明確出現的事實與數字。嚴禁自行補充金額、比例、客戶名稱、時程或任何標題沒寫的細節。
+2. 【財務影響】若標題資訊不足以判斷，請直接寫「標題未提供財務細節，需查看原文確認」，不要推測。
+3. 若依一般常識可以合理說明方向（例如發行新股會稀釋股權、取得訂單會增加營收），可以寫，但要用「可能」並點出依據。
 
-【絕對駁回規則（命中任一條，一律回傳 PASS）】：
-1. 歷史舊聞與走勢回顧：凡是回顧數週前、上一季度財報表現（如「Since last earnings report」、「Ahead of earnings」），或單純分析過去股價漲跌幅，一律回傳 PASS。
-2. 盤面行情走勢與獲利了結：純粹描述股價下跌幾趴、上漲幾趴、獲利了結 (Profit taking)、大盤或板塊連帶回檔，或分析師主觀猜測「能否持續」，一律回傳 PASS。
-3. 雜訊軟文與買賣建議：Motley Fool/Zacks 類型的「該買入嗎？」、「3 隻值得買的股票」、例行參展、無具體條款之公關宣傳、律師股東集體訴訟招募，一律回傳 PASS。
-4. 主體不符：新聞核心主角不是【{ticker} / {company_name}】。
+【嚴禁句型】：
+1. 嚴禁「對手方為...」、「交易/合約性質為...」等生硬套話。
+2. 嚴禁「提升市場地位、增強競爭力、帶來正面影響、後市可期、具戰略意義」等空洞廢話。
 
-【分類嚴格防禦守則】：
-- 嚴禁濫用 CRISIS：常規盤中股價下跌（如跌 3%、跌 5%）絕非黑天鵝！只有遭司法部/SEC 調查、反壟斷起訴、專利強制禁令、正式聲請破產或官方公告下修年度指引，方可歸類為 CRISIS。
-- 嚴禁濫用 EARNINGS：必須是「今日/昨日最新公布」之官方季度財報、正式法說指引更新或庫藏股，任何「Since Last Earnings」的回顧文章一律回傳 PASS。
+【駁回規則（命中任一條，type 一律填 PASS）】：
+1. 歷史回顧：回顧上一季財報、過去幾週走勢、「Since last earnings」類文章。
+2. 純股價走勢：只描述漲跌幾 %、獲利了結、大盤或板塊連動，沒有說明具體事件。
+3. 評論與建議：該不該買、值得買的股票清單、分析師調整評等或目標價、產業趨勢評論、無具體內容的公關宣傳、律師集體訴訟招募。
+4. 主體不符：新聞主角不是【{ticker} / {company_name}】，只是順帶提到。
 
-【撰寫口吻與維度要求（請像真人朋友在聊天，順暢自然講重點）】：
-1. 【繁中標題】：將原英文標題精準翻譯為繁體中文（保留型號與代號）。
-2. 【核心要點】：直接用一句話白話講清楚到底發生了什麼事（例如：「推出新型晶圓讀取器擴大半導體產能」、「與戴姆勒簽約導入 QNX 系統」、「發布 Muse AI 隨身裝置與智慧眼鏡」），有合作對手或具體金額就順暢帶出，沒有就不用硬湊。（繁體中文，40-60 字）
-3. 【財務影響】：直擊實質營收認列、毛利率變化、或是否存在舉債 (Debt-funded)、股本稀釋等財務代價。（繁體中文，40-60 字）
+【分類守則】：
+CRISIS：只限政府或監管機構調查、反壟斷、制裁或出口禁令、專利禁令、做空機構報告、正式破產、官方下修財測。一般股價下跌不算。
+EARNINGS：只限今天或昨天剛公布的官方季度財報、財測調整、庫藏股計畫。
+DILUTION：發行新股、可轉債、ATM、私募等股權融資。
+M&A：收購、合併、出售資產、分拆、取得或出售大額持股。
+LEADERSHIP：執行長、財務長等高層任命或離職。
+ORDER：客戶合約、採購訂單、授權協議、合作。
+PRODUCT：新產品、新技術發表、監管核准。
 
-【輸出格式要求】：
-若不符合，只回傳單字：PASS
-若符合，嚴格回傳以下純 JSON 物件，嚴禁包含任何多餘文字：
-{{
-  "type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS",
-  "title_zh": "英文標題之繁體中文翻譯",
-  "action": "發生何事的白話核心事實（自然流暢，嚴禁出現『對手方為』字眼）",
-  "impact": "實質財務營收利弊、毛利影響或資產負債代價"
-}}
+【撰寫要求（像朋友聊天一樣自然講重點，繁體中文）】：
+title_zh：把英文標題翻成繁體中文，保留型號與代號。
+action：一句話白話說明發生什麼事，40 到 60 字。有對象或金額就自然帶出，沒有就不用硬湊。
+impact：實質財務影響（營收、毛利、負債、稀釋），40 到 60 字，遵守上方資訊限制。
+
+【輸出格式】：只輸出 JSON 物件，不要任何其他文字。
+不符合時輸出：{{"type": "PASS"}}
+符合時輸出：
+{{"type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS 或 LEADERSHIP", "title_zh": "...", "action": "...", "impact": "..."}}
 
 新聞快訊內容：
-{text[:4500]}
+{context[:4500]}
 """
     payload = {
-        "model": "gpt-4o-mini",
+        "model": OPENAI_MODEL,
         "messages": [
-            {"role": "system", "content": "你是一位專業的買方機構研究員，說話自然順暢，絕不套用死板模板句，嚴格輸出指定 JSON。"},
+            {"role": "system", "content": "你是嚴謹的買方研究員，只根據提供的資訊說話，絕不編造細節，只輸出 JSON。"},
             {"role": "user", "content": prompt}
         ],
-        "temperature": 0.1
+        "temperature": 0.1,
+        "response_format": {"type": "json_object"},
     }
-    
+    headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
+
     for attempt in range(3):
         try:
-            res = requests.post(api_url, headers=headers, json=payload, timeout=20)
+            res = requests.post("https://api.openai.com/v1/chat/completions",
+                                headers=headers, json=payload, timeout=25)
+            if res.status_code == 429 or res.status_code >= 500:
+                time.sleep(3 * (attempt + 1))
+                continue
             data = res.json()
-            if "error" in data:
+            if "error" in data or "choices" not in data:
+                print(f"      ⚠️ [OpenAI 回傳錯誤] {str(data.get('error', data))[:150]}", flush=True)
                 time.sleep(2)
                 continue
 
             content = data["choices"][0]["message"]["content"].strip()
-            if "PASS" in content:
-                return "PASS", "", "", True
-            
             json_match = re.search(r"\{[\s\S]*\}", content)
             if not json_match:
-                return "PASS", "", "", True
+                if content.upper().startswith("PASS"):
+                    return "PASS", "", "", ""
+                time.sleep(1)
+                continue
 
             parsed = json.loads(json_match.group(0))
-            event_type = parsed.get("type", "ORDER")
-            title_zh = parsed.get("title_zh", "").strip()
-            action = parsed.get("action", "").strip()
-            impact = parsed.get("impact", "").strip()
-            
+            event_type = str(parsed.get("type", "")).strip().upper()
+            if event_type == "PASS":
+                return "PASS", "", "", ""
+            if event_type not in VALID_EVENT_TYPES:
+                event_type = "ORDER"
+
+            title_zh = str(parsed.get("title_zh", "")).strip()
+            action = str(parsed.get("action", "")).strip()
+            impact = str(parsed.get("impact", "")).strip()
             if not action or not impact:
-                return "PASS", "", "", True
-                
-            formatted_summary = (
-                f"• **【核心要點】**：{action}\n"
-                f"• **【財務影響】**：{impact}"
-            )
-            return event_type, formatted_summary, title_zh, True
-        except Exception:
+                return "PASS", "", "", ""
+
+            summary = f"• **【核心要點】**：{action}\n• **【財務影響】**：{impact}"
+            return "OK", event_type, summary, title_zh
+        except Exception as e:
+            print(f"      ⚠️ [OpenAI 呼叫異常] {e}", flush=True)
             time.sleep(2)
-            
-    return "PASS", "", "", False
+
+    return "ERROR", "", "", ""
 
 
-# ==================== 稿件檢索與巡檢邏輯 ====================
+# ==================== 新聞抓取 ====================
 def fetch_google_wire_news(ticker):
-    company_name = COMPANY_NAME_CACHE.get(ticker.upper())
-    is_common = ticker.upper() in COMMON_WORD_TICKERS
-
-    if is_common:
-        if company_name and len(company_name) >= 3:
-            search_target = f'"{company_name}" OR "${ticker}"'
-        else:
-            search_target = f'"${ticker}"'
-    else:
-        if company_name and company_name.upper() != ticker.upper() and len(company_name) >= 3:
-            search_target = f'"{company_name}" OR "{ticker}" OR "${ticker}"'
-        else:
-            search_target = f'"{ticker}" OR "${ticker}"'
-
-    query = f"{search_target} when:2d"
-    encoded_query = urllib.parse.quote(query)
-    rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
-    
+    """回傳 (稿件清單, 是否抓取成功)。抓取失敗與「真的沒有新聞」會分開計算。"""
+    query = build_search_query(ticker)
+    rss_url = f"https://news.google.com/rss/search?q={urllib.parse.quote(query)}&hl=en-US&gl=US&ceid=US:en"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     }
 
-    for retry in range(2):
+    for attempt in range(3):
         try:
-            res = requests.get(rss_url, headers=headers, timeout=12)
-            if res.status_code == 429:
-                print(" ⚠️ [Google 頻率限制 429] 降速冷卻 8 秒...", flush=True)
-                time.sleep(8)
+            res = requests.get(rss_url, headers=headers, timeout=15)
+            if res.status_code == 429 or res.status_code >= 500:
+                wait = 8 * (attempt + 1)
+                print(f" ⚠️ [Google HTTP {res.status_code}] 冷卻 {wait} 秒...", end="", flush=True)
+                time.sleep(wait)
                 continue
             if res.status_code != 200 or not res.content:
-                return []
-            
+                return [], False
+
             root = ET.fromstring(res.content)
             channel = root.find("channel")
             if channel is None:
-                return []
+                return [], False
 
             items = []
             for item in channel.findall("item"):
-                raw_title = item.findtext("title") or ""
-                link = item.findtext("link") or ""
-                pub_date = item.findtext("pubDate") or ""
-                source = item.findtext("source") or "Unknown"
                 description = item.findtext("description") or ""
-                
-                clean_desc = re.sub(r"<[^>]+>", " ", description).strip()
-
                 items.append({
-                    "raw_title": raw_title,
-                    "url": link,
-                    "pub_date_raw": pub_date,
-                    "source": source,
-                    "snippet": clean_desc
+                    "raw_title": item.findtext("title") or "",
+                    "url": item.findtext("link") or "",
+                    "pub_date_raw": item.findtext("pubDate") or "",
+                    "source": item.findtext("source") or "Unknown",
+                    "snippet": re.sub(r"<[^>]+>", " ", description).strip(),
                 })
-            return items
+            return items, True
         except Exception:
-            time.sleep(1)
-    return []
+            time.sleep(2)
+    return [], False
 
 
-def check_and_process_ticker(ticker, sent_fingerprints, history_records):
-    wire_items = fetch_google_wire_news(ticker)
+# ==================== 巡檢邏輯 ====================
+def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
+    wire_items, ok = fetch_google_wire_news(ticker)
+    if not ok:
+        stats["fetch_failed"].append(ticker)
+        print("❌ 抓取失敗", flush=True)
+        return
     if not wire_items:
         print("0 則稿件", flush=True)
         return
 
     print(f"候選稿件 {len(wire_items)} 則", flush=True)
-    sent_in_this_round_count = 0
+    max_push = MAX_PUSH_PER_HOLDING if ticker in HOLDINGS else MAX_PUSH_PER_TICKER
+    pushed_this_round = 0
+    ai_this_round = 0
+
+    # Google 預設依相關度排序，改成最新的優先處理
+    wire_items.sort(key=lambda x: parse_pub_time(x["pub_date_raw"]), reverse=True)
 
     for item in wire_items:
-        # 單輪同標的熔斷：一輪巡檢中，同一檔股票最多推播 2 則不同維度重大事件，杜絕洗版
-        if sent_in_this_round_count >= 2:
+        if pushed_this_round >= max_push:
             break
 
-        raw_title = item["raw_title"]
         source_name = item["source"]
-
-        if not is_trusted_source(source_name):
+        source_tier = get_source_tier(source_name)
+        if not source_tier:
+            continue
+        if not is_within_hours(item["pub_date_raw"], NEWS_WINDOW_HOURS):
             continue
 
-        if not is_within_36_hours(item["pub_date_raw"]):
+        # 拿掉 Google 標題尾巴的「 - 來源名稱」，避免來源名稱被誤認成公司名稱
+        clean_title = re.sub(r"\s+[\-–—]\s+[^\-–—]+$", "", item["raw_title"]).strip()
+        if not clean_title or not matches_target_entity(ticker, clean_title):
             continue
 
-        if not matches_target_entity(ticker, raw_title):
-            continue
-
-        clean_title = re.sub(r"\s+[\-–—]\s+[^\-–—]+$", "", raw_title).strip()
         fingerprint = make_news_fingerprint(ticker, clean_title)
-        
-        # 精確 MD5 去重
-        if fingerprint in sent_fingerprints:
+        if fingerprint in seen_fps:
             continue
 
-        # 核心升級：語意去重 + 專有名詞撞車攔截
-        if is_duplicate_news(ticker, clean_title, history_records):
-            save_sent_record(fingerprint, ticker, clean_title)
-            sent_fingerprints.add(fingerprint)
+        passed, reason = evaluate_title(ticker, clean_title, item["snippet"], source_tier)
+        if not passed:
             continue
 
-        if is_junk_title(clean_title):
-            save_sent_record(fingerprint, ticker, clean_title)
-            sent_fingerprints.add(fingerprint)
+        if is_duplicate_news(ticker, clean_title, history_entries):
+            print(f"      [同事件改寫] 略過：{clean_title[:60]}", flush=True)
             continue
 
-        title_has_signal = has_high_impact_signal(clean_title)
-        snippet_has_signal = has_high_impact_signal(item['snippet'])
-
-        if not (title_has_signal or snippet_has_signal):
+        if ai_this_round >= MAX_AI_PER_TICKER:
+            stats["ai_deferred"] += 1
             continue
+        ai_this_round += 1
+        print(f"      ⚡ [{reason}] {clean_title[:60]}... 提交 AI 判讀", flush=True)
+        stats["ai_checked"] += 1
 
-        print(f"      ⚡ [命中重大事件] {clean_title[:50]}... 提交 GPT 審核...", flush=True)
-        
         pub_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
-        if item["pub_date_raw"]:
-            try:
-                pub_dt = parsedate_to_datetime(item["pub_date_raw"])
-                pub_tw_str = pub_dt.astimezone(TW_TZ).strftime("%Y-%m-%d %H:%M")
-            except Exception:
-                pass
+        try:
+            pub_tw_str = parsedate_to_datetime(item["pub_date_raw"]).astimezone(TW_TZ).strftime("%Y-%m-%d %H:%M")
+        except Exception:
+            pass
 
-        context = f"標題: {clean_title}\n來源: {source_name}\n內容摘要: {item['snippet']}"
-        event_type, summary_text, title_zh, is_api_ok = summarize_with_ai(ticker, context)
+        context = f"標題: {clean_title}\n來源: {source_name}\n摘要: {item['snippet']}"
+        status, event_type, summary, title_zh = summarize_with_ai(ticker, context)
 
-        if not is_api_ok:
+        if status == "ERROR":
+            stats["ai_error"] += 1
+            print("      ⚠️ [AI 失敗] 不寫入紀錄，下次重試", flush=True)
             continue
 
-        # 即時寫入記憶庫：讓同一輪迴圈後續的文章能立刻對位攔截
-        save_sent_record(fingerprint, ticker, clean_title)
-        sent_fingerprints.add(fingerprint)
-        history_records.append({"ticker": ticker, "title": clean_title})
+        entry = {"time": datetime.now(UTC_TZ), "fp": fingerprint, "ticker": ticker, "title": clean_title}
 
-        if event_type == "PASS" or len(summary_text) <= 10:
-            print("      [AI裁定] PASS (主體不符/非核心衝擊事件)", flush=True)
-        else:
-            print(f"      🎯 [AI放行] 判定為 {event_type} 事件！發送 Discord...", flush=True)
-            send_discord_embed(
-                ticker, 
-                clean_title, 
-                event_type, 
-                summary_bullets=summary_text, 
-                news_url=item["url"], 
-                pub_date_str=pub_tw_str, 
-                source_name=source_name,
-                title_zh=title_zh
-            )
-            sent_in_this_round_count += 1
+        if status == "PASS":
+            stats["ai_pass"] += 1
+            entry["status"] = "PASS"
+            append_history(entry, history_entries, seen_fps)
+            print("      [AI 裁定] PASS", flush=True)
+            continue
+
+        print(f"      🎯 [AI 放行] {event_type}，發送 Discord...", flush=True)
+        ok_push = send_news_embed(ticker, clean_title, event_type, summary, item["url"],
+                                  pub_tw_str, source_name, title_zh)
+        if ok_push:
+            stats["pushed"] += 1
+            entry["status"] = "SENT"
+            append_history(entry, history_entries, seen_fps)
+            pushed_this_round += 1
+            print("      🎉 [推播成功]", flush=True)
             time.sleep(1)
+        else:
+            stats["push_failed"] += 1
+            print("      ❌ [推播失敗] 不寫入紀錄，下次重試", flush=True)
 
 
 # ==================== 主程式進入點 ====================
@@ -685,24 +1106,58 @@ def main():
         print("❌ 錯誤：找不到 tickers.txt 檔案！", flush=True)
         return
 
-    preload_sec_company_names()
-
     with open("tickers.txt", "r", encoding="utf-8-sig") as f:
-        tickers = [line.strip().upper() for line in f if line.strip() and not line.strip().startswith("#")]
+        tickers = []
+        for line in f:
+            t = line.strip().upper()
+            if t and not t.startswith("#") and t not in tickers:
+                tickers.append(t)
 
-    sent_fingerprints, history_records = load_sent_history()
-    total_count = len(tickers)
-    print(f"🏛️ 啟動全維度重大事件巡檢，清單共計：{total_count} 檔標的", flush=True)
-    print(f"📦 已記錄歷史審查紀錄：{len(sent_fingerprints)} 條", flush=True)
+    preload_sec_names_for_missing(tickers)
+
+    history_entries, heartbeat_date = load_history()
+    seen_fps = {e["fp"] for e in history_entries}
+    total = len(tickers)
+    stats = {"fetch_failed": [], "timed_out": [], "ai_checked": 0, "ai_pass": 0,
+             "ai_error": 0, "ai_deferred": 0, "pushed": 0, "push_failed": 0}
+    run_start = time.monotonic()
+
+    print(f"🏛️ 啟動重大事件巡檢，清單共計：{total} 檔標的", flush=True)
+    print(f"📦 歷史紀錄：{len(history_entries)} 條", flush=True)
     print("==========================================", flush=True)
 
+    consecutive_fails = 0
     for idx, ticker in enumerate(tickers, start=1):
-        print(f"[{idx:03d}/{total_count:03d}] 檢索標的：{ticker:5s} ... ", end="", flush=True)
-        check_and_process_ticker(ticker, sent_fingerprints, history_records)
-        time.sleep(0.6)
+        print(f"[{idx:03d}/{total:03d}] 檢索標的：{ticker:5s} ... ", end="", flush=True)
+        before = len(stats["fetch_failed"])
+        check_and_process_ticker(ticker, seen_fps, history_entries, stats)
+        consecutive_fails = consecutive_fails + 1 if len(stats["fetch_failed"]) > before else 0
+        if time.monotonic() - run_start > MAX_RUN_MINUTES * 60 and idx < total:
+            stats["timed_out"] = tickers[idx:]
+            print(f"🛑 已執行超過 {MAX_RUN_MINUTES} 分鐘，略過剩餘 {len(stats['timed_out'])} 檔", flush=True)
+            break
+        if consecutive_fails >= MAX_CONSECUTIVE_FETCH_FAILS:
+            remaining = tickers[idx:]
+            stats["fetch_failed"].extend(remaining)
+            print(f"🛑 連續 {consecutive_fails} 檔抓取失敗，判定被 Google 限流，略過剩餘 {len(remaining)} 檔", flush=True)
+            break
+        time.sleep(SLEEP_BETWEEN_TICKERS)
+
+    # 健康回報：抓取失敗比例過高時立即警報；否則每天送一則
+    fail_ratio = len(stats["fetch_failed"]) / total if total else 0
+    today_tw = datetime.now(TW_TZ).strftime("%Y-%m-%d")
+    is_alert = fail_ratio >= FETCH_FAIL_ALERT_RATIO or bool(stats["timed_out"])
+    need_heartbeat = heartbeat_date != today_tw and datetime.now(TW_TZ).hour >= HEARTBEAT_HOUR_TW
+    if is_alert or need_heartbeat:
+        if send_run_summary(stats, total, is_alert) and need_heartbeat:
+            heartbeat_date = today_tw
+
+    removed = rewrite_history(history_entries, heartbeat_date)
 
     print("==========================================", flush=True)
-    print(f"✅ 全量巡檢完成！共計掃描 {total_count} 檔標的。", flush=True)
+    print(f"✅ 巡檢完成：掃描 {total} 檔，抓取失敗 {len(stats['fetch_failed'])} 檔，"
+          f"送 AI {stats['ai_checked']} 則，推播 {stats['pushed']} 則，"
+          f"清除過期紀錄 {removed} 條", flush=True)
     print("==========================================", flush=True)
 
 
