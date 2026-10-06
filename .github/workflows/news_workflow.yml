@@ -2,30 +2,40 @@ name: Commercial News Bot
 
 on:
   schedule:
-    # 平日時段（UTC 週日至週四，換算台灣週一至週五盤中與日常常規巡檢）
-    - cron: '30 13-21 * * 0-4'   # 盤中密集時段 (台灣 21:30 - 05:30)
-    - cron: '30 1,5,9 * * 1-5'    # 離峰時段 (台灣 09:30, 13:30, 17:30)
-    
-    # 假日時段（UTC 週五晚上至週日，換算台灣週六至週日，排程直接降為每 8 小時觸發一次）
-    - cron: '30 0,8,16 * * 5-6'   # 台灣時間週六與週日的 08:30, 16:30, 00:30
+    # ===== GitHub 排程一律使用 UTC 時間；台灣時間 = UTC + 8 小時 =====
+    # 美股交易日（UTC 週一至週五）每小時一次，涵蓋盤前、盤中與盤後財報時段
+    # UTC 12:30 至 22:30 = 台灣 20:30 至隔天 06:30
+    - cron: '30 12-22 * * 1-5'
+    # 台灣白天（UTC 週一至週五）= 台灣 09:30、13:30、17:30
+    - cron: '30 1,5,9 * * 1-5'
+    # 週末（UTC 週六、週日）每 8 小時一次
+    # = 台灣週六 08:30、16:30，週日 00:30、08:30、16:30，週一 00:30
+    - cron: '30 0,8,16 * * 0,6'
   workflow_dispatch:
+
+# 同一時間只跑一個新聞巡檢，避免 GitHub 排程延遲時兩次執行重疊、互相覆蓋紀錄檔
+concurrency:
+  group: news-monitor
+  cancel-in-progress: false
 
 jobs:
   run-news-bot:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     permissions:
       contents: write
 
     steps:
       - name: Check out repo
-        uses: actions/checkout@v4
+        id: checkout
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.10'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: |
@@ -36,21 +46,34 @@ jobs:
         env:
           DISCORD_NEWS_WEBHOOK: ${{ secrets.DISCORD_NEWS_WEBHOOK }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # 可選：沒設定也能運作，只有對照表漏收某檔股票時才會用到
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: |
           python monitor_news.py
 
+      # 就算程式中途出錯或超時，也要把已經寫入的紀錄存回 repo，避免下次重複推播
+      # （前提是 repo 有成功下載，否則沒有東西可以存）
       - name: Commit and Push Sent History & Weekend Timestamp
+        if: always() && steps.checkout.outcome == 'success'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          touch sent_news_log.txt
-          touch weekend_last_run.txt
-          # 關鍵修正：同時追蹤新聞歷史庫與週末時間戳
+          touch sent_news_log.txt weekend_last_run.txt
           git add sent_news_log.txt weekend_last_run.txt
-          if [ -n "$(git status --porcelain sent_news_log.txt weekend_last_run.txt)" ]; then
-            git commit -m "chore: update sent news history & weekend state [skip ci]"
-            git pull --rebase -X theirs origin main
-            git push origin main
-          else
-            echo "無新新聞紀錄或時間戳需更新。"
+          if git diff --cached --quiet; then
+            echo "無新紀錄或時間戳需更新。"
+            exit 0
           fi
+          git commit -m "chore: update sent news history & weekend state [skip ci]"
+          # SEC 那支可能剛好同時推送，失敗時拉取最新版本後重試
+          for i in 1 2 3 4 5; do
+            if git pull --rebase -X theirs origin main && git push origin main; then
+              echo "推送成功"
+              exit 0
+            fi
+            echo "推送失敗，第 $i 次重試..."
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          echo "推送失敗，本次紀錄未保存"
+          exit 1
