@@ -744,11 +744,17 @@ BUYER_SIDE_VERB = (
     r"nabs?|nabbed|captures?|captured|awarded|is\s+awarded|was\s+awarded)\b"
 )
 BUYER_SIDE_OBJECT = r"\b(?:orders?|contracts?|deals?|purchase\s+orders?|supply\s+deals?)\b"
+# 「別家公司 供電/供貨/服務 本公司」：例如「Black Hills plans $1.8 billion investment to power Google's data center」
+SUPPLY_TO_VERB = (
+    r"\b(?:to\s+(?:power|supply|serve|fuel)|powers|powering|supplies|supplying|"
+    r"serves|serving|fuels|fueling)\b"
+)
 
 
 def is_buyer_side_order(ticker, title):
     """
-    標題是「別家公司 拿到 訂單 from/by 本公司」或「別家公司 拿到 本公司的訂單」時回傳 True。
+    標題是「別家公司 拿到 訂單 from/by 本公司」、「別家公司 拿到 本公司的訂單」
+    或「別家公司 供電/供貨給本公司」時回傳 True。
     本公司如果出現在動詞前面（本公司自己拿到訂單、本公司是賣方），一律不擋。
     """
     for verb in re.finditer(BUYER_SIDE_VERB, title, flags=re.IGNORECASE):
@@ -768,6 +774,12 @@ def is_buyer_side_order(ticker, title):
         # 句型二：wins ... order from SK hynix / awarded contract by SK hynix
         src = re.search(r"\b(?:from|by)\b", after[:80], flags=re.IGNORECASE)
         if src and matches_target_entity(ticker, after[src.end():]):
+            return True
+    # 句型三：別家公司 to power / to supply / to serve 本公司（本公司是客戶）
+    for verb in re.finditer(SUPPLY_TO_VERB, title, flags=re.IGNORECASE):
+        if matches_target_entity(ticker, title[:verb.start()]):
+            return False
+        if matches_target_entity(ticker, title[verb.end():verb.end() + 50]):
             return True
     return False
 
@@ -830,8 +842,26 @@ def normalize_money(title):
     return t
 
 
+# 同一類事件的不同寫法，比對時視為同一個字（例如 acquires 和 acquisition）
+# 訂單、合約類故意不歸一：同一家公司常常一週內接到好幾張不同的單
+EVENT_WORD_FAMILIES = {
+    "acquire": "@acq", "acquisition": "@acq", "acquir": "@acq", "buy": "@acq", "buyout": "@acq",
+    "takeover": "@acq", "purchase": "@acq",
+    "merger": "@merge", "merge": "@merge",
+    "appoint": "@lead", "name": "@lead", "nam": "@lead", "hire": "@lead", "hir": "@lead",
+    "ceo": "@lead", "cfo": "@lead",
+    "offer": "@offer", "offering": "@offer", "placement": "@offer",
+}
+# 媒體轉載時加在標題尾巴的署名，例如「By Investing.com」
+BYLINE_PATTERN = r"\s+by\s+(?:investing\.com|reuters|bloomberg|benzinga|zacks|tipranks|marketbeat)\b.*$"
+
+
+def strip_byline(title):
+    return re.sub(BYLINE_PATTERN, "", title, flags=re.IGNORECASE).strip()
+
+
 def extract_core_words(title):
-    title = normalize_money(title)
+    title = normalize_money(strip_byline(title))
     words = re.findall(r"\$?[a-zA-Z0-9]+(?:[.,][0-9]+)?", title)
     core = set()
     for w in words:
@@ -841,6 +871,7 @@ def extract_core_words(title):
         norm = normalize_word(lw)
         if not norm:
             continue
+        norm = EVENT_WORD_FAMILIES.get(norm, norm)
         if any(ch.isdigit() for ch in norm) or len(norm) > 2 or norm in VALID_SHORT_TECH_TERMS:
             core.add(norm)
     return core
@@ -858,7 +889,7 @@ def get_alias_tokens(ticker):
 def extract_specific_tokens(title, ticker):
     """具體識別詞：含數字的字（$5、H200、18A）或非常見縮寫的全大寫字（CPX、HBM4）"""
     tokens = set()
-    for w in re.findall(r"\$?[A-Za-z0-9]+(?:[.,][0-9]+)?", normalize_money(title)):
+    for w in re.findall(r"\$?[A-Za-z0-9]+(?:[.,][0-9]+)?", normalize_money(strip_byline(title))):
         bare = w.lstrip("$")
         if bare.upper() == ticker:
             continue
@@ -907,7 +938,13 @@ def is_duplicate_news(ticker, new_title, history_entries):
             return True
         old_specific = extract_specific_tokens(h["title"], ticker) - alias_tokens
         # 共享同一個具體數字或型號（例如 $5 billion、H200、CPX）時，門檻放寬
-        if new_specific & old_specific and similarity >= 0.20:
+        shared_specific = new_specific & old_specific
+        if shared_specific and similarity >= 0.20:
+            return True
+        # 共享同一個專有名詞（例如被收購的 INVENTVM），而且是同一類事件（都是收購、都是人事）→ 同一件事
+        shared_names = {t for t in shared_specific if not any(ch.isdigit() for ch in t)}
+        shared_events = (new_words & old_words) & {"@acq", "@merge", "@lead", "@offer"}
+        if shared_names and shared_events:
             return True
     return False
 
