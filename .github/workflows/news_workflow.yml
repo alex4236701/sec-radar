@@ -46,6 +46,8 @@ jobs:
         env:
           DISCORD_NEWS_WEBHOOK: ${{ secrets.DISCORD_NEWS_WEBHOOK }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # 可選：想換 AI 模型時，在 GitHub Secrets 新增 OPENAI_MODEL（例如 gpt-5-mini），沒設定就用程式預設
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
           # 可選：沒設定也能運作，只有對照表漏收某檔股票時才會用到
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: |
