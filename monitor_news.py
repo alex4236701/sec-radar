@@ -30,6 +30,16 @@ DEDUP_WINDOW_HOURS = 72         # 和最近幾小時內「已推播」的新聞�
 HISTORY_KEEP_DAYS = 14          # 歷史紀錄保留天數，超過自動刪除
 MAX_PUSH_PER_TICKER = 2         # 單輪每檔最多推播幾則
 MAX_PUSH_PER_HOLDING = 3        # 持股單輪最多推播幾則
+# 每檔 24 小時內的推播上限：超過「軟上限」後只放行強催化劑，到「硬上限」就完全停止
+DAILY_SOFT_CAP = 3
+DAILY_HARD_CAP = 6
+DAILY_SOFT_CAP_HOLDING = 4
+DAILY_HARD_CAP_HOLDING = 7
+# 持股的「不需催化劑也送 AI」放寬，只用在新聞量少的股票（本輪候選稿件少於這個數字）
+# 新聞量大的持股（例如 AVGO、MU）本來就不缺報導，用一般規則即可，避免洗版
+HOLDING_RELAX_MAX_CANDIDATES = 30
+# 同一家公司的不同股票代號，統一成一個，避免同一則新聞推兩次
+TICKER_CANONICAL = {"GOOG": "GOOGL"}
 FETCH_FAIL_ALERT_RATIO = 0.20   # 抓取失敗比例超過此值，立即推播警報
 HEARTBEAT_HOUR_TW = 6           # 每天台灣時間幾點之後的第一次執行，推播一則健康回報
 SLEEP_BETWEEN_TICKERS = 0.8
@@ -38,13 +48,16 @@ MAX_CONSECUTIVE_FETCH_FAILS = 8  # 連續幾檔抓取失敗就判定被封鎖，
 MAX_AI_PER_TICKER = 8           # 單輪每檔最多送 AI 判讀幾則，其餘留到下次執行（控制費用）
 MAX_RUN_MINUTES = 30            # 整輪最多跑幾分鐘（workflow 上限 40 分鐘），超過就提前結束並警報
 
-# 持股：條件放寬（可信來源的新聞不必命中催化劑也會送 AI 判讀）
-HOLDINGS = {"VSH", "MKSI", "UMAC"}
+# 持股清單從 holdings.txt 讀取（一行一個代號），持股變動只要改那個檔案，不用改程式
+# 持股的待遇：放寬推播條件、每日上限較高、推播標題標「★ 持股」、每次最優先掃描
+HOLDINGS_FILE = "holdings.txt"
+HOLDINGS = set()
 
 # ==================== 新聞常用名稱對照表 ====================
 # 格式：代號: ([不分大小寫的名稱], [必須大小寫完全相同的名稱])
 # 第二組用在名稱本身是普通英文字的情況，例如 Arm、Circle、Coherent
-# 新增觀察股時，請在這裡加一行；沒加的話會退回使用 SEC 法定名稱（準確度較差）
+# 新增觀察股時不用手動加：程式會自動向 SEC 查名稱、請 AI 產生，存在 auto_aliases.json
+# 只有自動結果不準時，才需要在這裡手動加一行（這裡的設定優先於自動結果）
 TICKER_PROFILES = {
     # 科技巨頭
     "GOOGL": (["Alphabet", "Google", "Waymo"], []),
@@ -276,6 +289,10 @@ ALWAYS_JUNK_PATTERNS = [
     r"\btop\s+\d+\s+[\w\s]*stocks\b",
     r"\bmillionaire\b",
     r"\bprice\s+target\b",
+    r"\(preview\)", r"\bearnings\s+setup\b", r"\bset\s+for\s+earnings\b", r"\bpoised\s+to\s+beat\b",
+    r"\bbeat\s+(?:earnings\s+)?estimates\s+again\b", r"\breasons?\s+why\b", r"\bin\s+focus\b",
+    r"\bfair\s+value\b", r"\bundervalued\b", r"\bovervalued\b", r"\bm&a\s+watch\b",
+    r"\breporting\s+date\b", r"\bearnings\s+(?:release\s+)?date\b", r"\bdate\s+(?:for|of)\s+[\w\s]*results\b",
 
     # 例行會議、電話會排程
     r"\bto\s+report\b", r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
@@ -287,7 +304,9 @@ ALWAYS_JUNK_PATTERNS = [
     r"\bforecast\s+to\s+20\d\d\b", r"\btop\s+players\b", r"\bindustry\s+report\b",
     r"\bnamed\s+(?:a\s+)?winner\b", r"\bwins?\s+award\b", r"\bgreat\s+place\s+to\s+work\b",
     r"\besg\s+report\b", r"\bsustainability\s+report\b", r"\bcarbon\s+neutral\b",
-    r"\bdonates?\b", r"\bwhitepaper\b", r"\bsurvey\s+finds\b",
+    r"\bdonat\w*\b", r"\bwhitepaper\b", r"\bsurvey\s+finds\b",
+    r"\bgoogle\.org\b", r"\bcharit\w*\b", r"\bnonprofits?\b", r"\bphilanthrop\w*\b",
+    r"\bscholarships?\b", r"\bsponsorship\b", r"\bvolunteer\w*\b",
 ]
 
 # 第二類：股價走勢類標題。只有在「沒有強催化劑」時才排除
@@ -301,6 +320,8 @@ MOVE_JUNK_PATTERNS = [
     r"\b(?:drops?|falls?|slips?|surges?|climbs?|rises?|slides?|tumbles?|jumps?|soars?|sinks?|down|up)\s+(?:by\s+)?\d+(?:\.\d+)?%\s+(?:as|after|amid|on|following|today|premarket|in\s+premarket|in\s+after[\s-]hours)\b",
     r"\bshares\s+(?:fall|drop|slip|slide|surge|jump|tumble|soar|sink|rally)\b",
     r"\bstock\s+(?:is\s+)?(?:soaring|sinking|plunging|surging|tumbling|rallying)\b",
+    r"\b(?:stock|shares?)\s+(?:inches?|edges?|ticks?|creeps?)\s+(?:higher|lower|up|down)\b",
+    r"\b(?:stock|shares?)\s+stays?\s+flat\b",
 ]
 
 # ==================== 催化劑信號 ====================
@@ -318,7 +339,7 @@ STRONG_SIGNAL_PATTERNS = [
     r"\bbuyback\b", r"\brepurchase\s+(?:program|plan|authorization)\b",
     # 併購與投資
     r"\btakeover\b", r"\bacquisition\b", r"\bacquires?\b", r"\bto\s+acquire\b", r"\bbuyout\b",
-    r"\bto\s+buy\b", r"\bin\s+talks\b", r"\bexplor\w*\s+(?:a\s+)?sale\b", r"\bmerger\b", r"\bmerge\b",
+    r"\bto\s+buy\b", r"\bin\s+talks\b", r"\bbids?\s+for\b", r"\bmakes?\s+(?:an?\s+)?(?:\w+\s+)?(?:bid|offer)\b", r"\bexplor\w*\s+(?:a\s+)?sale\b", r"\bmerger\b", r"\bmerge\b",
     r"\bstrategic\s+investment\b", r"\btakes?\s+(?:a\s+)?stake\b", r"\bstake\s+in\b",
     r"\binvest(?:s|ing|ment)?\s+\$\d", r"\bspin[\s-]?off\b", r"\bdivest\w*\b", r"\bsale\s+of\b",
     # 融資與稀釋
@@ -387,7 +408,7 @@ COMMON_ACRONYMS = {
     "EPS", "ATM", "M&A", "PC", "PCS", "EV", "EVS", "TV", "AR", "VR", "XR", "5G", "6G", "LLC", "INC", "NYSE", "NASDAQ"
 }
 
-SEC_NAME_CACHE = {}
+SEC_NAME_CACHE = {}   # 代號 → [備援名稱]
 
 VALID_EVENT_TYPES = {"ORDER", "M&A", "DILUTION", "EARNINGS", "PRODUCT", "CRISIS", "LEADERSHIP"}
 
@@ -403,15 +424,50 @@ def clean_company_name(raw_name):
     return name if len(name) >= 3 else raw_name.strip()
 
 
-def preload_sec_names_for_missing(tickers):
-    """只有在 tickers.txt 裡有對照表沒收錄的代號時，才去 SEC 抓法定名稱當備援"""
-    missing = [t for t in tickers if t not in TICKER_PROFILES]
-    if not missing:
-        return missing
-    print(f"⚠️ 以下代號不在新聞名稱對照表中，將以 SEC 法定名稱備援（建議補進 TICKER_PROFILES）：{', '.join(missing)}", flush=True)
+# ==================== 新代號自動產生新聞名稱 ====================
+# 不在 TICKER_PROFILES 的代號，程式會先向 SEC 查法定名稱，再請 AI 產生新聞常用名稱，
+# 結果存在 auto_aliases.json，之後直接沿用，不用你手動查。
+AUTO_ALIAS_FILE = "auto_aliases.json"
+AUTO_PROFILES = {}
+AUTO_NAMED_THIS_RUN = []
+AUTO_RETRY_UNKNOWN_DAYS = 7
+GENERIC_NAME_WORDS = {
+    "energy", "technology", "technologies", "systems", "group", "global", "international", "holdings",
+    "solutions", "american", "national", "united", "general", "first", "advanced", "digital", "power",
+    "resources", "materials", "networks", "software", "semiconductor", "devices", "industries",
+    "robotics", "aerospace", "defense", "mining", "motors", "labs", "therapeutics", "pharmaceuticals",
+    "electronics", "communications", "capital", "financial", "partners", "enterprises", "brands",
+    "inc", "corp", "company", "ai", "data", "cloud", "quantum", "space", "nuclear", "solar", "battery"
+}
+
+
+def load_auto_profiles():
+    AUTO_PROFILES.clear()
+    if not os.path.exists(AUTO_ALIAS_FILE):
+        return
+    try:
+        with open(AUTO_ALIAS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if isinstance(data, dict):
+            AUTO_PROFILES.update(data)
+    except Exception as e:
+        print(f"⚠️ {AUTO_ALIAS_FILE} 讀取失敗（{e}），將重新產生", flush=True)
+
+
+def save_auto_profiles():
+    tmp = AUTO_ALIAS_FILE + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(AUTO_PROFILES, f, ensure_ascii=False, indent=2, sort_keys=True)
+    os.replace(tmp, AUTO_ALIAS_FILE)
+
+
+def fetch_sec_official_names(tickers):
+    names = {}
+    if not tickers:
+        return names
     if not SEC_USER_AGENT:
-        print("⚠️ 未設定 SEC_USER_AGENT，略過 SEC 名稱下載，這些代號只能用代號比對", flush=True)
-        return missing
+        print("ℹ️ 未設定 SEC_USER_AGENT，新代號只能靠 AI 判斷公司名稱（較不準確）", flush=True)
+        return names
     try:
         res = requests.get(
             "https://www.sec.gov/files/company_tickers.json",
@@ -419,30 +475,163 @@ def preload_sec_names_for_missing(tickers):
             timeout=12
         )
         if res.status_code == 200:
+            wanted = set(tickers)
             for item in res.json().values():
-                t = item["ticker"].upper()
-                if t in missing:
-                    SEC_NAME_CACHE[t] = clean_company_name(item.get("title", ""))
-            print(f"✅ 已自 SEC 取得 {len(SEC_NAME_CACHE)} 檔備援名稱", flush=True)
+                t = str(item.get("ticker", "")).upper()
+                if t in wanted:
+                    names[t] = clean_company_name(item.get("title", ""))
         else:
             print(f"⚠️ SEC 名稱下載失敗（HTTP {res.status_code}）", flush=True)
     except Exception as e:
         print(f"⚠️ SEC 名稱下載失敗（{e}）", flush=True)
-    return missing
+    return names
+
+
+def clean_alias_list(values):
+    out = []
+    if not isinstance(values, list):
+        return out
+    for v in values:
+        v = str(v).strip()
+        if not (2 <= len(v) <= 40):
+            continue
+        if v.lower() in GENERIC_NAME_WORDS:
+            continue
+        if v.lower() not in [x.lower() for x in out]:
+            out.append(v)
+    return out[:5]
+
+
+def ask_ai_for_aliases(ticker, official_name):
+    if not OPENAI_API_KEY:
+        return None
+    prompt = f"""You help match news headlines to a US-listed stock.
+Ticker: {ticker}
+Official SEC registrant name: {official_name or "unknown"}
+
+Return ONLY a JSON object:
+{{"known": true or false,
+  "names": ["names that English news headlines commonly use for this company, matched case-insensitively"],
+  "case_sensitive_names": ["names that are also ordinary English words, so they should only match when capitalized, e.g. Arm, Circle"],
+  "ticker_is_common_word": true or false}}
+
+Rules:
+1. Up to 4 names in total. Put the short name headlines use most often first (e.g. "TSMC" for Taiwan Semiconductor Manufacturing, "Google" and "Alphabet" for Alphabet Inc.).
+2. Do not include generic words alone (e.g. "Energy", "Technology"), and do not include product names that other companies also use.
+3. ticker_is_common_word is true when the ticker is an ordinary word, currency, common abbreviation or another organization's acronym (e.g. NOW, NET, SNOW, ASX, NOK).
+4. If you do not recognize the company and the official name is unknown, set known to false and leave the lists empty. Never guess."""
+    payload = {
+        "model": OPENAI_MODEL,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0,
+        "response_format": {"type": "json_object"},
+    }
+    headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
+    for attempt in range(2):
+        try:
+            res = requests.post("https://api.openai.com/v1/chat/completions",
+                                headers=headers, json=payload, timeout=25)
+            data = res.json()
+            if "choices" not in data:
+                time.sleep(2)
+                continue
+            return json.loads(data["choices"][0]["message"]["content"])
+        except Exception:
+            time.sleep(2)
+    return None
+
+
+def heuristic_names_from_sec(official_name):
+    """AI 失敗時的備援：用 SEC 名稱，以及名稱第一個字（不是通用字才用）"""
+    if not official_name:
+        return []
+    names = [official_name]
+    first = official_name.split()[0]
+    if len(first) > 3 and first.lower() not in GENERIC_NAME_WORDS and first.lower() != official_name.lower():
+        names.append(first)
+    return names
+
+
+def prepare_names_for_missing(tickers):
+    """替不在 TICKER_PROFILES 的代號準備新聞名稱：先看已存的自動結果，沒有就向 SEC 查名稱再請 AI 產生"""
+    load_auto_profiles()
+    missing = [t for t in tickers if t not in TICKER_PROFILES]
+    if not missing:
+        return
+
+    today = datetime.now(TW_TZ).date()
+
+    def needs_refresh(t):
+        entry = AUTO_PROFILES.get(t)
+        if not entry:
+            return True
+        if entry.get("names") or entry.get("cs_names"):
+            return False
+        try:
+            created = datetime.strptime(entry.get("created", ""), "%Y-%m-%d").date()
+            return (today - created).days >= AUTO_RETRY_UNKNOWN_DAYS
+        except Exception:
+            return True
+
+    todo = [t for t in missing if needs_refresh(t)]
+    official = fetch_sec_official_names(todo)
+    changed = False
+
+    for t in todo:
+        result = ask_ai_for_aliases(t, official.get(t))
+        if result is None:
+            # AI 這次失敗：先用 SEC 名稱頂著，不存檔，下次再試
+            fallback = heuristic_names_from_sec(official.get(t))
+            if fallback:
+                SEC_NAME_CACHE[t] = fallback
+            print(f"⚠️ {t} 自動產生名稱失敗，本次暫用：{fallback or '只用代號比對'}", flush=True)
+            continue
+        names = clean_alias_list(result.get("names"))
+        cs_names = clean_alias_list(result.get("case_sensitive_names"))
+        if not names and not cs_names and official.get(t):
+            names = heuristic_names_from_sec(official.get(t))
+        AUTO_PROFILES[t] = {
+            "names": names,
+            "cs_names": cs_names,
+            "strict": bool(result.get("ticker_is_common_word")),
+            "official_name": official.get(t, ""),
+            "created": today.isoformat(),
+        }
+        changed = True
+        shown = "、".join(names + cs_names) if (names or cs_names) else "無法辨識，只用代號比對"
+        AUTO_NAMED_THIS_RUN.append(f"{t}：{shown}")
+        print(f"🤖 已自動產生 {t} 的新聞名稱：{shown}", flush=True)
+
+    if changed:
+        save_auto_profiles()
+
+    for t in missing:
+        if AUTO_PROFILES.get(t, {}).get("strict"):
+            STRICT_TICKERS.add(t)
 
 
 def get_names(ticker):
     if ticker in TICKER_PROFILES:
         names, cs_names = TICKER_PROFILES[ticker]
         return list(names), list(cs_names)
-    sec_name = SEC_NAME_CACHE.get(ticker)
-    return ([sec_name] if sec_name else []), []
+    auto = AUTO_PROFILES.get(ticker)
+    if auto and (auto.get("names") or auto.get("cs_names")):
+        return list(auto.get("names", [])), list(auto.get("cs_names", []))
+    return list(SEC_NAME_CACHE.get(ticker, [])), []
 
 
 def get_display_name(ticker):
     names, cs_names = get_names(ticker)
     all_names = names + cs_names
     return all_names[0] if all_names else ticker
+
+
+# 別家公司名稱剛好包含本公司名稱時，先把它拿掉再比對（例如 Clean Energy Fuels 不是 Energy Fuels）
+ENTITY_EXCLUDE_PHRASES = {
+    "UUUU": ["Clean Energy Fuels"],
+    "ARM": ["Arm and Hammer", "Arm & Hammer"],
+    "MKSI": ["MKS Hospitality"],
+}
 
 
 def contains_phrase(text, phrase, case_sensitive=False):
@@ -466,6 +655,8 @@ def matches_ticker_symbol(ticker, title):
 
 
 def matches_target_entity(ticker, title):
+    for ex in ENTITY_EXCLUDE_PHRASES.get(ticker, []):
+        title = re.sub(re.escape(ex), " ", title, flags=re.IGNORECASE)
     names, cs_names = get_names(ticker)
     for n in names:
         if contains_phrase(title, n):
@@ -531,7 +722,7 @@ def is_within_hours(pub_date_raw, hours):
         return False
 
 
-def evaluate_title(ticker, title, snippet, source_tier):
+def evaluate_title(ticker, title, snippet, source_tier, relax=None):
     """
     回傳 (是否放行送 AI, 原因)
     規則：
@@ -546,7 +737,7 @@ def evaluate_title(ticker, title, snippet, source_tier):
     combined = f"{title} {snippet}"
     strong = matches_any(combined, STRONG_SIGNAL_PATTERNS)
     normal = strong or matches_any(combined, SIGNAL_PATTERNS)
-    is_holding = ticker in HOLDINGS
+    is_holding = (ticker in HOLDINGS) if relax is None else relax
 
     if matches_any(title, MOVE_JUNK_PATTERNS) and not strong:
         return False, "股價走勢文"
@@ -577,7 +768,15 @@ def normalize_word(word):
     return re.sub(r"(ments?|ings?|ed|s)$", "", w)
 
 
+def normalize_money(title):
+    """$60bn、$60B、$60 billion 統一成「60 billion」，讓不同媒體的寫法能互相比對"""
+    t = re.sub(r"\$?(\d+(?:\.\d+)?)\s*(?:bn|b|billion)\b", r"\1 billion", title, flags=re.IGNORECASE)
+    t = re.sub(r"\$?(\d+(?:\.\d+)?)\s*(?:mn|mln|m|million)\b", r"\1 million", t, flags=re.IGNORECASE)
+    return t
+
+
 def extract_core_words(title):
+    title = normalize_money(title)
     words = re.findall(r"\$?[a-zA-Z0-9]+(?:[.,][0-9]+)?", title)
     core = set()
     for w in words:
@@ -604,7 +803,7 @@ def get_alias_tokens(ticker):
 def extract_specific_tokens(title, ticker):
     """具體識別詞：含數字的字（$5、H200、18A）或非常見縮寫的全大寫字（CPX、HBM4）"""
     tokens = set()
-    for w in re.findall(r"\$?[A-Za-z0-9]+(?:[.,][0-9]+)?", title):
+    for w in re.findall(r"\$?[A-Za-z0-9]+(?:[.,][0-9]+)?", normalize_money(title)):
         bare = w.lstrip("$")
         if bare.upper() == ticker:
             continue
@@ -613,6 +812,12 @@ def extract_specific_tokens(title, ticker):
         elif len(bare) >= 2 and bare.isupper() and bare not in COMMON_ACRONYMS:
             tokens.add(bare.lower())
     return tokens
+
+
+def count_sent_last_24h(ticker, history_entries):
+    cutoff = datetime.now(UTC_TZ) - timedelta(hours=24)
+    return sum(1 for h in history_entries
+               if h["status"] == "SENT" and h["ticker"] == ticker and h["time"] >= cutoff)
 
 
 def is_duplicate_news(ticker, new_title, history_entries):
@@ -706,6 +911,32 @@ def rewrite_history(history_entries, heartbeat_date):
             f.write(format_history_line(e) + "\n")
     os.replace(tmp_file, HISTORY_FILE)
     return len(history_entries) - len(kept)
+
+
+# ==================== 讀取清單 ====================
+def read_code_list(path):
+    """讀取一行一個代號的清單；略過空行與 # 開頭的註解，去除重複但保留順序"""
+    codes = []
+    with open(path, "r", encoding="utf-8-sig") as f:
+        for line in f:
+            t = line.strip().upper()
+            if not t or t.startswith("#"):
+                continue
+            t = TICKER_CANONICAL.get(t, t)
+            if t not in codes:
+                codes.append(t)
+    return codes
+
+
+def load_holdings():
+    HOLDINGS.clear()
+    if not os.path.exists(HOLDINGS_FILE):
+        print(f"ℹ️ 找不到 {HOLDINGS_FILE}，本次不套用持股放寬規則", flush=True)
+        return []
+    holdings = read_code_list(HOLDINGS_FILE)
+    HOLDINGS.update(holdings)
+    print(f"⭐ 持股：{'、'.join(holdings) if holdings else '（清單是空的）'}", flush=True)
+    return holdings
 
 
 # ==================== 週末節流機制 ====================
@@ -825,10 +1056,13 @@ def send_run_summary(stats, total, is_alert):
         f"成功推播：{stats['pushed']} 則",
         f"AI 呼叫失敗：{stats['ai_error']} 則",
         f"超過單檔上限、留到下次判讀：{stats['ai_deferred']} 則",
+        f"已達單檔每日推播上限而略過：{stats['daily_capped']} 則",
         f"推播失敗（下次重試）：{stats['push_failed']} 則",
     ]
     if stats["timed_out"]:
         lines.append(f"因執行超時未掃描：{len(stats['timed_out'])} 檔")
+    if AUTO_NAMED_THIS_RUN:
+        lines.append("新代號已自動產生新聞名稱：" + "；".join(AUTO_NAMED_THIS_RUN))
     if is_alert:
         title = "🚨 新聞巡檢異常：本次結果不完整"
         color = 0xC0392B
@@ -864,6 +1098,7 @@ def summarize_with_ai(ticker, context):
         return "ERROR", "", "", ""
 
     company_name = get_display_name(ticker)
+    holding_note = "6. 這檔是使用者的持股，門檻可以略為放寬，但第 4 點仍然適用。\n" if ticker in HOLDINGS else ""
     prompt = f"""
 你是一位嚴謹的美股買方研究員。請判讀【{ticker} - {company_name}】的這則即時消息。
 
@@ -877,14 +1112,28 @@ def summarize_with_ai(ticker, context):
 1. 嚴禁「對手方為...」、「交易/合約性質為...」等生硬套話。
 2. 嚴禁「提升市場地位、增強競爭力、帶來正面影響、後市可期、具戰略意義」等空洞廢話。
 
+【重要性門檻（最常出錯的地方，請嚴格把關）】：
+只放行「會影響這家公司營收、獲利、估值或重大風險」的消息，並以公司規模衡量：
+1. 超大型公司（市值數千億美元以上，例如 Google、Amazon、Microsoft、Apple、Nvidia、Meta、Tesla、Broadcom、TSMC）：
+   金額低於約 10 億美元的合約、投資、授權、內容採購、行銷合作，以及一般產品功能更新，一律 PASS；
+   除非涉及重大策略轉向、核心業務的大客戶，或監管、法律、出口管制等重大風險。
+2. 中型公司：金額相對其年營收不顯著（例如低於年營收 2%）的消息，PASS。
+3. 小型公司（市值約 50 億美元以下）：幾百萬美元的訂單、合約或融資就可能重要，可以放行。
+4. 一律 PASS：慈善捐款、贊助、獎項、員工活動、非執行長或財務長的一般人事、產品小改版、別家公司只是在宣傳中提到本公司。
+5. 拿不準時問自己：一位專業基金經理看到這則消息，會不會因此重新檢視這檔持股？不會就 PASS。
+{holding_note}
 【駁回規則（命中任一條，type 一律填 PASS）】：
 1. 歷史回顧：回顧上一季財報、過去幾週走勢、「Since last earnings」類文章。
 2. 純股價走勢：只描述漲跌幾 %、獲利了結、大盤或板塊連動，沒有說明具體事件。
 3. 評論與建議：該不該買、值得買的股票清單、分析師調整評等或目標價、產業趨勢評論、無具體內容的公關宣傳、律師集體訴訟招募。
 4. 主體不符：新聞主角不是【{ticker} / {company_name}】，只是順帶提到。
+   例如「台積電擴產帶動某供應商接單」的主角是供應商；「某新創被選為 Salesforce 合作夥伴」的主角是新創；這類一律 PASS。
+   但如果本公司是訴訟的原告或被告、交易的買方或賣方、合約的一方，就算本公司不是標題第一個字，也算主角。
+5. 舊聞：對照下方「今天日期」與「發布時間」，內容明顯是兩天以前的事件（例如十月才報導第二季財報結果、財報電話會議逐字稿整理），一律 PASS。
 
 【分類守則】：
-CRISIS：只限政府或監管機構調查、反壟斷、制裁或出口禁令、專利禁令、做空機構報告、正式破產、官方下修財測。一般股價下跌不算。
+CRISIS：只限政府或監管機構調查、反壟斷、制裁或出口禁令、專利禁令、重大訴訟、做空機構報告、正式破產、官方下修財測，
+以及本公司系統或客戶資料遭駭、外洩等重大資安事件（對資料、資安、雲端類公司尤其重要，就算消息尚未證實也要放行並註明）。一般股價下跌不算。
 EARNINGS：只限今天或昨天剛公布的官方季度財報、財測調整、庫藏股計畫。
 DILUTION：發行新股、可轉債、ATM、私募等股權融資。
 M&A：收購、合併、出售資產、分拆、取得或出售大額持股。
@@ -901,6 +1150,8 @@ impact：實質財務影響（營收、毛利、負債、稀釋），40 到 60 �
 不符合時輸出：{{"type": "PASS"}}
 符合時輸出：
 {{"type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS 或 LEADERSHIP", "title_zh": "...", "action": "...", "impact": "..."}}
+
+今天日期（台灣時間）：{datetime.now(TW_TZ).strftime("%Y-%m-%d")}
 
 新聞快訊內容：
 {context[:4500]}
@@ -1015,6 +1266,7 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
     max_push = MAX_PUSH_PER_HOLDING if ticker in HOLDINGS else MAX_PUSH_PER_TICKER
     pushed_this_round = 0
     ai_this_round = 0
+    relax = ticker in HOLDINGS and len(wire_items) < HOLDING_RELAX_MAX_CANDIDATES
 
     # Google 預設依相關度排序，改成最新的優先處理
     wire_items.sort(key=lambda x: parse_pub_time(x["pub_date_raw"]), reverse=True)
@@ -1039,12 +1291,19 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
         if fingerprint in seen_fps:
             continue
 
-        passed, reason = evaluate_title(ticker, clean_title, item["snippet"], source_tier)
+        passed, reason = evaluate_title(ticker, clean_title, item["snippet"], source_tier, relax=relax)
         if not passed:
             continue
 
         if is_duplicate_news(ticker, clean_title, history_entries):
             print(f"      [同事件改寫] 略過：{clean_title[:60]}", flush=True)
+            continue
+
+        sent_24h = count_sent_last_24h(ticker, history_entries)
+        soft_cap = DAILY_SOFT_CAP_HOLDING if ticker in HOLDINGS else DAILY_SOFT_CAP
+        hard_cap = DAILY_HARD_CAP_HOLDING if ticker in HOLDINGS else DAILY_HARD_CAP
+        if sent_24h >= hard_cap or (sent_24h >= soft_cap and reason != "強催化劑"):
+            stats["daily_capped"] += 1
             continue
 
         if ai_this_round >= MAX_AI_PER_TICKER:
@@ -1060,7 +1319,7 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
         except Exception:
             pass
 
-        context = f"標題: {clean_title}\n來源: {source_name}\n摘要: {item['snippet']}"
+        context = f"標題: {clean_title}\n來源: {source_name}\n發布時間（台灣）: {pub_tw_str}\n摘要: {item['snippet']}"
         status, event_type, summary, title_zh = summarize_with_ai(ticker, context)
 
         if status == "ERROR":
@@ -1106,20 +1365,18 @@ def main():
         print("❌ 錯誤：找不到 tickers.txt 檔案！", flush=True)
         return
 
-    with open("tickers.txt", "r", encoding="utf-8-sig") as f:
-        tickers = []
-        for line in f:
-            t = line.strip().upper()
-            if t and not t.startswith("#") and t not in tickers:
-                tickers.append(t)
+    watchlist = read_code_list("tickers.txt")
+    holdings = load_holdings()
+    # 持股排最前面優先掃描；持股就算不在 tickers.txt 也會自動加入
+    tickers = holdings + [t for t in watchlist if t not in HOLDINGS]
 
-    preload_sec_names_for_missing(tickers)
+    prepare_names_for_missing(tickers)
 
     history_entries, heartbeat_date = load_history()
     seen_fps = {e["fp"] for e in history_entries}
     total = len(tickers)
     stats = {"fetch_failed": [], "timed_out": [], "ai_checked": 0, "ai_pass": 0,
-             "ai_error": 0, "ai_deferred": 0, "pushed": 0, "push_failed": 0}
+             "ai_error": 0, "ai_deferred": 0, "daily_capped": 0, "pushed": 0, "push_failed": 0}
     run_start = time.monotonic()
 
     print(f"🏛️ 啟動重大事件巡檢，清單共計：{total} 檔標的", flush=True)
