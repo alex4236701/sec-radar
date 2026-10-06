@@ -4279,3 +4279,6 @@
 2026-10-06T17:47:27+00:00|||PASS|||11a2f2e39f32d137a2cb0ed8df21b377|||AMZN|||Amazon at $250: $1 billion “Built Together” Data Center Push Is Already Backfiring
 2026-10-06T17:47:31+00:00|||PASS|||4d9d243330a7f680a3bccc59254e806e|||AAPL|||Apple's Market Value Grew From $350 Billion to $4.75 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Betting on Apple's Next Chapter Under John Ternus.
 2026-10-06T17:48:20+00:00|||SENT|||a545b427bb3d09288b0b03cb12f7939d|||CSCO|||Cisco System’s $4.30 Billion Collaboration Unit Adds WhatsApp to Webex
+2026-10-06T18:51:17+00:00|||PASS|||d8f957d7356f634bf11e94bef14aaf8f|||MU|||Micron’s AI Memory Boom Could Spark $100 Billion Cash Windfall, Says JPMorgan
+2026-10-06T18:51:51+00:00|||PASS|||2c85e69ca3d3d57346e3270d7f57b6dc|||NVDA|||Challenging Nvidia's Dominance: Broadcom Pairs Custom TPU Chips with $60 Billion Debt Package
+2026-10-06T18:53:02+00:00|||PASS|||2402604e0f5abd942e9f00f35542c550|||ZETA|||Zeta Global Holdings (ZETA) Names New UK President As Valuation Questions Linger
