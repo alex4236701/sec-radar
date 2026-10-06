@@ -4270,3 +4270,8 @@
 2026-10-06T16:24:49+00:00|||PASS|||d30a1b6be69bac7cabc2156a39dd9046|||MRVL|||Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SPY:NYSEARCA)
 2026-10-06T16:25:26+00:00|||PASS|||d99b7479feb93aa88d87e786d91b0c9f|||LITE|||Applied Optoelectronics Surges 6% as $600M Share Sale Program Closes; Lumentum Sits Out the Rally, Corning Edges Higher
 2026-10-06T16:25:31+00:00|||SENT|||a6058ebbdb1c610d1f42497fa1306017|||AAOI|||Applied Optoelectronics Surges 6% as $600M Share Sale Program Closes; Lumentum Sits Out the Rally, Corning Edges Higher
+2026-10-06T16:49:47+00:00|||PASS|||5438077cc56beda252fe0c5be615d22b|||NVDA|||CrowdStrike, AWS, and NVIDIA Expand Global Cybersecurity Startup Accelerator, Defining the Next Generation of Innovation for the Agentic Era
+2026-10-06T16:49:50+00:00|||SENT|||c9f805421e13bce6afc5f0e762ba3d74|||AMD|||AMD Guarantees a $300 Million Crusoe Loan Backed by Its Own AI Chips
+2026-10-06T16:49:53+00:00|||PASS|||63d9500e53d48d2f22b464c2a5139ad2|||MRVL|||Marvell Investor Day: Stock Jumps 7% On $90 Billion Goal - Marvell Technology (NASDAQ:MRVL)
+2026-10-06T16:50:14+00:00|||PASS|||427fc7fe3ec503c30a9940ce7ea8d820|||KLAC|||All You Need to Know About KLA (KLAC) Rating Upgrade to Buy
+2026-10-06T16:51:08+00:00|||PASS|||e614ec01383f7f0c5820bedc863f83d7|||NET|||Palo Alto, Cloudflare, Netskope experience rising demand ahead of Q3 earnings: BTIG
