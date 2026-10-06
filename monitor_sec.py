@@ -519,11 +519,16 @@ PERCENT_TEXT_RE = re.compile(r"percent of class represented by amount in row \(?
 
 
 def extract_13dg_percent(raw):
-    m = PERCENT_TAG_RE.search(raw)
-    if m:
-        return to_float(m.group(2))
-    m = PERCENT_TEXT_RE.search(clean_html_to_text(raw))
-    return to_float(m.group(1)) if m else None
+    """
+    取持股比例。一份申報常列好幾個申報人（母基金、子基金、管理人），各自有一個比例，
+    取最大的那個才是整個集團的持股；只取第一個可能剛好是持股 0% 的子帳戶
+    """
+    values = [to_float(v) for _, v in PERCENT_TAG_RE.findall(raw)]
+    values = [v for v in values if v is not None and 0 <= v <= 100]
+    if not values:
+        values = [to_float(v) for v in PERCENT_TEXT_RE.findall(clean_html_to_text(raw))]
+        values = [v for v in values if v is not None and 0 <= v <= 100]
+    return max(values) if values else None
 
 
 def handle_13dg(ticker, f, cik):
@@ -542,6 +547,14 @@ def handle_13dg(ticker, f, cik):
         pass
     who = "、".join(filers[:3]) or "申報人未知"
     pct_text = f"{percent:.2f}%" if percent is not None else "未能擷取"
+    # 修正申報的持股低於 5%，代表已大量出脫，這是最後一次申報（之後不再有義務揭露）
+    exited = is_amend and percent is not None and percent < 5
+    if is_13d and exited:
+        summary = (f"• **【申報人】**：{who}\n"
+                   f"• **【持股比例】**：{pct_text}（已降到 5% 以下）\n"
+                   f"• **【解讀】**：主動型大股東已大幅出脫或退出，之後不再需要申報持股變動；"
+                   f"可能代表介入經營的行動結束，請看原文說明的出售原因。")
+        return card(ticker, "🟣 【主動型大股東 13D 減持退出】", 0x8E44AD, f"{form} (持股降至 5% 以下)", summary)
     if is_13d:
         summary = (f"• **【申報人】**：{who}\n"
                    f"• **【持股比例】**：{pct_text}{'（修正申報）' if is_amend else ''}\n"
@@ -549,7 +562,7 @@ def handle_13dg(ticker, f, cik):
                    f"屬主動型大股東，值得細看原文的「交易目的」段落。")
         return card(ticker, "🟣 【主動型大股東 13D】", 0x8E44AD, f"{form} (持股 5% 以上・主動)", summary)
     if is_amend and ticker not in HOLDINGS:
-        return digest(f"13G 修正：{who}，持股 {pct_text}")
+        return digest(f"13G 修正：{who}，持股 {pct_text}" + ("（已降到 5% 以下）" if exited else ""))
     summary = (f"• **【申報人】**：{who}\n"
                f"• **【持股比例】**：{pct_text}{'（修正申報）' if is_amend else ''}\n"
                f"• **【解讀】**：13G 是被動型投資人（基金、機構）持股超過 5% 的申報，不打算介入經營。")
