@@ -4303,3 +4303,4 @@
 2026-10-06T21:27:53+00:00|||SENT|||c46545312ba0e5c794d4d6fdb660bdb2|||INTC|||Applied Materials and Intel Collaborate to Accelerate Chipmaking Innovations for AI-Driven Computing
 2026-10-06T21:28:06+00:00|||PASS|||a1112b5b950d15f7e963aa86347c5379|||PENG|||Penguin Solutions Stock: Raised Outlook Sends Shares Higher
 2026-10-06T21:28:07+00:00|||SENT|||cd1202bcea733a55610d900f1a9d9f50|||PENG|||Penguin Solutions Stock Pops on Q4 Earnings Beat, Strong Guidance
+2026-10-06T21:37:32+00:00|||SENT|||2e9500ce71763e5a9a3708ad620c1c91|||META|||Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue
