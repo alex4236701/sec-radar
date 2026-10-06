@@ -4132,3 +4132,57 @@ e36afc8db8cd053871084c0d0e9e22ac|||COHR|||COHR Oct 2026 445.000 call (COHR261023
 e9d62461896b1241a02767875a0170f7|||RKLB|||SpaceX Climbs 5% as Musk Renames SpaceXAI to SpaceXSI, Morgan Stanley Reiterates $300 Target; Rocket Lab Slips, AST SpaceMobile Nudges Higher
 c1efb768f02dbd7a18e5935baef68a3d|||LEU|||Transcript: Centrus Energy Q2 2026 Earnings Conference Call
 cda3297d1682abb18b3e8a06980036ed|||CAT|||Caterpillar is a Great Business. But is CAT Stock a Great Buy?
+4a3da2218664efea7efc591d85573763|||GOOGL|||Zacks Investment Ideas feature highlights: NVIDIA's, Alphabet's, Meta, Expedia, Apple and MongoDB
+f89a991a1667dfd169ff15e153eebeda|||GOOGL|||Is Trending Stock Alphabet Inc. (GOOG) a Buy Now?
+8600126eb66dbbf3b6bf3086433c38b5|||TSLA|||Goldman Sachs reiterates Tesla stock rating ahead of earnings
+67f0f6aeaa6b8bdcc82881bed325f6d6|||TSLA|||Tesla and SpaceX Are Surging Together. What It Says About a Future Merger.
+1a11191667bf8623cafa038a2730a309|||TSLA|||TSLA Stock May Have 'More Near-Term Upside' as Delivery Beat Changes the Math — Gary Black Sees 'Room' Be
+4fc4a624340439a17467d522c485fb4c|||QCOM|||Qualcomm will pay Huawei to license its patents for the first time in historic turnaround — reversal in a 5G and AI cross-licensing deal comes 25 years after Huawei first paid Qualcomm
+4e48098ab3510372ddc9e114763975cb|||QCOM|||Qualcomm, Arm return to court over contract dispute (QCOM:NASDAQ)
+8cc310ccf719de2111ed42115218e737|||DELL|||Byos Launches Embedded Edge™, an Internal Retransmission Device, with Dell Factory Integration
+23eba47e730b7e94d2e0224a410db6ca|||AVGO|||Broadcom (AVGO) Eyes Huge AI Revenue Growth, Is The Stock Getting Too Pricey?
+48ba1af6427a244eb3eb1a01e8ae4a35|||NVDA|||Nvidia Stock Keeps Rising After Record High. Next Stop $6 Trillion.
+9983342f0f1538cd45ec784d0f9c78ca|||NVDA|||Nvidia Is on the Verge of a $6 Trillion Market Value
+10d6452147975d4930531ee8e7eb1d3c|||NVDA|||Nvidia Hits Another New High: Key Breakout and Retracement Targets
+d07918b62cfcc776da03c3b8194d3229|||NVDA|||NVIDIA Stock Hits 52-Week High — What's Going On? - NVIDIA (NASDAQ:NVDA)
+681b64ad65c2f7bc932b799665d873e7|||NVDA|||Nvidia vs. Taiwan Semiconductor Manufacturing: Which Technology Stock Is a Better Buy in 2026?
+23033c1370756618456d7f0d2902bdc9|||AMD|||AMD Ryzen 5600X3D Becomes The Cheapest X3D Processor As Micro Center Slashes Its Price To Just $159
+67c179264d5b700abf296d70e71d8bd5|||INTC|||INTC Oct 2026 143.000 put (INTC261002P00143000) Interactive Stock Chart
+72bc36b0f404fdd6653386d3c8ab342f|||GFS|||Xanadu partners with GlobalFoundries for quantum chip production By Investing.com
+c5ba2e032337ba5ef6ba942b3e9fff52|||MU|||Krones AG (KRNU.MU) Stock Price, News, Quote & History
+d8ade91f0e9b6b4d6ecc905b7819d566|||MU|||MU Oct 2026 1070.000 put (MU261007P01070000) Stock Price, News, Quote & History
+72df462869e8fdc3908ff6c836c882fb|||MU|||MU Oct 2026 900.000 put (MU261007P00900000) Stock Price, News, Quote & History
+19b58a763548117c20832980e80c2d9c|||MU|||MU Oct 2026 650.000 put (MU261007P00650000) Stock Price, News, Quote & History
+0a29d5e0e905dacb66a4e2cf3f393e8b|||MU|||MU Oct 2026 1220.000 call (MU261007C01220000) Stock Price, News, Quote & History
+9429d4ef8f495cad9c96fc3808e5bf71|||MU|||MU Oct 2026 740.000 put (MU261007P00740000) Stock Price, News, Quote & History
+f637b2810a469ef9343aa58390ba24e4|||MU|||MU Oct 2026 1265.000 call (MU261007C01265000) Stock Price, News, Quote & History
+93040e6f2763adda3721bb0fbb578a3f|||MU|||MU Oct 2026 1360.000 call (MU261007C01360000) Stock Price, News, Quote & History
+3ace4451777b288fee4a68561d9b3ef0|||MU|||MU Oct 2026 905.000 call (MU261007C00905000) Stock Price, News, Quote & History
+f9f3a2c42f211465db9d3257277cbea0|||MU|||MU Oct 2026 795.000 put (MU261007P00795000) Stock Price, News, Quote & History
+5e5ff4c23cf08b029fbf9be64248179b|||MU|||MU Oct 2026 700.000 put (MU261007P00700000) Stock Price, News, Quote & History
+4230c29bf078acf349376aacadf2e515|||MU|||MU Oct 2026 1145.000 put (MU261007P01145000) Stock Price, News, Quote & History
+c48bd3072534e2e816059ce9a19da7fc|||MU|||MU Oct 2026 1055.000 call (MU261007C01055000) Stock Price, News, Quote & History
+950c38127eb8bd15a0f816a128527e4b|||MU|||MU Oct 2026 985.000 call (MU261007C00985000) Stock Price, News, Quote & History
+2c58795a0eec78865529dcd4d6716c1b|||MU|||MU Oct 2026 1110.000 call (MU261007C01110000) Stock Price, News, Quote & History
+7d2ac35a416f08480095e3ca05c0fcb8|||MU|||MU Oct 2026 975.000 put (MU261007P00975000) Stock Price, News, Quote & History
+90206b17724cba47cca26413e083635b|||MU|||MU Oct 2026 1325.000 call (MU261007C01325000) Stock Price, News, Quote & History
+147ca79db09070f5585e3476f4c9e2d7|||MU|||MU Oct 2026 1025.000 put (MU261007P01025000) Stock Price, News, Quote & History
+da2c1bbb090456b07f33c2ee72997872|||MU|||MU Oct 2026 920.000 call (MU261007C00920000) Stock Price, News, Quote & History
+99e6db103ca693e62df5fc63fba2ef98|||SNDK|||Western Digital Jumps 7%, Seagate Climbs 5% as Bernstein Calls Toshiba Selloff a Storm in a Teacup; SanDisk Inches Higher
+ae7ee1dd02bb5b9a7139d6d1a123f918|||SKHY|||Samsung and SK Hynix Q3 earnings on the horizon: Here’s what to expect
+9a83c1fb14e32b579818c7cdf4543445|||TER|||Teradyne Introduces Titan HP Platform with Burn-In Capabilities for Advanced AI Data Center Devices
+5b7982c6f145c02bbda8c784422b404c|||TER|||Teradyne launches burn-in system for high-power AI chips By Investing.com
+d10815daa45dfade50df9fb715ce3412|||VUZI|||Vuzix and Shiny Box Interactive Partner to Advance Military Medical Training and Remote-Mentoring Solutions on Ultralite Pro OEM Smart Glasses Platform
+d1b543a873b80bf3656bd61054414316|||VUZI|||Vuzix partners with Shiny Box for military training platform
+939a4529d66e9477682d26f3a07babf4|||ALP|||Alpha Compute Corp. Signs Agreement with AI Platform to deliver Compute via its ALPHA-02 Cluster in Sweden, with a total value of $71.9 Million
+a54208f266c23dfd55d5a3aa3a70b8b3|||ALP|||Alpha Compute signs contract for NVIDIA B300 GPU cluster in Sweden
+731d1ab8432b350db2cfae600e76f95f|||PLTR|||The Zacks Analyst Blog Highlights Palantir Technologies, BP and Quanta
+a57498bcb8a00ec74fb738b215f48d1a|||PLTR|||Palantir's 93% Revenue Growth Is Colliding With Michael Burry's Bear Case -- Here's Who Has the Stronger Argument
+10705a520b41be8f4467c72f931cface|||CRWV|||Cloudflare Climbs 4% as Risk Appetite Favors High-Beta Cloud Names; Oracle Ticks Up, CoreWeave Slips
+8fff5033abc2bd6d1dac911e87aa1134|||PANW|||PANW280616C00155000 Interaktive Aktienkurve | PANW Jun 2028 155.000 call Aktie
+4f8d57362b7323f5e621e622b300bed4|||ZS|||3 Reasons Investors Love Zscaler (ZS)
+2b0bf46066e3e85aa2fafe0c8e61af87|||ZS|||ZS Stock Alert: What to Know as Zscaler Unveils Partnership With IBM
+b49e420105fa07dcb7c3b6bbace2ce83|||ZS|||Asana, Zscaler, Appian, Atlassian, and Shopify Stocks Trade Up, What You Need To Know
+c4ba3f48c169744e0055ea24f98e6909|||ZS|||Zscaler partners with IBM, Red Hat to protect private apps during patch cycle
+9d632a6c7f945910c66779d91b824b72|||COHR|||COHR Oct 2026 400.000 put (COHR261009P00400000) Stock Price, News, Quote & History
+5d577254b4f4e4d90309c8e84d9943ac|||COHR|||Graphique interactif des capital-actions COHR270319P00620000| Capital-actions COHR Mar 2027 620.000 put
