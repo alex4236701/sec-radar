@@ -4296,3 +4296,10 @@
 2026-10-06T20:41:29+00:00|||SENT|||d429e148bb80a99cf9f0af2e0b374d6e|||ZETA|||Zeta Global to Acquire Digital Audience, Extending the Zeta Data Cloud Across the Digital Ecosystem
 2026-10-06T20:41:37+00:00|||PASS|||a6c06e2fcdec3591b1c7a5f14b32e954|||NET|||Cloudflare Just Gained 28% in a Month: Is It Too Late to Buy NET Stock Now?
 2026-10-06T20:42:13+00:00|||SENT|||d44915d33e87b6bf9cac9898b0f49245|||BE|||Bloom Energy (NYSE:BE) Q2 Earnings: Leading The Renewable Energy Pack
+2026-10-06T21:27:02+00:00|||SENT|||7cf592b5d8edcfab712d8ab1cf3b843f|||CRUS|||Cirrus Logic Announces Acquisition of INVENTVM Semiconductor
+2026-10-06T21:27:08+00:00|||SENT|||6cc6e208f2b7a918b77043c979af599b|||GOOGL|||Black Hills plans $1.8 billion investment to power Google's data center
+2026-10-06T21:27:47+00:00|||PASS|||de7bfdc8f9fcd07cdf97edee18968fef|||MRVL|||Marvell Stock Rises After CEO Announces Huge Long-Term Revenue Target
+2026-10-06T21:27:47+00:00|||PASS|||0983489517295b2859e4e83f2bbcd4d4|||MRVL|||What Marvell's rosy long-term guidance means for our AI chip stocks
+2026-10-06T21:27:53+00:00|||SENT|||c46545312ba0e5c794d4d6fdb660bdb2|||INTC|||Applied Materials and Intel Collaborate to Accelerate Chipmaking Innovations for AI-Driven Computing
+2026-10-06T21:28:06+00:00|||PASS|||a1112b5b950d15f7e963aa86347c5379|||PENG|||Penguin Solutions Stock: Raised Outlook Sends Shares Higher
+2026-10-06T21:28:07+00:00|||SENT|||cd1202bcea733a55610d900f1a9d9f50|||PENG|||Penguin Solutions Stock Pops on Q4 Earnings Beat, Strong Guidance
