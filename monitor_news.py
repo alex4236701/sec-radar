@@ -22,7 +22,16 @@ WEEKEND_RUN_LOG = "weekend_last_run.txt"
 TW_TZ = timezone(timedelta(hours=8))
 UTC_TZ = timezone.utc
 
-OPENAI_MODEL = "gpt-4o-mini"
+# ==================== AI 模型設定（想換模型只改這裡）====================
+# 常見選擇（都用同一把 OPENAI_API_KEY）：
+#   "gpt-4o-mini"  目前使用，最便宜，但屬於舊模型
+#   "gpt-5-mini"   新一代小模型，判斷力較好，費用約兩三倍（推理型模型，程式會自動調整參數）
+#   "gpt-5-nano"   新一代最便宜的小模型
+# 也可以在 GitHub Secrets 設定 OPENAI_MODEL 來覆蓋這裡的設定，不必改檔案
+OPENAI_MODEL = (os.environ.get("OPENAI_MODEL") or "").strip() or "gpt-4o-mini"
+# 推理型模型（gpt-5 系列）的思考深度；留空代表用模型預設值。
+# 想更快更省可填 "low"；若模型不支援，程式會自動拿掉這個參數重試
+OPENAI_REASONING_EFFORT = (os.environ.get("OPENAI_REASONING_EFFORT") or "").strip()
 
 # ==================== 可調整參數 ====================
 NEWS_WINDOW_HOURS = 36          # 只看最近幾小時內發布的新聞
@@ -292,6 +301,7 @@ ALWAYS_JUNK_PATTERNS = [
     r"\(preview\)", r"\bearnings\s+setup\b", r"\bset\s+for\s+earnings\b", r"\bpoised\s+to\s+beat\b",
     r"\bbeat\s+(?:earnings\s+)?estimates\s+again\b", r"\breasons?\s+why\b", r"\bin\s+focus\b",
     r"\bfair\s+value\b", r"\bundervalued\b", r"\bovervalued\b", r"\bm&a\s+watch\b",
+    r"\bcramer\b", r"\blightning\s+round\b", r"\bmad\s+money\b",
     r"\breporting\s+date\b", r"\bearnings\s+(?:release\s+)?date\b", r"\bdate\s+(?:for|of)\s+[\w\s]*results\b",
 
     # 例行會議、電話會排程
@@ -520,25 +530,13 @@ Rules:
 2. Do not include generic words alone (e.g. "Energy", "Technology"), and do not include product names that other companies also use.
 3. ticker_is_common_word is true when the ticker is an ordinary word, currency, common abbreviation or another organization's acronym (e.g. NOW, NET, SNOW, ASX, NOK).
 4. If you do not recognize the company and the official name is unknown, set known to false and leave the lists empty. Never guess."""
-    payload = {
-        "model": OPENAI_MODEL,
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0,
-        "response_format": {"type": "json_object"},
-    }
-    headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
-    for attempt in range(2):
-        try:
-            res = requests.post("https://api.openai.com/v1/chat/completions",
-                                headers=headers, json=payload, timeout=25)
-            data = res.json()
-            if "choices" not in data:
-                time.sleep(2)
-                continue
-            return json.loads(data["choices"][0]["message"]["content"])
-        except Exception:
-            time.sleep(2)
-    return None
+    content = openai_chat_json([{"role": "user", "content": prompt}], temperature=0, attempts=2)
+    if content is None:
+        return None
+    try:
+        return json.loads(content)
+    except Exception:
+        return None
 
 
 def heuristic_names_from_sec(official_name):
@@ -812,6 +810,14 @@ def extract_specific_tokens(title, ticker):
         elif len(bare) >= 2 and bare.isupper() and bare not in COMMON_ACRONYMS:
             tokens.add(bare.lower())
     return tokens
+
+
+def recent_sent_titles(ticker, history_entries):
+    cutoff = datetime.now(UTC_TZ) - timedelta(hours=DEDUP_WINDOW_HOURS)
+    rows = [h for h in history_entries
+            if h["status"] == "SENT" and h["ticker"] == ticker and h["time"] >= cutoff]
+    rows.sort(key=lambda h: h["time"], reverse=True)
+    return [h["title"] for h in rows]
 
 
 def count_sent_last_24h(ticker, history_entries):
@@ -1088,7 +1094,66 @@ def send_run_summary(stats, total, is_alert):
 
 
 # ==================== AI 判讀 ====================
-def summarize_with_ai(ticker, context):
+def is_reasoning_model(model):
+    m = model.lower()
+    return m.startswith(("gpt-5", "o1", "o3", "o4"))
+
+
+def openai_chat_json(messages, temperature=0.1, attempts=3):
+    """
+    呼叫 OpenAI，要求回傳 JSON 文字；失敗回傳 None。
+    不同模型支援的參數不同（推理型模型不接受 temperature），這裡會自動調整：
+    遇到「參數不支援」的錯誤，就拿掉那個參數重試。
+    """
+    if not OPENAI_API_KEY:
+        return None
+    reasoning = is_reasoning_model(OPENAI_MODEL)
+    payload = {
+        "model": OPENAI_MODEL,
+        "messages": messages,
+        "response_format": {"type": "json_object"},
+    }
+    if not reasoning:
+        payload["temperature"] = temperature
+    if OPENAI_REASONING_EFFORT and reasoning:
+        payload["reasoning_effort"] = OPENAI_REASONING_EFFORT
+    headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
+    timeout = 60 if reasoning else 25
+
+    tries = 0
+    while tries < attempts:
+        tries += 1
+        try:
+            res = requests.post("https://api.openai.com/v1/chat/completions",
+                                headers=headers, json=payload, timeout=timeout)
+            if res.status_code == 429 or res.status_code >= 500:
+                time.sleep(3 * tries)
+                continue
+            data = res.json()
+            if "error" in data or "choices" not in data:
+                err = data.get("error", data)
+                msg = str(err.get("message", err) if isinstance(err, dict) else err)
+                lower = msg.lower()
+                removed = False
+                for param in ("temperature", "reasoning_effort", "response_format"):
+                    if param in payload and param in lower:
+                        payload.pop(param)
+                        removed = True
+                        print(f"      ℹ️ [模型 {OPENAI_MODEL} 不支援 {param}] 已自動移除後重試", flush=True)
+                if removed:
+                    tries -= 1   # 調整參數不算一次失敗
+                    continue
+                print(f"      ⚠️ [OpenAI 回傳錯誤] {msg[:150]}", flush=True)
+                time.sleep(2)
+                continue
+            return data["choices"][0]["message"]["content"] or ""
+        except Exception as e:
+            print(f"      ⚠️ [OpenAI 呼叫異常] {e}", flush=True)
+            time.sleep(2)
+    return None
+
+
+def summarize_with_ai(ticker, context, recent_titles=None):
     """
     回傳 (狀態, 事件類型, 摘要, 中文標題)
     狀態：OK（放行）、PASS（不推）、ERROR（呼叫失敗，下次重試）
@@ -1098,6 +1163,7 @@ def summarize_with_ai(ticker, context):
         return "ERROR", "", "", ""
 
     company_name = get_display_name(ticker)
+    recent_block = "\n".join(f"{i}. {t}" for i, t in enumerate((recent_titles or [])[:10], 1)) or "（無）"
     holding_note = "6. 這檔是使用者的持股，門檻可以略為放寬，但第 4 點仍然適用。\n" if ticker in HOLDINGS else ""
     prompt = f"""
 你是一位嚴謹的美股買方研究員。請判讀【{ticker} - {company_name}】的這則即時消息。
@@ -1105,7 +1171,7 @@ def summarize_with_ai(ticker, context):
 【資訊限制，最重要】：
 你只看得到新聞標題與一小段摘要（通常就是標題本身），看不到內文。
 1. 只能寫標題或摘要中明確出現的事實與數字。嚴禁自行補充金額、比例、客戶名稱、時程或任何標題沒寫的細節。
-2. 【財務影響】若標題資訊不足以判斷，請直接寫「標題未提供財務細節，需查看原文確認」，不要推測。
+2. 【財務影響】若標題資訊不足以判斷，請直接寫「標題未提及金額或條款」，不要推測。
 3. 若依一般常識可以合理說明方向（例如發行新股會稀釋股權、取得訂單會增加營收），可以寫，但要用「可能」並點出依據。
 
 【嚴禁句型】：
@@ -1119,7 +1185,8 @@ def summarize_with_ai(ticker, context):
    除非涉及重大策略轉向、核心業務的大客戶，或監管、法律、出口管制等重大風險。
 2. 中型公司：金額相對其年營收不顯著（例如低於年營收 2%）的消息，PASS。
 3. 小型公司（市值約 50 億美元以下）：幾百萬美元的訂單、合約或融資就可能重要，可以放行。
-4. 一律 PASS：慈善捐款、贊助、獎項、員工活動、非執行長或財務長的一般人事、產品小改版、別家公司只是在宣傳中提到本公司。
+4. 一律 PASS：慈善捐款、贊助、獎項、員工活動、非執行長或財務長的一般人事、產品小改版、別家公司只是在宣傳中提到本公司、
+   與大學或研究機構的學術合作、零售商自行調降售價、分析師對未來幾年的營收比重預測。
 5. 拿不準時問自己：一位專業基金經理看到這則消息，會不會因此重新檢視這檔持股？不會就 PASS。
 {holding_note}
 【駁回規則（命中任一條，type 一律填 PASS）】：
@@ -1129,7 +1196,9 @@ def summarize_with_ai(ticker, context):
 4. 主體不符：新聞主角不是【{ticker} / {company_name}】，只是順帶提到。
    例如「台積電擴產帶動某供應商接單」的主角是供應商；「某新創被選為 Salesforce 合作夥伴」的主角是新創；這類一律 PASS。
    但如果本公司是訴訟的原告或被告、交易的買方或賣方、合約的一方，就算本公司不是標題第一個字，也算主角。
-5. 舊聞：對照下方「今天日期」與「發布時間」，內容明顯是兩天以前的事件（例如十月才報導第二季財報結果、財報電話會議逐字稿整理），一律 PASS。
+5. 已推播過的事件：對照下方「最近三天已推播過的本公司新聞」，如果這則只是同一事件的改寫、後續報導或股價反應，
+   而且沒有新的實質資訊，一律 PASS。若有新的實質進展（例如傳聞變成正式宣布、交易正式完成、出現新的金額或條款），可以放行。
+6. 舊聞：對照下方「今天日期」與「發布時間」，內容明顯是兩天以前的事件（例如十月才報導第二季財報結果、財報電話會議逐字稿整理），一律 PASS。
 
 【分類守則】：
 CRISIS：只限政府或監管機構調查、反壟斷、制裁或出口禁令、專利禁令、重大訴訟、做空機構報告、正式破產、官方下修財測，
@@ -1140,6 +1209,14 @@ M&A：收購、合併、出售資產、分拆、取得或出售大額持股。
 LEADERSHIP：執行長、財務長等高層任命或離職。
 ORDER：客戶合約、採購訂單、授權協議、合作。
 PRODUCT：新產品、新技術發表、監管核准。
+
+【寫財務影響前，先想清楚三件事（最容易寫錯）】：
+1. 本公司在這則消息裡是「收錢的一方」還是「付錢的一方」？
+   購電合約、採購、租用、投資別家公司，是本公司的支出或資本支出，不是營收；
+   別家公司因為本公司擴產而接單，增加的是那家供應商的營收，不是本公司的。
+2. 標題本身已經寫出財務事實時（例如上調營收預測、和解金額、增資金額、求償金額），要直接寫出來，
+   並和公司規模比較輕重。例如 6 億美元和解對美光不算小但可承受；10 億英鎊訴訟對 Google 影響有限，不要誇大成「重大財務風險」。
+3. 標題真的沒有足夠資訊時，只寫「標題未提及金額或條款」，不要硬湊推測。
 
 【撰寫要求（像朋友聊天一樣自然講重點，繁體中文）】：
 title_zh：把英文標題翻成繁體中文，保留型號與代號。
@@ -1153,39 +1230,27 @@ impact：實質財務影響（營收、毛利、負債、稀釋），40 到 60 �
 
 今天日期（台灣時間）：{datetime.now(TW_TZ).strftime("%Y-%m-%d")}
 
+最近三天已推播過的本公司新聞：
+{recent_block}
+
 新聞快訊內容：
 {context[:4500]}
 """
-    payload = {
-        "model": OPENAI_MODEL,
-        "messages": [
-            {"role": "system", "content": "你是嚴謹的買方研究員，只根據提供的資訊說話，絕不編造細節，只輸出 JSON。"},
-            {"role": "user", "content": prompt}
-        ],
-        "temperature": 0.1,
-        "response_format": {"type": "json_object"},
-    }
-    headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
+    messages = [
+        {"role": "system", "content": "你是嚴謹的買方研究員，只根據提供的資訊說話，絕不編造細節，只輸出 JSON。"},
+        {"role": "user", "content": prompt}
+    ]
 
-    for attempt in range(3):
+    for attempt in range(2):
+        content = openai_chat_json(messages, temperature=0.1, attempts=3)
+        if content is None:
+            return "ERROR", "", "", ""
         try:
-            res = requests.post("https://api.openai.com/v1/chat/completions",
-                                headers=headers, json=payload, timeout=25)
-            if res.status_code == 429 or res.status_code >= 500:
-                time.sleep(3 * (attempt + 1))
-                continue
-            data = res.json()
-            if "error" in data or "choices" not in data:
-                print(f"      ⚠️ [OpenAI 回傳錯誤] {str(data.get('error', data))[:150]}", flush=True)
-                time.sleep(2)
-                continue
-
-            content = data["choices"][0]["message"]["content"].strip()
+            content = content.strip()
             json_match = re.search(r"\{[\s\S]*\}", content)
             if not json_match:
                 if content.upper().startswith("PASS"):
                     return "PASS", "", "", ""
-                time.sleep(1)
                 continue
 
             parsed = json.loads(json_match.group(0))
@@ -1204,8 +1269,7 @@ impact：實質財務影響（營收、毛利、負債、稀釋），40 到 60 �
             summary = f"• **【核心要點】**：{action}\n• **【財務影響】**：{impact}"
             return "OK", event_type, summary, title_zh
         except Exception as e:
-            print(f"      ⚠️ [OpenAI 呼叫異常] {e}", flush=True)
-            time.sleep(2)
+            print(f"      ⚠️ [AI 回覆格式異常] {e}", flush=True)
 
     return "ERROR", "", "", ""
 
@@ -1320,7 +1384,8 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
             pass
 
         context = f"標題: {clean_title}\n來源: {source_name}\n發布時間（台灣）: {pub_tw_str}\n摘要: {item['snippet']}"
-        status, event_type, summary, title_zh = summarize_with_ai(ticker, context)
+        recent_titles = recent_sent_titles(ticker, history_entries)
+        status, event_type, summary, title_zh = summarize_with_ai(ticker, context, recent_titles)
 
         if status == "ERROR":
             stats["ai_error"] += 1
