@@ -4092,3 +4092,43 @@ e6fe09998fdd76ac989950cacac6ccd0|||IBM|||ZS Stock Alert: What to Know as Zscaler
 d8bbe735823912ee7f36d696031b5cc3|||NET|||Why Cloudflare (NET) Stock Is Trading Up Today
 a2fef1dc4addc1a6592381d38a9f6d01|||COHR|||Graphique interactif des capital-actions COHR261023C00460000| Capital-actions COHR Oct 2026 460.000 call
 23343a009fb6dc26e290f4eae29c0076|||FCEL|||ROSEN, REGARDED INVESTOR COUNSEL, Encourages FuelCell
+13725a89cd66c13bc0513d57435ae27e|||GOOGL|||The Zacks Analyst Blog Highlights Lam, Taiwan, Marathon, NVIDIA, Micron and Alphabet
+2da830bc0e5993b32bb995a00014d133|||GOOGL|||Alphabet C wedged near $350 resistance: Live levels By Investing.com
+a48b36677cd8c1fc6f03864abd80faf4|||GOOGL|||Microsoft Rises 2% as Melius Research Upgrades to Buy With $665 Target; Amazon and Alphabet Hold Steady
+4d7e790a5372e94c4bf1252b0b61a666|||TSLA|||Tesla Just Delivered Excellent News, but Is the Stock a Buy?
+61896e44ad3545f5f4f90f2d0864833a|||TSLA|||TSLA Stock Rises Overnight: Analyst Says SpaceX Merger Buzz Could ‘Dominate’ Near-Term Narrative — Gary Black Sees More Gains Ahead
+7985b64b99f307f627ebaf57172547e5|||TSLA|||SA Asks: What was the biggest takeaway from Tesla's Q3 delivery and production report? (TSLA:NASDAQ)
+643494e19c9f3aad135df8cc1bb37253|||AAPL|||Zacks Investment Ideas feature highlights: NVIDIA's, Alphabet's, Meta, Expedia, Apple and MongoDB
+ce8b822365d9dd040a35983f55f768b4|||QCOM|||Qualcomm, Arm Reportedly Head Back To Court With Billions In Potential Royalties At Stake
+fedc40b36104031002a181f045bffbc2|||QCOM|||Qualcomm and Arm are back in court, and your next phone is on the line
+b803be0a94ee2a450a7b38f24ab6fb76|||QCOM|||Qualcomm, Huawei Sign Multi-Year Patent Licensing Agreement
+4c1578308b54b59150ff4414169ca77f|||META|||Zacks Investment Ideas feature highlights: NVIDIA's, Alphabet's, Meta, Expedia, Apple and MongoDB
+fe119deb09d78117c66caa0032385793|||NVDA|||Zacks Investment Ideas feature highlights: NVIDIA's, Alphabet's, Meta, Expedia, Apple and MongoDB
+6282ed16ddac58189977eb580abf0bb9|||NVDA|||The Zacks Analyst Blog Highlights Lam, Taiwan, Marathon, NVIDIA, Micron and Alphabet
+02b259e1a3f66796aa5cc3e963c04179|||NVDA|||Could Nvidia reach a $6T market cap by the end of October?
+63e26444aa860326677b782aa4771845|||NVDA|||Nvidia Stock: Buy at the High?
+e2396367b448ffd3e8bd6f8b6cc4ea43|||AMD|||Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus
+04fc220f6ecc5b747b3e5f8fe684e249|||MU|||Is the AI Memory Supercycle Sustainable for Micron Technology (MU) Beyond 2026?
+b34d933bf4ae5ba5c5040af9141eed15|||MU|||MU Oct 2026 1380.000 call (MU261005C01380000) stock price, news, quote and history
+f563da4359a89488211a5dc3ac5daa3a|||MU|||MU Oct 2026 1050.000 call (MU261007C01050000) Stock Price, News, Quote & History
+7d99a59d40fcb9e6ab6092ef6faceadf|||MU|||MU Oct 2026 935.000 call (MU261007C00935000) Stock Price, News, Quote & History
+f03a23f1de12db2107d8a4f45e33553d|||MU|||MU Oct 2026 950.000 put (MU261007P00950000) Stock Price, News, Quote & History
+ebf8b13781445087d6e259aaea8f1c6e|||MU|||MU Oct 2026 820.000 put (MU261007P00820000) Stock Price, News, Quote & History
+05d33a5cc27df306471f08a7b4dbe4bb|||MU|||MU Oct 2026 980.000 call (MU261007C00980000) Stock Price, News, Quote & History
+c9c62179ef5d7cea38f14d85b955fff2|||MU|||MU Oct 2026 910.000 call (MU261007C00910000) Stock Price, News, Quote & History
+29b397248cc18f258df1e69dd69ae0d7|||MU|||MU Oct 2026 895.000 call (MU261007C00895000) Stock Price, News, Quote & History
+0d4e0ff0976d36970c914439b2d82dd4|||MU|||MU Oct 2026 640.000 put (MU261007P00640000) Stock Price, News, Quote & History
+10a31fed0a65632073e7b8c5e82c9647|||MU|||MU Oct 2026 985.000 put (MU261007P00985000) Stock Price, News, Quote & History
+6f169760a35d4e681efb22607be4d373|||MU|||MU Oct 2026 910.000 put (MU261007P00910000) Stock Price, News, Quote & History
+2cfa899186fa7a5e37d1f529f890b700|||SKHY|||Samsung, SK Hynix shares drop as Q3 earnings loom
+712560944fc85b7f5f64396826170f93|||QRVO|||Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus
+4633d5fcf3bd2a99c2ed15ff20fa1865|||IBM|||Zscaler partners with IBM, Red Hat to protect private apps during patch cycle
+8e537a9c7af6c72dc9ac749ae59df057|||PANW|||PANW Oct 2026 355.000 put (PANW261009P00355000) stock price, news, quote and history
+e4360e360fbd99bf1e22932890358515|||PANW|||PANW Nov 2026 380.000 call (PANW261113C00380000) Stock Price, News, Quote & History
+3b89d8cb784593a66e0f66e72f6665b9|||COHR|||Graphique interactif des capital-actions COHR261016P00210000| Capital-actions COHR Oct 2026 210.000 put
+e36afc8db8cd053871084c0d0e9e22ac|||COHR|||COHR Oct 2026 445.000 call (COHR261023C00445000) interactive stock chart
+5c0396a5551522430fb19fa00794b72d|||MTSI|||Transcript: MACOM Technology Solns Q3 2026 Earnings Conference Call
+2ff206024899da8c358adc8d31581405|||SPCX|||SpaceX: 10 GW Could Change The Entire Story (NASDAQ:SPCX)
+e9d62461896b1241a02767875a0170f7|||RKLB|||SpaceX Climbs 5% as Musk Renames SpaceXAI to SpaceXSI, Morgan Stanley Reiterates $300 Target; Rocket Lab Slips, AST SpaceMobile Nudges Higher
+c1efb768f02dbd7a18e5935baef68a3d|||LEU|||Transcript: Centrus Energy Q2 2026 Earnings Conference Call
+cda3297d1682abb18b3e8a06980036ed|||CAT|||Caterpillar is a Great Business. But is CAT Stock a Great Buy?
