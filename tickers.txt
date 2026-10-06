@@ -1,107 +1,150 @@
+# ==================================================
+# 觀察清單（GitHub 新聞與 SEC 巡檢共用）
+# 規則：一行一個代號；# 開頭的行是註解，程式會略過
+# 注意：註解要單獨一行，不能寫在代號後面
+# 新增代號直接加在這裡即可，程式會自動查出公司的新聞常用名稱，不用另外設定
+# 持股請寫在 holdings.txt，程式會自動優先掃描，這裡不用另外排序
+# ==================================================
+
+# ---------- 科技巨頭與雲端平台 ----------
 GOOGL
 MSFT
-TSLA
-AAPL
-QCOM
 AMZN
 META
-ARM
-DELL
-HPE
-AVGO
-TSM
+AAPL
+TSLA
+
+# ---------- AI 運算晶片與晶片設計 IP ----------
 NVDA
 AMD
-INTC
-ASML
-AMAT
-LRCX
+AVGO
 MRVL
-ALAB
+QCOM
+ARM
+INTC
+
+# ---------- 晶圓代工與封裝測試 ----------
+TSM
 GFS
-MU
-SNDK
-SKHY
-STX
-WDC
+TSEM
 ASX
 AMKR
-CRUS
-SWKS
-QRVO
-ENTG
+
+# ---------- 記憶體與儲存 ----------
+MU
+SKHY
+SNDK
+WDC
+STX
+PENG
+
+# ---------- 半導體設備：前段製程大廠 ----------
 ASML
 AMAT
 LRCX
 KLAC
-UCTT
-ICHR
+
+# ---------- 半導體設備：中小型與量測、後段、測試 ----------
 ACLS
 VECO
 ONTO
 CAMT
+KLIC
+FORM
+COHU
+TER
+AEHR
+
+# ---------- 半導體設備零組件與材料 ----------
 MKSI
 AEIS
-FORM
-TTMI
-KLIC
-COHU
-AEHR
-KEYS
-VIAV
-TER
-VUZI
-HIMX
-OUST
-AMBA
-AKAM
-TWLO
-BAND
-BB
-CGNX
-RRX
-UMAC
-ONDS
-AVAV
-AMPX
-LTRX
-PDYN
-ALP
-WOLF
-NVTS
-ALGM
-IFNNY
-POWI
-VSH
-VICR
-MPWR
-PLTR
-IBM
-DDOG
-NOW
-SNOW
-CRM
-CRWV
-PANW
-RBRK
-OKTA
-ZS
-VRNS
-FTNT
-NET
-IOT
-AXTI
+UCTT
+ICHR
+ENTG
+
+# ---------- AI 網路連接與光通訊 ----------
+ALAB
+CRDO
+MTSI
+SMTC
 LITE
 COHR
 AAOI
+AXTI
 CIEN
 GLW
-TSEM
-MTSI
-SMTC
-CRDO
-NOK
 CSCO
+NOK
+
+# ---------- 類比、射頻與功率半導體 ----------
+CRUS
+SWKS
+QRVO
+MPWR
+VICR
+POWI
+VSH
+IFNNY
+ALGM
+WOLF
+NVTS
+
+# ---------- 伺服器與資料中心硬體 ----------
+DELL
+HPE
+VRT
+TTMI
+
+# ---------- 新興雲端算力與礦企轉型 ----------
+CRWV
+NBIS
+WULF
+CIFR
+
+# ---------- 企業軟體與 AI 資料平台 ----------
+PLTR
+NOW
+CRM
+SNOW
+DDOG
+IBM
+ZETA
+
+# ---------- 資安 ----------
+PANW
+FTNT
+ZS
+OKTA
+NET
+AKAM
+RBRK
+VRNS
+
+# ---------- 通訊軟體、物聯網與邊緣運算 ----------
+TWLO
+BAND
+IOT
+LTRX
+BB
+AMBA
+HIMX
+VUZI
+KEYS
+VIAV
+
+# ---------- 機器人、無人機與國防科技 ----------
+CGNX
+RRX
+OUST
+PDYN
+AVAV
+ONDS
+UMAC
+AMPX
+FEIM
+VELO
+
+# ---------- 太空 ----------
 SPCX
 RKLB
 RDW
@@ -109,36 +152,34 @@ PL
 BKSY
 VSAT
 IRDM
-VELO
-CRCL
-GLXY
-VRT
-NBIS
-WULF
-CIFR
-MTRN
-PPTA
-UAMY
+
+# ---------- 關鍵礦物與特殊材料 ----------
 MP
 USAR
 UUUU
+PPTA
+UAMY
+MTRN
+
+# ---------- 能源與電力 ----------
 LEU
 BE
 FCEL
 EOSE
 TE
 GEV
-CAT
-CMI
 ETN
 PWR
+CAT
+CMI
+GNRC
 HON
 ROK
-ECL
 LIN
-PENG
-FEIM
-GNRC
+ECL
+
+# ---------- 量子運算與數位資產 ----------
 IONQ
 QNT
-ZETA
+CRCL
+GLXY
