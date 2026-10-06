@@ -4275,3 +4275,7 @@
 2026-10-06T16:49:53+00:00|||PASS|||63d9500e53d48d2f22b464c2a5139ad2|||MRVL|||Marvell Investor Day: Stock Jumps 7% On $90 Billion Goal - Marvell Technology (NASDAQ:MRVL)
 2026-10-06T16:50:14+00:00|||PASS|||427fc7fe3ec503c30a9940ce7ea8d820|||KLAC|||All You Need to Know About KLA (KLAC) Rating Upgrade to Buy
 2026-10-06T16:51:08+00:00|||PASS|||e614ec01383f7f0c5820bedc863f83d7|||NET|||Palo Alto, Cloudflare, Netskope experience rising demand ahead of Q3 earnings: BTIG
+2026-10-06T17:47:11+00:00|||PASS|||79e1e5014ab91dc83342e4919fea2d7a|||AVGO|||Challenging Nvidia's Dominance: Broadcom Pairs Custom TPU Chips with $60 Billion Debt Package
+2026-10-06T17:47:27+00:00|||PASS|||11a2f2e39f32d137a2cb0ed8df21b377|||AMZN|||Amazon at $250: $1 billion “Built Together” Data Center Push Is Already Backfiring
+2026-10-06T17:47:31+00:00|||PASS|||4d9d243330a7f680a3bccc59254e806e|||AAPL|||Apple's Market Value Grew From $350 Billion to $4.75 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Betting on Apple's Next Chapter Under John Ternus.
+2026-10-06T17:48:20+00:00|||SENT|||a545b427bb3d09288b0b03cb12f7939d|||CSCO|||Cisco System’s $4.30 Billion Collaboration Unit Adds WhatsApp to Webex
