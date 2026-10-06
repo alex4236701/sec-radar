@@ -3972,3 +3972,35 @@ dd85a22ab73b0a2e9471f7c5ad00487b|||COHR|||Graphique interactif des capital-actio
 5d5feef5b9f7fce38a11cee5eefa0681|||SPCX|||Microsoft Could Be SpaceX’s Next Big AI Customer as Revenue Projection Surges - SpaceX (NASDAQ:SPCX)
 8aea446b1a19823a3ce61a9f3396d57b|||RKLB|||SpaceX Isn't Rocket Lab's Biggest Threat Now -- Blue Origin Is
 246276d049bb02c0aaf5f3337cf2e4d8|||HON|||Honeywell International's Quarterly Earnings Preview: What You Need to Know
+5d2f2a478af0a5630807c760b605a124|||GOOGL|||Securities Class Action Filed Against Alphabet Inc. – GOOGL/GOOG Investors Encouraged to Contact Kirby McInerney LLP
+e333369ada8b5a839afff06edb23a3c7|||MSFT|||Microsoft Could Be SpaceX's Next Big AI Customer: Bernstein Sees AI Revenue Surging Nearly 500%
+9439dc2903bf02bd45c9f66eeeb2f212|||TSLA|||Tesla (TSLA) Laps the Stock Market: Here's Why
+6cc9dc903f6a029f82fe4ab20fd10a77|||TSLA|||Tesla Is The EV King, Again (NASDAQ:TSLA)
+eabc5452066daa1cd8001c6ce8adf417|||QCOM|||Qualcomm, Huawei reach multi-year patent licensing agreement (QCOM:NASDAQ)
+5e816c77ada26f3744a5fc58df99659c|||META|||Meta Muse financial predictions: Deutsche Bank forecasts 3 possible scenarios
+57fc7a34f74eccdfa09a6134ee341874|||TSM|||Jim Cramer Makes His Feelings About Taiwan Semiconductor (TSM) Clear
+1329d607196780111cd2edc0ef0d185f|||NVDA|||Nvidia, Broadcom shielded as AI power crunch hits chip supply chain, says Morgan Stanley
+0d3052e54615197622233ff70c7bb1e8|||NVDA|||Nasdaq Scores Record High As Oil Falls; Nvidia Hits New Highs
+c4852234252121d80f444a228afd1cc1|||INTC|||INTC Oct 2026 99.000 call (INTC261005C00099000) stock price, news, quote and history
+bca61407a2ee6e99c89096598c8b1fe9|||GFS|||GlobalFoundries downgraded by BNP Paribas as firm sees growth drivers 'priced in' (GFS:NASDAQ)
+1ae56d3af7d2001dce62276c188e37e8|||MU|||MU Oct 2026 930.000 put (MU261007P00930000) Stock Price, News, Quote & History
+2b1cda6ec4aa7165bec2a3de33907bea|||MU|||MU Oct 2026 1310.000 call (MU261005C01310000) Stock Price, News, Quote & History
+605c4343b7170cb1511c3249fb2995e1|||MU|||MU Oct 2026 610.000 put (MU261005P00610000) Stock Price, News, Quote & History
+e8e0b1ffe2da6fa78c7bfafc10f67a28|||MU|||MU Oct 2026 925.000 put (MU261005P00925000) Stock Price, News, Quote & History
+ed1b4b35fa3b86f94f9a789ff90d0f5d|||MU|||MU Oct 2026 930.000 call (MU261005C00930000) Stock Price, News, Quote & History
+a053f11cf05897a1d07c44d2c99dd02c|||MU|||MU Oct 2026 935.000 call (MU261005C00935000) Stock Price, News, Quote & History
+1325ea783b7432005708f91a2b99e3e5|||MU|||MU Oct 2026 995.000 call (MU261005C00995000) Stock Price, News, Quote & History
+6416ddf0245321bfd346553351e164b2|||MU|||MU Oct 2026 835.000 call (MU261005C00835000) Stock Price, News, Quote & History
+68f93a0eff8b842265c8ceb808cb4a87|||MU|||MU Oct 2026 835.000 put (MU261005P00835000) Stock Price, News, Quote & History
+8f1c8c43df073792823e0aeb97d45777|||MU|||MU Oct 2026 905.000 put (MU261005P00905000) Stock Price, News, Quote & History
+47be70a5059dfdd2a5b87222b392d13a|||MU|||MU Oct 2026 1080.000 call (MU261005C01080000) Stock Price, News, Quote & History
+9d5c692dc2f9f899f97ca05aa1bc10d4|||MU|||MU Oct 2026 1100.000 call (MU261005C01100000) Stock Price, News, Quote & History
+fe3598ab4e63741780c35a15c867ded3|||MU|||MU Oct 2026 1340.000 call (MU261005C01340000) Stock Price, News, Quote & History
+95776986042920d4b6d11b4c17131216|||MU|||MU Oct 2026 935.000 put (MU261005P00935000) Stock Price, News, Quote & History
+1f40f5ff0a8380da7a34603c628dabd5|||ENTG|||Here's Why Entegris (ENTG) is a Great Momentum Stock to Buy
+9123ec55ee49ac24a600aa85e50af56a|||PANW|||PANW261016P00362500 Interactive Stock Chart | PANW Oct 2026 362.500 put Stock
+ab70b321f4332ac796763bf6dffd4062|||PANW|||PANW Nov 2026 350.000 put (PANW261113P00350000) Stock Price, News, Quote & History
+15fcafb14a67ddf141afab2a4ce6cea0|||OKTA|||3 Reasons OKTA is Risky and 1 Stock to Buy Instead
+4a1c39f708c727362258e98f10cca561|||FTNT|||FTNT Oct 2026 187.500 put (FTNT261009P00187500) Stock Price, News, Quote & History
+35aeb7b72118687a7e31416c67b9a8c2|||SPCX|||SpaceX proposes Florida natural gas pipeline to support Cape Canaveral launches (SPCX:NASDAQ)
+f9d233f73930190cd47e73d23006fafa|||ZETA|||Zeta Global to Acquire Senso, Adding AI Engineering and Frontier-Model Connectivity to Its Intelligent AI Infrastructure
