@@ -53,13 +53,15 @@ jobs:
 
       # 就算程式中途出錯或超時，也要把已經寫入的紀錄存回 repo，避免下次重複推播
       # （前提是 repo 有成功下載，否則沒有東西可以存）
-      - name: Commit and Push Sent History & Weekend Timestamp
+      - name: Commit and Push Sent History, Weekend Timestamp & Auto Aliases
         if: always() && steps.checkout.outcome == 'success'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           touch sent_news_log.txt weekend_last_run.txt
           git add sent_news_log.txt weekend_last_run.txt
+          # 新代號自動產生的公司新聞名稱（有新增代號時才會出現這個檔案）
+          if [ -f auto_aliases.json ]; then git add auto_aliases.json; fi
           if git diff --cached --quiet; then
             echo "無新紀錄或時間戳需更新。"
             exit 0
