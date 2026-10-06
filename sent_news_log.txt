@@ -4257,3 +4257,11 @@
 2026-10-06T14:57:39+00:00|||SENT|||dfae65e1b8ac252fff36a99594acccfd|||GOOGL|||Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case
 2026-10-06T14:57:59+00:00|||PASS|||c59865ff10d062f1876f3c9e03e1cb11|||CIEN|||Cramer's lightning round: 'I think Ciena is very good'
 2026-10-06T14:59:00+00:00|||SENT|||f4cd941024fbc5be15108cbb5cc18c2d|||AAOI|||Applied Optoelectronics Stock Rises on Possible Continued Momentum as It Completes Share Sale
+2026-10-06T15:47:46+00:00|||PASS|||9ca8723e2a33884d6c8196c71c22ea9a|||GOOGL|||Billionaire Philippe Laffont’s $1.2 Billion Constellation Bet Gets a Google AI Boost
+2026-10-06T15:48:16+00:00|||PASS|||9b520c8088aff860e8a3006a168bf3a2|||MSFT|||Microsoft extends the Outlook naughty step with two more file types
+2026-10-06T15:48:20+00:00|||PASS|||e7beefa1ebf323eee7db45e026e9f103|||META|||Nscale hires Meta's Justin Osofsky as COO
+2026-10-06T15:48:21+00:00|||PASS|||be821f52d4ff0457da69075cf9fe6cbc|||META|||FieldAI Raises $700 Million at $10 Billion Valuation - Meta Platforms (NASDAQ:META), Intel (NASDAQ:INTC)
+2026-10-06T15:48:25+00:00|||PASS|||a8a37416e925f820f3b15627dcb97ccc|||TSLA|||If You Invest $10,000 in Tesla Today, Here’s What It Could Be Worth by 2030
+2026-10-06T15:48:34+00:00|||PASS|||f2c8c62e5075e57eed8c06d2d43130e0|||INTC|||FieldAI Raises $700 Million at $10 Billion Valuation - Meta Platforms (NASDAQ:META), Intel (NASDAQ:INTC)
+2026-10-06T15:49:37+00:00|||PASS|||7cdf9df9a3329af1e78d3c70ac7dd931|||SNOW|||Has ASOS been hacked? Customers sent alarming 'Snowflake' app alert - latest updates
+2026-10-06T15:49:45+00:00|||PASS|||539a3241a577e754edda6772fdb4da8b|||ZS|||Zscaler reaffirms guidance at investor day; shares rise (ZS:NASDAQ)
