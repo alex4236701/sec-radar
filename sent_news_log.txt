@@ -4282,3 +4282,17 @@
 2026-10-06T18:51:17+00:00|||PASS|||d8f957d7356f634bf11e94bef14aaf8f|||MU|||Micron’s AI Memory Boom Could Spark $100 Billion Cash Windfall, Says JPMorgan
 2026-10-06T18:51:51+00:00|||PASS|||2c85e69ca3d3d57346e3270d7f57b6dc|||NVDA|||Challenging Nvidia's Dominance: Broadcom Pairs Custom TPU Chips with $60 Billion Debt Package
 2026-10-06T18:53:02+00:00|||PASS|||2402604e0f5abd942e9f00f35542c550|||ZETA|||Zeta Global Holdings (ZETA) Names New UK President As Valuation Questions Linger
+2026-10-06T20:39:22+00:00|||SENT|||3e7a551b7674d417109bba666e489d64|||CRUS|||Cirrus Logic acquires Italian chip designer INVENTVM By Investing.com
+2026-10-06T20:39:27+00:00|||PASS|||e7cb6e618f6f8cf58a5884e0f358ad64|||GOOGL|||Waymo upsizes debut private loan to $5 billion to fund expansion - Bloomberg
+2026-10-06T20:39:29+00:00|||SENT|||a2e2f8fbd995f219c03e696b13163f70|||GOOGL|||Hackers obtain counterfeit TLS certificates for Google and other large services
+2026-10-06T20:39:31+00:00|||PASS|||0a747b81570d182c7b45b15273b214ef|||GOOGL|||Waymo Boosts Private Debt Deal to $5 Billion in Push for Growth
+2026-10-06T20:39:43+00:00|||PASS|||9281e391baf067902d0e943b4830f8b2|||VSH|||Vishay Intertechnology To Announce Third Quarter Results on Wednesday, November 4
+2026-10-06T20:39:47+00:00|||SENT|||280ec226dde354be54d2c62de2e60564|||NVTS|||Navitas completes acquisition of power management firm Claros By Investing.com
+2026-10-06T20:40:09+00:00|||PASS|||f8e8a5e81702e2e37dc1755a28c89948|||NVDA|||Nvidia-backed Lambda targets $4 billion raise ahead of planned IPO, WSJ reports
+2026-10-06T20:40:13+00:00|||PASS|||1060b17a130950402d8afbfecf71d27f|||AMD|||Citi Predicts 25% Upside for AMD as “the Key Beneficiary” of an Expanded $300 Billion CPU Market
+2026-10-06T20:40:16+00:00|||SENT|||ea254eab85765d9c3de52e470896ae29|||MRVL|||Marvell Stock Jumps on Massive $20 Billion Revenue Forecast
+2026-10-06T20:40:29+00:00|||SENT|||a0ac34fbe404cd805342b7dff20cf76d|||SKHY|||​NEXTIN Wins 25.44 Billion Won Wafer Inspection Equipment Order From SK hynix
+2026-10-06T20:40:36+00:00|||SENT|||682b838b468334ed35d7fe66a01e0643|||PENG|||Penguin Solutions names Stephen Cumming as CFO By Investing.com
+2026-10-06T20:41:29+00:00|||SENT|||d429e148bb80a99cf9f0af2e0b374d6e|||ZETA|||Zeta Global to Acquire Digital Audience, Extending the Zeta Data Cloud Across the Digital Ecosystem
+2026-10-06T20:41:37+00:00|||PASS|||a6c06e2fcdec3591b1c7a5f14b32e954|||NET|||Cloudflare Just Gained 28% in a Month: Is It Too Late to Buy NET Stock Now?
+2026-10-06T20:42:13+00:00|||SENT|||d44915d33e87b6bf9cac9898b0f49245|||BE|||Bloom Energy (NYSE:BE) Q2 Earnings: Leading The Renewable Energy Pack
