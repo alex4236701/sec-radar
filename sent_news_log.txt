@@ -4240,3 +4240,17 @@
 2026-10-06T14:24:42+00:00|||PASS|||6e81f092ecfc204e1fec21aef7af97f4|||CAT|||Caterpillar’s Q3 Earnings Setup Looks 'Constructive,' Says Analyst – A Look At What The Street Expects
 2026-10-06T14:24:45+00:00|||PASS|||8694af3183eec4e2f40310c756f36d51|||ETN|||Why Eaton (ETN) is Poised to Beat Earnings Estimates Again
 2026-10-06T14:24:49+00:00|||SENT|||3dbefe43cd592d2e3d13761b43b772d1|||HON|||Infleqtion, Honeywell Aerospace and UC Santa Barbara Collaborate to Accelerate Miniaturization and Manufacturability of Quantum Hardware
+2026-10-06T14:48:35+00:00|||SENT|||5186bf53bc37c5dd363a417747aa5a1a|||GOOGL|||Google and Constellation Energy Near $1 Billion Nuclear Power Deal as AI Data Centers Drive Power Demand: Report
+2026-10-06T14:48:43+00:00|||PASS|||391bc1c08be621ac45794083e1d1ad35|||META|||Meta Faces UK Investigation Over Instagram Instants Launch, Ofcom Probes Safety Risks For Children and Il
+2026-10-06T14:48:47+00:00|||SENT|||7927c0b4b9c1a27942b017e371f17890|||META|||UK watchdog opens first Online Safety Act probe into Meta
+2026-10-06T14:48:49+00:00|||PASS|||c20483c597aa80473c2aa127be357fb7|||META|||Meta faces UK probe over Instagram Instants safety assessment (META:NASDAQ)
+2026-10-06T14:48:51+00:00|||SENT|||7e16e7d2a10a419a94704a70e5d8f033|||META|||UK Regulator Opens Investigation Into Meta Over Instagram Instants Risk Assessments
+2026-10-06T14:48:54+00:00|||PASS|||1fca0a125c694da9d0184d408ac7af49|||AAPL|||Can Apple’s (AAPL) Record Quarter Justify Its Multiple?
+2026-10-06T14:48:56+00:00|||PASS|||49be3750a7dadd24adac4b1c6bd9a5f8|||TSLA|||Tesla: Margin Realism Meets Merger Speculation (NASDAQ:TSLA)
+2026-10-06T14:48:56+00:00|||PASS|||4b509d045e084652acade39a00ff7297|||TSLA|||Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, Says Goldman Sachs
+2026-10-06T14:49:02+00:00|||PASS|||e45596801632df106c1449838cce0138|||MRVL|||Marvell Stock Surges After CEO Announces Huge Long-Term Revenue Target
+2026-10-06T14:49:04+00:00|||SENT|||1208e4381e27168b662fca374dcf7dd3|||MRVL|||Marvell raises 2028 revenue forecast on strong AI data center demand
+2026-10-06T14:49:17+00:00|||PASS|||38c41ef4a4ed7fde407f0ab2900315b3|||MU|||Is Micron Stock Worth Holding After Its Solid Q4 Earnings Results?
+2026-10-06T14:51:01+00:00|||PASS|||cf12208ab98a954a501f718470bec4e9|||SPCX|||TSLA Stock Rises Overnight: Analyst Says SpaceX Merger Buzz Could ‘Dominate’ Near-Term Narrative — Gary Black Sees More Gains Ahead
+2026-10-06T14:51:35+00:00|||SENT|||07da039f8f886b91bdd83dca228d01c6|||QNT|||Quantinuum partners with University of Western Australia to expand quantum computing access
+2026-10-06T14:51:38+00:00|||PASS|||66333a66e128dfcc825a7ca976c44129|||CRCL|||Crypto Exchange OKX Raises at $25 Billion From StanChart, Circle
