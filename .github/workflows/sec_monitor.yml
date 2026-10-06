@@ -2,35 +2,40 @@ name: SEC EDGAR Radar Bot
 
 on:
   schedule:
-    # 1. 美股開盤與官方受理尖峰（平日高頻）：
-    # 涵蓋美東發稿時段（對應 UTC 週一至週五 10:00 至 23:00），每小時 00 分巡檢一次
-    - cron: '0 10-23 * * 1-5'
-
-    # 2. 平日夜間/離峰保險（每 4 小時一次）：
-    - cron: '0 2,6 * * 1-5'
-
-    # 3. 週末完全休市時段（UTC 週六與週日）：
-    # 降頻為每 8 小時執行一次（UTC 04:00, 12:00, 20:00），節省 80% 虛擬機額度
-    - cron: '0 4,12,20 * * 0,6'
-
+    # ===== GitHub 排程一律使用 UTC 時間；台灣時間 = UTC + 8 小時 =====
+    # 新聞版在每小時 30 分執行，SEC 版固定在 05 分，兩者錯開
+    # SEC 只在美東平日 06:00 至 22:00 受理申報，週末不受理
+    # 1. 美東平日白天（UTC 週一至週五 10:05 至 23:05）每小時一次 = 台灣 18:05 至隔天 07:05
+    - cron: '5 10-23 * * 1-5'
+    # 2. 美東平日晚間（盤後申報）= UTC 週二至週六 00:05、02:05 = 台灣 08:05、10:05
+    - cron: '5 0,2 * * 2-6'
+    # 3. 週日補一次（台灣週日 22:05），送出週末的每日回報
+    - cron: '5 14 * * 0'
   workflow_dispatch:
+
+# 同一時間只跑一個 SEC 巡檢，避免 GitHub 排程延遲時兩次執行重疊、互相覆蓋紀錄檔
+concurrency:
+  group: sec-monitor
+  cancel-in-progress: false
 
 jobs:
   run-sec-bot:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
 
     steps:
       - name: Check out repo
-        uses: actions/checkout@v4
+        id: checkout
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.10'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: |
@@ -39,24 +44,45 @@ jobs:
 
       - name: Run SEC Monitor Script
         env:
+          # 必填：SEC 要求的聯絡資訊，例如 "sec-radar your_email@example.com"
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          # SEC 專用頻道；沒設定就推到新聞頻道
           DISCORD_SEC_WEBHOOK: ${{ secrets.DISCORD_SEC_WEBHOOK }}
           DISCORD_NEWS_WEBHOOK: ${{ secrets.DISCORD_NEWS_WEBHOOK }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # 可選：想換 AI 模型時才需要設定，沒設定就用程式預設（gpt-4o-mini、gemini-3.6-flash）
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
         run: |
           python monitor_sec.py
 
-      - name: Commit and Push SEC History
+      # 就算程式中途出錯或超時，也要把已經寫入的紀錄存回 repo，避免下次重複推播
+      # （前提是 repo 有成功下載，否則沒有東西可以存）
+      - name: Commit and Push SEC History, Daily Digest & CIK Cache
+        if: always() && steps.checkout.outcome == 'success'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           touch sent_sec_log.txt
           git add sent_sec_log.txt
-          if [ -n "$(git status --porcelain sent_sec_log.txt)" ]; then
-            git commit -m "chore: update sec filing history [skip ci]"
-            # 取得遠端最新進度（例如新聞機器人剛推的 log），並把本地這筆 commit 墊在最上方
-            git pull --rebase origin main
-            git push origin main
-          else
+          # 等待併入每日通知的例行申報、代號對照存檔（有產生才加入）
+          if [ -f sec_daily_digest.json ]; then git add sec_daily_digest.json; fi
+          if [ -f cik_cache.json ]; then git add cik_cache.json; fi
+          if git diff --cached --quiet; then
             echo "無新 SEC 申報紀錄需更新。"
+            exit 0
           fi
+          git commit -m "chore: update sec filing history [skip ci]"
+          # 新聞那支可能剛好同時推送，失敗時拉取最新版本後重試
+          for i in 1 2 3 4 5; do
+            if git pull --rebase -X theirs origin main && git push origin main; then
+              echo "推送成功"
+              exit 0
+            fi
+            echo "推送失敗，第 $i 次重試..."
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          echo "推送失敗，本次紀錄未保存"
+          exit 1
