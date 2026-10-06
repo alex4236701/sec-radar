@@ -319,6 +319,21 @@ ALWAYS_JUNK_PATTERNS = [
     r"\bscholarships?\b", r"\bsponsorship\b", r"\bvolunteer\w*\b",
 ]
 
+# 同業回顧、財報比較文（StockStory 等寫手的固定格式，Yahoo 常在幾個月後轉載）
+# 例如「Bloom Energy (NYSE:BE) Q2 Earnings: Leading The Renewable Energy Pack」
+# 這類文章是回顧好幾家同業的舊財報，不是公司今天公布的新財報，一律排除
+PEER_RECAP_PATTERNS = [
+    r"\bq[1-4]\b.*\bpack\b", r"\bearnings\b.*\bpack\b",
+    r"\bearnings\s+review\b", r"\breflecting\s+on\b",
+    r"\blook(?:ing)?\s+back\s+(?:at|on)\b", r"\bunpacking\b",
+    r"\bstocks'\s+q[1-4]\b", r"\bstocks'?\s+earnings\b",
+    r"\bhighs?\s+and\s+lows?\b", r"\bwinners?\s+and\s+losers?\b",
+    r"\bq[1-4]\s+(?:earnings\s+)?(?:rundown|roundup|round-up|wrap|wrap-up|highlights|outperformers?|underperformers?|standouts?)\b",
+    r"\bearnings\s+(?:rundown|roundup|round-up|wrap|wrap-up|outperformers?|underperformers?|standouts?)\b",
+    r"\b(?:top|best|worst|weakest|strongest)\s+(?:q[1-4]\s+)?performers?\b",
+    r"\bearnings\s+call\s+highlights\b", r"\bcall\s+transcript\b",
+]
+
 # 第二類：股價走勢類標題。只有在「沒有強催化劑」時才排除
 # 例如「Intel shares surge 20% on Nvidia $5 billion investment」雖然寫了漲幅，但有實質事件，必須放行
 MOVE_JUNK_PATTERNS = [
@@ -389,6 +404,7 @@ SIGNAL_PATTERNS = [
     r"\bpurchase\s+order\b", r"\breceives?\s+(?:an?\s+)?order\b", r"\border\s+from\b",
     r"\b(?:inks?|strikes?|signs?|seals?)\s+(?:a\s+)?(?:deal|pact|agreement)\b",
     r"\bmulti[\s-]year\s+agreement\b", r"\bprocurement\s+contract\b", r"\bsupply\s+agreement\b",
+    r"\bsupply\s+(?:deal|pact|contract)s?\b",
     r"\bpartner(?:ed|ing|ship|s)?\s+with\b", r"\bcollaborat\w*\b",
     r"\bjoint\s+venture\b", r"\bto\s+deploy\b", r"\bdeploy\w*\b", r"\bdesign\s+win\b",
     r"\blicensing\s+agreement\b", r"\broyalt(?:y|ies)\b", r"\bselected\s+by\b",
@@ -720,17 +736,58 @@ def is_within_hours(pub_date_raw, hours):
         return False
 
 
+# 「別家公司拿到本公司的訂單」：本公司是付錢的買方，增加的是供應商的營收，不推
+# 例如「NEXTIN Wins 25.44 Billion Won Wafer Inspection Equipment Order From SK hynix」
+BUYER_SIDE_VERB = (
+    r"\b(?:wins?|won|receives?|received|secures?|secured|lands?|landed|bags?|bagged|"
+    r"gets?|got|obtains?|obtained|clinches?|clinched|snags?|snagged|books?|booked|"
+    r"nabs?|nabbed|captures?|captured|awarded|is\s+awarded|was\s+awarded)\b"
+)
+BUYER_SIDE_OBJECT = r"\b(?:orders?|contracts?|deals?|purchase\s+orders?|supply\s+deals?)\b"
+
+
+def is_buyer_side_order(ticker, title):
+    """
+    標題是「別家公司 拿到 訂單 from/by 本公司」或「別家公司 拿到 本公司的訂單」時回傳 True。
+    本公司如果出現在動詞前面（本公司自己拿到訂單、本公司是賣方），一律不擋。
+    """
+    for verb in re.finditer(BUYER_SIDE_VERB, title, flags=re.IGNORECASE):
+        before = title[:verb.start()]
+        # 動詞前面就是本公司：本公司是拿訂單的一方，不擋
+        if matches_target_entity(ticker, before):
+            return False
+        rest = title[verb.end():]
+        obj = re.search(BUYER_SIDE_OBJECT, rest[:120], flags=re.IGNORECASE)
+        if not obj:
+            continue
+        middle = rest[:obj.start()]
+        after = rest[obj.end():]
+        # 句型一：wins SK hynix order（本公司夾在動詞和訂單之間）
+        if matches_target_entity(ticker, middle):
+            return True
+        # 句型二：wins ... order from SK hynix / awarded contract by SK hynix
+        src = re.search(r"\b(?:from|by)\b", after[:80], flags=re.IGNORECASE)
+        if src and matches_target_entity(ticker, after[src.end():]):
+            return True
+    return False
+
+
 def evaluate_title(ticker, title, snippet, source_tier, relax=None):
     """
     回傳 (是否放行送 AI, 原因)
     規則：
       1. 一律排除類（律師、農場文、排程、研報、軟文）→ 排除
+         同業回顧文、別家公司拿到本公司訂單（本公司是買方）→ 排除
       2. 股價走勢類 → 沒有強催化劑才排除
       3. 二級來源 → 必須命中強催化劑（持股只需一般催化劑）
       4. 一級來源 → 必須命中催化劑（持股不需要）
     """
     if matches_any(title, ALWAYS_JUNK_PATTERNS):
         return False, "排除規則"
+    if matches_any(title, PEER_RECAP_PATTERNS):
+        return False, "同業回顧文"
+    if is_buyer_side_order(ticker, title):
+        return False, "本公司是買方"
 
     combined = f"{title} {snippet}"
     strong = matches_any(combined, STRONG_SIGNAL_PATTERNS)
@@ -1357,6 +1414,8 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
 
         passed, reason = evaluate_title(ticker, clean_title, item["snippet"], source_tier, relax=relax)
         if not passed:
+            if reason in ("同業回顧文", "本公司是買方"):
+                print(f"      [{reason}] 略過：{clean_title[:60]}", flush=True)
             continue
 
         if is_duplicate_news(ticker, clean_title, history_entries):
