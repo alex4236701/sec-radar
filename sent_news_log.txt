@@ -4360,3 +4360,19 @@
 2026-10-07T13:40:55+00:00|||SENT|||7d59e1865cedf79c30478a00d37b4302|||QCOM|||Qualcomm will license patents behind Huawei’s LogicFolding chip architecture, report says
 2026-10-07T13:41:11+00:00|||PASS|||550b8abd654d847e642b3fb982389798|||PENG|||These Analysts Increase Their Forecasts On Penguin Solutions Following Upbeat Q4 Results
 2026-10-07T13:41:49+00:00|||SENT|||60efd8e81fc097f641c7dd2e960a4753|||HPE|||HPE launches four new AMD-powered servers as part of its ProLiant Gen13 portfolio
+2026-10-07T14:39:51+00:00|||SENT|||9e1218509b29e914ef250b9d36221d05|||GOOGL|||US government, Google join Zuckerberg-backed Biohub in $1.8 billion push for AI biology data
+2026-10-07T14:39:54+00:00|||SENT|||d38e551cfca2f984c53b42cb54fcf491|||GOOGL|||Google Inks a Deal to Uprate 11 Nuclear Reactors
+2026-10-07T14:40:12+00:00|||PASS|||9d4235e4b2637a8ec5fca5ae35a6af00|||NVTS|||Can NVTS' Acquisition of Claros Accelerate Its AI Growth Strategy?
+2026-10-07T14:40:28+00:00|||PASS|||08d8a9e218ec1358a961c45c0a9a9795|||MSFT|||'Forecasted to have double digit revenue growth the next two years': Elliott on Microsoft
+2026-10-07T14:40:32+00:00|||PASS|||7fe777af4b0a0d052c535cb61de09f68|||META|||Meta's Muse Could Generate $27 Billion a Year, Citi Says as AI Agent Usage Surges
+2026-10-07T14:40:37+00:00|||SENT|||e512e37b1c735414a9e3d81437e46a8d|||TSLA|||Tesla posts 486,532 Q3 deliveries, tops forecasts, but stays shy of last year's mark
+2026-10-07T14:40:40+00:00|||PASS|||885ee6839a1c7baa39eafa706c839c26|||NVDA|||What Does Nvidia (NVDA) Gain From $40 Billion AI Demand Backing?
+2026-10-07T14:40:41+00:00|||PASS|||42a42689040f345a42f4572a60a82b4f|||NVDA|||Former Google, Nvidia Execs Launch Company to Ease GPU Crunch
+2026-10-07T14:40:43+00:00|||SENT|||cde77278a3fa293ed6f761e510302250|||NVDA|||Microsoft, Nvidia CEOs to unveil new AI laptop at San Francisco event
+2026-10-07T14:40:53+00:00|||PASS|||4524d2a08463db8b59e4d66f8a958d01|||TSM|||TSMC supplier Gudeng launches operations at Arizona plant - Focus Taiwan
+2026-10-07T14:40:54+00:00|||PASS|||03215561218ca8b9df7d5e4956154a37|||TSM|||AI supercycle, pricing, and Terafab top the agenda ahead of TSMC's earnings call
+2026-10-07T14:41:05+00:00|||SENT|||b6315a77e5bb1315afeb590bc9745d29|||STX|||Seagate and Toshiba battle for TDK's HDD head business, a critical hard drive component — multi-billion-dollar deal threatens sole independent supplier as shortages intensify
+2026-10-07T14:41:37+00:00|||PASS|||14b7ae8fb0f9adb8f88850635e7e8748|||CSCO|||Cisco Unveils New Agentic Collaboration Experiences
+2026-10-07T14:41:37+00:00|||PASS|||1b3bc4a67dd6c1b1c03f95ba859a6a53|||CSCO|||8 New Cisco Workplace And AI Innovations Unveiled At WebexOne 2026
+2026-10-07T14:42:31+00:00|||PASS|||5c884ae57b4881ad7b4220e5b640d6b1|||RKLB|||SpaceX Slips 2% on a Reported $40 Billion Chip Financing Plan; Rocket Lab Eases, AST SpaceMobile Falls 3%
+2026-10-07T14:42:57+00:00|||PASS|||4eb19215395961f5f4ec03a487aeca64|||CRCL|||Danish investor raises stake in Funding Circle above 16% By Investing.com
