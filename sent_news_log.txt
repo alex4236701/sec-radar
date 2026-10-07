@@ -4396,3 +4396,12 @@
 2026-10-07T16:41:57+00:00|||SENT|||4831ea1e9c47d044dd06ac26ca102a32|||FCEL|||FuelCell Energy Names New CFO, Reaffirms 2027 Profitability Target As AI Power Demand Builds
 2026-10-07T16:42:34+00:00|||SENT|||7e7d7f5cfb20970a5fdf7c69c9419f66|||PENG|||Penguin Solutions Soars 13% on Record Quarter and Raised Outlook: “The Proof Is in the Results”
 2026-10-07T16:43:23+00:00|||PASS|||6fadd5d47485870f6789ae353c37c29a|||NOW|||ServiceNow to Announce Third Quarter 2026 Financial Results on October 28
+2026-10-07T17:40:02+00:00|||PASS|||207f907b017477c8a835250229484659|||GOOGL|||Alphabet's Cloud Backlog Just Topped $500 Billion. Is Google Cloud About to Overtake Search as the Growth Engine?
+2026-10-07T17:40:33+00:00|||PASS|||055e2d25419081532a5a3273912dc8f8|||MSFT|||Microsoft Outlook to block MSIX attachments starting November
+2026-10-07T17:40:39+00:00|||PASS|||812090216597d62e1299488b747728f4|||TSLA|||Tesla Model 3 and Model Y Can Now Power Your Home During an Outage
+2026-10-07T17:40:40+00:00|||PASS|||cfb328f27dd10098e765cb6f600a9586|||TSLA|||Tesla’s Third-Quarter Deliveries Beat Expectations. Time to Buy the Stock?
+2026-10-07T17:40:43+00:00|||PASS|||fd57b17ea345f8dfec1fb0935f387573|||AMD|||Minisforum Brings AMD B850 Chipset To Its AIC, Offering Support For 4x M.2 Ports, OCuLink And 20 Gbps Type-C Port
+2026-10-07T17:40:44+00:00|||PASS|||c5cb9f44a322a8865d90faba34e1d2b4|||AMD|||HPE launches four new AMD-powered servers as part of its ProLiant Gen13 portfolio
+2026-10-07T17:40:45+00:00|||PASS|||d64eb1ae529f22e9f5bf1d28b85f30ff|||AMD|||​Lisa Su Says AMD Seeks 3- to 5-Year Strategic Partnership With Korea
+2026-10-07T17:40:52+00:00|||PASS|||1c14f88d7081b3a0ec3963c848288eec|||TSM|||TSMC supplier Gudeng launches operations at Arizona plant
+2026-10-07T17:42:15+00:00|||SENT|||94d4f34a64215b5d9471d161fd1c5d11|||VIAV|||Calnex and VIAVI expand partnership to deliver end-to-end network and application performance validation for next-generation networks.
