@@ -4307,3 +4307,12 @@
 2026-10-06T21:43:57+00:00|||PASS|||6f3f779f4ad84763c27d7e1a0aa59363|||MRVL|||Marvell's bullish revenue outlook
 2026-10-06T22:37:51+00:00|||PASS|||0f3cf447e5ceffe8678564c907ec534f|||NVDA|||SpaceX looks to raise $40bn to buy Nvidia chips in financing led by Apollo
 2026-10-06T22:39:27+00:00|||SENT|||8cd2711abe8c507def74a40f6b41d6bd|||SPCX|||SpaceX looks to raise $40bn to buy Nvidia chips in financing led by Apollo
+2026-10-07T01:44:17+00:00|||SENT|||ff34feefd672daba2d18767567e5fc46|||VUZI|||Vuzix partners with Shiny Box for military training platform By Investing.com
+2026-10-07T01:44:33+00:00|||PASS|||a3d0fed6e197dc33e075b67cf56c28c4|||ECL|||Ecolab Inc. stock outperforms competitors on strong trading day
+2026-10-07T01:44:43+00:00|||SENT|||d912337dfc77349bea48b16fa69d2962|||AAPL|||Watch Apple to Launch Doorbell, Lock and Thermostat Developed With LG
+2026-10-07T01:44:48+00:00|||PASS|||a915ed1042aa8ed56a2e32b95df003e5|||NVDA|||SpaceX Seeks to Raise $40 Billion From Apollo to Buy Nvidia Chips
+2026-10-07T01:44:48+00:00|||PASS|||1824eea6bc2500bfb0b6ba25639fd493|||NVDA|||SpaceX Seeking to Raise $40 Billion to Buy Nvidia Chips, FT Says
+2026-10-07T01:44:49+00:00|||PASS|||ed83603720bcf7da8ef0135a9c95c420|||NVDA|||SpaceX seeks to raise $40 bln to buy Nvidia chips- FT
+2026-10-07T01:44:50+00:00|||SENT|||83132f57d26402396746a012bf26f5f1|||NVDA|||SpaceX seeks $40 billion to buy Nvidia chips, FT reports By Reuters
+2026-10-07T01:45:00+00:00|||SENT|||92df97249d071f6faeca9d457e3fa609|||TSM|||TSMC Q3 Earnings: Strong AI Demand Sets the Bar High for Growth
+2026-10-07T01:45:17+00:00|||SENT|||0c6b380dd63f36dca5eb24ed4f2a3346|||PENG|||Penguin Solutions Appoints Stephen Cumming as Senior Vice President and Chief Financial Officer to Support Accelerated Growth
