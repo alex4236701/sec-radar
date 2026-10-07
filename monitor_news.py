@@ -23,7 +23,7 @@ TW_TZ = timezone(timedelta(hours=8))
 UTC_TZ = timezone.utc
 
 # ==================== AI 模型設定（想換模型只改這裡）====================
-# 常見選擇（都用同一把 OPENAI_API_KEY，價格為 2026 年 10 月 OpenAI 官網，每百萬字元單位）：
+# 常見選擇（都用同一把 OPENAI_API_KEY，價格為 2026 年 10 月 OpenAI 官網，每一百萬 token 的美元價格）：
 #   "gpt-6-luna"   目前使用。新一代最便宜的模型，比 gpt-4o-mini 還便宜（輸入 0.05、輸出 0.25 美元）
 #   "gpt-6.1-sol"  新一代主力模型，判斷力更好，費用約 luna 的二十倍（輸入 1 美元、輸出 5 美元）
 #   "gpt-4o-mini"  舊模型，規則一多就容易漏看（輸入 0.15、輸出 0.6 美元）
@@ -814,8 +814,8 @@ def is_buyer_side_order(ticker, title):
     return False
 
 
-ROUTINE_DIVIDEND_RE = r"\b(?:announces?|declares?|declared|sets?|approves?)\s+(?:its\s+|a\s+)?(?:regular\s+|quarterly\s+|monthly\s+|semi-annual\s+|cash\s+|common\s+)*(?:stock\s+)?dividends?\b"
-DIVIDEND_CHANGE_RE = r"\b(?:rais|increas|hik|boost|lift|cut|reduc|slash|suspend|special|initiat|reinstat|eliminat|omit|first)\w*"
+ROUTINE_DIVIDEND_RE = r"\b(?:announces?|declares?|declared|sets?|approves?)\s+(?:its\s+|a\s+)?(?:regular\s+|quarterly\s+|monthly\s+|semi-annual\s+|cash\s+|common\s+|(?:first|second|third|fourth)[\s-]quarter\s+|q[1-4]\s+)*(?:stock\s+)?dividends?\b"
+DIVIDEND_CHANGE_RE = r"\b(?:rais|increas|hik|boost|lift|cut|reduc|slash|suspend|special|initiat|reinstat|eliminat|omit|inaugural|first[\s-]ever)\w*"
 
 
 def is_routine_dividend(title):
