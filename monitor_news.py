@@ -23,15 +23,15 @@ TW_TZ = timezone(timedelta(hours=8))
 UTC_TZ = timezone.utc
 
 # ==================== AI 模型設定（想換模型只改這裡）====================
-# 常見選擇（都用同一把 OPENAI_API_KEY）：
-#   "gpt-4o-mini"  目前使用，最便宜，但屬於舊模型
-#   "gpt-5-mini"   新一代小模型，判斷力較好，費用約兩三倍（推理型模型，程式會自動調整參數）
-#   "gpt-5-nano"   新一代最便宜的小模型
+# 常見選擇（都用同一把 OPENAI_API_KEY，價格為 2026 年 10 月 OpenAI 官網，每百萬字元單位）：
+#   "gpt-6-luna"   目前使用。新一代最便宜的模型，比 gpt-4o-mini 還便宜（輸入 0.05、輸出 0.25 美元）
+#   "gpt-6.1-sol"  新一代主力模型，判斷力更好，費用約 luna 的二十倍（輸入 1 美元、輸出 5 美元）
+#   "gpt-4o-mini"  舊模型，規則一多就容易漏看（輸入 0.15、輸出 0.6 美元）
 # 也可以在 GitHub Secrets 設定 OPENAI_MODEL 來覆蓋這裡的設定，不必改檔案
-OPENAI_MODEL = (os.environ.get("OPENAI_MODEL") or "").strip() or "gpt-4o-mini"
-# 推理型模型（gpt-5 系列）的思考深度；留空代表用模型預設值。
-# 想更快更省可填 "low"；若模型不支援，程式會自動拿掉這個參數重試
-OPENAI_REASONING_EFFORT = (os.environ.get("OPENAI_REASONING_EFFORT") or "").strip()
+OPENAI_MODEL = (os.environ.get("OPENAI_MODEL") or "").strip() or "gpt-6-luna"
+# 推理型模型（gpt-5、gpt-6 系列）的思考深度。新聞判讀只看標題，"low" 就夠用，也最省錢
+# 想讓它想得更仔細可改成 "medium"（費用會增加）；若模型不支援，程式會自動拿掉這個參數重試
+OPENAI_REASONING_EFFORT = (os.environ.get("OPENAI_REASONING_EFFORT") or "").strip() or "low"
 
 # ==================== 可調整參數 ====================
 NEWS_WINDOW_HOURS = 36          # 只看最近幾小時內發布的新聞
@@ -298,6 +298,7 @@ ALWAYS_JUNK_PATTERNS = [
     r"\btop\s+\d+\s+[\w\s]*stocks\b",
     r"\bmillionaire\b",
     r"\bprice\s+target\b",
+    r"\bwall\s+street\s+(?:already\s+)?(?:expects|sees|thinks|bets)\b",
     r"\(preview\)", r"\bearnings\s+setup\b", r"\bset\s+for\s+earnings\b", r"\bpoised\s+to\s+beat\b",
     r"\bbeat\s+(?:earnings\s+)?estimates\s+again\b", r"\breasons?\s+why\b", r"\bin\s+focus\b",
     r"\bfair\s+value\b", r"\bundervalued\b", r"\bovervalued\b", r"\bm&a\s+watch\b",
@@ -331,7 +332,7 @@ PEER_RECAP_PATTERNS = [
     r"\bq[1-4]\s+(?:earnings\s+)?(?:rundown|roundup|round-up|wrap|wrap-up|highlights|outperformers?|underperformers?|standouts?)\b",
     r"\bearnings\s+(?:rundown|roundup|round-up|wrap|wrap-up|outperformers?|underperformers?|standouts?)\b",
     r"\b(?:top|best|worst|weakest|strongest)\s+(?:q[1-4]\s+)?performers?\b",
-    r"\bearnings\s+call\s+highlights\b", r"\bcall\s+transcript\b",
+    r"\bearnings\s+call\s+highlights\b", r"\bcall\b.*\btranscript\b",
 ]
 
 # 第二類：股價走勢類標題。只有在「沒有強催化劑」時才排除
@@ -351,7 +352,7 @@ MOVE_JUNK_PATTERNS = [
 
 # ==================== 催化劑信號 ====================
 # 強催化劑：財報與財測、併購、融資稀釋、破產、調查與禁令、高層異動、做空報告、大額合約等
-STRONG_SIGNAL_PATTERNS = [
+STRONG_EVENT_PATTERNS = [
     # 財報與財測
     r"\bearnings\s+results\b", r"\bquarterly\s+results\b", r"\bfinancial\s+results\b",
     r"\breports?\s+(?:record\s+)?(?:first|second|third|fourth|q[1-4]|full[\s-]year|fiscal)?\s*(?:quarter\s+)?(?:fiscal\s+)?(?:20\d\d\s+)?results\b",
@@ -390,12 +391,40 @@ STRONG_SIGNAL_PATTERNS = [
     r"\brecall\w*\b", r"\boutage\b", r"\bbreach\b", r"\bhack\w*\b", r"\bcyberattack\b",
     r"\blayoffs?\b", r"\bjob\s+cuts?\b", r"\bcuts?\s+\d[\d,]*\s+jobs\b",
     r"\bdowngrade[sd]?\s+to\s+(?:sell|underperform|underweight)\b",
-    # 大額合約與訂單
+    r"\bdeliveries\b",
+]
+
+# 大額合約與訂單
+STRONG_DEAL_PATTERNS = [
     r"\bawarded\s+(?:an?\s+)?(?:\$[\d.,]+\s*(?:million|billion|bn|m)\s+)?contract\b",
     r"\b(?:wins?|secures?|lands?|signs?|inks?)\s+(?:an?\s+)?(?:\$[\d.,]+\s*(?:million|billion|bn|m)\s+)?(?:contract|deal|order)\b",
     r"\$[\d.,]+\s*(?:billion|bn)\b",
     r"\bmulti[\s-]?billion\b",
 ]
+STRONG_SIGNAL_PATTERNS = STRONG_EVENT_PATTERNS + STRONG_DEAL_PATTERNS
+
+# ==================== 超大型股 ====================
+# 市值數千億美元以上的公司，每天都有大量「合作、產品、活動、別人的投資提到它」的新聞，對股價幾乎沒影響
+# 這些公司只放行重大事件：財報財測、併購、監管調查與訴訟、高層異動、裁員、資安事件、交付量等（STRONG_EVENT_PATTERNS），
+# 或是標題金額達 100 億美元以上的合約、投資
+# 想讓某檔改回一般待遇，從這裡拿掉即可
+MEGA_CAPS = {"GOOGL", "MSFT", "AAPL", "AMZN", "META", "NVDA", "TSLA", "AVGO", "TSM", "AMD"}
+MEGA_CAP_MIN_BILLIONS = 10
+MEGA_CAP_EVENT_PATTERNS = STRONG_EVENT_PATTERNS
+
+
+def title_max_billions(text):
+    """標題裡最大的美元金額，換算成「十億美元」。例如 $1.8 billion → 1.8，$40bn → 40"""
+    best = 0.0
+    for num, unit in re.findall(r"\$\s?([\d.,]+)\s*(trillion|billion|bn|b)\b", text, flags=re.IGNORECASE):
+        try:
+            value = float(num.replace(",", ""))
+        except ValueError:
+            continue
+        if unit.lower() == "trillion":
+            value *= 1000
+        best = max(best, value)
+    return best
 
 # 一般催化劑：產品發表、合作、設計案、部署等
 SIGNAL_PATTERNS = [
@@ -745,9 +774,10 @@ BUYER_SIDE_VERB = (
 )
 BUYER_SIDE_OBJECT = r"\b(?:orders?|contracts?|deals?|purchase\s+orders?|supply\s+deals?)\b"
 # 「別家公司 供電/供貨/服務 本公司」：例如「Black Hills plans $1.8 billion investment to power Google's data center」
+# 「backed by 本公司」：例如「Zelestra ... Solar Project Backed by Meta」（本公司是買電的客戶或出資者之一）
 SUPPLY_TO_VERB = (
     r"\b(?:to\s+(?:power|supply|serve|fuel)|powers|powering|supplies|supplying|"
-    r"serves|serving|fuels|fueling)\b"
+    r"serves|serving|fuels|fueling|backed\s+by)\b"
 )
 
 
@@ -784,12 +814,23 @@ def is_buyer_side_order(ticker, title):
     return False
 
 
+ROUTINE_DIVIDEND_RE = r"\b(?:announces?|declares?|declared|sets?|approves?)\s+(?:its\s+|a\s+)?(?:regular\s+|quarterly\s+|monthly\s+|semi-annual\s+|cash\s+|common\s+)*(?:stock\s+)?dividends?\b"
+DIVIDEND_CHANGE_RE = r"\b(?:rais|increas|hik|boost|lift|cut|reduc|slash|suspend|special|initiat|reinstat|eliminat|omit|first)\w*"
+
+
+def is_routine_dividend(title):
+    """「宣布季度股息」這種每季照常發放的股息不推；調升、調降、暫停、首次發放、特別股息照推"""
+    return (re.search(ROUTINE_DIVIDEND_RE, title, flags=re.IGNORECASE) is not None
+            and re.search(DIVIDEND_CHANGE_RE, title, flags=re.IGNORECASE) is None)
+
+
 def evaluate_title(ticker, title, snippet, source_tier, relax=None):
     """
     回傳 (是否放行送 AI, 原因)
     規則：
       1. 一律排除類（律師、農場文、排程、研報、軟文）→ 排除
-         同業回顧文、別家公司拿到本公司訂單（本公司是買方）→ 排除
+         同業回顧文、別家公司拿到本公司訂單（本公司是買方）、例行股息 → 排除
+         超大型股（MEGA_CAPS）只放行重大事件或 100 億美元以上的金額
       2. 股價走勢類 → 沒有強催化劑才排除
       3. 二級來源 → 必須命中強催化劑（持股只需一般催化劑）
       4. 一級來源 → 必須命中催化劑（持股不需要）
@@ -800,8 +841,14 @@ def evaluate_title(ticker, title, snippet, source_tier, relax=None):
         return False, "同業回顧文"
     if is_buyer_side_order(ticker, title):
         return False, "本公司是買方"
+    if is_routine_dividend(title):
+        return False, "例行股息"
 
     combined = f"{title} {snippet}"
+    if ticker in MEGA_CAPS:
+        if not (matches_any(combined, MEGA_CAP_EVENT_PATTERNS)
+                or title_max_billions(title) >= MEGA_CAP_MIN_BILLIONS):
+            return False, "超大型股非重大事件"
     strong = matches_any(combined, STRONG_SIGNAL_PATTERNS)
     normal = strong or matches_any(combined, SIGNAL_PATTERNS)
     is_holding = (ticker in HOLDINGS) if relax is None else relax
@@ -849,8 +896,16 @@ EVENT_WORD_FAMILIES = {
     "takeover": "@acq", "purchase": "@acq",
     "merger": "@merge", "merge": "@merge",
     "appoint": "@lead", "name": "@lead", "nam": "@lead", "hire": "@lead", "hir": "@lead",
-    "ceo": "@lead", "cfo": "@lead",
     "offer": "@offer", "offering": "@offer", "placement": "@offer",
+    "earning": "@earn", "result": "@earn", "guidance": "@earn", "outlook": "@earn", "forecast": "@earn",
+    "quarter": "@earn", "q1": "@earn", "q2": "@earn", "q3": "@earn", "q4": "@earn",
+}
+# 職位名稱：兩則人事新聞都提到同一個職位（例如都是 CFO），視為同一件事
+ROLE_WORDS = {"ceo", "cfo", "coo", "cto", "chairman", "president"}
+# 太常見、不能用來判斷「是不是同一件事」的字
+GENERIC_DEDUP_WORDS = {
+    "ai", "new", "deal", "plan", "billion", "million", "company", "global", "technology",
+    "technologie", "data", "center", "software", "startup", "firm", "inc", "group", "unit",
 }
 # 媒體轉載時加在標題尾巴的署名，例如「By Investing.com」
 BYLINE_PATTERN = r"\s+by\s+(?:investing\.com|reuters|bloomberg|benzinga|zacks|tipranks|marketbeat)\b.*$"
@@ -941,10 +996,33 @@ def is_duplicate_news(ticker, new_title, history_entries):
         shared_specific = new_specific & old_specific
         if shared_specific and similarity >= 0.20:
             return True
-        # 共享同一個專有名詞（例如被收購的 INVENTVM），而且是同一類事件（都是收購、都是人事）→ 同一件事
+        shared = new_words & old_words
         shared_names = {t for t in shared_specific if not any(ch.isdigit() for ch in t)}
-        shared_events = (new_words & old_words) & {"@acq", "@merge", "@lead", "@offer"}
+        shared_events = shared & {"@acq", "@merge", "@lead", "@offer"}
+        shared_other = {w for w in shared if not w.startswith("@") and w not in GENERIC_DEDUP_WORDS}
+        # 共享同一個專有名詞（例如被收購的 INVENTVM），而且是同一類事件（都是收購、都是人事）→ 同一件事
         if shared_names and shared_events:
+            return True
+        # 同一類事件，又有兩個以上相同的關鍵字（例如都提到 Claros、Digital Audience），或都是同一個職位 → 同一件事
+        if shared_events and (len(shared_other) >= 2 or shared_other & ROLE_WORDS):
+            return True
+        # 兩則都是財報、財測類：一家公司三天內不會有兩次財報 → 同一件事
+        if "@earn" in shared:
+            return True
+        # 共享同一個專有名詞，又有另外兩個以上相同的關鍵字（例如 TDK、Toshiba、head）→ 同一件事
+        if shared_names and len(shared_other) >= 3:
+            return True
+    return False
+
+
+def sent_under_other_ticker(ticker, title, history_entries):
+    """同一則標題已經用別的代號推過（例如微軟、Nvidia 同一則新聞），就不再推第二次"""
+    key = " ".join(re.sub(r"[^\w\s]", "", title.lower()).split())
+    cutoff = datetime.now(UTC_TZ) - timedelta(hours=DEDUP_WINDOW_HOURS)
+    for h in history_entries:
+        if h["status"] != "SENT" or h["ticker"] == ticker or h["time"] < cutoff:
+            continue
+        if " ".join(re.sub(r"[^\w\s]", "", h["title"].lower()).split()) == key:
             return True
     return False
 
@@ -1190,7 +1268,7 @@ def send_run_summary(stats, total, is_alert):
 # ==================== AI 判讀 ====================
 def is_reasoning_model(model):
     m = model.lower()
-    return m.startswith(("gpt-5", "o1", "o3", "o4"))
+    return m.startswith(("gpt-5", "gpt-6", "o1", "o3", "o4"))
 
 
 def openai_chat_json(messages, temperature=0.1, attempts=3):
@@ -1247,20 +1325,9 @@ def openai_chat_json(messages, temperature=0.1, attempts=3):
     return None
 
 
-def summarize_with_ai(ticker, context, recent_titles=None):
-    """
-    回傳 (狀態, 事件類型, 摘要, 中文標題)
-    狀態：OK（放行）、PASS（不推）、ERROR（呼叫失敗，下次重試）
-    """
-    if not OPENAI_API_KEY:
-        print("      ❌ [環境變數警告] 未設定 OPENAI_API_KEY！", flush=True)
-        return "ERROR", "", "", ""
-
-    company_name = get_display_name(ticker)
-    recent_block = "\n".join(f"{i}. {t}" for i, t in enumerate((recent_titles or [])[:10], 1)) or "（無）"
-    holding_note = "6. 這檔是使用者的持股，門檻可以略為放寬，但第 4 點仍然適用。\n" if ticker in HOLDINGS else ""
-    prompt = f"""
-你是一位嚴謹的美股買方研究員。請判讀【{ticker} - {company_name}】的這則即時消息。
+# 新聞判讀的固定規則。放在 system 訊息、每次內容都一樣，OpenAI 會自動快取這一段，輸入費用大約只要一成
+NEWS_SYSTEM_PROMPT = """你是一位嚴謹的美股買方研究員，只根據提供的資訊說話，絕不編造細節，只輸出 JSON。
+使用者訊息會給你一家公司（本公司）和一則即時消息，請依照以下規則判讀。
 
 【資訊限制，最重要】：
 你只看得到新聞標題與一小段摘要（通常就是標題本身），看不到內文。
@@ -1282,17 +1349,16 @@ def summarize_with_ai(ticker, context, recent_titles=None):
 4. 一律 PASS：慈善捐款、贊助、獎項、員工活動、非執行長或財務長的一般人事、產品小改版、別家公司只是在宣傳中提到本公司、
    與大學或研究機構的學術合作、零售商自行調降售價、分析師對未來幾年的營收比重預測。
 5. 拿不準時問自己：一位專業基金經理看到這則消息，會不會因此重新檢視這檔持股？不會就 PASS。
-{holding_note}
 【駁回規則（命中任一條，type 一律填 PASS）】：
 1. 歷史回顧：回顧上一季財報、過去幾週走勢、「Since last earnings」類文章。
 2. 純股價走勢：只描述漲跌幾 %、獲利了結、大盤或板塊連動，沒有說明具體事件。
 3. 評論與建議：該不該買、值得買的股票清單、分析師調整評等或目標價、產業趨勢評論、無具體內容的公關宣傳、律師集體訴訟招募。
-4. 主體不符：新聞主角不是【{ticker} / {company_name}】，只是順帶提到。
+4. 主體不符：新聞主角不是使用者訊息裡指定的公司（下稱本公司），只是順帶提到。
    例如「台積電擴產帶動某供應商接單」的主角是供應商；「某新創被選為 Salesforce 合作夥伴」的主角是新創；這類一律 PASS。
    但如果本公司是訴訟的原告或被告、交易的買方或賣方、合約的一方，就算本公司不是標題第一個字，也算主角。
-5. 已推播過的事件：對照下方「最近三天已推播過的本公司新聞」，如果這則只是同一事件的改寫、後續報導或股價反應，
+5. 已推播過的事件：對照使用者訊息裡的「最近三天已推播過的本公司新聞」，如果這則只是同一事件的改寫、後續報導或股價反應，
    而且沒有新的實質資訊，一律 PASS。若有新的實質進展（例如傳聞變成正式宣布、交易正式完成、出現新的金額或條款），可以放行。
-6. 舊聞：對照下方「今天日期」與「發布時間」，內容明顯是兩天以前的事件（例如十月才報導第二季財報結果、財報電話會議逐字稿整理），一律 PASS。
+6. 舊聞：對照使用者訊息裡的「今天日期」與「發布時間」，內容明顯是兩天以前的事件（例如十月才報導第二季財報結果、財報電話會議逐字稿整理），一律 PASS。
 
 【分類守則】：
 CRISIS：只限政府或監管機構調查、反壟斷、制裁或出口禁令、專利禁令、重大訴訟、做空機構報告、正式破產、官方下修財測，
@@ -1318,10 +1384,27 @@ action：一句話白話說明發生什麼事，40 到 60 字。有對象或金�
 impact：實質財務影響（營收、毛利、負債、稀釋），40 到 60 字，遵守上方資訊限制。
 
 【輸出格式】：只輸出 JSON 物件，不要任何其他文字。
-不符合時輸出：{{"type": "PASS"}}
+不符合時輸出：{"type": "PASS"}
 符合時輸出：
-{{"type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS 或 LEADERSHIP", "title_zh": "...", "action": "...", "impact": "..."}}
+{"type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS 或 LEADERSHIP", "title_zh": "...", "action": "...", "impact": "..."}
+"""
 
+
+def summarize_with_ai(ticker, context, recent_titles=None):
+    """
+    回傳 (狀態, 事件類型, 摘要, 中文標題)
+    狀態：OK（放行）、PASS（不推）、ERROR（呼叫失敗，下次重試）
+    """
+    if not OPENAI_API_KEY:
+        print("      ❌ [環境變數警告] 未設定 OPENAI_API_KEY！", flush=True)
+        return "ERROR", "", "", ""
+
+    company_name = get_display_name(ticker)
+    recent_block = "\n".join(f"{i}. {t}" for i, t in enumerate((recent_titles or [])[:10], 1)) or "（無）"
+    holding_note = ("這檔是使用者的持股，重要性門檻可以略為放寬，但重要性門檻第 4 點仍然適用。\n"
+                    if ticker in HOLDINGS else "")
+    prompt = f"""請判讀【{ticker} - {company_name}】的這則即時消息。
+{holding_note}
 今天日期（台灣時間）：{datetime.now(TW_TZ).strftime("%Y-%m-%d")}
 
 最近三天已推播過的本公司新聞：
@@ -1331,7 +1414,7 @@ impact：實質財務影響（營收、毛利、負債、稀釋），40 到 60 �
 {context[:4500]}
 """
     messages = [
-        {"role": "system", "content": "你是嚴謹的買方研究員，只根據提供的資訊說話，絕不編造細節，只輸出 JSON。"},
+        {"role": "system", "content": NEWS_SYSTEM_PROMPT},
         {"role": "user", "content": prompt}
     ]
 
@@ -1451,12 +1534,16 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
 
         passed, reason = evaluate_title(ticker, clean_title, item["snippet"], source_tier, relax=relax)
         if not passed:
-            if reason in ("同業回顧文", "本公司是買方"):
+            if reason in ("同業回顧文", "本公司是買方", "例行股息", "超大型股非重大事件"):
                 print(f"      [{reason}] 略過：{clean_title[:60]}", flush=True)
             continue
 
         if is_duplicate_news(ticker, clean_title, history_entries):
             print(f"      [同事件改寫] 略過：{clean_title[:60]}", flush=True)
+            continue
+
+        if sent_under_other_ticker(ticker, clean_title, history_entries):
+            print(f"      [其他代號已推過] 略過：{clean_title[:60]}", flush=True)
             continue
 
         sent_24h = count_sent_last_24h(ticker, history_entries)
