@@ -4411,3 +4411,14 @@
 2026-10-07T18:11:58+00:00|||PASS|||0199fcb7533b3caf084fe99ffde07dfd|||QCOM|||Processors and Graphics Chips Stocks Q2 Results: Benchmarking Qualcomm (NASDAQ:QCOM)
 2026-10-07T18:13:31+00:00|||PASS|||92d21dc7a20af2fb2c8583b1f82fd3f3|||SPCX|||Starlink Cash Can Carry SpaceX's $40 Billion AI Tab, Dan Ives Says
 2026-10-07T18:13:33+00:00|||PASS|||6816b26c852f404f4fb9c27258a5c185|||SPCX|||Is SpaceX About to Hand Nvidia a $40 Billion Payday? Here's What it Could Mean for Investors.
+2026-10-07T18:24:27+00:00|||SENT|||e581bc59eaf027c63f245a9bcdc27e02|||GOOGL|||Finland Orders Google to Halt Data Centre Work Over Missing Environmental Reviews
+2026-10-07T18:24:31+00:00|||PASS|||0c68cae9bb1fd30578b90d357730cc20|||GOOGL|||Google ordered to halt work on two data centers in ‘Texas of Europe’
+2026-10-07T18:25:05+00:00|||SENT|||c28f64d092a6aa7ae3c4474e87eb3100|||META|||Florida pursuing court order for Meta teen safety changes
+2026-10-07T18:25:10+00:00|||PASS|||e8cd68d3bbbc22b45cda589a1a1a6160|||META|||Inside Wall Street's $27B financing of Meta's Hyperion AI data center (META:NASDAQ)
+2026-10-07T18:25:14+00:00|||PASS|||6f1b925b8f4ef8619e615c6666194ee5|||AAPL|||Apple ordered to pay Masimo $184M in interest on patent damages
+2026-10-07T18:25:18+00:00|||PASS|||622048bdf6706d56b92399494be10aba|||TSLA|||AI boom, Gen Z’s ‘vibecession’ and Tesla’s $40B chip bet
+2026-10-07T18:25:22+00:00|||SENT|||257977fe6eb74d5915bf78d6cec1c86f|||TSLA|||Tesla FSD Just Got The Green Light From Germany. But It Might Need A New Name
+2026-10-07T18:25:26+00:00|||PASS|||088c0f4a7012c10873012c7d8091cced|||TSLA|||Tesla Pressured European Regulators to Ease FSD Review As Musk Claimed Delays 'Cost Lives': Reuters
+2026-10-07T18:25:32+00:00|||SENT|||4a4054693218104574fc64ca09c221f0|||TSLA|||Tesla Stock Falls as European Self-Driving Approvals Are Delayed
+2026-10-07T18:25:37+00:00|||PASS|||b719633510ada9b4ad0aa0af21845997|||NVDA|||Marvell’s $30B AI Chip Opportunity - NVIDIA (NASDAQ:NVDA), Marvell Technology (NASDAQ:MRVL)
+2026-10-07T18:25:49+00:00|||PASS|||32ecaef5987916b675ee673b9c24d07c|||TSM|||TSMC boosts US investments to $265B on AI boom: report
