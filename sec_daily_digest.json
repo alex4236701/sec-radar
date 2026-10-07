@@ -14,5 +14,21 @@
   "text": "Form 144 內部人預告賣股：Silver Lake Technology Investors IV, L.P.（See Remarks），1,036 股，約 $572,172",
   "ticker": "DELL",
   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526415992/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-07",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：FMR LLC，持股 9.10%",
+  "ticker": "ALAB",
+  "url": "https://www.sec.gov/Archives/edgar/data/1736297/000031506626002348/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-07",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：FMR LLC，持股 5.30%",
+  "ticker": "ALGM",
+  "url": "https://www.sec.gov/Archives/edgar/data/866291/000031506626002338/xslSCHEDULE_13G_X02/primary_doc.xml"
  }
 ]
