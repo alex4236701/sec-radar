@@ -29,10 +29,14 @@ UTC_TZ = timezone.utc
 ET_TZ = timezone(timedelta(hours=-4))
 
 # ==================== AI 模型設定 ====================
-# 主力：OpenAI（預設 gpt-4o-mini，最便宜）；失敗時改用 Gemini 備援
-# 想換模型時，在 GitHub Secrets 設定 OPENAI_MODEL / GEMINI_MODEL，不必改檔案
-OPENAI_MODEL = (os.environ.get("OPENAI_MODEL") or "").strip() or "gpt-4o-mini"
-OPENAI_REASONING_EFFORT = (os.environ.get("OPENAI_REASONING_EFFORT") or "").strip()
+# 主力：OpenAI；失敗時改用 Gemini 備援。和新聞雷達用同一個模型（價格為每一百萬 token 的美元價格）：
+#   "gpt-6-luna"   目前使用。新一代最便宜的模型（輸入 0.05、輸出 0.25 美元）
+#   "gpt-6.1-sol"  判斷力更好，費用約 luna 的二十倍（輸入 1 美元、輸出 5 美元）
+#   "gpt-4o-mini"  舊模型（輸入 0.15、輸出 0.6 美元）
+# 想換模型時，在 GitHub Secrets 設定 SEC_OPENAI_MODEL（只影響 SEC 雷達；新聞雷達看的是 OPENAI_MODEL，兩者互不影響）
+OPENAI_MODEL = (os.environ.get("SEC_OPENAI_MODEL") or "").strip() or "gpt-6-luna"
+# 推理型模型（gpt-5、gpt-6 系列）的思考深度，"low" 對摘要申報已經足夠、也最省錢
+OPENAI_REASONING_EFFORT = (os.environ.get("SEC_OPENAI_REASONING_EFFORT") or "").strip() or "low"
 GEMINI_MODEL = (os.environ.get("GEMINI_MODEL") or "").strip() or "gemini-3.6-flash"
 
 # ==================== 可調整參數 ====================
@@ -43,7 +47,7 @@ FETCH_FAIL_ALERT_RATIO = 0.20    # 抓取失敗比例超過此值，推播警報
 ALERT_COOLDOWN_HOURS = 3         # 警報至少間隔幾小時，避免 SEC 封鎖時每小時洗版
 MAX_CONSECUTIVE_FETCH_FAILS = 8  # 連續幾檔抓取失敗就判定被封鎖，提前結束並警報
 DAILY_REPORT_HOUR_TW = 7         # 每天台灣時間幾點之後的第一次執行，推播健康回報與合併通知
-MAX_AI_PER_DAY = 120             # 每天最多呼叫 AI 幾次（以 gpt-4o-mini 計，上限約每月 2 美元）
+MAX_AI_PER_DAY = 120             # 每天最多呼叫 AI 幾次（以 gpt-6-luna 計，就算天天用滿，一個月也不到 1 美元）
 MAX_RUN_MINUTES = 20             # 整輪最多跑幾分鐘（workflow 上限 30 分鐘）
 FORM144_CARD_MIN_VALUE = 1_000_000  # Form 144 預計賣出金額達到這個數字（美元）才單獨推卡；持股一律推卡
 DOC_TEXT_LIMIT = 4500            # 送 AI 的原文長度上限（字元）
@@ -251,7 +255,7 @@ AI_USAGE = {"date": "", "count": 0}
 
 
 def is_reasoning_model(model):
-    return model.lower().startswith(("gpt-5", "o1", "o3", "o4"))
+    return model.lower().startswith(("gpt-5", "gpt-6", "o1", "o3", "o4"))
 
 
 def openai_text(prompt, attempts=2):
