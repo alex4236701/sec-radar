@@ -51,8 +51,9 @@ jobs:
           DISCORD_NEWS_WEBHOOK: ${{ secrets.DISCORD_NEWS_WEBHOOK }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # 可選：想換 AI 模型時才需要設定，沒設定就用程式預設（gpt-4o-mini、gemini-3.6-flash）
-          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          # 可選：想換 AI 模型時才需要設定，沒設定就用程式預設（gpt-6-luna、gemini-3.6-flash）
+          # SEC_OPENAI_MODEL 只影響 SEC 雷達；新聞雷達看的是 OPENAI_MODEL，兩者互不影響
+          SEC_OPENAI_MODEL: ${{ secrets.SEC_OPENAI_MODEL }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
         run: |
           python monitor_sec.py
