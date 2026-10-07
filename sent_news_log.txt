@@ -4405,3 +4405,9 @@
 2026-10-07T17:40:45+00:00|||PASS|||d64eb1ae529f22e9f5bf1d28b85f30ff|||AMD|||​Lisa Su Says AMD Seeks 3- to 5-Year Strategic Partnership With Korea
 2026-10-07T17:40:52+00:00|||PASS|||1c14f88d7081b3a0ec3963c848288eec|||TSM|||TSMC supplier Gudeng launches operations at Arizona plant
 2026-10-07T17:42:15+00:00|||SENT|||94d4f34a64215b5d9471d161fd1c5d11|||VIAV|||Calnex and VIAVI expand partnership to deliver end-to-end network and application performance validation for next-generation networks.
+2026-10-07T18:11:43+00:00|||PASS|||a6d7b365804bf963bbf1ccec067f8514|||MSFT|||Microsoft Gets an Nvidia-Powered AI Laptop. Is It Time to Buy?
+2026-10-07T18:11:47+00:00|||PASS|||08ad52346b386722155a75b1db986d82|||META|||Ben Affleck explains why he was banned from Instagram twice
+2026-10-07T18:11:53+00:00|||PASS|||4ede03bb8ad29b687e19462cb7a6c684|||NVDA|||Microsoft Gets an Nvidia-Powered AI Laptop. Is It Time to Buy?
+2026-10-07T18:11:58+00:00|||PASS|||0199fcb7533b3caf084fe99ffde07dfd|||QCOM|||Processors and Graphics Chips Stocks Q2 Results: Benchmarking Qualcomm (NASDAQ:QCOM)
+2026-10-07T18:13:31+00:00|||PASS|||92d21dc7a20af2fb2c8583b1f82fd3f3|||SPCX|||Starlink Cash Can Carry SpaceX's $40 Billion AI Tab, Dan Ives Says
+2026-10-07T18:13:33+00:00|||PASS|||6816b26c852f404f4fb9c27258a5c185|||SPCX|||Is SpaceX About to Hand Nvidia a $40 Billion Payday? Here's What it Could Mean for Investors.
