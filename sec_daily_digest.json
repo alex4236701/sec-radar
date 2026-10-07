@@ -38,5 +38,13 @@
   "text": "Form 144 內部人預告賣股：Green Jason Elliot（Officer），2,766 股，約 $526,508",
   "ticker": "SMTC",
   "url": "https://www.sec.gov/Archives/edgar/data/88941/000195917326007304/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-07",
+  "form": "8-K",
+  "holding": true,
+  "text": "8-K 股東會投票結果（項目 5.07）",
+  "ticker": "UMAC",
+  "url": "https://www.sec.gov/Archives/edgar/data/1956955/000168316826007699/umac_8k.htm"
  }
 ]
