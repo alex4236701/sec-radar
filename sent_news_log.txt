@@ -4391,3 +4391,8 @@
 2026-10-07T15:47:26+00:00|||PASS|||fa360b0cd46837d5a483a68edd8b1f0f|||NBIS|||Nebius Stock Surges 110% in 6 Months: Time to Buy, Hold or Sell?
 2026-10-07T15:48:07+00:00|||PASS|||745283677edca82f747f3a213dcb4578|||SPCX|||SpaceX alumni nab $100M to rethink shipping with autonomous freight trains
 2026-10-07T15:48:08+00:00|||PASS|||b16538e0d030fe27fac1cb5b5dd3dd7a|||SPCX|||A Rocket Startup That’s Not SpaceX Just Raised $1 Billion. Workers Near Retirement Can Get Richer on Paper Without Adding $1 to Their Social Security Record
+2026-10-07T16:41:36+00:00|||PASS|||10ccfa8929ef07caeb418179b42c5d4c|||MU|||Micron union secures strike approval
+2026-10-07T16:41:47+00:00|||PASS|||702d711985817dc3c57d508776550c16|||VSH|||Vishay Intertechnology to Showcase Solutions for Next-Generation Battery and EV Systems at The Battery Show 2026
+2026-10-07T16:41:57+00:00|||SENT|||4831ea1e9c47d044dd06ac26ca102a32|||FCEL|||FuelCell Energy Names New CFO, Reaffirms 2027 Profitability Target As AI Power Demand Builds
+2026-10-07T16:42:34+00:00|||SENT|||7e7d7f5cfb20970a5fdf7c69c9419f66|||PENG|||Penguin Solutions Soars 13% on Record Quarter and Raised Outlook: “The Proof Is in the Results”
+2026-10-07T16:43:23+00:00|||PASS|||6fadd5d47485870f6789ae353c37c29a|||NOW|||ServiceNow to Announce Third Quarter 2026 Financial Results on October 28
