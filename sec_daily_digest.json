@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "date": "2026-10-06",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Silver Lake Technology Investors V, L.P.（See Remarks），467 股，約 $257,919",
+  "ticker": "DELL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526415994/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-06",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Silver Lake Technology Investors IV, L.P.（See Remarks），1,036 股，約 $572,172",
+  "ticker": "DELL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526415992/xsl144X01/primary_doc.xml"
+ }
+]
