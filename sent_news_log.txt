@@ -4316,3 +4316,6 @@
 2026-10-07T01:44:50+00:00|||SENT|||83132f57d26402396746a012bf26f5f1|||NVDA|||SpaceX seeks $40 billion to buy Nvidia chips, FT reports By Reuters
 2026-10-07T01:45:00+00:00|||SENT|||92df97249d071f6faeca9d457e3fa609|||TSM|||TSMC Q3 Earnings: Strong AI Demand Sets the Bar High for Growth
 2026-10-07T01:45:17+00:00|||SENT|||0c6b380dd63f36dca5eb24ed4f2a3346|||PENG|||Penguin Solutions Appoints Stephen Cumming as Senior Vice President and Chief Financial Officer to Support Accelerated Growth
+2026-10-07T05:44:39+00:00|||PASS|||9fb3b5b1407499204cfee250a3361df4|||AMZN|||Boston Dynamics appoints ex-Amazon executive Rohit Prasad as CEO
+2026-10-07T05:44:59+00:00|||PASS|||8077c86c5f0e6a29299096fdec42d170|||SNDK|||Sandisk: The Buyback Pays More Than My Base Case, Wait For A Better Entry Point
+2026-10-07T05:46:21+00:00|||PASS|||e9cb8bae402828a30890c6f7590f8489|||SPCX|||World in Brief: France’s day of protests; SpaceX’s $40bn shopping plans
