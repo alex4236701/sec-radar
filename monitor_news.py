@@ -293,6 +293,7 @@ ALWAYS_JUNK_PATTERNS = [
     r"\bbuy,?\s+sell,?\s+or\s+hold\b",
     r"\bwhat(?:'?s|\s+is)\s+next\s+for\b",
     r"\bbetter\s+buy\b",
+    r"\bis\s+it\s+time\s+to\s+(?:buy|sell)\b",
     r"\b\d+\s+reasons\b",
     r"\bstocks?\s+to\s+(?:buy|watch|own|hold)\b",
     r"\btop\s+\d+\s+[\w\s]*stocks\b",
@@ -327,7 +328,7 @@ PEER_RECAP_PATTERNS = [
     r"\bq[1-4]\b.*\bpack\b", r"\bearnings\b.*\bpack\b",
     r"\bearnings\s+review\b", r"\breflecting\s+on\b",
     r"\blook(?:ing)?\s+back\s+(?:at|on)\b", r"\bunpacking\b",
-    r"\bstocks'\s+q[1-4]\b", r"\bstocks'?\s+earnings\b",
+    r"\bstocks'?\s+q[1-4]\b", r"\bq[1-4]\s+preview\b", r"\bstocks'?\s+earnings\b",
     r"\bhighs?\s+and\s+lows?\b", r"\bwinners?\s+and\s+losers?\b",
     r"\bq[1-4]\s+(?:earnings\s+)?(?:rundown|roundup|round-up|wrap|wrap-up|highlights|outperformers?|underperformers?|standouts?)\b",
     r"\bearnings\s+(?:rundown|roundup|round-up|wrap|wrap-up|outperformers?|underperformers?|standouts?)\b",
@@ -410,7 +411,14 @@ STRONG_SIGNAL_PATTERNS = STRONG_EVENT_PATTERNS + STRONG_DEAL_PATTERNS
 # 想讓某檔改回一般待遇，從這裡拿掉即可
 MEGA_CAPS = {"GOOGL", "MSFT", "AAPL", "AMZN", "META", "NVDA", "TSLA", "AVGO", "TSM", "AMD"}
 MEGA_CAP_MIN_BILLIONS = 10
-MEGA_CAP_EVENT_PATTERNS = STRONG_EVENT_PATTERNS
+MEGA_CAP_EVENT_PATTERNS = STRONG_EVENT_PATTERNS + [
+    # 政府或法院下令（停工、賠償、修改）、監管核准或延後：交給 AI 判斷輕重
+    r"\b(?:orders?|ordered)\s+(?:\w+\s+){0,4}to\s+(?:halt|stop|suspend|pay|remove|change|divest|sell)\b",
+    r"\bcourt\s+orders?\b", r"\bhalt(?:s|ed)?\s+(?:\w+\s+){0,3}(?:work|production|sales|construction|operations?)\b",
+    r"\b(?:regulator|regulators|regulatory)\b.*\b(?:approv\w*|green\s+light|reject\w*|delay\w*|block\w*)\b",
+    r"\b(?:approv\w*|green\s+light|reject\w*|delay\w*)\b.*\b(?:regulator|regulators|regulatory|fda|faa|fcc|ec|eu)\b",
+    r"\b(?:fsd|self[\s-]driving|robotaxis?)\b.*\b(?:approv\w*|green\s+light|delay\w*|ban\w*|suspend\w*)\b",
+]
 
 
 def title_max_billions(text):
@@ -849,7 +857,8 @@ def evaluate_title(ticker, title, snippet, source_tier, relax=None):
         if not (matches_any(combined, MEGA_CAP_EVENT_PATTERNS)
                 or title_max_billions(title) >= MEGA_CAP_MIN_BILLIONS):
             return False, "超大型股非重大事件"
-    strong = matches_any(combined, STRONG_SIGNAL_PATTERNS)
+    # 超大型股能走到這裡，代表已經通過上面「重大事件或 100 億美元」的門檻，視同強催化劑
+    strong = ticker in MEGA_CAPS or matches_any(combined, STRONG_SIGNAL_PATTERNS)
     normal = strong or matches_any(combined, SIGNAL_PATTERNS)
     is_holding = (ticker in HOLDINGS) if relax is None else relax
 
@@ -1534,7 +1543,9 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
 
         passed, reason = evaluate_title(ticker, clean_title, item["snippet"], source_tier, relax=relax)
         if not passed:
-            if reason in ("同業回顧文", "本公司是買方", "例行股息", "超大型股非重大事件"):
+            if reason == "超大型股非重大事件":
+                stats["mega_skipped"] = stats.get("mega_skipped", 0) + 1
+            elif reason in ("同業回顧文", "本公司是買方", "例行股息"):
                 print(f"      [{reason}] 略過：{clean_title[:60]}", flush=True)
             continue
 
@@ -1663,6 +1674,7 @@ def main():
     print(f"✅ 巡檢完成：掃描 {total} 檔，抓取失敗 {len(stats['fetch_failed'])} 檔，"
           f"送 AI {stats['ai_checked']} 則，推播 {stats['pushed']} 則，"
           f"清除過期紀錄 {removed} 條", flush=True)
+    print(f"ℹ️ 超大型股非重大事件略過 {stats.get('mega_skipped', 0)} 則（不逐則列出）", flush=True)
     print("==========================================", flush=True)
 
 
