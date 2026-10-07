@@ -35,8 +35,9 @@ ET_TZ = timezone(timedelta(hours=-4))
 #   "gpt-4o-mini"  舊模型（輸入 0.15、輸出 0.6 美元）
 # 想換模型時，在 GitHub Secrets 設定 SEC_OPENAI_MODEL（只影響 SEC 雷達；新聞雷達看的是 OPENAI_MODEL，兩者互不影響）
 OPENAI_MODEL = (os.environ.get("SEC_OPENAI_MODEL") or "").strip() or "gpt-6-luna"
-# 推理型模型（gpt-5、gpt-6 系列）的思考深度，"low" 對摘要申報已經足夠、也最省錢
-OPENAI_REASONING_EFFORT = (os.environ.get("SEC_OPENAI_REASONING_EFFORT") or "").strip() or "low"
+# 推理型模型（gpt-5、gpt-6 系列）的思考深度：SEC 申報內文長、又要判斷值不值得推，用 "medium"（中）
+# 想更省可改成 "low"；若模型不支援，程式會自動拿掉這個參數重試
+OPENAI_REASONING_EFFORT = (os.environ.get("SEC_OPENAI_REASONING_EFFORT") or "").strip() or "medium"
 GEMINI_MODEL = (os.environ.get("GEMINI_MODEL") or "").strip() or "gemini-3.6-flash"
 
 # ==================== 可調整參數 ====================
@@ -347,8 +348,28 @@ AI_FAILED_TEXT = "• **【AI 解讀】**：AI 解讀暫時無法取得，請點
 AI_QUOTA_TEXT = "• **【AI 解讀】**：今日 AI 解讀額度已用完（控制費用），請點擊標題閱讀原文。"
 
 
-def ai_summarize(ticker, filing_context, doc_text, stats):
-    """回傳摘要文字；AI 都失敗時回傳誠實的提示文字，不寫假內容"""
+AI_PASS = "PASS"
+
+# AI 判斷「不值得推播」的標準（只用在 8-K 的 5.02、7.01、8.01 和 6-K，而且不是持股時）
+AI_PASS_RULES = """
+【先判斷值不值得推播】：
+如果這份申報對這家公司的營收、獲利、估值或重大風險沒有實質影響，第一行只輸出 PASS 這四個字母，不要輸出其他任何文字。
+請以公司規模衡量重要性：
+1. 超大型公司（市值數千億美元以上）：法說會或投資人簡報、一般董事任免或酬勞調整、例行債務或信用額度調整、
+   金額低於約 10 億美元的合作或投資、公益與獎項，一律 PASS。
+2. 中型公司：金額相對其年營收不顯著（低於年營收約 2%）的消息，PASS。
+3. 小型公司（市值約 50 億美元以下）：幾百萬美元的訂單、融資或執行長、財務長異動都可能重要，可以放行。
+4. 不論公司大小都要放行：執行長或財務長異動、財測調整、併購、重大訴訟或調查、重大客戶合約、股權融資、資安事件。
+拿不準時問自己：一位專業基金經理看到這份申報，會不會因此重新檢視這檔持股？不會就 PASS。
+如果值得推播，就照下方格式輸出，不要寫 PASS。
+"""
+
+
+def ai_summarize(ticker, filing_context, doc_text, stats, allow_pass=False):
+    """
+    回傳摘要文字；AI 都失敗時回傳誠實的提示文字，不寫假內容。
+    allow_pass=True 時，AI 可以判定不值得推播，這時回傳 AI_PASS
+    """
     if not doc_text or len(doc_text.strip()) < 40:
         return "• **【AI 解讀】**：申報內文過短或無法擷取，請點擊標題閱讀原文。"
     if not OPENAI_API_KEY and not GEMINI_API_KEY:
@@ -366,7 +387,7 @@ def ai_summarize(ticker, filing_context, doc_text, stats):
 1. 嚴禁機械套話！絕對禁止寫「對手方為...」、「交易/合約性質為...」等生硬套話。
 2. 嚴禁使用「提升市場地位、增強競爭力、帶來正面影響、後市可期、具戰略意義」等空洞公關廢話。
 3. 原文沒寫的數字不要自己編。
-
+{AI_PASS_RULES if allow_pass else ""}
 【輸出要求（請像專業研究員用自然大白話直接講重點）】：
 • **【核心要點】**：一句話白話講清楚到底發生了什麼事（融資金額與利率、重大合約、資產收購處分、財報數字、高層異動或關鍵時程）。（繁體中文，40-65 字）
 • **【財務影響】**：直擊實質財務衝擊（營收貢獻、毛利變化、負債壓力、或股本稀釋風險）。（繁體中文，40-65 字）
@@ -381,6 +402,9 @@ def ai_summarize(ticker, filing_context, doc_text, stats):
     if not text:
         stats["ai_failed"] += 1
         return AI_FAILED_TEXT
+    if allow_pass and re.match(r"\W*PASS\b", text.strip(), re.I):
+        stats["ai_pass"] += 1
+        return AI_PASS
     return text
 
 
@@ -653,6 +677,13 @@ def handle_offering(ticker, f, cik):
     resale = re.search(r"selling (?:stock|share|security|unit)holders?", low)
     if form == "424B3" and re.search(r"prospectus supplement no\.?\s*\d+", low) and ticker not in HOLDINGS:
         return digest("424B3 既有說明書例行更新")
+    # 併購案的換股說明書（封面會寫 proxy statement/prospectus 或 exchange offer）
+    if form == "424B3" and re.search(r"proxy statement/prospectus|proxy statement / prospectus|offer to exchange|exchange offer", low):
+        if ticker not in HOLDINGS:
+            return digest("424B3 併購換股說明書")
+        return card(ticker, "🤝 【併購換股說明書】", 0x9B59B6, f"424B3 (併購說明書){stage}",
+                    "• **【判讀】**：這是併購案用來發給股東看的換股說明書，通常在併購宣布後一段時間才出來，"
+                    "會列出換股比例、股東會投票時間與交易條件；不是公司另外募資發新股。")
     if resale:
         return card(ticker, "⚠️ 【股東轉售登記】", 0xE67E22, f"{form} (轉售說明書){stage}",
                     "• **【判讀】**：登記讓既有股東（常見為私募投資人、可轉債或認股權證持有人）可以在市場上賣股，"
@@ -720,7 +751,10 @@ def handle_6k(ticker, f, cik, stats):
     if is_routine_6k([doc_text[:400]]):
         stats["routine_6k"] += 1
         return skip("例行 6-K（內文標題）")
-    summary = ai_summarize(ticker, f"{f['form']} (外國發行人重大備案)", doc_text[:DOC_TEXT_LIMIT], stats)
+    summary = ai_summarize(ticker, f"{f['form']} (外國發行人重大備案)", doc_text[:DOC_TEXT_LIMIT], stats,
+                           allow_pass=ticker not in HOLDINGS)
+    if summary == AI_PASS:
+        return skip("AI 判定 6-K 不重要")
     return card(ticker, "🌍 【外國公司重大公告 6-K】", 0x9B59B6, f"{f['form']} (外國發行人重大備案)", summary)
 
 
@@ -743,10 +777,34 @@ def handle_8k(ticker, f, cik, stats):
         return skip(f"8-K 例行項目 {items_str}")
     index_info = fetch_filing_index(cik, f["accessionNumber"])
     doc_text = build_8k_text(cik, f, index_info)
-    summary = ai_summarize(ticker, f"8-K 項目 {items_str or '未標示'}", doc_text, stats)
+    # 財報、併購、重大合約、下市、減損、財報不可信、資安這些一級條款一定推；
+    # 只有高層異動（5.02）、7.01、8.01 這類，非持股時讓 AI 判斷值不值得推
+    allow_pass = ticker not in HOLDINGS and not (tokens & (HIGH_IMPACT_8K_ITEMS - {"5.02"}))
+    summary = ai_summarize(ticker, f"8-K 項目 {items_str or '未標示'}", doc_text, stats, allow_pass=allow_pass)
+    if summary == AI_PASS:
+        return skip(f"AI 判定 8-K 不重要（項目 {items_str or '未標示'}）")
     if tokens & HIGH_IMPACT_8K_ITEMS:
         return card(ticker, "⚡ 【8-K 重大申報】", 0x2ECC71, f"{f['form']} (核心項目: {items_str})", summary)
     return card(ticker, "📑 【8-K 公告解讀】", 0x34495E, f"{f['form']} (項目: {items_str or '未標示'})", summary)
+
+
+# 「繼續經營疑慮」的肯定句寫法；前面若是 could、may 這類假設語氣（風險因素常見寫法）就不算
+GOING_CONCERN_RE = re.compile(
+    r"(?:(?:raises?|raised|is|was)\s+substantial doubt|substantial doubt (?:exists|existed))\s+"
+    r"(?:about|regarding|as to|concerning)[^.]{0,120}?going concern", re.I)
+HYPOTHETICAL_RE = re.compile(r"\b(?:could|may|might|would|will|not|no|if)\s+(?:\w+\s+){0,3}$", re.I)
+
+
+def find_going_concern(text):
+    """找財報裡肯定語氣的 going concern 句子；找到回傳那一句（原文），沒有回傳 None"""
+    for m in GOING_CONCERN_RE.finditer(text):
+        before = text[max(0, m.start() - 40):m.start()]
+        if HYPOTHETICAL_RE.search(before):
+            continue
+        start = text.rfind(". ", 0, m.start()) + 2
+        end = text.find(".", m.end())
+        return text[start if start > 1 else max(0, m.start() - 150):end + 1 if end != -1 else m.end()].strip()
+    return None
 
 
 PERIODIC_LABELS = {"10-Q": "季報", "10-K": "年報", "20-F": "外國公司年報", "40-F": "加拿大公司年報"}
@@ -761,6 +819,18 @@ def handle_filing(ticker, f, cik, stats):
                     "• **【財務影響】**：可能涉及內部控制缺失、審計問題或財務重編，也可能只是併購等技術性延誤，請看原文說明的理由。")
     if form in DIGEST_PERIODIC_FORMS:
         base = form.replace("/A", "")
+        if not form.endswith("/A"):
+            try:
+                sentence = find_going_concern(fetch_text(filing_view_url(cik, f["accessionNumber"], f["primaryDocument"])))
+            except SecNotFound:
+                sentence = None
+            if sentence:
+                return card(ticker, "🚨 【財報揭露繼續經營疑慮】", 0xC0392B,
+                            f"{form} ({PERIODIC_LABELS.get(base, '定期報告')}・Going Concern)",
+                            "• **【核心要點】**：公司在財報中揭露，對自己能否繼續經營存在重大疑慮（going concern），"
+                            "通常代表現金不足以撐過未來一年。\n"
+                            "• **【財務影響】**：常伴隨緊急融資、增發新股或債務重組，股本稀釋與下市風險都會升高。\n"
+                            f"• **【原文】**：{sentence[:400]}")
         return digest(f"{form} {PERIODIC_LABELS.get(base, '定期報告')}" + ("修正" if form.endswith("/A") else ""))
     if form in FORM4_FORMS:
         return handle_form4(ticker, f, cik)
@@ -848,7 +918,7 @@ def health_lines(stats, total):
         f"成功查詢：{stats['sec_ok']} 檔，其中近期有追蹤表單 {stats['with_filings']} 檔",
         f"推播卡片：{stats['pushed']} 則；推播失敗（下次重試）：{stats['push_failed']} 則",
         f"併入每日通知：{stats['digested']} 則；略過例行 6-K：{stats['routine_6k']} 則；略過其他例行申報：{stats['skipped']} 則",
-        f"AI 呼叫：{stats['ai_calls']} 次（今日累計 {AI_USAGE['count']}/{MAX_AI_PER_DAY}），AI 失敗：{stats['ai_failed']} 次",
+        f"AI 呼叫：{stats['ai_calls']} 次（今日累計 {AI_USAGE['count']}/{MAX_AI_PER_DAY}），AI 判定不重要而不推：{stats['ai_pass']} 則，AI 失敗：{stats['ai_failed']} 次",
     ]
     if stats["doc_failed"]:
         lines.append(f"申報內文抓取失敗（下次重試）：{stats['doc_failed']} 則")
@@ -1181,7 +1251,7 @@ def send_form144_cards(ticker, cik, items, state, stats):
 def new_stats():
     return {"fetch_failed": [], "not_sec": [], "timed_out": [], "sec_ok": 0, "with_filings": 0,
             "pushed": 0, "push_failed": 0, "digested": 0, "skipped": 0, "routine_6k": 0,
-            "ai_calls": 0, "ai_failed": 0, "ai_quota": 0, "doc_failed": 0, "errors": 0,
+            "ai_calls": 0, "ai_failed": 0, "ai_pass": 0, "ai_quota": 0, "doc_failed": 0, "errors": 0,
             "cik_source": "", "fatal": ""}
 
 
