@@ -485,11 +485,21 @@ def handle_form4(ticker, f, cik):
     return card(ticker, "🟢 【內部人公開市場買進】", 0x27AE60, f"{f['form']} (內部人持股變動)", summary)
 
 
+RELATION_ZH = {"officer": "高階主管", "director": "董事", "10% securityholder": "10% 以上大股東",
+               "affiliate": "關係人", "see remarks": "", "other": ""}
+
+
+def relation_zh(text):
+    t = text.strip()
+    return RELATION_ZH.get(t.lower(), t)
+
+
 def parse_form144(xml_text):
     root = ET.fromstring(xml_text.encode("utf-8") if isinstance(xml_text, str) else xml_text)
     seller = find_text(root, "nameOfPersonForWhoseAccountTheSecuritiesAreToBeSold")
-    relations = [(e.text or "").strip() for e in root.iter()
+    relations = [relation_zh(e.text or "") for e in root.iter()
                  if local_name(e.tag) == "relationshipToIssuer" and (e.text or "").strip()]
+    relations = [r for r in relations if r]
     shares = to_float(find_text(root, "noOfUnitsSold"))
     value = to_float(find_text(root, "aggregateMarketValue"))
     sale_date = find_text(root, "approxSaleDate")
@@ -510,7 +520,11 @@ def handle_form144(ticker, f, cik):
                    f"• **【預計賣出】**：{share_text}，市值約 {fmt_money(value)}，預計日期 {sale_date or '未填'}\n"
                    f"• **【解讀】**：Form 144 是內部人「預告」要賣股，實際成交會在之後的 Form 4 揭露；"
                    f"常見原因包含既定的 10b5-1 售股計畫或股票獎酬變現。")
-        return card(ticker, "🟠 【內部人預告賣股 Form 144】", 0xE67E22, f"{f['form']} (擬出售證券通知)", summary)
+        decision = card(ticker, "🟠 【內部人預告賣股 Form 144】", 0xE67E22, f"{f['form']} (擬出售證券通知)", summary)
+        # 同一檔同一次掃描有好幾份 144（例如大股東用好幾個基金帳戶分開申報），會合併成一張卡
+        decision["f144"] = {"line": f"{who}：{share_text}，約 {fmt_money(value)}，預計 {sale_date or '未填'}",
+                            "value": value or 0}
+        return decision
     return digest(f"Form 144 內部人預告賣股：{who}，{share_text}，約 {fmt_money(value)}")
 
 
@@ -561,8 +575,10 @@ def handle_13dg(ticker, f, cik):
                    f"• **【解讀】**：13D 代表持股超過 5% 且可能介入經營（例如要求董事席次、推動併購或改組），"
                    f"屬主動型大股東，值得細看原文的「交易目的」段落。")
         return card(ticker, "🟣 【主動型大股東 13D】", 0x8E44AD, f"{form} (持股 5% 以上・主動)", summary)
-    if is_amend and ticker not in HOLDINGS:
-        return digest(f"13G 修正：{who}，持股 {pct_text}" + ("（已降到 5% 以下）" if exited else ""))
+    # 13G 是被動型機構持股，大型股幾乎天天有；非持股一律併入每日通知
+    if ticker not in HOLDINGS:
+        label = "13G 修正" if is_amend else "13G 被動型持股超過 5%"
+        return digest(f"{label}：{who}，持股 {pct_text}" + ("（已降到 5% 以下）" if exited else ""))
     summary = (f"• **【申報人】**：{who}\n"
                f"• **【持股比例】**：{pct_text}{'（修正申報）' if is_amend else ''}\n"
                f"• **【解讀】**：13G 是被動型投資人（基金、機構）持股超過 5% 的申報，不打算介入經營。")
@@ -1080,6 +1096,7 @@ def process_ticker(ticker, cik, state, stats, bootstrap):
     stats["with_filings"] += 1
     print(f"{len(targets)} 則新申報", flush=True)
     today_et = datetime.now(ET_TZ).strftime("%Y-%m-%d")
+    pending_144 = []   # 本檔這次掃描要推的 Form 144，最後合併成一張卡
 
     for f in targets:
         acc = f["accessionNumber"]
@@ -1105,6 +1122,9 @@ def process_ticker(ticker, cik, state, stats, bootstrap):
             print(f"      ❌ [程式處理錯誤] {type(e).__name__}: {e}", flush=True)
             continue
 
+        if decision["action"] == "card" and "f144" in decision:
+            pending_144.append((f, decision))
+            continue
         if decision["action"] == "card":
             if send_filing_card(ticker, f, cik, decision["intel"]):
                 stats["pushed"] += 1
@@ -1125,6 +1145,33 @@ def process_ticker(ticker, cik, state, stats, bootstrap):
                 stats["skipped"] += 1
             record(state, acc, "SKIP")
             print(f"      [略過] {decision['reason']}", flush=True)
+
+    if pending_144:
+        send_form144_cards(ticker, cik, pending_144, state, stats)
+
+
+def send_form144_cards(ticker, cik, items, state, stats):
+    """一份就照原樣推；好幾份就合併成一張卡，列出每位申報人和合計金額"""
+    if len(items) == 1:
+        f, decision = items[0]
+        intel = decision["intel"]
+    else:
+        f = items[0][0]
+        total = sum(d["f144"]["value"] for _, d in items)
+        lines = "\n".join(f"{i}、{d['f144']['line']}" for i, (_, d) in enumerate(items, start=1))
+        intel = dict(items[0][1]["intel"])
+        intel["tag"] = f"144 (擬出售證券通知・共 {len(items)} 份)"
+        intel["summary"] = (f"• **【合計預計賣出】**：約 {fmt_money(total)}（{len(items)} 份申報）\n{lines}\n"
+                            f"• **【解讀】**：同一批人分帳戶申報，屬同一次賣股計畫；實際成交會在之後的 Form 4 揭露。")[:1000]
+    if send_filing_card(ticker, f, cik, intel):
+        stats["pushed"] += 1
+        for g, _ in items:
+            record(state, g["accessionNumber"], "SENT")
+        print(f"      🎉 [推播成功] Form 144 共 {len(items)} 份", flush=True)
+    else:
+        stats["push_failed"] += 1
+        print("      ❌ [推播失敗] 不寫入紀錄，下次重試", flush=True)
+    time.sleep(1)
 
 
 def new_stats():
