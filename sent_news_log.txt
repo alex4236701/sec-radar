@@ -4527,3 +4527,10 @@
 2026-10-08T16:44:15+00:00|||SENT|||4c7bc0754edb9179b485fef8fd8f4a47|||CSCO|||Cisco warns of critical flaws allowing Nexus switch takeover
 2026-10-08T16:44:34+00:00|||PASS|||1323fbd3f8a525c1093b396d05cd3b08|||PLTR|||Why a longtime skeptic of Palantir’s stock is finally saying it’s time to buy
 2026-10-08T16:44:35+00:00|||PASS|||8201c2eca93542d5f1451087fa18201b|||PLTR|||Palantir: Why The Upgrades Keep Coming Ahead Of The Q3 Earnings Report (NASDAQ:PLTR)
+2026-10-08T17:39:00+00:00|||PASS|||98754a84a91f037935dfab0e2639b76c|||GOOGL|||Finland orders Google to stop work on two AI data centers over alleged deforestation — company admits it has 'fallen short of our own high standards in this instance'
+2026-10-08T17:39:27+00:00|||PASS|||98d7ddaaa614991931baa62907c8145a|||ECL|||What to Expect From Ecolab's Next Quarterly Earnings Report
+2026-10-08T17:39:32+00:00|||PASS|||e79d0924f90f4e2b88e39462520f9c6c|||MSFT|||Top Midday Stories: Microsoft, Adobe Among Tech Firms Suspended From US Immigration Program; Starbucks Has Explored Chipotle Takeover
+2026-10-08T17:39:49+00:00|||PASS|||dc22fee84c43219e7cc4408beb3b4e93|||TSM|||Why TSMC’s $64B Capex Spend Still May Not Be Enough - Taiwan Semiconductor (NYSE:TSM)
+2026-10-08T17:39:55+00:00|||SENT|||3532e40c0e03944f45f99b9a71088534|||TSM|||TSMC quarterly revenue surges to NT$1.49 trillion
+2026-10-08T17:39:59+00:00|||PASS|||ef2f2514e82d9f521f502daef0fb4ce5|||TSM|||TSMC Reports 55% Growth in September Revenue
+2026-10-08T17:40:47+00:00|||PASS|||84474f64277535c498fb23d31d0a7ba7|||IFNNY|||Quantum startup ZuriQ partners with Infineon for development of scalable quantum chips
