@@ -30,5 +30,21 @@
   "text": "Form 144 內部人預告賣股：JUSTIN SCARPULLA（高階主管），1,100 股，約 $300,949",
   "ticker": "MRVL",
   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000195004726010117/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-08",
+  "form": "8-K/A",
+  "holding": true,
+  "text": "8-K 股東會投票結果（項目 5.07）",
+  "ticker": "RDW",
+  "url": "https://www.sec.gov/Archives/edgar/data/1819810/000181981026000133/rdw-20260520.htm"
+ },
+ {
+  "date": "2026-10-08",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：LAUREN STAT（董事），5,026 股，約 $975,647",
+  "ticker": "PLTR",
+  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000195004726010118/xsl144X01/primary_doc.xml"
  }
 ]
