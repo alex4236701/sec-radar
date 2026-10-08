@@ -4465,3 +4465,15 @@
 2026-10-08T05:47:19+00:00|||PASS|||404c87f5d454c35f0fa42500ea186c16|||SPCX|||Elon Musk blames Indian 'oligarchs' for stalling Starlink launch
 2026-10-08T05:47:22+00:00|||PASS|||8bc4845208f061051b55597c15d1b2f0|||RKLB|||Dow Jones Futures: Trump Claims 'Control' Of Strait Of Hormuz; SpaceX Rival Rocket Lab Dives On Earnings
 2026-10-08T05:47:47+00:00|||PASS|||39212958d23fcd06abc82a841e691769|||CRCL|||Samsung to launch USDC transfers on Solana for US Galaxy users
+2026-10-08T09:45:29+00:00|||PASS|||7198d145c84ca77d2fb96b786e32c81a|||GOOGL|||Google's $15 Billion Finland AI Push Hits Roadblock as Regulators Order Halt at 2 Data Centers Pending En
+2026-10-08T09:46:01+00:00|||PASS|||a6c46f98b9139d4efb6ea57123920567|||AMZN|||Amazon Reportedly Hands Pink Slips To 1,000 Workers As Big Tech Layoffs Continue
+2026-10-08T09:46:02+00:00|||PASS|||390b9ce8c945365b1e1bf73d653347d9|||AMZN|||Amazon confirms retail layoffs impacting under 1,000 corporate roles
+2026-10-08T09:46:03+00:00|||PASS|||824eafa36c444f3fb17d81e1e1bd95ad|||AMZN|||Not Amazon. Not Sea Limited. This $94 Billion E-Commerce Powerhouse Dominates Latin America.
+2026-10-08T09:46:20+00:00|||PASS|||e2ac4444494f60b3455a23b4fe35951c|||TSM|||TSMC posts record quarterly revenue, highest-ever September sales - Focus Taiwan
+2026-10-08T09:46:23+00:00|||PASS|||f14cb1e409ae323430a4b5b7a6f2eff0|||TSM|||TSMC's September sales jump more than 50% year over year
+2026-10-08T09:46:29+00:00|||PASS|||35ad059190fd126c92c2af442586e027|||SKHY|||SK Hynix Debut Tests Memory-Chip Stock Demand
+2026-10-08T09:46:42+00:00|||PASS|||a7257b730d2ded94c982e8347cc6bbba|||LRCX|||Lam Research launches South Korea chip fund after 15,000-chamber milestone
+2026-10-08T09:47:16+00:00|||SENT|||c6cb52cb5972a5e3c2666171b5652d93|||IFNNY|||Infineon completes acquisition of C2i to expand AI data center power capabilities
+2026-10-08T09:48:05+00:00|||PASS|||1b6329a6f37c9a0e4102803949a78ec6|||SPCX|||SPCX CEO Elon Musk Praises Jeff Bezos’ $28 Billion Bet On Blue Origin As Space Race Intensifies, Says He
+2026-10-08T09:48:07+00:00|||PASS|||7157052c81626e92bbfb07a66fcc129b|||SPCX|||India rejects Elon Musk’s claim of discrimination over Starlink launch
+2026-10-08T09:48:33+00:00|||PASS|||07357b2fb7b85ab945eb14cb8b058a66|||CRCL|||Samsung taps Solana and Sui to launch zero-fee USDC global remittances on 82 million phones
