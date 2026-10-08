@@ -4497,3 +4497,11 @@
 2026-10-08T12:49:52+00:00|||PASS|||9bfbffc518b0ae09a011521080e6419e|||CRM|||Zenkraft Launches New Multi-Carrier Shipping Commerce App for Salesforce's Storefront Next
 2026-10-08T12:50:01+00:00|||PASS|||1c7210a6951aaefd2bd740b6fbdd563f|||ZS|||Zscaler’s $10 billion long-term ARR target looks ambitious, says Jefferies
 2026-10-08T12:50:11+00:00|||PASS|||613344154d4a1adabbcc6a811c4f8ffa|||TWLO|||Twilio Vaults 25% On Earnings, Hits Highs; Two More Stocks On Watch
+2026-10-08T13:41:50+00:00|||PASS|||011181bb04571ea94b0550b23874d902|||GOOGL|||This Utility Merger Pair Surges on Alphabet AI Deal
+2026-10-08T13:41:55+00:00|||PASS|||d896cb51bee2b4ec59655d061adef882|||GOOGL|||Market Chatter: Alphabet's Isomorphic Labs Seeks to Raise up to $50 Billion in Funding Round
+2026-10-08T13:42:35+00:00|||PASS|||5f0c77f7495f0d88f1ae946dec983844|||MRVL|||Marvell Stocks Fall 2% as $90 Billion AI Target Tests Credibility
+2026-10-08T13:43:29+00:00|||PASS|||fc78f9d3dbf504bc0c702298a9d16e31|||DELL|||Accenture and Dell Technologies Expand Collaboration to Help Enterprises Scale Private AI and Modernize Infrastructure – Company Announcement - FT.com
+2026-10-08T13:43:44+00:00|||PASS|||c1b32d25085eaa91726e5a6501273406|||IBM|||11:11 Systems Acquires Select IBM VMware Cloud Service Provider Enterprise Customers
+2026-10-08T13:43:45+00:00|||PASS|||e36f1d0af0d91e865444e20c401c5c8a|||IBM|||VMware Star 11:11 Acquires ‘Hundreds’ Of IBM Customers In Blockbuster VCF Push
+2026-10-08T13:43:52+00:00|||SENT|||bdcd25705941683f6e514f577bfb0f2f|||ZETA|||Zeta Global Teams Up with Fireworks to Unveil New Specialized Athena Inference Model Using NVIDIA Nemotron
+2026-10-08T13:44:25+00:00|||PASS|||eb37c3efc848510035b13ae6871173d1|||SPCX|||Trump bought up to $25 million in Meta and millions in SpaceX debt in August
