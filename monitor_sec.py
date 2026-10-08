@@ -50,6 +50,9 @@ MAX_CONSECUTIVE_FETCH_FAILS = 8  # 連續幾檔抓取失敗就判定被封鎖，
 DAILY_REPORT_HOUR_TW = 7         # 每天台灣時間幾點之後的第一次執行，推播健康回報與合併通知
 MAX_AI_PER_DAY = 120             # 每天最多呼叫 AI 幾次（以 gpt-6-luna 計，就算天天用滿，一個月也不到 1 美元）
 MAX_RUN_MINUTES = 20             # 整輪最多跑幾分鐘（workflow 上限 30 分鐘）
+FORM4_CARD_MIN_VALUE = 100_000       # 內部人公開市場買進達到這個金額（美元）才推卡，未達的併入每日通知
+FORM4_HOLDING_MIN_VALUE = 20_000     # 持股的門檻放寬
+FORM4_PLAN_CLUSTER = 3               # 同一天有幾位以上內部人用同一價格買進，就當作公司持股計畫統一代買
 FORM144_CARD_MIN_VALUE = 1_000_000  # Form 144 預計賣出金額達到這個數字（美元）才單獨推卡；持股一律推卡
 DOC_TEXT_LIMIT = 4500            # 送 AI 的原文長度上限（字元）
 
@@ -467,8 +470,17 @@ def find_text(elem, name, sub=None):
     return (e.text or "").strip() or None
 
 
+PLAN_FOOTNOTE_RE = re.compile(
+    r"employee\s+(?:stock|share)\s+(?:purchase|ownership)|\bESPP\b|\bESOP\b|"
+    r"(?:stock|share)\s+(?:ownership|purchase|savings)\s+(?:plan|program|trust)|"
+    r"dividend\s+reinvestment|\bDRIP\b|401\s*\(k\)|payroll\s+deduction|savings\s+plan", re.I)
+
+
 def parse_form4(xml_text):
-    """回傳 (申報人, 身分, 公開市場買進股數, 買進金額)；只計算交易代碼 P"""
+    """
+    回傳 dict：申報人、身分、公開市場買進股數與金額（只算交易代碼 P）、
+    是否註明員工持股／購股計畫、是否依 10b5-1 計畫
+    """
     root = ET.fromstring(xml_text.encode("utf-8") if isinstance(xml_text, str) else xml_text)
     owners, roles = [], []
     for ro in root.iter():
@@ -495,22 +507,82 @@ def parse_form4(xml_text):
         price = to_float(find_text(tx, "transactionPricePerShare", "value")) or 0.0
         shares_total += shares
         value_total += shares * price
-    return "、".join(owners) or "未知", "、".join(dict.fromkeys(roles)) or "未註明", shares_total, value_total
+    notes = " ".join((e.text or "") for e in root.iter() if local_name(e.tag) in ("footnote", "remarks"))
+    return {"owner": "、".join(owners) or "未知", "role": "、".join(dict.fromkeys(roles)) or "未註明",
+            "shares": shares_total, "value": value_total,
+            "avg": value_total / shares_total if shares_total else 0.0,
+            "plan_note": bool(PLAN_FOOTNOTE_RE.search(notes)),
+            "rule_10b5": find_text(root, "aff10b5One") in ("1", "true")}
 
 
 def handle_form4(ticker, f, cik):
+    """只解析；要不要推卡、要不要合併，等這檔所有 Form 4 都讀完再一起決定（見 settle_form4）"""
     xml_text = sec_get(filing_raw_url(cik, f["accessionNumber"], f["primaryDocument"])).text
     try:
-        owner, role, shares, value = parse_form4(xml_text)
+        info = parse_form4(xml_text)
     except ET.ParseError:
         return skip("Form 4 格式無法解析")
-    if shares <= 0:
+    if info["shares"] <= 0:
         return skip("Form 4 非公開市場買進")
-    avg = value / shares if shares else 0
-    summary = (f"• **【申報人】**：{owner}（{role}）\n"
-               f"• **【公開市場買進】**：{shares:,.0f} 股，均價約 ${avg:,.2f}，合計約 {fmt_money(value)}\n"
-               f"• **【解讀】**：內部人自掏腰包在市場上買進（交易代碼 P），通常被視為對公司前景有信心的訊號。")
-    return card(ticker, "🟢 【內部人公開市場買進】", 0x27AE60, f"{f['form']} (內部人持股變動)", summary)
+    return {"action": "f4", "f4": info}
+
+
+def form4_line(info):
+    extra = "（依事先設定的 10b5-1 計畫）" if info["rule_10b5"] else ""
+    return (f"{info['owner']}（{info['role']}）：{info['shares']:,.0f} 股，"
+            f"均價 ${info['avg']:,.2f}，約 {fmt_money(info['value'])}{extra}")
+
+
+def settle_form4(ticker, items):
+    """
+    把這檔這次掃描的所有「公開市場買進」Form 4 一起判斷，回傳要做的事：
+    1、員工／高管持股計畫統一代買（附註寫明計畫，或 3 位以上內部人同一天同一價格買進）：
+       不是自己判斷進場，合併成一則每日通知
+    2、真正的主動買進：金額達門檻才推卡，同一次掃描好幾位合併成一張卡
+    3、金額太小的：合併成一則每日通知
+    """
+    by_price = {}
+    for f, info in items:
+        by_price.setdefault((f["filingDate"], round(info["avg"], 2)), set()).add(info["owner"])
+    plan, real = [], []
+    for f, info in items:
+        same_price = len(by_price[(f["filingDate"], round(info["avg"], 2))]) >= FORM4_PLAN_CLUSTER
+        (plan if info["plan_note"] or same_price else real).append((f, info))
+    min_value = FORM4_HOLDING_MIN_VALUE if ticker in HOLDINGS else FORM4_CARD_MIN_VALUE
+    big = [(f, i) for f, i in real if i["value"] >= min_value]
+    small = [(f, i) for f, i in real if i["value"] < min_value]
+    actions = []
+    if plan:
+        shares = sum(i["shares"] for _, i in plan)
+        value = sum(i["value"] for _, i in plan)
+        actions.append(("digest", plan,
+                        f"Form 4 員工／高管持股計畫統一買進（非主動買進）：{len(plan)} 份申報，"
+                        f"合計 {shares:,.0f} 股，約 {fmt_money(value)}，均價 ${value / shares:,.2f}"))
+    if small:
+        if len(small) == 1:
+            text = f"Form 4 內部人小額買進：{form4_line(small[0][1])}"
+        else:
+            text = (f"Form 4 內部人小額買進：{len(small)} 份，合計約 {fmt_money(sum(i['value'] for _, i in small))}"
+                    f"（未達 {fmt_money(min_value)} 推卡門檻）")
+        actions.append(("digest", small, text))
+    if big:
+        total = sum(i["value"] for _, i in big)
+        if len(big) == 1:
+            info = big[0][1]
+            summary = (f"• **【申報人】**：{info['owner']}（{info['role']}）\n"
+                       f"• **【公開市場買進】**：{info['shares']:,.0f} 股，均價約 ${info['avg']:,.2f}，"
+                       f"合計約 {fmt_money(info['value'])}\n")
+            tag = f"{big[0][0]['form']} (內部人持股變動)"
+        else:
+            lines = "\n".join(f"{n}、{form4_line(i)}" for n, (_, i) in enumerate(big, start=1))
+            summary = f"• **【合計買進】**：約 {fmt_money(total)}（{len(big)} 位內部人）\n{lines}\n"
+            tag = f"4 (內部人持股變動・共 {len(big)} 份)"
+        if any(i["rule_10b5"] for _, i in big):
+            summary += "• **【解讀】**：內部人自掏腰包在市場上買進；其中有依事先設定的 10b5-1 計畫執行的，訊號會弱一些。"
+        else:
+            summary += "• **【解讀】**：內部人自掏腰包在市場上買進（交易代碼 P），通常被視為對公司前景有信心的訊號。"
+        actions.append(("card", big, card(ticker, "🟢 【內部人公開市場買進】", 0x27AE60, tag, summary[:1000])["intel"]))
+    return actions
 
 
 RELATION_ZH = {"officer": "高階主管", "director": "董事", "10% securityholder": "10% 以上大股東",
@@ -1171,6 +1243,7 @@ def process_ticker(ticker, cik, state, stats, bootstrap):
     print(f"{len(targets)} 則新申報", flush=True)
     today_et = datetime.now(ET_TZ).strftime("%Y-%m-%d")
     pending_144 = []   # 本檔這次掃描要推的 Form 144，最後合併成一張卡
+    pending_f4 = []    # 本檔這次掃描的 Form 4 買進，最後一起判斷、合併
 
     for f in targets:
         acc = f["accessionNumber"]
@@ -1196,6 +1269,9 @@ def process_ticker(ticker, cik, state, stats, bootstrap):
             print(f"      ❌ [程式處理錯誤] {type(e).__name__}: {e}", flush=True)
             continue
 
+        if decision["action"] == "f4":
+            pending_f4.append((f, decision["f4"]))
+            continue
         if decision["action"] == "card" and "f144" in decision:
             pending_144.append((f, decision))
             continue
@@ -1222,6 +1298,30 @@ def process_ticker(ticker, cik, state, stats, bootstrap):
 
     if pending_144:
         send_form144_cards(ticker, cik, pending_144, state, stats)
+    if pending_f4:
+        send_form4_results(ticker, cik, pending_f4, state, stats)
+
+
+def send_form4_results(ticker, cik, items, state, stats):
+    for action, group, payload in settle_form4(ticker, items):
+        f = group[0][0]
+        if action == "digest":
+            add_digest({"date": f["filingDate"], "ticker": ticker, "form": f["form"].upper(), "text": payload,
+                        "url": filing_view_url(cik, f["accessionNumber"], f["primaryDocument"]),
+                        "holding": ticker in HOLDINGS})
+            stats["digested"] += 1
+            for g, _ in group:
+                record(state, g["accessionNumber"], "DIGEST")
+            print(f"      📋 [併入每日通知] {payload}", flush=True)
+        elif send_filing_card(ticker, f, cik, payload):
+            stats["pushed"] += 1
+            for g, _ in group:
+                record(state, g["accessionNumber"], "SENT")
+            print(f"      🎉 [推播成功] Form 4 買進共 {len(group)} 份", flush=True)
+            time.sleep(1)
+        else:
+            stats["push_failed"] += 1
+            print("      ❌ [推播失敗] 不寫入紀錄，下次重試", flush=True)
 
 
 def send_form144_cards(ticker, cik, items, state, stats):
