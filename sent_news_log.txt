@@ -4513,3 +4513,11 @@
 2026-10-08T14:44:16+00:00|||SENT|||2fda2b49cb8a5803d9788b18aeba9f6a|||SNOW|||Snowflake Says It Found “No Compromise” After the ASOS Hack Claim. Here’s What the Stock Needs From Its Next Guidance
 2026-10-08T14:44:26+00:00|||PASS|||8a9cb13f5178f09e94221dc07fb8e6fe|||IBM|||IBM Gets Defense Dept. Quantum Stamp of Approval. Investors Should Take Notice.
 2026-10-08T14:45:16+00:00|||PASS|||825c800ab4c5fa943973bd6a19e1634f|||ROK|||Rockwell Automation and Industry Leaders Launch the Digital CMC Consortium to Accelerate Digital Transformation in Pharmaceutical Development
+2026-10-08T15:41:58+00:00|||SENT|||42f8f8c9485c59782d6a6a31a47a8042|||GOOGL|||Google's €13bn data center buildout in Finland under investigation for 300-hectare forest removal
+2026-10-08T15:42:02+00:00|||PASS|||0769ca104453c9fde8906e4301156a24|||GOOGL|||Alphabet's Isomorphic Labs seeks valuation of at least $40 billion in new funding round
+2026-10-08T15:42:38+00:00|||PASS|||62102f43d5da90563fd8a804fff5c19c|||NVDA|||Nvidia CEO Jensen Huang says if you want to be successful, be prepared to suffer
+2026-10-08T15:42:56+00:00|||SENT|||1ade630564ff88e97dd9d4cc38692f4c|||SKHY|||SK Hynix's Solidigm taps banks for $10 billion U.S. IPO
+2026-10-08T15:43:08+00:00|||PASS|||b470038edcc761b405f9e5d0495260ae|||ASML|||ASML, Zeiss say next-generation chipmaking technology may be ready in 10 years
+2026-10-08T15:43:44+00:00|||PASS|||e93a5774ae4d901744bd1fa34a775494|||DELL|||Self-Made Entrepreneur Jack Dell Releases Debut Book of Poems, Paintings and Original Songs, Coming Home
+2026-10-08T15:43:53+00:00|||PASS|||e885ffc25c63762f44001ed7a6d7056b|||PLTR|||Palantir Advances 3% as Goldman Sachs Upgrades to Buy With $230 Target; Salesforce and ServiceNow Hold Steady
+2026-10-08T15:44:29+00:00|||PASS|||ddaf48ec6f29befe3ea847efdf2dfcc9|||SPCX|||Elon Musk questions Ambani’s influence as Starlink India launch stalls
