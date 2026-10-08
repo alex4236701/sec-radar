@@ -4534,3 +4534,14 @@
 2026-10-08T17:39:55+00:00|||SENT|||3532e40c0e03944f45f99b9a71088534|||TSM|||TSMC quarterly revenue surges to NT$1.49 trillion
 2026-10-08T17:39:59+00:00|||PASS|||ef2f2514e82d9f521f502daef0fb4ce5|||TSM|||TSMC Reports 55% Growth in September Revenue
 2026-10-08T17:40:47+00:00|||PASS|||84474f64277535c498fb23d31d0a7ba7|||IFNNY|||Quantum startup ZuriQ partners with Infineon for development of scalable quantum chips
+2026-10-08T18:44:57+00:00|||PASS|||155e8cd194348a73b4108dea309a3a92|||AAPL|||Apple appoints new M&A chief under CEO Ternus: report (AAPL:NASDAQ)
+2026-10-08T18:44:59+00:00|||PASS|||2702a15d005b4abcdc9da5f38cd31e99|||AAPL|||Apple names new M&A chief in latest change under new CEO: Report
+2026-10-08T18:45:03+00:00|||PASS|||4df3c068f99d50f76a8151827018058c|||AAPL|||Apple Names New M&A Chief in Latest Shake-Up Under CEO John Ternus
+2026-10-08T18:45:09+00:00|||PASS|||652a8bca6cd7cb7ad7cf2758cc3d2d65|||TSLA|||Tesla FSD Caught Speeding And Attempting Illegal Passes Ahead Of EU Approval Decision
+2026-10-08T18:45:12+00:00|||PASS|||56df9aa1116f0d373dd0421b79e4a738|||NVDA|||OpenAI Revenue $20B Below Previous Reports, ORCL, NVDA Tumble
+2026-10-08T18:45:24+00:00|||PASS|||e5c63dbe6e9a0a6dd94acf38480b18c2|||GFS|||GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US — Five-year agreement valued at $2 billion
+2026-10-08T18:45:29+00:00|||PASS|||967db786c0efe8529f808bc7a0fb995c|||SKHY|||Samsung, SK Hynix record earnings fuel South Korea spending on AI, youth
+2026-10-08T18:46:04+00:00|||PASS|||e4e0f6567de9f83d838c521a37bf9d96|||NOK|||Arelion partners with Nokia on live network field trial
+2026-10-08T18:46:15+00:00|||PASS|||ef54b9faeb8551cc5b998ea9f5486ff4|||DELL|||Accenture and Dell Technologies Expand Collaboration to Help Enterprises Scale Private AI and Modernize Infrastructure
+2026-10-08T18:46:21+00:00|||PASS|||0eede6ecf7eae2954c79c97fa78dd644|||CRWV|||Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report
+2026-10-08T18:46:26+00:00|||PASS|||1078d641080731dd0983712b4bbaa904|||PLTR|||Palantir stock: Goldman upgrades to Buy with $230 target as growth accelerates
