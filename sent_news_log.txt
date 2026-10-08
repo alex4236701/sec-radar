@@ -4505,3 +4505,11 @@
 2026-10-08T13:43:45+00:00|||PASS|||e36f1d0af0d91e865444e20c401c5c8a|||IBM|||VMware Star 11:11 Acquires ‘Hundreds’ Of IBM Customers In Blockbuster VCF Push
 2026-10-08T13:43:52+00:00|||SENT|||bdcd25705941683f6e514f577bfb0f2f|||ZETA|||Zeta Global Teams Up with Fireworks to Unveil New Specialized Athena Inference Model Using NVIDIA Nemotron
 2026-10-08T13:44:25+00:00|||PASS|||eb37c3efc848510035b13ae6871173d1|||SPCX|||Trump bought up to $25 million in Meta and millions in SpaceX debt in August
+2026-10-08T14:42:18+00:00|||PASS|||639e4d5ecb6ef1b2166c9f5c6a6fdbba|||GOOGL|||Alphabet’s biolab in funding talks at $40B valuation
+2026-10-08T14:42:32+00:00|||PASS|||10205c39f743ae9344fcbef4f23bd2a2|||WOLF|||Helen Of Troy Posts Upbeat Q2 Earnings, Joins Pacira Biosciences, Wolfspeed And Other Big Stocks Moving H
+2026-10-08T14:42:51+00:00|||PASS|||2d0fe46a79ae8992221d38c28ba63064|||AMZN|||Amazon’s Ban on AI Agents Is the Opening Its Rivals Need
+2026-10-08T14:43:06+00:00|||PASS|||815be1122ed86a1ffc32ed0a5b1da3b0|||INTC|||Intel ‘Targeted’ Job Cuts Hit Channel Partners As Part Of CEO’s Efficiency Push
+2026-10-08T14:43:13+00:00|||SENT|||2cd6bc084bbb0185f60561cd3fe90c4b|||GFS|||GlobalFoundries to make key AI chip component for TSMC in $2 billion deal
+2026-10-08T14:44:16+00:00|||SENT|||2fda2b49cb8a5803d9788b18aeba9f6a|||SNOW|||Snowflake Says It Found “No Compromise” After the ASOS Hack Claim. Here’s What the Stock Needs From Its Next Guidance
+2026-10-08T14:44:26+00:00|||PASS|||8a9cb13f5178f09e94221dc07fb8e6fe|||IBM|||IBM Gets Defense Dept. Quantum Stamp of Approval. Investors Should Take Notice.
+2026-10-08T14:45:16+00:00|||PASS|||825c800ab4c5fa943973bd6a19e1634f|||ROK|||Rockwell Automation and Industry Leaders Launch the Digital CMC Consortium to Accelerate Digital Transformation in Pharmaceutical Development
