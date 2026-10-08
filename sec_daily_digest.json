@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "date": "2026-10-07",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：GOLDMAN SACHS GROUP INC，持股 5.10%",
+  "ticker": "NBIS",
+  "url": "https://www.sec.gov/Archives/edgar/data/1513845/000088698226000526/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-07",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：MILLENNIUM MANAGEMENT LLC，持股 7.30%",
+  "ticker": "TE",
+  "url": "https://www.sec.gov/Archives/edgar/data/1992243/000110465926114423/xslSCHEDULE_13G_X02/primary_doc.xml"
+ }
+]
