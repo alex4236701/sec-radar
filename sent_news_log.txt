@@ -4548,3 +4548,8 @@
 2026-10-08T19:38:57+00:00|||SENT|||63faf7bddf30b0e4238a82622ed53c92|||GOOGL|||SpaceX's Google AI Pact Is Worth Up to $29 Billion, but Investors Shouldn't Bank on It
 2026-10-08T19:39:41+00:00|||PASS|||f61a19757dc23554faa240ddb0aad9d6|||INTC|||xAI, Intel, Hugging Face Lead $227 Billion Private Equity Exit Market as Deal Volume Falls 17%
 2026-10-08T19:41:10+00:00|||PASS|||9a55c0c5044f2e4d6217aebbe19e83c8|||VELO|||Could Velo3D Be the Next Defense Buyout Target?
+2026-10-08T20:40:20+00:00|||PASS|||df3c2d737bbdaf8b5b151300b2738a10|||GOOGL|||Lawmakers raise alarm at Google plan to acquire Spirit Airlines data for AI models
+2026-10-08T20:40:23+00:00|||PASS|||526a7c5991026a70c0021d444df52ba8|||GOOGL|||Lawmakers raise alarm at Google plan to acquire Spirit Airlines data for AI models By Reuters
+2026-10-08T20:40:56+00:00|||PASS|||25b99e8d3334df7d67793a79f5442abd|||META|||Ben Affleck Reveals Why He Was 'Banned' From Instagram Twice After Making An Account To Follow His Kids
+2026-10-08T20:41:02+00:00|||PASS|||6dab181a1d6d05d746353142ab102897|||NVDA|||Nvidia Chief Jensen Huang’s Net Worth Falls Below $200 Billion Mark As Tech Stocks Drop
+2026-10-08T20:42:47+00:00|||SENT|||1713b8de318ff96dea98e5f94e2b1ac9|||SPCX|||SpaceX to Acquire Low-Band Spectrum for Mobile Phone Service
