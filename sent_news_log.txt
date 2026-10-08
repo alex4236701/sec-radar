@@ -4446,3 +4446,11 @@
 2026-10-07T22:37:49+00:00|||PASS|||a17f71e029883f75a7cb2228c68b1b3a|||FCEL|||Kirby McInerney LLP Alerts Investors Who Acquired FuelCell Energy, Inc. FCEL Securities Between June 24, 2026 and September 1, 2026 of Pending Lawsuit
 2026-10-07T22:39:40+00:00|||SENT|||bf35d959a7ac75caf37a2c92a2532570|||SPCX|||SpaceX scores 15K-satellite win as FCC doubles down on D2D
 2026-10-07T22:40:08+00:00|||SENT|||4429c9ef69f03cb0c94dfd0a74b652b2|||IONQ|||IonQ advances in DARPA quantum program, secures $300M deal By Investing.com
+2026-10-08T01:44:34+00:00|||SENT|||014badc7ae7de83c067369c7889ae41c|||GOOGL|||Hackers hijack Google domains after breaching ccTLD registries
+2026-10-08T01:44:52+00:00|||SENT|||1522a91fa483788a9f142aa80c1c9b76|||WOLF|||Wolfspeed gets a $1.5 billion Pentagon loan offer a year after bankruptcy
+2026-10-08T01:45:03+00:00|||PASS|||300ff378a0ab94ba6a84c29b97d1cbfa|||FCEL|||FCEL Stock Plummets as FuelCell's CFO Steps Down
+2026-10-08T01:45:18+00:00|||PASS|||22d32a4842b155cdff6dc91023fecaf4|||TSLA|||Market Chatter: Tesla Gains German Support for Driver-Assistance Tech Amid EU Approval Push
+2026-10-08T01:45:27+00:00|||SENT|||9a3d1dc6aa6696913e9891fef0da5f41|||MRVL|||Marvell Technology (MRVL) Lifts 2031 Revenue Goal To $70 Billion To $90 Billion
+2026-10-08T01:46:19+00:00|||PASS|||bdcec4f271c010834501816c59d8c332|||IFNNY|||Infineon Completes Acquisition of C2i Semiconductors
+2026-10-08T01:47:11+00:00|||SENT|||38e197f6dcc55df220a049f25f7c5b2e|||SPCX|||FCC tees up another D2D boost after approving Starlink Mobile upgrade
+2026-10-08T01:47:38+00:00|||PASS|||fe665ed7a581f49da8aaecfda27ba2d0|||CRCL|||ICE proposes sale of Social Circle site previously planned for detention
