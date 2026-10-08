@@ -4545,3 +4545,6 @@
 2026-10-08T18:46:15+00:00|||PASS|||ef54b9faeb8551cc5b998ea9f5486ff4|||DELL|||Accenture and Dell Technologies Expand Collaboration to Help Enterprises Scale Private AI and Modernize Infrastructure
 2026-10-08T18:46:21+00:00|||PASS|||0eede6ecf7eae2954c79c97fa78dd644|||CRWV|||Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report
 2026-10-08T18:46:26+00:00|||PASS|||1078d641080731dd0983712b4bbaa904|||PLTR|||Palantir stock: Goldman upgrades to Buy with $230 target as growth accelerates
+2026-10-08T19:38:57+00:00|||SENT|||63faf7bddf30b0e4238a82622ed53c92|||GOOGL|||SpaceX's Google AI Pact Is Worth Up to $29 Billion, but Investors Shouldn't Bank on It
+2026-10-08T19:39:41+00:00|||PASS|||f61a19757dc23554faa240ddb0aad9d6|||INTC|||xAI, Intel, Hugging Face Lead $227 Billion Private Equity Exit Market as Deal Volume Falls 17%
+2026-10-08T19:41:10+00:00|||PASS|||9a55c0c5044f2e4d6217aebbe19e83c8|||VELO|||Could Velo3D Be the Next Defense Buyout Target?
