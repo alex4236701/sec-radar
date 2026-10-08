@@ -22,5 +22,13 @@
   "text": "8-K 股東會投票結果（項目 5.07）",
   "ticker": "FEIM",
   "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526004648/feim8k100826.htm"
+ },
+ {
+  "date": "2026-10-08",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：JUSTIN SCARPULLA（高階主管），1,100 股，約 $300,949",
+  "ticker": "MRVL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1835632/000195004726010117/xsl144X01/primary_doc.xml"
  }
 ]
