@@ -4477,3 +4477,23 @@
 2026-10-08T09:48:05+00:00|||PASS|||1b6329a6f37c9a0e4102803949a78ec6|||SPCX|||SPCX CEO Elon Musk Praises Jeff Bezos’ $28 Billion Bet On Blue Origin As Space Race Intensifies, Says He
 2026-10-08T09:48:07+00:00|||PASS|||7157052c81626e92bbfb07a66fcc129b|||SPCX|||India rejects Elon Musk’s claim of discrimination over Starlink launch
 2026-10-08T09:48:33+00:00|||PASS|||07357b2fb7b85ab945eb14cb8b058a66|||CRCL|||Samsung taps Solana and Sui to launch zero-fee USDC global remittances on 82 million phones
+2026-10-08T12:47:46+00:00|||PASS|||dce6164926a1edc6fa4f67e8543974ea|||WOLF|||Wolfspeed receives $1.5bn conditional loan commitment from US gov’t to boost domestic SiC and GaN production
+2026-10-08T12:48:06+00:00|||SENT|||87f705c1bdf46c73c15f13e07ee357bd|||MSFT|||Italy launches EU-backed probe into Microsoft-owned gaming companies
+2026-10-08T12:48:10+00:00|||PASS|||19c620a68b2951be007a594b8a5aadf0|||AMZN|||Amazon Reportedly Cuts Fewer Than 1,000 Jobs Across US, India and UK As Fresh Layoffs Hit Retail, Custome
+2026-10-08T12:48:12+00:00|||PASS|||eb5f8ed8c5c5cf39752d95c7fc6a82c4|||AMZN|||Amazon layoffs hit nearly 1,000 retail jobs
+2026-10-08T12:48:14+00:00|||PASS|||f68b4d3ee2010a12d9bd33dd593679c4|||AMZN|||Amazon Has Fallen 10% From Its All-Time High. Now Is the Perfect Time to Buy.
+2026-10-08T12:48:19+00:00|||PASS|||af6fc481911e9831c9d959856c741e22|||AAPL|||Samsung's $80 Billion Quarterly Profit Tops Nvidia - Apple (NASDAQ:AAPL), Alphabet (NASDAQ:GOOG)
+2026-10-08T12:48:24+00:00|||SENT|||f076afd9fb726c6fca128664d0c1e9c9|||TSLA|||Slovakia to approve Tesla FSD system within days
+2026-10-08T12:48:27+00:00|||PASS|||bb078d028eeb02d65cccea5a198e5bde|||TSLA|||Slovakia to approve Tesla's self-driving tech
+2026-10-08T12:48:30+00:00|||PASS|||237ce925239086eac294d2123428c612|||NVDA|||Samsung's $80 Billion Quarterly Profit Tops Nvidia - Apple (NASDAQ:AAPL), Alphabet (NASDAQ:GOOG)
+2026-10-08T12:48:33+00:00|||PASS|||7ffab21135d777e443400423e597b482|||NVDA|||Former Groq engineers sue board over $20 billion Nvidia deal, saying it handed Nvidia the LPU and the team that built it — plaintiffs allege the board kept billions from other shareholders
+2026-10-08T12:48:35+00:00|||PASS|||87707ac1c72be8eb2c82e28b7dd40a1c|||NVDA|||SpaceX reportedly seeking $40 billion debt package for Nvidia AI hardware — massive raise could fund roughly 360,000 Vera Rubin GPUs across 5,000 NVL72 racks
+2026-10-08T12:48:46+00:00|||PASS|||25ffa1b6d4fdcd493be8a8965035d4ee|||TSM|||Chip Foundry TSMC Beats September Sales Target
+2026-10-08T12:48:47+00:00|||PASS|||6aa05ec9c6e6ebcab5730eaebe57ead5|||TSM|||Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales
+2026-10-08T12:48:50+00:00|||PASS|||d07c160a1207e489fa3ff1b5f647eb2d|||TSM|||TSMC’s September sales surge year-over-year as AI drives chip demand
+2026-10-08T12:49:37+00:00|||PASS|||7c30ac78e311cbb3a23670be60a07920|||DELL|||Michael and Susan Dell pledge $6.25bn to Trump's kid investment accounts
+2026-10-08T12:49:46+00:00|||PASS|||a3aef5ea981a50c1423502d02312138a|||PLTR|||Goldman Sachs upgrades Palantir stock rating to buy on AI growth
+2026-10-08T12:49:49+00:00|||PASS|||70e2ee5bbce4fcf4ad601137a361511a|||NOW|||Core6 Announces Partnership with Armis from ServiceNow to Extend Cyber Exposure Management to Storage and Backup Systems
+2026-10-08T12:49:52+00:00|||PASS|||9bfbffc518b0ae09a011521080e6419e|||CRM|||Zenkraft Launches New Multi-Carrier Shipping Commerce App for Salesforce's Storefront Next
+2026-10-08T12:50:01+00:00|||PASS|||1c7210a6951aaefd2bd740b6fbdd563f|||ZS|||Zscaler’s $10 billion long-term ARR target looks ambitious, says Jefferies
+2026-10-08T12:50:11+00:00|||PASS|||613344154d4a1adabbcc6a811c4f8ffa|||TWLO|||Twilio Vaults 25% On Earnings, Hits Highs; Two More Stocks On Watch
