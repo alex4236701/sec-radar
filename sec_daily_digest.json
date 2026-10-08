@@ -14,5 +14,13 @@
   "text": "13G 修正：MILLENNIUM MANAGEMENT LLC，持股 7.30%",
   "ticker": "TE",
   "url": "https://www.sec.gov/Archives/edgar/data/1992243/000110465926114423/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-08",
+  "form": "8-K",
+  "holding": false,
+  "text": "8-K 股東會投票結果（項目 5.07）",
+  "ticker": "FEIM",
+  "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526004648/feim8k100826.htm"
  }
 ]
