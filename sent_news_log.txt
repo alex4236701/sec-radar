@@ -4454,3 +4454,14 @@
 2026-10-08T01:46:19+00:00|||PASS|||bdcec4f271c010834501816c59d8c332|||IFNNY|||Infineon Completes Acquisition of C2i Semiconductors
 2026-10-08T01:47:11+00:00|||SENT|||38e197f6dcc55df220a049f25f7c5b2e|||SPCX|||FCC tees up another D2D boost after approving Starlink Mobile upgrade
 2026-10-08T01:47:38+00:00|||PASS|||fe665ed7a581f49da8aaecfda27ba2d0|||CRCL|||ICE proposes sale of Social Circle site previously planned for detention
+2026-10-08T05:44:43+00:00|||PASS|||2d7ea81931df1db98923f9c75d662c3e|||GOOGL|||Alphabet’s Isomorphic Labs in Funding Talks for at Least $40 Billion Value
+2026-10-08T05:45:05+00:00|||PASS|||e18eb5f64f11d894445316b6ab52d2c7|||FCEL|||FuelCell Energy CFO Michael Bishop to Step Down, to Be Succeeded by Matthew Latino; Shares Drop Pre-Bell
+2026-10-08T05:45:18+00:00|||PASS|||f9b0d3148c220a712c52334f0315fe73|||AMZN|||Amazon makes fresh job cuts, mainly in retail division
+2026-10-08T05:45:24+00:00|||PASS|||273605e85a8fd14fa54dc67728017703|||TSLA|||How Tesla Is Pressuring European Regulators To Approve FSD
+2026-10-08T05:45:29+00:00|||PASS|||619437d2f9b62eb7d600eea5bf44b88c|||NVDA|||Pre-orders are live on Nvidia RTX Spark devices, secure the Surface Laptop Ultra or other RTX Spark laptops here — starting at $2,599; where to buy, pricing, and availability revealed on several models
+2026-10-08T05:45:45+00:00|||PASS|||5123d0cdd61d9303e96f4579dd614105|||SKHY|||SK Hynix's Solidigm picks banks for a US IPO that could value it at $150 billion
+2026-10-08T05:45:50+00:00|||SENT|||514d53c996ad5861a05ed6231df9ef10|||SKHY|||SK Hynix Raises $26.5 Billion In U.S. Listing; Memory Giants Micron, Sandisk Fall
+2026-10-08T05:46:36+00:00|||PASS|||3c872362cfdb568d6017744016988d81|||HPE|||HPE Unveils The First Of The Next Generation of ProLiants for the AI Era
+2026-10-08T05:47:19+00:00|||PASS|||404c87f5d454c35f0fa42500ea186c16|||SPCX|||Elon Musk blames Indian 'oligarchs' for stalling Starlink launch
+2026-10-08T05:47:22+00:00|||PASS|||8bc4845208f061051b55597c15d1b2f0|||RKLB|||Dow Jones Futures: Trump Claims 'Control' Of Strait Of Hormuz; SpaceX Rival Rocket Lab Dives On Earnings
+2026-10-08T05:47:47+00:00|||PASS|||39212958d23fcd06abc82a841e691769|||CRCL|||Samsung to launch USDC transfers on Solana for US Galaxy users
