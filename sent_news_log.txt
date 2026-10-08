@@ -4521,3 +4521,9 @@
 2026-10-08T15:43:44+00:00|||PASS|||e93a5774ae4d901744bd1fa34a775494|||DELL|||Self-Made Entrepreneur Jack Dell Releases Debut Book of Poems, Paintings and Original Songs, Coming Home
 2026-10-08T15:43:53+00:00|||PASS|||e885ffc25c63762f44001ed7a6d7056b|||PLTR|||Palantir Advances 3% as Goldman Sachs Upgrades to Buy With $230 Target; Salesforce and ServiceNow Hold Steady
 2026-10-08T15:44:29+00:00|||PASS|||ddaf48ec6f29befe3ea847efdf2dfcc9|||SPCX|||Elon Musk questions Ambani’s influence as Starlink India launch stalls
+2026-10-08T16:42:36+00:00|||PASS|||7221a89c43f589e40d9b3925dc324e56|||GOOGL|||Finnish Authorities Order Google to Halt Construction on Massive AI Data Center Projects
+2026-10-08T16:43:10+00:00|||SENT|||b1323b10be255f6e6a9b403be66e5f79|||MSFT|||Trump bans Microsoft from sponsoring foreign workers for US residency
+2026-10-08T16:43:15+00:00|||PASS|||07f4fd13f6cbdc22d7cdb9e93e66004c|||AMZN|||Amazon retail division hit by job cuts
+2026-10-08T16:44:15+00:00|||SENT|||4c7bc0754edb9179b485fef8fd8f4a47|||CSCO|||Cisco warns of critical flaws allowing Nexus switch takeover
+2026-10-08T16:44:34+00:00|||PASS|||1323fbd3f8a525c1093b396d05cd3b08|||PLTR|||Why a longtime skeptic of Palantir’s stock is finally saying it’s time to buy
+2026-10-08T16:44:35+00:00|||PASS|||8201c2eca93542d5f1451087fa18201b|||PLTR|||Palantir: Why The Upgrades Keep Coming Ahead Of The Q3 Earnings Report (NASDAQ:PLTR)
