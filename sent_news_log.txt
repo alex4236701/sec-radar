@@ -4595,3 +4595,15 @@
 2026-10-09T09:48:10+00:00|||PASS|||181c6bb12841a998c03f1cc22a86882d|||SPCX|||SpaceX's Fleecing of Retail Investors Continues: Up to $51 Billion in Insider Shares Unlock Today, Oct. 9
 2026-10-09T09:48:11+00:00|||PASS|||6045decf322207d5491ca8e4b12d179e|||SPCX|||VEON Brings Starlink’s Satellite-to-Mobile Service to South Asia with Banglalink launch
 2026-10-09T09:48:39+00:00|||PASS|||ce7c3c97b48b38f03edf55b3c934af43|||GLXY|||MARA transfers $81.1 million in bitcoin to Galaxy Digital as strategy pivots to AI
+2026-10-09T12:46:02+00:00|||PASS|||8986861bac8d99fa4ec11c61d9fdd24b|||META|||Meta bans TikTok ads on its platforms in the U.S.
+2026-10-09T12:46:03+00:00|||PASS|||3bab969760f7e359dddb332718135e02|||META|||Ben Affleck Has Been Banned From Instagram Twice
+2026-10-09T12:46:06+00:00|||PASS|||c1d521ed907fd242eff3d3d0db09ed8e|||META|||Market Chatter: Meta Platforms Bans TikTok Ads Across Its Apps
+2026-10-09T12:46:09+00:00|||PASS|||c62e64fe551d7f264fa995b02c07e33d|||TSLA|||Tesla: A Bullish Footnote Against A $25B Spending Ambition (NASDAQ:TSLA)
+2026-10-09T12:46:10+00:00|||PASS|||a8285186cd3faba883a3f20096f190d5|||TSLA|||Elon Musk Defends $1 Trillion Fortune Tied to SPCX, TSLA, Slams Bernie Sanders: ‘Takers’ Take From the Makers
+2026-10-09T12:46:18+00:00|||PASS|||1819e1278eff15d3945617c80e867a1b|||QCOM|||Qualcomm and Arm set for jury verdict in contract breach feud
+2026-10-09T12:46:23+00:00|||SENT|||e9a8b4a9bf66ddee8a25823569c58c92|||ARM|||Qualcomm and Arm set for jury verdict in contract breach feud
+2026-10-09T12:47:59+00:00|||PASS|||e94a08f475f2221c1d69cfd095e79604|||SPCX|||India rejects monopoly claim after Musk accuses Ambani of blocking Starlink launch
+2026-10-09T12:48:04+00:00|||PASS|||ddb34d11dccd7184eabc6275005d4498|||SPCX|||SpaceX to acquire Grain's 800MHz spectrum assets to further advance carrier ambitions
+2026-10-09T12:48:07+00:00|||PASS|||5fa695ac27585d67546a21f8d1f06e4d|||SPCX|||Louie DiPalma: SpaceX would rather partner with one of the wireless carriers
+2026-10-09T12:48:08+00:00|||PASS|||5af141672a81e1d47b13d130cf4befa4|||SPCX|||SpaceX’s $750 Billion Rally Breaks Stock Out of Post-IPO Funk
+2026-10-09T12:48:10+00:00|||PASS|||dee8d524ada5d7268f398c99f9742836|||SPCX|||AT&T Shares Fall 7.4% in Premarket Trading Following SpaceX Spectrum Acquisition
