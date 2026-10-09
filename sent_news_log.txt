@@ -4630,3 +4630,4 @@
 2026-10-09T18:44:24+00:00|||PASS|||913bca841af55a251474fe05e41ea82e|||NOK|||Arelion partners with Nokia to demonstrate expanded optical spectrum and backbone capacity
 2026-10-09T18:44:33+00:00|||PASS|||114e4d5fd68a9d3a6d625a4e9b532877|||DELL|||Susan Dell's transformation in then & now photos: from fashion week front row to $6.25 billion 'Trump Accounts' deal
 2026-10-09T18:45:16+00:00|||PASS|||68b800a57fe01e16d1b9177a164f15a6|||SPCX|||Bernstein's Madison Rezaei: SpaceX plan to buy spectrum portfolio is good for tower operators
+2026-10-09T20:39:58+00:00|||PASS|||bda38a94d6b409e1c9063b83d1475be6|||NVDA|||Nvidia Is in Talks to Value Perplexity at More Than $30 Billion
