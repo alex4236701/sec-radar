@@ -4615,3 +4615,8 @@
 2026-10-09T14:43:40+00:00|||PASS|||955f6aa847c8273b91e82dfecefcec91|||INTC|||Gigabyte's latest BIOS update hints at Intel's Raptor Lake Next launch in 2027 — new CPUs may support both DDR4 and DDR5 memory
 2026-10-09T14:44:58+00:00|||PASS|||ca6d71def4816b34b54e0a4c9fbeaac8|||BB|||BlackBerry's Rising Cash Flow Supports Strategic Investment Options
 2026-10-09T15:40:51+00:00|||PASS|||9fbbd5b8b72ac5a2c9f5389f1ba87955|||AMZN|||Amazon Reportedly Cuts Fewer Than 1,000 Jobs Across US, India and UK As Fresh Layoffs Hit Retail, Customer Service and Engineering Teams
+2026-10-09T16:40:21+00:00|||PASS|||84fa98ec4262a22efc87da8703de4578|||CAT|||Caterpillar Stock’s Pullback Is a Reason to Buy—if You Believe the Market Is Headed Higher
+2026-10-09T16:40:44+00:00|||PASS|||f8fb34626245592e5c0f1cabd4079fe3|||QCOM|||Ambarella gains on report Qualcomm may be interested in takeover
+2026-10-09T16:41:36+00:00|||PASS|||d2a1d0d45800c0e3a5c75a9a3aea5cbf|||ALGM|||Allegro MicroSystems to Announce Second Quarter Fiscal Year 2027 Financial Results
+2026-10-09T16:42:15+00:00|||SENT|||1d3051e525863aa843393e48c3ead79b|||AMBA|||Ambarella gains on report Qualcomm may be interested in takeover
+2026-10-09T16:42:28+00:00|||PASS|||1ce6d72915a36ddcca9332343ca94301|||SPCX|||FCC Chairman Brendan Carr on SpaceX Spectrum deal
