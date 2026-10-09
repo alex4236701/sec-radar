@@ -4631,3 +4631,7 @@
 2026-10-09T18:44:33+00:00|||PASS|||114e4d5fd68a9d3a6d625a4e9b532877|||DELL|||Susan Dell's transformation in then & now photos: from fashion week front row to $6.25 billion 'Trump Accounts' deal
 2026-10-09T18:45:16+00:00|||PASS|||68b800a57fe01e16d1b9177a164f15a6|||SPCX|||Bernstein's Madison Rezaei: SpaceX plan to buy spectrum portfolio is good for tower operators
 2026-10-09T20:39:58+00:00|||PASS|||bda38a94d6b409e1c9063b83d1475be6|||NVDA|||Nvidia Is in Talks to Value Perplexity at More Than $30 Billion
+2026-10-09T21:39:13+00:00|||PASS|||38f6200e6bdce3f4c845357aaf2405e1|||MSFT|||Delta cuts outlook, Microsoft fights H-1B restrictions, Bezos eyes Blue Origin IPO
+2026-10-09T21:39:42+00:00|||PASS|||ed5971fb553e773fc23a8bf998c43562|||LRCX|||Lam Research Stocks Edge Lower Before $8.1 Billion AI Test
+2026-10-09T21:40:57+00:00|||PASS|||cf8068bc8f283b1015332920076c5991|||SPCX|||SpaceX spectrum acquisition ripples through telecom stocks
+2026-10-09T21:41:01+00:00|||SENT|||3428cd788f0235076ae72883574ca826|||SPCX|||SpaceX snaps up the 800 MHz spectrum T-Mobile dumped for $2.9 billion — and T-Mobile, Verizon, AT&T stocks are sliding
