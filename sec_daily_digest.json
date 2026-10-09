@@ -22,5 +22,13 @@
   "text": "Form 144 內部人預告賣股：CRAIG MILLER（高階主管），11,893 股，約 $851,629",
   "ticker": "VSAT",
   "url": "https://www.sec.gov/Archives/edgar/data/797721/000195004726010137/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-09",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Aparna Bawa（關係人），250 股，約 $99,625",
+  "ticker": "PANW",
+  "url": "https://www.sec.gov/Archives/edgar/data/1327567/000196858226001051/xsl144X01/primary_doc.xml"
  }
 ]
