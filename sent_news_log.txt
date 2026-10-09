@@ -4583,3 +4583,15 @@
 2026-10-09T05:47:20+00:00|||PASS|||fbd0bde1bd8318fddea95ea74538ddc5|||SPCX|||Telecom stocks drop as SpaceX acquires spectrum for Starlink (SPCX:NASDAQ)
 2026-10-09T05:47:22+00:00|||PASS|||8ab4b24ef9efda2936710f58a6a56f01|||SPCX|||'Real boss of India?': Elon Musk takes aim at Indian billionaire Ambani as Starlink launch stalls
 2026-10-09T05:47:23+00:00|||PASS|||665793486b00d872e6f47304ecf35b6d|||SPCX|||SpaceX Has $100 Billion in Cash. Why Is It Reportedly Borrowing $40 Billion More?
+2026-10-09T09:45:39+00:00|||PASS|||1d68b2da680c901e86b395f80c77799b|||MU|||Ross Gerber Expects Micron to Buy Back 'Tons of Stock' in December — 'A Big Buyer Is Coming Soon'
+2026-10-09T09:46:07+00:00|||PASS|||8a91565a6d4d5279cb02165905b708f8|||MSFT|||Stocktwits AI Roundup: OpenAI Revenue Woes Rattle Chip Stocks, SoftBank Hunts $100B, Microsoft Goes AI-First
+2026-10-09T09:46:12+00:00|||PASS|||30d8c2c8c87dc772e0733a0dfe3158bb|||META|||Meta Draws a Line With TikTok, Bans ByteDance Ads Across Facebook and Instagram: Their Goal Is to ‘Pull P
+2026-10-09T09:46:14+00:00|||PASS|||f421c8fe5f4286863b40fe880465f2b8|||META|||Meta bans ads from TikTok parent ByteDance across U.S. and key foreign markets
+2026-10-09T09:46:16+00:00|||PASS|||86d8f6c5ac9623ea964a5bbe1d646dc0|||META|||Meta bans TikTok ads on its platforms in US
+2026-10-09T09:46:19+00:00|||PASS|||4954db0dd511c8181dcb085b0f737697|||AAPL|||Apple Names a New M&A Chief: What It Means for $100 Billion a Year in Buybacks
+2026-10-09T09:46:30+00:00|||SENT|||bdd3bfe732803768bd0c0e925dd7b4b7|||TSLA|||Tesla Drops ‘Full Self-Driving’ Name in Europe as Germany Backs Faster EU Approval for ‘Tesla Assisted Driving’
+2026-10-09T09:46:39+00:00|||PASS|||3b1b55fc413cda5ed7792aa610e9f9a4|||INTC|||Intel Has A $100 Billion Problem (NASDAQ:INTC)
+2026-10-09T09:46:43+00:00|||PASS|||44fead993454f033b452c3009ec02f96|||TSM|||TSMC September sales beat estimates by 3%
+2026-10-09T09:48:10+00:00|||PASS|||181c6bb12841a998c03f1cc22a86882d|||SPCX|||SpaceX's Fleecing of Retail Investors Continues: Up to $51 Billion in Insider Shares Unlock Today, Oct. 9
+2026-10-09T09:48:11+00:00|||PASS|||6045decf322207d5491ca8e4b12d179e|||SPCX|||VEON Brings Starlink’s Satellite-to-Mobile Service to South Asia with Banglalink launch
+2026-10-09T09:48:39+00:00|||PASS|||ce7c3c97b48b38f03edf55b3c934af43|||GLXY|||MARA transfers $81.1 million in bitcoin to Galaxy Digital as strategy pivots to AI
