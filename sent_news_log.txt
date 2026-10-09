@@ -4614,3 +4614,4 @@
 2026-10-09T14:43:33+00:00|||PASS|||26f19dd810bb3a0a07afa494eb1df404|||NVDA|||Nvidia (NVDA)’s $20 Billion Groq Deal Faces a Legal Test. Does It Matter for NVDA’s Valuation?
 2026-10-09T14:43:40+00:00|||PASS|||955f6aa847c8273b91e82dfecefcec91|||INTC|||Gigabyte's latest BIOS update hints at Intel's Raptor Lake Next launch in 2027 — new CPUs may support both DDR4 and DDR5 memory
 2026-10-09T14:44:58+00:00|||PASS|||ca6d71def4816b34b54e0a4c9fbeaac8|||BB|||BlackBerry's Rising Cash Flow Supports Strategic Investment Options
+2026-10-09T15:40:51+00:00|||PASS|||9fbbd5b8b72ac5a2c9f5389f1ba87955|||AMZN|||Amazon Reportedly Cuts Fewer Than 1,000 Jobs Across US, India and UK As Fresh Layoffs Hit Retail, Customer Service and Engineering Teams
