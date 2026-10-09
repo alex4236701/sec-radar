@@ -4610,3 +4610,7 @@
 2026-10-09T13:41:09+00:00|||PASS|||6a22ec1fbfb27eeae82741e8b0e2d4d8|||GOOGL|||Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own
 2026-10-09T13:41:45+00:00|||PASS|||a781134373529d449e22a950a8d80df4|||NVDA|||OpenAI’s Revenue Is Reportedly $20 Billion Lower Than Thought. Nvidia Just Lost $170 Billion
 2026-10-09T13:43:21+00:00|||PASS|||3389a5d23f4fc19fa8bfeacc92954d90|||SPCX|||Delta Air Lines Slashes Outlook Amid Fuel Prices, Starlink Spat Grows
+2026-10-09T14:43:30+00:00|||PASS|||7213f363f1328ce873bbb69fe920794f|||NVDA|||Nvidia and Micron stocks bounce on OpenAI $70B revenue target
+2026-10-09T14:43:33+00:00|||PASS|||26f19dd810bb3a0a07afa494eb1df404|||NVDA|||Nvidia (NVDA)’s $20 Billion Groq Deal Faces a Legal Test. Does It Matter for NVDA’s Valuation?
+2026-10-09T14:43:40+00:00|||PASS|||955f6aa847c8273b91e82dfecefcec91|||INTC|||Gigabyte's latest BIOS update hints at Intel's Raptor Lake Next launch in 2027 — new CPUs may support both DDR4 and DDR5 memory
+2026-10-09T14:44:58+00:00|||PASS|||ca6d71def4816b34b54e0a4c9fbeaac8|||BB|||BlackBerry's Rising Cash Flow Supports Strategic Investment Options
