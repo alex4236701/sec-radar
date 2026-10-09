@@ -1,1 +1,10 @@
-[]
+[
+ {
+  "date": "2026-10-09",
+  "form": "10-K",
+  "holding": true,
+  "text": "10-K 年報",
+  "ticker": "MU",
+  "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+ }
+]
