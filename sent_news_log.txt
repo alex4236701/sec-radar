@@ -4607,3 +4607,6 @@
 2026-10-09T12:48:07+00:00|||PASS|||5fa695ac27585d67546a21f8d1f06e4d|||SPCX|||Louie DiPalma: SpaceX would rather partner with one of the wireless carriers
 2026-10-09T12:48:08+00:00|||PASS|||5af141672a81e1d47b13d130cf4befa4|||SPCX|||SpaceX’s $750 Billion Rally Breaks Stock Out of Post-IPO Funk
 2026-10-09T12:48:10+00:00|||PASS|||dee8d524ada5d7268f398c99f9742836|||SPCX|||AT&T Shares Fall 7.4% in Premarket Trading Following SpaceX Spectrum Acquisition
+2026-10-09T13:41:09+00:00|||PASS|||6a22ec1fbfb27eeae82741e8b0e2d4d8|||GOOGL|||Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own
+2026-10-09T13:41:45+00:00|||PASS|||a781134373529d449e22a950a8d80df4|||NVDA|||OpenAI’s Revenue Is Reportedly $20 Billion Lower Than Thought. Nvidia Just Lost $170 Billion
+2026-10-09T13:43:21+00:00|||PASS|||3389a5d23f4fc19fa8bfeacc92954d90|||SPCX|||Delta Air Lines Slashes Outlook Amid Fuel Prices, Starlink Spat Grows
