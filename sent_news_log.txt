@@ -4620,3 +4620,6 @@
 2026-10-09T16:41:36+00:00|||PASS|||d2a1d0d45800c0e3a5c75a9a3aea5cbf|||ALGM|||Allegro MicroSystems to Announce Second Quarter Fiscal Year 2027 Financial Results
 2026-10-09T16:42:15+00:00|||SENT|||1d3051e525863aa843393e48c3ead79b|||AMBA|||Ambarella gains on report Qualcomm may be interested in takeover
 2026-10-09T16:42:28+00:00|||PASS|||1ce6d72915a36ddcca9332343ca94301|||SPCX|||FCC Chairman Brendan Carr on SpaceX Spectrum deal
+2026-10-09T17:38:41+00:00|||PASS|||adddfecf73387495b2b64b4283b47732|||META|||Meta bans ads from TikTok on its apps
+2026-10-09T17:39:40+00:00|||PASS|||386924fa56e589cf81ab2a323c947b16|||DELL|||Dell CEO Gives Update On $6.25 Billion Giveaway After Wife's Appearance At White House Stunned Nation
+2026-10-09T17:40:29+00:00|||PASS|||28192dbbc65fc43be337724086523b8d|||SPCX|||Crown Castle Stock Jumping as SpaceX Acquires 800 MHz Spectrum
