@@ -4563,3 +4563,13 @@
 2026-10-08T22:39:26+00:00|||PASS|||faea85ff2ad5cd7d271b4bebe70e2610|||TSLA|||Tesla (TSLA) Deliveries Beat Expectations. But TSLA’s 159x Forward P/E Is Betting on Much More
 2026-10-08T22:39:33+00:00|||PASS|||5bce6b9ed5e6787ce81739f73b6d3e1d|||QCOM|||Qualcomm Government Technologies and OKSI Announce Collaboration to Deploy OMNISCIENCE Autonomy Software Portfolio
 2026-10-08T22:41:05+00:00|||PASS|||99027987bdd39856a477dbe0719a8967|||SPCX|||SpaceX takes aim at US wireless carriers with spectrum acquisition
+2026-10-09T01:45:31+00:00|||PASS|||8c4f26724ea39efe9887593f8c9a5db7|||MU|||Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’
+2026-10-09T01:46:03+00:00|||PASS|||5fe57f05c598d20fd77cd01bde51c48d|||META|||Meta is done taking TikTok’s ad money. Meta began blocking all ads and paid messages from ByteDance on Thursday, including third-party ads that link to TikTok. The ban covers the US, Canada, Egypt, Indonesia, Japan, Thailand and Vietnam. Tensions hav
+2026-10-09T01:46:04+00:00|||PASS|||d806c3958b2274b2139b53d67299f8e6|||META|||Meta bans TikTok from advertising on its apps, Bloomberg News reports
+2026-10-09T01:46:07+00:00|||PASS|||54a4804fdf6d6f01781677dffdca305e|||META|||Meta Bans TikTok From Advertising on Its Apps in Escalating Feud
+2026-10-09T01:46:12+00:00|||PASS|||569a31373b2bedd83a1e76178ffa59d9|||NVDA|||Nvidia-Backed Firmus IPO Hits a Wall as Investors Balk at $30 Billion Valuation
+2026-10-09T01:46:19+00:00|||PASS|||9b48b41e4c793aeb9397478f02d1e8ae|||ARM|||Lattice Collaborates with Arm to Integrate FPGA-based Control for AI Servers
+2026-10-09T01:46:22+00:00|||PASS|||509231af9fece796e1b2fcc1fac2c2d8|||ARM|||Networking Startup Eliyan Draws Takeover Interest, Held Early Talks With Arm
+2026-10-09T01:46:25+00:00|||PASS|||c2469a7ed5db337dd7461da7aace4e96|||INTC|||Anaconda Expands Collaboration with Intel to Give Enterprises a Secure Path to Production AI
+2026-10-09T01:47:19+00:00|||PASS|||fabe0ef91b5fcf058174f39c25a88e5b|||PLTR|||Palantir stock jumped 60% in Q3 even as its earnings multiple got cut in half
+2026-10-09T01:47:53+00:00|||PASS|||6eb225be5f4a855615297de1bcf50f29|||SPCX|||SpaceX takes aim at US wireless carriers with spectrum acquisition By Reuters
