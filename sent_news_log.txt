@@ -4648,3 +4648,20 @@
 2026-10-10T08:43:06+00:00|||PASS|||b055dc44725d86141a577a4179f327e3|||ASML|||ASML's Q3 Earnings Coming Up: How Should You Play the Stock?
 2026-10-10T08:43:47+00:00|||PASS|||76640c424466235b1a6175de05e0bb7d|||PLTR|||Goldman Sachs Upgrades Palantir to Buy, Sees 18% Upside and Further Outperformance Into 2027
 2026-10-10T08:44:21+00:00|||PASS|||9f2016bb13dd0eb6fc973bf01cffde7c|||SPCX|||Elon Musk intensifies attack on Ambani over Starlink India launch delay
+2026-10-10T16:42:05+00:00|||PASS|||9c4f17c20f605e6171c7b00c6a92799e|||CRUS|||Cirrus Logic made a secret run at Synaptics before Onsemi's deal got sweeter
+2026-10-10T16:42:08+00:00|||PASS|||a65dec1b7d54f3eb6c4522c09f7a5c8c|||GOOGL|||Alphabet (GOOGL) Has A $5 Billion Waymo Loan And A $50 Billion AI Bet
+2026-10-10T16:42:10+00:00|||PASS|||c9d9e0fbce853c0488b3cb2c67a8658f|||GOOGL|||Investor Predicts Anthropic Could Be “the First” $10 Trillion Company. Cue the Amazon + Google Payday
+2026-10-10T16:42:12+00:00|||PASS|||ada146c65bdbdb166d57f9dbe0558930|||GOOGL|||Sundar Pichai Reported Alphabet's Cloud Revenue Grew 82% to $24.8 Billion Last Quarter, With the Gemini App Reaching 950 Million Monthly Users. Is Google Cloud Becoming a Bigger Growth Driver Than Search?
+2026-10-10T16:42:32+00:00|||PASS|||81a83d0b077ea8dfc516c97c969ac9dc|||FCEL|||FuelCell Energy Inc. stock rises Friday, outperforms market
+2026-10-10T16:42:36+00:00|||PASS|||f0d2142459380caa7e0bec5a308a5c92|||GEV|||GE Vernova (GEV) Just Turned AI Data Centers Into A $5 Billion Order Tailwind
+2026-10-10T16:42:39+00:00|||PASS|||2b10e3826f0e643342cebdca11aaf812|||CAT|||Will a $1 Billion Automation Push in North Carolina Change Caterpillar's (CAT) Small-Equipment Narrative?
+2026-10-10T16:42:48+00:00|||PASS|||809f0d10022a4b3eb703df8b080a0b10|||AMZN|||Investor Predicts Anthropic Could Be “the First” $10 Trillion Company. Cue the Amazon + Google Payday
+2026-10-10T16:42:51+00:00|||PASS|||39755decc96ffdd8f8ec4411d855ff48|||META|||In the Netherlands and Belgium, Hans Anders pulls Meta's Ray-Ban smart glasses over privacy fears
+2026-10-10T16:42:55+00:00|||PASS|||129a3169fce9cc1843a73a33461ba6e9|||TSLA|||Tesla Beat Delivery Estimates by 25,000 Vehicles. Here's Why the Stock Still Hasn't Broken Out.
+2026-10-10T16:42:58+00:00|||PASS|||d8de9ee0c765e59395f472a04bdcfcb2|||NVDA|||Nvidia built a nearly $5 trillion company while making employees pay for their own lunch
+2026-10-10T16:43:00+00:00|||PASS|||f3adfdf85b5954e54dd1df57f622933c|||NVDA|||Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs — impending supply drought expected to drive up prices, RTX 5080 24GB rumored as new gaming flagship
+2026-10-10T16:43:04+00:00|||PASS|||e561b4ad361357b5b5d2f03263d2085e|||MRVL|||Marvell: Why I’m Finally Upgrading To Buy (Rating Upgrade) (NASDAQ:MRVL)
+2026-10-10T16:43:06+00:00|||PASS|||8c8886d3a13ed7e18d17b26e042d5c2f|||MRVL|||Marvell Says Connecting AI Chips Could Be a $37 Billion Business—These 2 Stocks Rallied Too
+2026-10-10T16:44:02+00:00|||PASS|||2d227e140527b2e78de3e655ca1d15c5|||PLTR|||Palantir CEO says only trade workers or those with neurodivergence will succeed in the AI era
+2026-10-10T16:44:18+00:00|||SENT|||092dcac8266f8df70e0f839031cdb46d|||NET|||Cloudflare acquires Deno to improve its Workers programming model
+2026-10-10T16:44:43+00:00|||PASS|||023f8165cda33b8c6345ca1145e8ee89|||SPCX|||SpaceX launches 21 Northrop Grumman satellites for U.S. military data network
