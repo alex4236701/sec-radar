@@ -4640,3 +4640,11 @@
 2026-10-10T00:52:35+00:00|||PASS|||00eef005771684064d333eb45fea85da|||TSLA|||5 Wild Tesla Builds Heading to X Takeover this Weekend in Texas
 2026-10-10T00:54:15+00:00|||PASS|||9401f1bf78159c34462e291d8c8d54ff|||SPCX|||US telcos shed $60bn in value after SpaceX announces spectrum purchase
 2026-10-10T00:54:17+00:00|||PASS|||6761bdd7898e51e8203b2976acac572b|||SPCX|||SpaceX Makes $8 Billion Move That Rattles Telecom Stocks
+2026-10-10T08:42:34+00:00|||PASS|||f7d2af0570d68c835bb5c6e50d38e184|||AMZN|||Amazon Reshuffles Alexa Leadership: Can Alexa+ Move a $53 Billion Subscription Business?
+2026-10-10T08:42:39+00:00|||PASS|||a0a7fe0fee147b4f081e3212d4e383a6|||AMZN|||Amazon’s Thane Data Center Fight: A $8.3 Billion Plan Inside a $173 Billion Capex Budget
+2026-10-10T08:42:42+00:00|||PASS|||2d6bbc19fdf58feeb025631bb46bccab|||META|||Meta Bans TikTok Owner ByteDance From Advertising in 7 Countries: “We Don’t Have to Run Ads From a Competitor”
+2026-10-10T08:42:55+00:00|||PASS|||0206b5186a5dc1feb3f78e10bcfb1647|||TSM|||TSMC's Q3 Revenue Represents a Slightly Larger-Than-Typical Beat, Wedbush Says
+2026-10-10T08:42:55+00:00|||PASS|||43f80b70727c73e5bbf4377b25e142c7|||TSM|||Taiwan Semiconductor's strong Q3 sales a positive sign for Q4, Wedbush says (TSM:NYSE)
+2026-10-10T08:43:06+00:00|||PASS|||b055dc44725d86141a577a4179f327e3|||ASML|||ASML's Q3 Earnings Coming Up: How Should You Play the Stock?
+2026-10-10T08:43:47+00:00|||PASS|||76640c424466235b1a6175de05e0bb7d|||PLTR|||Goldman Sachs Upgrades Palantir to Buy, Sees 18% Upside and Further Outperformance Into 2027
+2026-10-10T08:44:21+00:00|||PASS|||9f2016bb13dd0eb6fc973bf01cffde7c|||SPCX|||Elon Musk intensifies attack on Ambani over Starlink India launch delay
