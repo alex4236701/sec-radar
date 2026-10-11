@@ -4684,3 +4684,10 @@
 2026-10-11T08:43:40+00:00|||PASS|||beff63db03c30823f99ba22578bb86dc|||AAPL|||Apple Supplier Luxshare Expects No Material Impact From US Probe
 2026-10-11T08:44:35+00:00|||SENT|||d9dc791d7cc535ccd5160bbb6d99bd3e|||VICR|||Vicor widens AI server power patent fight, seeking new US import ban on Foxconn, Quanta and Delta
 2026-10-11T08:45:45+00:00|||PASS|||d06ae374f0f8edd87bcacb33d80f743c|||IONQ|||SA Asks: Is now the time to buy quantum stocks? If so, which ones? (IONQ:NYSE)
+2026-10-11T16:43:12+00:00|||PASS|||0fb1cc979e54df654c2eb97985fe9d58|||GEV|||GE Vernova, Snowflake Lead 5 AI Stocks With Accelerating Growth
+2026-10-11T16:43:21+00:00|||PASS|||ab0d1f2c914631c31c932c9fa462e290|||AMZN|||Gripe water for babies sold on Amazon recalled due to traces of ethanol, methanol and isopropanol
+2026-10-11T16:43:24+00:00|||PASS|||49962d00a062f66c83d3e46ba4067ffa|||META|||The real social reckoning: The man who cost Meta $18 billion — and doesn't regret it
+2026-10-11T16:43:33+00:00|||PASS|||cbf375a166e7817d6e1a1dc6c9ee1009|||NVDA|||Nvidia Weighs Buying Reflection AI, the $25 Billion Open-Weight Model Startup It Already Backs
+2026-10-11T16:43:35+00:00|||PASS|||c9c994621dd839ee09f5b862989bbdcb|||AMD|||AMD Stock Fell 6% in Three Sessions After Its Record Close. Here’s What OpenAI’s $20 Billion Revenue Gap Means for the Stock
+2026-10-11T16:44:50+00:00|||PASS|||e4f5d45196d69909a483b2707bcf3e61|||TWLO|||$37 billion Twilio CEO interviews candidates over dinner—if you say ‘I’ too much you don’t get hired
+2026-10-11T16:45:07+00:00|||PASS|||54420b8775b61d4c1e5692e78f41a687|||SPCX|||Telecommunications Stocks Plunge Following Massive SpaceX Spectrum Acquisition
