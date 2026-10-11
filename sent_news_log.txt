@@ -4677,3 +4677,10 @@
 2026-10-11T00:51:39+00:00|||PASS|||4115651a03bfd75cb76601f9f755704d|||NVDA|||What a New Groq Lawsuit Means for Nvidia Stock Holders
 2026-10-11T00:51:45+00:00|||PASS|||33eacf703f323aef305255bfa18af9c8|||QCOM|||This week on Tom's Hardware Premium: October 10, 2026 — Tencent grabs bargain chips, Qualcomm Huawei IP deal, Groq lawsuit, and more
 2026-10-11T00:52:41+00:00|||PASS|||3bd5dbb4b27c47ed838843ca5281664e|||PLTR|||Is It Too Late to Buy Palantir Stock?
+2026-10-11T08:43:20+00:00|||PASS|||c7df9712d735e239548382843a80bae8|||FCEL|||FuelCell Energy Inc. Research & Ratings | FCEL
+2026-10-11T08:43:33+00:00|||PASS|||0db747913d4c4bcaae8cc29afb5804b9|||AMZN|||Amazon lays off 121 more Washington workers as its AI spending hits $220 billion
+2026-10-11T08:43:36+00:00|||PASS|||d2f21114d1327651ee4c3ee4b351eb0a|||AAPL|||Apple’s Chinese supplier Luxshare downplays impact of U.S. patent probe
+2026-10-11T08:43:38+00:00|||PASS|||4955fc19bc09bb35457279f9fc10ac5a|||AAPL|||Chinese Apple supplier Luxshare sees little negative impact from US patent infringement probe
+2026-10-11T08:43:40+00:00|||PASS|||beff63db03c30823f99ba22578bb86dc|||AAPL|||Apple Supplier Luxshare Expects No Material Impact From US Probe
+2026-10-11T08:44:35+00:00|||SENT|||d9dc791d7cc535ccd5160bbb6d99bd3e|||VICR|||Vicor widens AI server power patent fight, seeking new US import ban on Foxconn, Quanta and Delta
+2026-10-11T08:45:45+00:00|||PASS|||d06ae374f0f8edd87bcacb33d80f743c|||IONQ|||SA Asks: Is now the time to buy quantum stocks? If so, which ones? (IONQ:NYSE)
