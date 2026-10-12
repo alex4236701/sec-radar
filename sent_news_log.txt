@@ -4732,3 +4732,11 @@
 2026-10-12T13:07:28+00:00|||PASS|||55ea993ae1f788cf8cc68eb2bc6da7d5|||CRM|||Salesforce Climbs Amid Bank Of America Upgrade To Buy On Improved AI Trends
 2026-10-12T13:08:00+00:00|||PASS|||5d5e45b8af3dfe890521a071a1a65493|||SPCX|||How SpaceX’s Spectrum Purchase Brings It Closer to a Tesla Merger
 2026-10-12T13:08:26+00:00|||SENT|||f83e008271fafe10e25bca1dc0e53c7c|||IONQ|||IonQ to acquire cybersecurity firm Elisity for up to $1.3B By Investing.com
+2026-10-12T13:53:45+00:00|||PASS|||49638f8422dc6200fff9fb3dcee29408|||ONDS|||Ondas (ONDS) Launches Regna AI As It Pushes Into Sovereign Mission Systems
+2026-10-12T13:53:47+00:00|||PASS|||ed24229e7b39ffc3368a36e7ed3c2293|||ONDS|||Ondas and Palantir Launch Regna AI to Develop Sovereign Artificial Intelligence for Defence Operations
+2026-10-12T13:53:51+00:00|||PASS|||f8d1e70f31af9171908d9648a82df1e5|||OUST|||Gramercy-Backed Firm Fends Off Ouster From $36 Billion Lawsuit
+2026-10-12T13:53:56+00:00|||PASS|||d0c7fd9d5b999958734f6bc344d01ccc|||WOLF|||Applied Digital Has $36 Billion in Contracted Revenue. Wolfspeed Has the Better Stock Chart.
+2026-10-12T13:54:05+00:00|||PASS|||2c78c252b09cc4d82005ef5788e2e462|||GLW|||AI rack connectivity gets optical boost from Lumentum, Astera Labs, Corning
+2026-10-12T13:54:17+00:00|||PASS|||86155687244150c1d6bb774c312e6057|||AMZN|||Across Latin America, Interpol probe links 161 firms to Amazon clearing, arrests 233
+2026-10-12T13:54:23+00:00|||PASS|||3ef0e28dc27391959018ce435957bce8|||NVDA|||Nvidia Nears $6 Trillion Market Cap as Relentless AI Chip Demand Powers Record Growth
+2026-10-12T13:55:05+00:00|||SENT|||9e05e509607b7512d4d1220367bd3232|||CRDO|||Credo Unveils 1.6T ZeroFlap Active Light Cable, Industry’s First Row-Scale, Wide-Parallel Optical Interconnect for AI Data Centers
