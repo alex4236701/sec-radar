@@ -4755,3 +4755,7 @@
 2026-10-12T15:44:54+00:00|||PASS|||4c4a97dbe3bff511920c10518ec0d408|||CRM|||Salesforce Stock Surges After Bank of America Double Upgrade to Buy on AI Strength
 2026-10-12T15:44:57+00:00|||PASS|||aa940aa7d75310073c8fdbb2e855d2cd|||CRM|||Salesforce to buy AI analytics platform Loops for Tableau
 2026-10-12T15:45:53+00:00|||PASS|||334f3ec84d186f2abe0290031aea0037|||IONQ|||Watch T-Mobile Rises on Upgrade; IonQ to Buy Elisity | Stock Movers
+2026-10-12T16:40:33+00:00|||PASS|||c08d9bbe04fee02c472b7fd7f569ffa2|||MU|||QUICK SPARK: Micron, SK Hynix, SanDisk Wipe Out $100 Billion as Memory Rout Worsens
+2026-10-12T16:41:04+00:00|||PASS|||5a8f0db18de0e631f727fb1abee09891|||META|||A closer look at Big Banks ahead of Q3 earnings, & one metric Meta investors should watch
+2026-10-12T16:41:23+00:00|||PASS|||ed9db1885f8a91f288077db1d87d4280|||SKHY|||QUICK SPARK: Micron, SK Hynix, SanDisk Wipe Out $100 Billion as Memory Rout Worsens
+2026-10-12T16:41:26+00:00|||PASS|||9edb21bc2af8cd8205316360838c491c|||SNDK|||QUICK SPARK: Micron, SK Hynix, SanDisk Wipe Out $100 Billion as Memory Rout Worsens
