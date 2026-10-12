@@ -4708,3 +4708,27 @@
 2026-10-12T09:50:31+00:00|||PASS|||7afed5338d6c4782336392f8c60724ff|||NVDA|||Nvidia in discussions to acquire or expand stake in Reflection AI
 2026-10-12T09:50:53+00:00|||PASS|||db955da6cee2feafedcecfa3c00f6736|||SNDK|||GMIF2026 Annual Awards Unveiled: Samsung, Sandisk, Lenovo, Silicon Motion, BIWIN, and More Recognized
 2026-10-12T09:51:06+00:00|||PASS|||56abf91936f5dc60235c20ae517cc680|||AMAT|||Applied Materials opens a $5 billion lab every chipmaker will need
+2026-10-12T13:04:45+00:00|||SENT|||13e1abbe77e6acb88e5a6b5648455e1e|||GOOGL|||Finland orders Google to halt work at two AI data center sites
+2026-10-12T13:04:54+00:00|||PASS|||cf19b8d59af37ba18be751aa201d8067|||TTMI|||TTM Technologies plans $400M capacity expansion in Asia By Investing.com
+2026-10-12T13:04:58+00:00|||PASS|||94f97ce77d2bad265aa919eeb517fd35|||TTMI|||TTM Technologies Announces $400 Million in Planned Strategic Investments to Accelerate AI Infrastructure Capacity in China and Malaysia
+2026-10-12T13:05:04+00:00|||SENT|||1314dd3ba1d7e8adda27147515102024|||ONDS|||Ondas and Palantir form joint venture Regna AI By Investing.com
+2026-10-12T13:05:29+00:00|||SENT|||d7d8247dd7377598415101def2c267b8|||RDW|||Final Pair of Redwire ROSA Wings Launch to the ISS, Completing Historic Power Modernization Effort
+2026-10-12T13:05:34+00:00|||PASS|||9629202f7477f4e0786243bd7ceec247|||AMZN|||Amazon To $310? Here Are 10 Top Analyst Forecasts For Monday
+2026-10-12T13:05:37+00:00|||PASS|||3a6ad1020d79ac92ce43442988126e6d|||META|||Meta Bans ByteDance Ads on Its Platforms
+2026-10-12T13:05:40+00:00|||PASS|||ac44fcde68598a54dfd534b5cf19ecd7|||AAPL|||Ring's success strategy has nothing to do with Apple: Ring CEO
+2026-10-12T13:05:45+00:00|||SENT|||db0489266dcd92cc173a48d0a3f2b96f|||TSLA|||Tesla Faces US Probe Over Claim of Robotaxis Speeding in School Zones
+2026-10-12T13:05:47+00:00|||PASS|||a3f420f5074fe26e0337f89bd1fb6d03|||TSLA|||How SpaceX’s Spectrum Purchase Brings It Closer to a Tesla Merger
+2026-10-12T13:05:55+00:00|||PASS|||29c8aec1d2e0b002cbcdd180097d1d8a|||QCOM|||Cellid Joins Qualcomm's the Snapdragon START program to accelerate the development of AR glasses
+2026-10-12T13:06:08+00:00|||SENT|||309b645db0983b0fed663a6ff148ef5b|||SKHY|||SK Hynix Unveils H-TPU Controller Architecture with Over 100 Small Processors
+2026-10-12T13:06:17+00:00|||PASS|||7133177e230f1ab60621cff69e1545bf|||ASML|||In The Big Bank Earnings Week, EUV Machine Maker ASML Could Swing $42.8 Billion After Earnings
+2026-10-12T13:06:32+00:00|||SENT|||25b20a0a81c0bd73480e4423aeda1d13|||TER|||Teradyne Introduces UltraFLEXplus S Series for Edge AI Applications
+2026-10-12T13:06:44+00:00|||SENT|||7b22f2e03e8d1bc3277cf2cca64bac5e|||ALAB|||Astera Labs Unveils Orion: A Compute-Agnostic Rack-Scale Architecture for Token-Efficient AI Factories
+2026-10-12T13:07:05+00:00|||SENT|||ede9725058d289eaea858f03d4f154c9|||POWI|||Power Integrations and Ideal Power Collaborate on Efficient, Always-On Solid State Circuit Breakers for 800 VDC AI Data Centers
+2026-10-12T13:07:19+00:00|||PASS|||645fcc0d1b58ca7b90ea87720076a077|||PLTR|||Palantir CTO Blasts Silicon Valley’s ‘Doomsday Cult’ Over AI Safety — Says Pentagon Has 'Already Replaced
+2026-10-12T13:07:23+00:00|||PASS|||4783f536e4df1572c154cd0ff16b3dde|||CRM|||Salesforce Stock Is Double-Upgraded to Buy. The AI Overhang Is Over, Say Analysts.
+2026-10-12T13:07:24+00:00|||PASS|||d8ff4219b9b4a83a7c7108c0c4d89bb1|||CRM|||Salesforce to buy AI-powered analytics platform Loops
+2026-10-12T13:07:26+00:00|||PASS|||56d06f02607b5c1b42b1648467ce5722|||CRM|||BofA double upgrades Salesforce to Buy on AI strategy
+2026-10-12T13:07:26+00:00|||PASS|||4d6f0d5ff60d3fc478fb3e5aad070bd6|||CRM|||Is Salesforce stock ’a clean chase’ ahead of Q3 results?
+2026-10-12T13:07:28+00:00|||PASS|||55ea993ae1f788cf8cc68eb2bc6da7d5|||CRM|||Salesforce Climbs Amid Bank Of America Upgrade To Buy On Improved AI Trends
+2026-10-12T13:08:00+00:00|||PASS|||5d5e45b8af3dfe890521a071a1a65493|||SPCX|||How SpaceX’s Spectrum Purchase Brings It Closer to a Tesla Merger
+2026-10-12T13:08:26+00:00|||SENT|||f83e008271fafe10e25bca1dc0e53c7c|||IONQ|||IonQ to acquire cybersecurity firm Elisity for up to $1.3B By Investing.com
