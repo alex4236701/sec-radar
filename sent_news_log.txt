@@ -4759,3 +4759,6 @@
 2026-10-12T16:41:04+00:00|||PASS|||5a8f0db18de0e631f727fb1abee09891|||META|||A closer look at Big Banks ahead of Q3 earnings, & one metric Meta investors should watch
 2026-10-12T16:41:23+00:00|||PASS|||ed9db1885f8a91f288077db1d87d4280|||SKHY|||QUICK SPARK: Micron, SK Hynix, SanDisk Wipe Out $100 Billion as Memory Rout Worsens
 2026-10-12T16:41:26+00:00|||PASS|||9edb21bc2af8cd8205316360838c491c|||SNDK|||QUICK SPARK: Micron, SK Hynix, SanDisk Wipe Out $100 Billion as Memory Rout Worsens
+2026-10-12T18:45:53+00:00|||PASS|||43206275adc0209210a3749c58665817|||TTMI|||TTM Technologies plans $400M capacity expansion in Asia
+2026-10-12T18:47:45+00:00|||PASS|||77ebe388bf3fabed97d817514e7378c3|||KEYS|||Keysight Introduces PCIe® 7.0 Protocol Test Solution to Accelerate AI Infrastructure Validation
+2026-10-12T18:48:17+00:00|||PASS|||77301ddf9ad8967b70688fe738609a6b|||IONQ|||IonQ's Elisity Acquisition Seen as 'Sensible' Channel Play, Wedbush Says
