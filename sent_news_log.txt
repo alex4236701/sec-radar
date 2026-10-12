@@ -4701,3 +4701,6 @@
 2026-10-12T01:49:36+00:00|||PASS|||33f5f2a6837901ae8131d806a3dc5f8e|||SPCX|||If I Had a Choice to Invest $10,000 in SpaceX or Nvidia, Here's What I Would Do
 2026-10-12T01:49:51+00:00|||PASS|||7cfa970b918beba6251b7480f77a9fc9|||BE|||Is It Too Late to Buy Bloom Energy? My Honest Take.
 2026-10-12T01:50:04+00:00|||PASS|||c192d98dc46055f760f13c65b5344ed9|||CRCL|||Circle shares sink 20% as Tether's audit news and a yield ban loom
+2026-10-12T05:47:43+00:00|||PASS|||1df9faa07a3573750f5774304c61afb6|||NVDA|||Dan Ives Calls SpaceX’s $40B Nvidia Chip Debt Plan a ‘Smart Move’
+2026-10-12T05:47:52+00:00|||PASS|||a408a09391251f33affcc01f1c974c62|||TSM|||TSMC is set to post a sixth straight record quarter on AI chip demand
+2026-10-12T05:48:00+00:00|||PASS|||522d5a5699d46dc30ab13c52c6772e86|||SKHY|||SK Hynix's US$299 billion chip plan faces military base hurdle
