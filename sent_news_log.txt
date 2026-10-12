@@ -4740,3 +4740,13 @@
 2026-10-12T13:54:17+00:00|||PASS|||86155687244150c1d6bb774c312e6057|||AMZN|||Across Latin America, Interpol probe links 161 firms to Amazon clearing, arrests 233
 2026-10-12T13:54:23+00:00|||PASS|||3ef0e28dc27391959018ce435957bce8|||NVDA|||Nvidia Nears $6 Trillion Market Cap as Relentless AI Chip Demand Powers Record Growth
 2026-10-12T13:55:05+00:00|||SENT|||9e05e509607b7512d4d1220367bd3232|||CRDO|||Credo Unveils 1.6T ZeroFlap Active Light Cable, Industry’s First Row-Scale, Wide-Parallel Optical Interconnect for AI Data Centers
+2026-10-12T14:47:04+00:00|||PASS|||d02a761bcb343af7c42f81f759fff784|||MU|||Micron board raises buyback ceiling to $35.16bn
+2026-10-12T14:47:16+00:00|||PASS|||dd9c384ace19ce61fa3761c741a83f0c|||VUZI|||Vuzix to Showcase Vuzix Causeway™ Optical Interconnect Evaluation Platform at OCP Global Summit and PECC Summit
+2026-10-12T14:47:25+00:00|||PASS|||929e89f4a5f4300c290aec164b340c53|||CIEN|||Ciena Appoints Monika Fahlbusch as Chief People Officer – Company Announcement
+2026-10-12T14:47:37+00:00|||PASS|||5236f57b6f6202c9aac926173c43af51|||MSFT|||Microsoft reclaims $4 trillion market cap
+2026-10-12T14:47:40+00:00|||PASS|||2c72fdaa56c1141d9c6bf811b396e0bd|||MSFT|||Bull market turns 4, Microsoft's new AI chip, Starbucks denies Chipotle takeover
+2026-10-12T14:48:01+00:00|||SENT|||24cceae90b8bc8f995716841776e864d|||GFS|||GlobalFoundries unveils 7nm-class FDX Fusion node — FD-SOI node doubles 22FDX transistor density, comes 7 years after firm abandoned FinFET
+2026-10-12T14:48:54+00:00|||PASS|||a043939cce7258b5649097e9a88a5171|||PLTR|||Salesforce Advances 3% on Bank of America Double Upgrade to Buy With $285 Target; ServiceNow Climbs 3%, Palantir Holds Steady
+2026-10-12T14:48:56+00:00|||PASS|||5982fe26c7d2f6ad5b37a4d587ab5ca3|||NOW|||Salesforce Advances 3% on Bank of America Double Upgrade to Buy With $285 Target; ServiceNow Climbs 3%, Palantir Holds Steady
+2026-10-12T14:48:59+00:00|||PASS|||5c5258a9215ba97087e4b8619a8c993e|||CRM|||Salesforce Advances 3% on Bank of America Double Upgrade to Buy With $285 Target; ServiceNow Climbs 3%, Palantir Holds Steady
+2026-10-12T14:49:02+00:00|||PASS|||0a391218003bfae88aafe8524699b5ee|||CRM|||CRM Stock Gains After Salesforce Acquires AI Startup Loops, BofA Double Upgrade
