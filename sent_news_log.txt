@@ -4768,3 +4768,8 @@
 2026-10-12T20:42:13+00:00|||SENT|||3b1fea9882385c8d067dc6ce82d104bb|||NVTS|||Navitas unveils 24 kW power board for AI data centers By Investing.com
 2026-10-12T20:42:19+00:00|||SENT|||e4c221eede034ba7ac2bd58537fbf64b|||NVTS|||Navitas Collaborates with NVIDIA on 800 V-to-12 V Power Delivery Board for Next-Generation AI Infrastructure
 2026-10-12T20:44:28+00:00|||PASS|||d67cbdee9a24083e7bfbb5f58963d412|||BE|||Bloom Energy Stocks Drop Over 5.8% Before $4.2 Billion Revenue Test
+2026-10-12T21:39:57+00:00|||PASS|||b5ab79dfe903879ed597fd9b90e6fbbe|||CIEN|||Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday
+2026-10-12T21:39:59+00:00|||PASS|||b1a16ae6cc3e5b016dcecaccc9dd271f|||CIEN|||AI Infrastructure Stocks With Real Earnings Leverage From Ciena, Micron And KLA
+2026-10-12T21:40:11+00:00|||PASS|||ca4e053f52be59a40c9899ed95db84f2|||MSFT|||Exclusive: Microsoft’s departing science president plans to join Mercedes F1 team as AI advisor
+2026-10-12T21:40:40+00:00|||PASS|||f256a17042f6a5bc124dd0c939b22a73|||AMAT|||Applied Materials unveils $5 billion chip R&D facility
+2026-10-12T21:41:22+00:00|||PASS|||1f79f30ba9e84c456755b5c469e2c56f|||NOW|||Sakon Introduces Ask Milo™, the AI Companion for Enterprise Telecom on ServiceNow
