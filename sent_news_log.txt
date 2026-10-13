@@ -4846,3 +4846,10 @@
 2026-10-13T17:42:21+00:00|||PASS|||8e047cc5e9db88b5da917e61be9c9f57|||NOK|||Nokia launches flexible 50G/25G/10GPON for AI-ready fiber broadband
 2026-10-13T17:42:43+00:00|||PASS|||4a29d087a9468659df78bbeaea8a5551|||NOW|||AI customer service startup Decagon held early buyout talks with ServiceNow
 2026-10-13T17:43:43+00:00|||PASS|||baeff1cf2bead0e913c62f4581cd0943|||IONQ|||Mizuho reiterates IonQ stock rating after Elisity acquisition
+2026-10-13T18:50:57+00:00|||PASS|||d6f66d02ad2cc8de99cbad40bfa60b23|||AVGO|||What a $50 Billion Debt Deal Could Mean for Broadcom Stock
+2026-10-13T18:51:12+00:00|||PASS|||adbaf2f8b2d3054940f73d8a8fff9e9c|||MSFT|||Microsoft Stock Reclaims $4 Trillion Market Cap as AI Optimism Surges
+2026-10-13T18:51:15+00:00|||PASS|||982f3ac14ac60a6a3a5322ac258f2e53|||AMZN|||Apple Takes on Amazon With New Smart Home Gadgets. The Launch Adds Up to a $5 Trillion Valuation.
+2026-10-13T18:51:20+00:00|||PASS|||9928081a96f27ed02767f41844342a0c|||META|||Zuckerberg Admits Meta Lacked AI Certainty on $200 Billion Bet
+2026-10-13T18:51:21+00:00|||PASS|||ff6996534413785229a7ab2280641c6e|||META|||I don’t miss the camera on the Ray-Ban Meta Audio glasses
+2026-10-13T18:51:22+00:00|||PASS|||553902e502a910271a6f447053974099|||META|||I wore Meta's new Ray-Ban smart glasses without feeling like a creep. Here's why
+2026-10-13T18:51:47+00:00|||SENT|||459d590f1ee37acb950b5371d2bb2773|||QCOM|||Qualcomm wins jury verdict against Arm for breach of architectural license agreement
