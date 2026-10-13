@@ -4819,3 +4819,9 @@
 2026-10-13T13:48:36+00:00|||PASS|||97c91be258692aac64b45816e9237c43|||NVDA|||Nvidia: The Buyback Is The Opportunity (NASDAQ:NVDA)
 2026-10-13T13:48:40+00:00|||SENT|||0fdb093e1b899af83a54a4a3a6a20875|||NVDA|||U.S. Export Restrictions Drive Nvidia China AI Chip Market Share Down to 34%
 2026-10-13T13:49:49+00:00|||PASS|||9d6c1b7901d1e1c9b01e9b7206b433f4|||CRM|||Blackthorn launches Forge, ending the choice between Salesforce-native and easy-to-use event technology
+2026-10-13T14:46:44+00:00|||PASS|||6f8d2734d40869d2f2aa4e5ac781ab83|||AMZN|||Amazon Wins Appeal in Case Seeking Internal Antitrust Documents
+2026-10-13T14:46:49+00:00|||PASS|||c0ed8c489650bc2b2d636e14dd52505f|||AAPL|||Apple Stock Tops $5 Trillion Market Value as HomeView Debuts
+2026-10-13T14:46:58+00:00|||SENT|||38a60a99e76096a657ec06e379d4232c|||NVDA|||Chinese AI companies buy 1 million Nvidia GPUs in a single year, report claims — export control-compliant chips flood the market to bridge gap in compute demand
+2026-10-13T14:47:01+00:00|||PASS|||758f50aadb2d176d2ff02b77059dc42d|||NVDA|||Bond Investors Are Wary of SpaceX's Borrowing Binge to Buy Nvidia Chips
+2026-10-13T14:48:39+00:00|||PASS|||373f332afa7f9dd4801caf0196545557|||SPCX|||Bond Investors Are Wary of SpaceX's Borrowing Binge to Buy Nvidia Chips
+2026-10-13T14:49:08+00:00|||PASS|||e5af287a188e65bdf0a7a13c45a73f4e|||IONQ|||D-Wave Quantum Deepens Partnership With IonQ’s SkyWater Technology
