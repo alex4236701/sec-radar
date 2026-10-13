@@ -4777,3 +4777,10 @@
 2026-10-13T01:48:25+00:00|||PASS|||3e10981b408016a6a8a64039b4dcecaa|||META|||Special election in Piqua to address Meta data center and council recalls
 2026-10-13T01:48:43+00:00|||PASS|||9ed12c466a086cbb78687b7d7ec0459e|||SKHY|||Micron, SK Hynix, SanDisk Lose $100 Billion In Memory Rout - Micron Technology (NASDAQ:MU)
 2026-10-13T01:48:45+00:00|||PASS|||49f1ef4659e81d1dae6f16389df50eb3|||SNDK|||Micron, SK Hynix, SanDisk Lose $100 Billion In Memory Rout - Micron Technology (NASDAQ:MU)
+2026-10-13T05:48:02+00:00|||PASS|||02f0fab2cc6a1b4ef97c951ce4cc2d22|||NVDA|||​Nvidia to Invest $1 Billion in U.S. Superintelligence Infrastructure
+2026-10-13T05:48:09+00:00|||PASS|||7c2ad2ae3726dc87796f840697ba4f07|||QCOM|||​Qualcomm Unveils Four AI Broadband Platforms Ahead of Network X 2026
+2026-10-13T05:48:20+00:00|||PASS|||ec1fed4ed10583cd8ec9f11d6b594ad2|||SNDK|||Tokenized SanDisk bets saw more liquidations than XRP as Asia’s chip rout wipes out $800 million
+2026-10-13T05:48:30+00:00|||PASS|||478f89e7f58c43b95044f6fd9c2a2f8e|||AMAT|||Applied Materials opens new $5B chip research facility to accelerate collaborative semiconductor innovation
+2026-10-13T05:48:50+00:00|||PASS|||aaa13619c76eb84ad50b7c9cf408e514|||CRDO|||Credo Launches Short-Reach Micro-Emitter Optics (SRMO) Standardization for AI Data Center Scale-Up and Scale-Out Applications
+2026-10-13T05:48:56+00:00|||PASS|||a1195461e08dc70b9fb7915b08526306|||LITE|||Taiwan optical suppliers post record sales as Lumentum warns of shortages
+2026-10-13T05:49:02+00:00|||PASS|||b8446a63c6c939b2ef3a40f05a5033d7|||CSCO|||Nvidia and Cisco unveil new optics design to help scale AI factories
