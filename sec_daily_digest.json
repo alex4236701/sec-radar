@@ -1,1 +1,34 @@
-[]
+[
+ {
+  "date": "2026-10-13",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：LAWRENCE CHI FUNG CHENG（高階主管、董事），3,790 股，約 $764,955",
+  "ticker": "CRDO",
+  "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195004726010178/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-13",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：PANTAS SUTARDJA（董事），1,540 股，約 $333,487",
+  "ticker": "CRDO",
+  "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195004726010169/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-13",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Murry Stefan J.（高階主管），4,000 股，約 $411,486",
+  "ticker": "AAOI",
+  "url": "https://www.sec.gov/Archives/edgar/data/1158114/000197407826000378/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-13",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：ADAM GELLER（高階主管），1,042 股，約 $245,860",
+  "ticker": "ZS",
+  "url": "https://www.sec.gov/Archives/edgar/data/1713683/000195004726010184/xsl144X01/primary_doc.xml"
+ }
+]
