@@ -38,5 +38,21 @@
   "text": "13G 修正：JPMORGAN CHASE & CO，持股 3.40%（已降到 5% 以下）",
   "ticker": "KLIC",
   "url": "https://www.sec.gov/Archives/edgar/data/56978/000001961726000359/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-13",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：Portolan Capital Management, LLC，持股 5.15%",
+  "ticker": "LTRX",
+  "url": "https://www.sec.gov/Archives/edgar/data/1114925/000110465926115534/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-13",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Raymond Family Rev Trust U/A DTD 05/30/2023（董事），6,494 股，約 $103,644",
+  "ticker": "PL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1836833/000195004726010200/xsl144X01/primary_doc.xml"
  }
 ]
