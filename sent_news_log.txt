@@ -4853,3 +4853,12 @@
 2026-10-13T18:51:21+00:00|||PASS|||ff6996534413785229a7ab2280641c6e|||META|||I don’t miss the camera on the Ray-Ban Meta Audio glasses
 2026-10-13T18:51:22+00:00|||PASS|||553902e502a910271a6f447053974099|||META|||I wore Meta's new Ray-Ban smart glasses without feeling like a creep. Here's why
 2026-10-13T18:51:47+00:00|||SENT|||459d590f1ee37acb950b5371d2bb2773|||QCOM|||Qualcomm wins jury verdict against Arm for breach of architectural license agreement
+2026-10-13T19:54:43+00:00|||PASS|||94d9b70a7293eed0fbe2c4a7f9532212|||AAPL|||Apple Takes on Amazon With New Smart Home Gadgets. The Launch Adds Up to a $5 Trillion Valuation.
+2026-10-13T19:54:45+00:00|||PASS|||5297b7e0431b0e1c2400fa2c6d8c7d19|||AAPL|||Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Trillion AI Wave?
+2026-10-13T19:54:47+00:00|||PASS|||80fa287fe82f52f6d77479d3a5e90ff0|||TSLA|||Tesla Stock's $1.5 Trillion Valuation Leaves a Nearly $1 Trillion Question
+2026-10-13T19:54:50+00:00|||PASS|||b795e41a4d77b0154cb7b2034b9b9803|||NVDA|||Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Trillion AI Wave?
+2026-10-13T19:55:10+00:00|||PASS|||dbd5f2b57fc0c43a1b2dffad955a1479|||ASML|||ASML Could Swing $34.8 Billion After Earnings
+2026-10-13T19:55:32+00:00|||PASS|||b5d599afdc36968041a2b5d9a7a2ce62|||SMTC|||Did Semtech Corporation Insiders Breach their Fiduciary Duties to Shareholders?
+2026-10-13T19:55:42+00:00|||PASS|||5d6889c4a6888c30890fd366159afb64|||MPWR|||Did Monolithic Power Systems, Inc. Insiders Breach their Fiduciary Duties to Shareholders?
+2026-10-13T19:56:05+00:00|||PASS|||953a27010ee6c833bd5622259b17ec58|||ZETA|||Did Zeta Global Holdings Corp. Insiders Breach their Fiduciary Duties to Shareholders?
+2026-10-13T19:56:43+00:00|||PASS|||1dccb3bfdc8adae930e9efdda5dc470a|||PPTA|||Did Perpetua Resources Corp. Insiders Breach their Fiduciary Duties to Shareholders?
