@@ -4862,3 +4862,10 @@
 2026-10-13T19:55:42+00:00|||PASS|||5d6889c4a6888c30890fd366159afb64|||MPWR|||Did Monolithic Power Systems, Inc. Insiders Breach their Fiduciary Duties to Shareholders?
 2026-10-13T19:56:05+00:00|||PASS|||953a27010ee6c833bd5622259b17ec58|||ZETA|||Did Zeta Global Holdings Corp. Insiders Breach their Fiduciary Duties to Shareholders?
 2026-10-13T19:56:43+00:00|||PASS|||1dccb3bfdc8adae930e9efdda5dc470a|||PPTA|||Did Perpetua Resources Corp. Insiders Breach their Fiduciary Duties to Shareholders?
+2026-10-13T20:56:53+00:00|||PASS|||3f5897742fa71671f51781cf092de241|||HON|||AVCON RECEIVES FAA STC FOR HONEYWELL AEROSPACE REPLACEMENT EGPWS ON BOMBARDIER AND LEARJET AIRCRAFT
+2026-10-13T20:57:00+00:00|||PASS|||c0843cd31c5d6216f56e547a8d939913|||META|||Ben Affleck: 'I Got Banned From Instagram Twice for Impersonating Myself'
+2026-10-13T20:57:02+00:00|||PASS|||70a9d627b0c542d216beb89d1af0a0d5|||META|||I've been testing Ray-Ban Meta Audio glasses for 72 hours — and ditching the camera was the absolute right call
+2026-10-13T20:57:15+00:00|||PASS|||ea91730eb70729bf97f946b82354fde2|||TSM|||Rethink Technology Weekly Update 10/11/2026: Brief Previews Of TSMC, ASML, And RTX Q3 Earnings (NYSE:TSM)
+2026-10-13T20:57:27+00:00|||PASS|||350f95c86a69ccdb88ce1068a435cf61|||ASML|||ASML Is About to Kick Off Tech Earnings. It’s a Big Deal for Chip Stocks.
+2026-10-13T20:58:48+00:00|||PASS|||a08949ec1fcbbb34e6c18a54b5fc9a2f|||SPCX|||SpaceX Wants $40 Billion in New Debt, and It'll Need Hundreds of Billions More to Achieve Musk's Vision
+2026-10-13T20:59:05+00:00|||PASS|||057ceba9b679e7a10c0a6e18e4a41533|||ETN|||Edison Shares Fall After Muddy Waters Alleges Safety Failures Before Eaton Fire
