@@ -4840,3 +4840,9 @@
 2026-10-13T16:43:51+00:00|||PASS|||26937f17c1cf4876d7a0d09d5d7b0202|||AMZN|||If You Invest $1,000 in Amazon Today, Here’s What It Could Be Worth by 2030
 2026-10-13T16:44:00+00:00|||PASS|||b2237f9404140ceebb9ba95123aa9a8f|||NVDA|||Nvidia to buy a minority stake in France's Doctolib
 2026-10-13T16:45:40+00:00|||PASS|||8884c8c807fac77f0c753bda699b9d50|||SPCX|||Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites
+2026-10-13T17:41:09+00:00|||PASS|||3b8f4629d9ef24398b5e3f9c553dffb6|||MSFT|||Microsoft's New AI Chip Could Help Solve Its $175 Billion Spending Problem
+2026-10-13T17:41:22+00:00|||SENT|||78001ae7843889fea58a4314b7bdaa2f|||META|||Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach
+2026-10-13T17:41:41+00:00|||PASS|||70f0cddb5927224383d2e1231670575f|||ASX|||ASE Technology, IBD Stock Of The Day, Holds In Buy Zone Ahead Of Q3 Earnings Report
+2026-10-13T17:42:21+00:00|||PASS|||8e047cc5e9db88b5da917e61be9c9f57|||NOK|||Nokia launches flexible 50G/25G/10GPON for AI-ready fiber broadband
+2026-10-13T17:42:43+00:00|||PASS|||4a29d087a9468659df78bbeaea8a5551|||NOW|||AI customer service startup Decagon held early buyout talks with ServiceNow
+2026-10-13T17:43:43+00:00|||PASS|||baeff1cf2bead0e913c62f4581cd0943|||IONQ|||Mizuho reiterates IonQ stock rating after Elisity acquisition
