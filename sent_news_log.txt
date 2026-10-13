@@ -4825,3 +4825,14 @@
 2026-10-13T14:47:01+00:00|||PASS|||758f50aadb2d176d2ff02b77059dc42d|||NVDA|||Bond Investors Are Wary of SpaceX's Borrowing Binge to Buy Nvidia Chips
 2026-10-13T14:48:39+00:00|||PASS|||373f332afa7f9dd4801caf0196545557|||SPCX|||Bond Investors Are Wary of SpaceX's Borrowing Binge to Buy Nvidia Chips
 2026-10-13T14:49:08+00:00|||PASS|||e5af287a188e65bdf0a7a13c45a73f4e|||IONQ|||D-Wave Quantum Deepens Partnership With IonQ’s SkyWater Technology
+2026-10-13T15:43:59+00:00|||SENT|||fe65d61ca5661160856a24aea8731a15|||VSH|||Vishay introduces automotive optical sensors for battery systems By Investing.com
+2026-10-13T15:44:05+00:00|||PASS|||e91ba330b3896aee81c9de0ccead34ba|||VSH|||Vishay Intertechnology Optical Sensors With Photodiode
+2026-10-13T15:44:28+00:00|||PASS|||db1362eab37fb9635c11cc4f4131a43e|||AMZN|||Amazon-branded pain medicine recalled after reports of discolored tablets
+2026-10-13T15:44:33+00:00|||PASS|||c4378a34cb05ad044fc134c03c513558|||AAPL|||Apple Unveils Smart Home Lineup as Market Value Tops $5 Trillion
+2026-10-13T15:44:39+00:00|||PASS|||367cc979c159e1e09b652991ae60eef7|||MRVL|||Marvell: A Strong Buy With A $90 Billion Opportunity (NASDAQ:MRVL)
+2026-10-13T15:44:44+00:00|||SENT|||cf88249e58277649b34c4c7548a8f034|||QCOM|||Qualcomm-Arm lawsuit likely to be decided this week, source says (QCOM:NASDAQ)
+2026-10-13T15:45:20+00:00|||SENT|||cfc20ac58e7c6270a366649ea0b48226|||AEIS|||Advanced Energy Launches 3200 W and 3600 W M-CRPS Power Supplies with Ultra-High Power Density
+2026-10-13T15:45:51+00:00|||SENT|||86ccc6329639955ddc1d4db4cec666f4|||CIFR|||Cipher Digital Plans $850 Million Convertible Notes Offering Due 2032
+2026-10-13T15:46:00+00:00|||PASS|||a8600524154427199bebea696c998894|||CRM|||Docusign and Salesforce Launch Intelligent Agreement Management Natively Across Salesforce to Power Agentic Agreement Workflows
+2026-10-13T15:46:01+00:00|||PASS|||3f75228132281b5cb09e5d245dd522c8|||CRM|||Argano Advances Salesforce and AI Capabilities with Acquisition of Oktana
+2026-10-13T15:46:35+00:00|||PASS|||71bbb6f5e2b23630d011cdaf07811eb1|||SPCX|||SpaceX Plan to Launch 456 Starships a Year in Texas Under Review
