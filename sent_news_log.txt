@@ -4869,3 +4869,13 @@
 2026-10-13T20:57:27+00:00|||PASS|||350f95c86a69ccdb88ce1068a435cf61|||ASML|||ASML Is About to Kick Off Tech Earnings. It’s a Big Deal for Chip Stocks.
 2026-10-13T20:58:48+00:00|||PASS|||a08949ec1fcbbb34e6c18a54b5fc9a2f|||SPCX|||SpaceX Wants $40 Billion in New Debt, and It'll Need Hundreds of Billions More to Achieve Musk's Vision
 2026-10-13T20:59:05+00:00|||PASS|||057ceba9b679e7a10c0a6e18e4a41533|||ETN|||Edison Shares Fall After Muddy Waters Alleges Safety Failures Before Eaton Fire
+2026-10-13T21:52:23+00:00|||SENT|||7a2c92d336a4d46269829a1021fe05b3|||CRUS|||Cirrus Logic confirms it made bids for Synaptics (SYNA:NASDAQ)
+2026-10-13T21:52:28+00:00|||PASS|||7a6121ca1ee692e1df70e78766d46bec|||GOOGL|||Google AI Customer Service Privacy Lawsuit Gets Doubtful Judge
+2026-10-13T21:53:05+00:00|||SENT|||67dcd0b4c42b8f7d481860476844fe52|||MSFT|||Microsoft Reports $130 Billion in Data Center Leases
+2026-10-13T21:53:11+00:00|||PASS|||ce8c7decca5957aa457b2ce80f5f6e5b|||AMZN|||Check your medicine cabinets: Nearly 113,000 bottles of Amazon-brand pain relievers recalled
+2026-10-13T21:53:13+00:00|||PASS|||70a830b05e5f601cc380a0013a291985|||AMZN|||Apple Takes on Amazon With New Smart Home Gadgets. It Still Isn’t Worth $5 Trillion.
+2026-10-13T21:53:15+00:00|||PASS|||84283a66205d11cc152fcf0b021d65dd|||AMZN|||Check your kitchen: Seeds sold on Amazon, Walmart recalled over salmonella risks
+2026-10-13T21:53:18+00:00|||PASS|||058575b7d8a718cc27f6c4b5f2ac4b48|||AAPL|||Apple Takes on Amazon With New Smart Home Gadgets. It Still Isn’t Worth $5 Trillion.
+2026-10-13T21:53:42+00:00|||PASS|||871749a1008de2ea0ff2a2cc9e906f22|||AMAT|||Watch Applied Materials CEO on Doubling Revenue Thanks To AI
+2026-10-13T21:54:00+00:00|||SENT|||9987a93b7dd9fbe0b0cacf6cce615b22|||AEIS|||Advanced Energy Unveils Centra Smart Hub for Improved Temperature Measurement in Next-Generation Semiconductor Tools
+2026-10-13T21:55:21+00:00|||PASS|||ade374eceee619bba4d24e904a9f2e9e|||ETN|||Bain Capital and Tillman Global Holdings Complete $1.5 Billion Investment in Eaton Fiber and Acquisition of Ripple Fiber
