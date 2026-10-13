@@ -4784,3 +4784,17 @@
 2026-10-13T05:48:50+00:00|||PASS|||aaa13619c76eb84ad50b7c9cf408e514|||CRDO|||Credo Launches Short-Reach Micro-Emitter Optics (SRMO) Standardization for AI Data Center Scale-Up and Scale-Out Applications
 2026-10-13T05:48:56+00:00|||PASS|||a1195461e08dc70b9fb7915b08526306|||LITE|||Taiwan optical suppliers post record sales as Lumentum warns of shortages
 2026-10-13T05:49:02+00:00|||PASS|||b8446a63c6c939b2ef3a40f05a5033d7|||CSCO|||Nvidia and Cisco unveil new optics design to help scale AI factories
+2026-10-13T09:47:29+00:00|||PASS|||151c729cf8c14ea095ba5ed7a9c21e8e|||GOOGL|||From Google Deal to Bankruptcy: Character.AI Files for Chapter 11, Puts Disney In Driver’s Seat With $20
+2026-10-13T09:48:01+00:00|||PASS|||912ee7d3ea377fae09532fc1bd49a220|||META|||Mark Zuckerberg Defends Meta's AI CapEx, Ready to 'Write This Check' for up to '$200 Billion' to Dominate
+2026-10-13T09:48:07+00:00|||PASS|||3fd8ff067ee98812858f6ed3b5234d71|||NVDA|||Tencent leases 100000 banned Nvidia chips through Oracle in Southeast Asia
+2026-10-13T09:48:11+00:00|||PASS|||8a35c841aaa4ec6be40e97edce700b57|||MRVL|||Marvell: The Hidden $15 Billion AI Opportunity Nobody Should Ignore (NASDAQ:MRVL)
+2026-10-13T09:48:15+00:00|||PASS|||f8d623860b49d900dab260450a81fa31|||QCOM|||Gemtek, Qualcomm and gFiber Collaborate to Bring Edge AI to Wi-Fi 8 Broadband Gateways
+2026-10-13T09:48:19+00:00|||PASS|||a0e205290dcc0f8894e52bcc9ec85a92|||ARM|||China's Blue Core Computing secures nearly US$300 million to challenge x86, Arm in AI servers
+2026-10-13T09:48:22+00:00|||PASS|||718902584436402300e69c46341ba09a|||INTC|||Here’s Your First Good Look At an Intel Nova Lake-S Motherboard With LGA 1954 Socket & Q970/B960 Chipset
+2026-10-13T09:48:29+00:00|||PASS|||ec9d5179acbf088d162d1530af768b1a|||SKHY|||SK Hynix unveils low-power processor design for SSDs
+2026-10-13T09:48:37+00:00|||PASS|||59d99bb084cfe2eed8e22d9114af5680|||ASML|||ASML’s Guidance Key to Instill Confidence in Fragile Chip Trade
+2026-10-13T09:48:41+00:00|||SENT|||5d85fb570823964ac33b71cb41418fa5|||ASML|||ASML unveils Hyper NA EUV successor targeting 5nm single exposure
+2026-10-13T09:48:49+00:00|||SENT|||1e6792f74cd7ea895e1a1878d7cfe5c9|||AMAT|||Applied Materials Unveils $5 Billion EPIC Center in Silicon Valley to Accelerate Semiconductor Innovation for the AI Era
+2026-10-13T09:49:22+00:00|||PASS|||b74cea13dcd3ed72d149f5ff599ef980|||CSCO|||NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories
+2026-10-13T09:49:28+00:00|||SENT|||5dd6464aa67cb17bad356358bef7b7d7|||NOK|||Nokia divests Enterprise Campus Edge unit to AURELIUS
+2026-10-13T09:50:23+00:00|||SENT|||78f6860f10ade33173693c3c4e96a2fa|||SPCX|||SpaceX agrees to testify to NYC Council about AI safety after receiving subpoena
