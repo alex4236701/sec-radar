@@ -4974,3 +4974,8 @@
 2026-10-14T20:55:26+00:00|||PASS|||7143da7cc931de5fd39b334770d76274|||GFS|||GlobalFoundries to open two new chip plants in New York with US$21 billion in financing from Japan
 2026-10-14T20:55:50+00:00|||PASS|||f5dc7b78706919e152f308f5ce2b71c4|||COHU|||Cohu To Announce Third Quarter Financial Results on October 28
 2026-10-14T20:56:19+00:00|||PASS|||0facc491a83759516641e0af21f382ca|||DELL|||Former portfolio manager sues Fidelity after leaving for Michael Dell's family office
+2026-10-14T21:54:28+00:00|||PASS|||7a0bff0de475bb872e56879c42e037f6|||META|||Tech layoffs tracker 2026: All the job losses across Netflix, Amazon, Apple, Oracle, TikTok, Meta and others
+2026-10-14T21:54:30+00:00|||PASS|||84317015eafacca50f3ed20081c3d99c|||AAPL|||Apple Closes Above the $5 Trillion Mark
+2026-10-14T21:54:32+00:00|||PASS|||916abcfacc752034953175426bb8a7fc|||AAPL|||Apple Hits $5 Trillion Milestone as Rest of Tech Trade Falters. Can It Hold?
+2026-10-14T21:54:33+00:00|||PASS|||9a1e1f045f82022dc6989f85f53a11d2|||AAPL|||Seventh Time Is the Charm: Apple Closes Above $5 Trillion Market Capitalization
+2026-10-14T21:56:20+00:00|||SENT|||82b40deb30b56e97fb8d749be667b29e|||RKLB|||Rocket Lab Falls After Neutron Rocket Debut Delayed to 2027
