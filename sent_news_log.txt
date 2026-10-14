@@ -4910,3 +4910,22 @@
 2026-10-14T10:03:06+00:00|||PASS|||8e9cb33ec27be16a7122be5c18f48746|||CRWV|||CoreWeave: Asymmetric Risk-Reward As $104 Billion Backlog Underpins Growth
 2026-10-14T10:03:45+00:00|||PASS|||8eb2932bcbd897a4314a3d97b8c3e257|||SPCX|||Watch Sunil Mittal: Ahead of Starlink in Approval Queue
 2026-10-14T10:04:03+00:00|||PASS|||3b00d0cc25a9b18c98482765c8091390|||ETN|||How Investors May Respond To Edison International (EIX) Short Seller Claims On Eaton Fire Liabilities
+2026-10-14T13:06:27+00:00|||PASS|||661868aeac0ecdf68dd33471bc6d601e|||GOOGL|||Google Deepmind's Hassabis calls AI hacks 'early warning shots'
+2026-10-14T13:06:31+00:00|||PASS|||014cae6aeb93ebea0965f10bae4cf3f1|||UCTT|||Ultra Clean Holdings Inc. Research & Ratings | UCTT
+2026-10-14T13:06:38+00:00|||PASS|||fd3926e3aba012f0f113d640abe64a63|||UMAC|||XTI Aerospace names Unusual Machines CEO as board chairman By Investing.com
+2026-10-14T13:06:52+00:00|||PASS|||58491ac0367f442052bbbb7d1240c2aa|||GLW|||Owens Corning to Announce Third-Quarter Financial Results on November 4
+2026-10-14T13:07:06+00:00|||SENT|||b7fd5f308a3a62e3bdce45a699d6dcf5|||HON|||Exclusive: Honeywell Technologies launches a 'brain behind the building' with Nvidia and Dell. Its CTO says humans will run it for now
+2026-10-14T13:07:13+00:00|||PASS|||2dcc22db1230abf61d61b324aa89176c|||MSFT|||Microsoft acquires 600 acres of land for data center in Woodward, Iowa
+2026-10-14T13:07:24+00:00|||PASS|||8169bd6d974567e28eb75c5625fe5429|||MRVL|||Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan
+2026-10-14T13:07:33+00:00|||SENT|||5edac1e6d8cd4aa059126eda00cd34d2|||QCOM|||Qualcomm wins architecture breach verdict against Arm but gets just $2 — judge could still suspend royalty fees for five years
+2026-10-14T13:07:46+00:00|||SENT|||66cddda26f1a714c7f798010fcf5caaf|||GFS|||Japan to invest up to $21 billion in two US chip factories to be run by GlobalFoundries
+2026-10-14T13:07:59+00:00|||PASS|||7b5332e0b10231ef1df44d1bbe0654f4|||ASML|||Why the Chip Stocks Slump Is Deepening After ASML’s Strong Earnings
+2026-10-14T13:08:02+00:00|||PASS|||c76c93d05bf23b1e5e9c5215d64869ff|||ASML|||ASML Stock Slips as Earnings Point to a Scramble for Chipmaking Machines
+2026-10-14T13:08:05+00:00|||PASS|||0e0a7335fd43248d55974d55c860d490|||ASML|||EU Set to Lift Sanction on Chinese Firm to Save ASML Supplier
+2026-10-14T13:08:19+00:00|||SENT|||c838bc44b52790b4aa697fc5dd310ba9|||CAMT|||CAMTEK PRE-ANNOUNCES RECORD Q3 REVENUES ABOVE GUIDANCE; PROVIDES RECORD Q4 GUIDANCE AND INITIAL REVENUE OUTLOOK FOR 2027
+2026-10-14T13:08:52+00:00|||PASS|||a27ff00c07e67d1abd36c3533548d5c1|||HPE|||Hewlett Packard Enterprise: Fears Mount For Bears As Juniper Acquisition Shows Strength
+2026-10-14T13:08:56+00:00|||PASS|||dcb5987f204af0411735f3ceff17f5ae|||CRWV|||What Does OpenAI’s $50 Billion Run Rate Mean for CoreWeave Stock? Here’s What Investors Should Know
+2026-10-14T13:09:45+00:00|||PASS|||f00826d2936df3e9a633552d746e8396|||IRDM|||Altair Semiconductor Integrates Iridium NTN Direct into ALT1350 and ALT1550 Cellular IoT Chipsets
+2026-10-14T13:10:07+00:00|||SENT|||744e831dad3b1b60a8c9d9c9d5e073e7|||IONQ|||IonQ prices $2 billion equity offering with Heights Capital By Investing.com
+2026-10-14T13:10:10+00:00|||PASS|||9f716f93bc5ac3ba951f55d6d3765b0e|||IONQ|||IonQ: Elisity Acquisition And The Bigger Picture (NYSE:IONQ)
+2026-10-14T13:10:14+00:00|||PASS|||da10cf1f491a565403328541564452ca|||CRCL|||The MUHC Foundation launches the Women’s Health Circle to accelerate progress in women’s health
