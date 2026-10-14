@@ -4888,3 +4888,11 @@
 2026-10-14T01:59:17+00:00|||SENT|||58345bd60ced9bde211a644f0f6ec880|||LTRX|||Lantronix Introduces Spotter to Close the Compute Gap Holding Back Drone and Robot Autonomy
 2026-10-14T01:59:50+00:00|||PASS|||7c93aacabccf0f32f038a2bdce038715|||ETN|||Edison drops as Muddy Waters alleges willful misconduct in Eaton Fire case
 2026-10-14T01:59:58+00:00|||PASS|||aa843e43188da6aa0c3d70823118a94d|||IONQ|||T-Mobile Rises on Upgrade; IonQ to Buy Elisity | Stock Movers
+2026-10-14T05:58:30+00:00|||PASS|||3b4144e1f8b8a92f1a87de7bbc53a28c|||FCEL|||FuelCell Energy Inc. stock falls Tuesday, underperforms market
+2026-10-14T05:58:40+00:00|||PASS|||181d76ba0559445c51386efaa1527671|||MSFT|||Microsoft Stock Alert: Michael Burry Warns of $3 Trillion in AI Liabilities
+2026-10-14T05:58:45+00:00|||PASS|||e790005b612208fc6c80b92827fada11|||AAPL|||Would You Pay $20 A Month For Apple Siri? Analyst Says It Could Deliver $24B, Sees Smaller Boost From Smart Home Products
+2026-10-14T05:58:57+00:00|||PASS|||7961daa9728ac85b8554e435f05b86af|||TSM|||TSMC shares rise ahead of closely watched Q3 earnings
+2026-10-14T05:59:12+00:00|||SENT|||28d1cf68ff8f69f862cc3057ecb6a0b8|||ASML|||Chip-Machine Supplier ASML Boosts Guidance for Third Time On Surging AI Demand
+2026-10-14T05:59:41+00:00|||PASS|||b85b5cd4760b240b732a820a7ca3d44e|||CSCO|||Cisco expands AI networking with new chips, SONiC, cross-site deployment
+2026-10-14T05:59:51+00:00|||PASS|||1d1df20bac8875101b459c678770c058|||DELL|||SK Group Chairman Chey sells stake to Dell family office fund for $406 million
+2026-10-14T05:59:56+00:00|||PASS|||3e613b062f2f2bce2f019f864c4e6535|||CRWV|||CoreWeave: Asymmetric Risk-Reward As $104bn Backlog Underpins Growth (CRWV)
