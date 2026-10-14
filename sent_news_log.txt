@@ -4936,3 +4936,13 @@
 2026-10-14T13:59:44+00:00|||PASS|||d16626190ab0d7c14d23ef6dd2911d2c|||RKLB|||Iridium earnings on deck amid pending Rocket Lab acquisition
 2026-10-14T13:59:50+00:00|||PASS|||e1749e956acabdafc7dc5e8c6ba91c7e|||IRDM|||Iridium earnings on deck amid pending Rocket Lab acquisition By Investing.com
 2026-10-14T14:00:09+00:00|||PASS|||5187371048dc3430bb4e3d87b65fc472|||IONQ|||IonQ Announces Pricing of $2.0 Billion Equity Offering
+2026-10-14T14:56:50+00:00|||PASS|||362d10c2e929f046b06e5ca97754c1b6|||GOOGL|||Google DeepMind’s Demis Hassabis Calls AI Hacking Incidents ‘Early Warning Shots,’ Warns of More Major Th
+2026-10-14T14:57:26+00:00|||PASS|||4654bc28b06fe6bc8542b0d3a94eb709|||TSLA|||Tesla to Post Q3 Earnings: Will Automotive Margins Play a Spoilsport?
+2026-10-14T14:57:29+00:00|||PASS|||6142364fdb0eb58f687e52ea32643cfd|||NVDA|||Nvidia: The $235 Billion Bullish Signal Investors Are Missing (NASDAQ:NVDA)
+2026-10-14T14:57:38+00:00|||PASS|||a354913db54ca10ec1080f0122357fd0|||INTC|||Newegg Slashes Intel Arc B580 To $329 And Throws In A Free 360mm AIO, Effectively Undercutting Its $249 Launch MSRP
+2026-10-14T14:57:53+00:00|||PASS|||8a33207ba7c9c5f91e0bbce4f39c8eaa|||ASML|||EU to Lift Sanction on Chinese Firm to Save an ASML Supplier
+2026-10-14T14:58:44+00:00|||PASS|||fde5f5634cefeefe0e84eba30bd1c150|||PLTR|||Palantir and London mayor's office settle lawsuit over UK police contract
+2026-10-14T14:58:48+00:00|||PASS|||e55056c0695e80df39ffaf401c037341|||PLTR|||Palantir settles lawsuit with London mayor over police contract
+2026-10-14T14:58:56+00:00|||PASS|||bffbd7758d271cb27b284d021b3c3319|||IBM|||IBM Stock Before Q3 Earnings Release: To Buy or Not to Buy?
+2026-10-14T14:59:10+00:00|||PASS|||315d469d5847e398b06274f95538dd6f|||AKAM|||AKAM Acquires Matthew Adam Properties, Further Expanding Its New York City Presence
+2026-10-14T14:59:45+00:00|||PASS|||c217eabdd89f162be28eff1467a06ff6|||IRDM|||Iridium earnings on deck amid pending Rocket Lab acquisition
