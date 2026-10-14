@@ -4970,3 +4970,7 @@
 2026-10-14T19:55:50+00:00|||PASS|||a02e7a415a5633f652cfb7909e691b23|||TSM|||TSM Earnings Tomorrow: Can Strong AI Demand Boost Q3 Results?
 2026-10-14T19:56:43+00:00|||PASS|||9ddd28f20f3a450aa5535305ebf5bcb8|||PLTR|||Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results
 2026-10-14T19:57:08+00:00|||PASS|||6efe6094623d369fbaf1840e8877a0fc|||AMBA|||How to Play Ambarella Stock as Qualcomm Eyes an Acquisition
+2026-10-14T20:54:57+00:00|||PASS|||7efe1716ba9e2ec720dfcfb2bcabd76e|||FCEL|||Robbins LLP Encourages FCEL Stockholders to Contact the
+2026-10-14T20:55:26+00:00|||PASS|||7143da7cc931de5fd39b334770d76274|||GFS|||GlobalFoundries to open two new chip plants in New York with US$21 billion in financing from Japan
+2026-10-14T20:55:50+00:00|||PASS|||f5dc7b78706919e152f308f5ce2b71c4|||COHU|||Cohu To Announce Third Quarter Financial Results on October 28
+2026-10-14T20:56:19+00:00|||PASS|||0facc491a83759516641e0af21f382ca|||DELL|||Former portfolio manager sues Fidelity after leaving for Michael Dell's family office
