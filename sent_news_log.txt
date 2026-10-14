@@ -4946,3 +4946,8 @@
 2026-10-14T14:58:56+00:00|||PASS|||bffbd7758d271cb27b284d021b3c3319|||IBM|||IBM Stock Before Q3 Earnings Release: To Buy or Not to Buy?
 2026-10-14T14:59:10+00:00|||PASS|||315d469d5847e398b06274f95538dd6f|||AKAM|||AKAM Acquires Matthew Adam Properties, Further Expanding Its New York City Presence
 2026-10-14T14:59:45+00:00|||PASS|||c217eabdd89f162be28eff1467a06ff6|||IRDM|||Iridium earnings on deck amid pending Rocket Lab acquisition
+2026-10-14T16:00:52+00:00|||PASS|||a80a916291b6529f88070138995bf37f|||META|||Meta Refuses to Stop Selling AI Glasses. Dutch Group Is Preparing a Lawsuit.
+2026-10-14T16:01:24+00:00|||SENT|||81454166db1a18fb62b779f4e89dbf21|||ASML|||ASML beats profit estimates: Here's what you need to know
+2026-10-14T16:01:27+00:00|||PASS|||9b31a870c515df40c1c46ea8fdb67b8d|||ASML|||ASML earnings boost tech stocks, lift European shares
+2026-10-14T16:02:07+00:00|||PASS|||c6b1d31ec31b66e5ee80c78bf099517f|||DELL|||Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations
+2026-10-14T16:02:09+00:00|||PASS|||8cc23d245c3443f60b829dce22e0c019|||DELL|||Data Center Physical Infrastructure Market Grows 27 Percent Y/Y to $14 Billion in 2Q 2026, According to Dell'Oro Group
