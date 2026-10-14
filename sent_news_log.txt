@@ -4896,3 +4896,17 @@
 2026-10-14T05:59:41+00:00|||PASS|||b85b5cd4760b240b732a820a7ca3d44e|||CSCO|||Cisco expands AI networking with new chips, SONiC, cross-site deployment
 2026-10-14T05:59:51+00:00|||PASS|||1d1df20bac8875101b459c678770c058|||DELL|||SK Group Chairman Chey sells stake to Dell family office fund for $406 million
 2026-10-14T05:59:56+00:00|||PASS|||3e613b062f2f2bce2f019f864c4e6535|||CRWV|||CoreWeave: Asymmetric Risk-Reward As $104bn Backlog Underpins Growth (CRWV)
+2026-10-14T10:00:59+00:00|||PASS|||4894dcccbbfe6ce44ba3ad25ed26eaf1|||UCTT|||Ultra Clean Holdings Inc. Company & People | UCTT
+2026-10-14T10:01:26+00:00|||PASS|||825b73e5aa6a3e99e12c6a8e53c7e951|||MSFT|||Microsoft adds US$132.5 billion in lease commitments—but AI capacity takes years to build
+2026-10-14T10:01:37+00:00|||PASS|||e34e2034f2d3b42929e4675c43396c56|||NVDA|||Nvidia Buys Into Doctolib and Genesis AI as Its Investment Book Tops $51 Billion
+2026-10-14T10:01:52+00:00|||SENT|||a7aefdfe51236b28bc52c6f0dbafb090|||INTC|||​Intel Unveils D-Series GPUs for AI Inference
+2026-10-14T10:01:55+00:00|||PASS|||de1f0ad629b8c857a8f39cdc5f007137|||INTC|||ASML Raises Sales Forecast For A Third Time, But Q3 Revenue Miss Sends Stock Lower: Earnings Selloff Spreads To MU, SNDK, INTC
+2026-10-14T10:01:59+00:00|||PASS|||e716a8b24ae3af18a7c2707ebcb523d8|||TSM|||[News] SEMI Sees Americas Fab Tool Spending Double to US$40.6B by 2029 as TSMC, Intel, Micron, Samsung Expand
+2026-10-14T10:02:07+00:00|||PASS|||d790ddac7679091509b40d487b70a1e2|||SNDK|||ASML Raises Sales Forecast For A Third Time, But Q3 Revenue Miss Sends Stock Lower: Earnings Selloff Spreads To MU, SNDK, INTC
+2026-10-14T10:02:14+00:00|||PASS|||0f0b4db5ba46d77f69f168587129bbf1|||ASML|||Europe, U.S. futures rise as semiconductor supplier ASML beats expectations
+2026-10-14T10:02:19+00:00|||PASS|||780afd87455e760257b0125c295fdbdc|||ASML|||Dow Futures Rise; ASML Earnings Beat, CPI Inflation Due
+2026-10-14T10:02:22+00:00|||PASS|||87664b7af423d83408f29dbb8b9eef56|||ASML|||AI boom drives record sales at Dutch tech giant ASML
+2026-10-14T10:02:26+00:00|||PASS|||b515746f8e63f30f436052e4bee6cf69|||ASML|||ASML Stock Rises as Earnings Point to a Scramble for Chipmaking Machines
+2026-10-14T10:03:06+00:00|||PASS|||8e9cb33ec27be16a7122be5c18f48746|||CRWV|||CoreWeave: Asymmetric Risk-Reward As $104 Billion Backlog Underpins Growth
+2026-10-14T10:03:45+00:00|||PASS|||8eb2932bcbd897a4314a3d97b8c3e257|||SPCX|||Watch Sunil Mittal: Ahead of Starlink in Approval Queue
+2026-10-14T10:04:03+00:00|||PASS|||3b00d0cc25a9b18c98482765c8091390|||ETN|||How Investors May Respond To Edison International (EIX) Short Seller Claims On Eaton Fire Liabilities
