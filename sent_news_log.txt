@@ -4882,3 +4882,9 @@
 2026-10-13T22:52:00+00:00|||PASS|||32abe6330b63dc9446b494e5f0e4df39|||AAPL|||Apple’s Next Stop: $6 Trillion Market In 2 Years (NASDAQ:AAPL)
 2026-10-13T22:52:08+00:00|||PASS|||68788fdbad1eddd553bdce377fdacce2|||QCOM|||ARM-QCOM Lawsuit: Delaware Jury Delivers Verdict In High-Stakes Qualcomm-ARM Licensing Battle
 2026-10-13T22:52:50+00:00|||PASS|||75c93594d1b2cad24d63baf46a63fe1e|||CSCO|||2026 Cisco AI Infrastructure OCP Pre-Briefing Final Slide 11: Cisco AI Ethernet and optical architecture
+2026-10-14T01:57:41+00:00|||PASS|||637777ab81786983f5a03a7cbbac36a5|||NVDA|||Nvidia (NVDA) Is In Advanced Talks To Acquire Reflection AI
+2026-10-14T01:57:48+00:00|||SENT|||bf0745d860578d0d36d42f224c5eb2c8|||MRVL|||Marvell (MRVL) Raises Its 2028 Revenue Target to $20 Billion. Can Growth Justify the Premium?
+2026-10-14T01:58:52+00:00|||PASS|||16eafb08fd158f909f1656e01f2ec213|||PLTR|||Palantir CTO Blasts Silicon Valley’s ‘Doomsday Cult’ Over AI Safety — Says Pentagon Has 'Already Replaced' Anthropic
+2026-10-14T01:59:17+00:00|||SENT|||58345bd60ced9bde211a644f0f6ec880|||LTRX|||Lantronix Introduces Spotter to Close the Compute Gap Holding Back Drone and Robot Autonomy
+2026-10-14T01:59:50+00:00|||PASS|||7c93aacabccf0f32f038a2bdce038715|||ETN|||Edison drops as Muddy Waters alleges willful misconduct in Eaton Fire case
+2026-10-14T01:59:58+00:00|||PASS|||aa843e43188da6aa0c3d70823118a94d|||IONQ|||T-Mobile Rises on Upgrade; IonQ to Buy Elisity | Stock Movers
