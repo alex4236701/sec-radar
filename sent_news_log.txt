@@ -4929,3 +4929,10 @@
 2026-10-14T13:10:07+00:00|||SENT|||744e831dad3b1b60a8c9d9c9d5e073e7|||IONQ|||IonQ prices $2 billion equity offering with Heights Capital By Investing.com
 2026-10-14T13:10:10+00:00|||PASS|||9f716f93bc5ac3ba951f55d6d3765b0e|||IONQ|||IonQ: Elisity Acquisition And The Bigger Picture (NYSE:IONQ)
 2026-10-14T13:10:14+00:00|||PASS|||da10cf1f491a565403328541564452ca|||CRCL|||The MUHC Foundation launches the Women’s Health Circle to accelerate progress in women’s health
+2026-10-14T13:57:19+00:00|||PASS|||0897d41f729ab43947a6421a7144ec6e|||GOOGL|||American Electric Power to Invest $4 Billion in Fuel Cell Project to Meet Energy Demand From Google
+2026-10-14T13:57:36+00:00|||PASS|||c6bff10374e7b6b13a80900e900f6206|||NVTS|||Overlord Labs Names Navitas Semiconductor CEO Chris Allexandre to Board of Directors
+2026-10-14T13:57:47+00:00|||PASS|||05eff6f8cf0b8f7984df55525961961f|||CAT|||Caterpillar Inc. Maintains Dividend
+2026-10-14T13:57:57+00:00|||PASS|||f808b209a7371b38ed9642e6b3e41370|||META|||Meta To Rally More Than 11%? Here Are 10 Top Analyst Forecasts For Wednesday
+2026-10-14T13:59:44+00:00|||PASS|||d16626190ab0d7c14d23ef6dd2911d2c|||RKLB|||Iridium earnings on deck amid pending Rocket Lab acquisition
+2026-10-14T13:59:50+00:00|||PASS|||e1749e956acabdafc7dc5e8c6ba91c7e|||IRDM|||Iridium earnings on deck amid pending Rocket Lab acquisition By Investing.com
+2026-10-14T14:00:09+00:00|||PASS|||5187371048dc3430bb4e3d87b65fc472|||IONQ|||IonQ Announces Pricing of $2.0 Billion Equity Offering
