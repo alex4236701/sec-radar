@@ -4951,3 +4951,8 @@
 2026-10-14T16:01:27+00:00|||PASS|||9b31a870c515df40c1c46ea8fdb67b8d|||ASML|||ASML earnings boost tech stocks, lift European shares
 2026-10-14T16:02:07+00:00|||PASS|||c6b1d31ec31b66e5ee80c78bf099517f|||DELL|||Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations
 2026-10-14T16:02:09+00:00|||PASS|||8cc23d245c3443f60b829dce22e0c019|||DELL|||Data Center Physical Infrastructure Market Grows 27 Percent Y/Y to $14 Billion in 2Q 2026, According to Dell'Oro Group
+2026-10-14T16:59:21+00:00|||PASS|||f6826d2a8c17009671197c1ce3c6e6fc|||NVDA|||Nvidia’s Aggressive Buyback Expansion is a Flashing Green Light
+2026-10-14T16:59:27+00:00|||PASS|||fb59a579879f7092e3bcbb4dbfc15448|||QCOM|||GFiber and Qualcomm announce Wi-Fi 8 gateway — 20 Gig customers to be first to receive next-gen wireless upgrade
+2026-10-14T16:59:33+00:00|||PASS|||a697274771fa81cc570ad0b82fb5040b|||INTC|||Intel, AMD, and More Chip Stocks Fall After ASML’s Strong Earnings
+2026-10-14T16:59:47+00:00|||PASS|||6cb6972e9e1fb1db6e8a8988e18dbecb|||ASML|||Intel, AMD, and More Chip Stocks Fall After ASML’s Strong Earnings
+2026-10-14T17:01:34+00:00|||PASS|||74f69ae7001568be17f9f9054fba2edd|||IONQ|||IonQ (IONQ) Upgraded to Buy: Here's What You Should Know
