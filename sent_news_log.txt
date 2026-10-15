@@ -5081,3 +5081,9 @@
 2026-10-15T16:59:54+00:00|||PASS|||63f9522a7cf06bcab197be470d1c3126|||ASML|||Chinese Startup Unveils First EUV Light Source Prototype To Challenge ASML’s Monopoly, But Dutch Firm Won’t Be Losing Any Sleep Over This Progress
 2026-10-15T17:00:25+00:00|||PASS|||3dec8db4ca14ee5eb6cc7a8771173dd9|||MPWR|||Monolithic (MPWR) Upgraded to Buy: What Does It Mean for the Stock?
 2026-10-15T17:00:33+00:00|||PASS|||a7808d79f03efefb2f035c644a876815|||DELL|||Michael Dell’s Net Worth Falls Over $20 Billion, Losing World’s Fourth-Richest Person Status
+2026-10-15T17:53:16+00:00|||PASS|||8acd19bd06fb5489bd25001bdeb22bc8|||AAPL|||Apple Hits $5 Trillion Market Cap as Nvidia's Lead Shrinks
+2026-10-15T17:53:20+00:00|||PASS|||c666e2998f91db007cb3fcb749e59329|||NVDA|||Apple Hits $5 Trillion Market Cap as Nvidia's Lead Shrinks
+2026-10-15T17:54:20+00:00|||PASS|||617c9cb9ff846f488eb186b21f71ef0b|||CRWV|||CoreWeave credit default swaps hit distress levels as investors sour on AI debt
+2026-10-15T17:54:23+00:00|||PASS|||598a40c9570ec3f13b1f955e4179c913|||CRWV|||Top Midday Stories: Anthropic Reports $16.8 Billion in Q3 Revenue; CoreWeave's Credit Risk Hits Intraday High
+2026-10-15T17:54:31+00:00|||PASS|||5f0381d27f142c858b1e338e209ea58a|||CRM|||Klient Launches Klient Insights: Live PSA Dashboards Inside Salesforce
+2026-10-15T17:55:27+00:00|||PASS|||d67b8e84d98d5418d10107e8371341d9|||IONQ|||Quantum Computing Stocks Rebound After Dilution Scare: IonQ and Rigetti Climb 3%, D-Wave Advances 2%
