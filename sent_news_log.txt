@@ -5093,3 +5093,8 @@
 2026-10-15T19:05:32+00:00|||PASS|||a8f4c4eb43644a4984bb533716d6ceb6|||SNDK|||SanDisk Stock Is Falling on AI Fears. Its $93.9 Billion Contract Book Tells Another Story
 2026-10-15T19:07:02+00:00|||PASS|||83ed0a016651a46cfb7d5081393e1554|||SPCX|||EU plans to fast-track antitrust approval of SpaceX rival
 2026-10-15T19:07:18+00:00|||PASS|||737e226e70ef3dd5bae11a3559e336a2|||BE|||Google's $4 Billion Fuel-Cell Project Puts Bloom Energy's AI Power Backlog to the Test
+2026-10-15T19:52:06+00:00|||PASS|||adb74e2fecae03a8baf9d7e7bff73fbf|||MU|||Micron & SanDisk Stocks Look Oversold: Time to Buy the Dip?
+2026-10-15T19:52:56+00:00|||PASS|||812cd61e80acf0e2ca930394f79974ec|||SNDK|||Micron & SanDisk Stocks Look Oversold: Time to Buy the Dip?
+2026-10-15T19:53:02+00:00|||PASS|||4e58ad0c5834427126ba41e1c4445e08|||ASML|||ASML Earnings Point to Soaring AI Chip Demand. Why the Stock Isn’t Budging.
+2026-10-15T19:53:43+00:00|||PASS|||b18a49646257ba3704119029dd5a5baf|||CRWV|||CoreWeave: Why Credit Markets See A 54% Chance Of Default (NASDAQ:CRWV)
+2026-10-15T19:54:23+00:00|||PASS|||711d6063f92ed57afbfb36ea344665eb|||SPCX|||Will SpaceX merge with Tesla? Speculation resurfaces it could happen before the end of 2026
