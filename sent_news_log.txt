@@ -5087,3 +5087,9 @@
 2026-10-15T17:54:23+00:00|||PASS|||598a40c9570ec3f13b1f955e4179c913|||CRWV|||Top Midday Stories: Anthropic Reports $16.8 Billion in Q3 Revenue; CoreWeave's Credit Risk Hits Intraday High
 2026-10-15T17:54:31+00:00|||PASS|||5f0381d27f142c858b1e338e209ea58a|||CRM|||Klient Launches Klient Insights: Live PSA Dashboards Inside Salesforce
 2026-10-15T17:55:27+00:00|||PASS|||d67b8e84d98d5418d10107e8371341d9|||IONQ|||Quantum Computing Stocks Rebound After Dilution Scare: IonQ and Rigetti Climb 3%, D-Wave Advances 2%
+2026-10-15T19:05:04+00:00|||SENT|||6c0f3c5fbf3431a3acf771156fd2256b|||META|||Meta Platforms Drug Sale Criminal Probe Halted by DOJ Officials
+2026-10-15T19:05:09+00:00|||PASS|||79005fc53f73e2a166ad161eb091d55b|||AAPL|||Apple TV outage disrupts MLS as fans miss out on Lionel Messi action
+2026-10-15T19:05:24+00:00|||PASS|||5e97bf719dfa068383b53ff8a66d9a8b|||GFS|||GlobalFoundries gets US$21bn for plants in US-Japan deal
+2026-10-15T19:05:32+00:00|||PASS|||a8f4c4eb43644a4984bb533716d6ceb6|||SNDK|||SanDisk Stock Is Falling on AI Fears. Its $93.9 Billion Contract Book Tells Another Story
+2026-10-15T19:07:02+00:00|||PASS|||83ed0a016651a46cfb7d5081393e1554|||SPCX|||EU plans to fast-track antitrust approval of SpaceX rival
+2026-10-15T19:07:18+00:00|||PASS|||737e226e70ef3dd5bae11a3559e336a2|||BE|||Google's $4 Billion Fuel-Cell Project Puts Bloom Energy's AI Power Backlog to the Test
