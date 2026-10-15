@@ -5068,3 +5068,11 @@
 2026-10-15T14:57:22+00:00|||PASS|||4e195c82c860c0aca962dd89506f5561|||NVDA|||Apple Just Made History, Joining Nvidia in the $5 Trillion Club
 2026-10-15T14:58:23+00:00|||PASS|||7e401de5b6f99eb9e8c3ce838e1ff25d|||CRWV|||CoreWeave default odds hit 60 percent as credit swaps top 1,000 basis points
 2026-10-15T14:58:25+00:00|||PASS|||b09cf433ea7a919bc5a4e80eb5a18cbc|||CRWV|||CoreWeave Risk Gauge Hits Record, Pricing 60% Odds of Default
+2026-10-15T15:58:10+00:00|||PASS|||328dbd25650339c6617dc5830090f5a1|||ECL|||Ecolab's Q3 Outlook Supported by Pricing, Organic Growth, RBC Capital Markets Says
+2026-10-15T15:58:24+00:00|||PASS|||45599b4d7e267d9854410d2906570b4c|||AMD|||AMD: TSMC Just Fired A $175 Billion Warning Shot (NASDAQ:AMD)
+2026-10-15T15:58:33+00:00|||PASS|||1f215acda06f4e2e926c07223f25ce80|||TSM|||AMD: TSMC Just Fired A $175 Billion Warning Shot (NASDAQ:AMD)
+2026-10-15T15:59:27+00:00|||PASS|||bb64468f3ccd0fbcd686865c4f2ed08b|||CRWV|||Watch CoreWeave Slides on Debt; TSMC Moves on Outlook | Stock Movers
+2026-10-15T15:59:30+00:00|||PASS|||e4d7b0eb5b2be2b37c5bc4a3785f45d0|||CRWV|||CoreWeave Credit Risk Hits Record, Pricing 60% Odds of Default
+2026-10-15T16:00:11+00:00|||PASS|||8ac774cadd384843b6e0365a5a5b2a72|||SPCX|||Will SpaceX merge with Tesla? Speculation resurfaces it could before the end of 2026
+2026-10-15T16:00:13+00:00|||PASS|||439cc4751ea63f38ebd666b6f47986a3|||RKLB|||Rocket Lab Stock Nosedives. Why Its Neutron Launch Is Such a Big Deal.
+2026-10-15T16:00:41+00:00|||PASS|||894a923dc119ced4a3c48193c8f1ad6e|||CRCL|||Samsung Wallet Makes USDC the Default Stablecoin for 82 Million Phones
