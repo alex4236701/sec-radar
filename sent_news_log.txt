@@ -5064,3 +5064,7 @@
 2026-10-15T14:05:10+00:00|||PASS|||4c684a02202146c3e779181f7a164c07|||SPCX|||Tesla-SpaceX Merger could be announced before December, Barclays says
 2026-10-15T14:05:17+00:00|||PASS|||89fc542bfca65b3895a8db1544956b54|||SPCX|||Barclays Says a Tesla-SpaceX Merger Could Be Announced Before December
 2026-10-15T14:05:27+00:00|||PASS|||30a378c9181398db606a04f6be5c0f48|||RKLB|||Rocket Lab Stock Sinks. Why Its Neutron Launch Is Such a Big Deal.
+2026-10-15T14:57:16+00:00|||PASS|||ff8cdda636c4117b59a8120c810ea942|||AAPL|||Apple Hits $5 Trillion as Wall Street Punishes Big AI Spenders
+2026-10-15T14:57:22+00:00|||PASS|||4e195c82c860c0aca962dd89506f5561|||NVDA|||Apple Just Made History, Joining Nvidia in the $5 Trillion Club
+2026-10-15T14:58:23+00:00|||PASS|||7e401de5b6f99eb9e8c3ce838e1ff25d|||CRWV|||CoreWeave default odds hit 60 percent as credit swaps top 1,000 basis points
+2026-10-15T14:58:25+00:00|||PASS|||b09cf433ea7a919bc5a4e80eb5a18cbc|||CRWV|||CoreWeave Risk Gauge Hits Record, Pricing 60% Odds of Default
