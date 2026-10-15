@@ -5030,3 +5030,29 @@
 2026-10-15T10:03:46+00:00|||PASS|||f9f2709a4bc6d3d034d8cf9afe903ab0|||CRWV|||Daniel Newman Says ‘Grown-Up Move’ For Neocloud CEOs of CoreWeave, IREN Is to Buy Their Own Stock, Like P
 2026-10-15T10:04:25+00:00|||PASS|||72595d73bd846e80e1468bf2728f6444|||SPCX|||Elon Musk Sees SpaceX Topping $100 Trillion In Under 10 Years — Retail Eyes Tesla Merger Reveal At Roadster Event
 2026-10-15T10:04:27+00:00|||PASS|||f108f185a6702210f18b3460e4cf6149|||SPCX|||Analyst Sees TSLA-SPCX Merger Coming By December, but Prediction Markets Aren’t Buying It
+2026-10-15T13:10:02+00:00|||PASS|||e23b53013ab09640d723d303f339c249|||GOOGL|||Google Search’s $250 Billion Business Faces a New AI Threat: Why Gene Munster Thinks Meta’s Muse May Be M
+2026-10-15T13:10:05+00:00|||PASS|||7042ecb5ac923cb524e2b8e31965559d|||MU|||Elon Musk Just Gave Investors Another Reason to Buy Micron Stock
+2026-10-15T13:10:21+00:00|||SENT|||42c5ef7582c879d81c9f2f3915ded9fb|||WOLF|||Wolfspeed, Infineon expand silicon carbide wafer supply deal By Investing.com
+2026-10-15T13:10:40+00:00|||SENT|||55b33f1780e3283b2059c6ce96a1438c|||RDW|||Redwire wins $13.8 million National Guard drone contract
+2026-10-15T13:10:46+00:00|||SENT|||9145c402cb0d38e34d22d06bcb9e2d26|||RDW|||Redwire Secures Additional Orders to Deliver Stalker UAS to U.S. National Guard for the Army’s Next-Generation Drone Operators
+2026-10-15T13:10:52+00:00|||PASS|||b4a72251c764fcb5b4fd8eddd5b0e4a6|||AMZN|||Kroger lost $12 billion to Walmart and Amazon in one year — now 3,000 workers are losing their jobs as SNAP cuts hit
+2026-10-15T13:10:58+00:00|||SENT|||31b958ebd8c34a7be6c77f9abf433420|||META|||Meta under investigation regarding alleged tax filings claiming data center projects qualify for research credits
+2026-10-15T13:11:04+00:00|||PASS|||a0a7ab2748c0723ff8804c4597ad5bb8|||TSLA|||Elon Musk Could Announce A Tesla-SpaceX Merger In Coming Weeks, Analyst
+2026-10-15T13:11:09+00:00|||SENT|||4ec01f475d691bd0f915e5e14f185769|||TSLA|||A Tesla-SpaceX Merger Could Be Weeks Away
+2026-10-15T13:11:11+00:00|||PASS|||09245ddaa9bc5f2f0724d93fd630df43|||TSLA|||Barclays Expects Tesla-SpaceX Merger Announcement Ahead of December Shareholder Meeting
+2026-10-15T13:11:12+00:00|||PASS|||17d01c586305f388ee17ec339185092a|||TSLA|||What Does Tesla (TSLA) NHTSA School Zone Probe Mean For Robotaxis?
+2026-10-15T13:11:24+00:00|||PASS|||b973747747b1cb21ffb1d8c5dab4d77f|||TSM|||Update: Taiwan Semiconductor Manufacturing in Talks With Elon Musk's Terafab Over Production
+2026-10-15T13:11:27+00:00|||PASS|||212736012a1cad5f898fa4f503169787|||TSM|||Taiwan Semiconductor Manufacturing in Talks With Elon Musk's Terafab Over Production
+2026-10-15T13:11:37+00:00|||SENT|||a90e5f9d488c2ff1532cdbec6bfe25a5|||SKHY|||SK hynix Unveils 3D FeNAND for AI Computing
+2026-10-15T13:11:48+00:00|||PASS|||76af3ae19a6c683dc472a44536b40ee8|||ASML|||EU seeks China deal to lift ASML supplier sanctions amid rare-earth crisis
+2026-10-15T13:11:50+00:00|||PASS|||2741caefdd9078c03f1a41dc42bde902|||ASML|||EU to Remove Sanctions on Chinese Firm to Save ASML Supplier
+2026-10-15T13:12:26+00:00|||SENT|||94d0a05204ef1d218104ad3523878ce3|||IFNNY|||Infineon and Wolfspeed Expand and Extend Long-Term Silicon Carbide Wafer Supply Agreement to Include 200 mm
+2026-10-15T13:12:35+00:00|||PASS|||a80df8abb9fb49bd474de6548791450e|||CRWV|||CoreWeave Borrowing Costs, Gartner Outlook Rattles AI Stocks
+2026-10-15T13:12:41+00:00|||PASS|||7253c38a6e8b5d772a0553fb2a6b4916|||PLTR|||Customers Bank and Palantir Collaborate to Build an AI-Native Future for Banking
+2026-10-15T13:12:44+00:00|||PASS|||1c50fd396691551804481b5420498639|||NOW|||ServiceNow introduces the third generation of its employee-centric AI harness so the workforce can build and use the AI their jobs demand
+2026-10-15T13:12:48+00:00|||PASS|||c49574d31684e6a53b2c94c71e716a9c|||SNOW|||Benchling launches Direct Data Share, Closing the Loop Between the Lab and the AI Data Cloud on Snowflake
+2026-10-15T13:13:23+00:00|||SENT|||9de944b354d9ecd70577cc55594209b7|||VELO|||Velo3D reports preliminary Q3 revenue up 43% to 51% year-over-year
+2026-10-15T13:13:27+00:00|||PASS|||201e1a5aa7a699776e5a734f899fb58e|||SPCX|||Elon Musk Could Announce A Tesla-SpaceX Merger In Coming Weeks, Analyst
+2026-10-15T13:13:28+00:00|||PASS|||7be5b823e2ce2c8bbb3805f0ac29b4f6|||SPCX|||United Now Offers Starlink Wi-Fi on Nearly Half its Daily Flights, Launches New "Starlink Tracker" Tool & Extends Starlink Status Match Offer
+2026-10-15T13:13:29+00:00|||PASS|||c1c19199c3dafeab7797494d4d226548|||SPCX|||Barclays Expects Tesla-SpaceX Merger Announcement Ahead of December Shareholder Meeting
+2026-10-15T13:13:31+00:00|||PASS|||3dfe0ed2b9a6826b82ded854dc0df6ca|||RKLB|||Rocket Lab Stock Tumbles On Latest Neutron Launch Delay
