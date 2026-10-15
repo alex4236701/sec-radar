@@ -4988,3 +4988,20 @@
 2026-10-14T22:52:25+00:00|||PASS|||4f4ba65b18ac687367cb88bf94a59bbb|||HPE|||HPE won’t merge Aruba and Mist, but is combining tech
 2026-10-14T22:53:06+00:00|||PASS|||b461394c5fbfbc3ba44e99f3688a34f0|||SPCX|||Tesla and SpaceX could merge before December 6 -- Barclays (TSLA:NASDAQ)
 2026-10-14T22:53:08+00:00|||PASS|||8a0af4f96ab14d4346cc2abe47928561|||RKLB|||Rocket Lab’s stock slides as the company pushes back Neutron’s first launch
+2026-10-15T01:58:41+00:00|||PASS|||74e8ffe4bbaafbe0faf122f9c419ca8e|||GOOGL|||Waymo expands to 20 cities as NHTSA opens new school bus safety probe
+2026-10-15T01:58:56+00:00|||PASS|||f9d39164f9f0762165c4d3c84832b127|||UMAC|||XTI Aerospace names Unusual Machines CEO as board chairman
+2026-10-15T01:59:26+00:00|||PASS|||2d35ef6e79986aab207a469b8566c249|||AMZN|||Amazon (AMZN) Has a $25B Chip Business. Is the Cash Burn Worth It?
+2026-10-15T01:59:35+00:00|||PASS|||515f6c07eee3ddb05dcfd6948313d578|||AAPL|||Apple Joins Nvidia in $5 Trillion Market Cap Club
+2026-10-15T01:59:40+00:00|||PASS|||6922b6abafd64d6b567f94f198334702|||AAPL|||Apple Joins Nvidia in the $5 Trillion Valuation Club
+2026-10-15T01:59:45+00:00|||PASS|||eaebc8e197849b33982fd6ddcd256f7d|||AAPL|||Tech layoffs tracker 2026: All the job losses across Netflix, Amazon, Apple, Oracle, TikTok, Meta and others
+2026-10-15T01:59:50+00:00|||PASS|||1c523b23c91fb7c763da96f2128b7144|||TSLA|||Tesla-SpaceX Merger Could Be Announced As Early As Before December AGM, Says Barclays
+2026-10-15T01:59:54+00:00|||PASS|||b215241d711d8784810163ab28e821ab|||TSLA|||Bernie Sanders Says ‘Stop Musk’ as Tesla CEO Spends $366 Million to Keep GOP in Control — Elon Musk Got $696 Billion Richer Since Trump’s Re-Election
+2026-10-15T02:00:00+00:00|||PASS|||526eef71d0013d865e1a5929aec98aa2|||NVDA|||Apple Joins Nvidia in $5 Trillion Market Cap Club
+2026-10-15T02:00:04+00:00|||PASS|||4e657875e33ce44ba56a7fcb371dbc7f|||NVDA|||Apple Joins Nvidia in the $5 Trillion Valuation Club
+2026-10-15T02:00:15+00:00|||PASS|||556e4f5e7a99e4a8ea4f4361ebb595e6|||INTC|||Is Intel's Record Sales Growth Still Improving?
+2026-10-15T02:00:23+00:00|||PASS|||9af32fb23d3918f7d5c5c73830f5a0d4|||GFS|||GlobalFoundries wins US$21 billion US-Japan deal to build, operate two New York fabs
+2026-10-15T02:01:18+00:00|||PASS|||c003e5a05445600a9b3eb1bc0a84ddf1|||CRWV|||CoreWeave Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into CoreWeave (CRWV)
+2026-10-15T02:01:31+00:00|||PASS|||6120a52d60da441d9ae38b05fcc6e128|||DDOG|||Datadog Announces Date of Third Quarter Fiscal Year 2026 Earnings Call
+2026-10-15T02:01:36+00:00|||PASS|||f690eba73de812f173ac63d82b29e7d7|||DDOG|||Datadog unveils new observability maturity assessment partner program in ANZ
+2026-10-15T02:02:11+00:00|||PASS|||ced17fce5e30cbedb9d6d8710019a0b3|||SPCX|||Tesla-SpaceX Merger Could Be Announced As Early As Before December AGM, Says Barclays
+2026-10-15T02:02:18+00:00|||PASS|||0ba1068ca6f9bfad77f14ef7a0818724|||SPCX|||Tesla-SpaceX Merger Announcement Could Come This Year, Barclays Says
