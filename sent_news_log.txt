@@ -5105,3 +5105,8 @@
 2026-10-15T20:56:04+00:00|||PASS|||805c7f0661fc2bbf5510d596332fe772|||CRWV|||CoreWeave Founders Shield Fortunes With $3.3 Billion Stock Sales
 2026-10-15T20:56:28+00:00|||SENT|||57066b1b137d6b779ba296d362c6e4da|||VRNS|||Varonis Systems gains after Proofpoint agrees to buy for $49.75/share in cash (VRNS:NASDAQ)
 2026-10-15T20:56:35+00:00|||SENT|||d8dc481fa04baf56edd7e5aec3cb1109|||VRNS|||Varonis stock climbs on $6.3 billion Proofpoint deal
+2026-10-15T21:53:55+00:00|||PASS|||04a39fcb09368926d9c30ea2e9bede9b|||NVDA|||Supermicro hires a new CFO after $2.5 billion Nvidia smuggling case and a 2-year search
+2026-10-15T21:54:11+00:00|||PASS|||222e626a5156e30317006914d9ae7639|||WDC|||Super Micro Names Former Western Digital Executive Mark Long CFO
+2026-10-15T21:54:48+00:00|||PASS|||0d1cd515c0ce93bb79a9b4e8d385eb77|||POWI|||Power Integrations to Announce Third-Quarter Financial Results
+2026-10-15T21:54:58+00:00|||PASS|||b61a45d03b6a34ccdc946c5053500e31|||CRWV|||CoreWeave three co-founders sold $3.3 billion in shares since IPO
+2026-10-15T21:55:39+00:00|||PASS|||a230ea15e63db6db63bc06ab44af15da|||SPCX|||Ukraine Outage Revives Concerns Over Relying on Musk’s SpaceX
