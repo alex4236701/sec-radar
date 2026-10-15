@@ -5019,3 +5019,14 @@
 2026-10-15T06:00:39+00:00|||PASS|||fe5e984acf908c643c991d2fd41a6e30|||RKLB|||Rocket Lab delays first Neutron launch again
 2026-10-15T06:00:41+00:00|||PASS|||129c38e013d6f9a69e2d8a0f76ddbbec|||RKLB|||Rocket Lab Retail Mood Hits All-Time Low After Neutron Delay — Can Takeover Target Iridium’s Earnings Turn The Tide?
 2026-10-15T06:00:47+00:00|||PASS|||67c2c99f298c2339cea60d0551338c3a|||IRDM|||Rocket Lab Retail Mood Hits All-Time Low After Neutron Delay — Can Takeover Target Iridium’s Earnings Turn The Tide?
+2026-10-15T10:01:23+00:00|||PASS|||755170fa5c64bc9afa635f5edbe8da8c|||GOOGL|||AEP to invest $4bn in 702MW fuel cell project for Google
+2026-10-15T10:01:55+00:00|||PASS|||26842cff33804d890ee1c5835838f3a6|||MSFT|||Microsoft Had Its Best Quarter in 28 Years. Is it Too Late to Buy the Stock?
+2026-10-15T10:02:07+00:00|||PASS|||71d9840751c4e145f9868a77ca8c9b80|||TSLA|||Elon Musk Sees SpaceX Topping $100 Trillion In Under 10 Years — Retail Eyes Tesla Merger Reveal At Roadster Event
+2026-10-15T10:02:12+00:00|||PASS|||ec18fe2fe9ffde29053f39099cb1e59c|||TSLA|||Analyst Sees TSLA-SPCX Merger Coming By December, but Prediction Markets Aren’t Buying It
+2026-10-15T10:02:30+00:00|||SENT|||f5ff0d5b3a8f2afe709b6ca9daeb7126|||TSM|||[News] TSMC Lifts 2026 Growth Forecast to 44%, Eyes Record 4Q Revenue of Up to US$54.3B, Up 14% QoQ
+2026-10-15T10:02:41+00:00|||SENT|||e23fc5e576eb707771aa932b5d689d74|||GFS|||Trump administration doubles its equity stake in GlobalFoundries, will partner with company in new semiconductor plant
+2026-10-15T10:02:54+00:00|||PASS|||342ee6eec9bb454dbc980f48b40ff727|||SKHY|||SK Hynix reportedly ties US NAND fab plan to approval for chip equipment exports to China
+2026-10-15T10:02:59+00:00|||PASS|||33bc76980f9f307448bdd45b87dd05dd|||SKHY|||[News] SK hynix Reportedly Seeks U.S. Chip Tool Approval for China Expansion to Fund Potential U.S. NAND Fab
+2026-10-15T10:03:46+00:00|||PASS|||f9f2709a4bc6d3d034d8cf9afe903ab0|||CRWV|||Daniel Newman Says ‘Grown-Up Move’ For Neocloud CEOs of CoreWeave, IREN Is to Buy Their Own Stock, Like P
+2026-10-15T10:04:25+00:00|||PASS|||72595d73bd846e80e1468bf2728f6444|||SPCX|||Elon Musk Sees SpaceX Topping $100 Trillion In Under 10 Years — Retail Eyes Tesla Merger Reveal At Roadster Event
+2026-10-15T10:04:27+00:00|||PASS|||f108f185a6702210f18b3460e4cf6149|||SPCX|||Analyst Sees TSLA-SPCX Merger Coming By December, but Prediction Markets Aren’t Buying It
