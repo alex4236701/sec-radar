@@ -14,5 +14,29 @@
   "text": "Form 144 內部人預告賣股：CHRIS G BOHRSON（高階主管），1,000 股，約 $55,310",
   "ticker": "COHU",
   "url": "https://www.sec.gov/Archives/edgar/data/21535/000195004726010237/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-15",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Kirchhoff Benjamin Louis（高階主管），2,165 股，約 $87,466",
+  "ticker": "IOT",
+  "url": "https://www.sec.gov/Archives/edgar/data/1642896/000192109426001094/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-15",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：STEPHEN F. PAGE LIVING TRUST U/A DTD 02/18/2009（董事），750 股，約 $90,450",
+  "ticker": "AVAV",
+  "url": "https://www.sec.gov/Archives/edgar/data/1368622/000195004726010272/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-15",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：THE GARY AND KRISTEN ROBINSON TRUST（董事），40,000 股，約 $565,200",
+  "ticker": "PL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1836833/000195004726010245/xsl144X01/primary_doc.xml"
  }
 ]
