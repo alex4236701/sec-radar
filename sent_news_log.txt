@@ -5098,3 +5098,10 @@
 2026-10-15T19:53:02+00:00|||PASS|||4e58ad0c5834427126ba41e1c4445e08|||ASML|||ASML Earnings Point to Soaring AI Chip Demand. Why the Stock Isn’t Budging.
 2026-10-15T19:53:43+00:00|||PASS|||b18a49646257ba3704119029dd5a5baf|||CRWV|||CoreWeave: Why Credit Markets See A 54% Chance Of Default (NASDAQ:CRWV)
 2026-10-15T19:54:23+00:00|||PASS|||711d6063f92ed57afbfb36ea344665eb|||SPCX|||Will SpaceX merge with Tesla? Speculation resurfaces it could happen before the end of 2026
+2026-10-15T20:54:26+00:00|||PASS|||679ce9d5da00c52837ab45bd7c6a8510|||ONDS|||What Needs To Be True To Buy Ondas Stock Now?
+2026-10-15T20:54:31+00:00|||SENT|||69853f99cbb3175290afab504d1e5e91|||ONDS|||Ondas Retreats 6% Despite Regna AI Launch With Palantir; AeroVironment Drops 3%, Kratos Slips
+2026-10-15T20:54:39+00:00|||PASS|||c019faf5ccc6d08b0682e172abdf76aa|||WOLF|||Wolfspeed, Inc. Announces Date of Fiscal First Quarter Earnings Call for November 4, 2026
+2026-10-15T20:55:58+00:00|||PASS|||76bfdfadb4afac4c0ca75631802da45a|||DELL|||Michael Dell Loses Title of World’s Fourth Richest Person After $36 Billion Drop in Net Worth in Two Days
+2026-10-15T20:56:04+00:00|||PASS|||805c7f0661fc2bbf5510d596332fe772|||CRWV|||CoreWeave Founders Shield Fortunes With $3.3 Billion Stock Sales
+2026-10-15T20:56:28+00:00|||SENT|||57066b1b137d6b779ba296d362c6e4da|||VRNS|||Varonis Systems gains after Proofpoint agrees to buy for $49.75/share in cash (VRNS:NASDAQ)
+2026-10-15T20:56:35+00:00|||SENT|||d8dc481fa04baf56edd7e5aec3cb1109|||VRNS|||Varonis stock climbs on $6.3 billion Proofpoint deal
