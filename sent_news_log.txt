@@ -5056,3 +5056,11 @@
 2026-10-15T13:13:28+00:00|||PASS|||7be5b823e2ce2c8bbb3805f0ac29b4f6|||SPCX|||United Now Offers Starlink Wi-Fi on Nearly Half its Daily Flights, Launches New "Starlink Tracker" Tool & Extends Starlink Status Match Offer
 2026-10-15T13:13:29+00:00|||PASS|||c1c19199c3dafeab7797494d4d226548|||SPCX|||Barclays Expects Tesla-SpaceX Merger Announcement Ahead of December Shareholder Meeting
 2026-10-15T13:13:31+00:00|||PASS|||3dfe0ed2b9a6826b82ded854dc0df6ca|||RKLB|||Rocket Lab Stock Tumbles On Latest Neutron Launch Delay
+2026-10-15T14:02:40+00:00|||SENT|||d7d4345fed6c90ef11d0f523f32431bd|||MU|||Micron's $150 Billion Memory Contract Book - Micron Technology (NASDAQ:MU)
+2026-10-15T14:03:14+00:00|||PASS|||b8d8dc3545c8122aa97dcd602704e8fd|||AAPL|||Apple joins Nvidia in the $5 trillion market cap club
+2026-10-15T14:03:17+00:00|||PASS|||32e764422041934973fea1cc4e547a78|||AAPL|||Apple Just Made History, Joining Nvidia in the $5 Trillion Club
+2026-10-15T14:03:22+00:00|||PASS|||f2cb86222ee95d088b79b0f1505ddd4c|||NVDA|||Apple joins Nvidia in the $5 trillion market cap club
+2026-10-15T14:03:45+00:00|||PASS|||f21e59b1ed560e864ec5f08757199a48|||ASML|||EU negotiates sanction swap with China to rescue critical ASML supplier — German coatings firm faces shutdown without Chinese rare earths
+2026-10-15T14:05:10+00:00|||PASS|||4c684a02202146c3e779181f7a164c07|||SPCX|||Tesla-SpaceX Merger could be announced before December, Barclays says
+2026-10-15T14:05:17+00:00|||PASS|||89fc542bfca65b3895a8db1544956b54|||SPCX|||Barclays Says a Tesla-SpaceX Merger Could Be Announced Before December
+2026-10-15T14:05:27+00:00|||PASS|||30a378c9181398db606a04f6be5c0f48|||RKLB|||Rocket Lab Stock Sinks. Why Its Neutron Launch Is Such a Big Deal.
