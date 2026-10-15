@@ -5005,3 +5005,17 @@
 2026-10-15T02:01:36+00:00|||PASS|||f690eba73de812f173ac63d82b29e7d7|||DDOG|||Datadog unveils new observability maturity assessment partner program in ANZ
 2026-10-15T02:02:11+00:00|||PASS|||ced17fce5e30cbedb9d6d8710019a0b3|||SPCX|||Tesla-SpaceX Merger Could Be Announced As Early As Before December AGM, Says Barclays
 2026-10-15T02:02:18+00:00|||PASS|||0ba1068ca6f9bfad77f14ef7a0818724|||SPCX|||Tesla-SpaceX Merger Announcement Could Come This Year, Barclays Says
+2026-10-15T05:58:23+00:00|||PASS|||ac186899860458ba5842c76f4d1e3bb0|||AAPL|||Apple's Annual Revenue Quadrupled From $108 Billion to $416 Billion During Tim Cook's 15 Years as CEO, With iPhone Sales Alone Jumping From $47 Billion to Nearly $210 Billion. What That Growth Says About Betting on Apple's Next Chapter Under John
+2026-10-15T05:58:25+00:00|||PASS|||24ee7cd12b45dfd453bfd28560a1cfd9|||TSLA|||Tesla-SpaceX Merger Announcement Could Come This Year, Barclays Says
+2026-10-15T05:58:29+00:00|||PASS|||9c8414bdc62c7c09ca4cba6f817579a8|||NVDA|||US tech firm Nvidia buys stake in French health platform Doctolib
+2026-10-15T05:58:42+00:00|||PASS|||b53d334714192953ae30db7965afb552|||GFS|||Analysis: GlobalFoundries' calculus behind US$2 billion entry into TSMC's CoWoS ecosystem
+2026-10-15T05:58:46+00:00|||PASS|||0f29196ab5b7918575134573fc8aeb28|||SKHY|||Stock Crash: SK Hynix plunges 57% from peak in four months, loses nearly $700 billion in value
+2026-10-15T05:58:56+00:00|||SENT|||9c62acccfe36715a401d73a6d16a0c28|||PENG|||Axe Compute Partners With Penguin Solutions to Accelerate $3.45 Billion AI Projects
+2026-10-15T05:59:03+00:00|||PASS|||727b3aaab109f50fdf8536624f16a766|||AMAT|||Applied Materials targets US$5 billion advanced packaging revenue
+2026-10-15T05:59:46+00:00|||PASS|||b23ad191680d41c28f8712e68699add2|||CRWV|||CoreWeave Plunges On Spike In Borrowing Costs, Gartner AI Outlook
+2026-10-15T05:59:49+00:00|||PASS|||0539682c9c3d7a2b7916c1e6b08ae0fb|||CIFR|||What Needs To Be True To Buy Cipher Digital Stock Now?
+2026-10-15T05:59:59+00:00|||PASS|||3ebd3544afc5d6a019c31ff78e42c75c|||IBM|||IBM, MeitY Startup Hub sign pact to boost India's deep tech startups
+2026-10-15T06:00:24+00:00|||SENT|||92f23697a5e891fcb81f752a038c7090|||HIMX|||Himax WiseEye Ultralow Power AI Adopted in Alibaba’s Latest Qwen Glasses
+2026-10-15T06:00:39+00:00|||PASS|||fe5e984acf908c643c991d2fd41a6e30|||RKLB|||Rocket Lab delays first Neutron launch again
+2026-10-15T06:00:41+00:00|||PASS|||129c38e013d6f9a69e2d8a0f76ddbbec|||RKLB|||Rocket Lab Retail Mood Hits All-Time Low After Neutron Delay — Can Takeover Target Iridium’s Earnings Turn The Tide?
+2026-10-15T06:00:47+00:00|||PASS|||67c2c99f298c2339cea60d0551338c3a|||IRDM|||Rocket Lab Retail Mood Hits All-Time Low After Neutron Delay — Can Takeover Target Iridium’s Earnings Turn The Tide?
