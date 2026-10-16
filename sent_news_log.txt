@@ -5130,3 +5130,27 @@
 2026-10-16T10:03:07+00:00|||SENT|||0b343c75f9776c9db522be4f725d8e91|||SPCX|||SpaceX policy manager set to testify as part of NYC Council AI safety investigation
 2026-10-16T10:03:10+00:00|||PASS|||681b379a2efaa5af2cb064a0e2a98953|||SPCX|||Ross Gerber Says SPCX-TSLA Merger Has 'Become Obvious' After Roadster Reveal, Calls Thruster Tech 'For Show'
 2026-10-16T10:03:35+00:00|||PASS|||f0ff58eb263e45c5c10e06a33ac3599c|||IONQ|||IonQ: Another Crushing Stock Offering
+2026-10-16T13:09:00+00:00|||PASS|||f866beea527832344dee895fb3907468|||MU|||Meet the New Nasdaq-100 Stock That’s Crushing Nvidia, Micron, and Sandisk. Is It Too Late to Buy?
+2026-10-16T13:09:31+00:00|||PASS|||0d7171b4aa1dc24b6f7cc9ccf35c5815|||AMZN|||Market Chatter: Amazon.com Partner Anthropic Mulls Scaled-Down, $1.5 Trillion IPO
+2026-10-16T13:09:36+00:00|||PASS|||6c10755f2d22743a9c429afc5031d3c3|||META|||Apple and Meta Just Teamed Up on AI, and Zuckerberg Thanked Apple’s CEO by Name
+2026-10-16T13:09:45+00:00|||SENT|||c65be263aa76935f541c09d80102030b|||AAPL|||Apple iPhone Duo preorders sell out, deliveries extend to late January
+2026-10-16T13:09:52+00:00|||SENT|||d68a3c8a5a3064323d8abae9cdefcabb|||AAPL|||Apple’s Antitrust Settlement Talks Spur Worries Among Developers
+2026-10-16T13:09:57+00:00|||PASS|||371ff4a0799b71922c454f0a7a0c9756|||TSLA|||Dan Ives Says Tesla Roadster Just Changed SpaceX Merger Game, Sees Them Operating as a Single Engineering
+2026-10-16T13:10:00+00:00|||PASS|||6957ee57021698f875105679f4926433|||NVDA|||Meet the New Nasdaq-100 Stock That’s Crushing Nvidia, Micron, and Sandisk. Is It Too Late to Buy?
+2026-10-16T13:10:12+00:00|||SENT|||7919703137c49f229dc4bd4d1fabdf54|||INTC|||AI Maverick Intel Signs Definitive Agreement to Acquire Heal Access, an Agentic AI Healthcare Platform
+2026-10-16T13:10:21+00:00|||PASS|||e2f8f7285c857ee06c7119b8cd286ac4|||SNDK|||Meet the New Nasdaq-100 Stock That’s Crushing Nvidia, Micron, and Sandisk. Is It Too Late to Buy?
+2026-10-16T13:10:49+00:00|||PASS|||8b1c874c0c3a9f38aae4d7293c57669d|||SMTC|||Semtech Stock Rebounds as Wall Street Turns Focus to Near-Term Earnings Targets
+2026-10-16T13:11:04+00:00|||PASS|||e7575085a708e8b46c752d4dc325f804|||DELL|||Michael Dell Slides To World’s Sixth-Richest On Thursday After Losing $16 Billion In First Hour Of Trading
+2026-10-16T13:11:09+00:00|||PASS|||0708386c52af0ab35eb7d1a8e4cfbec2|||CRWV|||CoreWeave stock: Is it finally time to buy the dip?
+2026-10-16T13:11:11+00:00|||PASS|||4c8df7567f3f7264b8af2ee2e23c2ec2|||CRWV|||A look inside the $52 billion hole that CoreWeave needs to climb out of
+2026-10-16T13:11:14+00:00|||PASS|||55242e44210841db32f13dd33bfecc6e|||CRWV|||CoreWeave Shares Drop 3.8% as $50 Billion Debt Burden Raises AI Investment Concerns
+2026-10-16T13:11:36+00:00|||PASS|||0d88027b13aa8fb9b45f8c0200ea01eb|||VRNS|||Cantor Fitzgerald reiterates Varonis stock rating on acquisition news By Investing.com
+2026-10-16T13:11:38+00:00|||PASS|||22593ef71ba1a6741b7d9b21449b2791|||VRNS|||Rosenblatt cuts Varonis stock rating on Thoma Bravo acquisition By Investing.com
+2026-10-16T13:11:40+00:00|||PASS|||78a8a25503efac4f9a01850e54ef1a78|||VRNS|||TD Cowen downgrades Varonis Systems stock rating on acquisition By Investing.com
+2026-10-16T13:11:42+00:00|||PASS|||8217643f9d679f4ba2abf4144d66295e|||VRNS|||Needham downgrades Varonis Systems stock rating on acquisition deal
+2026-10-16T13:11:43+00:00|||PASS|||aa3343b67890c4e606faaa2bccbf96fd|||VRNS|||DA Davidson cuts Varonis stock rating on Proofpoint acquisition
+2026-10-16T13:12:02+00:00|||PASS|||91010fbfe40ebdbff4d6aa42360f944e|||SPCX|||SpaceX To Rally Around 85%? Here Are 10 Top Analyst Forecasts For Friday
+2026-10-16T13:12:05+00:00|||PASS|||d84f004e0017cb37c23cb77c2a00e1bd|||SPCX|||SpaceX proposing sharp increase in Starship launches from Texas
+2026-10-16T13:12:07+00:00|||PASS|||6875abe4e7144aff1844a41b8d64bb31|||SPCX|||Tesla's flying Roadster is seen strengthening the case for a SpaceX merger (TSLA:NASDAQ)
+2026-10-16T13:12:09+00:00|||PASS|||e54618909dd80aa4f3b77e6567e0bffa|||SPCX|||Dan Ives Says Tesla Roadster Just Changed SpaceX Merger Game, Sees Them Operating as a Single Engineering
+2026-10-16T13:12:11+00:00|||PASS|||9e2205e63d1ea81449f2637ed1e98a78|||SPCX|||Market Chatter: SpaceX AI Policy Head to Testify Friday in New York City Council's AI Safety Probe
