@@ -5120,3 +5120,13 @@
 2026-10-16T05:59:37+00:00|||PASS|||5dfc28d4a236e602a3f0a8a9b7448fe6|||SPCX|||Did Elon Musk Just Hint at Tesla x SpaceX Merger, or Will Cars Fly First?
 2026-10-16T05:59:39+00:00|||PASS|||4618d770413e21445adfbde384bf37cb|||SPCX|||Watch Ross Gerber on Tesla Roadster, Potential SpaceX Merger
 2026-10-16T06:00:05+00:00|||PASS|||491e20f1c761dda05e63d6f5fe2502bc|||IONQ|||Quantum computing stocks rally as IonQ, D-Wave and Rigetti post record earnings
+2026-10-16T10:00:32+00:00|||PASS|||3bcf32b28613d949f8e4076cc4f40936|||GOOGL|||Marvell keeps reaffirming its $120 billion Google deal and Wall Street keeps selling anyway
+2026-10-16T10:00:38+00:00|||PASS|||6f1a7334af6af79cd3d11c6a2242672f|||MU|||Micron Stocks Fall Although $35B Buyback Window Nears
+2026-10-16T10:01:12+00:00|||PASS|||341f92f9cee16b6eccb20d348920247a|||AAPL|||Apple (AAPL) Gets Court Order For AI Hiring Records In Trade Secrets Fight
+2026-10-16T10:01:22+00:00|||PASS|||410006d26d7df7aeb1be411c6387fb92|||MRVL|||Marvell keeps reaffirming its $120 billion Google deal and Wall Street keeps selling anyway
+2026-10-16T10:02:41+00:00|||PASS|||b9a199199af56a886d485448949ae73a|||VRNS|||Needham downgrades Varonis Systems stock rating on acquisition deal By Investing.com
+2026-10-16T10:02:42+00:00|||PASS|||3caab789cf7f24cb9e517faf13017874|||VRNS|||DA Davidson cuts Varonis stock rating on Proofpoint acquisition By Investing.com
+2026-10-16T10:03:02+00:00|||PASS|||cb87c5f9a7dead990daf3746a2f3a820|||SPCX|||Elon Musk's net worth could reach $2 trillion as a rumored SpaceX-Tesla merger may be just weeks away, analyst predicts
+2026-10-16T10:03:07+00:00|||SENT|||0b343c75f9776c9db522be4f725d8e91|||SPCX|||SpaceX policy manager set to testify as part of NYC Council AI safety investigation
+2026-10-16T10:03:10+00:00|||PASS|||681b379a2efaa5af2cb064a0e2a98953|||SPCX|||Ross Gerber Says SPCX-TSLA Merger Has 'Become Obvious' After Roadster Reveal, Calls Thruster Tech 'For Show'
+2026-10-16T10:03:35+00:00|||PASS|||f0ff58eb263e45c5c10e06a33ac3599c|||IONQ|||IonQ: Another Crushing Stock Offering
