@@ -5114,3 +5114,9 @@
 2026-10-16T01:59:36+00:00|||PASS|||0dbfefb0a7c212af0f8834b094432177|||INTC|||Intel silent on Israeli Fab 28 output after deadly blast, leaving CPU supply outlook unclear
 2026-10-16T01:59:48+00:00|||SENT|||5d24a1ccb9a76b44181c914b61e2fd72|||SKHY|||SK hynix showcases next-generation AI memory technologies beyond HBM
 2026-10-16T02:01:43+00:00|||PASS|||7b52ce304fb8c2da926cf630af0ba736|||CRCL|||Multiliquid Closes Seed Round Led by Polychain with Participation from Strobe Ventures, CMT Digital, Metalayer Ventures, Generative Ventures and Circle Ventures, Bringing Total Funding to $8 Million
+2026-10-16T05:57:56+00:00|||PASS|||e7b3d5d3d0407568b9e7c57a8f647f08|||TSLA|||Did Elon Musk Just Hint at Tesla x SpaceX Merger, or Will Cars Fly First?
+2026-10-16T05:58:57+00:00|||PASS|||a2e4c88aa867142b13957ceb5df606e4|||CRWV|||CoreWeave Founders Sell $3.3 Billion in Shares Since IPO
+2026-10-16T05:59:36+00:00|||PASS|||03bcd0646c6e06d9693966afb32d190a|||SPCX|||Tesla unveils ‘flying’ sports car with SpaceX rocket thrusters
+2026-10-16T05:59:37+00:00|||PASS|||5dfc28d4a236e602a3f0a8a9b7448fe6|||SPCX|||Did Elon Musk Just Hint at Tesla x SpaceX Merger, or Will Cars Fly First?
+2026-10-16T05:59:39+00:00|||PASS|||4618d770413e21445adfbde384bf37cb|||SPCX|||Watch Ross Gerber on Tesla Roadster, Potential SpaceX Merger
+2026-10-16T06:00:05+00:00|||PASS|||491e20f1c761dda05e63d6f5fe2502bc|||IONQ|||Quantum computing stocks rally as IonQ, D-Wave and Rigetti post record earnings
