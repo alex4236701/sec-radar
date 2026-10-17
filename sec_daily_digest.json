@@ -1,1 +1,10 @@
-[]
+[
+ {
+  "date": "2026-10-16",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Roush Lukas M.（董事），4,500 股，約 $223,200",
+  "ticker": "BAND",
+  "url": "https://www.sec.gov/Archives/edgar/data/1514416/000175820926000016/xsl144X01/primary_doc.xml"
+ }
+]
