@@ -30,5 +30,21 @@
   "text": "13G 修正：BANK OF NOVA SCOTIA，持股 3.46%（已降到 5% 以下）",
   "ticker": "LEU",
   "url": "https://www.sec.gov/Archives/edgar/data/1065059/000000963126000031/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-19",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：PZENA INVESTMENT MANAGEMENT LLC，持股 9.30%",
+  "ticker": "SWKS",
+  "url": "https://www.sec.gov/Archives/edgar/data/4127/000102779626000061/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-19",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Kirchhoff Benjamin Louis（高階主管），770 股，約 $30,638",
+  "ticker": "IOT",
+  "url": "https://www.sec.gov/Archives/edgar/data/1642896/000192109426001101/xsl144X01/primary_doc.xml"
  }
 ]
