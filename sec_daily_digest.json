@@ -22,5 +22,37 @@
   "text": "10-Q 季報",
   "ticker": "IRDM",
   "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000052/irdm-20260930.htm"
+ },
+ {
+  "date": "2026-10-20",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Akash Palkhiwala（Chief Financial Officer），2,500 股，約 $439,275",
+  "ticker": "QCOM",
+  "url": "https://www.sec.gov/Archives/edgar/data/804328/000195824426000666/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-20",
+  "form": "10-K",
+  "holding": false,
+  "text": "10-K 年報",
+  "ticker": "PENG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000050/peng-20260828.htm"
+ },
+ {
+  "date": "2026-10-20",
+  "form": "8-K",
+  "holding": false,
+  "text": "8-K 股東會投票結果（項目 5.07）",
+  "ticker": "AEHR",
+  "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426009056/aehr_8k.htm"
+ },
+ {
+  "date": "2026-10-20",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：GARRETT CHASE（高階主管），4,000 股，約 $235,430",
+  "ticker": "VSAT",
+  "url": "https://www.sec.gov/Archives/edgar/data/797721/000195004726010318/xsl144X01/primary_doc.xml"
  }
 ]
