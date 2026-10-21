@@ -895,3 +895,19 @@
 2026-10-21T13:56:14+00:00|||SENT|||6a52561e0c84628ce03c9404c7fb9b4e|||ROK|||Rockwell Automation Introduces FactoryTalk Conductor, an AI-Native Orchestration Platform for Industrial Automation
 2026-10-21T13:56:19+00:00|||PASS|||8a5279144c99b8dd03becc44cdc7fbde|||IONQ|||IonQ, Rigetti Computing, D-Wave Quantum, and Quantum Computing Inc. Are Shaking Wall Street to Its Core With This $1 Billion Warning
 2026-10-21T13:56:23+00:00|||PASS|||2bdc6e1475c43b7d005f162cf5bb8557|||CRCL|||Circle stock plunges 20% on Clarity Act stablecoin yield ban fears
+2026-10-21T14:35:30+00:00|||PASS|||6a7f6b88e29af8c43e0523892f8139f0|||AMZN|||AWS Bets $18B On Germany AI Data Center Boom Amid Public Backlash
+2026-10-21T14:35:37+00:00|||PASS|||731c4bc07304bcead856cb03e851d7e2|||TSLA|||Tesla meets SpaceX: Prediction markets price in a potential merger (SPCX:NASDAQ)
+2026-10-21T14:35:40+00:00|||PASS|||d7c7f9a6ecf3e5e1a2d9195411109293|||TSLA|||Bitcoin advances as SpaceX, Tesla explore a merger holding 30,000 BTC: Crypto Markets Today
+2026-10-21T14:35:46+00:00|||SENT|||c7e7138a69d8391aa62d492788206a31|||TSLA|||SpaceX, Tesla Study Potential $3.5 Trillion Combination
+2026-10-21T14:35:49+00:00|||PASS|||a71c07a5a4c7d2658cd781278cf86a79|||TSLA|||US Stock Futures Edge Higher as SpaceX and Tesla Explore Merger and Meta Earnings Approach: Dow Jones, S&P, Nasdaq, Wall Street
+2026-10-21T14:35:51+00:00|||PASS|||e743aaac3568e68e97368c2a11abadd5|||TSLA|||A possible SpaceX-Tesla merger? Here's what people are saying
+2026-10-21T14:35:56+00:00|||PASS|||cfbf6e7dac33cec840323a5053535f99|||NVDA|||Nvidia in Talks to Back Firmus After IPO Flop, Report Says
+2026-10-21T14:35:59+00:00|||PASS|||baba1ef39e2c0cbf99155264641d46a7|||AMD|||AMD Lost Its $1 Trillion Status: Two Options Trades to Play the Comeback
+2026-10-21T14:36:52+00:00|||PASS|||4cefb0e68a93f1b75a1d7c427250df7f|||DELL|||Sourceability Appoints to Board of Directors Yvonne McGill, Former Dell Technologies CFO
+2026-10-21T14:37:05+00:00|||PASS|||834029c040a7ecbd7d9659240fdf5a29|||CRM|||Salesforce-Braze Deal Draws Downgrades as Analysts Assess Acquisition Value
+2026-10-21T14:37:38+00:00|||PASS|||789412efa90613f1e82dc33df43bdda4|||SPCX|||SpaceX Spikes As Analysts Hike Stock Targets. $1T Revenue Target 'Not Impossible,' Musk Says
+2026-10-21T14:37:44+00:00|||SENT|||e6f3f8716d96f54759f30c79e01c0c97|||SPCX|||Tesla and SpaceX form special committees to weigh potential merger
+2026-10-21T14:37:48+00:00|||PASS|||f8b3e666f04db9777de2c50d69f9ff44|||SPCX|||A possible SpaceX-Tesla merger? Here's what people are saying
+2026-10-21T14:37:51+00:00|||PASS|||899d7a24c119d8091b584b5b90a8e68d|||SPCX|||SpaceX earnings soar past expectations as AI business surges
+2026-10-21T14:38:00+00:00|||SENT|||935a62b581c1f1cecffaaf85c4891002|||SPCX|||SpaceX shares rise as AI revenue rockets 830% and profit hits US$4.4 billion
+2026-10-21T14:38:17+00:00|||PASS|||b9d56769d2aa66239bf7914dc587bc60|||BE|||What To Expect From Bloom Energy’s (BE) Q3 Earnings
