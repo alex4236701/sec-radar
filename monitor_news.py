@@ -832,6 +832,50 @@ def is_routine_dividend(title):
             and re.search(DIVIDEND_CHANGE_RE, title, flags=re.IGNORECASE) is None)
 
 
+# 「訂單/合作沒寫金額」：非持股的訂單、合作、被選用消息，標題沒有金額時通常看不出對營收的影響，不推
+# 例如「VIAVI T/Rx Selected by U.S. Army Threat Systems Management Office for Critical Range Modernization Initiative」
+# 例外：合作對象是超大型科技公司或頂尖 AI 公司（例如「Navitas Collaborates with NVIDIA」），小公司股價常因此大動，照推
+TITLE_AMOUNT_PATTERNS = [
+    r"[$€£¥₩]\s?\d",
+    r"\b(?:us|nt|hk|a|c|s)\$\s?\d",
+    r"\d[\d.,]*\s*(?:k|m|mn|mm|b|bn)\b",
+    r"\d[\d.,]*\s*(?:thousand|million|billion|trillion|crore|lakh)\b",
+    r"\d[\d.,]*\s*(?:dollars?|euros?|pounds?|yen|won|yuan|rmb|rupees?|usd|eur)\b",
+    r"\d[\d.,]*\s*(?:mw|gw|gwh|mwh|megawatts?|gigawatts?)\b",
+]
+BIG_PARTNER_EXTRA_NAMES = ["OpenAI", "Anthropic", "xAI", "SpaceX", "Oracle", "Samsung"]
+BIG_PARTNER_BEFORE = r"(?:with|by|from|for|to|and|&)\s+(?:the\s+)?"
+BIG_PARTNER_AFTER = r"(?:'s)?\s+(?:selects?|selected|picks?|picked|taps?|tapped|chooses|chose|orders?|ordered|awards?|awarded|partners?|teams?)\b"
+
+
+def title_has_amount(title):
+    return matches_any(title, TITLE_AMOUNT_PATTERNS)
+
+
+def names_big_partner(ticker, title):
+    """標題裡的合作對象是不是超大型科技公司或頂尖 AI 公司（本公司自己除外）"""
+    partner_names = list(BIG_PARTNER_EXTRA_NAMES)
+    for mega in MEGA_CAPS:
+        if mega == ticker:
+            continue
+        names, cs_names = get_names(mega)
+        partner_names += names + cs_names
+    for name in partner_names:
+        n = re.escape(name)
+        if re.search(rf"\b{BIG_PARTNER_BEFORE}{n}(?!\w)", title, flags=re.IGNORECASE):
+            return True
+        if re.search(rf"(?<!\w){n}{BIG_PARTNER_AFTER}", title, flags=re.IGNORECASE):
+            return True
+    return False
+
+
+def is_unsized_order(ticker, title):
+    """非持股的訂單/合作消息：標題沒寫金額、合作對象也不是大公司時回傳 True（不推）"""
+    if ticker in HOLDINGS:
+        return False
+    return not title_has_amount(title) and not names_big_partner(ticker, title)
+
+
 def evaluate_title(ticker, title, snippet, source_tier, relax=None):
     """
     回傳 (是否放行送 AI, 原因)
@@ -1056,6 +1100,8 @@ def load_history():
                 parts = line.split("|||")
                 if len(parts) >= 2:
                     heartbeat_date = parts[1].strip()
+                if len(parts) >= 3:
+                    AI_STATE["last_alert"] = parts[2].strip()
                 continue
             parts = line.split("|||")
             if len(parts) == 5 and parts[1] in {"SENT", "PASS", "LEGACY"}:
@@ -1092,8 +1138,12 @@ def rewrite_history(history_entries, heartbeat_date):
     kept = [e for e in history_entries if e["time"] >= cutoff]
     tmp_file = HISTORY_FILE + ".tmp"
     with open(tmp_file, "w", encoding="utf-8") as f:
-        if heartbeat_date:
-            f.write(f"{HEARTBEAT_PREFIX}|||{heartbeat_date}\n")
+        last_alert = AI_STATE.get("last_alert", "")
+        if heartbeat_date or last_alert:
+            line = f"{HEARTBEAT_PREFIX}|||{heartbeat_date}"
+            if last_alert:
+                line += f"|||{last_alert}"
+            f.write(line + "\n")
         for e in kept:
             f.write(format_history_line(e) + "\n")
     os.replace(tmp_file, HISTORY_FILE)
@@ -1231,7 +1281,7 @@ def send_news_embed(ticker, title, event_type, summary, news_url, pub_date_str, 
     return post_to_discord(payload)
 
 
-def send_run_summary(stats, total, is_alert):
+def send_run_summary(stats, total, is_alert, ai_alert=False):
     now_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
     failed = stats["fetch_failed"]
     failed_text = "、".join(failed[:15]) + ("…" if len(failed) > 15 else "") if failed else "無"
@@ -1242,6 +1292,7 @@ def send_run_summary(stats, total, is_alert):
         f"AI 判定不推：{stats['ai_pass']} 則",
         f"成功推播：{stats['pushed']} 則",
         f"AI 呼叫失敗：{stats['ai_error']} 則",
+        *([f"AI 失敗原因：{AI_STATE['fatal'] or AI_STATE['last_error'] or '不明'}"] if stats["ai_error"] else []),
         f"超過單檔上限、留到下次判讀：{stats['ai_deferred']} 則",
         f"已達單檔每日推播上限而略過：{stats['daily_capped']} 則",
         f"推播失敗（下次重試）：{stats['push_failed']} 則",
@@ -1250,7 +1301,12 @@ def send_run_summary(stats, total, is_alert):
         lines.append(f"因執行超時未掃描：{len(stats['timed_out'])} 檔")
     if AUTO_NAMED_THIS_RUN:
         lines.append("新代號已自動產生新聞名稱：" + "；".join(AUTO_NAMED_THIS_RUN))
-    if is_alert:
+    if ai_alert and not is_alert:
+        title = "🚨 新聞巡檢異常：AI 判讀失敗，新聞全部沒推"
+        color = 0xC0392B
+        lines.append("沒推的新聞不會寫入紀錄，AI 恢復後下一輪會自動補判讀（只補最近 36 小時內的新聞）。")
+        lines.append(f"這則警報最快每 {AI_ALERT_GAP_HOURS} 小時重發一次，直到恢復為止。")
+    elif is_alert:
         title = "🚨 新聞巡檢異常：本次結果不完整"
         color = 0xC0392B
         if stats["timed_out"]:
@@ -1280,6 +1336,33 @@ def is_reasoning_model(model):
     return m.startswith(("gpt-5", "gpt-6", "o1", "o3", "o4"))
 
 
+AI_ALERT_GAP_HOURS = 6          # AI 整個壞掉時，紅色警報最快每幾小時發一次（避免每小時洗版）
+AI_STATE = {"last_error": "", "fatal": ""}   # fatal 有值 = 這輪不用再試（額度用完、金鑰錯、模型不存在）
+
+
+def explain_openai_error(status_code, data, raw_text):
+    """把 OpenAI 的錯誤翻成白話；回傳 (說明, 是否不用再試)"""
+    err = data.get("error", {}) if isinstance(data, dict) else {}
+    if not isinstance(err, dict):
+        err = {"message": str(err)}
+    code = str(err.get("code") or err.get("type") or "").lower()
+    msg = str(err.get("message") or raw_text or "")[:200]
+    lower = msg.lower()
+    if code == "insufficient_quota" or "exceeded your current quota" in lower or "billing" in lower:
+        return "OpenAI 帳戶額度用完或付款失敗，需要到 OpenAI 帳單頁儲值", True
+    if status_code == 401 or code == "invalid_api_key" or "incorrect api key" in lower:
+        return "OpenAI 金鑰無效或已停用，需要更新 GitHub Secret 的 OPENAI_API_KEY", True
+    if status_code == 403:
+        return f"OpenAI 拒絕存取（帳戶或專案權限問題）：{msg[:120]}", True
+    if code == "model_not_found" or ("model" in lower and ("does not exist" in lower or "not found" in lower)):
+        return f"模型 {OPENAI_MODEL} 不存在或已停用，需要換模型", True
+    if status_code == 429:
+        return f"OpenAI 請求太頻繁（限流）：{msg[:120]}", False
+    if status_code >= 500:
+        return f"OpenAI 伺服器暫時故障（HTTP {status_code}）", False
+    return f"OpenAI 錯誤（HTTP {status_code}）：{msg[:120]}", False
+
+
 def openai_chat_json(messages, temperature=0.1, attempts=3):
     """
     呼叫 OpenAI，要求回傳 JSON 文字；失敗回傳 None。
@@ -1287,6 +1370,9 @@ def openai_chat_json(messages, temperature=0.1, attempts=3):
     遇到「參數不支援」的錯誤，就拿掉那個參數重試。
     """
     if not OPENAI_API_KEY:
+        AI_STATE["fatal"] = AI_STATE["last_error"] = "沒有設定 OPENAI_API_KEY（GitHub Secret 空白）"
+        return None
+    if AI_STATE["fatal"]:
         return None
     reasoning = is_reasoning_model(OPENAI_MODEL)
     payload = {
@@ -1307,10 +1393,20 @@ def openai_chat_json(messages, temperature=0.1, attempts=3):
         try:
             res = requests.post("https://api.openai.com/v1/chat/completions",
                                 headers=headers, json=payload, timeout=timeout)
+            try:
+                data = res.json()
+            except Exception:
+                data = {}
             if res.status_code == 429 or res.status_code >= 500:
+                reason, fatal = explain_openai_error(res.status_code, data, res.text)
+                AI_STATE["last_error"] = reason
+                if fatal:
+                    AI_STATE["fatal"] = reason
+                    print(f"      🛑 [OpenAI] {reason}，本輪停止呼叫 AI", flush=True)
+                    return None
+                print(f"      ⚠️ [OpenAI] {reason}，稍後重試", flush=True)
                 time.sleep(3 * tries)
                 continue
-            data = res.json()
             if "error" in data or "choices" not in data:
                 err = data.get("error", data)
                 msg = str(err.get("message", err) if isinstance(err, dict) else err)
@@ -1324,11 +1420,18 @@ def openai_chat_json(messages, temperature=0.1, attempts=3):
                 if removed:
                     tries -= 1   # 調整參數不算一次失敗
                     continue
+                reason, fatal = explain_openai_error(res.status_code, data, res.text)
+                AI_STATE["last_error"] = reason
+                if fatal:
+                    AI_STATE["fatal"] = reason
+                    print(f"      🛑 [OpenAI] {reason}，本輪停止呼叫 AI", flush=True)
+                    return None
                 print(f"      ⚠️ [OpenAI 回傳錯誤] {msg[:150]}", flush=True)
                 time.sleep(2)
                 continue
             return data["choices"][0]["message"]["content"] or ""
         except Exception as e:
+            AI_STATE["last_error"] = f"連不上 OpenAI 或逾時：{str(e)[:100]}"
             print(f"      ⚠️ [OpenAI 呼叫異常] {e}", flush=True)
             time.sleep(2)
     return None
@@ -1595,6 +1698,13 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
             print("      [AI 裁定] PASS", flush=True)
             continue
 
+        if event_type == "ORDER" and is_unsized_order(ticker, clean_title):
+            stats["ai_pass"] += 1
+            entry["status"] = "PASS"
+            append_history(entry, history_entries, seen_fps)
+            print(f"      [非持股訂單沒寫金額] 不推：{clean_title[:60]}", flush=True)
+            continue
+
         print(f"      🎯 [AI 放行] {event_type}，發送 Discord...", flush=True)
         ok_push = send_news_embed(ticker, clean_title, event_type, summary, item["url"],
                                   pub_tw_str, source_name, title_zh)
@@ -1664,9 +1774,22 @@ def main():
     today_tw = datetime.now(TW_TZ).strftime("%Y-%m-%d")
     is_alert = fail_ratio >= FETCH_FAIL_ALERT_RATIO or bool(stats["timed_out"])
     need_heartbeat = heartbeat_date != today_tw and datetime.now(TW_TZ).hour >= HEARTBEAT_HOUR_TW
-    if is_alert or need_heartbeat:
-        if send_run_summary(stats, total, is_alert) and need_heartbeat:
+    # AI 大量失敗（至少 3 則且超過一半）→ 紅色警報，但最快每 AI_ALERT_GAP_HOURS 小時一次
+    ai_broken = stats["ai_error"] >= 3 and stats["ai_error"] * 2 >= stats["ai_checked"]
+    ai_alert = False
+    if ai_broken:
+        last = None
+        try:
+            last = datetime.fromisoformat(AI_STATE.get("last_alert", ""))
+        except Exception:
+            pass
+        ai_alert = last is None or datetime.now(UTC_TZ) - last >= timedelta(hours=AI_ALERT_GAP_HOURS)
+    if is_alert or need_heartbeat or ai_alert:
+        sent_ok = send_run_summary(stats, total, is_alert, ai_alert=ai_broken)
+        if sent_ok and need_heartbeat:
             heartbeat_date = today_tw
+        if sent_ok and ai_broken:
+            AI_STATE["last_alert"] = datetime.now(UTC_TZ).isoformat(timespec="seconds")
 
     removed = rewrite_history(history_entries, heartbeat_date)
 
