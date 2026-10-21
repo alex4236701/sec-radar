@@ -1,43 +1,4 @@
-@@HEARTBEAT|||2026-10-21
-2026-10-07T09:45:45+00:00|||SENT|||8e7a1582e7999665ab40a5d29e401b18|||MKSI|||MKS Instruments Q2 2026 Earnings Call: Complete Transcript
-2026-10-07T09:46:16+00:00|||PASS|||55b757ab62fb006d94f74f3adffbc0fc|||TSLA|||Musk welcomes German backing for Tesla driver assistance tech as group chases EU approval
-2026-10-07T09:46:16+00:00|||PASS|||29daf20a655eb77f04ce7cf2cf680c06|||TSLA|||Inside Tesla's pressure campaign to win EU approval for 'Full Self-Driving'
-2026-10-07T09:46:17+00:00|||PASS|||a1d7b0df481ec8c5a32ab7f33bc131fc|||TSLA|||Tesla is browbeating the EU to approve its ‘Full Self-Driving’ tech. The pressure is working.
-2026-10-07T09:46:19+00:00|||PASS|||b6db6337a2ba58f3cc095aa27059e88d|||NVDA|||SpaceX reportedly is looking to raise as much money as the company generates in revenue to buy Nvidia chips
-2026-10-07T09:46:20+00:00|||PASS|||194cdaa5a717d77fd44a27cf1708bfa9|||NVDA|||SpaceX's US$40 billion Nvidia financing spotlights rise of AI compute as an asset class
-2026-10-07T09:46:22+00:00|||PASS|||f238ed9793857513c82ad05de9224145|||AMD|||AMD CEO says continues to explore foundry partnership with Samsung Electronics
-2026-10-07T09:47:04+00:00|||PASS|||88ff602501fd20a385f05d4e3f3d2f1d|||CSCO|||‘The most challenging certification’: Inside ECCOM’s Cisco 360 transformation journey
-2026-10-07T09:47:55+00:00|||PASS|||7bd2a105f8052880ae8080ade3392b0d|||SPCX|||SpaceX reportedly is looking to raise as much money as the company generates in revenue to buy Nvidia chips
-2026-10-07T09:47:56+00:00|||PASS|||236c84e96ed204d3a1fa564e8d998f58|||SPCX|||SpaceX's US$40 billion Nvidia financing spotlights rise of AI compute as an asset class
-2026-10-07T12:47:23+00:00|||PASS|||cac14b2feb2d147656b4573e7cc4147f|||GOOGL|||Waymo borrows more than $3 billion in its first-ever debt deal
-2026-10-07T12:47:25+00:00|||PASS|||c01ca3968255690c6bcc38b648721a16|||MU|||Micron To Rally Around 187%? Here Are 10 Top Analyst Forecasts For Wednesday
-2026-10-07T12:47:39+00:00|||SENT|||18f6dbf294124ba7ef671e4bcbf6882a|||NVTS|||Navitas Closes Acquisition of Claros, Advancing AI Infrastructure with Grid-to-xPU Power Delivery
-2026-10-07T12:47:46+00:00|||SENT|||469a62b7f13265e199030b842fc98ec1|||GLW|||Corning Announces Quarterly Dividend
-2026-10-07T12:47:50+00:00|||SENT|||48722eea5a81d4cabecdbb1b31f0d73d|||FCEL|||FuelCell Energy names Matthew Latino as new CFO By Investing.com
-2026-10-07T12:47:56+00:00|||SENT|||9ff55fd015be1b4ae25a4c0c99d75166|||CAT|||Caterpillar (CAT) Commits $1 Billion To Expand North Carolina Manufacturing
-2026-10-07T12:48:03+00:00|||PASS|||25ff4d3b615265be872427f4b8ccec13|||RDW|||Redwire CEO Peter Cannito: We’re at the start of massive growth in space
-2026-10-07T12:48:06+00:00|||SENT|||53a99499e99e836619f993f7f6fad1ee|||MSFT|||Microsoft, Nvidia CEOs to unveil new AI laptop at San Francisco event
-2026-10-07T12:48:36+00:00|||PASS|||80b2f0c003efa59c0b11c97685ea3f76|||AMZN|||DoiT Partners with OpenAI to Help Enterprises Run OpenAI Models on AWS and Attribute Every Dollar
-2026-10-07T12:48:40+00:00|||SENT|||087e04f468c61b04008a81421b93c0ce|||META|||Zelestra Passes $1 Billion in 2026 US Project Financing with $350 Million Close for 203 MW Reclamation Solar Project Backed by Meta
-2026-10-07T12:48:45+00:00|||PASS|||b164143abd9571130baa9ab89c1aa1f1|||TSLA|||Tesla, Rivian, and Uber Are Down Between 16% and 26%. Here's the Best Buy for the Robotaxi Takeover.
-2026-10-07T12:48:48+00:00|||PASS|||31f6b1e1828662aa40ee4b94a8ba249a|||NVDA|||SpaceX reportedly is looking to borrow as much money as the company generates in revenue to buy Nvidia chips
-2026-10-07T12:48:51+00:00|||SENT|||d003d3f3faa9e2671007e2ba544f2baa|||AMD|||​AMD to Launch New APU With FSR 4 Support by Year-End
-2026-10-07T12:48:55+00:00|||SENT|||7110dbbf5844ec8d0e5b029092119b03|||AMD|||AMD Plans a Big 2027 Supply Ramp. Wall Street Already Expects $38 Billion of New Revenue.
-2026-10-07T12:48:58+00:00|||PASS|||e2e02d75da621b7a51b6d689e943aba5|||MRVL|||Marvell Stock Looks a Great Bet as Stellar Earnings Target Wows Wall Street
-2026-10-07T12:49:02+00:00|||PASS|||921788e62e2e1ec8341faf08500aa9cd|||INTC|||Intel and Applied Materials to collaborate on chip manufacturing advancements
-2026-10-07T12:49:06+00:00|||SENT|||61d00ef18abaada2969d4d565ef6360f|||GFS|||Quantum firm Xanadu partners with GlobalFoundries for photonic component development
-2026-10-07T12:49:20+00:00|||SENT|||477ce575ba96b5a8ebc714f04ebf9170|||AMAT|||Intel and Applied Materials to collaborate on chip manufacturing advancements
-2026-10-07T12:50:02+00:00|||PASS|||19e6626c0dbcd9ad14a84ac27752b440|||PLTR|||Nvidia, Palantir, and Alphabet Are Sending Shockwaves Through Wall Street With This $17.5 Billion Warning
-2026-10-07T12:50:10+00:00|||SENT|||5c330d6de48903ec5fa832824cfdb57c|||ZETA|||Zeta Global Expands AI Arsenal With Digital Audience Buyout
-2026-10-07T12:50:35+00:00|||SENT|||207133f789e0ebf3b09863dd094b77a1|||PDYN|||Federal Ammunition, Mossberg, and Palladyne AI Launch Joint Development of SwarmShot™, a Modular Autonomous Airborne Counter-UAS System
-2026-10-07T12:50:43+00:00|||PASS|||a94b57f4780b7e05f76eb9084f69c6ca|||SPCX|||Watch Stock Rally Fades on Higher Oil Prices; SpaceX in Talks to Buy Nvidia Chips
-2026-10-07T12:50:43+00:00|||PASS|||c95d6babef93ed8b05f1f55028af4d62|||SPCX|||SpaceX reportedly is looking to borrow as much money as the company generates in revenue to buy Nvidia chips
-2026-10-07T13:40:40+00:00|||PASS|||0f28ea23bb6e2ec5262d60e4579fdb35|||MSFT|||CoNetrix Technology Introduces Microsoft 365 Benchmark Management Service
-2026-10-07T13:40:47+00:00|||PASS|||4bf4338f3a498afa8ce69cea70def307|||NVDA|||Where Nvidia’s $100 Billion Dealmaking Juggernaut Will Go Next
-2026-10-07T13:40:48+00:00|||PASS|||cc2cdac6ebbec8e428f061fbe2d47338|||NVDA|||Watch Stock Rally Fades on Higher Oil Prices; SpaceX in Talks to Buy Nvidia Chips
-2026-10-07T13:40:52+00:00|||PASS|||68554001624fd6ef23d3c0716c408462|||MRVL|||Marvell Stock Projects $80 Billion In Revenue, But I'm Not Buying (NASDAQ:MRVL)
-2026-10-07T13:40:52+00:00|||PASS|||e935f5c40a74a27b05d24ce1666536cc|||MRVL|||Marvell Stock Falls. Why It Still Looks Like a Great Bet After Stellar Earnings Target.
-2026-10-07T13:40:55+00:00|||SENT|||7d59e1865cedf79c30478a00d37b4302|||QCOM|||Qualcomm will license patents behind Huawei’s LogicFolding chip architecture, report says
+@@HEARTBEAT|||2026-10-21|||2026-10-21T13:41:10+00:00
 2026-10-07T13:41:11+00:00|||PASS|||550b8abd654d847e642b3fb982389798|||PENG|||These Analysts Increase Their Forecasts On Penguin Solutions Following Upbeat Q4 Results
 2026-10-07T13:41:49+00:00|||SENT|||60efd8e81fc097f641c7dd2e960a4753|||HPE|||HPE launches four new AMD-powered servers as part of its ProLiant Gen13 portfolio
 2026-10-07T14:39:51+00:00|||SENT|||9e1218509b29e914ef250b9d36221d05|||GOOGL|||US government, Google join Zuckerberg-backed Biohub in $1.8 billion push for AI biology data
