@@ -6,5 +6,21 @@
   "text": "13G 修正：BAILLIE GIFFORD & CO，持股 14.20%",
   "ticker": "IOT",
   "url": "https://www.sec.gov/Archives/edgar/data/1642896/000108887526000073/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-21",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：MATZ MARILYN（董事），400 股，約 $140,000",
+  "ticker": "TER",
+  "url": "https://www.sec.gov/Archives/edgar/data/97210/000195917326007439/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-21",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Walsh Paul V Jr（董事），1,500 股，約 $209,160",
+  "ticker": "SMTC",
+  "url": "https://www.sec.gov/Archives/edgar/data/88941/000194984626000617/xsl144X01/primary_doc.xml"
  }
 ]
