@@ -38,5 +38,45 @@
   "text": "10-Q 季報",
   "ticker": "IBM",
   "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000095/ibm-20260930.htm"
+ },
+ {
+  "date": "2026-10-22",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：ANNE KUYKENDALL（高階主管），8,738 股，約 $510,124",
+  "ticker": "PENG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1616533/000195004726010370/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-22",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "LRCX",
+  "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000054/lrcx-20260927.htm"
+ },
+ {
+  "date": "2026-10-22",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：JOHN J GIAMATTEO（高階主管、董事），99,000 股，約 $865,369",
+  "ticker": "BB",
+  "url": "https://www.sec.gov/Archives/edgar/data/1070235/000195004726010365/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-22",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "SPCX",
+  "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
+ },
+ {
+  "date": "2026-10-22",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "BE",
+  "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066931/be-20260930.htm"
  }
 ]
