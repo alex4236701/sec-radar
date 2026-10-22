@@ -1,29 +1,4 @@
 @@HEARTBEAT|||2026-10-22|||2026-10-21T13:41:10+00:00
-2026-10-08T17:39:00+00:00|||PASS|||98754a84a91f037935dfab0e2639b76c|||GOOGL|||Finland orders Google to stop work on two AI data centers over alleged deforestation — company admits it has 'fallen short of our own high standards in this instance'
-2026-10-08T17:39:27+00:00|||PASS|||98d7ddaaa614991931baa62907c8145a|||ECL|||What to Expect From Ecolab's Next Quarterly Earnings Report
-2026-10-08T17:39:32+00:00|||PASS|||e79d0924f90f4e2b88e39462520f9c6c|||MSFT|||Top Midday Stories: Microsoft, Adobe Among Tech Firms Suspended From US Immigration Program; Starbucks Has Explored Chipotle Takeover
-2026-10-08T17:39:49+00:00|||PASS|||dc22fee84c43219e7cc4408beb3b4e93|||TSM|||Why TSMC’s $64B Capex Spend Still May Not Be Enough - Taiwan Semiconductor (NYSE:TSM)
-2026-10-08T17:39:55+00:00|||SENT|||3532e40c0e03944f45f99b9a71088534|||TSM|||TSMC quarterly revenue surges to NT$1.49 trillion
-2026-10-08T17:39:59+00:00|||PASS|||ef2f2514e82d9f521f502daef0fb4ce5|||TSM|||TSMC Reports 55% Growth in September Revenue
-2026-10-08T17:40:47+00:00|||PASS|||84474f64277535c498fb23d31d0a7ba7|||IFNNY|||Quantum startup ZuriQ partners with Infineon for development of scalable quantum chips
-2026-10-08T18:44:57+00:00|||PASS|||155e8cd194348a73b4108dea309a3a92|||AAPL|||Apple appoints new M&A chief under CEO Ternus: report (AAPL:NASDAQ)
-2026-10-08T18:44:59+00:00|||PASS|||2702a15d005b4abcdc9da5f38cd31e99|||AAPL|||Apple names new M&A chief in latest change under new CEO: Report
-2026-10-08T18:45:03+00:00|||PASS|||4df3c068f99d50f76a8151827018058c|||AAPL|||Apple Names New M&A Chief in Latest Shake-Up Under CEO John Ternus
-2026-10-08T18:45:09+00:00|||PASS|||652a8bca6cd7cb7ad7cf2758cc3d2d65|||TSLA|||Tesla FSD Caught Speeding And Attempting Illegal Passes Ahead Of EU Approval Decision
-2026-10-08T18:45:12+00:00|||PASS|||56df9aa1116f0d373dd0421b79e4a738|||NVDA|||OpenAI Revenue $20B Below Previous Reports, ORCL, NVDA Tumble
-2026-10-08T18:45:24+00:00|||PASS|||e5c63dbe6e9a0a6dd94acf38480b18c2|||GFS|||GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US — Five-year agreement valued at $2 billion
-2026-10-08T18:45:29+00:00|||PASS|||967db786c0efe8529f808bc7a0fb995c|||SKHY|||Samsung, SK Hynix record earnings fuel South Korea spending on AI, youth
-2026-10-08T18:46:04+00:00|||PASS|||e4e0f6567de9f83d838c521a37bf9d96|||NOK|||Arelion partners with Nokia on live network field trial
-2026-10-08T18:46:15+00:00|||PASS|||ef54b9faeb8551cc5b998ea9f5486ff4|||DELL|||Accenture and Dell Technologies Expand Collaboration to Help Enterprises Scale Private AI and Modernize Infrastructure
-2026-10-08T18:46:21+00:00|||PASS|||0eede6ecf7eae2954c79c97fa78dd644|||CRWV|||Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report
-2026-10-08T18:46:26+00:00|||PASS|||1078d641080731dd0983712b4bbaa904|||PLTR|||Palantir stock: Goldman upgrades to Buy with $230 target as growth accelerates
-2026-10-08T19:38:57+00:00|||SENT|||63faf7bddf30b0e4238a82622ed53c92|||GOOGL|||SpaceX's Google AI Pact Is Worth Up to $29 Billion, but Investors Shouldn't Bank on It
-2026-10-08T19:39:41+00:00|||PASS|||f61a19757dc23554faa240ddb0aad9d6|||INTC|||xAI, Intel, Hugging Face Lead $227 Billion Private Equity Exit Market as Deal Volume Falls 17%
-2026-10-08T19:41:10+00:00|||PASS|||9a55c0c5044f2e4d6217aebbe19e83c8|||VELO|||Could Velo3D Be the Next Defense Buyout Target?
-2026-10-08T20:40:20+00:00|||PASS|||df3c2d737bbdaf8b5b151300b2738a10|||GOOGL|||Lawmakers raise alarm at Google plan to acquire Spirit Airlines data for AI models
-2026-10-08T20:40:23+00:00|||PASS|||526a7c5991026a70c0021d444df52ba8|||GOOGL|||Lawmakers raise alarm at Google plan to acquire Spirit Airlines data for AI models By Reuters
-2026-10-08T20:40:56+00:00|||PASS|||25b99e8d3334df7d67793a79f5442abd|||META|||Ben Affleck Reveals Why He Was 'Banned' From Instagram Twice After Making An Account To Follow His Kids
-2026-10-08T20:41:02+00:00|||PASS|||6dab181a1d6d05d746353142ab102897|||NVDA|||Nvidia Chief Jensen Huang’s Net Worth Falls Below $200 Billion Mark As Tech Stocks Drop
 2026-10-08T20:42:47+00:00|||SENT|||1713b8de318ff96dea98e5f94e2b1ac9|||SPCX|||SpaceX to Acquire Low-Band Spectrum for Mobile Phone Service
 2026-10-08T21:39:24+00:00|||PASS|||264ca3cc95811ae39d10bbe40f848e8b|||MU|||Samsung's Operating Profit Hit a Record $80 Billion. Like Micron's Memory Prices, Its Growth Is Slowing.
 2026-10-08T21:39:53+00:00|||PASS|||c49c3627c9396336efbad621baa8ba1e|||MSFT|||Microsoft faces foreign worker crackdown as Vance blasts layoffs
@@ -917,3 +892,26 @@
 2026-10-22T17:25:31+00:00|||PASS|||b8c2286738675dafa23f4ad0c085e579|||SPCX|||What Is the Biggest Obstacle to a SpaceX-Tesla Merger? JPMorgan Points to China
 2026-10-22T17:25:32+00:00|||PASS|||85d892503c3a04ba9806073645ee409b|||SPCX|||Could China Prevent a SpaceX-Tesla Merger? JPMorgan Examines Regulatory Risks and a Possible Solution
 2026-10-22T17:25:34+00:00|||PASS|||516718b00c36d9bf2ec34445c5708edc|||SPCX|||Analyst sees boost to SpaceX shares in long run if Tesla merger happens
+2026-10-22T20:38:23+00:00|||PASS|||5d6fd72d12a1b2ba55fe6ee467231093|||GOOGL|||Nvidia, Apple, Alphabet, Microsoft, and Amazon Now Make Up 30.8% of VOO and 49.2% of VUG. Here's a Better Low-Cost Vanguard ETF to Buy Now.
+2026-10-22T20:38:50+00:00|||PASS|||a61141cc3be5175ee384cc3f063c9320|||HON|||Honeywell Aerospace (HONA) vs. GE and RTX: Can a High-Margin Aerospace Platform Deliver a Post-Spin-Off Re-Rating?
+2026-10-22T20:38:57+00:00|||PASS|||b50fd0288364b82b667aa5ae3cf4f8de|||META|||Meta’s Big Equity Offering Might Come Soon; Could Berkshire Be a Buyer?
+2026-10-22T20:38:58+00:00|||PASS|||a6937019bb915eb3a0754ee613e5001d|||META|||Meta shares slide, default insurance hits record as AI spending alarms investors
+2026-10-22T20:39:00+00:00|||PASS|||7004fc8c6bf79271e31da834515f231d|||META|||Meta shocked by $25B fine after N.M. refused to join multistate settlement
+2026-10-22T20:39:03+00:00|||PASS|||32a610987b85ef9dda3f1c78762644b4|||AAPL|||Apple Has Joined the $5 Trillion Club. Its Holiday Quarter Now Faces a Big Test
+2026-10-22T20:39:06+00:00|||PASS|||8f0d4cee3a6c36ae1af1a0bf1270093a|||TSLA|||Tesla Targets Dallas Cybercab Launch as Regulators Probe Safety
+2026-10-22T20:39:09+00:00|||PASS|||535d10936ed121fd3d4c7ea2a7a9cc28|||NVDA|||Nvidia: Equity Investors Are Ignoring The Surge In Implied Default Risk (NASDAQ:NVDA)
+2026-10-22T20:39:16+00:00|||PASS|||53868a8f10221970a614e1e41aab63b0|||INTC|||Intel Stock Tumbles Ahead of Q3 Earnings
+2026-10-22T20:39:28+00:00|||PASS|||f9dfd40729321c3460075a6ef4e4f040|||WDC|||Western Digital Stock Rises as Earnings Ease Fears of a Slowdown
+2026-10-22T20:39:33+00:00|||SENT|||1ec71a7299b070e170716da2b6fe3200|||WDC|||Western Digital Gives Solid Outlook, Hikes Dividend on AI Demand
+2026-10-22T20:39:35+00:00|||PASS|||fa4b30e215c18dce98daa8db3eae41c3|||WDC|||AI Stock Western Digital Gains After Earnings Beat. Here Are Numbers To Know.
+2026-10-22T20:39:39+00:00|||PASS|||4e5c3fdecb58bb91db3cd57785f3c6da|||WDC|||Western Digital beats earnings estimates, but AI selloff erases initial gains
+2026-10-22T20:40:22+00:00|||PASS|||67a83da3f4edd7ed2309d51ec777b4b7|||CRWV|||CoreWeave Debt Stress Mounts: Bond Yield Hits Record as Stock Suffers $44 Billion Wipeout
+2026-10-22T20:40:23+00:00|||PASS|||3d0445a665a924dfc35f8baa11cfb7a6|||CRWV|||CoreWeave's Funding Needs Remain Key Question Ahead of Q3 Results, BofA Says
+2026-10-22T20:40:24+00:00|||PASS|||110533cf7d4aa9704184f74cfc2423e6|||CRWV|||Why Deutsche Bank Wants You to Buy the Dip in CoreWeave Stock
+2026-10-22T20:40:37+00:00|||SENT|||caea2b2a8f1ac667f52fd90bb1930293|||DDOG|||Datadog Offered to Buy Security Startup ‘Upwind’ For Nearly $4 Billion
+2026-10-22T20:40:41+00:00|||PASS|||b6398c178fb8671b72be4944bfa0f4fe|||IBM|||Why IBM Stock is Down Despite A Bounceback Earnings Report
+2026-10-22T20:40:47+00:00|||PASS|||83759d70de5eb15572225551d5e7c0ab|||PANW|||MeetingTV sues Palo Alto Networks over an AI-invented Chinese spy ring
+2026-10-22T20:41:16+00:00|||PASS|||3fb6f9abee6de0f7a698568ec9bb1ddd|||SPCX|||SpaceX’s Booming Data Center Business Is Fueled by Illegal Turbines, Lawsuit Alleges
+2026-10-22T20:41:17+00:00|||PASS|||a13b1d1944794c46f3859be5d42f880c|||SPCX|||SpaceX and Tesla have high election stakes as Elon Musk pours $366 million into campaigns
+2026-10-22T20:41:36+00:00|||SENT|||ef9fc100ed095cfc8d19672e965505db|||BE|||Bloom Energy Lifts Outlook, Logs Higher Profit
+2026-10-22T20:41:38+00:00|||PASS|||6251c3ce06ce21abb81bc9b7b571cf00|||BE|||Bloom Energy Stock Drops Despite Strong Earnings
