@@ -1,26 +1,4 @@
 @@HEARTBEAT|||2026-10-22|||2026-10-21T13:41:10+00:00
-2026-10-08T14:42:18+00:00|||PASS|||639e4d5ecb6ef1b2166c9f5c6a6fdbba|||GOOGL|||Alphabet’s biolab in funding talks at $40B valuation
-2026-10-08T14:42:32+00:00|||PASS|||10205c39f743ae9344fcbef4f23bd2a2|||WOLF|||Helen Of Troy Posts Upbeat Q2 Earnings, Joins Pacira Biosciences, Wolfspeed And Other Big Stocks Moving H
-2026-10-08T14:42:51+00:00|||PASS|||2d0fe46a79ae8992221d38c28ba63064|||AMZN|||Amazon’s Ban on AI Agents Is the Opening Its Rivals Need
-2026-10-08T14:43:06+00:00|||PASS|||815be1122ed86a1ffc32ed0a5b1da3b0|||INTC|||Intel ‘Targeted’ Job Cuts Hit Channel Partners As Part Of CEO’s Efficiency Push
-2026-10-08T14:43:13+00:00|||SENT|||2cd6bc084bbb0185f60561cd3fe90c4b|||GFS|||GlobalFoundries to make key AI chip component for TSMC in $2 billion deal
-2026-10-08T14:44:16+00:00|||SENT|||2fda2b49cb8a5803d9788b18aeba9f6a|||SNOW|||Snowflake Says It Found “No Compromise” After the ASOS Hack Claim. Here’s What the Stock Needs From Its Next Guidance
-2026-10-08T14:44:26+00:00|||PASS|||8a9cb13f5178f09e94221dc07fb8e6fe|||IBM|||IBM Gets Defense Dept. Quantum Stamp of Approval. Investors Should Take Notice.
-2026-10-08T14:45:16+00:00|||PASS|||825c800ab4c5fa943973bd6a19e1634f|||ROK|||Rockwell Automation and Industry Leaders Launch the Digital CMC Consortium to Accelerate Digital Transformation in Pharmaceutical Development
-2026-10-08T15:41:58+00:00|||SENT|||42f8f8c9485c59782d6a6a31a47a8042|||GOOGL|||Google's €13bn data center buildout in Finland under investigation for 300-hectare forest removal
-2026-10-08T15:42:02+00:00|||PASS|||0769ca104453c9fde8906e4301156a24|||GOOGL|||Alphabet's Isomorphic Labs seeks valuation of at least $40 billion in new funding round
-2026-10-08T15:42:38+00:00|||PASS|||62102f43d5da90563fd8a804fff5c19c|||NVDA|||Nvidia CEO Jensen Huang says if you want to be successful, be prepared to suffer
-2026-10-08T15:42:56+00:00|||SENT|||1ade630564ff88e97dd9d4cc38692f4c|||SKHY|||SK Hynix's Solidigm taps banks for $10 billion U.S. IPO
-2026-10-08T15:43:08+00:00|||PASS|||b470038edcc761b405f9e5d0495260ae|||ASML|||ASML, Zeiss say next-generation chipmaking technology may be ready in 10 years
-2026-10-08T15:43:44+00:00|||PASS|||e93a5774ae4d901744bd1fa34a775494|||DELL|||Self-Made Entrepreneur Jack Dell Releases Debut Book of Poems, Paintings and Original Songs, Coming Home
-2026-10-08T15:43:53+00:00|||PASS|||e885ffc25c63762f44001ed7a6d7056b|||PLTR|||Palantir Advances 3% as Goldman Sachs Upgrades to Buy With $230 Target; Salesforce and ServiceNow Hold Steady
-2026-10-08T15:44:29+00:00|||PASS|||ddaf48ec6f29befe3ea847efdf2dfcc9|||SPCX|||Elon Musk questions Ambani’s influence as Starlink India launch stalls
-2026-10-08T16:42:36+00:00|||PASS|||7221a89c43f589e40d9b3925dc324e56|||GOOGL|||Finnish Authorities Order Google to Halt Construction on Massive AI Data Center Projects
-2026-10-08T16:43:10+00:00|||SENT|||b1323b10be255f6e6a9b403be66e5f79|||MSFT|||Trump bans Microsoft from sponsoring foreign workers for US residency
-2026-10-08T16:43:15+00:00|||PASS|||07f4fd13f6cbdc22d7cdb9e93e66004c|||AMZN|||Amazon retail division hit by job cuts
-2026-10-08T16:44:15+00:00|||SENT|||4c7bc0754edb9179b485fef8fd8f4a47|||CSCO|||Cisco warns of critical flaws allowing Nexus switch takeover
-2026-10-08T16:44:34+00:00|||PASS|||1323fbd3f8a525c1093b396d05cd3b08|||PLTR|||Why a longtime skeptic of Palantir’s stock is finally saying it’s time to buy
-2026-10-08T16:44:35+00:00|||PASS|||8201c2eca93542d5f1451087fa18201b|||PLTR|||Palantir: Why The Upgrades Keep Coming Ahead Of The Q3 Earnings Report (NASDAQ:PLTR)
 2026-10-08T17:39:00+00:00|||PASS|||98754a84a91f037935dfab0e2639b76c|||GOOGL|||Finland orders Google to stop work on two AI data centers over alleged deforestation — company admits it has 'fallen short of our own high standards in this instance'
 2026-10-08T17:39:27+00:00|||PASS|||98d7ddaaa614991931baa62907c8145a|||ECL|||What to Expect From Ecolab's Next Quarterly Earnings Report
 2026-10-08T17:39:32+00:00|||PASS|||e79d0924f90f4e2b88e39462520f9c6c|||MSFT|||Top Midday Stories: Microsoft, Adobe Among Tech Firms Suspended From US Immigration Program; Starbucks Has Explored Chipotle Takeover
@@ -915,3 +893,27 @@
 2026-10-22T14:41:01+00:00|||PASS|||5fcaf9584c52c346365e6b167a1db3f5|||SPCX|||A SpaceX-Tesla merger: The ins, outs, and what-have-yous
 2026-10-22T14:41:02+00:00|||PASS|||af68faa9c19600c537a2ad923368b050|||SPCX|||Elon Musk’s dream merger is a nightmare for SpaceX shareholders
 2026-10-22T14:41:18+00:00|||PASS|||5c4c51c6c975cc627849e7711ba3293d|||BE|||Is Bloom Energy (BE) A Bargain As AI Power Demand Puts Focus On Q3 Earnings?
+2026-10-22T17:22:41+00:00|||PASS|||aab2044bf9a12f2d36438847abe5f4cf|||MU|||Micron unveils global profit-linked bonus plan after Taiwan union pressure
+2026-10-22T17:23:02+00:00|||PASS|||d63301df6490f412d54bb25665f6001c|||FCEL|||DEADLINE ALERT for DKS, BBNX, FCEL, and LINC: The Law
+2026-10-22T17:23:13+00:00|||PASS|||50aa8a55f8b9138ca2d6d98bc453992e|||MSFT|||Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents
+2026-10-22T17:23:14+00:00|||PASS|||aa45940b40510aaafe97a98de45b59b0|||MSFT|||Nvidia, Apple, Alphabet, Microsoft, and Amazon Now Make Up 30.8% of VOO and 49.2% of VUG. Here's a Better Low-Cost Vanguard ETF to Buy Now.
+2026-10-22T17:23:17+00:00|||PASS|||5a510ce1344ed4ffc6ce041ac1b4b670|||AMZN|||Amazon Q3: The $220 Billion Question Investors Can't Ignore (NASDAQ:AMZN)
+2026-10-22T17:23:17+00:00|||PASS|||1142c07f0bd44d5ad566fff2f444f8fb|||AMZN|||If You Invest $1,000 in Amazon Each Month Starting Now, This is What You’d Have in 5 Years
+2026-10-22T17:23:18+00:00|||PASS|||6f9d8282aff263ab930bbb4f55c41b22|||AMZN|||Nvidia, Apple, Alphabet, Microsoft, and Amazon Now Make Up 30.8% of VOO and 49.2% of VUG. Here's a Better Low-Cost Vanguard ETF to Buy Now.
+2026-10-22T17:23:21+00:00|||PASS|||1f2ed7db50e7727e3f4d4ba6d563cfaf|||META|||Meta whines New Mexico is “impossible” to please after historic $25 billion fine
+2026-10-22T17:23:27+00:00|||SENT|||ff8315be97daafe9cd750cadbb3eea65|||META|||EXCLUSIVE: Rhode Island sues Meta over alleged tolerance for scam advertising
+2026-10-22T17:23:30+00:00|||PASS|||be193e38cb057f828dddae415a76c2bd|||AAPL|||Nvidia, Apple, Alphabet, Microsoft, and Amazon Now Make Up 30.8% of VOO and 49.2% of VUG. Here's a Better Low-Cost Vanguard ETF to Buy Now.
+2026-10-22T17:23:33+00:00|||PASS|||c97672dcb139c1700861e79647438f5c|||TSLA|||A SpaceX-Tesla Merger Feels Inevitable. Is It Actually a Good Deal?
+2026-10-22T17:23:34+00:00|||PASS|||e98df887fa5c000b9c772b324395e425|||TSLA|||What Is the Biggest Obstacle to a SpaceX-Tesla Merger? JPMorgan Points to China
+2026-10-22T17:23:41+00:00|||PASS|||0415c92f9420a897f609b1dbe69de341|||QCOM|||Hackintosh was supposed to be dead. Then someone put macOS on Snapdragon.
+2026-10-22T17:24:28+00:00|||PASS|||d4119d95fc3a005c3656f7a853f2ef9f|||VICR|||Vicor Corporation Shares Gain 4.5% on Strong Q3 Earnings Growth
+2026-10-22T17:24:35+00:00|||PASS|||2b5a6b029a341ed9068b916e76c2f7f2|||DELL|||Dell unveils Nvidia Vera CPU offerings, launches its first Groq 3 LPU rack-scale inference solution
+2026-10-22T17:24:40+00:00|||SENT|||8f46ebceb647d3a0cf11dc332ab6251c|||HPE|||HPE expands Private Cloud AI solution to support mixed Nvidia hardware clusters, launches Vera CPU rack
+2026-10-22T17:24:45+00:00|||PASS|||9267113b25b387c4dda935d9da28a6ed|||CRWV|||BofA reiterates Buy on CoreWeave stock ahead of Q3 earnings
+2026-10-22T17:24:48+00:00|||PASS|||6faa61fffed5f2d3144e950d05076361|||NBIS|||Nebius Group Secures $3.5 Billion Senior Secured Facility With Citi
+2026-10-22T17:24:52+00:00|||PASS|||8ca3b3af86584923d6854b7d0b044d28|||PLTR|||Palantir continues to drive up US government, commercial deals into Q3 earnings: Citi
+2026-10-22T17:25:29+00:00|||PASS|||a1688bb60635b8717b2acf9e4aae730c|||SPCX|||John Malone Predicts SpaceX Will Invest $10B in Skydance
+2026-10-22T17:25:30+00:00|||PASS|||7d0769f3fc0be583c33a32d8a76e129e|||SPCX|||A SpaceX-Tesla Merger Feels Inevitable. Is It Actually a Good Deal?
+2026-10-22T17:25:31+00:00|||PASS|||b8c2286738675dafa23f4ad0c085e579|||SPCX|||What Is the Biggest Obstacle to a SpaceX-Tesla Merger? JPMorgan Points to China
+2026-10-22T17:25:32+00:00|||PASS|||85d892503c3a04ba9806073645ee409b|||SPCX|||Could China Prevent a SpaceX-Tesla Merger? JPMorgan Examines Regulatory Risks and a Possible Solution
+2026-10-22T17:25:34+00:00|||PASS|||516718b00c36d9bf2ec34445c5708edc|||SPCX|||Analyst sees boost to SpaceX shares in long run if Tesla merger happens
