@@ -6,5 +6,13 @@
   "text": "10-Q 季報",
   "ticker": "WDC",
   "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm"
+ },
+ {
+  "date": "2026-10-23",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：JOSEPH CLARK（高階主管），869 股，約 $45,110",
+  "ticker": "PENG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1616533/000195004726010384/xsl144X01/primary_doc.xml"
  }
 ]
