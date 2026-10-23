@@ -1338,8 +1338,6 @@ def send_news_embed(ticker, title, event_type, summary, news_url, pub_date_str, 
             f"來源：{source_name}",
             f"標題：{title[:300]}",
             f"中文：{title_zh[:200]}" if title_zh and title_zh != title else "",
-            f"重點：{plain_summary(summary)}" if summary else "",
-            f"連結：{news_url}",
         ])
     return post_to_discord(payload)
 
