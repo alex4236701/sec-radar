@@ -1,31 +1,4 @@
 @@HEARTBEAT|||2026-10-23|||2026-10-21T13:41:10+00:00
-2026-10-09T09:45:39+00:00|||PASS|||1d68b2da680c901e86b395f80c77799b|||MU|||Ross Gerber Expects Micron to Buy Back 'Tons of Stock' in December — 'A Big Buyer Is Coming Soon'
-2026-10-09T09:46:07+00:00|||PASS|||8a91565a6d4d5279cb02165905b708f8|||MSFT|||Stocktwits AI Roundup: OpenAI Revenue Woes Rattle Chip Stocks, SoftBank Hunts $100B, Microsoft Goes AI-First
-2026-10-09T09:46:12+00:00|||PASS|||30d8c2c8c87dc772e0733a0dfe3158bb|||META|||Meta Draws a Line With TikTok, Bans ByteDance Ads Across Facebook and Instagram: Their Goal Is to ‘Pull P
-2026-10-09T09:46:14+00:00|||PASS|||f421c8fe5f4286863b40fe880465f2b8|||META|||Meta bans ads from TikTok parent ByteDance across U.S. and key foreign markets
-2026-10-09T09:46:16+00:00|||PASS|||86d8f6c5ac9623ea964a5bbe1d646dc0|||META|||Meta bans TikTok ads on its platforms in US
-2026-10-09T09:46:19+00:00|||PASS|||4954db0dd511c8181dcb085b0f737697|||AAPL|||Apple Names a New M&A Chief: What It Means for $100 Billion a Year in Buybacks
-2026-10-09T09:46:30+00:00|||SENT|||bdd3bfe732803768bd0c0e925dd7b4b7|||TSLA|||Tesla Drops ‘Full Self-Driving’ Name in Europe as Germany Backs Faster EU Approval for ‘Tesla Assisted Driving’
-2026-10-09T09:46:39+00:00|||PASS|||3b1b55fc413cda5ed7792aa610e9f9a4|||INTC|||Intel Has A $100 Billion Problem (NASDAQ:INTC)
-2026-10-09T09:46:43+00:00|||PASS|||44fead993454f033b452c3009ec02f96|||TSM|||TSMC September sales beat estimates by 3%
-2026-10-09T09:48:10+00:00|||PASS|||181c6bb12841a998c03f1cc22a86882d|||SPCX|||SpaceX's Fleecing of Retail Investors Continues: Up to $51 Billion in Insider Shares Unlock Today, Oct. 9
-2026-10-09T09:48:11+00:00|||PASS|||6045decf322207d5491ca8e4b12d179e|||SPCX|||VEON Brings Starlink’s Satellite-to-Mobile Service to South Asia with Banglalink launch
-2026-10-09T09:48:39+00:00|||PASS|||ce7c3c97b48b38f03edf55b3c934af43|||GLXY|||MARA transfers $81.1 million in bitcoin to Galaxy Digital as strategy pivots to AI
-2026-10-09T12:46:02+00:00|||PASS|||8986861bac8d99fa4ec11c61d9fdd24b|||META|||Meta bans TikTok ads on its platforms in the U.S.
-2026-10-09T12:46:03+00:00|||PASS|||3bab969760f7e359dddb332718135e02|||META|||Ben Affleck Has Been Banned From Instagram Twice
-2026-10-09T12:46:06+00:00|||PASS|||c1d521ed907fd242eff3d3d0db09ed8e|||META|||Market Chatter: Meta Platforms Bans TikTok Ads Across Its Apps
-2026-10-09T12:46:09+00:00|||PASS|||c62e64fe551d7f264fa995b02c07e33d|||TSLA|||Tesla: A Bullish Footnote Against A $25B Spending Ambition (NASDAQ:TSLA)
-2026-10-09T12:46:10+00:00|||PASS|||a8285186cd3faba883a3f20096f190d5|||TSLA|||Elon Musk Defends $1 Trillion Fortune Tied to SPCX, TSLA, Slams Bernie Sanders: ‘Takers’ Take From the Makers
-2026-10-09T12:46:18+00:00|||PASS|||1819e1278eff15d3945617c80e867a1b|||QCOM|||Qualcomm and Arm set for jury verdict in contract breach feud
-2026-10-09T12:46:23+00:00|||SENT|||e9a8b4a9bf66ddee8a25823569c58c92|||ARM|||Qualcomm and Arm set for jury verdict in contract breach feud
-2026-10-09T12:47:59+00:00|||PASS|||e94a08f475f2221c1d69cfd095e79604|||SPCX|||India rejects monopoly claim after Musk accuses Ambani of blocking Starlink launch
-2026-10-09T12:48:04+00:00|||PASS|||ddb34d11dccd7184eabc6275005d4498|||SPCX|||SpaceX to acquire Grain's 800MHz spectrum assets to further advance carrier ambitions
-2026-10-09T12:48:07+00:00|||PASS|||5fa695ac27585d67546a21f8d1f06e4d|||SPCX|||Louie DiPalma: SpaceX would rather partner with one of the wireless carriers
-2026-10-09T12:48:08+00:00|||PASS|||5af141672a81e1d47b13d130cf4befa4|||SPCX|||SpaceX’s $750 Billion Rally Breaks Stock Out of Post-IPO Funk
-2026-10-09T12:48:10+00:00|||PASS|||dee8d524ada5d7268f398c99f9742836|||SPCX|||AT&T Shares Fall 7.4% in Premarket Trading Following SpaceX Spectrum Acquisition
-2026-10-09T13:41:09+00:00|||PASS|||6a22ec1fbfb27eeae82741e8b0e2d4d8|||GOOGL|||Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own
-2026-10-09T13:41:45+00:00|||PASS|||a781134373529d449e22a950a8d80df4|||NVDA|||OpenAI’s Revenue Is Reportedly $20 Billion Lower Than Thought. Nvidia Just Lost $170 Billion
-2026-10-09T13:43:21+00:00|||PASS|||3389a5d23f4fc19fa8bfeacc92954d90|||SPCX|||Delta Air Lines Slashes Outlook Amid Fuel Prices, Starlink Spat Grows
 2026-10-09T14:43:30+00:00|||PASS|||7213f363f1328ce873bbb69fe920794f|||NVDA|||Nvidia and Micron stocks bounce on OpenAI $70B revenue target
 2026-10-09T14:43:33+00:00|||PASS|||26f19dd810bb3a0a07afa494eb1df404|||NVDA|||Nvidia (NVDA)’s $20 Billion Groq Deal Faces a Legal Test. Does It Matter for NVDA’s Valuation?
 2026-10-09T14:43:40+00:00|||PASS|||955f6aa847c8273b91e82dfecefcec91|||INTC|||Gigabyte's latest BIOS update hints at Intel's Raptor Lake Next launch in 2027 — new CPUs may support both DDR4 and DDR5 memory
@@ -913,3 +886,21 @@
 2026-10-23T06:21:05+00:00|||PASS|||5c1179e3fe76457861fefc541d9c354c|||SPCX|||SpaceX in Talks to Access 80,000 Cell Sites for New Network
 2026-10-23T06:21:08+00:00|||PASS|||e98c50f901e4fa91673b064cb1df0f16|||SPCX|||Watch A Tesla-SpaceX Merger Doesn’t Add Up
 2026-10-23T06:21:35+00:00|||PASS|||e3f4a75c831e0cc4cd21551951dd4393|||CRCL|||Trump, World Liberty Financial Sued by Circle Investor Over Alleged $2 Billion UAE Crypto Windfall: ‘No P
+2026-10-23T14:20:42+00:00|||PASS|||8e7b27d28038b4770cb729bb26f952e4|||GOOGL|||Waymo Keeps Importing Chinese Zeekr Robotaxis as a Senate Ban Looms
+2026-10-23T14:20:46+00:00|||PASS|||98e6d9c4d0e4c3992e683177e8465c08|||GOOGL|||Countdown to Alphabet (GOOGL) Q3 Earnings: Wall Street Forecasts for Key Metrics
+2026-10-23T14:20:55+00:00|||PASS|||9f20345041f5acdfb7d677b367399c83|||UMAC|||Here are Friday's biggest analyst calls: Nvidia, SpaceX, CoreWeave, Deckers, Unusual Machines & more
+2026-10-23T14:21:11+00:00|||PASS|||76ac2f538e9ed84f9ebbff3d8d33877c|||FCEL|||FuelCell Energy Inc. stock falls Thursday, underperforms market
+2026-10-23T14:21:14+00:00|||PASS|||d45a0c7e3c33f5fd72732fe76f05ded8|||GEV|||Seeking Clues to GE Vernova (GEV) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics
+2026-10-23T14:21:23+00:00|||PASS|||51ad669f42734ecb57dd7c8e6b9e89b1|||MSFT|||Seeking Clues to Microsoft (MSFT) Q1 Earnings? A Peek Into Wall Street Projections for Key Metrics
+2026-10-23T14:21:25+00:00|||PASS|||71bf693023ce9a0455a7e443b46a2aaa|||MSFT|||Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight
+2026-10-23T14:21:30+00:00|||PASS|||2bafdca4249f606ff0b99226033a0dbf|||AAPL|||Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company
+2026-10-23T14:21:34+00:00|||PASS|||10603f42e6823dfb861b09b06368ba19|||TSLA|||With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage
+2026-10-23T14:21:38+00:00|||PASS|||0c4a9606f9d10fd9e2455b415c53c3c9|||NVDA|||Nvidia Stock Edges Up. CEO Jensen Huang Makes $10 Billion Kazakhstan AI Power Play
+2026-10-23T14:21:39+00:00|||PASS|||dbbc3b4a9d861bf99590a3ffeb610758|||NVDA|||Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company
+2026-10-23T14:22:41+00:00|||PASS|||f3a2d6d481241e6fd4ff63be300b2fde|||NBIS|||Neocloud Nebius secures $3.5bn in financing from Citi
+2026-10-23T14:22:51+00:00|||PASS|||cc32c85376aba959e8cfc8f9803de241|||DDOG|||Catalyst watch: Tech giants report, eyes on Digital World Acquisition, Datadog, Facebook
+2026-10-23T14:22:57+00:00|||PASS|||b0014f6d1ed95d7c05590529711ade61|||FTNT|||Exploring Analyst Estimates for Fortinet (FTNT) Q3 Earnings, Beyond Revenue and EPS
+2026-10-23T14:23:25+00:00|||PASS|||75b09570aacbe2729e6f68f5a9c085c8|||SPCX|||Silicon Valley Democrats demand investigation into Starlink restrictions in Ukraine
+2026-10-23T14:23:30+00:00|||PASS|||abb036041f590a2b1e4a9f5351a42029|||SPCX|||Rocket Report: SpaceX says no thanks to military launches; Spanish rocket nearly ready
+2026-10-23T14:23:33+00:00|||PASS|||2fc72eb088d4539647ce2d5a0d3ef860|||SPCX|||With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage
+2026-10-23T14:23:36+00:00|||PASS|||15b75809fbb839b5829f725df65be320|||SPCX|||What Is SpaceX (SPCX) Considering With A $3.5 Trillion Merger Review?
