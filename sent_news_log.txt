@@ -1,24 +1,4 @@
 @@HEARTBEAT|||2026-10-23|||2026-10-21T13:41:10+00:00
-2026-10-09T01:45:31+00:00|||PASS|||8c4f26724ea39efe9887593f8c9a5db7|||MU|||Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’
-2026-10-09T01:46:03+00:00|||PASS|||5fe57f05c598d20fd77cd01bde51c48d|||META|||Meta is done taking TikTok’s ad money. Meta began blocking all ads and paid messages from ByteDance on Thursday, including third-party ads that link to TikTok. The ban covers the US, Canada, Egypt, Indonesia, Japan, Thailand and Vietnam. Tensions hav
-2026-10-09T01:46:04+00:00|||PASS|||d806c3958b2274b2139b53d67299f8e6|||META|||Meta bans TikTok from advertising on its apps, Bloomberg News reports
-2026-10-09T01:46:07+00:00|||PASS|||54a4804fdf6d6f01781677dffdca305e|||META|||Meta Bans TikTok From Advertising on Its Apps in Escalating Feud
-2026-10-09T01:46:12+00:00|||PASS|||569a31373b2bedd83a1e76178ffa59d9|||NVDA|||Nvidia-Backed Firmus IPO Hits a Wall as Investors Balk at $30 Billion Valuation
-2026-10-09T01:46:19+00:00|||PASS|||9b48b41e4c793aeb9397478f02d1e8ae|||ARM|||Lattice Collaborates with Arm to Integrate FPGA-based Control for AI Servers
-2026-10-09T01:46:22+00:00|||PASS|||509231af9fece796e1b2fcc1fac2c2d8|||ARM|||Networking Startup Eliyan Draws Takeover Interest, Held Early Talks With Arm
-2026-10-09T01:46:25+00:00|||PASS|||c2469a7ed5db337dd7461da7aace4e96|||INTC|||Anaconda Expands Collaboration with Intel to Give Enterprises a Secure Path to Production AI
-2026-10-09T01:47:19+00:00|||PASS|||fabe0ef91b5fcf058174f39c25a88e5b|||PLTR|||Palantir stock jumped 60% in Q3 even as its earnings multiple got cut in half
-2026-10-09T01:47:53+00:00|||PASS|||6eb225be5f4a855615297de1bcf50f29|||SPCX|||SpaceX takes aim at US wireless carriers with spectrum acquisition By Reuters
-2026-10-09T05:45:25+00:00|||PASS|||41b7cbef837e4364892ac14e50b869cb|||META|||Meta Bans Ads From TikTok on Its Apps in Escalating Feud
-2026-10-09T05:45:29+00:00|||PASS|||282686eb15b0b5aed217fff9476d7f76|||AAPL|||Market Chatter: New Apple CEO Ternus to Name Longtime Deputy as New M&A Chief
-2026-10-09T05:45:39+00:00|||PASS|||636bee73cc18db7c795532f6fcd89eca|||INTC|||2 foreign nationals breach UK base housing key US, NATO intel hub amid $556M expansion
-2026-10-09T05:45:45+00:00|||PASS|||56522b9f1344bf7fe8304cc9e909c325|||TSM|||TSMC's September Sales Jumped 54.6% as AI Chip Orders Keep Piling Up
-2026-10-09T05:45:52+00:00|||PASS|||52fae4651ec91351a83512cb66480efa|||SKHY|||Market Chatter: SK Hynix Spinoff Solidigm Eyeing Goldman Sachs, Morgan Stanley for Potential IPO
-2026-10-09T05:46:38+00:00|||SENT|||3a6ca5d9b53556e1f41a4435ad368655|||CRWV|||AI inference gets a full stack as CoreWeave launches Forge
-2026-10-09T05:47:18+00:00|||PASS|||9bf57f0d0e4b964f5c2419d6bd5a70ce|||SPCX|||SpaceX Is Worth About $800 Billion More Than Tesla on Less Than a Quarter of Its Sales
-2026-10-09T05:47:20+00:00|||PASS|||fbd0bde1bd8318fddea95ea74538ddc5|||SPCX|||Telecom stocks drop as SpaceX acquires spectrum for Starlink (SPCX:NASDAQ)
-2026-10-09T05:47:22+00:00|||PASS|||8ab4b24ef9efda2936710f58a6a56f01|||SPCX|||'Real boss of India?': Elon Musk takes aim at Indian billionaire Ambani as Starlink launch stalls
-2026-10-09T05:47:23+00:00|||PASS|||665793486b00d872e6f47304ecf35b6d|||SPCX|||SpaceX Has $100 Billion in Cash. Why Is It Reportedly Borrowing $40 Billion More?
 2026-10-09T09:45:39+00:00|||PASS|||1d68b2da680c901e86b395f80c77799b|||MU|||Ross Gerber Expects Micron to Buy Back 'Tons of Stock' in December — 'A Big Buyer Is Coming Soon'
 2026-10-09T09:46:07+00:00|||PASS|||8a91565a6d4d5279cb02165905b708f8|||MSFT|||Stocktwits AI Roundup: OpenAI Revenue Woes Rattle Chip Stocks, SoftBank Hunts $100B, Microsoft Goes AI-First
 2026-10-09T09:46:12+00:00|||PASS|||30d8c2c8c87dc772e0733a0dfe3158bb|||META|||Meta Draws a Line With TikTok, Bans ByteDance Ads Across Facebook and Instagram: Their Goal Is to ‘Pull P
@@ -919,3 +899,17 @@
 2026-10-23T00:04:46+00:00|||PASS|||e86c82e957afd17234f5b00547660f59|||SPCX|||SpaceX in talks for 80,000 cell sites to build nationwide wireless network -report
 2026-10-23T00:04:47+00:00|||PASS|||9c1cf811d3ff24c4a2873e5a461b7351|||SPCX|||A Tesla-SpaceX Merger Doesn’t Add Up
 2026-10-23T00:05:01+00:00|||PASS|||f34eb10ffa29f5f108010cdf4d92db7e|||BE|||1 Thing in Bloom Energy’s Strong Earnings That May Be Dragging the Stock Down
+2026-10-23T06:18:19+00:00|||PASS|||b08047d2f574b3dfee5a6bf3a87677fd|||TTMI|||TTM Technologies Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into TTM Technologies (TTMI)
+2026-10-23T06:18:49+00:00|||PASS|||91f42078b3f176429289a1e382fce595|||TSLA|||Why a Merger With Tesla Could Be a Disaster for SpaceX
+2026-10-23T06:18:51+00:00|||PASS|||c6a5242620f85c47b8f35d58bc0fe40d|||TSLA|||Watch A Tesla-SpaceX Merger Doesn’t Add Up
+2026-10-23T06:18:59+00:00|||PASS|||d8308f4a77df73e22483b8e26ad248a8|||ARM|||SK Data Center Arm in Talks to Fund $350 Billion AI Buildout
+2026-10-23T06:19:07+00:00|||SENT|||3d88dace97465bd6d26edd73ee109645|||INTC|||FCC grants Intel a waiver to foreign robot ban to prevent chip disruptions
+2026-10-23T06:19:25+00:00|||PASS|||ea5e41c22ae61d271ef8e738aba6ab5f|||LRCX|||Lam Research sees WFE topping US$200 billion in 2027
+2026-10-23T06:20:00+00:00|||SENT|||f60901568999ce19f4733195c2149a4e|||IFNNY|||[News] Infineon and NVIDIA Expand GaN Power Collaboration for AI Data Centers
+2026-10-23T06:20:13+00:00|||PASS|||707d08b734b2d6aec8c1fbaaacf7acad|||NBIS|||Nebius Lands $3.5 Billion Financing Amid Neocloud Debt Fears
+2026-10-23T06:20:16+00:00|||PASS|||a7bb5bc1c13ad20ec3706f130ea70e34|||NBIS|||Nebius signs $3.5 billion senior secured bridge loan with Citi
+2026-10-23T06:20:54+00:00|||PASS|||c789df9ab5c2d9a0c0b9d96de4c4f03c|||SPCX|||Why a Merger With Tesla Could Be a Disaster for SpaceX
+2026-10-23T06:20:58+00:00|||PASS|||3efc7521885f7071d800a22f429b041c|||SPCX|||SpaceX records $561 million investment gain from stake in Elon Musk's Boring Co.
+2026-10-23T06:21:05+00:00|||PASS|||5c1179e3fe76457861fefc541d9c354c|||SPCX|||SpaceX in Talks to Access 80,000 Cell Sites for New Network
+2026-10-23T06:21:08+00:00|||PASS|||e98c50f901e4fa91673b064cb1df0f16|||SPCX|||Watch A Tesla-SpaceX Merger Doesn’t Add Up
+2026-10-23T06:21:35+00:00|||PASS|||e3f4a75c831e0cc4cd21551951dd4393|||CRCL|||Trump, World Liberty Financial Sued by Circle Investor Over Alleged $2 Billion UAE Crypto Windfall: ‘No P
