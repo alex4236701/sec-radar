@@ -1,9 +1,4 @@
 @@HEARTBEAT|||2026-10-23|||2026-10-21T13:41:10+00:00
-2026-10-09T16:40:21+00:00|||PASS|||84fa98ec4262a22efc87da8703de4578|||CAT|||Caterpillar Stock’s Pullback Is a Reason to Buy—if You Believe the Market Is Headed Higher
-2026-10-09T16:40:44+00:00|||PASS|||f8fb34626245592e5c0f1cabd4079fe3|||QCOM|||Ambarella gains on report Qualcomm may be interested in takeover
-2026-10-09T16:41:36+00:00|||PASS|||d2a1d0d45800c0e3a5c75a9a3aea5cbf|||ALGM|||Allegro MicroSystems to Announce Second Quarter Fiscal Year 2027 Financial Results
-2026-10-09T16:42:15+00:00|||SENT|||1d3051e525863aa843393e48c3ead79b|||AMBA|||Ambarella gains on report Qualcomm may be interested in takeover
-2026-10-09T16:42:28+00:00|||PASS|||1ce6d72915a36ddcca9332343ca94301|||SPCX|||FCC Chairman Brendan Carr on SpaceX Spectrum deal
 2026-10-09T17:38:41+00:00|||PASS|||adddfecf73387495b2b64b4283b47732|||META|||Meta bans ads from TikTok on its apps
 2026-10-09T17:39:40+00:00|||PASS|||386924fa56e589cf81ab2a323c947b16|||DELL|||Dell CEO Gives Update On $6.25 Billion Giveaway After Wife's Appearance At White House Stunned Nation
 2026-10-09T17:40:29+00:00|||PASS|||28192dbbc65fc43be337724086523b8d|||SPCX|||Crown Castle Stock Jumping as SpaceX Acquires 800 MHz Spectrum
@@ -916,3 +911,10 @@
 2026-10-23T15:57:05+00:00|||PASS|||bf8155409ddc696e68aa09417dea6b22|||SPCX|||SpaceX’s $80 Billion Wireless Ambition Threatens AT&T, Verizon and T-Mobile
 2026-10-23T15:57:07+00:00|||PASS|||1a00e33161c9073b981685e200d4c2d0|||SPCX|||5 Telecom Stocks That Can Survive the Musk Threat—and 1 Reason to Buy SpaceX
 2026-10-23T16:05:53+00:00|||PASS|||b44aabac17530aa35cf6c8c970eba8ab|||IBM|||Meta and IBM earnings both get punished as oil prices spike too
+2026-10-23T17:19:14+00:00|||PASS|||ef643cef75f9cbfc01f3101350788143|||CAT|||Dividend Roundup: Citigroup, IBM, Caterpillar, Costco, and more (DVY:NASDAQ)
+2026-10-23T17:19:16+00:00|||PASS|||8ce9446421ba3a75781db7db3b178103|||CAT|||Caterpillar stock may move 6.3% on Oct. 29 earnings report
+2026-10-23T17:19:28+00:00|||PASS|||612866400fc9eb5b238440e283a0cde3|||META|||Eyemart Consumers Revive Lawsuit Over Web Data Sharing With Meta
+2026-10-23T17:20:34+00:00|||PASS|||86a0fda5add42c999f1852db5d6956b5|||NBIS|||Nebius borrows $3.5 billion as investors question neocloud debt
+2026-10-23T17:20:39+00:00|||PASS|||dcb41e68b4ce462fdea1a0774ade1ec2|||PLTR|||Palantir Guided for $2.16 Billion in Revenue for Q3. Its Last 2 Quarters Suggest We Should Expect More.
+2026-10-23T17:21:15+00:00|||PASS|||2a1b0279e8644e442d943f16b902e66d|||SPCX|||US telecom operators wobble after report SpaceX in talks for cell sites By Reuters
+2026-10-23T17:21:20+00:00|||PASS|||eb83d0eb9ef965868ce804ae9951e6b4|||SPCX|||US telecom operators wobble after report SpaceX in talks for cell sites
