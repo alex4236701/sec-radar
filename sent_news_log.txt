@@ -1,14 +1,4 @@
 @@HEARTBEAT|||2026-10-23|||2026-10-21T13:41:10+00:00
-2026-10-09T17:38:41+00:00|||PASS|||adddfecf73387495b2b64b4283b47732|||META|||Meta bans ads from TikTok on its apps
-2026-10-09T17:39:40+00:00|||PASS|||386924fa56e589cf81ab2a323c947b16|||DELL|||Dell CEO Gives Update On $6.25 Billion Giveaway After Wife's Appearance At White House Stunned Nation
-2026-10-09T17:40:29+00:00|||PASS|||28192dbbc65fc43be337724086523b8d|||SPCX|||Crown Castle Stock Jumping as SpaceX Acquires 800 MHz Spectrum
-2026-10-09T18:43:23+00:00|||PASS|||12dd0a593a8bd6720fd3234568636973|||META|||Nvidia-Backed Firmus Sought $30B Valuation on $51M Revenue - Meta Platforms (NASDAQ:META), NVIDIA (NASDAQ
-2026-10-09T18:43:30+00:00|||PASS|||6ed3e7f8e48e940ac945be82ca90bb3e|||TSLA|||Tesla Stock Jumps as Shanghai Deliveries Rise for 11th Straight Month
-2026-10-09T18:43:33+00:00|||PASS|||d0b89ea4f51add8646f9720ff814e889|||NVDA|||Nvidia-Backed Firmus Sought $30B Valuation on $51M Revenue - Meta Platforms (NASDAQ:META), NVIDIA (NASDAQ
-2026-10-09T18:44:17+00:00|||PASS|||a21700d33c5342ec15bad5d559d3c432|||AAOI|||One Reason To Buy Applied Optoelectronics Stock Now
-2026-10-09T18:44:24+00:00|||PASS|||913bca841af55a251474fe05e41ea82e|||NOK|||Arelion partners with Nokia to demonstrate expanded optical spectrum and backbone capacity
-2026-10-09T18:44:33+00:00|||PASS|||114e4d5fd68a9d3a6d625a4e9b532877|||DELL|||Susan Dell's transformation in then & now photos: from fashion week front row to $6.25 billion 'Trump Accounts' deal
-2026-10-09T18:45:16+00:00|||PASS|||68b800a57fe01e16d1b9177a164f15a6|||SPCX|||Bernstein's Madison Rezaei: SpaceX plan to buy spectrum portfolio is good for tower operators
 2026-10-09T20:39:58+00:00|||PASS|||bda38a94d6b409e1c9063b83d1475be6|||NVDA|||Nvidia Is in Talks to Value Perplexity at More Than $30 Billion
 2026-10-09T21:39:13+00:00|||PASS|||38f6200e6bdce3f4c845357aaf2405e1|||MSFT|||Delta cuts outlook, Microsoft fights H-1B restrictions, Bezos eyes Blue Origin IPO
 2026-10-09T21:39:42+00:00|||PASS|||ed5971fb553e773fc23a8bf998c43562|||LRCX|||Lam Research Stocks Edge Lower Before $8.1 Billion AI Test
@@ -918,3 +908,16 @@
 2026-10-23T17:20:39+00:00|||PASS|||dcb41e68b4ce462fdea1a0774ade1ec2|||PLTR|||Palantir Guided for $2.16 Billion in Revenue for Q3. Its Last 2 Quarters Suggest We Should Expect More.
 2026-10-23T17:21:15+00:00|||PASS|||2a1b0279e8644e442d943f16b902e66d|||SPCX|||US telecom operators wobble after report SpaceX in talks for cell sites By Reuters
 2026-10-23T17:21:20+00:00|||PASS|||eb83d0eb9ef965868ce804ae9951e6b4|||SPCX|||US telecom operators wobble after report SpaceX in talks for cell sites
+2026-10-23T20:32:19+00:00|||PASS|||a399dfbf4777699c1eff8f9762976327|||GEV|||GE Vernova Stocks Edge Lower Before $176 Billion Backlog Checkpoint
+2026-10-23T20:32:32+00:00|||PASS|||5b06c02a7e196c19ab8ce0f41176ce6f|||TSLA|||SpaceX-Tesla Merger? | Zuckerberg's Deal | The Rundown
+2026-10-23T20:32:35+00:00|||PASS|||d881914eb29d38fa9a88b3241e1907fd|||NVDA|||Apple Overtakes Nvidia as $5 Trillion Market Cap Battle Signals AI Stock Rotation
+2026-10-23T20:32:45+00:00|||PASS|||7deb6331c2023eafba6e1f42596bbbfd|||INTC|||Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs
+2026-10-23T20:32:46+00:00|||PASS|||bd95627a16193d4cfe5e05849fdd777c|||INTC|||FCC grants Intel waiver to use existing foreign-made robotic devices
+2026-10-23T20:33:19+00:00|||PASS|||a1ddbdeaf4c38a56914303bee13a28b3|||CRDO|||Credo Soars 7% as Super Micro’s $4 Billion Forecast Hike Signals “Increased Demand for AI Platforms”
+2026-10-23T20:33:32+00:00|||PASS|||88ae199ec34acf4c30983828a993d56b|||NOK|||In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE
+2026-10-23T20:34:23+00:00|||PASS|||89230cdb5a1e6d281a87604fa215a5f2|||SPCX|||SpaceX-Tesla Merger? | Zuckerberg's Deal | The Rundown
+2026-10-23T20:34:26+00:00|||PASS|||38fc13c338851ac4d42df6e337290770|||SPCX|||Not Starlink. Not Starship. Not Grok. $561 Million of SpaceX's $4.4 Billion Profit Came From an Unexpected Source.
+2026-10-23T20:34:28+00:00|||PASS|||fb6c8b00fb8f08bc936e36e5907c2a96|||SPCX|||In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE
+2026-10-23T20:34:29+00:00|||PASS|||373a92eb70b9941f4669c193f1f66d96|||SPCX|||Elon Musk Could Skirt $2 Billion Tax Bill With SpaceX Stock Gift
+2026-10-23T20:34:33+00:00|||PASS|||c6a0dd4922df576840fa8413d98a405a|||SPCX|||SpaceX in talks over 80,000 cell sites to build new wireless network - Bloomberg
+2026-10-23T20:34:59+00:00|||PASS|||2e88173c3598bc320baab64a80768229|||CRCL|||Coinbase will make USDC the default stablecoin on 82 million Galaxy phones
