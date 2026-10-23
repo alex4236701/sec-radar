@@ -915,3 +915,4 @@
 2026-10-23T15:56:26+00:00|||PASS|||1983391e361c819144aecd0a089982fe|||CRWV|||CoreWeave Has a $100 Billion AI Opportunity, but Investors Face One Big Question
 2026-10-23T15:57:05+00:00|||PASS|||bf8155409ddc696e68aa09417dea6b22|||SPCX|||SpaceX’s $80 Billion Wireless Ambition Threatens AT&T, Verizon and T-Mobile
 2026-10-23T15:57:07+00:00|||PASS|||1a00e33161c9073b981685e200d4c2d0|||SPCX|||5 Telecom Stocks That Can Survive the Musk Threat—and 1 Reason to Buy SpaceX
+2026-10-23T16:05:53+00:00|||PASS|||b44aabac17530aa35cf6c8c970eba8ab|||IBM|||Meta and IBM earnings both get punished as oil prices spike too
