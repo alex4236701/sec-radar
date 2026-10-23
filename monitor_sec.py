@@ -55,6 +55,33 @@ FORM4_HOLDING_MIN_VALUE = 20_000     # 持股的門檻放寬
 FORM4_PLAN_CLUSTER = 3               # 同一天有幾位以上內部人用同一價格買進，就當作公司持股計畫統一代買
 FORM144_CARD_MIN_VALUE = 1_000_000  # Form 144 預計賣出金額達到這個數字（美元）才單獨推卡；持股一律推卡
 DOC_TEXT_LIMIT = 4500            # 送 AI 的原文長度上限（字元）
+# 卡片上方附一段「事件影響」文字：整段複製、貼到該股的研究專案，就能請 Claude 判斷這則申報對研究的影響
+# 手機長按訊息選「複製文字」就會整段複製；不想要這段，把 True 改成 False
+COPY_BLOCK_FOR_RESEARCH = True
+FENCE = "`" * 3
+
+# ==================== 卡片顏色：一看就知道好壞 ====================
+# 紅＝利空、綠＝利多、黃＝好壞參半或要留意、灰＝例行資訊；卡片標題最前面也會寫這兩個字
+DIRECTION_STYLE = {
+    "利空": ("🔴", 0xE74C3C),
+    "利多": ("🟢", 0x2ECC71),
+    "留意": ("🟡", 0xF1C40F),
+    "例行": ("⚪", 0x95A5A6),
+}
+
+
+# 卡片右上角的大圓點（圖片放在公開的表情符號圖庫）；不想要右上角圓點，把 True 改成 False
+SHOW_DIRECTION_DOT = True
+DOT_BASE = "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/"
+DIRECTION_DOT = {"利空": "1f534.png", "利多": "1f7e2.png", "留意": "1f7e1.png", "例行": "26aa.png"}
+
+
+def normalize_direction(word, default="留意"):
+    """AI 回的「中性」在卡片上寫成「留意」；看不懂的一律當「留意」"""
+    w = str(word or "").strip()
+    if w == "中性":
+        w = "留意"
+    return w if w in DIRECTION_STYLE else default
 
 # 同一家公司的不同股票代號，統一成一個
 TICKER_CANONICAL = {"GOOG": "GOOGL"}
@@ -394,6 +421,7 @@ def ai_summarize(ticker, filing_context, doc_text, stats, allow_pass=False):
 【輸出要求（請像專業研究員用自然大白話直接講重點）】：
 • **【核心要點】**：一句話白話講清楚到底發生了什麼事（融資金額與利率、重大合約、資產收購處分、財報數字、高層異動或關鍵時程）。（繁體中文，40-65 字）
 • **【財務影響】**：直擊實質財務衝擊（營收貢獻、毛利變化、負債壓力、或股本稀釋風險）。（繁體中文，40-65 字）
+• **【方向】**：這份申報對公司價值的方向，只寫「利多」「利空」「中性」其中一個詞；好壞參半、要看後續或只是例行事項的寫中性。
 """
     AI_USAGE["count"] += 1
     stats["ai_calls"] += 1
@@ -416,10 +444,18 @@ def holding_mark(ticker):
     return "★ 持股｜" if ticker in HOLDINGS else ""
 
 
-def card(ticker, title, color, tag, summary):
+DIRECTION_LINE_RE = re.compile(r"^.*【方向】.*$\n?", re.M)
+
+
+def card(ticker, title, direction, tag, summary):
+    """direction 填「利空、利多、留意、例行」；填 None 代表照 AI 在摘要最後一行判的方向（8-K、6-K）"""
+    m = re.search(r"【方向】\W*(利多|利空|中性)", summary or "")
+    summary = DIRECTION_LINE_RE.sub("", summary or "").strip()
+    word = normalize_direction(direction if direction else (m.group(1) if m else ""))
+    emoji, color = DIRECTION_STYLE[word]
     return {"action": "card",
-            "intel": {"title": f"{holding_mark(ticker)}{title}：{ticker}"[:250],
-                      "color": color, "tag": tag, "summary": summary}}
+            "intel": {"title": f"{emoji} {word}｜{holding_mark(ticker)}{title}：{ticker}"[:250],
+                      "color": color, "tag": tag, "summary": summary, "direction": word}}
 
 
 def digest(text):
@@ -581,7 +617,7 @@ def settle_form4(ticker, items):
             summary += "• **【解讀】**：內部人自掏腰包在市場上買進；其中有依事先設定的 10b5-1 計畫執行的，訊號會弱一些。"
         else:
             summary += "• **【解讀】**：內部人自掏腰包在市場上買進（交易代碼 P），通常被視為對公司前景有信心的訊號。"
-        actions.append(("card", big, card(ticker, "🟢 【內部人公開市場買進】", 0x27AE60, tag, summary[:1000])["intel"]))
+        actions.append(("card", big, card(ticker, "【內部人公開市場買進】", "利多", tag, summary[:1000])["intel"]))
     return actions
 
 
@@ -620,7 +656,7 @@ def handle_form144(ticker, f, cik):
                    f"• **【預計賣出】**：{share_text}，市值約 {fmt_money(value)}，預計日期 {sale_date or '未填'}\n"
                    f"• **【解讀】**：Form 144 是內部人「預告」要賣股，實際成交會在之後的 Form 4 揭露；"
                    f"常見原因包含既定的 10b5-1 售股計畫或股票獎酬變現。")
-        decision = card(ticker, "🟠 【內部人預告賣股 Form 144】", 0xE67E22, f"{f['form']} (擬出售證券通知)", summary)
+        decision = card(ticker, "【內部人預告賣股 Form 144】", "留意", f"{f['form']} (擬出售證券通知)", summary)
         # 同一檔同一次掃描有好幾份 144（例如大股東用好幾個基金帳戶分開申報），會合併成一張卡
         decision["f144"] = {"line": f"{who}：{share_text}，約 {fmt_money(value)}，預計 {sale_date or '未填'}",
                             "value": value or 0}
@@ -668,13 +704,13 @@ def handle_13dg(ticker, f, cik):
                    f"• **【持股比例】**：{pct_text}（已降到 5% 以下）\n"
                    f"• **【解讀】**：主動型大股東已大幅出脫或退出，之後不再需要申報持股變動；"
                    f"可能代表介入經營的行動結束，請看原文說明的出售原因。")
-        return card(ticker, "🟣 【主動型大股東 13D 減持退出】", 0x8E44AD, f"{form} (持股降至 5% 以下)", summary)
+        return card(ticker, "【主動型大股東 13D 減持退出】", "留意", f"{form} (持股降至 5% 以下)", summary)
     if is_13d:
         summary = (f"• **【申報人】**：{who}\n"
                    f"• **【持股比例】**：{pct_text}{'（修正申報）' if is_amend else ''}\n"
                    f"• **【解讀】**：13D 代表持股超過 5% 且可能介入經營（例如要求董事席次、推動併購或改組），"
                    f"屬主動型大股東，值得細看原文的「交易目的」段落。")
-        return card(ticker, "🟣 【主動型大股東 13D】", 0x8E44AD, f"{form} (持股 5% 以上・主動)", summary)
+        return card(ticker, "【主動型大股東 13D】", "留意", f"{form} (持股 5% 以上・主動)", summary)
     # 13G 是被動型機構持股，大型股幾乎天天有；非持股一律併入每日通知
     if ticker not in HOLDINGS:
         label = "13G 修正" if is_amend else "13G 被動型持股超過 5%"
@@ -682,7 +718,7 @@ def handle_13dg(ticker, f, cik):
     summary = (f"• **【申報人】**：{who}\n"
                f"• **【持股比例】**：{pct_text}{'（修正申報）' if is_amend else ''}\n"
                f"• **【解讀】**：13G 是被動型投資人（基金、機構）持股超過 5% 的申報，不打算介入經營。")
-    return card(ticker, "🔵 【被動型大股東 13G】", 0x2980B9, f"{form} (持股 5% 以上・被動)", summary)
+    return card(ticker, "【被動型大股東 13G】", "例行", f"{form} (持股 5% 以上・被動)", summary)
 
 
 def first_money(text):
@@ -697,25 +733,25 @@ def first_money(text):
 def classify_424b5(head):
     """
     依說明書封面判斷 424B5 是發股還是發債（只看封面，因為發債說明書後段也常提到普通股）
-    回傳 (類型, 顏色, 標題, 解讀)
+    回傳 (類型, 方向, 標題, 解讀)
     """
     low = head.lower()
     if re.search(r"convertible (?:senior )?(?:unsecured )?(?:notes|debentures|preferred)", low):
-        return ("CONVERT", 0xE67E22, "⚠️ 【可轉債發行】",
+        return ("CONVERT", "利空", "⚠️ 【可轉債發行】",
                 "發行可轉換公司債：先借錢，未來可能轉成股票，有潛在稀釋；轉換價通常高於現價。")
     if re.search(r"at[- ]the[- ]market|equity distribution agreement|sales agreement|distribution agreement", low):
-        return ("ATM", 0xE74C3C, "⚠️ 【ATM 市價增發股票】",
+        return ("ATM", "利空", "⚠️ 【ATM 市價增發股票】",
                 "啟動或擴大 ATM（在市場上逐步賣新股）計畫，股本會持續增加，對每股盈餘有稀釋壓力。")
     debt = re.search(r"\b(?:notes|debentures|bonds) due\b|\bsenior (?:unsecured |secured )?notes\b|\d% notes\b", low)
     equity = re.search(r"common stock|ordinary shares|american depositary shares|\badss?\b|common shares|"
                        r"pre-funded warrants|shares of (?:our )?(?:class [a-z] )?common", low)
     if debt and (not equity or debt.start() < equity.start()):
-        return ("DEBT", 0x7F8C8D, "🏦 【公司發債】",
+        return ("DEBT", "留意", "🏦 【公司發債】",
                 "發行公司債（借錢），不會增加股數、沒有股本稀釋；要留意利率高低與負債增加。")
     if equity:
-        return ("EQUITY", 0xE74C3C, "⚠️ 【增發新股】",
+        return ("EQUITY", "利空", "⚠️ 【增發新股】",
                 "公開發行新股（現金增資），股本增加，對每股盈餘有稀釋壓力；留意發行價相對市價的折價幅度。")
-    return ("UNKNOWN", 0xE67E22, "⚠️ 【公開發行說明書 424B5】",
+    return ("UNKNOWN", "留意", "⚠️ 【公開發行說明書 424B5】",
             "未能從封面判斷是發股或發債，請點擊標題確認。")
 
 
@@ -729,7 +765,7 @@ def offering_head(cik, f):
 def handle_offering(ticker, f, cik):
     form = f["form"]
     if form == "424B7":
-        return card(ticker, "⚠️ 【既有股東轉售股票】", 0xE67E22, "424B7 (轉售說明書)",
+        return card(ticker, "⚠️ 【既有股東轉售股票】", "留意", "424B7 (轉售說明書)",
                     "• **【核心要點】**：現有股東（創投、創辦人或機構）登記要賣出持股，錢不進公司。\n"
                     "• **【財務影響】**：不稀釋股本，但會增加市場上的賣壓，留意短期承接力道。")
     head = offering_head(cik, f)
@@ -740,10 +776,10 @@ def handle_offering(ticker, f, cik):
     stage = "（初步說明書，尚未定價）" if prelim else ""
 
     if form == "424B5":
-        kind, color, title, meaning = classify_424b5(head)
+        kind, direction, title, meaning = classify_424b5(head)
         if kind == "DEBT" and ticker not in HOLDINGS:
             return digest(f"424B5 公司發債{stage}" + (f"：{amount}" if amount else ""))
-        return card(ticker, title, color, f"424B5 (公開發行補充說明書){stage}",
+        return card(ticker, title, direction, f"424B5 (公開發行補充說明書){stage}",
                     f"• **【判讀】**：{meaning}{amount_text}\n• **【依據】**：依說明書封面文字判斷，非 AI。")
 
     resale = re.search(r"selling (?:stock|share|security|unit)holders?", low)
@@ -753,18 +789,18 @@ def handle_offering(ticker, f, cik):
     if form == "424B3" and re.search(r"proxy statement/prospectus|proxy statement / prospectus|offer to exchange|exchange offer", low):
         if ticker not in HOLDINGS:
             return digest("424B3 併購換股說明書")
-        return card(ticker, "🤝 【併購換股說明書】", 0x9B59B6, f"424B3 (併購說明書){stage}",
+        return card(ticker, "🤝 【併購換股說明書】", "留意", f"424B3 (併購說明書){stage}",
                     "• **【判讀】**：這是併購案用來發給股東看的換股說明書，通常在併購宣布後一段時間才出來，"
                     "會列出換股比例、股東會投票時間與交易條件；不是公司另外募資發新股。")
     if resale:
-        return card(ticker, "⚠️ 【股東轉售登記】", 0xE67E22, f"{form} (轉售說明書){stage}",
+        return card(ticker, "⚠️ 【股東轉售登記】", "留意", f"{form} (轉售說明書){stage}",
                     "• **【判讀】**：登記讓既有股東（常見為私募投資人、可轉債或認股權證持有人）可以在市場上賣股，"
                     f"錢不進公司，但會增加賣壓。{amount_text}")
     if form == "424B4":
-        return card(ticker, "⚠️ 【發行最終定價 424B4】", 0xE74C3C, "424B4 (定價說明書)",
+        return card(ticker, "⚠️ 【發行最終定價 424B4】", "利空", "424B4 (定價說明書)",
                     "• **【判讀】**：IPO 或增資已定價的最終說明書，新股即將交割，股本增加。"
                     f"{amount_text}")
-    return card(ticker, "⚠️ 【公開發行說明書】", 0xE67E22, f"{form}{stage}",
+    return card(ticker, "⚠️ 【公開發行說明書】", "留意", f"{form}{stage}",
                 f"• **【判讀】**：發行新證券的說明書，請點擊標題確認發行內容。{amount_text}")
 
 
@@ -773,11 +809,11 @@ def handle_registration(ticker, f, cik):
     if form.endswith("/A"):
         return digest(f"{form} 註冊文件修正")
     if form in ("S-3ASR", "F-3ASR"):
-        return card(ticker, "📄 【大型公司例行貨架登記】", 0x95A5A6, f"{form} (自動生效貨架登記)",
+        return card(ticker, "📄 【大型公司例行貨架登記】", "例行", f"{form} (自動生效貨架登記)",
                     "• **【說明】**：只有大型公司能用的自動生效貨架登記，多數是每三年例行更新，"
                     "不代表馬上要發股；真正發行時會另有 424B 申報。")
     if form in ("S-3", "F-3"):
-        return card(ticker, "📑 【融資額度登記（貨架）】", 0xF39C12, f"{form} (貨架登記申請)",
+        return card(ticker, "📑 【融資額度登記（貨架）】", "留意", f"{form} (貨架登記申請)",
                     "• **【說明】**：申請未來三年內可隨時發行股票或債券的總額度。"
                     "中小型公司申請通常是融資前兆，市場常視為稀釋訊號。")
     # S-1 / F-1
@@ -791,7 +827,7 @@ def handle_registration(ticker, f, cik):
         meaning = "首次公開發行（IPO）註冊。"
     else:
         meaning = "發行新股的註冊文件，中小型公司常見的融資方式，有股本稀釋風險。"
-    return card(ticker, "⚠️ 【發行註冊 S-1/F-1】", 0xE67E22, f"{form} (證券發行註冊)", f"• **【判讀】**：{meaning}")
+    return card(ticker, "⚠️ 【發行註冊 S-1/F-1】", "留意", f"{form} (證券發行註冊)", f"• **【判讀】**：{meaning}")
 
 
 def is_routine_6k(texts):
@@ -827,7 +863,7 @@ def handle_6k(ticker, f, cik, stats):
                            allow_pass=ticker not in HOLDINGS)
     if summary == AI_PASS:
         return skip("AI 判定 6-K 不重要")
-    return card(ticker, "🌍 【外國公司重大公告 6-K】", 0x9B59B6, f"{f['form']} (外國發行人重大備案)", summary)
+    return card(ticker, "🌍 【外國公司重大公告 6-K】", None, f"{f['form']} (外國發行人重大備案)", summary)
 
 
 def build_8k_text(cik, f, index_info):
@@ -856,8 +892,8 @@ def handle_8k(ticker, f, cik, stats):
     if summary == AI_PASS:
         return skip(f"AI 判定 8-K 不重要（項目 {items_str or '未標示'}）")
     if tokens & HIGH_IMPACT_8K_ITEMS:
-        return card(ticker, "⚡ 【8-K 重大申報】", 0x2ECC71, f"{f['form']} (核心項目: {items_str})", summary)
-    return card(ticker, "📑 【8-K 公告解讀】", 0x34495E, f"{f['form']} (項目: {items_str or '未標示'})", summary)
+        return card(ticker, "⚡ 【8-K 重大申報】", None, f"{f['form']} (核心項目: {items_str})", summary)
+    return card(ticker, "📑 【8-K 公告解讀】", None, f"{f['form']} (項目: {items_str or '未標示'})", summary)
 
 
 # 「繼續經營疑慮」的肯定句寫法；前面若是 could、may 這類假設語氣（風險因素常見寫法）就不算
@@ -886,7 +922,7 @@ def handle_filing(ticker, f, cik, stats):
     form = f["form"].upper().strip()
     if form in LATE_FILING_FORMS:
         base = form.replace("NT ", "").replace("/A", "")
-        return card(ticker, "🚨 【財報延遲申報】", 0xC0392B, f"{form} (無法如期繳交 {base})",
+        return card(ticker, "🚨 【財報延遲申報】", "利空", f"{form} (無法如期繳交 {base})",
                     f"• **【核心要點】**：{ticker} 向 SEC 申報無法如期繳交 {base} 定期報告。\n"
                     "• **【財務影響】**：可能涉及內部控制缺失、審計問題或財務重編，也可能只是併購等技術性延誤，請看原文說明的理由。")
     if form in DIGEST_PERIODIC_FORMS:
@@ -897,7 +933,7 @@ def handle_filing(ticker, f, cik, stats):
             except SecNotFound:
                 sentence = None
             if sentence:
-                return card(ticker, "🚨 【財報揭露繼續經營疑慮】", 0xC0392B,
+                return card(ticker, "🚨 【財報揭露繼續經營疑慮】", "利空",
                             f"{form} ({PERIODIC_LABELS.get(base, '定期報告')}・Going Concern)",
                             "• **【核心要點】**：公司在財報中揭露，對自己能否繼續經營存在重大疑慮（going concern），"
                             "通常代表現金不足以撐過未來一年。\n"
@@ -948,6 +984,21 @@ def post_to_discord(payload):
     return False
 
 
+def research_copy_block(lines):
+    """組出卡片上方的「事件影響」文字（Discord 一則訊息最多 2,000 字，這裡留餘裕）"""
+    body = "\n".join(["【事件影響】"] + [l.replace(FENCE, "'") for l in lines if l])
+    return FENCE + "\n" + body[:1850] + "\n" + FENCE
+
+
+def plain_summary(summary, limit=400):
+    """拿掉 Discord 的粗體與項目符號，變成可以直接貼上的純文字"""
+    t = re.sub(r"\*\*|__|`", "", summary or "")
+    t = re.sub(r"^\s*[•\-]\s*", "", t, flags=re.M)
+    t = re.sub(r"\s*\n\s*", "；", t.strip())
+    t = re.sub(r"(?:\s*[；;]\s*)+", "；", t)
+    return t[:limit]
+
+
 def send_filing_card(ticker, f, cik, intel):
     now_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
     payload = {
@@ -966,6 +1017,22 @@ def send_filing_card(ticker, f, cik, intel):
             "footer": {"text": f"SEC EDGAR 原文直達 • 案號: {f['accessionNumber']} • 推播: {now_tw_str}"},
         }],
     }
+    if SHOW_DIRECTION_DOT:
+        payload["embeds"][0]["thumbnail"] = {"url": DOT_BASE + DIRECTION_DOT[intel.get("direction", "留意")]}
+    if COPY_BLOCK_FOR_RESEARCH:
+        # 卡片標題例如「★ 持股｜⚡ 【8-K 重大申報】：UAMY」，只留中間的說明文字
+        kind = intel["title"].rsplit("｜", 1)[-1].rsplit("：", 1)[0]
+        kind = re.sub(r"^[^\w【]+", "", kind).strip()
+        payload["content"] = research_copy_block([
+            f"代號：{ticker}" + ("（持股）" if ticker in HOLDINGS else ""),
+            f"種類：SEC {intel['tag'][:200]}",
+            f"說明：{kind}",
+            f"方向：{intel.get('direction', '留意')}（推播初判）",
+            f"申報日：{f['filingDate']}",
+            f"重點：{plain_summary(intel['summary'], 600)}",
+            f"連結：{filing_view_url(cik, f['accessionNumber'], f['primaryDocument'])}",
+            f"案號：{f['accessionNumber']}",
+        ])
     return post_to_discord(payload)
 
 
