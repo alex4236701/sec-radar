@@ -56,6 +56,33 @@ WEEKEND_MIN_GAP_HOURS = 6.0     # 週末兩次掃描至少間隔幾小時（排�
 MAX_CONSECUTIVE_FETCH_FAILS = 8  # 連續幾檔抓取失敗就判定被封鎖，提前結束並警報
 MAX_AI_PER_TICKER = 8           # 單輪每檔最多送 AI 判讀幾則，其餘留到下次執行（控制費用）
 MAX_RUN_MINUTES = 30            # 整輪最多跑幾分鐘（workflow 上限 40 分鐘），超過就提前結束並警報
+# 卡片上方附一段「事件影響」文字：整段複製、貼到該股的研究專案，就能請 Claude 判斷這則新聞對研究的影響
+# 手機長按訊息選「複製文字」就會整段複製；不想要這段，把 True 改成 False
+COPY_BLOCK_FOR_RESEARCH = True
+FENCE = "`" * 3
+
+# ==================== 卡片顏色：一看就知道好壞 ====================
+# 紅＝利空、綠＝利多、黃＝好壞參半或要留意、灰＝例行資訊；卡片標題最前面也會寫這兩個字
+DIRECTION_STYLE = {
+    "利空": ("🔴", 0xE74C3C),
+    "利多": ("🟢", 0x2ECC71),
+    "留意": ("🟡", 0xF1C40F),
+    "例行": ("⚪", 0x95A5A6),
+}
+
+
+# 卡片右上角的大圓點（圖片放在公開的表情符號圖庫）；不想要右上角圓點，把 True 改成 False
+SHOW_DIRECTION_DOT = True
+DOT_BASE = "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/"
+DIRECTION_DOT = {"利空": "1f534.png", "利多": "1f7e2.png", "留意": "1f7e1.png", "例行": "26aa.png"}
+
+
+def normalize_direction(word, default="留意"):
+    """AI 回的「中性」在卡片上寫成「留意」；看不懂的一律當「留意」"""
+    w = str(word or "").strip()
+    if w == "中性":
+        w = "留意"
+    return w if w in DIRECTION_STYLE else default
 
 # 持股清單從 holdings.txt 讀取（一行一個代號），持股變動只要改那個檔案，不用改程式
 # 持股的待遇：放寬推播條件、每日上限較高、推播標題標「★ 持股」、每次最優先掃描
@@ -1233,26 +1260,48 @@ def post_to_discord(payload):
 
 
 TYPE_CONFIGS = {
-    "DILUTION": {"label": "⚠️ 資本融資與稀釋警報", "color": 0xE74C3C,
+    "DILUTION": {"label": "⚠️ 資本融資與稀釋警報", "color": 0xE74C3C, "default_direction": "利空",
                  "desc": "股權融資/稀釋（可轉債、現增、ATM）"},
-    "CRISIS": {"label": "🚨 重大利空警報", "color": 0xC0392B,
+    "CRISIS": {"label": "🚨 重大利空警報", "color": 0xC0392B, "default_direction": "利空",
                "desc": "調查/反壟斷/制裁/禁令/做空報告/財測下修/破產"},
-    "M&A": {"label": "🤝 併購/重大投資", "color": 0x9B59B6,
+    "M&A": {"label": "🤝 併購/重大投資", "color": 0x9B59B6, "default_direction": "留意",
             "desc": "收購/資產出售/重組拆分/外部注資"},
-    "EARNINGS": {"label": "📊 財報/財測更新", "color": 0x3498DB,
+    "EARNINGS": {"label": "📊 財報/財測更新", "color": 0x3498DB, "default_direction": "留意",
                  "desc": "官方財報公布、財測調整或庫藏股"},
-    "PRODUCT": {"label": "🚀 產品/技術發表", "color": 0x1ABC9C,
+    "PRODUCT": {"label": "🚀 產品/技術發表", "color": 0x1ABC9C, "default_direction": "利多",
                 "desc": "新產品發表 / 技術突破 / 監管核准"},
-    "ORDER": {"label": "💰 訂單/合作/授權", "color": 0x2ECC71,
+    "ORDER": {"label": "💰 訂單/合作/授權", "color": 0x2ECC71, "default_direction": "利多",
               "desc": "客戶合約 / 採購訂單 / 授權協議 / 合作"},
-    "LEADERSHIP": {"label": "👤 高層異動", "color": 0xF1C40F,
+    "LEADERSHIP": {"label": "👤 高層異動", "color": 0xF1C40F, "default_direction": "留意",
                    "desc": "執行長、財務長等高層任命或離職"},
 }
 
 
-def send_news_embed(ticker, title, event_type, summary, news_url, pub_date_str, source_name, title_zh=""):
+def research_copy_block(lines):
+    """組出卡片上方的「事件影響」文字（Discord 一則訊息最多 2,000 字，這裡留餘裕）"""
+    body = "\n".join(["【事件影響】"] + [l.replace(FENCE, "'") for l in lines if l])
+    return FENCE + "\n" + body[:1850] + "\n" + FENCE
+
+
+def plain_summary(summary, limit=400):
+    """拿掉 Discord 的粗體與項目符號，變成可以直接貼上的純文字"""
+    t = re.sub(r"\*\*|__|`", "", summary or "")
+    t = re.sub(r"^\s*[•\-]\s*", "", t, flags=re.M)
+    t = re.sub(r"\s*\n\s*", "；", t.strip())
+    t = re.sub(r"(?:\s*[；;]\s*)+", "；", t)
+    return t[:limit]
+
+
+def send_news_embed(ticker, title, event_type, summary, news_url, pub_date_str, source_name, title_zh="",
+                    direction=""):
     now_tw_str = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M")
     cfg = TYPE_CONFIGS.get(event_type, TYPE_CONFIGS["ORDER"])
+    # 稀釋與重大利空一律紅色；其他照 AI 判的方向，AI 沒給時照事件類型的預設
+    if event_type in ("DILUTION", "CRISIS"):
+        word = "利空"
+    else:
+        word = normalize_direction(direction, cfg["default_direction"])
+    emoji, color = DIRECTION_STYLE[word]
     holding_mark = "★ 持股｜" if ticker in HOLDINGS else ""
 
     if title_zh and title_zh != title:
@@ -1264,9 +1313,9 @@ def send_news_embed(ticker, title, event_type, summary, news_url, pub_date_str, 
         "username": "Market Impact Radar",
         "avatar_url": "https://cdn-icons-png.flaticon.com/512/2965/2965879.png",
         "embeds": [{
-            "title": f"{holding_mark}{cfg['label']}：{ticker}",
+            "title": f"{emoji} {word}｜{holding_mark}{cfg['label']}：{ticker}",
             "url": news_url,
-            "color": cfg["color"],
+            "color": color,
             "fields": [
                 {"name": "📌 標的", "value": f"`{ticker}`", "inline": True},
                 {"name": "📅 發布時間 (台灣)", "value": f"`{pub_date_str}`", "inline": True},
@@ -1278,6 +1327,20 @@ def send_news_embed(ticker, title, event_type, summary, news_url, pub_date_str, 
             "footer": {"text": f"Market Radar • 推播時間: {now_tw_str}"}
         }]
     }
+    if SHOW_DIRECTION_DOT:
+        payload["embeds"][0]["thumbnail"] = {"url": DOT_BASE + DIRECTION_DOT[word]}
+    if COPY_BLOCK_FOR_RESEARCH:
+        payload["content"] = research_copy_block([
+            f"代號：{ticker}" + ("（持股）" if ticker in HOLDINGS else ""),
+            f"種類：新聞・{cfg['label'].split(' ', 1)[-1]}",
+            f"方向：{word}（推播初判）",
+            f"時間：{pub_date_str}（台灣）",
+            f"來源：{source_name}",
+            f"標題：{title[:300]}",
+            f"中文：{title_zh[:200]}" if title_zh and title_zh != title else "",
+            f"重點：{plain_summary(summary)}" if summary else "",
+            f"連結：{news_url}",
+        ])
     return post_to_discord(payload)
 
 
@@ -1494,22 +1557,23 @@ PRODUCT：新產品、新技術發表、監管核准。
 title_zh：把英文標題翻成繁體中文，保留型號與代號。
 action：一句話白話說明發生什麼事，40 到 60 字。有對象或金額就自然帶出，沒有就不用硬湊。
 impact：實質財務影響（營收、毛利、負債、稀釋），40 到 60 字，遵守上方資訊限制。
+direction：這則消息對公司價值的方向，只能填「利多」「利空」「中性」其中一個；好壞參半、要看後續或只是例行消息的填中性。
 
 【輸出格式】：只輸出 JSON 物件，不要任何其他文字。
 不符合時輸出：{"type": "PASS"}
 符合時輸出：
-{"type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS 或 LEADERSHIP", "title_zh": "...", "action": "...", "impact": "..."}
+{"type": "ORDER 或 M&A 或 DILUTION 或 EARNINGS 或 PRODUCT 或 CRISIS 或 LEADERSHIP", "title_zh": "...", "action": "...", "impact": "...", "direction": "利多 或 利空 或 中性"}
 """
 
 
 def summarize_with_ai(ticker, context, recent_titles=None):
     """
-    回傳 (狀態, 事件類型, 摘要, 中文標題)
+    回傳 (狀態, 事件類型, 摘要, 中文標題, 方向)
     狀態：OK（放行）、PASS（不推）、ERROR（呼叫失敗，下次重試）
     """
     if not OPENAI_API_KEY:
         print("      ❌ [環境變數警告] 未設定 OPENAI_API_KEY！", flush=True)
-        return "ERROR", "", "", ""
+        return "ERROR", "", "", "", ""
 
     company_name = get_display_name(ticker)
     recent_block = "\n".join(f"{i}. {t}" for i, t in enumerate((recent_titles or [])[:10], 1)) or "（無）"
@@ -1533,19 +1597,19 @@ def summarize_with_ai(ticker, context, recent_titles=None):
     for attempt in range(2):
         content = openai_chat_json(messages, temperature=0.1, attempts=3)
         if content is None:
-            return "ERROR", "", "", ""
+            return "ERROR", "", "", "", ""
         try:
             content = content.strip()
             json_match = re.search(r"\{[\s\S]*\}", content)
             if not json_match:
                 if content.upper().startswith("PASS"):
-                    return "PASS", "", "", ""
+                    return "PASS", "", "", "", ""
                 continue
 
             parsed = json.loads(json_match.group(0))
             event_type = str(parsed.get("type", "")).strip().upper()
             if event_type == "PASS":
-                return "PASS", "", "", ""
+                return "PASS", "", "", "", ""
             if event_type not in VALID_EVENT_TYPES:
                 event_type = "ORDER"
 
@@ -1553,14 +1617,15 @@ def summarize_with_ai(ticker, context, recent_titles=None):
             action = str(parsed.get("action", "")).strip()
             impact = str(parsed.get("impact", "")).strip()
             if not action or not impact:
-                return "PASS", "", "", ""
+                return "PASS", "", "", "", ""
 
             summary = f"• **【核心要點】**：{action}\n• **【財務影響】**：{impact}"
-            return "OK", event_type, summary, title_zh
+            direction = str(parsed.get("direction", "")).strip()
+            return "OK", event_type, summary, title_zh, direction
         except Exception as e:
             print(f"      ⚠️ [AI 回覆格式異常] {e}", flush=True)
 
-    return "ERROR", "", "", ""
+    return "ERROR", "", "", "", ""
 
 
 # ==================== 新聞抓取 ====================
@@ -1682,7 +1747,7 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
 
         context = f"標題: {clean_title}\n來源: {source_name}\n發布時間（台灣）: {pub_tw_str}\n摘要: {item['snippet']}"
         recent_titles = recent_sent_titles(ticker, history_entries)
-        status, event_type, summary, title_zh = summarize_with_ai(ticker, context, recent_titles)
+        status, event_type, summary, title_zh, direction = summarize_with_ai(ticker, context, recent_titles)
 
         if status == "ERROR":
             stats["ai_error"] += 1
@@ -1707,7 +1772,7 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
 
         print(f"      🎯 [AI 放行] {event_type}，發送 Discord...", flush=True)
         ok_push = send_news_embed(ticker, clean_title, event_type, summary, item["url"],
-                                  pub_tw_str, source_name, title_zh)
+                                  pub_tw_str, source_name, title_zh, direction)
         if ok_push:
             stats["pushed"] += 1
             entry["status"] = "SENT"
