@@ -1,1 +1,10 @@
-[]
+[
+ {
+  "date": "2026-10-23",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "WDC",
+  "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm"
+ }
+]
