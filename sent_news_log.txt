@@ -1,12 +1,4 @@
 @@HEARTBEAT|||2026-10-24|||2026-10-21T13:41:10+00:00
-2026-10-10T08:42:34+00:00|||PASS|||f7d2af0570d68c835bb5c6e50d38e184|||AMZN|||Amazon Reshuffles Alexa Leadership: Can Alexa+ Move a $53 Billion Subscription Business?
-2026-10-10T08:42:39+00:00|||PASS|||a0a7fe0fee147b4f081e3212d4e383a6|||AMZN|||Amazon’s Thane Data Center Fight: A $8.3 Billion Plan Inside a $173 Billion Capex Budget
-2026-10-10T08:42:42+00:00|||PASS|||2d6bbc19fdf58feeb025631bb46bccab|||META|||Meta Bans TikTok Owner ByteDance From Advertising in 7 Countries: “We Don’t Have to Run Ads From a Competitor”
-2026-10-10T08:42:55+00:00|||PASS|||0206b5186a5dc1feb3f78e10bcfb1647|||TSM|||TSMC's Q3 Revenue Represents a Slightly Larger-Than-Typical Beat, Wedbush Says
-2026-10-10T08:42:55+00:00|||PASS|||43f80b70727c73e5bbf4377b25e142c7|||TSM|||Taiwan Semiconductor's strong Q3 sales a positive sign for Q4, Wedbush says (TSM:NYSE)
-2026-10-10T08:43:06+00:00|||PASS|||b055dc44725d86141a577a4179f327e3|||ASML|||ASML's Q3 Earnings Coming Up: How Should You Play the Stock?
-2026-10-10T08:43:47+00:00|||PASS|||76640c424466235b1a6175de05e0bb7d|||PLTR|||Goldman Sachs Upgrades Palantir to Buy, Sees 18% Upside and Further Outperformance Into 2027
-2026-10-10T08:44:21+00:00|||PASS|||9f2016bb13dd0eb6fc973bf01cffde7c|||SPCX|||Elon Musk intensifies attack on Ambani over Starlink India launch delay
 2026-10-10T16:42:05+00:00|||PASS|||9c4f17c20f605e6171c7b00c6a92799e|||CRUS|||Cirrus Logic made a secret run at Synaptics before Onsemi's deal got sweeter
 2026-10-10T16:42:08+00:00|||PASS|||a65dec1b7d54f3eb6c4522c09f7a5c8c|||GOOGL|||Alphabet (GOOGL) Has A $5 Billion Waymo Loan And A $50 Billion AI Bet
 2026-10-10T16:42:10+00:00|||PASS|||c9d9e0fbce853c0488b3cb2c67a8658f|||GOOGL|||Investor Predicts Anthropic Could Be “the First” $10 Trillion Company. Cue the Amazon + Google Payday
@@ -921,3 +913,8 @@
 2026-10-23T23:56:02+00:00|||PASS|||015ed2323271b4f3870fdf362a937ba2|||SPCX|||Watch SpaceX-Tesla Merger? | Zuckerberg's Deal | The Rundown
 2026-10-24T04:52:54+00:00|||PASS|||382c6849bda06d265f24d10abd6c9026|||QCOM|||Qualcomm May Be Preparing Another Round of Job Cuts Next Month. Here’s What to Know.
 2026-10-24T04:53:13+00:00|||PASS|||4ff828e60fe911ad87a8a68d37878f2d|||KLAC|||Should KLAC Stock Be in Your Portfolio Pre-Q1 Earnings Results?
+2026-10-24T12:50:39+00:00|||PASS|||59daa22cfba08c28f8483a8a644ae19c|||ONDS|||Ondas Inc. Financials | ONDS
+2026-10-24T12:51:06+00:00|||PASS|||41a7ede6d2107c967f0b622d821f1ea0|||TSLA|||Tesla Got Trump Tariff Refunds, and Elon Musk Isn’t Sitting on the Cash — CFO Says Money Is Going Into...
+2026-10-24T12:51:54+00:00|||SENT|||d731dd1daf4ce68e8d19929b429be841|||CSCO|||Cisco posts record revenue and cuts 4,000 jobs on the same earnings call
+2026-10-24T12:52:15+00:00|||PASS|||b8cf4c903a83b0a9b8f6fad6075f58c3|||NBIS|||Nebius Stock Fell 7% the Day It Announced a $3.5 Billion Citi Facility. Here’s What Its CEO Said About How Long the AI Chip Shortage Lasts
+2026-10-24T12:52:54+00:00|||PASS|||91ead0fb2ea707b8b92b88ab82727303|||SPCX|||Elon Musk Expects SpaceX to Make $500 Billion to $1 Trillion in Sales Next Year. Here's What That Means for the Stock.
