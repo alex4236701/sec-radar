@@ -1,21 +1,4 @@
 @@HEARTBEAT|||2026-10-24|||2026-10-21T13:41:10+00:00
-2026-10-10T16:42:05+00:00|||PASS|||9c4f17c20f605e6171c7b00c6a92799e|||CRUS|||Cirrus Logic made a secret run at Synaptics before Onsemi's deal got sweeter
-2026-10-10T16:42:08+00:00|||PASS|||a65dec1b7d54f3eb6c4522c09f7a5c8c|||GOOGL|||Alphabet (GOOGL) Has A $5 Billion Waymo Loan And A $50 Billion AI Bet
-2026-10-10T16:42:10+00:00|||PASS|||c9d9e0fbce853c0488b3cb2c67a8658f|||GOOGL|||Investor Predicts Anthropic Could Be “the First” $10 Trillion Company. Cue the Amazon + Google Payday
-2026-10-10T16:42:12+00:00|||PASS|||ada146c65bdbdb166d57f9dbe0558930|||GOOGL|||Sundar Pichai Reported Alphabet's Cloud Revenue Grew 82% to $24.8 Billion Last Quarter, With the Gemini App Reaching 950 Million Monthly Users. Is Google Cloud Becoming a Bigger Growth Driver Than Search?
-2026-10-10T16:42:32+00:00|||PASS|||81a83d0b077ea8dfc516c97c969ac9dc|||FCEL|||FuelCell Energy Inc. stock rises Friday, outperforms market
-2026-10-10T16:42:36+00:00|||PASS|||f0d2142459380caa7e0bec5a308a5c92|||GEV|||GE Vernova (GEV) Just Turned AI Data Centers Into A $5 Billion Order Tailwind
-2026-10-10T16:42:39+00:00|||PASS|||2b10e3826f0e643342cebdca11aaf812|||CAT|||Will a $1 Billion Automation Push in North Carolina Change Caterpillar's (CAT) Small-Equipment Narrative?
-2026-10-10T16:42:48+00:00|||PASS|||809f0d10022a4b3eb703df8b080a0b10|||AMZN|||Investor Predicts Anthropic Could Be “the First” $10 Trillion Company. Cue the Amazon + Google Payday
-2026-10-10T16:42:51+00:00|||PASS|||39755decc96ffdd8f8ec4411d855ff48|||META|||In the Netherlands and Belgium, Hans Anders pulls Meta's Ray-Ban smart glasses over privacy fears
-2026-10-10T16:42:55+00:00|||PASS|||129a3169fce9cc1843a73a33461ba6e9|||TSLA|||Tesla Beat Delivery Estimates by 25,000 Vehicles. Here's Why the Stock Still Hasn't Broken Out.
-2026-10-10T16:42:58+00:00|||PASS|||d8de9ee0c765e59395f472a04bdcfcb2|||NVDA|||Nvidia built a nearly $5 trillion company while making employees pay for their own lunch
-2026-10-10T16:43:00+00:00|||PASS|||f3adfdf85b5954e54dd1df57f622933c|||NVDA|||Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs — impending supply drought expected to drive up prices, RTX 5080 24GB rumored as new gaming flagship
-2026-10-10T16:43:04+00:00|||PASS|||e561b4ad361357b5b5d2f03263d2085e|||MRVL|||Marvell: Why I’m Finally Upgrading To Buy (Rating Upgrade) (NASDAQ:MRVL)
-2026-10-10T16:43:06+00:00|||PASS|||8c8886d3a13ed7e18d17b26e042d5c2f|||MRVL|||Marvell Says Connecting AI Chips Could Be a $37 Billion Business—These 2 Stocks Rallied Too
-2026-10-10T16:44:02+00:00|||PASS|||2d227e140527b2e78de3e655ca1d15c5|||PLTR|||Palantir CEO says only trade workers or those with neurodivergence will succeed in the AI era
-2026-10-10T16:44:18+00:00|||SENT|||092dcac8266f8df70e0f839031cdb46d|||NET|||Cloudflare acquires Deno to improve its Workers programming model
-2026-10-10T16:44:43+00:00|||PASS|||023f8165cda33b8c6345ca1145e8ee89|||SPCX|||SpaceX launches 21 Northrop Grumman satellites for U.S. military data network
 2026-10-11T00:50:39+00:00|||SENT|||c5bf736f224b1619f19a9ed2a90d7ff5|||MU|||Micron's Board Authorizes a Record $35 Billion Stock Buyback
 2026-10-11T00:50:49+00:00|||PASS|||80c08cef67890470bfa49910a270d19d|||ONDS|||Stocktwits Defense Watch: U.S. Missile Spending Drives $21B In Boeing, RTX Deals, Ondas Adds $270M In Orders
 2026-10-11T00:50:55+00:00|||PASS|||73405ca656a1567426b38f094f9c5942|||WOLF|||Chipotle, Starbucks, Palantir, Intel, SpaceX, Wolfspeed, and More Stocks That Explain Today’s Market
@@ -918,3 +901,19 @@
 2026-10-24T12:51:54+00:00|||SENT|||d731dd1daf4ce68e8d19929b429be841|||CSCO|||Cisco posts record revenue and cuts 4,000 jobs on the same earnings call
 2026-10-24T12:52:15+00:00|||PASS|||b8cf4c903a83b0a9b8f6fad6075f58c3|||NBIS|||Nebius Stock Fell 7% the Day It Announced a $3.5 Billion Citi Facility. Here’s What Its CEO Said About How Long the AI Chip Shortage Lasts
 2026-10-24T12:52:54+00:00|||PASS|||91ead0fb2ea707b8b92b88ab82727303|||SPCX|||Elon Musk Expects SpaceX to Make $500 Billion to $1 Trillion in Sales Next Year. Here's What That Means for the Stock.
+2026-10-24T18:54:53+00:00|||PASS|||761fc669ee39c5fcfc5f0a8eefe82d13|||ONDS|||Ondas Inc. Advanced Charts | ONDS
+2026-10-24T18:55:00+00:00|||PASS|||5e8f9c0371582f0a6d74de77e091d917|||NVTS|||How AI Power Board Launches At Navitas Semiconductor (NVTS) Has Changed Its Investment Story
+2026-10-24T18:55:05+00:00|||PASS|||1fa3972dc8e16362d626ebdc0a9f8e17|||GLW|||Can AI Fiber Still Deliver? Corning Faces High-Stakes Q3 Earnings Test Oct. 27 as Valuation Stretches
+2026-10-24T18:55:10+00:00|||PASS|||3757afdac757493f8a174650ff99ec73|||GEV|||The AI Power Bill Comes Due: Will GE Vernova’s Q3 Earnings Oct. 28 Prove Its $176B Backlog Is Real?
+2026-10-24T18:55:14+00:00|||PASS|||d7e34d61f35a5c6243c483b75f1d3753|||ECL|||Ecolab Inc. stock outperforms competitors despite losses on the day
+2026-10-24T18:55:19+00:00|||PASS|||376459a926013e837edc2c2c7e6f1a0b|||MSFT|||Microsoft’s $50 Billion Gamble: Can Microsoft’s Azure Growth Justify Its Exploding AI Budget?
+2026-10-24T18:55:22+00:00|||PASS|||9fd5f3f832294267fa4671509257c3fd|||AMZN|||Jeff Bezos took 60 meetings to raise Amazon’s first $1 million. Now worth $361 billion, he says the cure for stress is to ‘take the first step’
+2026-10-24T18:55:28+00:00|||PASS|||25a396335f7438afa7958dda6d9ab2ff|||TSLA|||Musk Calls Tesla’s Merger Vote “Quite a High Hurdle.” JPMorgan’s Premium Math Puts the Stock Near $500.
+2026-10-24T18:55:30+00:00|||PASS|||36ccbd192b38c7f1d90c04c00b34d17b|||TSLA|||'Almost Everything Elon Musk Touches’ Grows 10x and More, Says Top Analyst as He Makes the Case for Tesla-SpaceX Merger
+2026-10-24T18:55:34+00:00|||SENT|||a18158e8b55ad9e86612f3a6782a02f2|||TSLA|||Stocktwits Zero To Sixty: Tesla And SpaceX Form Merger Committees As Profits Drop, While Rivian Buys AI Startup And GM, Ford Advance EV Plans
+2026-10-24T18:55:37+00:00|||PASS|||bb06e331aab2a1db615c49f8d8c7eea3|||TSLA|||Elon Musk Says a SpaceX-Tesla Merger Is a “Good Idea.” Here’s What Stands in the Way.
+2026-10-24T18:55:52+00:00|||PASS|||58ed765b6eaa45948a16a795eba23c7f|||SNDK|||Sandisk's New Business Model Is Transforming the Business. Now Is the Time to Buy the Stock.
+2026-10-24T18:55:55+00:00|||PASS|||c148add8458c9ba5879201f018a4700e|||STX|||Seagate’s Q1 Earnings Dilemma on Oct. 27: Blockbuster AI Data Demand Confronts Rising Oversupply Fears
+2026-10-24T18:56:42+00:00|||PASS|||e5fb1ca174674ba335f7cc58ce316257|||CRM|||OUE REIT to acquire additional 50% stake in Sydney's Salesforce Tower for A$539.3 mil
+2026-10-24T18:57:14+00:00|||PASS|||266add0dc21dbb24dcefa1d61c8f65f4|||SPCX|||Zelensky thanks US for Starlink, presses for missile deliveries
+2026-10-24T18:57:16+00:00|||PASS|||af6f3c7f9d4ce7c0b176a0b119617b23|||SPCX|||SpaceX Will Spend Up to $40 Billion in a Single Quarter. Its CFO Says the Payback Is “Less Than a Year.”
