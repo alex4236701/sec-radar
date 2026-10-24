@@ -1,9 +1,4 @@
 @@HEARTBEAT|||2026-10-24|||2026-10-21T13:41:10+00:00
-2026-10-10T00:51:51+00:00|||SENT|||e91c2ddfd3d2105edba25b7861c025ed|||CRUS|||Cirrus Logic to Have Bid for Synaptics After Onsemi Deal
-2026-10-10T00:52:05+00:00|||SENT|||bf086695f56d6e818d4205e61b7e5b60|||ONDS|||Ondas Orders Top $270 Million, Bullish Analyst Says Positioned For Growth - Ondas (NASDAQ:ONDS)
-2026-10-10T00:52:35+00:00|||PASS|||00eef005771684064d333eb45fea85da|||TSLA|||5 Wild Tesla Builds Heading to X Takeover this Weekend in Texas
-2026-10-10T00:54:15+00:00|||PASS|||9401f1bf78159c34462e291d8c8d54ff|||SPCX|||US telcos shed $60bn in value after SpaceX announces spectrum purchase
-2026-10-10T00:54:17+00:00|||PASS|||6761bdd7898e51e8203b2976acac572b|||SPCX|||SpaceX Makes $8 Billion Move That Rattles Telecom Stocks
 2026-10-10T08:42:34+00:00|||PASS|||f7d2af0570d68c835bb5c6e50d38e184|||AMZN|||Amazon Reshuffles Alexa Leadership: Can Alexa+ Move a $53 Billion Subscription Business?
 2026-10-10T08:42:39+00:00|||PASS|||a0a7fe0fee147b4f081e3212d4e383a6|||AMZN|||Amazon’s Thane Data Center Fight: A $8.3 Billion Plan Inside a $173 Billion Capex Budget
 2026-10-10T08:42:42+00:00|||PASS|||2d6bbc19fdf58feeb025631bb46bccab|||META|||Meta Bans TikTok Owner ByteDance From Advertising in 7 Countries: “We Don’t Have to Run Ads From a Competitor”
@@ -924,3 +919,5 @@
 2026-10-23T23:54:28+00:00|||PASS|||5e5c342324a81f6d10808f423f8017c7|||INTC|||Intel granted waiver from FCC for purchase of foreign-made robots — chipmaker’s automated guided vehicles could have run afoul of agency’s sweeping robot ban (updated)
 2026-10-23T23:56:01+00:00|||PASS|||a0ab63cda29f9dbf28ad2cb5a2832064|||SPCX|||SpaceX $40 Billion Off-Balance Sheet Debt Snarled by AI Turmoil
 2026-10-23T23:56:02+00:00|||PASS|||015ed2323271b4f3870fdf362a937ba2|||SPCX|||Watch SpaceX-Tesla Merger? | Zuckerberg's Deal | The Rundown
+2026-10-24T04:52:54+00:00|||PASS|||382c6849bda06d265f24d10abd6c9026|||QCOM|||Qualcomm May Be Preparing Another Round of Job Cuts Next Month. Here’s What to Know.
+2026-10-24T04:53:13+00:00|||PASS|||4ff828e60fe911ad87a8a68d37878f2d|||KLAC|||Should KLAC Stock Be in Your Portfolio Pre-Q1 Earnings Results?
