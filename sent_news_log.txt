@@ -1,11 +1,4 @@
 @@HEARTBEAT|||2026-10-25|||2026-10-21T13:41:10+00:00
-2026-10-11T08:43:20+00:00|||PASS|||c7df9712d735e239548382843a80bae8|||FCEL|||FuelCell Energy Inc. Research & Ratings | FCEL
-2026-10-11T08:43:33+00:00|||PASS|||0db747913d4c4bcaae8cc29afb5804b9|||AMZN|||Amazon lays off 121 more Washington workers as its AI spending hits $220 billion
-2026-10-11T08:43:36+00:00|||PASS|||d2f21114d1327651ee4c3ee4b351eb0a|||AAPL|||Apple’s Chinese supplier Luxshare downplays impact of U.S. patent probe
-2026-10-11T08:43:38+00:00|||PASS|||4955fc19bc09bb35457279f9fc10ac5a|||AAPL|||Chinese Apple supplier Luxshare sees little negative impact from US patent infringement probe
-2026-10-11T08:43:40+00:00|||PASS|||beff63db03c30823f99ba22578bb86dc|||AAPL|||Apple Supplier Luxshare Expects No Material Impact From US Probe
-2026-10-11T08:44:35+00:00|||SENT|||d9dc791d7cc535ccd5160bbb6d99bd3e|||VICR|||Vicor widens AI server power patent fight, seeking new US import ban on Foxconn, Quanta and Delta
-2026-10-11T08:45:45+00:00|||PASS|||d06ae374f0f8edd87bcacb33d80f743c|||IONQ|||SA Asks: Is now the time to buy quantum stocks? If so, which ones? (IONQ:NYSE)
 2026-10-11T16:43:12+00:00|||PASS|||0fb1cc979e54df654c2eb97985fe9d58|||GEV|||GE Vernova, Snowflake Lead 5 AI Stocks With Accelerating Growth
 2026-10-11T16:43:21+00:00|||PASS|||ab0d1f2c914631c31c932c9fa462e290|||AMZN|||Gripe water for babies sold on Amazon recalled due to traces of ethanol, methanol and isopropanol
 2026-10-11T16:43:24+00:00|||PASS|||49962d00a062f66c83d3e46ba4067ffa|||META|||The real social reckoning: The man who cost Meta $18 billion — and doesn't regret it
@@ -914,3 +907,9 @@
 2026-10-25T05:03:50+00:00|||PASS|||1f65ef374f09087c0b1d3ad303765bca|||TSLA|||Tesla (TSLA) Q3 Earnings Reveal A Sharper Margin Squeeze
 2026-10-25T05:04:12+00:00|||PASS|||9a16c3f79040917f2084eca16de79520|||LRCX|||Lam Research (LRCX) Stock Faces Q1 Earnings Quality Questions After Records
 2026-10-25T05:05:27+00:00|||PASS|||52ac9707824ae70cba0decba736b6b4b|||SPCX|||SpaceX (NasdaqGS:SPCX) Q3 Earnings Revive Profit Story As Capex Looms
+2026-10-25T13:17:43+00:00|||PASS|||60309208c61936e5f2be12795160fdd4|||META|||Meta’s Pricier Camera-Free Ray-Bans Won’t Make Sense to Techies
+2026-10-25T13:17:46+00:00|||PASS|||0d7317ab74d0de067ccf1c7951407d81|||AAPL|||Apple’s iPhone Duo, Musk’s Merger Challenge, AI Spending Questions and More: This Week in Tech
+2026-10-25T13:17:51+00:00|||PASS|||443d9c4430f11495404e4410a5a74d34|||TSLA|||Tesla Model Y Is Most Recalled EV
+2026-10-25T13:17:54+00:00|||PASS|||8d8cf5aefa60cd291fe8d8c5b91eb99c|||NVDA|||AI Debt Has Exploded 4X To Nearly $500 Billion: What It Means For NVDA, ORCL And CRWV, According To IO Fund
+2026-10-25T13:18:47+00:00|||PASS|||8e39692ad1a8ee0d44749ae45ffeb760|||DELL|||Tank Dell returning to Texans to face Giants after nearly two-year layoff following gruesome injury
+2026-10-25T13:18:53+00:00|||PASS|||9d26a8db8dee33b467e3f36eba02b6b9|||CRWV|||AI Debt Has Exploded 4X To Nearly $500 Billion: What It Means For NVDA, ORCL And CRWV, According To IO Fund
