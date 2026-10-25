@@ -1,11 +1,4 @@
 @@HEARTBEAT|||2026-10-25|||2026-10-21T13:41:10+00:00
-2026-10-11T16:43:12+00:00|||PASS|||0fb1cc979e54df654c2eb97985fe9d58|||GEV|||GE Vernova, Snowflake Lead 5 AI Stocks With Accelerating Growth
-2026-10-11T16:43:21+00:00|||PASS|||ab0d1f2c914631c31c932c9fa462e290|||AMZN|||Gripe water for babies sold on Amazon recalled due to traces of ethanol, methanol and isopropanol
-2026-10-11T16:43:24+00:00|||PASS|||49962d00a062f66c83d3e46ba4067ffa|||META|||The real social reckoning: The man who cost Meta $18 billion — and doesn't regret it
-2026-10-11T16:43:33+00:00|||PASS|||cbf375a166e7817d6e1a1dc6c9ee1009|||NVDA|||Nvidia Weighs Buying Reflection AI, the $25 Billion Open-Weight Model Startup It Already Backs
-2026-10-11T16:43:35+00:00|||PASS|||c9c994621dd839ee09f5b862989bbdcb|||AMD|||AMD Stock Fell 6% in Three Sessions After Its Record Close. Here’s What OpenAI’s $20 Billion Revenue Gap Means for the Stock
-2026-10-11T16:44:50+00:00|||PASS|||e4f5d45196d69909a483b2707bcf3e61|||TWLO|||$37 billion Twilio CEO interviews candidates over dinner—if you say ‘I’ too much you don’t get hired
-2026-10-11T16:45:07+00:00|||PASS|||54420b8775b61d4c1e5692e78f41a687|||SPCX|||Telecommunications Stocks Plunge Following Massive SpaceX Spectrum Acquisition
 2026-10-12T01:47:32+00:00|||PASS|||efaac0b09a3fed409dfbae1f96cc2849|||GLW|||Toll Brothers, PulteGroup, and Owens Corning Are This Housing Analyst’s Best Bets
 2026-10-12T01:47:46+00:00|||SENT|||a3e4b70e9876601e848089b51490c45f|||AMZN|||Amazon Reportedly in Talks to Buy AI Startup Decart for $7 Billion - Amazon.com (NASDAQ:AMZN)
 2026-10-12T01:47:50+00:00|||PASS|||239e9edd8fa24679ad82cbeaacb58f8f|||AMZN|||$15 doorbell camera became Amazon's second-largest acquisition.
@@ -913,3 +906,13 @@
 2026-10-25T13:17:54+00:00|||PASS|||8d8cf5aefa60cd291fe8d8c5b91eb99c|||NVDA|||AI Debt Has Exploded 4X To Nearly $500 Billion: What It Means For NVDA, ORCL And CRWV, According To IO Fund
 2026-10-25T13:18:47+00:00|||PASS|||8e39692ad1a8ee0d44749ae45ffeb760|||DELL|||Tank Dell returning to Texans to face Giants after nearly two-year layoff following gruesome injury
 2026-10-25T13:18:53+00:00|||PASS|||9d26a8db8dee33b467e3f36eba02b6b9|||CRWV|||AI Debt Has Exploded 4X To Nearly $500 Billion: What It Means For NVDA, ORCL And CRWV, According To IO Fund
+2026-10-25T19:09:56+00:00|||PASS|||5af572a51de6025fc2e2ddd6c252ff64|||AMKR|||A $1.3 Billion Reason to Buy Amkor Stock
+2026-10-25T19:10:18+00:00|||PASS|||ff722db75859307e354f617514a0c074|||HON|||Honeywell (HON) Q3 Earnings Put Margin Expansion Center Stage
+2026-10-25T19:10:22+00:00|||PASS|||805ba4f1d52281b316c1a56ffbf3b649|||MSFT|||Microsoft: China Hackers Unleash AI-Powered Cyberattacks Targeting Supply Chains
+2026-10-25T19:10:26+00:00|||PASS|||1678503b936cac004c9480f8e99b00ec|||AMZN|||The Hidden $496 Billion Catalyst Waiting to Ignite Amazon Stock on Oct. 29
+2026-10-25T19:10:31+00:00|||SENT|||5e1df5beab7024df7334d48b298cdca7|||META|||The Morning Risk Report: Meta Ordered to Pay $25 Billion to New Mexico in Data-Privacy Case
+2026-10-25T19:10:34+00:00|||PASS|||b6ca60328dfb8ba61afcaaaccbec79ce|||META|||Meta: A Strong Quarter Behind A $9.9 Billion Legal Charge And $35 Billion Of Capex
+2026-10-25T19:10:38+00:00|||PASS|||2a2da4a6332f8665e2c8c066620ce7e0|||TSLA|||Tesla Stock Is Down 17% Over the Past Year. Buy Now or Wait for Merger Terms?
+2026-10-25T19:10:39+00:00|||PASS|||90163f5a69499a92c23f09216e02ff27|||TSLA|||Tesla’s Big Quarter, GM's Buyback Fight, Elon Musk’s Autonomous Driving Push and More: This Week in Mobil
+2026-10-25T19:10:42+00:00|||PASS|||68a46ef3e5e657d12a556e2d4aecdf1c|||TSLA|||Consumer Tech (Oct 19-23): OpenAI Reportedly Seeks $30 Billion, Tesla Cuts 2026 Capex Forecast, Anthropic
+2026-10-25T19:11:41+00:00|||PASS|||6fb4e4c3eac93010c347319c24ef3ca2|||NBIS|||Nebius Secures $3.5 Billion From Citi as It Shifts From Converts to Secured Debt
