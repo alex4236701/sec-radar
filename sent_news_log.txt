@@ -1,16 +1,4 @@
-@@HEARTBEAT|||2026-10-24|||2026-10-21T13:41:10+00:00
-2026-10-11T00:50:39+00:00|||SENT|||c5bf736f224b1619f19a9ed2a90d7ff5|||MU|||Micron's Board Authorizes a Record $35 Billion Stock Buyback
-2026-10-11T00:50:49+00:00|||PASS|||80c08cef67890470bfa49910a270d19d|||ONDS|||Stocktwits Defense Watch: U.S. Missile Spending Drives $21B In Boeing, RTX Deals, Ondas Adds $270M In Orders
-2026-10-11T00:50:55+00:00|||PASS|||73405ca656a1567426b38f094f9c5942|||WOLF|||Chipotle, Starbucks, Palantir, Intel, SpaceX, Wolfspeed, and More Stocks That Explain Today’s Market
-2026-10-11T00:51:06+00:00|||PASS|||388da2111d1503aac06879a5d71566c9|||RRX|||Did Strong Q2 Data Center Demand and Steady Guidance Just Shift Regal Rexnord's (RRX) Investment Narrative?
-2026-10-11T00:51:20+00:00|||PASS|||df689631aa634bef9b42046bb6239c80|||NVDA|||Nvidia in talks to acquire Reflection AI or increase investment, FT reports By Investing.com
-2026-10-11T00:51:26+00:00|||PASS|||37278b4f5949290a8670124fd1085c7b|||NVDA|||Nvidia in talks to invest further in Reflection AI or buy it, FT reports By Reuters
-2026-10-11T00:51:29+00:00|||PASS|||cd5b29adfd7d4e6001020a1e080bd73d|||NVDA|||Nvidia is in talks to buy the open-source AI lab it just backed
-2026-10-11T00:51:35+00:00|||SENT|||6a96b6457b04311329c57da7a46031c8|||NVDA|||Nvidia in talks to invest further in Reflection AI or buy it, FT reports
-2026-10-11T00:51:38+00:00|||PASS|||c6314c991c0219358930fbf090224d01|||NVDA|||Report: Nvidia Eyes Reflection AI Takeover as the AI Arms Race Heats Up
-2026-10-11T00:51:39+00:00|||PASS|||4115651a03bfd75cb76601f9f755704d|||NVDA|||What a New Groq Lawsuit Means for Nvidia Stock Holders
-2026-10-11T00:51:45+00:00|||PASS|||33eacf703f323aef305255bfa18af9c8|||QCOM|||This week on Tom's Hardware Premium: October 10, 2026 — Tencent grabs bargain chips, Qualcomm Huawei IP deal, Groq lawsuit, and more
-2026-10-11T00:52:41+00:00|||PASS|||3bd5dbb4b27c47ed838843ca5281664e|||PLTR|||Is It Too Late to Buy Palantir Stock?
+@@HEARTBEAT|||2026-10-25|||2026-10-21T13:41:10+00:00
 2026-10-11T08:43:20+00:00|||PASS|||c7df9712d735e239548382843a80bae8|||FCEL|||FuelCell Energy Inc. Research & Ratings | FCEL
 2026-10-11T08:43:33+00:00|||PASS|||0db747913d4c4bcaae8cc29afb5804b9|||AMZN|||Amazon lays off 121 more Washington workers as its AI spending hits $220 billion
 2026-10-11T08:43:36+00:00|||PASS|||d2f21114d1327651ee4c3ee4b351eb0a|||AAPL|||Apple’s Chinese supplier Luxshare downplays impact of U.S. patent probe
@@ -917,3 +905,12 @@
 2026-10-24T18:56:42+00:00|||PASS|||e5fb1ca174674ba335f7cc58ce316257|||CRM|||OUE REIT to acquire additional 50% stake in Sydney's Salesforce Tower for A$539.3 mil
 2026-10-24T18:57:14+00:00|||PASS|||266add0dc21dbb24dcefa1d61c8f65f4|||SPCX|||Zelensky thanks US for Starlink, presses for missile deliveries
 2026-10-24T18:57:16+00:00|||PASS|||af6f3c7f9d4ce7c0b176a0b119617b23|||SPCX|||SpaceX Will Spend Up to $40 Billion in a Single Quarter. Its CFO Says the Payback Is “Less Than a Year.”
+2026-10-25T05:03:19+00:00|||PASS|||0e4a9fb5350e2690110f4519d25fbc14|||NVTS|||Navitas Semiconductor Corporation (NVTS) Discusses Breaking the AI Infrastructure Power Wall and Portfolio Expansion Through Recent Acquisition - Slideshow (NASDAQ:NVTS) 2026-10-24
+2026-10-25T05:03:34+00:00|||PASS|||edbf90aa4561556a77ead9255aba381a|||MSFT|||Microsoft Q1: A $744 Billion AI Reckoning Is Coming (NASDAQ:MSFT)
+2026-10-25T05:03:42+00:00|||PASS|||f39173469c56f1b800ac0f28150bdcac|||META|||Meta’s AI commitments surge to US$825 billion, testing financing power
+2026-10-25T05:03:43+00:00|||PASS|||508f0cbb8019dc4710ef7ec3f2b70634|||META|||Meta Just Unveiled a New Takeover Weapon — But There's a Catch
+2026-10-25T05:03:47+00:00|||PASS|||7f7d01b4fea8e9a5c268034904d61fd1|||TSLA|||Tesla-SpaceX merger tests whether Musk's technology empire is worth more together
+2026-10-25T05:03:48+00:00|||PASS|||7f6d850dbe94f35a9cf72ac271cba411|||TSLA|||SA Asks: How much could Tesla be worth in a merger deal? (TSLA:NASDAQ)
+2026-10-25T05:03:50+00:00|||PASS|||1f65ef374f09087c0b1d3ad303765bca|||TSLA|||Tesla (TSLA) Q3 Earnings Reveal A Sharper Margin Squeeze
+2026-10-25T05:04:12+00:00|||PASS|||9a16c3f79040917f2084eca16de79520|||LRCX|||Lam Research (LRCX) Stock Faces Q1 Earnings Quality Questions After Records
+2026-10-25T05:05:27+00:00|||PASS|||52ac9707824ae70cba0decba736b6b4b|||SPCX|||SpaceX (NasdaqGS:SPCX) Q3 Earnings Revive Profit Story As Capex Looms
