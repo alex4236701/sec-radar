@@ -1,11 +1,4 @@
 @@HEARTBEAT|||2026-10-26|||2026-10-21T13:41:10+00:00
-2026-10-12T16:40:33+00:00|||PASS|||c08d9bbe04fee02c472b7fd7f569ffa2|||MU|||QUICK SPARK: Micron, SK Hynix, SanDisk Wipe Out $100 Billion as Memory Rout Worsens
-2026-10-12T16:41:04+00:00|||PASS|||5a8f0db18de0e631f727fb1abee09891|||META|||A closer look at Big Banks ahead of Q3 earnings, & one metric Meta investors should watch
-2026-10-12T16:41:23+00:00|||PASS|||ed9db1885f8a91f288077db1d87d4280|||SKHY|||QUICK SPARK: Micron, SK Hynix, SanDisk Wipe Out $100 Billion as Memory Rout Worsens
-2026-10-12T16:41:26+00:00|||PASS|||9edb21bc2af8cd8205316360838c491c|||SNDK|||QUICK SPARK: Micron, SK Hynix, SanDisk Wipe Out $100 Billion as Memory Rout Worsens
-2026-10-12T18:45:53+00:00|||PASS|||43206275adc0209210a3749c58665817|||TTMI|||TTM Technologies plans $400M capacity expansion in Asia
-2026-10-12T18:47:45+00:00|||PASS|||77ebe388bf3fabed97d817514e7378c3|||KEYS|||Keysight Introduces PCIe® 7.0 Protocol Test Solution to Accelerate AI Infrastructure Validation
-2026-10-12T18:48:17+00:00|||PASS|||77301ddf9ad8967b70688fe738609a6b|||IONQ|||IonQ's Elisity Acquisition Seen as 'Sensible' Channel Play, Wedbush Says
 2026-10-12T19:39:57+00:00|||PASS|||fea16bc5ad16a45bb2f1a172cc277ea4|||CAT|||Caterpillar (CAT): Can Earnings Keep Growing After Dealers Stop Restocking?
 2026-10-12T19:40:10+00:00|||PASS|||64db6d12e25e6ad68d54cc70e393a922|||TSLA|||Tesla ordered to pay $162,000 for Model X fire after failed ‘vandalism’ defense
 2026-10-12T20:41:59+00:00|||PASS|||4136e877f4eafa6ff67a2349ed5cb8f0|||TTMI|||TTM Technologies to Invest $400 Million to Expand AI Infrastructure Capacity
@@ -942,3 +935,38 @@
 2026-10-26T16:21:11+00:00|||SENT|||ffd3eed41910b984ebf164360aabfe1c|||SPCX|||SpaceX Strikes $40B GPU Financing Deal With Apollo – Deliveries Expected In 2027
 2026-10-26T16:21:14+00:00|||PASS|||3fbef5193302575f663f225f15d8b14a|||SPCX|||Tesla Rises 6% as Barclays Upgrade Cites SpaceX Merger Potential; Lucid Drops 4%, Rivian Slips
 2026-10-26T16:21:16+00:00|||PASS|||178dea3748587884279d98e1434c6618|||SPCX|||Tesla Gets $450 Target as Barclays Calls SpaceX Merger Key
+2026-10-26T18:45:09+00:00|||PASS|||12b964d5ecf213eb86681f7089b535f8|||GOOGL|||Microsoft, Amazon and Google “Will Beat Their Numbers” as a $2 Trillion Cloud Backlog Builds
+2026-10-26T18:45:26+00:00|||PASS|||a93a7355130ab827fae7ded129580f8c|||AVGO|||Meta's $35 Billion Stock Sale Draws Nvidia, AMD and Broadcom
+2026-10-26T18:45:36+00:00|||PASS|||fa55ce9a76a9c37e2c6657480dd76d78|||ECL|||Ecolab earnings ahead: Data center play faces growth test Tuesday
+2026-10-26T18:45:43+00:00|||PASS|||ca1fd4eaac471316283e83e983908298|||MSFT|||Microsoft Aims for 60,000 Layoffs It Cut Costs for the AI Buildout
+2026-10-26T18:45:44+00:00|||PASS|||40d908868a1208677c8618fb69194894|||MSFT|||Microsoft, Amazon and Google “Will Beat Their Numbers” as a $2 Trillion Cloud Backlog Builds
+2026-10-26T18:45:47+00:00|||PASS|||5e93b075064004b013c055e738fc1d49|||MSFT|||MSFT Stock Gains After Unveiling Massive Buyout Offer For 60,000 Employees To Trim Costs Amid AI Push
+2026-10-26T18:45:49+00:00|||PASS|||e069504a0665dd90657aa01ed084d7c4|||MSFT|||Microsoft's Stock May Fall Sharply Following Quarterly Results (NASDAQ:MSFT)
+2026-10-26T18:45:51+00:00|||PASS|||212aa70c5dde3f5c570b966960da1898|||MSFT|||Aldi’s Thanksgiving Deal, Microsoft’s Buyout Offer and More of Today’s Top Money News
+2026-10-26T18:45:53+00:00|||PASS|||0b14b9c2dad39221dc9e3d9a1a17fb59|||AMZN|||Microsoft, Amazon and Google “Will Beat Their Numbers” as a $2 Trillion Cloud Backlog Builds
+2026-10-26T18:45:58+00:00|||PASS|||b6741bcb2cd66c67eaf0f723f16d7c64|||META|||Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering
+2026-10-26T18:45:59+00:00|||PASS|||1c8e3bdbd23e8d2061b9543fe9d71429|||META|||SpaceX, Meta Pursue $135 Billion for AI Infrastructure as Musk Warns of Neocloud Funding Crunch
+2026-10-26T18:46:01+00:00|||PASS|||af800ef4d7c61cfaab6a4afb1f5abc2a|||META|||Canaccord reiterates Meta stock rating after $35B equity offering
+2026-10-26T18:46:07+00:00|||PASS|||045366ba608e2c7f9219cd973f3c08b2|||META|||Meta Shares Recover as Company Announces $35 Billion AI Financing Plan
+2026-10-26T18:46:08+00:00|||PASS|||d5e488752a46ab68bc55dfc3a30da734|||META|||Meta Stopped Buying Back Stock in 2026. Now It’s Selling Up to $95 Billion of It
+2026-10-26T18:46:12+00:00|||SENT|||acce24387dc627df5304c60dfca61c81|||META|||Meta launches $35 billion share offerings as AI spending surges
+2026-10-26T18:46:16+00:00|||PASS|||349cb6dc96834318f9d8f9b87ea3b158|||META|||Meta's $42B in penalties is a warning to AI
+2026-10-26T18:46:21+00:00|||PASS|||ed7be98dc1ee13624a00fd01fe0b83fc|||TSLA|||Buy Tesla ahead of potential SpaceX merger, says Barclays
+2026-10-26T18:46:23+00:00|||PASS|||017890a23e19138fc222a9be5af76b31|||NVDA|||Inference Will Be “a $10 Trillion Market” Within 10 Years, and Nvidia Owns the Hardware
+2026-10-26T18:46:27+00:00|||PASS|||9543989b126db0ed05f06ffa646edc4c|||AMD|||Meta's $35 Billion Stock Sale Draws Nvidia, AMD and Broadcom
+2026-10-26T18:46:29+00:00|||PASS|||a993f36d05a07c5c69d909f175c77da2|||MRVL|||“Next Trillion-Dollar Company”: Marvell Has Ripped 185% in a Year. Is It Too Late to Buy?
+2026-10-26T18:46:35+00:00|||SENT|||8f248047fa3b9186a81c1b0f8824c485|||QCOM|||Qualcomm Fails to Dismiss Processor Direct Infringement Claims
+2026-10-26T18:46:45+00:00|||SENT|||db7ad53daa10b8c45f565397bf7dff32|||TSM|||TSMC posts record quarterly revenue and raises its 2026 forecast again
+2026-10-26T18:47:27+00:00|||PASS|||1ac5df94abd5a101aa48e9a5daf19848|||MPWR|||Can Healthy Top-Line Growth Benefit Monolithic Power's Q3 Earnings?
+2026-10-26T18:47:39+00:00|||PASS|||df6d8b6c529db26dd56b5fe057dd762f|||CRWV|||CoreWeave AI Growth Comes With More Than $35 Billion in Debt
+2026-10-26T18:47:45+00:00|||PASS|||b04e066af484f35e673187cb2ce9d1a0|||NOW|||ServiceNow Q3 Earnings Loom: Hold or Fold NOW Stock Ahead of Results?
+2026-10-26T18:48:19+00:00|||PASS|||71afa6297dba94c8c0fc3a230f913e20|||SPCX|||Chamath: SpaceX’s $40 Billion Debt Is “Better Than Most Sovereign Debt.” Neoclouds Won’t Borrow That Cheap
+2026-10-26T18:48:20+00:00|||PASS|||75b5c7f0743b398af8025477c0481a47|||SPCX|||Nearly 13% of SpaceX's $4.4 Billion Profit Came From This "Boring" Investment
+2026-10-26T18:48:23+00:00|||PASS|||3a8b3db0ab2b674793bf5e56d79d1ef9|||SPCX|||SpaceX, Meta Pursue $135 Billion for AI Infrastructure as Musk Warns of Neocloud Funding Crunch
+2026-10-26T18:48:29+00:00|||PASS|||28c9efc6180ca44527894a56971e14aa|||SPCX|||SpaceX Gets $120.5 Billion From Anthropic as It Borrows Another $40 Billion
+2026-10-26T18:48:30+00:00|||PASS|||90dc17b2ec395921c222e4ab6227dc60|||SPCX|||Tesla's Bet: Robotaxis, Robots, and a SpaceX Merger
+2026-10-26T18:48:32+00:00|||PASS|||875c3e6109e7739495de3160fa829849|||SPCX|||SpaceX's Elon Musk reveals $40 billion in debt for AI chips, warns of neoclouds
+2026-10-26T18:48:34+00:00|||PASS|||c932a4d5dc569783b803e6b29a47e60e|||SPCX|||SpaceX Secures $40 Billion in Debt Financing as Musk Warns of AI Cloud Provider Consolidation
+2026-10-26T18:48:36+00:00|||PASS|||49dcb6f8ffd1700a8598f1c8ed134632|||SPCX|||Tesla-SpaceX merger explained in charts
+2026-10-26T18:49:02+00:00|||PASS|||ff70df90c128ae566131168135d8b696|||CRCL|||Circle shareholder sues Trump-backed World Liberty Financial over UAE deal
+2026-10-26T18:49:03+00:00|||PASS|||97e821ec4e0760f004c38d627737e9df|||CRCL|||Prediction markets and derivatives drive Bernstein’s crypto stock outlook for Coinbase, Robinhood and Circle
