@@ -6,5 +6,29 @@
   "text": "10-Q 季報",
   "ticker": "VICR",
   "url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526431231/vicr-20260930.htm"
+ },
+ {
+  "date": "2026-10-26",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Alford Peggy（董事），390 股，約 $249,600",
+  "ticker": "META",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426001117/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-26",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：John F. Kober Ill（高階主管），1,027 股，約 $242,618",
+  "ticker": "MTSI",
+  "url": "https://www.sec.gov/Archives/edgar/data/1493594/000195004726010412/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-26",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：MATTHEW DESCH（高階主管），10,700 股，約 $473,368",
+  "ticker": "IRDM",
+  "url": "https://www.sec.gov/Archives/edgar/data/1418819/000196858226001074/xsl144X01/primary_doc.xml"
  }
 ]
