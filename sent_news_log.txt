@@ -1,15 +1,4 @@
-@@HEARTBEAT|||2026-10-26|||2026-10-21T13:41:10+00:00
-2026-10-12T19:39:57+00:00|||PASS|||fea16bc5ad16a45bb2f1a172cc277ea4|||CAT|||Caterpillar (CAT): Can Earnings Keep Growing After Dealers Stop Restocking?
-2026-10-12T19:40:10+00:00|||PASS|||64db6d12e25e6ad68d54cc70e393a922|||TSLA|||Tesla ordered to pay $162,000 for Model X fire after failed ‘vandalism’ defense
-2026-10-12T20:41:59+00:00|||PASS|||4136e877f4eafa6ff67a2349ed5cb8f0|||TTMI|||TTM Technologies to Invest $400 Million to Expand AI Infrastructure Capacity
-2026-10-12T20:42:13+00:00|||SENT|||3b1fea9882385c8d067dc6ce82d104bb|||NVTS|||Navitas unveils 24 kW power board for AI data centers By Investing.com
-2026-10-12T20:42:19+00:00|||SENT|||e4c221eede034ba7ac2bd58537fbf64b|||NVTS|||Navitas Collaborates with NVIDIA on 800 V-to-12 V Power Delivery Board for Next-Generation AI Infrastructure
-2026-10-12T20:44:28+00:00|||PASS|||d67cbdee9a24083e7bfbb5f58963d412|||BE|||Bloom Energy Stocks Drop Over 5.8% Before $4.2 Billion Revenue Test
-2026-10-12T21:39:57+00:00|||PASS|||b5ab79dfe903879ed597fd9b90e6fbbe|||CIEN|||Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday
-2026-10-12T21:39:59+00:00|||PASS|||b1a16ae6cc3e5b016dcecaccc9dd271f|||CIEN|||AI Infrastructure Stocks With Real Earnings Leverage From Ciena, Micron And KLA
-2026-10-12T21:40:11+00:00|||PASS|||ca4e053f52be59a40c9899ed95db84f2|||MSFT|||Exclusive: Microsoft’s departing science president plans to join Mercedes F1 team as AI advisor
-2026-10-12T21:40:40+00:00|||PASS|||f256a17042f6a5bc124dd0c939b22a73|||AMAT|||Applied Materials unveils $5 billion chip R&D facility
-2026-10-12T21:41:22+00:00|||PASS|||1f79f30ba9e84c456755b5c469e2c56f|||NOW|||Sakon Introduces Ask Milo™, the AI Companion for Enterprise Telecom on ServiceNow
+@@HEARTBEAT|||2026-10-27|||2026-10-21T13:41:10+00:00
 2026-10-13T01:47:54+00:00|||PASS|||a3e0695ea74216a2aa298784a19342b6|||MU|||Micron, SK Hynix, SanDisk Lose $100 Billion In Memory Rout - Micron Technology (NASDAQ:MU)
 2026-10-13T01:48:25+00:00|||PASS|||3e10981b408016a6a8a64039b4dcecaa|||META|||Special election in Piqua to address Meta data center and council recalls
 2026-10-13T01:48:43+00:00|||PASS|||9ed12c466a086cbb78687b7d7ec0459e|||SKHY|||Micron, SK Hynix, SanDisk Lose $100 Billion In Memory Rout - Micron Technology (NASDAQ:MU)
@@ -970,3 +959,29 @@
 2026-10-26T18:48:36+00:00|||PASS|||49dcb6f8ffd1700a8598f1c8ed134632|||SPCX|||Tesla-SpaceX merger explained in charts
 2026-10-26T18:49:02+00:00|||PASS|||ff70df90c128ae566131168135d8b696|||CRCL|||Circle shareholder sues Trump-backed World Liberty Financial over UAE deal
 2026-10-26T18:49:03+00:00|||PASS|||97e821ec4e0760f004c38d627737e9df|||CRCL|||Prediction markets and derivatives drive Bernstein’s crypto stock outlook for Coinbase, Robinhood and Circle
+2026-10-26T23:11:51+00:00|||SENT|||c95ad7078bbd57c913d521baec3a9346|||AMKR|||Amkor Technology stock rises 4% after hours despite Q3 earnings, revenue miss
+2026-10-26T23:12:09+00:00|||SENT|||09acd51fba520ad5d1f9d478e0a5de2f|||AVGO|||BofA, Blackstone, Citi, Morgan Stanley lead $63B AI compute financing in pact with Broadcom (BAC:NYSE)
+2026-10-26T23:12:13+00:00|||PASS|||e0f8b35b532d21af13b1f15f2c91259b|||AVGO|||Wall Street banks, Blackstone line up $63 billion to finance Broadcom chips for Anthropic By Reuters
+2026-10-26T23:12:14+00:00|||PASS|||b41d90a170b144b89826a65e0e5d2f04|||AVGO|||Broadcom Arranges $63 Billion Deal to Finance Anthropic’s Chips
+2026-10-26T23:12:20+00:00|||PASS|||d073e13527133f10a0ebbd4c5fc0d2c4|||GLW|||Corning Inc. stock outperforms competitors on strong trading day
+2026-10-26T23:12:21+00:00|||PASS|||41f5b39488c385fdddd77a06acf61312|||GLW|||All eyes on Corning earnings as AI fiber growth faces test
+2026-10-26T23:12:24+00:00|||PASS|||f55442670272d61da229e16f7ae0bb1d|||FCEL|||FuelCell Energy Inc. stock rises Monday, outperforms market
+2026-10-26T23:12:36+00:00|||PASS|||eac048427a7fc06a46f344c227fe14ba|||MSFT|||About 60,000 Microsoft Employees Are Eligible for New Buyout Program
+2026-10-26T23:12:38+00:00|||PASS|||d8975af420932f24b79dd5b8fef1cd39|||AMZN|||Amazon Stocks Rise 0.63% as Anthropic Filing Highlights $110 Billion Commitments
+2026-10-26T23:12:41+00:00|||PASS|||dc665e327c3e44a61b6bcb5cc9c6a2b6|||META|||1 Reason to Buy Meta Stock Now and Hold for the Long Term
+2026-10-26T23:12:42+00:00|||PASS|||e2dbc6fe09e908b1b0be861a01bfcb08|||META|||SA Asks: Is now a good time to buy Meta? (META:NASDAQ)
+2026-10-26T23:12:46+00:00|||PASS|||f0e52355b9c038d17bf37a5473fea7bb|||TSLA|||Tesla Stock Surges After Barclays Upgrade on Hopes of a SpaceX Merger
+2026-10-26T23:12:48+00:00|||PASS|||703c45509b418da906444bd3200b3b8a|||TSLA|||Tesla-SpaceX Merger Hopes Send Bearish Ratings to 11-Year Low
+2026-10-26T23:12:50+00:00|||PASS|||761fb72be14c7249ae679bdd94e6e103|||TSLA|||Tesla Soars 6% on Barclays Upgrade Calling SpaceX Merger “Key Part of the Tesla Bull Case”
+2026-10-26T23:12:57+00:00|||PASS|||686c634af8f181616b42c4c905ae77e9|||MRVL|||Marvell Stock Is Bouncing Back From a Near 9% Drop. Its COO Says It Has “All the Demand and the Supply” to Hit $20 Billion in Revenue Next Year
+2026-10-26T23:13:06+00:00|||PASS|||3d70cca9d2b710051a50494634121428|||INTC|||Intel to Acquire Startup Classiq in Quantum Computing Push
+2026-10-26T23:13:13+00:00|||SENT|||7215a9f2da8a6e4fe8105b10d620c825|||INTC|||Intel to acquire quantum computing software firm Classiq
+2026-10-26T23:14:02+00:00|||PASS|||036f43851b56b255cf8fb5e30fd36265|||DELL|||Michael Dell's Everton stance revisited as previous claim resurfaces amid takeover developments
+2026-10-26T23:14:08+00:00|||PASS|||1be0c1a770447b3dce0e1117ba0d449b|||VRT|||Vertiv Simplifies High-Density AI Infrastructure Deployment Across Data Center Environments
+2026-10-26T23:14:54+00:00|||PASS|||f43e090b65a25f43345345e174e28432|||SPCX|||Pimco buys $4 billion of SpaceX AI debt package led by Apollo - Bloomberg
+2026-10-26T23:15:01+00:00|||PASS|||6ec1d61cf21477ed9fc86c32a30dfe3f|||SPCX|||Pimco Scoops Up $4 Billion of Massive SpaceX AI Debt Package
+2026-10-26T23:15:02+00:00|||PASS|||3199018beb6ea55ae55fcf699595f3c5|||SPCX|||Tesla Stock Surges After Barclays Upgrade on Hopes of a SpaceX Merger
+2026-10-26T23:15:03+00:00|||PASS|||03ff917197b64e266c54682dee1f711b|||SPCX|||Tesla-SpaceX Merger Hopes Send Bearish Ratings to 11-Year Low
+2026-10-26T23:15:06+00:00|||PASS|||1041875dc9148c081d7604e1b714f2df|||SPCX|||Tesla Soars 6% on Barclays Upgrade Calling SpaceX Merger “Key Part of the Tesla Bull Case”
+2026-10-26T23:15:08+00:00|||PASS|||1c069628134179d74fcfdd6893cfbc02|||SPCX|||Barclays upgrades Tesla, says SpaceX merger “now a key part of bull case”
+2026-10-26T23:15:10+00:00|||PASS|||351e74b8d688b92319466e7f535a9241|||SPCX|||EasyJet Inks Deal to Fit SpaceX’s Starlink Wi-Fi on Fleet
