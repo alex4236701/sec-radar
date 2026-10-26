@@ -1,55 +1,4 @@
 @@HEARTBEAT|||2026-10-26|||2026-10-21T13:41:10+00:00
-2026-10-12T09:49:57+00:00|||PASS|||856d72b82edf5fcc2818919f5651d3a3|||AVGO|||Broadcom CEO Flags Capital as AI’s Biggest Constraint. Can Broadcom Fund Its $42 Billion Anthropic Loan Commitment?
-2026-10-12T09:50:31+00:00|||PASS|||7afed5338d6c4782336392f8c60724ff|||NVDA|||Nvidia in discussions to acquire or expand stake in Reflection AI
-2026-10-12T09:50:53+00:00|||PASS|||db955da6cee2feafedcecfa3c00f6736|||SNDK|||GMIF2026 Annual Awards Unveiled: Samsung, Sandisk, Lenovo, Silicon Motion, BIWIN, and More Recognized
-2026-10-12T09:51:06+00:00|||PASS|||56abf91936f5dc60235c20ae517cc680|||AMAT|||Applied Materials opens a $5 billion lab every chipmaker will need
-2026-10-12T13:04:45+00:00|||SENT|||13e1abbe77e6acb88e5a6b5648455e1e|||GOOGL|||Finland orders Google to halt work at two AI data center sites
-2026-10-12T13:04:54+00:00|||PASS|||cf19b8d59af37ba18be751aa201d8067|||TTMI|||TTM Technologies plans $400M capacity expansion in Asia By Investing.com
-2026-10-12T13:04:58+00:00|||PASS|||94f97ce77d2bad265aa919eeb517fd35|||TTMI|||TTM Technologies Announces $400 Million in Planned Strategic Investments to Accelerate AI Infrastructure Capacity in China and Malaysia
-2026-10-12T13:05:04+00:00|||SENT|||1314dd3ba1d7e8adda27147515102024|||ONDS|||Ondas and Palantir form joint venture Regna AI By Investing.com
-2026-10-12T13:05:29+00:00|||SENT|||d7d8247dd7377598415101def2c267b8|||RDW|||Final Pair of Redwire ROSA Wings Launch to the ISS, Completing Historic Power Modernization Effort
-2026-10-12T13:05:34+00:00|||PASS|||9629202f7477f4e0786243bd7ceec247|||AMZN|||Amazon To $310? Here Are 10 Top Analyst Forecasts For Monday
-2026-10-12T13:05:37+00:00|||PASS|||3a6ad1020d79ac92ce43442988126e6d|||META|||Meta Bans ByteDance Ads on Its Platforms
-2026-10-12T13:05:40+00:00|||PASS|||ac44fcde68598a54dfd534b5cf19ecd7|||AAPL|||Ring's success strategy has nothing to do with Apple: Ring CEO
-2026-10-12T13:05:45+00:00|||SENT|||db0489266dcd92cc173a48d0a3f2b96f|||TSLA|||Tesla Faces US Probe Over Claim of Robotaxis Speeding in School Zones
-2026-10-12T13:05:47+00:00|||PASS|||a3f420f5074fe26e0337f89bd1fb6d03|||TSLA|||How SpaceX’s Spectrum Purchase Brings It Closer to a Tesla Merger
-2026-10-12T13:05:55+00:00|||PASS|||29c8aec1d2e0b002cbcdd180097d1d8a|||QCOM|||Cellid Joins Qualcomm's the Snapdragon START program to accelerate the development of AR glasses
-2026-10-12T13:06:08+00:00|||SENT|||309b645db0983b0fed663a6ff148ef5b|||SKHY|||SK Hynix Unveils H-TPU Controller Architecture with Over 100 Small Processors
-2026-10-12T13:06:17+00:00|||PASS|||7133177e230f1ab60621cff69e1545bf|||ASML|||In The Big Bank Earnings Week, EUV Machine Maker ASML Could Swing $42.8 Billion After Earnings
-2026-10-12T13:06:32+00:00|||SENT|||25b20a0a81c0bd73480e4423aeda1d13|||TER|||Teradyne Introduces UltraFLEXplus S Series for Edge AI Applications
-2026-10-12T13:06:44+00:00|||SENT|||7b22f2e03e8d1bc3277cf2cca64bac5e|||ALAB|||Astera Labs Unveils Orion: A Compute-Agnostic Rack-Scale Architecture for Token-Efficient AI Factories
-2026-10-12T13:07:05+00:00|||SENT|||ede9725058d289eaea858f03d4f154c9|||POWI|||Power Integrations and Ideal Power Collaborate on Efficient, Always-On Solid State Circuit Breakers for 800 VDC AI Data Centers
-2026-10-12T13:07:19+00:00|||PASS|||645fcc0d1b58ca7b90ea87720076a077|||PLTR|||Palantir CTO Blasts Silicon Valley’s ‘Doomsday Cult’ Over AI Safety — Says Pentagon Has 'Already Replaced
-2026-10-12T13:07:23+00:00|||PASS|||4783f536e4df1572c154cd0ff16b3dde|||CRM|||Salesforce Stock Is Double-Upgraded to Buy. The AI Overhang Is Over, Say Analysts.
-2026-10-12T13:07:24+00:00|||PASS|||d8ff4219b9b4a83a7c7108c0c4d89bb1|||CRM|||Salesforce to buy AI-powered analytics platform Loops
-2026-10-12T13:07:26+00:00|||PASS|||56d06f02607b5c1b42b1648467ce5722|||CRM|||BofA double upgrades Salesforce to Buy on AI strategy
-2026-10-12T13:07:26+00:00|||PASS|||4d6f0d5ff60d3fc478fb3e5aad070bd6|||CRM|||Is Salesforce stock ’a clean chase’ ahead of Q3 results?
-2026-10-12T13:07:28+00:00|||PASS|||55ea993ae1f788cf8cc68eb2bc6da7d5|||CRM|||Salesforce Climbs Amid Bank Of America Upgrade To Buy On Improved AI Trends
-2026-10-12T13:08:00+00:00|||PASS|||5d5e45b8af3dfe890521a071a1a65493|||SPCX|||How SpaceX’s Spectrum Purchase Brings It Closer to a Tesla Merger
-2026-10-12T13:08:26+00:00|||SENT|||f83e008271fafe10e25bca1dc0e53c7c|||IONQ|||IonQ to acquire cybersecurity firm Elisity for up to $1.3B By Investing.com
-2026-10-12T13:53:45+00:00|||PASS|||49638f8422dc6200fff9fb3dcee29408|||ONDS|||Ondas (ONDS) Launches Regna AI As It Pushes Into Sovereign Mission Systems
-2026-10-12T13:53:47+00:00|||PASS|||ed24229e7b39ffc3368a36e7ed3c2293|||ONDS|||Ondas and Palantir Launch Regna AI to Develop Sovereign Artificial Intelligence for Defence Operations
-2026-10-12T13:53:51+00:00|||PASS|||f8d1e70f31af9171908d9648a82df1e5|||OUST|||Gramercy-Backed Firm Fends Off Ouster From $36 Billion Lawsuit
-2026-10-12T13:53:56+00:00|||PASS|||d0c7fd9d5b999958734f6bc344d01ccc|||WOLF|||Applied Digital Has $36 Billion in Contracted Revenue. Wolfspeed Has the Better Stock Chart.
-2026-10-12T13:54:05+00:00|||PASS|||2c78c252b09cc4d82005ef5788e2e462|||GLW|||AI rack connectivity gets optical boost from Lumentum, Astera Labs, Corning
-2026-10-12T13:54:17+00:00|||PASS|||86155687244150c1d6bb774c312e6057|||AMZN|||Across Latin America, Interpol probe links 161 firms to Amazon clearing, arrests 233
-2026-10-12T13:54:23+00:00|||PASS|||3ef0e28dc27391959018ce435957bce8|||NVDA|||Nvidia Nears $6 Trillion Market Cap as Relentless AI Chip Demand Powers Record Growth
-2026-10-12T13:55:05+00:00|||SENT|||9e05e509607b7512d4d1220367bd3232|||CRDO|||Credo Unveils 1.6T ZeroFlap Active Light Cable, Industry’s First Row-Scale, Wide-Parallel Optical Interconnect for AI Data Centers
-2026-10-12T14:47:04+00:00|||PASS|||d02a761bcb343af7c42f81f759fff784|||MU|||Micron board raises buyback ceiling to $35.16bn
-2026-10-12T14:47:16+00:00|||PASS|||dd9c384ace19ce61fa3761c741a83f0c|||VUZI|||Vuzix to Showcase Vuzix Causeway™ Optical Interconnect Evaluation Platform at OCP Global Summit and PECC Summit
-2026-10-12T14:47:25+00:00|||PASS|||929e89f4a5f4300c290aec164b340c53|||CIEN|||Ciena Appoints Monika Fahlbusch as Chief People Officer – Company Announcement
-2026-10-12T14:47:37+00:00|||PASS|||5236f57b6f6202c9aac926173c43af51|||MSFT|||Microsoft reclaims $4 trillion market cap
-2026-10-12T14:47:40+00:00|||PASS|||2c72fdaa56c1141d9c6bf811b396e0bd|||MSFT|||Bull market turns 4, Microsoft's new AI chip, Starbucks denies Chipotle takeover
-2026-10-12T14:48:01+00:00|||SENT|||24cceae90b8bc8f995716841776e864d|||GFS|||GlobalFoundries unveils 7nm-class FDX Fusion node — FD-SOI node doubles 22FDX transistor density, comes 7 years after firm abandoned FinFET
-2026-10-12T14:48:54+00:00|||PASS|||a043939cce7258b5649097e9a88a5171|||PLTR|||Salesforce Advances 3% on Bank of America Double Upgrade to Buy With $285 Target; ServiceNow Climbs 3%, Palantir Holds Steady
-2026-10-12T14:48:56+00:00|||PASS|||5982fe26c7d2f6ad5b37a4d587ab5ca3|||NOW|||Salesforce Advances 3% on Bank of America Double Upgrade to Buy With $285 Target; ServiceNow Climbs 3%, Palantir Holds Steady
-2026-10-12T14:48:59+00:00|||PASS|||5c5258a9215ba97087e4b8619a8c993e|||CRM|||Salesforce Advances 3% on Bank of America Double Upgrade to Buy With $285 Target; ServiceNow Climbs 3%, Palantir Holds Steady
-2026-10-12T14:49:02+00:00|||PASS|||0a391218003bfae88aafe8524699b5ee|||CRM|||CRM Stock Gains After Salesforce Acquires AI Startup Loops, BofA Double Upgrade
-2026-10-12T15:43:35+00:00|||SENT|||4008c537e14e72ba806017c53a08e535|||AMZN|||MIT sues Amazon over cloud security patent violations
-2026-10-12T15:43:49+00:00|||SENT|||54a2c0c3445a89f6739f5ad05f99be4e|||MRVL|||Marvell Unveils Second-generation Structera X, Industry-first Six-channel CXL 3.2 Memory Expanders for AI Inference
-2026-10-12T15:44:54+00:00|||PASS|||4c4a97dbe3bff511920c10518ec0d408|||CRM|||Salesforce Stock Surges After Bank of America Double Upgrade to Buy on AI Strength
-2026-10-12T15:44:57+00:00|||PASS|||aa940aa7d75310073c8fdbb2e855d2cd|||CRM|||Salesforce to buy AI analytics platform Loops for Tableau
-2026-10-12T15:45:53+00:00|||PASS|||334f3ec84d186f2abe0290031aea0037|||IONQ|||Watch T-Mobile Rises on Upgrade; IonQ to Buy Elisity | Stock Movers
 2026-10-12T16:40:33+00:00|||PASS|||c08d9bbe04fee02c472b7fd7f569ffa2|||MU|||QUICK SPARK: Micron, SK Hynix, SanDisk Wipe Out $100 Billion as Memory Rout Worsens
 2026-10-12T16:41:04+00:00|||PASS|||5a8f0db18de0e631f727fb1abee09891|||META|||A closer look at Big Banks ahead of Q3 earnings, & one metric Meta investors should watch
 2026-10-12T16:41:23+00:00|||PASS|||ed9db1885f8a91f288077db1d87d4280|||SKHY|||QUICK SPARK: Micron, SK Hynix, SanDisk Wipe Out $100 Billion as Memory Rout Worsens
@@ -925,3 +874,71 @@
 2026-10-26T06:46:37+00:00|||PASS|||3ea9813702792c3681ed45a99e37ec86|||SPCX|||Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals
 2026-10-26T06:46:39+00:00|||PASS|||b8811b05d9e182b71af56aaa166c8f98|||SPCX|||SpaceX closes $40 billion debt deal for AI chips, Elon Musk says
 2026-10-26T06:46:42+00:00|||PASS|||db551f0609f377299b835eaffea6bec4|||SPCX|||Musk says SpaceX raised $40 billion in debt deal, predicts neocloud shakeout
+2026-10-26T16:15:17+00:00|||PASS|||784bfb748d39c488fdcf11a0fa68bbeb|||GOOGL|||Meta’s $95B Equity Deal Echoes Alphabet’s Offering. Convertible Stock Could Yield 6%.
+2026-10-26T16:15:20+00:00|||PASS|||365213bb284014577b3214e7b6cfb3dd|||GOOGL|||Google ordered to suspend site work at two data centers in Finland following tree clearing controversy
+2026-10-26T16:15:23+00:00|||PASS|||c8afbb1fcaa848ded8f143d246f9ab61|||MU|||After Two Spectacular Micron Buy Ratings, I’m Calling It Quits (Downgrade To Sell) (MU)
+2026-10-26T16:15:31+00:00|||SENT|||13d636f7cf604cfe12fcb14a48ced691|||MU|||Micron plans to use wafer bonding and High-NA EUV for next-gen DRAM — company also developing vertical high-bandwidth memory and vertical edge inference memory integrated directly on top of processors
+2026-10-26T16:15:35+00:00|||PASS|||4c133514c79535a4b5ead6a56ea00a9e|||MU|||Audi Announces Its First U.S. Factory; Nvidia, Micron Drive Earnings Boom
+2026-10-26T16:15:40+00:00|||PASS|||684a175fb22945e62b67638080581d8a|||TTMI|||TTMI Investors with $100,000 in Losses Have Opportunity to Join TTM Technologies, Inc. Fraud Investigation with SBS Law
+2026-10-26T16:15:43+00:00|||PASS|||781afa1af84c4db67a8aa057534e5ffd|||AMKR|||Amkor earnings on deck as AI packaging bets face stock slump test
+2026-10-26T16:15:47+00:00|||PASS|||0551152980878acc5ab9a0beaa38095f|||AMKR|||Amkor Technology: Nvidia's $3 Billion Vote Of Confidence Lands On A De-Rated Stock
+2026-10-26T16:16:01+00:00|||PASS|||b703d79bbe3aeb7bb30cb1e9ffc301de|||AVGO|||Meta Seeks About $95 Billion for AI Buildout as Nvidia, AMD and Broadcom Consider Investing in Their Own Customer
+2026-10-26T16:16:04+00:00|||PASS|||a3f45517f364faac93f6b253ea0f0102|||AVGO|||Meta Launches $35B Stock Offering, Plans Another $60B Program In 2027: Nvidia, AMD, Broadcom Eye Up To $5B Investment
+2026-10-26T16:16:08+00:00|||PASS|||3958b58eda5960a193c604b871ff2c71|||AVGO|||Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering
+2026-10-26T16:16:09+00:00|||PASS|||cbd7c2867655aeb35ce9ddf0a04b4580|||AVGO|||Prediction: Broadcom Will Be a $4.5 Trillion Company by 2030
+2026-10-26T16:16:13+00:00|||PASS|||0e50a4d7106de9f0b678bfa2f7fba851|||CIEN|||From AT&T to Ciena: Tracking optical earnings in Q3 2026
+2026-10-26T16:16:15+00:00|||PASS|||2faa838d60f6ac21c0cbb860b12ff419|||CIEN|||Ciena’s Board Opts for Patience Amid Tech Upheavals
+2026-10-26T16:16:18+00:00|||PASS|||a95c7afa4ccb569b1693199ce5e3bac9|||GLW|||Corning (GLW) Q3 earnings: what to expect
+2026-10-26T16:16:22+00:00|||PASS|||3640d387de5d083e422ceff94993d665|||GEV|||Buy, Hold or Sell GE Vernova Stock? Key Insights Ahead of Q3 Earnings
+2026-10-26T16:16:26+00:00|||PASS|||6ef600b52a9c07f8c5aceafb599de0dc|||ECL|||Ecolab earnings ahead: Data center play faces growth test Tuesday By Investing.com
+2026-10-26T16:16:28+00:00|||PASS|||0bd37d3b1351ef67c49bb4621c42c0a3|||ECL|||UBS reiterates Ecolab stock rating on datacenter growth outlook
+2026-10-26T16:16:37+00:00|||SENT|||f5914527cdec0e3a4ba259d0f5a5434f|||HON|||Honeywell Technologies launches new AI platform at Dangote's Nigeria refinery
+2026-10-26T16:16:42+00:00|||PASS|||2e99ebcb370e994c9816c688aff92f12|||HON|||Honeywell Technologies Launches Forge Plant Cognition with Dangote, Built with NVIDIA AI and Dell Technologies Capabilities
+2026-10-26T16:16:49+00:00|||PASS|||4bf5dfc8d919112383d4535f11b124eb|||MSFT|||Microsoft offers voluntary buyout to 60,000 employees
+2026-10-26T16:16:50+00:00|||PASS|||1ddac6ff43307be9756e95d4ca02ca79|||MSFT|||Microsoft's Healthy Enterprise Demand Supports Growth Ahead of Fiscal Q1 Results, Oppenheimer Says
+2026-10-26T16:16:52+00:00|||PASS|||88fa3dcc74fbf74b8c30cb9c429350e9|||MSFT|||Microsoft’s $678B AI backlog is massive, but is the stock priced for perfection
+2026-10-26T16:16:55+00:00|||PASS|||90e081f4d173b8d401df9305792c84fa|||MSFT|||Microsoft acquires 37 acres in Licking County, Ohio
+2026-10-26T16:16:58+00:00|||PASS|||b5d0ab104ac96c75c32026b9571d29d5|||AMZN|||Evercore previews Amazon stock ahead of Q3 earnings report
+2026-10-26T16:17:05+00:00|||SENT|||6f1a5f95cd877b6864257f0eec57f834|||AMZN|||Verizon Lifts Outlook, Inks Amazon Deal Worth More Than $2 Billion
+2026-10-26T16:17:15+00:00|||PASS|||61b77c9074a4abeaf97ee5d5ea264404|||META|||Meta Seeks About $95 Billion for AI Buildout as Nvidia, AMD and Broadcom Consider Investing in Their Own Customer
+2026-10-26T16:17:22+00:00|||SENT|||43a937be7f0ce7df09f767588abd0041|||META|||Meta eyes record $95 billion equity raise to fund AI expansion
+2026-10-26T16:17:33+00:00|||SENT|||f4cd3d3005243a01ad375c41e503c5c8|||META|||Meta’s $95B Equity Deal Echoes Alphabet’s Offering. Convertible Stock Could Yield 6%.
+2026-10-26T16:17:39+00:00|||PASS|||eab6f3b43321c01902f51e091d4cda95|||TSLA|||Musk’s Dream of SpaceX-Tesla Merger Rests on Carmaker’s Shareholders
+2026-10-26T16:17:42+00:00|||PASS|||f45d160ccea0b4e254a4f4622f22bd9b|||TSLA|||Musk wants a Tesla and SpaceX merger, here’s what the numbers say
+2026-10-26T16:17:43+00:00|||PASS|||0ac472596d51350530d00af4624e300a|||TSLA|||Tesla's upside goes beyond SpaceX merger -- Barclays (TSLA:NASDAQ)
+2026-10-26T16:17:44+00:00|||PASS|||09ffa68fba8f5d61014fb72ecaf647ab|||TSLA|||Tesla Gets $450 Target as Barclays Calls SpaceX Merger Key
+2026-10-26T16:17:47+00:00|||PASS|||6b00231cbcb09cdd5e522b4425cbfaa4|||TSLA|||Tesla-SpaceX merger explained in charts
+2026-10-26T16:17:52+00:00|||PASS|||88c9e7bb59ad1ceed8f93eff6a284728|||TSLA|||Tesla’s FSD system receives approval in Latvia
+2026-10-26T16:17:53+00:00|||PASS|||672327822abf698ef667a78868c27a73|||TSLA|||Barclays upgrades Tesla, says SpaceX merger “now a key part of bull case”
+2026-10-26T16:17:58+00:00|||PASS|||e68dae88d696124073b8e97485d61475|||NVDA|||Meta Seeks About $95 Billion for AI Buildout as Nvidia, AMD and Broadcom Consider Investing in Their Own Customer
+2026-10-26T16:18:00+00:00|||PASS|||5a9af0abec917301bfe0dc45dea48d67|||NVDA|||Meta's $35 Billion Stock Sale Draws Nvidia, AMD and Broadcom
+2026-10-26T16:18:03+00:00|||PASS|||4f7d6aa6d41481181c46738065baf377|||NVDA|||Meta Launches $35B Stock Offering, Plans Another $60B Program In 2027: Nvidia, AMD, Broadcom Eye Up To $5B Investment
+2026-10-26T16:18:05+00:00|||PASS|||7577618200bf745df19fd76fba03233b|||NVDA|||Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering
+2026-10-26T16:18:08+00:00|||PASS|||acf27d6ff42eeb01b4533ba28b54d181|||NVDA|||Nvidia RTX 20, 30, and 40-series GPUs hacked to remove a half-speed AI throttle — firmware exploit doubles RTX 4090's peak tensor rate, lifts RTX 3090 Ti matrix math up to 80%
+2026-10-26T16:18:13+00:00|||PASS|||c342578c51b85fbc185bbbc25a57abcb|||AMD|||Meta Seeks About $95 Billion for AI Buildout as Nvidia, AMD and Broadcom Consider Investing in Their Own Customer
+2026-10-26T16:18:20+00:00|||PASS|||d2bfd0630e0836abeb14be8d78f824df|||AMD|||Meta Launches $35B Stock Offering, Plans Another $60B Program In 2027: Nvidia, AMD, Broadcom Eye Up To $5B Investment
+2026-10-26T16:18:24+00:00|||PASS|||6fa3f66ba364b1b15569352bbbbe450f|||AMD|||Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering
+2026-10-26T16:18:25+00:00|||PASS|||e050b8636ee6becf49f3f2906f2ee5cc|||AMD|||AMD Stock Is Up 131% This Year. Here’s Where It Stands After a $1 Trillion Run
+2026-10-26T16:18:30+00:00|||PASS|||774bd43851d13cb091783357204e7a2b|||QCOM|||Qualcomm Is 32% Below Its 52-Week High as It Plans Worldwide Job Cuts. Here’s What Its Rising Costs Need to Show on November 4
+2026-10-26T16:18:34+00:00|||PASS|||47f8f5d0362a90a454c4a12f64caf17c|||INTC|||New Street bullish on Intel to Buy as CPU scarcity strengthens turnaround
+2026-10-26T16:18:38+00:00|||PASS|||87f983370d748290a1a137b17407aa23|||INTC|||Intel's Lip-Bu Tan has spoken with Lisa Su about potential collaboration with AMD — CEO's overall strategy targets custom chips, advanced packaging, and stronger foundry business
+2026-10-26T16:18:43+00:00|||PASS|||bfd3ac72fad3fad3fd453b605d298980|||INTC|||Intel’s CEO Reportedly Had A Conversation With AMD’s Lisa Su On Potential Areas Of Collaboration, Says 0.9 PDK On The 14A Process Coming Soon
+2026-10-26T16:18:45+00:00|||PASS|||731549e9597f21b0b23eff6c9774bec8|||INTC|||$5 Billion From NVIDIA, AMD And Intel Rumored To Flow Into Taiwan’s Substrate Makers, Matching Their Own Factory Expansion Spending
+2026-10-26T16:18:52+00:00|||PASS|||ab656c253f6a4b68c748eea457f46e74|||SKHY|||SK Hynix ETF Liquidations Raise Delisting Risks for Rival Leveraged Funds
+2026-10-26T16:19:00+00:00|||SENT|||1ddc439b06f5d0f65d2ee5e70a7ad194|||SKHY|||SK hynix Gains 3% on Reported $12 Billion Special Dividend From Kioxia Stake Sale
+2026-10-26T16:19:06+00:00|||PASS|||d351fdb8513a6d3ce5a77f27de0a23a0|||SKHY|||Samsung may have overtaken SK hynix in HBM revenue, analysis suggests
+2026-10-26T16:19:11+00:00|||PASS|||c74ea1bc05b9d0963b593dc5225c8061|||STX|||Earnings to watch: Seagate (STX) reports Q3 results tomorrow
+2026-10-26T16:19:43+00:00|||PASS|||b7be9f163dc9e0e266a8aec9e1c55d43|||NOK|||O2, Nokia complete AI RAN deployment at O2’s Giga Site in London Paddington
+2026-10-26T16:19:53+00:00|||PASS|||9f8bc130f66a37bc07e4380175d470fd|||DELL|||Honeywell Technologies Launches Forge Plant Cognition with Dangote, Built with NVIDIA AI and Dell Technologies Capabilities
+2026-10-26T16:20:00+00:00|||SENT|||2db4b5797ea72e52afa18aa9b80318cb|||VRT|||Vertiv completes acquisition of King Environmental Services
+2026-10-26T16:20:06+00:00|||PASS|||3f59a890e4364c7d7c5dad9617e2c415|||NBIS|||Nebius Group N.V. (NBIS) Faces Dilution Concerns Despite Strong AI Demand
+2026-10-26T16:20:11+00:00|||PASS|||63b148fa0e4c18da8b65780016c309e9|||NOW|||ServiceNow To Rally Over 26%? Here Are 10 Top Analyst Forecasts For Monday
+2026-10-26T16:20:17+00:00|||PASS|||483c1f754490b0f7a19f7555fd56dcd3|||IBM|||Is Kyndryl the next MicroStrategy? Why this IBM spinoff is now surging
+2026-10-26T16:20:46+00:00|||PASS|||303f6d0adbf03b86030098e1b1ea3437|||SPCX|||Musk’s Dream of SpaceX-Tesla Merger Rests on Carmaker’s Shareholders
+2026-10-26T16:20:49+00:00|||PASS|||402cdf852d174924e77eb211234c187a|||SPCX|||Musk wants a Tesla and SpaceX merger, here’s what the numbers say
+2026-10-26T16:20:51+00:00|||PASS|||b100f5ca4714d6c7495157a302277604|||SPCX|||Tesla's upside goes beyond SpaceX merger -- Barclays (TSLA:NASDAQ)
+2026-10-26T16:20:55+00:00|||PASS|||cf9b396177191122c48996953e01e8c0|||SPCX|||SpaceX Borrows Another $40 Billion. Why Anthropic Is Key to Its Success.
+2026-10-26T16:21:04+00:00|||PASS|||ddb5984af1222ca2861269ffa0864f67|||SPCX|||Musk says SpaceX closed $40 billion GPU debt deal, warns lenders are shutting out neoclouds
+2026-10-26T16:21:11+00:00|||SENT|||ffd3eed41910b984ebf164360aabfe1c|||SPCX|||SpaceX Strikes $40B GPU Financing Deal With Apollo – Deliveries Expected In 2027
+2026-10-26T16:21:14+00:00|||PASS|||3fbef5193302575f663f225f15d8b14a|||SPCX|||Tesla Rises 6% as Barclays Upgrade Cites SpaceX Merger Potential; Lucid Drops 4%, Rivian Slips
+2026-10-26T16:21:16+00:00|||PASS|||178dea3748587884279d98e1434c6618|||SPCX|||Tesla Gets $450 Target as Barclays Calls SpaceX Merger Key
