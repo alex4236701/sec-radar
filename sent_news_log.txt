@@ -1,37 +1,4 @@
-@@HEARTBEAT|||2026-10-27|||2026-10-21T13:41:10+00:00
-2026-10-13T18:50:57+00:00|||PASS|||d6f66d02ad2cc8de99cbad40bfa60b23|||AVGO|||What a $50 Billion Debt Deal Could Mean for Broadcom Stock
-2026-10-13T18:51:12+00:00|||PASS|||adbaf2f8b2d3054940f73d8a8fff9e9c|||MSFT|||Microsoft Stock Reclaims $4 Trillion Market Cap as AI Optimism Surges
-2026-10-13T18:51:15+00:00|||PASS|||982f3ac14ac60a6a3a5322ac258f2e53|||AMZN|||Apple Takes on Amazon With New Smart Home Gadgets. The Launch Adds Up to a $5 Trillion Valuation.
-2026-10-13T18:51:20+00:00|||PASS|||9928081a96f27ed02767f41844342a0c|||META|||Zuckerberg Admits Meta Lacked AI Certainty on $200 Billion Bet
-2026-10-13T18:51:21+00:00|||PASS|||ff6996534413785229a7ab2280641c6e|||META|||I don’t miss the camera on the Ray-Ban Meta Audio glasses
-2026-10-13T18:51:22+00:00|||PASS|||553902e502a910271a6f447053974099|||META|||I wore Meta's new Ray-Ban smart glasses without feeling like a creep. Here's why
-2026-10-13T18:51:47+00:00|||SENT|||459d590f1ee37acb950b5371d2bb2773|||QCOM|||Qualcomm wins jury verdict against Arm for breach of architectural license agreement
-2026-10-13T19:54:43+00:00|||PASS|||94d9b70a7293eed0fbe2c4a7f9532212|||AAPL|||Apple Takes on Amazon With New Smart Home Gadgets. The Launch Adds Up to a $5 Trillion Valuation.
-2026-10-13T19:54:45+00:00|||PASS|||5297b7e0431b0e1c2400fa2c6d8c7d19|||AAPL|||Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Trillion AI Wave?
-2026-10-13T19:54:47+00:00|||PASS|||80fa287fe82f52f6d77479d3a5e90ff0|||TSLA|||Tesla Stock's $1.5 Trillion Valuation Leaves a Nearly $1 Trillion Question
-2026-10-13T19:54:50+00:00|||PASS|||b795e41a4d77b0154cb7b2034b9b9803|||NVDA|||Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Trillion AI Wave?
-2026-10-13T19:55:10+00:00|||PASS|||dbd5f2b57fc0c43a1b2dffad955a1479|||ASML|||ASML Could Swing $34.8 Billion After Earnings
-2026-10-13T19:55:32+00:00|||PASS|||b5d599afdc36968041a2b5d9a7a2ce62|||SMTC|||Did Semtech Corporation Insiders Breach their Fiduciary Duties to Shareholders?
-2026-10-13T19:55:42+00:00|||PASS|||5d6889c4a6888c30890fd366159afb64|||MPWR|||Did Monolithic Power Systems, Inc. Insiders Breach their Fiduciary Duties to Shareholders?
-2026-10-13T19:56:05+00:00|||PASS|||953a27010ee6c833bd5622259b17ec58|||ZETA|||Did Zeta Global Holdings Corp. Insiders Breach their Fiduciary Duties to Shareholders?
-2026-10-13T19:56:43+00:00|||PASS|||1dccb3bfdc8adae930e9efdda5dc470a|||PPTA|||Did Perpetua Resources Corp. Insiders Breach their Fiduciary Duties to Shareholders?
-2026-10-13T20:56:53+00:00|||PASS|||3f5897742fa71671f51781cf092de241|||HON|||AVCON RECEIVES FAA STC FOR HONEYWELL AEROSPACE REPLACEMENT EGPWS ON BOMBARDIER AND LEARJET AIRCRAFT
-2026-10-13T20:57:00+00:00|||PASS|||c0843cd31c5d6216f56e547a8d939913|||META|||Ben Affleck: 'I Got Banned From Instagram Twice for Impersonating Myself'
-2026-10-13T20:57:02+00:00|||PASS|||70a9d627b0c542d216beb89d1af0a0d5|||META|||I've been testing Ray-Ban Meta Audio glasses for 72 hours — and ditching the camera was the absolute right call
-2026-10-13T20:57:15+00:00|||PASS|||ea91730eb70729bf97f946b82354fde2|||TSM|||Rethink Technology Weekly Update 10/11/2026: Brief Previews Of TSMC, ASML, And RTX Q3 Earnings (NYSE:TSM)
-2026-10-13T20:57:27+00:00|||PASS|||350f95c86a69ccdb88ce1068a435cf61|||ASML|||ASML Is About to Kick Off Tech Earnings. It’s a Big Deal for Chip Stocks.
-2026-10-13T20:58:48+00:00|||PASS|||a08949ec1fcbbb34e6c18a54b5fc9a2f|||SPCX|||SpaceX Wants $40 Billion in New Debt, and It'll Need Hundreds of Billions More to Achieve Musk's Vision
-2026-10-13T20:59:05+00:00|||PASS|||057ceba9b679e7a10c0a6e18e4a41533|||ETN|||Edison Shares Fall After Muddy Waters Alleges Safety Failures Before Eaton Fire
-2026-10-13T21:52:23+00:00|||SENT|||7a2c92d336a4d46269829a1021fe05b3|||CRUS|||Cirrus Logic confirms it made bids for Synaptics (SYNA:NASDAQ)
-2026-10-13T21:52:28+00:00|||PASS|||7a6121ca1ee692e1df70e78766d46bec|||GOOGL|||Google AI Customer Service Privacy Lawsuit Gets Doubtful Judge
-2026-10-13T21:53:05+00:00|||SENT|||67dcd0b4c42b8f7d481860476844fe52|||MSFT|||Microsoft Reports $130 Billion in Data Center Leases
-2026-10-13T21:53:11+00:00|||PASS|||ce8c7decca5957aa457b2ce80f5f6e5b|||AMZN|||Check your medicine cabinets: Nearly 113,000 bottles of Amazon-brand pain relievers recalled
-2026-10-13T21:53:13+00:00|||PASS|||70a830b05e5f601cc380a0013a291985|||AMZN|||Apple Takes on Amazon With New Smart Home Gadgets. It Still Isn’t Worth $5 Trillion.
-2026-10-13T21:53:15+00:00|||PASS|||84283a66205d11cc152fcf0b021d65dd|||AMZN|||Check your kitchen: Seeds sold on Amazon, Walmart recalled over salmonella risks
-2026-10-13T21:53:18+00:00|||PASS|||058575b7d8a718cc27f6c4b5f2ac4b48|||AAPL|||Apple Takes on Amazon With New Smart Home Gadgets. It Still Isn’t Worth $5 Trillion.
-2026-10-13T21:53:42+00:00|||PASS|||871749a1008de2ea0ff2a2cc9e906f22|||AMAT|||Watch Applied Materials CEO on Doubling Revenue Thanks To AI
-2026-10-13T21:54:00+00:00|||SENT|||9987a93b7dd9fbe0b0cacf6cce615b22|||AEIS|||Advanced Energy Unveils Centra Smart Hub for Improved Temperature Measurement in Next-Generation Semiconductor Tools
-2026-10-13T21:55:21+00:00|||PASS|||ade374eceee619bba4d24e904a9f2e9e|||ETN|||Bain Capital and Tillman Global Holdings Complete $1.5 Billion Investment in Eaton Fiber and Acquisition of Ripple Fiber
+@@HEARTBEAT|||2026-10-28|||2026-10-21T13:41:10+00:00
 2026-10-13T22:52:00+00:00|||PASS|||32abe6330b63dc9446b494e5f0e4df39|||AAPL|||Apple’s Next Stop: $6 Trillion Market In 2 Years (NASDAQ:AAPL)
 2026-10-13T22:52:08+00:00|||PASS|||68788fdbad1eddd553bdce377fdacce2|||QCOM|||ARM-QCOM Lawsuit: Delaware Jury Delivers Verdict In High-Stakes Qualcomm-ARM Licensing Battle
 2026-10-13T22:52:50+00:00|||PASS|||75c93594d1b2cad24d63baf46a63fe1e|||CSCO|||2026 Cisco AI Infrastructure OCP Pre-Briefing Final Slide 11: Cisco AI Ethernet and optical architecture
@@ -1013,3 +980,38 @@
 2026-10-27T18:13:56+00:00|||PASS|||81447e3d5192a4728e6ea26a663982f9|||IONQ|||IonQ Q3 earnings on deck: What to expect
 2026-10-27T18:14:01+00:00|||PASS|||3e5c2f5536190a35a0a854f36e391b70|||CRCL|||Ark Invest buys $5.2 million of Circle shares, sells $15.9 million of its own Bitcoin ETF as BTC grinds lower
 2026-10-27T18:14:07+00:00|||SENT|||4b2f2479106591e702f4f2556864dcd1|||GLXY|||Galaxy Digital Inc. (GLXY) Q3 Earnings Top Estimates
+2026-10-27T22:26:33+00:00|||PASS|||64063ac2f8e5303fc5e00e8781a8687f|||GOOGL|||Alphabet reports Q3 earnings on Wednesday: Here's what to watch for
+2026-10-27T22:26:35+00:00|||PASS|||c082f00ef17633527472f7467ac1b1f9|||GOOGL|||Can Strong Search and Cloud Growth Drive GOOGL's Q3 Earnings?
+2026-10-27T22:26:44+00:00|||SENT|||c8a4ea904a827e87d4b34c4bad3f5df1|||UCTT|||Ultra Clean Q3 2026 slides: record revenue, margin gains on AI demand
+2026-10-27T22:26:53+00:00|||SENT|||710d20bfc1109d61de2d5ff590a9b435|||UCTT|||Ultra Clean earnings beat by $0.21, revenue topped estimates
+2026-10-27T22:26:56+00:00|||PASS|||5131e37d46f867495214656e0f5c04a1|||UCTT|||Ultra Clean earnings face test as stock reels from pullback By Investing.com
+2026-10-27T22:27:02+00:00|||SENT|||d87f5732e97255e54dd2b3c748d096e8|||TTMI|||TTM Technologies completes $100M buyback, authorizes new program By Investing.com
+2026-10-27T22:27:22+00:00|||SENT|||2d31ea9a5850108269b4d8c0442118f1|||AVGO|||Banks Eye $21 Billion of Bonds for Broadcom Chip-Financing Deal
+2026-10-27T22:27:29+00:00|||SENT|||d4b2eb4ba554860cf183d865dfa650b7|||AVGO|||Google TPUs Are Cheaper Than NVIDIA GPUs, Yet Anthropic’s $63 Billion TPU Financing Hit A Roadblock Until Broadcom Sweetened Terms For Banks
+2026-10-27T22:27:42+00:00|||PASS|||de67ec4f836f11914e3a216fc6bb08a2|||HON|||Honeywell Aerospace to Release Q3 Earnings: What's in the Cards?
+2026-10-27T22:27:46+00:00|||PASS|||0805cb8431c3f78930c6bbe513e1cfe2|||MSFT|||Microsoft Could Swing By $184 Billion After Earnings
+2026-10-27T22:27:48+00:00|||PASS|||63588f1107f2b816368af90eb0b4795d|||MSFT|||Tech layoffs 2026: Tracking the job losses across Microsoft, Netflix, Electronic Arts, eBay, Apple, Meta and others
+2026-10-27T22:27:56+00:00|||SENT|||0cc0f43558597d1d1ce04bedd59f725e|||AMZN|||US agency approves Amazon Leo’s $11.5 billion acquisition of Globalstar
+2026-10-27T22:28:00+00:00|||PASS|||e9f39db82109a02692df31bba8c4f193|||META|||Why Meta Platforms’ $27 Billion Data Center Bond Is Slumping
+2026-10-27T22:28:05+00:00|||SENT|||e0457539ed13908ca8855345ecb5dcd5|||META|||Watch Meta Boosts Equity Offering to $98 Billion, Raising Its AI Bet
+2026-10-27T22:28:07+00:00|||PASS|||2874498442e26f88f40c51332345d584|||META|||Market Chatter: Meta Platforms' Share Sale for AI Spending Oversubscribed
+2026-10-27T22:28:10+00:00|||PASS|||b9270c541f0f0731aa2723d096c743bc|||META|||Meta’s $97.5B AI money grab: why Zuckerberg is racing to raise cash before rivals
+2026-10-27T22:28:11+00:00|||PASS|||6a3354573420b2096112890ce34bb397|||META|||Meta Is Selling Up to $95 Billion of Stock. Its Chip Suppliers Want In
+2026-10-27T22:28:16+00:00|||SENT|||9a2972c89ce320de55debdc13e0702a8|||META|||Meta Wraps Up First Phase of Equity Financing—$37.5 Billion. Convertibles Yield 6.5%
+2026-10-27T22:28:21+00:00|||PASS|||146aa9d3cf3e85046a6420d09f66891f|||TSLA|||Tesla Rises 6% as Barclays Upgrade Cites SpaceX Merger Potential; Lucid Drops 4%, Rivian Slips
+2026-10-27T22:28:26+00:00|||PASS|||d9b75309e5ee02acbc9f285b01eaadc7|||NVDA|||Nvidia, AMD to buy $4B in Meta shares as part of expanded chip partnerships
+2026-10-27T22:28:33+00:00|||SENT|||a4fa7955dd94430428d4face3f8b4972|||AMD|||Nvidia, AMD to buy $4B in Meta shares as part of expanded chip partnerships
+2026-10-27T22:28:41+00:00|||PASS|||7ce98c48cc5e5a0ba1535c1e6a610d32|||INTC|||Infisical's $40M raise, Intel buys Classiq, RadNet's radiology tie-up
+2026-10-27T22:28:43+00:00|||PASS|||dbebdb5041491c6e50689d2f8a1f4cbf|||INTC|||Intel faces test of recovery as Wedbush looks beyond Q3 results
+2026-10-27T22:28:44+00:00|||PASS|||ddf6905e55e035aa2713c1e0f7d1b920|||INTC|||Intel offers 'balanced setup' into Q3 results, with servers the key: Wedbush (INTC:NASDAQ)
+2026-10-27T22:28:54+00:00|||PASS|||07753577e7492dfaf348607ef343cd16|||SKHY|||SK Hynix's Solidigm Reportedly In Talks Over $45B Investment In US Chip Plant
+2026-10-27T22:28:56+00:00|||PASS|||a408a7a92f03bfaea6b948a448f70f28|||SKHY|||SK Hynix Jumps On Dividend Report As Memory Makers Sell Out 2027
+2026-10-27T22:29:03+00:00|||PASS|||d7bc811f3fd536347ccc96410852a4e3|||STX|||Seagate Stock Slides Despite Earnings Beat, Adding To Slump For AI Stock
+2026-10-27T22:29:05+00:00|||PASS|||0199af26514b81fc0c5d72965366815c|||STX|||Seagate Stock Falls as Record-Breaking Earnings Aren’t Enough
+2026-10-27T22:29:07+00:00|||PASS|||dc63dd417f2cfba0ae9f61c8891c33cf|||STX|||Seagate falls in extended trading on quarterly results
+2026-10-27T22:29:15+00:00|||SENT|||fa1ee1d3d91c852a0de5e2b919721517|||STX|||Seagate Technology shares fall 6% despite Q1 earnings beat and raised guidance
+2026-10-27T22:29:35+00:00|||SENT|||6bb3b5003afbc2e51acccac2e0ebf5cf|||TER|||Teradyne Revenue, Profit Jump on Semiconductor Test Growth
+2026-10-27T22:29:51+00:00|||PASS|||71ef11853d652295f54bc58ab90c18e2|||CSCO|||Cisco’s CMO has to generate more revenue on the same budget. Here’s where she’s placing her bets
+2026-10-27T22:29:53+00:00|||PASS|||4a9a3727e2961ce6cf6dc1a227bf6182|||CSCO|||Ingram Micro Launches AI-Powered SMB Quick Buy Program Packed With Cisco Technology: Exclusive
+2026-10-27T22:29:56+00:00|||PASS|||9c5cf11bc966b69cab76ec44b766ea64|||SWKS|||Did Skyworks Solutions, Inc. Insiders Breach their Fiduciary Duties to Shareholders?
+2026-10-27T22:31:06+00:00|||PASS|||664ee43fb1984f6da00f9791fe9a8d6d|||IONQ|||IonQ Jumped 7%, Rigetti Up 8% on Intel’s $2.3 Billion Quantum Buy: “Full-Stack Quantum Computing Business”
