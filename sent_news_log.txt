@@ -1,25 +1,4 @@
 @@HEARTBEAT|||2026-10-27|||2026-10-21T13:41:10+00:00
-2026-10-13T15:43:59+00:00|||SENT|||fe65d61ca5661160856a24aea8731a15|||VSH|||Vishay introduces automotive optical sensors for battery systems By Investing.com
-2026-10-13T15:44:05+00:00|||PASS|||e91ba330b3896aee81c9de0ccead34ba|||VSH|||Vishay Intertechnology Optical Sensors With Photodiode
-2026-10-13T15:44:28+00:00|||PASS|||db1362eab37fb9635c11cc4f4131a43e|||AMZN|||Amazon-branded pain medicine recalled after reports of discolored tablets
-2026-10-13T15:44:33+00:00|||PASS|||c4378a34cb05ad044fc134c03c513558|||AAPL|||Apple Unveils Smart Home Lineup as Market Value Tops $5 Trillion
-2026-10-13T15:44:39+00:00|||PASS|||367cc979c159e1e09b652991ae60eef7|||MRVL|||Marvell: A Strong Buy With A $90 Billion Opportunity (NASDAQ:MRVL)
-2026-10-13T15:44:44+00:00|||SENT|||cf88249e58277649b34c4c7548a8f034|||QCOM|||Qualcomm-Arm lawsuit likely to be decided this week, source says (QCOM:NASDAQ)
-2026-10-13T15:45:20+00:00|||SENT|||cfc20ac58e7c6270a366649ea0b48226|||AEIS|||Advanced Energy Launches 3200 W and 3600 W M-CRPS Power Supplies with Ultra-High Power Density
-2026-10-13T15:45:51+00:00|||SENT|||86ccc6329639955ddc1d4db4cec666f4|||CIFR|||Cipher Digital Plans $850 Million Convertible Notes Offering Due 2032
-2026-10-13T15:46:00+00:00|||PASS|||a8600524154427199bebea696c998894|||CRM|||Docusign and Salesforce Launch Intelligent Agreement Management Natively Across Salesforce to Power Agentic Agreement Workflows
-2026-10-13T15:46:01+00:00|||PASS|||3f75228132281b5cb09e5d245dd522c8|||CRM|||Argano Advances Salesforce and AI Capabilities with Acquisition of Oktana
-2026-10-13T15:46:35+00:00|||PASS|||71bbb6f5e2b23630d011cdaf07811eb1|||SPCX|||SpaceX Plan to Launch 456 Starships a Year in Texas Under Review
-2026-10-13T16:43:19+00:00|||PASS|||4d02ab0fb3afe947e77b22b6f08c2931|||GOOGL|||Alphabet Could Unlock $100 Billion From AI Chips by 2028, Analyst Says
-2026-10-13T16:43:51+00:00|||PASS|||26937f17c1cf4876d7a0d09d5d7b0202|||AMZN|||If You Invest $1,000 in Amazon Today, Here’s What It Could Be Worth by 2030
-2026-10-13T16:44:00+00:00|||PASS|||b2237f9404140ceebb9ba95123aa9a8f|||NVDA|||Nvidia to buy a minority stake in France's Doctolib
-2026-10-13T16:45:40+00:00|||PASS|||8884c8c807fac77f0c753bda699b9d50|||SPCX|||Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites
-2026-10-13T17:41:09+00:00|||PASS|||3b8f4629d9ef24398b5e3f9c553dffb6|||MSFT|||Microsoft's New AI Chip Could Help Solve Its $175 Billion Spending Problem
-2026-10-13T17:41:22+00:00|||SENT|||78001ae7843889fea58a4314b7bdaa2f|||META|||Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach
-2026-10-13T17:41:41+00:00|||PASS|||70f0cddb5927224383d2e1231670575f|||ASX|||ASE Technology, IBD Stock Of The Day, Holds In Buy Zone Ahead Of Q3 Earnings Report
-2026-10-13T17:42:21+00:00|||PASS|||8e047cc5e9db88b5da917e61be9c9f57|||NOK|||Nokia launches flexible 50G/25G/10GPON for AI-ready fiber broadband
-2026-10-13T17:42:43+00:00|||PASS|||4a29d087a9468659df78bbeaea8a5551|||NOW|||AI customer service startup Decagon held early buyout talks with ServiceNow
-2026-10-13T17:43:43+00:00|||PASS|||baeff1cf2bead0e913c62f4581cd0943|||IONQ|||Mizuho reiterates IonQ stock rating after Elisity acquisition
 2026-10-13T18:50:57+00:00|||PASS|||d6f66d02ad2cc8de99cbad40bfa60b23|||AVGO|||What a $50 Billion Debt Deal Could Mean for Broadcom Stock
 2026-10-13T18:51:12+00:00|||PASS|||adbaf2f8b2d3054940f73d8a8fff9e9c|||MSFT|||Microsoft Stock Reclaims $4 Trillion Market Cap as AI Optimism Surges
 2026-10-13T18:51:15+00:00|||PASS|||982f3ac14ac60a6a3a5322ac258f2e53|||AMZN|||Apple Takes on Amazon With New Smart Home Gadgets. The Launch Adds Up to a $5 Trillion Valuation.
@@ -960,3 +939,77 @@
 2026-10-27T06:40:28+00:00|||PASS|||702d35062292dba20db5e5c84a79e879|||SPCX|||Tesla-SpaceX Merger Hopes Send Sell Ratings to 11-Year Low
 2026-10-27T06:40:41+00:00|||SENT|||9ba46d780f5f7718d63544cf3b66d9f7|||PPTA|||Perpetua Resources Awarded Up to $40 Million in U.S. Army Funding to Advance Domestic Tungsten Supply for American Defense
 2026-10-27T06:40:59+00:00|||PASS|||63589bb85fdd0b36cdb40d104a9c7cce|||CRCL|||Circle faces up to 20% revenue risk from AI agents, Mizuho says
+2026-10-27T18:08:02+00:00|||PASS|||f4fc64bcd5bd9c02384392917014b6eb|||GOOGL|||Amazon and Alphabet Are Each Spending At Least $200 Billion on Data Centers This Year. Here's Which Stock Outperforms Through 2028.
+2026-10-27T18:08:03+00:00|||PASS|||1c5c7a92c1a51046c80efa8d20240410|||GOOGL|||Alphabet Stock Breaks Down Ahead of Q3 Earnings: Could GOOGL Fall 30%?
+2026-10-27T18:08:05+00:00|||PASS|||1b8fbee0389414f29207718da2885f44|||GOOGL|||Alphabet’s Q3 results to put AI spending back in the spotlight (GOOG:NASDAQ)
+2026-10-27T18:08:10+00:00|||PASS|||d701c9abbacd5cef8bf8e0eaa79f95b4|||UCTT|||Ultra Clean earnings face test as stock reels from pullback
+2026-10-27T18:08:13+00:00|||PASS|||050517081206c3ebde7e441894dadd5f|||TTMI|||TTM Technologies: Big Guidance Increase, Cheaper Stock Price (NASDAQ:TTMI)
+2026-10-27T18:08:19+00:00|||PASS|||fc42f040e97d3061dfe21ee1939862c5|||OUST|||Ouster Q3 Earnings on Deck: Buy, Hold or Sell OUST Stock Now?
+2026-10-27T18:08:26+00:00|||SENT|||a6c014001691e2283d167cd7cdef09d9|||VUZI|||Vuzix Signs Distribution Agreement with Commercial Electronics Systems and Begins Shipping Against Initial Six-Figure LX1 Smart Glasses Order
+2026-10-27T18:08:36+00:00|||PASS|||9d20d86d95e35e185b2498ee0efb57aa|||AVGO|||Broadcom Lined Up a $63B Deal for Anthropic to Get More of Its Chips. The Stock Is Climbing
+2026-10-27T18:08:37+00:00|||PASS|||c2e0cb94d49fd6ef07107d8a7c29871a|||AVGO|||Broadcom’s $63 billion Anthropic deal draws Baird’s 'outperform' rating and $630 target
+2026-10-27T18:08:39+00:00|||PASS|||2b872088b629fd55013d9d8aba0da614|||AVGO|||Wall Street Banks Provide $63 Billion To Finance Broadcom AI Chips For Anthropic
+2026-10-27T18:08:41+00:00|||PASS|||70dc533d2fd06f29f7d16385e8f7d5b3|||AVGO|||'Biggest Constraint Is Capital': Broadcom CEO Scrambles to Seal $63 Billion Anthropic Deal
+2026-10-27T18:08:44+00:00|||PASS|||03de3c6024027f202303bf6813b35b79|||AVGO|||Broadcom Lines Up $63 Billion to Finance Anthropic's Chips
+2026-10-27T18:08:46+00:00|||PASS|||4cb3943cfb24d87d9ef3238a6afc7e99|||AVGO|||Broadcom Could Generate Up to $30 Billion in Revenue From Anthropic AI Financing Deal With Limited Risk, Truist Says
+2026-10-27T18:08:51+00:00|||PASS|||2cca73981984f1c4db798edf25721653|||GLW|||Corning Raises Growth Ambitions With $40 Billion Sales Target by 2030
+2026-10-27T18:08:53+00:00|||PASS|||d41b6be424160c7e97ba924bd6f042a3|||GLW|||Corning Earnings Show It’s Deeply Dependent on AI Demand. Why That Could Be Bad.
+2026-10-27T18:08:59+00:00|||SENT|||81ce987b1470b85511a860376562448a|||GLW|||Corning Reports 19% Rise in Q3 Core Sales to $5.08 Billion, Forecasts Higher Fourth-Quarter Earnings
+2026-10-27T18:09:01+00:00|||PASS|||dc108ba2094be70f3353cba536afe516|||GLW|||Corning Earnings Might Be Just What Optical Networking Stocks Need Right Now
+2026-10-27T18:09:07+00:00|||PASS|||dce58f9ef09d0325fba5eb5ca7bef295|||GEV|||Exploring Analyst Estimates for GE Vernova (GEV) Q3 Earnings, Beyond Revenue and EPS
+2026-10-27T18:09:09+00:00|||PASS|||2985039557fe5012e60a0075d0435648|||GEV|||Alphabet, FedEx, GE Vernova, KLA, Microsoft: Earnings-Day Vol
+2026-10-27T18:09:16+00:00|||SENT|||692b42d7decf1d6abbfbb06b61bedb9a|||CAT|||Caterpillar mounts landmark legal test of UK’s post-Brexit tariffs
+2026-10-27T18:09:20+00:00|||PASS|||04e3dacd72ebcf3dd5981d20f8a7ebaf|||RRX|||Regal Rexnord (RRX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release
+2026-10-27T18:09:26+00:00|||SENT|||7017ef61216c1ab1946178449529e0cf|||ECL|||Ecolab Q3 Earnings Beat Estimates, Sales Miss; Company Narrows 2026 Outlook
+2026-10-27T18:09:31+00:00|||PASS|||2a63d46edf24f3d7437a1cf9893c4292|||HON|||Honeywell Automation India Q2 profit rises 12% to ₹134 crore, revenue up 6.5%
+2026-10-27T18:09:35+00:00|||PASS|||dfcb99cd61b5dcc5509638327245642c|||MSFT|||Decoding Microsoft's AI workforce shake-up: Are more layoffs coming?
+2026-10-27T18:09:39+00:00|||PASS|||0515321a8d72661099d0d957168c2373|||MSFT|||Microsoft Is Trying to Shed a Lot of Workers. Just Don’t Call It a Layoff.
+2026-10-27T18:09:41+00:00|||PASS|||61f36d74375641f04790fca77500d946|||MSFT|||Microsoft (MSFT) Q3 earnings report preview: what to look for
+2026-10-27T18:09:43+00:00|||PASS|||2bf75c5740d0eff232a08ef68ee13b14|||MSFT|||Microsoft Stock Before Q1 Earnings: Buy Now or Wait for Results?
+2026-10-27T18:09:47+00:00|||PASS|||3333967026bedaf9b3afee06cff88d72|||AMZN|||Amazon and Alphabet Are Each Spending At Least $200 Billion on Data Centers This Year. Here's Which Stock Outperforms Through 2028.
+2026-10-27T18:09:50+00:00|||PASS|||ab118b506309faa11bf1d1c4882e6b6f|||META|||Meta’s $25 billion legal loss just put blood in the water
+2026-10-27T18:09:52+00:00|||PASS|||d9c6e12285a9fb226e6c4a0600f9e42c|||META|||Meta’s $825B AI Bet Is Massive, But Muse Could Make It Worth It (NASDAQ:META)
+2026-10-27T18:09:53+00:00|||PASS|||801f0bb6c640f60688b21819726d75af|||META|||Meta's nearly $100 billion stock sale is a turning point for how Big Tech pays for AI
+2026-10-27T18:10:00+00:00|||SENT|||3a85a0f8d7c576cfa364656be6c1e946|||META|||AMD To Invest $1B In Meta Stock Offering As AI Partnership Expands — Helios Systems Now Running At Meta
+2026-10-27T18:10:07+00:00|||SENT|||21f56a56bbef0b323ea839c1d95e6ee2|||META|||Meta’s $25 Billion Stock Sale Ended Five Times Oversubscribed
+2026-10-27T18:10:10+00:00|||PASS|||fbd72526c41e7bd816fdf235e61bb2bd|||AAPL|||Apple Could Lose Its $5 Trillion Valuation as iPhone Duo Screens Crack
+2026-10-27T18:10:14+00:00|||PASS|||af4e0c309cbc34c5abb3a2c1bb2bd87f|||TSLA|||SpaceX and Tesla Turn to Boards Cozy With Musk to Mull a Merger
+2026-10-27T18:10:16+00:00|||PASS|||4b1d19a07fb2c07da0fa7a8bd27291ae|||TSLA|||In a SpaceX-Tesla Merger, Tesla Shareholders Might Be the Junior Partner
+2026-10-27T18:10:18+00:00|||PASS|||6c22c60975ccb9d30a02a08b2edc980d|||TSLA|||Elon Musk Reveals the Real Reason He Hasn't Confirmed a SpaceX-Tesla Merger Will Happen
+2026-10-27T18:10:21+00:00|||PASS|||62fa429e95b54a1fa3c35bb9aa67cdf5|||NVDA|||Blockmate Ventures to buy first NVIDIA B200 AI compute node, entering neocloud market
+2026-10-27T18:10:23+00:00|||PASS|||12410520aecfe6b04e5e010f1db6cbb2|||NVDA|||Nvidia to commit $3 bln to Meta share offering as part of bigger AI partnership
+2026-10-27T18:10:29+00:00|||PASS|||ea49b72a2baa3fbad2c885f7a1f70ca5|||NVDA|||Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership
+2026-10-27T18:10:34+00:00|||PASS|||4dc5295046a01778387b9ec4dca614b9|||AMD|||Advanced Micro Devices (AMD) Ties AI Deals To $95 Billion Infrastructure Push
+2026-10-27T18:10:41+00:00|||PASS|||84f862c7517a0100e0af55148355c5b3|||AMD|||Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership
+2026-10-27T18:10:46+00:00|||PASS|||168ded97273c55948bfd7cf5563480d2|||QCOM|||Military drone outfit Anduril partners with Qualcomm to build laptops on US soil with new BlueChip venture — defense contractor targets a 100% domestic supply chain in the future
+2026-10-27T18:10:49+00:00|||PASS|||fd03f04521134a5cb3c3f94194ced5b2|||QCOM|||Cristiano Amon Tells Qualcomm Staff Performance ‘Has Consistently Fallen Short Of Expectations’ As Job Cuts Land Days After Snapdragon Overheating Claims
+2026-10-27T18:10:51+00:00|||PASS|||7775e1bc723061aef23f2ecee6ce0519|||QCOM|||Anduril expanding into laptop manufacturing in partnership with Qualcomm
+2026-10-27T18:10:52+00:00|||PASS|||41bad24d734855b279006bc979f49d3f|||QCOM|||Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop
+2026-10-27T18:10:56+00:00|||PASS|||a1de7a0dba526184cdfb5f17640346ba|||INTC|||Intel Quantum Acquisition Might Not Be Enough to Make It a Powerhouse
+2026-10-27T18:10:57+00:00|||PASS|||ac6136cfd915db17ebca91d134085063|||INTC|||Can Higher Data Center Revenues Propel Intel's Q3 Earnings?
+2026-10-27T18:11:06+00:00|||PASS|||d3d4b747fe6036948f97526f816c7119|||SKHY|||Solidigm talking to Commerce Dept. about investing $45B in new chip plant: report (SKHY:NASDAQ)
+2026-10-27T18:11:11+00:00|||PASS|||bfab3104875d40ada86663edd7846993|||WDC|||All You Need to Know About Western Digital (WDC) Rating Upgrade to Buy
+2026-10-27T18:11:13+00:00|||PASS|||e37719d19459a1fbb192b190a1add698|||STX|||Seagate Stock Needs a Boost From Earnings—But the Bar Is High
+2026-10-27T18:11:26+00:00|||SENT|||3bab036de91c627901fb737b3242c6c1|||AMAT|||[News] Applied Materials to Double BESI Stake to 20% on Hybrid Bonding Demand, Pending U.S. Antitrust Review
+2026-10-27T18:11:31+00:00|||PASS|||096435a98546c2b4dadadfe87893e83e|||KLAC|||Earnings to watch: KLA Corporation (KLAC) reports Q3 results tomorrow
+2026-10-27T18:11:32+00:00|||PASS|||5ad49d5e14a55fa341bb52b986087f79|||KLAC|||Alphabet, FedEx, GE Vernova, KLA, Microsoft: Earnings-Day Vol
+2026-10-27T18:11:38+00:00|||SENT|||0af3563dd4d604e8acce2c1ad633254b|||ACLS|||Axcelis Technologies Names Jeroen Delsman as Executive Vice President and Chief Financial Officer
+2026-10-27T18:12:01+00:00|||PASS|||d1c271edbce8842c5f335ed213abc851|||AXTI|||AXTI Stock Before Q3 Earnings Release: To Buy or Not to Buy?
+2026-10-27T18:12:16+00:00|||SENT|||b072ea5038cd3451222915498c9895bf|||ALGM|||Allegro MicroSystems Introduces New Power and Cooling Solutions for Sustainable 800V AI Data Centers
+2026-10-27T18:12:20+00:00|||PASS|||8f84b0b0fef843f05e3e32783b6cc692|||DELL|||UT Austin unveils UT Dell Medicine as it bets big on new AI-native hospital
+2026-10-27T18:12:21+00:00|||PASS|||928ff29fc4ea041cf9a4ca191158f200|||DELL|||Dell: $95 Billion AI Backlog, But Wait For A Further Pullback (NYSE:DELL)
+2026-10-27T18:12:29+00:00|||SENT|||250a14658b13bfc4e76e24ec7c61a77d|||VRT|||Vertiv Completes Acquisition of UtilityInnovation Group
+2026-10-27T18:12:36+00:00|||PASS|||a52083e5d3730d0f471fc06f28f83f13|||PLTR|||Palantir Put Strategy Aims To Cash In On Potential Earnings Volatility
+2026-10-27T18:12:43+00:00|||PASS|||d77c1eb62e2bfc2ab7580c3d85c294e1|||DDOG|||Datadog Set for 'Strong' Q3 Results, Oppenheimer Says
+2026-10-27T18:12:46+00:00|||PASS|||d83eef37231b57220b704a907c62ea65|||IBM|||IBM Introduces Identity and Control for AI Agents, Securing Frontier Intelligence for the Enterprise
+2026-10-27T18:13:16+00:00|||PASS|||16d55d6007c656141cec7c3d9121b083|||SPCX|||Verizon CEO Says SpaceX Could Spend $500 Billion to Enter Wireless. Is That the Real Barrier?
+2026-10-27T18:13:18+00:00|||PASS|||95b9bba2fbc045fa41a8ccbc478b2b41|||SPCX|||Israeli ad tech firm tied to suspected Starlink tracking effort, report claims — researchers say it outbid everyone for Starlink-linked ads in 100+ countries, including where the service is banned
+2026-10-27T18:13:23+00:00|||SENT|||b8ed19d89357a5ca8243aba44871305b|||SPCX|||SpaceX and Tesla Turn to Boards Cozy With Musk to Mull a Merger
+2026-10-27T18:13:26+00:00|||PASS|||c5f6b3cab6c3be40a89663f4496d05ca|||SPCX|||In a SpaceX-Tesla Merger, Tesla Shareholders Might Be the Junior Partner
+2026-10-27T18:13:27+00:00|||PASS|||3cc44e264e5e5febb955cd0913e42e91|||SPCX|||Buy Tesla ahead of potential SpaceX merger, says Barclays
+2026-10-27T18:13:45+00:00|||PASS|||6ee5cb66921fd217e2bd01640e10e452|||PWR|||What Analyst Projections for Key Metrics Reveal About Quanta Services (PWR) Q3 Earnings
+2026-10-27T18:13:49+00:00|||PASS|||e359c2c123dcb5edcea63bb7ca50509c|||GNRC|||Generac owner wants to skip a planned outage run, and users say just press 'off'
+2026-10-27T18:13:53+00:00|||PASS|||759b997e2178c94bc0356a7843473b4b|||ROK|||Rockwell Automation Unveils Record-Breaking Innovation Lineup at Automation Fair 2026
+2026-10-27T18:13:56+00:00|||PASS|||81447e3d5192a4728e6ea26a663982f9|||IONQ|||IonQ Q3 earnings on deck: What to expect
+2026-10-27T18:14:01+00:00|||PASS|||3e5c2f5536190a35a0a854f36e391b70|||CRCL|||Ark Invest buys $5.2 million of Circle shares, sells $15.9 million of its own Bitcoin ETF as BTC grinds lower
+2026-10-27T18:14:07+00:00|||SENT|||4b2f2479106591e702f4f2556864dcd1|||GLXY|||Galaxy Digital Inc. (GLXY) Q3 Earnings Top Estimates
