@@ -1,15 +1,4 @@
 @@HEARTBEAT|||2026-10-27|||2026-10-21T13:41:10+00:00
-2026-10-13T01:47:54+00:00|||PASS|||a3e0695ea74216a2aa298784a19342b6|||MU|||Micron, SK Hynix, SanDisk Lose $100 Billion In Memory Rout - Micron Technology (NASDAQ:MU)
-2026-10-13T01:48:25+00:00|||PASS|||3e10981b408016a6a8a64039b4dcecaa|||META|||Special election in Piqua to address Meta data center and council recalls
-2026-10-13T01:48:43+00:00|||PASS|||9ed12c466a086cbb78687b7d7ec0459e|||SKHY|||Micron, SK Hynix, SanDisk Lose $100 Billion In Memory Rout - Micron Technology (NASDAQ:MU)
-2026-10-13T01:48:45+00:00|||PASS|||49f1ef4659e81d1dae6f16389df50eb3|||SNDK|||Micron, SK Hynix, SanDisk Lose $100 Billion In Memory Rout - Micron Technology (NASDAQ:MU)
-2026-10-13T05:48:02+00:00|||PASS|||02f0fab2cc6a1b4ef97c951ce4cc2d22|||NVDA|||​Nvidia to Invest $1 Billion in U.S. Superintelligence Infrastructure
-2026-10-13T05:48:09+00:00|||PASS|||7c2ad2ae3726dc87796f840697ba4f07|||QCOM|||​Qualcomm Unveils Four AI Broadband Platforms Ahead of Network X 2026
-2026-10-13T05:48:20+00:00|||PASS|||ec1fed4ed10583cd8ec9f11d6b594ad2|||SNDK|||Tokenized SanDisk bets saw more liquidations than XRP as Asia’s chip rout wipes out $800 million
-2026-10-13T05:48:30+00:00|||PASS|||478f89e7f58c43b95044f6fd9c2a2f8e|||AMAT|||Applied Materials opens new $5B chip research facility to accelerate collaborative semiconductor innovation
-2026-10-13T05:48:50+00:00|||PASS|||aaa13619c76eb84ad50b7c9cf408e514|||CRDO|||Credo Launches Short-Reach Micro-Emitter Optics (SRMO) Standardization for AI Data Center Scale-Up and Scale-Out Applications
-2026-10-13T05:48:56+00:00|||PASS|||a1195461e08dc70b9fb7915b08526306|||LITE|||Taiwan optical suppliers post record sales as Lumentum warns of shortages
-2026-10-13T05:49:02+00:00|||PASS|||b8446a63c6c939b2ef3a40f05a5033d7|||CSCO|||Nvidia and Cisco unveil new optics design to help scale AI factories
 2026-10-13T09:47:29+00:00|||PASS|||151c729cf8c14ea095ba5ed7a9c21e8e|||GOOGL|||From Google Deal to Bankruptcy: Character.AI Files for Chapter 11, Puts Disney In Driver’s Seat With $20
 2026-10-13T09:48:01+00:00|||PASS|||912ee7d3ea377fae09532fc1bd49a220|||META|||Mark Zuckerberg Defends Meta's AI CapEx, Ready to 'Write This Check' for up to '$200 Billion' to Dominate
 2026-10-13T09:48:07+00:00|||PASS|||3fd8ff067ee98812858f6ed3b5234d71|||NVDA|||Tencent leases 100000 banned Nvidia chips through Oracle in Southeast Asia
@@ -985,3 +974,30 @@
 2026-10-26T23:15:06+00:00|||PASS|||1041875dc9148c081d7604e1b714f2df|||SPCX|||Tesla Soars 6% on Barclays Upgrade Calling SpaceX Merger “Key Part of the Tesla Bull Case”
 2026-10-26T23:15:08+00:00|||PASS|||1c069628134179d74fcfdd6893cfbc02|||SPCX|||Barclays upgrades Tesla, says SpaceX merger “now a key part of bull case”
 2026-10-26T23:15:10+00:00|||PASS|||351e74b8d688b92319466e7f535a9241|||SPCX|||EasyJet Inks Deal to Fit SpaceX’s Starlink Wi-Fi on Fleet
+2026-10-27T06:37:26+00:00|||SENT|||ccbb8776691906b63bac40e1eaec3adc|||VUZI|||[News] Vuzix Enters Optical Interconnect, San’an Backs Micro LED Startup, Hint at AI Transmission Market
+2026-10-27T06:37:32+00:00|||PASS|||bdaf236294e2316b7c97b0b86ef40124|||NVTS|||Navitas Semiconductor Corp. Advanced Charts | NVTS
+2026-10-27T06:37:36+00:00|||PASS|||395a755bf04bf136bd0625c293eeacb7|||AVGO|||Broadcom, financial firms agree on US$63 billion funding for Anthropic chip purchases
+2026-10-27T06:37:39+00:00|||PASS|||cfcdc43ef519301ae2aefb937fc2c213|||AVGO|||Broadcom CEO Hock Tan reportedly intervened to seal $63B Anthropic debt deal (AVGO:NASDAQ)
+2026-10-27T06:37:41+00:00|||PASS|||fbd14a9199de507c76af24cba98b1166|||AVGO|||Broadcom Chips for Anthropic Get $63 Billion Financing - Broadcom (NASDAQ:AVGO)
+2026-10-27T06:37:43+00:00|||PASS|||59a5ffe6c94fe7f8486ea29939259fe4|||AVGO|||Wall Street banks, Blackstone line up $63 billion to finance Broadcom AI chips for Anthropic By Reuters
+2026-10-27T06:37:45+00:00|||PASS|||49493cce4ef0c88ec1849aa493fcdb8f|||AVGO|||Exclusive | Broadcom CEO Intervened to Seal $63 Billion Anthropic Debt Deal
+2026-10-27T06:37:47+00:00|||PASS|||9957ee87a70a9742a852aaa703b8c48f|||AVGO|||Broadcom Partners With Wall Street Bigwigs To Forge $63B Deal To Power Anthropic’s AI Hardware
+2026-10-27T06:37:49+00:00|||PASS|||9de7f722dfede63054d3d87005c3801a|||AVGO|||Wall Street banks, Blackstone line up $63 billion to finance Broadcom AI chips for Anthropic
+2026-10-27T06:38:00+00:00|||PASS|||a87f221dd154ec9173d1919086e13535|||CAT|||UK’s tariffs on Chinese diggers challenged by Caterpillar
+2026-10-27T06:38:08+00:00|||PASS|||ab9b310ec745e5349a484e266f40f621|||MSFT|||Microsoft offers to buy out a quarter of its workforce
+2026-10-27T06:38:17+00:00|||PASS|||773ed10599cfea1fbbf21c122c8f782f|||META|||Nvidia to invest $3B in Meta stock, expand AI collaboration on Muse models (NVDA:NASDAQ)
+2026-10-27T06:38:24+00:00|||SENT|||5d353ac8887d43043e9a73739c6c0ca4|||META|||Nvidia, Meta partner on Muse agent as Nvidia invests $3 billion By Reuters
+2026-10-27T06:38:29+00:00|||PASS|||cf45fb2d6950eb478e2d05224651ac8d|||TSLA|||Cathie Wood Says Tesla, SpaceX Could Drive Up To 9% GDP Growth: ARK Sees Merger As Win For Both Shareholder Bases
+2026-10-27T06:38:31+00:00|||PASS|||647ad2d814326758acb2789c6dc23f48|||TSLA|||Kevin O’Leary Says Tesla-SpaceX Merger Is Inevitable After Flying Roadster Demo — ‘If You Own Tesla, You’re Gonna Own New Company’
+2026-10-27T06:38:32+00:00|||PASS|||f459ef47d8baea3b2d0ce82843dc53f9|||TSLA|||Tesla-SpaceX Merger Hopes Send Sell Ratings to 11-Year Low
+2026-10-27T06:38:41+00:00|||SENT|||fc739586f85e4c57131c849e80678225|||NVDA|||Nvidia to invest $3B in Meta stock, expand AI collaboration on Muse models (NVDA:NASDAQ)
+2026-10-27T06:38:50+00:00|||PASS|||9c5d4b24fde60eabc403e2f2fa78f245|||ARM|||Arm Holdings (ARM) Faces Jury Breach Ruling As It Unveils Server Security Tie Up
+2026-10-27T06:39:06+00:00|||PASS|||673cab0ee94b6527143d8c13ebfe11b1|||AMAT|||Applied Materials to Increase its Strategic Investment in BE Semiconductor Industries
+2026-10-27T06:39:16+00:00|||PASS|||bceb146648812cf18c73fc7d176aed27|||FORM|||FormFactor Stock Before Q3 Earnings: Smart Buy or Risky Move?
+2026-10-27T06:40:19+00:00|||PASS|||226552f8b88fe2b3f6821a4a3b4c677e|||SPCX|||SPCX Stock Up Nearly 10% Since IPO — Analyst Sees 82% Upside Without Tesla Merger, Even If Revenue Misses Lofty Goals
+2026-10-27T06:40:21+00:00|||PASS|||f191e33109e02a7a5779a070da98e1db|||SPCX|||Cathie Wood Says Tesla, SpaceX Could Drive Up To 9% GDP Growth: ARK Sees Merger As Win For Both Shareholder Bases
+2026-10-27T06:40:22+00:00|||PASS|||93911b636332415eb2cf70f5e125542b|||SPCX|||Kevin O’Leary Says Tesla-SpaceX Merger Is Inevitable After Flying Roadster Demo — ‘If You Own Tesla, You’re Gonna Own New Company’
+2026-10-27T06:40:28+00:00|||PASS|||3768e4fc6a21b427775ba82f583a0349|||SPCX|||Market Chatter: Pimco Buys $4 Billion Slice of SpaceX AI Debt Package
+2026-10-27T06:40:28+00:00|||PASS|||702d35062292dba20db5e5c84a79e879|||SPCX|||Tesla-SpaceX Merger Hopes Send Sell Ratings to 11-Year Low
+2026-10-27T06:40:41+00:00|||SENT|||9ba46d780f5f7718d63544cf3b66d9f7|||PPTA|||Perpetua Resources Awarded Up to $40 Million in U.S. Army Funding to Advance Domestic Tungsten Supply for American Defense
+2026-10-27T06:40:59+00:00|||PASS|||63589bb85fdd0b36cdb40d104a9c7cce|||CRCL|||Circle faces up to 20% revenue risk from AI agents, Mizuho says
