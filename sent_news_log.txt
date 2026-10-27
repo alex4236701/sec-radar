@@ -1,45 +1,4 @@
 @@HEARTBEAT|||2026-10-27|||2026-10-21T13:41:10+00:00
-2026-10-13T09:47:29+00:00|||PASS|||151c729cf8c14ea095ba5ed7a9c21e8e|||GOOGL|||From Google Deal to Bankruptcy: Character.AI Files for Chapter 11, Puts Disney In Driver’s Seat With $20
-2026-10-13T09:48:01+00:00|||PASS|||912ee7d3ea377fae09532fc1bd49a220|||META|||Mark Zuckerberg Defends Meta's AI CapEx, Ready to 'Write This Check' for up to '$200 Billion' to Dominate
-2026-10-13T09:48:07+00:00|||PASS|||3fd8ff067ee98812858f6ed3b5234d71|||NVDA|||Tencent leases 100000 banned Nvidia chips through Oracle in Southeast Asia
-2026-10-13T09:48:11+00:00|||PASS|||8a35c841aaa4ec6be40e97edce700b57|||MRVL|||Marvell: The Hidden $15 Billion AI Opportunity Nobody Should Ignore (NASDAQ:MRVL)
-2026-10-13T09:48:15+00:00|||PASS|||f8d623860b49d900dab260450a81fa31|||QCOM|||Gemtek, Qualcomm and gFiber Collaborate to Bring Edge AI to Wi-Fi 8 Broadband Gateways
-2026-10-13T09:48:19+00:00|||PASS|||a0e205290dcc0f8894e52bcc9ec85a92|||ARM|||China's Blue Core Computing secures nearly US$300 million to challenge x86, Arm in AI servers
-2026-10-13T09:48:22+00:00|||PASS|||718902584436402300e69c46341ba09a|||INTC|||Here’s Your First Good Look At an Intel Nova Lake-S Motherboard With LGA 1954 Socket & Q970/B960 Chipset
-2026-10-13T09:48:29+00:00|||PASS|||ec9d5179acbf088d162d1530af768b1a|||SKHY|||SK Hynix unveils low-power processor design for SSDs
-2026-10-13T09:48:37+00:00|||PASS|||59d99bb084cfe2eed8e22d9114af5680|||ASML|||ASML’s Guidance Key to Instill Confidence in Fragile Chip Trade
-2026-10-13T09:48:41+00:00|||SENT|||5d85fb570823964ac33b71cb41418fa5|||ASML|||ASML unveils Hyper NA EUV successor targeting 5nm single exposure
-2026-10-13T09:48:49+00:00|||SENT|||1e6792f74cd7ea895e1a1878d7cfe5c9|||AMAT|||Applied Materials Unveils $5 Billion EPIC Center in Silicon Valley to Accelerate Semiconductor Innovation for the AI Era
-2026-10-13T09:49:22+00:00|||PASS|||b74cea13dcd3ed72d149f5ff599ef980|||CSCO|||NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories
-2026-10-13T09:49:28+00:00|||SENT|||5dd6464aa67cb17bad356358bef7b7d7|||NOK|||Nokia divests Enterprise Campus Edge unit to AURELIUS
-2026-10-13T09:50:23+00:00|||SENT|||78f6860f10ade33173693c3c4e96a2fa|||SPCX|||SpaceX agrees to testify to NYC Council about AI safety after receiving subpoena
-2026-10-13T12:52:49+00:00|||PASS|||aad8752db849ae59a074fb97a169801d|||AMZN|||Tech layoffs 2026: Tracking the job losses across Amazon, Xbox, Apple, Oracle, TikTok, Meta and others
-2026-10-13T12:52:55+00:00|||PASS|||aa162fef74768acab65fdc9ecd9ce1c9|||TSLA|||Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 Earnings. Here’s the Bar for Oct.
-2026-10-13T12:52:58+00:00|||PASS|||0de1c291024f6d54606fc5a6716d1ab3|||TSLA|||Is Tesla (TSLA) a Car Market Leader or a $1 Trillion Robotics Gamble?
-2026-10-13T12:53:00+00:00|||PASS|||b8bac6ce0e4d167a21a0941240571ff5|||TSLA|||TSLA Stock Climbs Overnight As Cybercab Eyes Dallas — Musk Recalls When Shorts Had Tesla In ‘Checkmate’
-2026-10-13T12:53:06+00:00|||PASS|||34c3dfe6b80d05d22f329e477ebca324|||QCOM|||Fibocom Showcases SC153 5G Smart Module at NetworkX, Leveraging a Qualcomm Platform to Accelerate 5G Smart Device Development
-2026-10-13T12:53:17+00:00|||PASS|||dc45ca146c8b66e6f703c0285bee1c39|||ASX|||Charts: ASE tops NT$200B revenue in 3Q26 on AI OSAT demand
-2026-10-13T12:54:05+00:00|||PASS|||b48ecd59da732357b692da9b5c7a46a5|||CIFR|||Cipher Digital plans $850 million convertible notes offering By Investing.com
-2026-10-13T12:54:10+00:00|||PASS|||1813b7b9441eaf0a130855975ea78211|||CRM|||Salesforce Turns Agentforce On By Default For Every Eligible Org
-2026-10-13T12:54:37+00:00|||SENT|||bb7bc4226be07526383f7eaf276228a3|||VIAV|||VIAVI T/Rx Selected by U.S. Army Threat Systems Management Office for Critical Range Modernization Initiative
-2026-10-13T12:54:47+00:00|||PASS|||19df5a000b6038e0a829b1f3ec07ef3b|||SPCX|||SpaceX Stock Dips Ahead of Falcon 9 Cargo Launch to ISS
-2026-10-13T12:54:51+00:00|||PASS|||4cd698c3571c7ec4c22e6901e5c78aac|||SPCX|||SpaceX IPO Already Makes Loyal Investors $385.7 Billion Richer
-2026-10-13T12:54:52+00:00|||PASS|||b4accc58d39149eb1cafe0ba78e21204|||SPCX|||A SpaceX launch shortage is fueling a $100 billion investing spree
-2026-10-13T12:54:54+00:00|||PASS|||4a7c1654aa32af7979ce4c9e71e1140a|||SPCX|||Space Investment to Top $100 Billion in 2026 After SpaceX IPO
-2026-10-13T12:55:16+00:00|||PASS|||6673a50144ec1027136b27f320e14cd1|||ROK|||Rockwell Automation Advances Integrated Architecture Portfolio with CompactLogix 5390 Controller
-2026-10-13T12:55:19+00:00|||PASS|||751bd18a8cad195600c40b752cdabf5a|||IONQ|||Mizuho reiterates IonQ stock rating after Elisity acquisition By Investing.com
-2026-10-13T12:55:24+00:00|||SENT|||fd9861d8988c5042ec68111559ccc573|||IONQ|||IonQ Stock Fell 9% as Investors Weighed Up to $1.3 Billion in New Shares. Here’s What It Means for Holders
-2026-10-13T13:48:30+00:00|||PASS|||606c518aa2ff29ae3d1204d06a98b9d5|||META|||After Blocked Meta Buyout, Muse Rival Manus Raises $500M+
-2026-10-13T13:48:34+00:00|||PASS|||add9983acc8127066df3c251b8ca1fec|||TSLA|||Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 Earnings. Here’s the Bar for Oct. 21
-2026-10-13T13:48:36+00:00|||PASS|||97c91be258692aac64b45816e9237c43|||NVDA|||Nvidia: The Buyback Is The Opportunity (NASDAQ:NVDA)
-2026-10-13T13:48:40+00:00|||SENT|||0fdb093e1b899af83a54a4a3a6a20875|||NVDA|||U.S. Export Restrictions Drive Nvidia China AI Chip Market Share Down to 34%
-2026-10-13T13:49:49+00:00|||PASS|||9d6c1b7901d1e1c9b01e9b7206b433f4|||CRM|||Blackthorn launches Forge, ending the choice between Salesforce-native and easy-to-use event technology
-2026-10-13T14:46:44+00:00|||PASS|||6f8d2734d40869d2f2aa4e5ac781ab83|||AMZN|||Amazon Wins Appeal in Case Seeking Internal Antitrust Documents
-2026-10-13T14:46:49+00:00|||PASS|||c0ed8c489650bc2b2d636e14dd52505f|||AAPL|||Apple Stock Tops $5 Trillion Market Value as HomeView Debuts
-2026-10-13T14:46:58+00:00|||SENT|||38a60a99e76096a657ec06e379d4232c|||NVDA|||Chinese AI companies buy 1 million Nvidia GPUs in a single year, report claims — export control-compliant chips flood the market to bridge gap in compute demand
-2026-10-13T14:47:01+00:00|||PASS|||758f50aadb2d176d2ff02b77059dc42d|||NVDA|||Bond Investors Are Wary of SpaceX's Borrowing Binge to Buy Nvidia Chips
-2026-10-13T14:48:39+00:00|||PASS|||373f332afa7f9dd4801caf0196545557|||SPCX|||Bond Investors Are Wary of SpaceX's Borrowing Binge to Buy Nvidia Chips
-2026-10-13T14:49:08+00:00|||PASS|||e5af287a188e65bdf0a7a13c45a73f4e|||IONQ|||D-Wave Quantum Deepens Partnership With IonQ’s SkyWater Technology
 2026-10-13T15:43:59+00:00|||SENT|||fe65d61ca5661160856a24aea8731a15|||VSH|||Vishay introduces automotive optical sensors for battery systems By Investing.com
 2026-10-13T15:44:05+00:00|||PASS|||e91ba330b3896aee81c9de0ccead34ba|||VSH|||Vishay Intertechnology Optical Sensors With Photodiode
 2026-10-13T15:44:28+00:00|||PASS|||db1362eab37fb9635c11cc4f4131a43e|||AMZN|||Amazon-branded pain medicine recalled after reports of discolored tablets
