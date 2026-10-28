@@ -14,5 +14,45 @@
   "text": "8-K 股東會投票結果（項目 5.07）",
   "ticker": "STX",
   "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000305/stx-20261024.htm"
+ },
+ {
+  "date": "2026-10-28",
+  "form": "10-Q",
+  "holding": true,
+  "text": "10-Q 季報",
+  "ticker": "UCTT",
+  "url": "https://www.sec.gov/Archives/edgar/data/1275014/000162828026067880/uctt-20260925.htm"
+ },
+ {
+  "date": "2026-10-28",
+  "form": "10-Q",
+  "holding": true,
+  "text": "10-Q 季報",
+  "ticker": "TTMI",
+  "url": "https://www.sec.gov/Archives/edgar/data/1116942/000119312526435875/ttmi-20260928.htm"
+ },
+ {
+  "date": "2026-10-28",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "MSFT",
+  "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
+ },
+ {
+  "date": "2026-10-28",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "VRT",
+  "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm"
+ },
+ {
+  "date": "2026-10-28",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "NOW",
+  "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm"
  }
 ]
