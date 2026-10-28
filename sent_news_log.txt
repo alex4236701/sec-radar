@@ -1,7 +1,4 @@
 @@HEARTBEAT|||2026-10-28|||2026-10-21T13:41:10+00:00
-2026-10-13T22:52:00+00:00|||PASS|||32abe6330b63dc9446b494e5f0e4df39|||AAPL|||Apple’s Next Stop: $6 Trillion Market In 2 Years (NASDAQ:AAPL)
-2026-10-13T22:52:08+00:00|||PASS|||68788fdbad1eddd553bdce377fdacce2|||QCOM|||ARM-QCOM Lawsuit: Delaware Jury Delivers Verdict In High-Stakes Qualcomm-ARM Licensing Battle
-2026-10-13T22:52:50+00:00|||PASS|||75c93594d1b2cad24d63baf46a63fe1e|||CSCO|||2026 Cisco AI Infrastructure OCP Pre-Briefing Final Slide 11: Cisco AI Ethernet and optical architecture
 2026-10-14T01:57:41+00:00|||PASS|||637777ab81786983f5a03a7cbbac36a5|||NVDA|||Nvidia (NVDA) Is In Advanced Talks To Acquire Reflection AI
 2026-10-14T01:57:48+00:00|||SENT|||bf0745d860578d0d36d42f224c5eb2c8|||MRVL|||Marvell (MRVL) Raises Its 2028 Revenue Target to $20 Billion. Can Growth Justify the Premium?
 2026-10-14T01:58:52+00:00|||PASS|||16eafb08fd158f909f1656e01f2ec213|||PLTR|||Palantir CTO Blasts Silicon Valley’s ‘Doomsday Cult’ Over AI Safety — Says Pentagon Has 'Already Replaced' Anthropic
@@ -1015,3 +1012,21 @@
 2026-10-27T22:29:53+00:00|||PASS|||4a9a3727e2961ce6cf6dc1a227bf6182|||CSCO|||Ingram Micro Launches AI-Powered SMB Quick Buy Program Packed With Cisco Technology: Exclusive
 2026-10-27T22:29:56+00:00|||PASS|||9c5cf11bc966b69cab76ec44b766ea64|||SWKS|||Did Skyworks Solutions, Inc. Insiders Breach their Fiduciary Duties to Shareholders?
 2026-10-27T22:31:06+00:00|||PASS|||664ee43fb1984f6da00f9791fe9a8d6d|||IONQ|||IonQ Jumped 7%, Rigetti Up 8% on Intel’s $2.3 Billion Quantum Buy: “Full-Stack Quantum Computing Business”
+2026-10-28T01:30:09+00:00|||PASS|||11144dce3e38044a9994467d0ebd1729|||GOOGL|||OpenAI plans to buy Google’s AI chips, The Information reports By Reuters
+2026-10-28T01:30:13+00:00|||PASS|||7192bca82db142e91d27c21c9636217b|||GOOGL|||OpenAI plans to buy Google's AI chips, The Information reports
+2026-10-28T01:30:17+00:00|||SENT|||0aeb9d679037c351408d52d05a291a0d|||GOOGL|||OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips
+2026-10-28T01:30:39+00:00|||PASS|||8321c81f0c777b51ce12e04946351166|||FCEL|||Deadline Alert: FuelCell Energy, Inc. Investors Have Until
+2026-10-28T01:30:42+00:00|||PASS|||513c456f8e9484224df26e3385b38a6f|||GEV|||GE Vernova Stocks Rise 2.55% Before $176 Billion Backlog Test
+2026-10-28T01:30:52+00:00|||PASS|||7a8c5609a5c154a469ce096cd1a5c19a|||MSFT|||Watch out — that Microsoft Teams chat might be hackers impersonating your IT support
+2026-10-28T01:31:00+00:00|||SENT|||ccf5851eb8fe9b5ff965b838d620af87|||META|||Zuckerberg Stock Deal, Meta Restructuring Hit With Challenge (2)
+2026-10-28T01:31:06+00:00|||PASS|||59d46a065e990f5d15a4920e81bff22f|||TSLA|||Scott Galloway Warns Tesla Is the ‘Patient’ and SpaceX Its ‘Organ Donor’ in Elon Musk’s $3.5 Trillion Merger Plan: 'Real Merger With a Fake Premise'
+2026-10-28T01:31:15+00:00|||PASS|||e3ee45a4cccdec50458b51317e4adee6|||QCOM|||Watch Anduril's Luckey Partners With Qualcomm to Build American-Made Laptop
+2026-10-28T01:31:25+00:00|||PASS|||d27bb523771be87114cd7894842e6cdb|||SKHY|||SK Hynix's record quarter shows AI demand turning memory into a contracted, supply-limited business
+2026-10-28T01:31:26+00:00|||PASS|||e2e8bdf78b5d12d679dbf34d78eeaf26|||SKHY|||Seoul stocks open sharply higher on revived AI optimism, SK hynix earnings
+2026-10-28T01:31:33+00:00|||SENT|||8d9d6fba5825edcdd80437450c9b19f4|||SKHY|||SK Hynix Plans $75 Billion in Shareholder Returns After Blockbuster Earnings
+2026-10-28T01:31:39+00:00|||SENT|||c3bb93e20c9f92de992ae195710b771b|||SKHY|||SK Hynix quarterly profit soars sevenfold to $63bn on strong memory demand
+2026-10-28T01:31:59+00:00|||PASS|||a6c00582db635acb97c0eb5117d57b45|||TER|||Teradyne (TER) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
+2026-10-28T01:32:02+00:00|||PASS|||e33ad9ed76135d53198bdd5cbf0b20bf|||TER|||Teradyne (TER) Tops Q3 Earnings and Revenue Estimates
+2026-10-28T01:32:22+00:00|||PASS|||5d6889c4a6888c30890fd366159afb64|||MPWR|||Did Monolithic Power Systems, Inc. Insiders Breach their Fiduciary Duties to Shareholders?
+2026-10-28T01:32:44+00:00|||PASS|||f427dbf9004561d9a85ceafa5911779f|||IBM|||A $1 Billion Reason to Consider Buying the IBM Stock Dip
+2026-10-28T01:32:57+00:00|||SENT|||e4410246f78870f1aaadb042971c38c4|||AKAM|||Akamai Launches AI Inference Service and Agent Execution Environment
