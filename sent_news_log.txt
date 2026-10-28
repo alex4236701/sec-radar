@@ -1,18 +1,4 @@
 @@HEARTBEAT|||2026-10-28|||2026-10-21T13:41:10+00:00
-2026-10-14T01:57:41+00:00|||PASS|||637777ab81786983f5a03a7cbbac36a5|||NVDA|||Nvidia (NVDA) Is In Advanced Talks To Acquire Reflection AI
-2026-10-14T01:57:48+00:00|||SENT|||bf0745d860578d0d36d42f224c5eb2c8|||MRVL|||Marvell (MRVL) Raises Its 2028 Revenue Target to $20 Billion. Can Growth Justify the Premium?
-2026-10-14T01:58:52+00:00|||PASS|||16eafb08fd158f909f1656e01f2ec213|||PLTR|||Palantir CTO Blasts Silicon Valley’s ‘Doomsday Cult’ Over AI Safety — Says Pentagon Has 'Already Replaced' Anthropic
-2026-10-14T01:59:17+00:00|||SENT|||58345bd60ced9bde211a644f0f6ec880|||LTRX|||Lantronix Introduces Spotter to Close the Compute Gap Holding Back Drone and Robot Autonomy
-2026-10-14T01:59:50+00:00|||PASS|||7c93aacabccf0f32f038a2bdce038715|||ETN|||Edison drops as Muddy Waters alleges willful misconduct in Eaton Fire case
-2026-10-14T01:59:58+00:00|||PASS|||aa843e43188da6aa0c3d70823118a94d|||IONQ|||T-Mobile Rises on Upgrade; IonQ to Buy Elisity | Stock Movers
-2026-10-14T05:58:30+00:00|||PASS|||3b4144e1f8b8a92f1a87de7bbc53a28c|||FCEL|||FuelCell Energy Inc. stock falls Tuesday, underperforms market
-2026-10-14T05:58:40+00:00|||PASS|||181d76ba0559445c51386efaa1527671|||MSFT|||Microsoft Stock Alert: Michael Burry Warns of $3 Trillion in AI Liabilities
-2026-10-14T05:58:45+00:00|||PASS|||e790005b612208fc6c80b92827fada11|||AAPL|||Would You Pay $20 A Month For Apple Siri? Analyst Says It Could Deliver $24B, Sees Smaller Boost From Smart Home Products
-2026-10-14T05:58:57+00:00|||PASS|||7961daa9728ac85b8554e435f05b86af|||TSM|||TSMC shares rise ahead of closely watched Q3 earnings
-2026-10-14T05:59:12+00:00|||SENT|||28d1cf68ff8f69f862cc3057ecb6a0b8|||ASML|||Chip-Machine Supplier ASML Boosts Guidance for Third Time On Surging AI Demand
-2026-10-14T05:59:41+00:00|||PASS|||b85b5cd4760b240b732a820a7ca3d44e|||CSCO|||Cisco expands AI networking with new chips, SONiC, cross-site deployment
-2026-10-14T05:59:51+00:00|||PASS|||1d1df20bac8875101b459c678770c058|||DELL|||SK Group Chairman Chey sells stake to Dell family office fund for $406 million
-2026-10-14T05:59:56+00:00|||PASS|||3e613b062f2f2bce2f019f864c4e6535|||CRWV|||CoreWeave: Asymmetric Risk-Reward As $104bn Backlog Underpins Growth (CRWV)
 2026-10-14T10:00:59+00:00|||PASS|||4894dcccbbfe6ce44ba3ad25ed26eaf1|||UCTT|||Ultra Clean Holdings Inc. Company & People | UCTT
 2026-10-14T10:01:26+00:00|||PASS|||825b73e5aa6a3e99e12c6a8e53c7e951|||MSFT|||Microsoft adds US$132.5 billion in lease commitments—but AI capacity takes years to build
 2026-10-14T10:01:37+00:00|||PASS|||e34e2034f2d3b42929e4675c43396c56|||NVDA|||Nvidia Buys Into Doctolib and Genesis AI as Its Investment Book Tops $51 Billion
@@ -1030,3 +1016,18 @@
 2026-10-28T01:32:22+00:00|||PASS|||5d6889c4a6888c30890fd366159afb64|||MPWR|||Did Monolithic Power Systems, Inc. Insiders Breach their Fiduciary Duties to Shareholders?
 2026-10-28T01:32:44+00:00|||PASS|||f427dbf9004561d9a85ceafa5911779f|||IBM|||A $1 Billion Reason to Consider Buying the IBM Stock Dip
 2026-10-28T01:32:57+00:00|||SENT|||e4410246f78870f1aaadb042971c38c4|||AKAM|||Akamai Launches AI Inference Service and Agent Execution Environment
+2026-10-28T07:08:56+00:00|||PASS|||4ff17520226a2902ca846559486b69c7|||AVGO|||Broadcom to Supply $63 Billion in XPUs and AI Equipment for Anthropic
+2026-10-28T07:08:58+00:00|||PASS|||b2766fa0e23f56fd2c2babae19fdd634|||AVGO|||Market Chatter: Broadcom CEO Helped Secure $63 Billion Anthropic AI Financing Deal
+2026-10-28T07:09:07+00:00|||PASS|||950b4676dde70a617d4de3b2465de75a|||GLW|||Corning hits US$20 billion run-rate goal early as optical demand drives next growth phase
+2026-10-28T07:09:18+00:00|||PASS|||51ae2e3177dfc4e9ff8ee57c54457647|||AMZN|||ASTS Stock Slips Overnight As FCC Clears Amazon’s $11.5B Globalstar Deal — Touts ‘Even More Competition’
+2026-10-28T07:09:24+00:00|||PASS|||69cc99ea941170ef70eec0e15b1789ed|||TSLA|||Tesla-SpaceX Merger Needs No Premium, Investor Says — But Floats $500 To Sway Angry Holders Missing Bigger Payoff
+2026-10-28T07:09:27+00:00|||PASS|||901a05027418bd58ea12de21068ce0d7|||TSLA|||Tesla ends a nearly 7-year Cybertruck wait with refunds and a pitch to buy a different car
+2026-10-28T07:09:28+00:00|||PASS|||54f4b67ffb6057b539968374b67564bc|||TSLA|||Tesla Jumps 5% as Barclays Raises Its Target to $450 on SpaceX Merger Prospects
+2026-10-28T07:09:37+00:00|||SENT|||e1b5fad25b43b1baa5b34b60de410d07|||AMD|||AMD to invest US$1 billion in Meta's stock sale as Helios racks enter testing
+2026-10-28T07:09:43+00:00|||PASS|||94a0537c959fe03d98311d15200ae53e|||QCOM|||Qualcomm’s Layoff Notices Start in November. A 2026 Bonus Paid in January Shouldn’t Count Against His $25,560 Social Security Earnings Limit
+2026-10-28T07:09:52+00:00|||PASS|||0dd6d574a6ee64e482a65c1bb5db498e|||SKHY|||SK Hynix Q3 profit jumps more than 7-fold, beats forecasts By Reuters
+2026-10-28T07:09:58+00:00|||PASS|||5c07e97b28d49f8a03cd12d09fb4c170|||SKHY|||SK Hynix shares soar over 8% as profit beats, chipmaker to return $25 billion to investors
+2026-10-28T07:10:00+00:00|||PASS|||a52c158018db874424ed7defbc20b53d|||SNDK|||Pre-Q1 Earnings: Is Sandisk Stock a Portfolio Must-Have?
+2026-10-28T07:10:18+00:00|||PASS|||816897638557e181c41d3b52d3cba61e|||TER|||Teradyne Reports Third Quarter 2026 Results
+2026-10-28T07:10:43+00:00|||PASS|||52f7044d26f9a6f6d373ae49b5ea3c3c|||VRT|||Will AI Product Push Change Vertiv Stock Narrative Ahead Of Q3 Earnings
+2026-10-28T07:11:22+00:00|||PASS|||b894e051a8e402bb4fddc02e2d77f80e|||SPCX|||Tesla-SpaceX Merger Needs No Premium, Investor Says — But Floats $500 To Sway Angry Holders Missing Bigger Payoff
