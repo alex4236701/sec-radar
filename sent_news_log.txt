@@ -1,13 +1,4 @@
 @@HEARTBEAT|||2026-10-28|||2026-10-21T13:41:10+00:00
-2026-10-14T16:59:21+00:00|||PASS|||f6826d2a8c17009671197c1ce3c6e6fc|||NVDA|||Nvidia’s Aggressive Buyback Expansion is a Flashing Green Light
-2026-10-14T16:59:27+00:00|||PASS|||fb59a579879f7092e3bcbb4dbfc15448|||QCOM|||GFiber and Qualcomm announce Wi-Fi 8 gateway — 20 Gig customers to be first to receive next-gen wireless upgrade
-2026-10-14T16:59:33+00:00|||PASS|||a697274771fa81cc570ad0b82fb5040b|||INTC|||Intel, AMD, and More Chip Stocks Fall After ASML’s Strong Earnings
-2026-10-14T16:59:47+00:00|||PASS|||6cb6972e9e1fb1db6e8a8988e18dbecb|||ASML|||Intel, AMD, and More Chip Stocks Fall After ASML’s Strong Earnings
-2026-10-14T17:01:34+00:00|||PASS|||74f69ae7001568be17f9f9054fba2edd|||IONQ|||IonQ (IONQ) Upgraded to Buy: Here's What You Should Know
-2026-10-14T17:55:26+00:00|||PASS|||97d2533439bf97e5c0f449d946b774a0|||UMAC|||XTI Aerospace Appoints Unusual Machines CEO Dr. Allan Evans to Serve as Chairman of its Board of Directors
-2026-10-14T17:55:53+00:00|||PASS|||d05d970feb090e60e2cc17a997dae190|||META|||Ray-Ban Meta Owners Say Their Glasses Are Listening Without Being Asked
-2026-10-14T17:55:57+00:00|||PASS|||0f29619cbae0550a96ce6475c56c0ddc|||TSLA|||Controversial "Musk" documentary hits theaters amid legal threats, X ban (TSLA:NASDAQ)
-2026-10-14T17:57:02+00:00|||PASS|||03c3952ddea35157d5a4209139eb93f3|||CRWV|||Why Gartner AI Outlook Sent CoreWeave Stock, Neoclouds Reeling
 2026-10-14T19:04:07+00:00|||PASS|||16d24e2e9a1d0f9c23c61d0430c18415|||OUST|||Ouster Announces Date for Third Quarter 2026 Earnings Call
 2026-10-14T19:04:26+00:00|||PASS|||70d1a98e5159c03fb1a60c48f1302a6b|||HON|||Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations
 2026-10-14T19:04:35+00:00|||PASS|||4eacfeda44207d5671b0b7204c8f6582|||META|||Mark Zuckerberg Defends Meta's AI CapEx, Ready to 'Write This Check' for up to '$200 Billion' to Dominate 'Decades to Come'
@@ -1036,3 +1027,16 @@
 2026-10-28T16:17:34+00:00|||SENT|||1f17155242bb519b3fb16019a5ae5fc1|||GNRC|||Generac Shares Fall 2% as Q3 Revenue Misses Forecasts Despite Earnings Growth
 2026-10-28T16:17:42+00:00|||SENT|||5a8036bb7e10429d958cc3bff3caa38b|||GNRC|||Generac stock sees data center backlog surge to $4.5 billion
 2026-10-28T16:17:50+00:00|||PASS|||d4e038799a299725ce1619a005a4a40a|||CRCL|||Coinbase Q3 earnings face falling estimates: Can USDC stem the slide?
+2026-10-28T18:24:27+00:00|||PASS|||c872508783841c84dd6b2c3324103c8b|||MU|||Micron Biomedical Appoints Anand Subramony, Ph.D., as Executive Vice President, Global Product Development and Combination Product Commercialization
+2026-10-28T18:24:57+00:00|||PASS|||9ba57ee57f73ab4f4cad1a78009216dc|||MSFT|||Should 60K Microsoft workers take the buyout and run? How to know when you should nab a package, or turn it down
+2026-10-28T18:24:58+00:00|||PASS|||fb66e6077a84afdda982f68f05dda11d|||MSFT|||If You Invest $1,000 in Microsoft Today, Here’s What It Could Be Worth by 2030
+2026-10-28T18:24:59+00:00|||PASS|||a3969bf5b062bd5509e856f4a2eb32aa|||MSFT|||Microsoft’s Contracted Backlog Could Grow Into a $1 Trillion Opportunity
+2026-10-28T18:25:07+00:00|||PASS|||bb9c8e2f62cd42ec05c2801a9cff777d|||NVDA|||Nvidia Has The Best Chance to Breach $6 Trillion First So I Buy
+2026-10-28T18:25:15+00:00|||PASS|||e8ff305fd508acac8e56379beb51c365|||INTC|||Intel’s $2.3 Billion Bet on a Quantum Future is a Decade in the Making
+2026-10-28T18:25:24+00:00|||PASS|||ed242b44a79d187327ff210dc5d55d1f|||SKHY|||SK Hynix Reports Record Q3 Results Driven by AI Memory Surge
+2026-10-28T18:25:26+00:00|||PASS|||ea6218610c41579d5b8b372ac7c38257|||SKHY|||SK Hynix hits record revenue as AI memory boom drives DRAM prices higher
+2026-10-28T18:25:28+00:00|||PASS|||7197f3463025b80cbe6cb7012ad6272e|||SKHY|||SK Hynix posts record quarter, analyst says stock looks 'ridiculously cheap'
+2026-10-28T18:25:31+00:00|||PASS|||7ad89213dd2d640f273c6e8498f75770|||SKHY|||SK Hynix’s Profit Surge, $45 Billion Payout Fuel AI Rally
+2026-10-28T18:25:50+00:00|||PASS|||12a3b7b1f7ca2d69125a0ba800ec1a5d|||TER|||Teradyne Q3 Earnings Beat Estimates, Revenues Increase Year over Year
+2026-10-28T18:25:51+00:00|||PASS|||017a5ae0dbcd42f0fe3cb75a338c929b|||TER|||What Teradyne (TER) Said on Its Q3 Earnings Call
+2026-10-28T18:26:17+00:00|||PASS|||f7c0f269024c4e888a964b3ee66664d3|||VRT|||Vertiv shares jump 14 percent as data center earnings beat expectations
