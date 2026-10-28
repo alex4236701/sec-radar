@@ -1,23 +1,4 @@
-@@HEARTBEAT|||2026-10-28|||2026-10-21T13:41:10+00:00
-2026-10-14T19:04:07+00:00|||PASS|||16d24e2e9a1d0f9c23c61d0430c18415|||OUST|||Ouster Announces Date for Third Quarter 2026 Earnings Call
-2026-10-14T19:04:26+00:00|||PASS|||70d1a98e5159c03fb1a60c48f1302a6b|||HON|||Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations
-2026-10-14T19:04:35+00:00|||PASS|||4eacfeda44207d5671b0b7204c8f6582|||META|||Mark Zuckerberg Defends Meta's AI CapEx, Ready to 'Write This Check' for up to '$200 Billion' to Dominate 'Decades to Come'
-2026-10-14T19:04:39+00:00|||PASS|||bb2dfcb5401903102bc99d515c199997|||AAPL|||Apple retakes $5 trillion market cap, only second company to eclipse milestone number
-2026-10-14T19:55:30+00:00|||PASS|||98076e04c3d86a68ff03ba57adb93156|||MSFT|||Microsoft (MSFT) Built a $100B Azure. Can It Outrun Its Own Spending?
-2026-10-14T19:55:35+00:00|||PASS|||eff34ba14f69cc2691dcd172d9915e5e|||META|||Meta says it has fixed an issue where Ray-Ban Meta glasses were recording in secret — here's what you need to know
-2026-10-14T19:55:45+00:00|||PASS|||ed61090a5da39524f7cc731406fc9fdb|||QCOM|||How to Play Ambarella Stock as Qualcomm Eyes an Acquisition
-2026-10-14T19:55:50+00:00|||PASS|||a02e7a415a5633f652cfb7909e691b23|||TSM|||TSM Earnings Tomorrow: Can Strong AI Demand Boost Q3 Results?
-2026-10-14T19:56:43+00:00|||PASS|||9ddd28f20f3a450aa5535305ebf5bcb8|||PLTR|||Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results
-2026-10-14T19:57:08+00:00|||PASS|||6efe6094623d369fbaf1840e8877a0fc|||AMBA|||How to Play Ambarella Stock as Qualcomm Eyes an Acquisition
-2026-10-14T20:54:57+00:00|||PASS|||7efe1716ba9e2ec720dfcfb2bcabd76e|||FCEL|||Robbins LLP Encourages FCEL Stockholders to Contact the
-2026-10-14T20:55:26+00:00|||PASS|||7143da7cc931de5fd39b334770d76274|||GFS|||GlobalFoundries to open two new chip plants in New York with US$21 billion in financing from Japan
-2026-10-14T20:55:50+00:00|||PASS|||f5dc7b78706919e152f308f5ce2b71c4|||COHU|||Cohu To Announce Third Quarter Financial Results on October 28
-2026-10-14T20:56:19+00:00|||PASS|||0facc491a83759516641e0af21f382ca|||DELL|||Former portfolio manager sues Fidelity after leaving for Michael Dell's family office
-2026-10-14T21:54:28+00:00|||PASS|||7a0bff0de475bb872e56879c42e037f6|||META|||Tech layoffs tracker 2026: All the job losses across Netflix, Amazon, Apple, Oracle, TikTok, Meta and others
-2026-10-14T21:54:30+00:00|||PASS|||84317015eafacca50f3ed20081c3d99c|||AAPL|||Apple Closes Above the $5 Trillion Mark
-2026-10-14T21:54:32+00:00|||PASS|||916abcfacc752034953175426bb8a7fc|||AAPL|||Apple Hits $5 Trillion Milestone as Rest of Tech Trade Falters. Can It Hold?
-2026-10-14T21:54:33+00:00|||PASS|||9a1e1f045f82022dc6989f85f53a11d2|||AAPL|||Seventh Time Is the Charm: Apple Closes Above $5 Trillion Market Capitalization
-2026-10-14T21:56:20+00:00|||SENT|||82b40deb30b56e97fb8d749be667b29e|||RKLB|||Rocket Lab Falls After Neutron Rocket Debut Delayed to 2027
+@@HEARTBEAT|||2026-10-29|||2026-10-21T13:41:10+00:00
 2026-10-14T22:51:01+00:00|||SENT|||36c8f8006da7a2e898c80c27086a0fb9|||AVGO|||Broadcom Is Backing Anthropic and OpenAI With $92 Billion. Here's What It Means for Investors.
 2026-10-14T22:51:19+00:00|||PASS|||64f0659a95885f94c7a48cc041ccc39f|||AMZN|||Amazon customers could be eligible for payments in $309.5M lawsuit
 2026-10-14T22:51:20+00:00|||PASS|||82f74905c97fc1b34bb093e96cb39e4a|||AMZN|||Tech layoffs tracker 2026: All the job losses across Netflix, Amazon, Apple, Oracle, TikTok, Meta and others
@@ -1040,3 +1021,59 @@
 2026-10-28T18:25:50+00:00|||PASS|||12a3b7b1f7ca2d69125a0ba800ec1a5d|||TER|||Teradyne Q3 Earnings Beat Estimates, Revenues Increase Year over Year
 2026-10-28T18:25:51+00:00|||PASS|||017a5ae0dbcd42f0fe3cb75a338c929b|||TER|||What Teradyne (TER) Said on Its Q3 Earnings Call
 2026-10-28T18:26:17+00:00|||PASS|||f7c0f269024c4e888a964b3ee66664d3|||VRT|||Vertiv shares jump 14 percent as data center earnings beat expectations
+2026-10-28T22:43:26+00:00|||SENT|||5a69adba0d6ced4198481bfae649db38|||GOOGL|||Google stock plunges as Q3 sales fall short of expectations
+2026-10-28T22:43:36+00:00|||SENT|||97c0306bfcbbb5495113b71976fd981f|||GOOGL|||Alphabet’s Google Cloud revenue doubles to $31 billion as cash flow stays deep red
+2026-10-28T22:43:40+00:00|||PASS|||1f497a24c3c7cf73ff18f4b3111744ab|||GOOGL|||Google misses revenue expectations, Alphabet stock sinks in early after-hours trading
+2026-10-28T22:43:42+00:00|||PASS|||23c7eabb6be7b71227b8d492ac7293ab|||GOOGL|||Alphabet shares fall as revenue, profit miss estimates despite Cloud surge
+2026-10-28T22:43:49+00:00|||PASS|||8e33f56b6d2350cd2c044a6b504b10d2|||GOOGL|||Google shares tumble 9% after $51bn AI outlay deepens cash burn
+2026-10-28T22:43:55+00:00|||SENT|||cf283ffd2539d94f8d36dab0c7509319|||GOOGL|||South Korea fined Google and Apple a combined $47.6 million over app payment rules
+2026-10-28T22:44:20+00:00|||PASS|||23e860f2a8c4ec084509442b1c6eab4b|||CAT|||Caterpillar Earnings Are Yet Another Bet on AI
+2026-10-28T22:44:25+00:00|||PASS|||16efb7f413cced66144a2da9155dbe90|||HON|||Honeywell Aerospace: Third Quarter Earnings Were Far Better Than Q2
+2026-10-28T22:44:27+00:00|||PASS|||c371af65f75d88dc386e7ba40c0c35b4|||HON|||Honeywell Aerospace stock fall 3% after posting Q3 results on rising costs
+2026-10-28T22:44:28+00:00|||PASS|||5bf09d68e17952ff0e8520f321c7c576|||HON|||Honeywell Aerospace (HONA) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
+2026-10-28T22:44:31+00:00|||PASS|||a425e793a71d0e00ceeb59b616d531a7|||HON|||Honeywell Aerospace Logs Higher Third-Quarter Profit, Revenue on Continued Demand
+2026-10-28T22:44:35+00:00|||PASS|||a423210954e4c315b767c7681347f2fb|||HON|||Honeywell Aerospace: Q3 Earnings Snapshot
+2026-10-28T22:44:39+00:00|||PASS|||d04fa27273868989a4d15e7d9ff7f1a5|||HON|||Honeywell Aerospace lifts 2026 second-half free cash forecast, declares dividend
+2026-10-28T22:44:42+00:00|||PASS|||7e97cd8962862ad62a8dc60fe2ac3b06|||HON|||Honeywell Aerospace reports third quarter results; updates 2026 outlook
+2026-10-28T22:44:45+00:00|||PASS|||63c1cb58e67d1e95c8977432c0f188e4|||MSFT|||Microsoft Q1 Earnings: I Was Bullish, Now I'm Doubling Down (NASDAQ:MSFT)
+2026-10-28T22:44:50+00:00|||PASS|||e9d1afe899d25bb7ea408c25d1197aa4|||MSFT|||Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion
+2026-10-28T22:44:55+00:00|||PASS|||679f6cd05a732292e93aef75cd6e66cf|||MSFT|||Microsoft recorded $10 billion in revenue from OpenAI
+2026-10-28T22:44:59+00:00|||SENT|||fd6c7b33f4af3b8c5fd9dce928355850|||MSFT|||Microsoft Tops Quarterly Estimates As Azure Growth Accelerates
+2026-10-28T22:45:02+00:00|||PASS|||2ca194f3f3408b9c2b599e9663c096bf|||MSFT|||Microsoft cloud revenue beats estimates in sign that AI bet is paying off
+2026-10-28T22:45:03+00:00|||PASS|||62cab8c1e53aaeff2b1a269885260733|||MSFT|||Microsoft Q1 earnings: Why capex is the big number 'worth watching'
+2026-10-28T22:45:04+00:00|||PASS|||145fd6e2852192ce528982c678077550|||MSFT|||Microsoft (MSFT) Beats Q1 Earnings and Revenue Estimates
+2026-10-28T22:45:06+00:00|||PASS|||5fa673167eb184c21d5806ae3959bf9d|||MSFT|||Microsoft beats out Q1 revenue and profit estimates
+2026-10-28T22:45:12+00:00|||PASS|||b76d0680aa2298497c8d5eeec79e0fcf|||META|||Meta Just Priced a Stock Sale at $625 a Share. I'd Consider Buying at the Same Price.
+2026-10-28T22:45:14+00:00|||PASS|||a204e8c3b947997625ad12b984c0a0eb|||META|||Meta’s Raising $97.5 Billion. Nvidia and AMD Are Buying In.
+2026-10-28T22:45:20+00:00|||PASS|||ba34fe708683a7e80b2407d299e92a27|||NVDA|||Meta’s Raising $97.5 Billion. Nvidia and AMD Are Buying In.
+2026-10-28T22:45:25+00:00|||SENT|||7001e47422dc330bad23bde5266a0d12|||NVDA|||Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny
+2026-10-28T22:45:28+00:00|||PASS|||de6820539a6cad26d0a74b26e31f6357|||NVDA|||The DOJ is reportedly looking into Nvidia’s Hugging Face acquisition.
+2026-10-28T22:45:29+00:00|||PASS|||03ef0a28cce5ec73d8e4cb9f58c97760|||NVDA|||OpenAI Plans to Buy Google's AI Chips as It Looks Beyond Nvidia: Report
+2026-10-28T22:45:37+00:00|||SENT|||1af8beb4a06782fcc218ae3cbbd1a53b|||MRVL|||Lumentum Jumps On Marvell Buyout Report
+2026-10-28T22:45:45+00:00|||SENT|||e0d4b92a598ed93eacb479b75ee413d7|||MRVL|||Marvell Is Reportedly in Advanced Talks to Buy Lumentum for Its AI Optics
+2026-10-28T22:45:56+00:00|||SENT|||e920ddfff8f40391db857c0e2621f8c9|||INTC|||Intel Just Made a $2.3 Billion Quantum Buy and Is Spending Again. Can Cash Flow Keep Up?
+2026-10-28T22:45:59+00:00|||PASS|||906bf1761d937e632ab0c1b8742106c2|||INTC|||Intel Reportedly Nears $2.3 Billion Classiq Deal to Expand Quantum Push
+2026-10-28T22:46:06+00:00|||PASS|||d466efb9b2acfb214214b8e773eb0937|||SKHY|||Chip Maker SK Hynix Posts Record Quarter as AI Memory Demand Overwhelms Supply
+2026-10-28T22:46:07+00:00|||PASS|||acf2c227c2dece0d131dc2ec7369b2a6|||SNDK|||Can Strong Data Center & Edge Boost SNDK's Top Line in Q1 Earnings?
+2026-10-28T22:46:20+00:00|||SENT|||d814e795ebef1eccf8eefa616c17fc02|||KLAC|||KLA Q1 FY2027 slides: record revenue, historic 46% operating margin
+2026-10-28T22:46:31+00:00|||SENT|||ef457634ae03040b7fdd4eb1504f6385|||FORM|||FormFactor Q3 2026 slides: record revenue, 56.5% margins beat estimates
+2026-10-28T22:46:38+00:00|||SENT|||745c3a6dc2807d7044623cd1a4e8b529|||COHU|||Cohu: Q3 Earnings Snapshot
+2026-10-28T22:46:42+00:00|||PASS|||1df3dbc10370c376b83dede36ab2c106|||TER|||Teradyne: Q3 Earnings Snapshot
+2026-10-28T22:46:56+00:00|||SENT|||c12e8fe309a09ae7b8f22d341f969f9b|||LITE|||Marvell in Talks to Buy Lumentum
+2026-10-28T22:47:11+00:00|||PASS|||cefdd4d799326f563f83c8bbcb96d4b2|||DELL|||Michael Dell issues six-word response to Everton takeover rumours
+2026-10-28T22:47:24+00:00|||SENT|||054f30569c088100a3f363cab06e1cbe|||NOW|||ServiceNow Earnings Miss Amid Acquisitions, Revenue Beats
+2026-10-28T22:47:27+00:00|||PASS|||c1ac19c97c481c6950239f88010b0bdd|||NOW|||ServiceNow’s stock slides as earnings miss clouds a raised AI outlook
+2026-10-28T22:47:29+00:00|||PASS|||118b3f132e41ecd057eabc7423fe194f|||NOW|||ServiceNow (NOW) Reports Q3 Earnings: What Key Metrics Have to Say
+2026-10-28T22:47:31+00:00|||PASS|||66d71ccd40870b3ae19f0e6151066068|||NOW|||ServiceNow shares plummet in extended trading on mixed Q3 results
+2026-10-28T22:47:32+00:00|||PASS|||12116ec406b4f57d9c846597ac61db01|||NOW|||ServiceNow Reports Mixed Q3 Results, Shares Sink
+2026-10-28T22:47:33+00:00|||PASS|||5c6622e720eb3ea6a77c1b457e6bdf18|||NOW|||ServiceNow (NOW) Lags Q3 Earnings Estimates
+2026-10-28T22:47:35+00:00|||PASS|||eacdaa7cca6bb0f77a3a84db389c6423|||NOW|||ServiceNow: Q3 Earnings Snapshot
+2026-10-28T22:47:36+00:00|||PASS|||6c3cc4867f8ba9572902c608bf528d74|||NOW|||ServiceNow drops after Q3 results despite Control Tower strategy gaining momentum
+2026-10-28T22:47:49+00:00|||SENT|||95e613a60564c0efc49632bfdd27cf1d|||FTNT|||Fortinet Stock: Fortinet Earnings Top Views, Revenue Growth Underwhelms
+2026-10-28T22:47:51+00:00|||PASS|||f96384612198b9c8c1bce5c29fd022d0|||FTNT|||Fortinet (FTNT) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
+2026-10-28T22:47:53+00:00|||PASS|||3446285886119521bda2c07828a00fd6|||FTNT|||Fortinet Beats Expectations But Rosier Outlook Apparently Not Rosy Enough
+2026-10-28T22:47:54+00:00|||PASS|||6bdfca79d25e79f53f139230b510c099|||FTNT|||Fortinet Stock Tanks After Q3 Earnings Print: Details
+2026-10-28T22:47:56+00:00|||PASS|||9568f3a51fd28c213803e0345f140cc5|||FTNT|||Fortinet falls despite strong Q3 results and higher guidance
+2026-10-28T22:47:57+00:00|||PASS|||be9b46df52cb3fdf77dc87c851cff90b|||FTNT|||Fortinet: Q3 Earnings Snapshot
+2026-10-28T22:48:21+00:00|||PASS|||8af3bd9bef20a2b43da8f109c68c6a14|||SPCX|||How SpaceX Hurt Alphabet’s Third Quarter Earnings
+2026-10-28T22:48:25+00:00|||SENT|||453021ffa54e225b93ec3814fec94813|||SPCX|||SpaceX's $100 Billion Project Faces Legal Test
