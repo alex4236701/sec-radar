@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "date": "2026-10-28",
+  "form": "10-Q",
+  "holding": true,
+  "text": "10-Q 季報",
+  "ticker": "GEV",
+  "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000163/gev-20260930.htm"
+ },
+ {
+  "date": "2026-10-28",
+  "form": "8-K",
+  "holding": false,
+  "text": "8-K 股東會投票結果（項目 5.07）",
+  "ticker": "STX",
+  "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000305/stx-20261024.htm"
+ }
+]
