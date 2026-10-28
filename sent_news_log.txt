@@ -1,59 +1,4 @@
 @@HEARTBEAT|||2026-10-28|||2026-10-21T13:41:10+00:00
-2026-10-14T10:00:59+00:00|||PASS|||4894dcccbbfe6ce44ba3ad25ed26eaf1|||UCTT|||Ultra Clean Holdings Inc. Company & People | UCTT
-2026-10-14T10:01:26+00:00|||PASS|||825b73e5aa6a3e99e12c6a8e53c7e951|||MSFT|||Microsoft adds US$132.5 billion in lease commitments—but AI capacity takes years to build
-2026-10-14T10:01:37+00:00|||PASS|||e34e2034f2d3b42929e4675c43396c56|||NVDA|||Nvidia Buys Into Doctolib and Genesis AI as Its Investment Book Tops $51 Billion
-2026-10-14T10:01:52+00:00|||SENT|||a7aefdfe51236b28bc52c6f0dbafb090|||INTC|||​Intel Unveils D-Series GPUs for AI Inference
-2026-10-14T10:01:55+00:00|||PASS|||de1f0ad629b8c857a8f39cdc5f007137|||INTC|||ASML Raises Sales Forecast For A Third Time, But Q3 Revenue Miss Sends Stock Lower: Earnings Selloff Spreads To MU, SNDK, INTC
-2026-10-14T10:01:59+00:00|||PASS|||e716a8b24ae3af18a7c2707ebcb523d8|||TSM|||[News] SEMI Sees Americas Fab Tool Spending Double to US$40.6B by 2029 as TSMC, Intel, Micron, Samsung Expand
-2026-10-14T10:02:07+00:00|||PASS|||d790ddac7679091509b40d487b70a1e2|||SNDK|||ASML Raises Sales Forecast For A Third Time, But Q3 Revenue Miss Sends Stock Lower: Earnings Selloff Spreads To MU, SNDK, INTC
-2026-10-14T10:02:14+00:00|||PASS|||0f0b4db5ba46d77f69f168587129bbf1|||ASML|||Europe, U.S. futures rise as semiconductor supplier ASML beats expectations
-2026-10-14T10:02:19+00:00|||PASS|||780afd87455e760257b0125c295fdbdc|||ASML|||Dow Futures Rise; ASML Earnings Beat, CPI Inflation Due
-2026-10-14T10:02:22+00:00|||PASS|||87664b7af423d83408f29dbb8b9eef56|||ASML|||AI boom drives record sales at Dutch tech giant ASML
-2026-10-14T10:02:26+00:00|||PASS|||b515746f8e63f30f436052e4bee6cf69|||ASML|||ASML Stock Rises as Earnings Point to a Scramble for Chipmaking Machines
-2026-10-14T10:03:06+00:00|||PASS|||8e9cb33ec27be16a7122be5c18f48746|||CRWV|||CoreWeave: Asymmetric Risk-Reward As $104 Billion Backlog Underpins Growth
-2026-10-14T10:03:45+00:00|||PASS|||8eb2932bcbd897a4314a3d97b8c3e257|||SPCX|||Watch Sunil Mittal: Ahead of Starlink in Approval Queue
-2026-10-14T10:04:03+00:00|||PASS|||3b00d0cc25a9b18c98482765c8091390|||ETN|||How Investors May Respond To Edison International (EIX) Short Seller Claims On Eaton Fire Liabilities
-2026-10-14T13:06:27+00:00|||PASS|||661868aeac0ecdf68dd33471bc6d601e|||GOOGL|||Google Deepmind's Hassabis calls AI hacks 'early warning shots'
-2026-10-14T13:06:31+00:00|||PASS|||014cae6aeb93ebea0965f10bae4cf3f1|||UCTT|||Ultra Clean Holdings Inc. Research & Ratings | UCTT
-2026-10-14T13:06:38+00:00|||PASS|||fd3926e3aba012f0f113d640abe64a63|||UMAC|||XTI Aerospace names Unusual Machines CEO as board chairman By Investing.com
-2026-10-14T13:06:52+00:00|||PASS|||58491ac0367f442052bbbb7d1240c2aa|||GLW|||Owens Corning to Announce Third-Quarter Financial Results on November 4
-2026-10-14T13:07:06+00:00|||SENT|||b7fd5f308a3a62e3bdce45a699d6dcf5|||HON|||Exclusive: Honeywell Technologies launches a 'brain behind the building' with Nvidia and Dell. Its CTO says humans will run it for now
-2026-10-14T13:07:13+00:00|||PASS|||2dcc22db1230abf61d61b324aa89176c|||MSFT|||Microsoft acquires 600 acres of land for data center in Woodward, Iowa
-2026-10-14T13:07:24+00:00|||PASS|||8169bd6d974567e28eb75c5625fe5429|||MRVL|||Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan
-2026-10-14T13:07:33+00:00|||SENT|||5edac1e6d8cd4aa059126eda00cd34d2|||QCOM|||Qualcomm wins architecture breach verdict against Arm but gets just $2 — judge could still suspend royalty fees for five years
-2026-10-14T13:07:46+00:00|||SENT|||66cddda26f1a714c7f798010fcf5caaf|||GFS|||Japan to invest up to $21 billion in two US chip factories to be run by GlobalFoundries
-2026-10-14T13:07:59+00:00|||PASS|||7b5332e0b10231ef1df44d1bbe0654f4|||ASML|||Why the Chip Stocks Slump Is Deepening After ASML’s Strong Earnings
-2026-10-14T13:08:02+00:00|||PASS|||c76c93d05bf23b1e5e9c5215d64869ff|||ASML|||ASML Stock Slips as Earnings Point to a Scramble for Chipmaking Machines
-2026-10-14T13:08:05+00:00|||PASS|||0e0a7335fd43248d55974d55c860d490|||ASML|||EU Set to Lift Sanction on Chinese Firm to Save ASML Supplier
-2026-10-14T13:08:19+00:00|||SENT|||c838bc44b52790b4aa697fc5dd310ba9|||CAMT|||CAMTEK PRE-ANNOUNCES RECORD Q3 REVENUES ABOVE GUIDANCE; PROVIDES RECORD Q4 GUIDANCE AND INITIAL REVENUE OUTLOOK FOR 2027
-2026-10-14T13:08:52+00:00|||PASS|||a27ff00c07e67d1abd36c3533548d5c1|||HPE|||Hewlett Packard Enterprise: Fears Mount For Bears As Juniper Acquisition Shows Strength
-2026-10-14T13:08:56+00:00|||PASS|||dcb5987f204af0411735f3ceff17f5ae|||CRWV|||What Does OpenAI’s $50 Billion Run Rate Mean for CoreWeave Stock? Here’s What Investors Should Know
-2026-10-14T13:09:45+00:00|||PASS|||f00826d2936df3e9a633552d746e8396|||IRDM|||Altair Semiconductor Integrates Iridium NTN Direct into ALT1350 and ALT1550 Cellular IoT Chipsets
-2026-10-14T13:10:07+00:00|||SENT|||744e831dad3b1b60a8c9d9c9d5e073e7|||IONQ|||IonQ prices $2 billion equity offering with Heights Capital By Investing.com
-2026-10-14T13:10:10+00:00|||PASS|||9f716f93bc5ac3ba951f55d6d3765b0e|||IONQ|||IonQ: Elisity Acquisition And The Bigger Picture (NYSE:IONQ)
-2026-10-14T13:10:14+00:00|||PASS|||da10cf1f491a565403328541564452ca|||CRCL|||The MUHC Foundation launches the Women’s Health Circle to accelerate progress in women’s health
-2026-10-14T13:57:19+00:00|||PASS|||0897d41f729ab43947a6421a7144ec6e|||GOOGL|||American Electric Power to Invest $4 Billion in Fuel Cell Project to Meet Energy Demand From Google
-2026-10-14T13:57:36+00:00|||PASS|||c6bff10374e7b6b13a80900e900f6206|||NVTS|||Overlord Labs Names Navitas Semiconductor CEO Chris Allexandre to Board of Directors
-2026-10-14T13:57:47+00:00|||PASS|||05eff6f8cf0b8f7984df55525961961f|||CAT|||Caterpillar Inc. Maintains Dividend
-2026-10-14T13:57:57+00:00|||PASS|||f808b209a7371b38ed9642e6b3e41370|||META|||Meta To Rally More Than 11%? Here Are 10 Top Analyst Forecasts For Wednesday
-2026-10-14T13:59:44+00:00|||PASS|||d16626190ab0d7c14d23ef6dd2911d2c|||RKLB|||Iridium earnings on deck amid pending Rocket Lab acquisition
-2026-10-14T13:59:50+00:00|||PASS|||e1749e956acabdafc7dc5e8c6ba91c7e|||IRDM|||Iridium earnings on deck amid pending Rocket Lab acquisition By Investing.com
-2026-10-14T14:00:09+00:00|||PASS|||5187371048dc3430bb4e3d87b65fc472|||IONQ|||IonQ Announces Pricing of $2.0 Billion Equity Offering
-2026-10-14T14:56:50+00:00|||PASS|||362d10c2e929f046b06e5ca97754c1b6|||GOOGL|||Google DeepMind’s Demis Hassabis Calls AI Hacking Incidents ‘Early Warning Shots,’ Warns of More Major Th
-2026-10-14T14:57:26+00:00|||PASS|||4654bc28b06fe6bc8542b0d3a94eb709|||TSLA|||Tesla to Post Q3 Earnings: Will Automotive Margins Play a Spoilsport?
-2026-10-14T14:57:29+00:00|||PASS|||6142364fdb0eb58f687e52ea32643cfd|||NVDA|||Nvidia: The $235 Billion Bullish Signal Investors Are Missing (NASDAQ:NVDA)
-2026-10-14T14:57:38+00:00|||PASS|||a354913db54ca10ec1080f0122357fd0|||INTC|||Newegg Slashes Intel Arc B580 To $329 And Throws In A Free 360mm AIO, Effectively Undercutting Its $249 Launch MSRP
-2026-10-14T14:57:53+00:00|||PASS|||8a33207ba7c9c5f91e0bbce4f39c8eaa|||ASML|||EU to Lift Sanction on Chinese Firm to Save an ASML Supplier
-2026-10-14T14:58:44+00:00|||PASS|||fde5f5634cefeefe0e84eba30bd1c150|||PLTR|||Palantir and London mayor's office settle lawsuit over UK police contract
-2026-10-14T14:58:48+00:00|||PASS|||e55056c0695e80df39ffaf401c037341|||PLTR|||Palantir settles lawsuit with London mayor over police contract
-2026-10-14T14:58:56+00:00|||PASS|||bffbd7758d271cb27b284d021b3c3319|||IBM|||IBM Stock Before Q3 Earnings Release: To Buy or Not to Buy?
-2026-10-14T14:59:10+00:00|||PASS|||315d469d5847e398b06274f95538dd6f|||AKAM|||AKAM Acquires Matthew Adam Properties, Further Expanding Its New York City Presence
-2026-10-14T14:59:45+00:00|||PASS|||c217eabdd89f162be28eff1467a06ff6|||IRDM|||Iridium earnings on deck amid pending Rocket Lab acquisition
-2026-10-14T16:00:52+00:00|||PASS|||a80a916291b6529f88070138995bf37f|||META|||Meta Refuses to Stop Selling AI Glasses. Dutch Group Is Preparing a Lawsuit.
-2026-10-14T16:01:24+00:00|||SENT|||81454166db1a18fb62b779f4e89dbf21|||ASML|||ASML beats profit estimates: Here's what you need to know
-2026-10-14T16:01:27+00:00|||PASS|||9b31a870c515df40c1c46ea8fdb67b8d|||ASML|||ASML earnings boost tech stocks, lift European shares
-2026-10-14T16:02:07+00:00|||PASS|||c6b1d31ec31b66e5ee80c78bf099517f|||DELL|||Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations
-2026-10-14T16:02:09+00:00|||PASS|||8cc23d245c3443f60b829dce22e0c019|||DELL|||Data Center Physical Infrastructure Market Grows 27 Percent Y/Y to $14 Billion in 2Q 2026, According to Dell'Oro Group
 2026-10-14T16:59:21+00:00|||PASS|||f6826d2a8c17009671197c1ce3c6e6fc|||NVDA|||Nvidia’s Aggressive Buyback Expansion is a Flashing Green Light
 2026-10-14T16:59:27+00:00|||PASS|||fb59a579879f7092e3bcbb4dbfc15448|||QCOM|||GFiber and Qualcomm announce Wi-Fi 8 gateway — 20 Gig customers to be first to receive next-gen wireless upgrade
 2026-10-14T16:59:33+00:00|||PASS|||a697274771fa81cc570ad0b82fb5040b|||INTC|||Intel, AMD, and More Chip Stocks Fall After ASML’s Strong Earnings
@@ -1031,3 +976,63 @@
 2026-10-28T07:10:18+00:00|||PASS|||816897638557e181c41d3b52d3cba61e|||TER|||Teradyne Reports Third Quarter 2026 Results
 2026-10-28T07:10:43+00:00|||PASS|||52f7044d26f9a6f6d373ae49b5ea3c3c|||VRT|||Will AI Product Push Change Vertiv Stock Narrative Ahead Of Q3 Earnings
 2026-10-28T07:11:22+00:00|||PASS|||b894e051a8e402bb4fddc02e2d77f80e|||SPCX|||Tesla-SpaceX Merger Needs No Premium, Investor Says — But Floats $500 To Sway Angry Holders Missing Bigger Payoff
+2026-10-28T16:13:00+00:00|||SENT|||09dc0982ad803c4b2cec5ba90eaa027d|||GOOGL|||Update: Google, Apple Fined in Korea Over Prohibited App Market Practices
+2026-10-28T16:13:04+00:00|||PASS|||0c29112695515b84de23ddcbd2b5fec4|||GOOGL|||Alphabet stock rises as OpenAI plans to buy Google’s TPUs
+2026-10-28T16:13:07+00:00|||PASS|||e1b85aae3571c2bae61fa30590ddea9c|||GOOGL|||Google to preview a new crypto security system as private-key hacks mount
+2026-10-28T16:13:09+00:00|||PASS|||c1f492f47343e78a667b5c0e9495243d|||MU|||Micron’s stock rises after SK Hynix earnings. Here’s its next major test.
+2026-10-28T16:13:11+00:00|||PASS|||82dd67337a520828898245bc83209a89|||MU|||Micron Stock Gains as SK Hynix Reports Record Revenue Above 100 Trillion Won
+2026-10-28T16:13:27+00:00|||PASS|||4a32bed2d2a87fb758c5e02474b84346|||COHR|||Coherent Corp. stock may move 8.5% on Nov. 4 earnings release By Investing.com
+2026-10-28T16:13:29+00:00|||PASS|||2a18cd1b74b46afb442b6386e7768ab6|||COHR|||Coherent Corp. stock may move 8.5% on Nov. 4 earnings release
+2026-10-28T16:13:34+00:00|||PASS|||bed6ea2834218423e8cb8d8d0288c1d6|||FCEL|||FUELCELL ENERGY, INC. INVESTORS WITH LOSSES HAVE UNTIL
+2026-10-28T16:13:37+00:00|||PASS|||7c631ad2c02eee91db2aec59267bdeb2|||FCEL|||FuelCell Energy Appoints Peter Hopper to Board of Directors as it Advances Data Center Power Strategy
+2026-10-28T16:13:44+00:00|||SENT|||8f9814c83c9bfe396dcd5dfff12224b6|||GEV|||GE Vernova boosts grid push with $9 billion Trench deal, lifts revenue forecast
+2026-10-28T16:13:47+00:00|||PASS|||db710192287696ed22c331759e705880|||GEV|||Top Midday Stories: GE Vernova to Acquire Trench Group for $9 Billion; Wendy's Receives $1.4 Billion Takeover Offer From Trian-Led Group
+2026-10-28T16:13:49+00:00|||PASS|||ea72039c7ebc9bf309ac5a18d3db6c1f|||GEV|||GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows
+2026-10-28T16:13:56+00:00|||SENT|||698db3d0550cb284afd72c856d14bb4d|||GEV|||GE Vernova profit nearly triples as backlog hits $196.7 billion
+2026-10-28T16:13:59+00:00|||PASS|||bd075b6eab6b1777892584a4c7ce33c9|||GEV|||GE Vernova Orders Soar. Earnings Reveal That AI Power Demand Remains Red Hot.
+2026-10-28T16:14:01+00:00|||PASS|||0335a267991d905c6fe3239696ca952f|||GEV|||GE Vernova to acquire Trench Group for $9.0 billion
+2026-10-28T16:14:02+00:00|||PASS|||95f369e577570c62d6002a687d12eb87|||GEV|||GE Vernova to Acquire Trench Group
+2026-10-28T16:14:04+00:00|||PASS|||8df2833baa862deef143375fc953356c|||CAT|||How To Earn $500 A Month From Caterpillar Stock Ahead Of Q3 Earnings
+2026-10-28T16:14:10+00:00|||PASS|||0a5074a9a9f96c32f3b33fc4927749b6|||RDW|||Redwire Corporation (RDW) May Report Negative Earnings: Know the Trend Ahead of Q3 Release
+2026-10-28T16:14:16+00:00|||PASS|||0284b72b3379e258a90a6f3ae0aa8000|||META|||Meta Loses $400 Billion, Auctions More Stock, But Analysts Still See 1.4x Upside
+2026-10-28T16:14:18+00:00|||PASS|||57ac0f7e3423bdbd6bb4845e122706e5|||AAPL|||Seeking Clues to Apple (AAPL) Q4 Earnings? A Peek Into Wall Street Projections for Key Metrics
+2026-10-28T16:14:21+00:00|||PASS|||d1df5625f14e2b8d1a2824a51ef4a511|||TSLA|||Musk Likes a Tesla-SpaceX Merger. Then He Admitted It Needs a Majority of ALL Tesla Shares, Not Just Votes Cast
+2026-10-28T16:14:22+00:00|||PASS|||1f0a5c6fd96d47b497cb94966845efc2|||TSLA|||Tesla Closed Up 4% at $407. Here’s What a SpaceX Merger Could Mean for Your Shares.
+2026-10-28T16:14:26+00:00|||PASS|||b528118019d83006895cd6e210c26e2d|||AMD|||AMD Is Putting $1 Billion Into Meta's Own Stock Sale
+2026-10-28T16:14:28+00:00|||PASS|||045bca4d778c4aa176da24c0abc27d90|||AMD|||AMD Jumped 5% and Is Closing In on $1 Trillion Again
+2026-10-28T16:14:29+00:00|||PASS|||242872a143555cfad108082cebed4b76|||AMD|||AMD Target Raised to $720 Ahead of Q3 Results
+2026-10-28T16:14:36+00:00|||PASS|||e4a4a4eb27bb0b4bb38301995edaa045|||INTC|||Robinhood misses on Q3 earnings, plus IBM, Intel, and Oracle object to tokenized plans
+2026-10-28T16:14:37+00:00|||PASS|||e12b29ce72198819923b0273295327b4|||INTC|||Intel Q3 earnings on deck: What to expect (INTC:NASDAQ)
+2026-10-28T16:14:40+00:00|||PASS|||2304273322f7bf3ffafed342e53ab207|||INTC|||Intel’s $2.3 billion quantum bet: can it revive the sector?
+2026-10-28T16:14:41+00:00|||PASS|||b8245183e9fd044adcb1b935013b5c1f|||INTC|||Sandisk and Intel Stocks Rise as AI Trade Reignites Before Big Tech Earnings
+2026-10-28T16:14:45+00:00|||PASS|||fe8027aa1c97f2f3ac4a60de215bfc9d|||INTC|||Intel gets tax breaks while local authorities lose revenue, claims policy org
+2026-10-28T16:14:47+00:00|||PASS|||929f66794764a0914c8666841f6aa31a|||INTC|||Oracle Cloud Infrastructure Brings NVIDIA, AMD, Intel, Google, Cerebras, SambaNova & Broadcom Under One Massive “AI” Roof, Deploying Vera Rubin, 6th Gen EPYC & MI455X, and Diamond Rapids Among Many Others
+2026-10-28T16:14:55+00:00|||PASS|||beb09ea8b65e405b616ee967f794ac06|||SKHY|||Micron’s stock rises after SK Hynix earnings. Here’s its next major test.
+2026-10-28T16:14:56+00:00|||PASS|||bc7bfb30018708e0ef30b45dad3941e3|||SKHY|||SK Hynix jumps on Q3 earnings
+2026-10-28T16:14:58+00:00|||PASS|||5511107da007129e1af3dc6bb9f7ed8f|||SKHY|||SK Hynix Stock Surges 7% After Record Quarterly Profit And Buyback Plan
+2026-10-28T16:15:03+00:00|||PASS|||491c26be82e60a3b05054042d21f6338|||SKHY|||SK hynix-owned Solidigm is plotting a new $45 billion flash memory factory for the US, report claims — wants go-ahead to export equipment for China upgrades in return
+2026-10-28T16:15:04+00:00|||PASS|||451b0f0b74a57137c6ea642ed80bc4a7|||SKHY|||SK Hynix delivered on third-quarter results — but the outlook is what really mattered to Wall Street and the AI trade
+2026-10-28T16:15:06+00:00|||PASS|||bc9f34f11cf65ca180724aa57afec3c2|||SKHY|||SK Hynix Stock Jumps On Q3 Earnings Beat
+2026-10-28T16:15:10+00:00|||PASS|||83fe744df867365545b6dcb6ad568901|||SKHY|||SK Hynix Shares Jump Nearly 11% as Q3 Profit Beats Forecasts and Shareholder Returns Reach 100 Trillion Won
+2026-10-28T16:15:11+00:00|||PASS|||2e4683fecfedefa151f8c53bbc73a206|||SKHY|||Tech stocks are poised to move higher following record earnings from chipmaker SK Hynix
+2026-10-28T16:15:14+00:00|||PASS|||b88a8bef5de5b57ad4ee3b70c7622b82|||SNDK|||The AI Trade Is Back. Why Sandisk Stock Is Rising Before Big Tech Earnings.
+2026-10-28T16:15:18+00:00|||PASS|||4e2c99af9e0dbf62c77f40d5ff97c40e|||STX|||Why Seagate Stock Is Falling Despite An Earnings Beat And Strong AI-Driven Demand
+2026-10-28T16:15:46+00:00|||PASS|||d4be01e6bc1b9063d3fd3726123d3238|||CSCO|||Cisco open sources tool for detecting AI agents on hacking sprees
+2026-10-28T16:15:56+00:00|||PASS|||e2dd0c43f6aa9014216e25b9340aba1b|||IFNNY|||Enphase and Infineon deploy 900V GaN switches in solid-state transformers designed for AI data centers
+2026-10-28T16:15:58+00:00|||PASS|||e0f7040da02a6d0fff7eefdb06585d95|||ALGM|||Earnings to watch: Allegro MicroSystems (ALGM) reports Q3 results tomorrow
+2026-10-28T16:16:04+00:00|||PASS|||a7178c4a78b9eafea0041cf64c331675|||VRT|||Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results
+2026-10-28T16:16:09+00:00|||SENT|||64e349f537b482f79ecb0c6a2c25bd3b|||VRT|||Vertiv raises 2026 outlook after third-quarter revenue jumps 61%
+2026-10-28T16:16:12+00:00|||PASS|||4093734dde32919362a95682996349da|||VRT|||Vertiv Earnings Set a New Bar for AI Stocks
+2026-10-28T16:16:18+00:00|||PASS|||61a05d97cc1f9a013273c3b3aa6a8d58|||PLTR|||Exploring Analyst Estimates for Palantir Technologies (PLTR) Q3 Earnings, Beyond Revenue and EPS
+2026-10-28T16:16:19+00:00|||PASS|||a478055ee0e3ccb3df142aa307892c67|||PLTR|||Palantir: The Trust Layer For Agentic AI Heading Into Q3 Earnings (NASDAQ:PLTR)
+2026-10-28T16:16:27+00:00|||PASS|||9865efffc8bd3b3c874f963453d00ddc|||IBM|||Robinhood misses on Q3 earnings, plus IBM, Intel, and Oracle object to tokenized plans
+2026-10-28T16:16:56+00:00|||PASS|||8f679d76e27ae7544467f6cd80d6b322|||SPCX|||SpaceX Launches Grok AI Partner Program: Here’s What To Know
+2026-10-28T16:17:01+00:00|||PASS|||a8848732f3f0e17e517f21e258564b37|||SPCX|||SpaceX’s $40 billion GPU lease won’t affect its credit rating - Fitch
+2026-10-28T16:17:02+00:00|||PASS|||57493b95619d09848e7994a27824f034|||SPCX|||SpaceX Tells FAA It Alone Expects 10,000 Launches A Year, As It Gears Up To Target $28.5 Trillion Market That Elon Musk Believes Is Inadequate
+2026-10-28T16:17:03+00:00|||PASS|||d4f3ce3097e4d435f33c128f15c511d5|||SPCX|||Tesla Closed Up 4% at $407. Here’s What a SpaceX Merger Could Mean for Your Shares.
+2026-10-28T16:17:16+00:00|||PASS|||d517eabae35d15c47802148401296ca2|||USAR|||USA Rare Earth Just Broke Ground on a $1.2 Billion Magnet Complex. Here's Why It Matters.
+2026-10-28T16:17:26+00:00|||PASS|||d324a187035e4d2fb8da000b3e8a81f7|||PWR|||Earnings to watch: Quanta (PWR) reports Q3 results tomorrow
+2026-10-28T16:17:29+00:00|||PASS|||2a8e8515a15cc1edfe3fc925f7e37e7b|||GNRC|||Generac CEO Aaron Jagdfeld on outlook for power outages from severe weather
+2026-10-28T16:17:34+00:00|||SENT|||1f17155242bb519b3fb16019a5ae5fc1|||GNRC|||Generac Shares Fall 2% as Q3 Revenue Misses Forecasts Despite Earnings Growth
+2026-10-28T16:17:42+00:00|||SENT|||5a8036bb7e10429d958cc3bff3caa38b|||GNRC|||Generac stock sees data center backlog surge to $4.5 billion
+2026-10-28T16:17:50+00:00|||PASS|||d4e038799a299725ce1619a005a4a40a|||CRCL|||Coinbase Q3 earnings face falling estimates: Can USDC stem the slide?
