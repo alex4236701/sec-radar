@@ -1,44 +1,4 @@
 @@HEARTBEAT|||2026-10-29|||2026-10-21T13:41:10+00:00
-2026-10-14T22:51:01+00:00|||SENT|||36c8f8006da7a2e898c80c27086a0fb9|||AVGO|||Broadcom Is Backing Anthropic and OpenAI With $92 Billion. Here's What It Means for Investors.
-2026-10-14T22:51:19+00:00|||PASS|||64f0659a95885f94c7a48cc041ccc39f|||AMZN|||Amazon customers could be eligible for payments in $309.5M lawsuit
-2026-10-14T22:51:20+00:00|||PASS|||82f74905c97fc1b34bb093e96cb39e4a|||AMZN|||Tech layoffs tracker 2026: All the job losses across Netflix, Amazon, Apple, Oracle, TikTok, Meta and others
-2026-10-14T22:51:25+00:00|||PASS|||5b6387f168e4fe8c8fd190fb08898320|||TSLA|||Tesla and SpaceX could merge before December 6 -- Barclays (TSLA:NASDAQ)
-2026-10-14T22:51:27+00:00|||PASS|||2ad997a9732378ce3e7b9fd16da23eff|||NVDA|||Daniel Meuser from Pennsylvania’s 9th district makes partial sale of NVIDIA stocks
-2026-10-14T22:51:31+00:00|||PASS|||ad19f754d28021fff80916ae2976c1b7|||MRVL|||Marvell Stock Is Up 214% in 2026. Is It Too Late to Buy?
-2026-10-14T22:52:25+00:00|||PASS|||4f4ba65b18ac687367cb88bf94a59bbb|||HPE|||HPE won’t merge Aruba and Mist, but is combining tech
-2026-10-14T22:53:06+00:00|||PASS|||b461394c5fbfbc3ba44e99f3688a34f0|||SPCX|||Tesla and SpaceX could merge before December 6 -- Barclays (TSLA:NASDAQ)
-2026-10-14T22:53:08+00:00|||PASS|||8a0af4f96ab14d4346cc2abe47928561|||RKLB|||Rocket Lab’s stock slides as the company pushes back Neutron’s first launch
-2026-10-15T01:58:41+00:00|||PASS|||74e8ffe4bbaafbe0faf122f9c419ca8e|||GOOGL|||Waymo expands to 20 cities as NHTSA opens new school bus safety probe
-2026-10-15T01:58:56+00:00|||PASS|||f9d39164f9f0762165c4d3c84832b127|||UMAC|||XTI Aerospace names Unusual Machines CEO as board chairman
-2026-10-15T01:59:26+00:00|||PASS|||2d35ef6e79986aab207a469b8566c249|||AMZN|||Amazon (AMZN) Has a $25B Chip Business. Is the Cash Burn Worth It?
-2026-10-15T01:59:35+00:00|||PASS|||515f6c07eee3ddb05dcfd6948313d578|||AAPL|||Apple Joins Nvidia in $5 Trillion Market Cap Club
-2026-10-15T01:59:40+00:00|||PASS|||6922b6abafd64d6b567f94f198334702|||AAPL|||Apple Joins Nvidia in the $5 Trillion Valuation Club
-2026-10-15T01:59:45+00:00|||PASS|||eaebc8e197849b33982fd6ddcd256f7d|||AAPL|||Tech layoffs tracker 2026: All the job losses across Netflix, Amazon, Apple, Oracle, TikTok, Meta and others
-2026-10-15T01:59:50+00:00|||PASS|||1c523b23c91fb7c763da96f2128b7144|||TSLA|||Tesla-SpaceX Merger Could Be Announced As Early As Before December AGM, Says Barclays
-2026-10-15T01:59:54+00:00|||PASS|||b215241d711d8784810163ab28e821ab|||TSLA|||Bernie Sanders Says ‘Stop Musk’ as Tesla CEO Spends $366 Million to Keep GOP in Control — Elon Musk Got $696 Billion Richer Since Trump’s Re-Election
-2026-10-15T02:00:00+00:00|||PASS|||526eef71d0013d865e1a5929aec98aa2|||NVDA|||Apple Joins Nvidia in $5 Trillion Market Cap Club
-2026-10-15T02:00:04+00:00|||PASS|||4e657875e33ce44ba56a7fcb371dbc7f|||NVDA|||Apple Joins Nvidia in the $5 Trillion Valuation Club
-2026-10-15T02:00:15+00:00|||PASS|||556e4f5e7a99e4a8ea4f4361ebb595e6|||INTC|||Is Intel's Record Sales Growth Still Improving?
-2026-10-15T02:00:23+00:00|||PASS|||9af32fb23d3918f7d5c5c73830f5a0d4|||GFS|||GlobalFoundries wins US$21 billion US-Japan deal to build, operate two New York fabs
-2026-10-15T02:01:18+00:00|||PASS|||c003e5a05445600a9b3eb1bc0a84ddf1|||CRWV|||CoreWeave Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into CoreWeave (CRWV)
-2026-10-15T02:01:31+00:00|||PASS|||6120a52d60da441d9ae38b05fcc6e128|||DDOG|||Datadog Announces Date of Third Quarter Fiscal Year 2026 Earnings Call
-2026-10-15T02:01:36+00:00|||PASS|||f690eba73de812f173ac63d82b29e7d7|||DDOG|||Datadog unveils new observability maturity assessment partner program in ANZ
-2026-10-15T02:02:11+00:00|||PASS|||ced17fce5e30cbedb9d6d8710019a0b3|||SPCX|||Tesla-SpaceX Merger Could Be Announced As Early As Before December AGM, Says Barclays
-2026-10-15T02:02:18+00:00|||PASS|||0ba1068ca6f9bfad77f14ef7a0818724|||SPCX|||Tesla-SpaceX Merger Announcement Could Come This Year, Barclays Says
-2026-10-15T05:58:23+00:00|||PASS|||ac186899860458ba5842c76f4d1e3bb0|||AAPL|||Apple's Annual Revenue Quadrupled From $108 Billion to $416 Billion During Tim Cook's 15 Years as CEO, With iPhone Sales Alone Jumping From $47 Billion to Nearly $210 Billion. What That Growth Says About Betting on Apple's Next Chapter Under John
-2026-10-15T05:58:25+00:00|||PASS|||24ee7cd12b45dfd453bfd28560a1cfd9|||TSLA|||Tesla-SpaceX Merger Announcement Could Come This Year, Barclays Says
-2026-10-15T05:58:29+00:00|||PASS|||9c8414bdc62c7c09ca4cba6f817579a8|||NVDA|||US tech firm Nvidia buys stake in French health platform Doctolib
-2026-10-15T05:58:42+00:00|||PASS|||b53d334714192953ae30db7965afb552|||GFS|||Analysis: GlobalFoundries' calculus behind US$2 billion entry into TSMC's CoWoS ecosystem
-2026-10-15T05:58:46+00:00|||PASS|||0f29196ab5b7918575134573fc8aeb28|||SKHY|||Stock Crash: SK Hynix plunges 57% from peak in four months, loses nearly $700 billion in value
-2026-10-15T05:58:56+00:00|||SENT|||9c62acccfe36715a401d73a6d16a0c28|||PENG|||Axe Compute Partners With Penguin Solutions to Accelerate $3.45 Billion AI Projects
-2026-10-15T05:59:03+00:00|||PASS|||727b3aaab109f50fdf8536624f16a766|||AMAT|||Applied Materials targets US$5 billion advanced packaging revenue
-2026-10-15T05:59:46+00:00|||PASS|||b23ad191680d41c28f8712e68699add2|||CRWV|||CoreWeave Plunges On Spike In Borrowing Costs, Gartner AI Outlook
-2026-10-15T05:59:49+00:00|||PASS|||0539682c9c3d7a2b7916c1e6b08ae0fb|||CIFR|||What Needs To Be True To Buy Cipher Digital Stock Now?
-2026-10-15T05:59:59+00:00|||PASS|||3ebd3544afc5d6a019c31ff78e42c75c|||IBM|||IBM, MeitY Startup Hub sign pact to boost India's deep tech startups
-2026-10-15T06:00:24+00:00|||SENT|||92f23697a5e891fcb81f752a038c7090|||HIMX|||Himax WiseEye Ultralow Power AI Adopted in Alibaba’s Latest Qwen Glasses
-2026-10-15T06:00:39+00:00|||PASS|||fe5e984acf908c643c991d2fd41a6e30|||RKLB|||Rocket Lab delays first Neutron launch again
-2026-10-15T06:00:41+00:00|||PASS|||129c38e013d6f9a69e2d8a0f76ddbbec|||RKLB|||Rocket Lab Retail Mood Hits All-Time Low After Neutron Delay — Can Takeover Target Iridium’s Earnings Turn The Tide?
-2026-10-15T06:00:47+00:00|||PASS|||67c2c99f298c2339cea60d0551338c3a|||IRDM|||Rocket Lab Retail Mood Hits All-Time Low After Neutron Delay — Can Takeover Target Iridium’s Earnings Turn The Tide?
 2026-10-15T10:01:23+00:00|||PASS|||755170fa5c64bc9afa635f5edbe8da8c|||GOOGL|||AEP to invest $4bn in 702MW fuel cell project for Google
 2026-10-15T10:01:55+00:00|||PASS|||26842cff33804d890ee1c5835838f3a6|||MSFT|||Microsoft Had Its Best Quarter in 28 Years. Is it Too Late to Buy the Stock?
 2026-10-15T10:02:07+00:00|||PASS|||71d9840751c4e145f9868a77ca8c9b80|||TSLA|||Elon Musk Sees SpaceX Topping $100 Trillion In Under 10 Years — Retail Eyes Tesla Merger Reveal At Roadster Event
@@ -1077,3 +1037,41 @@
 2026-10-28T22:47:57+00:00|||PASS|||be9b46df52cb3fdf77dc87c851cff90b|||FTNT|||Fortinet: Q3 Earnings Snapshot
 2026-10-28T22:48:21+00:00|||PASS|||8af3bd9bef20a2b43da8f109c68c6a14|||SPCX|||How SpaceX Hurt Alphabet’s Third Quarter Earnings
 2026-10-28T22:48:25+00:00|||SENT|||453021ffa54e225b93ec3814fec94813|||SPCX|||SpaceX's $100 Billion Project Faces Legal Test
+2026-10-29T07:30:22+00:00|||PASS|||36182411b614afab9bfd00c7d1536521|||GOOGL|||Alphabet misses revenue expectations as shares fall 9%
+2026-10-29T07:30:26+00:00|||PASS|||d9534110e055b27ac2b389100e19ec29|||GOOGL|||Google shares tumble 10% after $51bn AI outlay deepens cash burn
+2026-10-29T07:30:38+00:00|||PASS|||6010a11bb3035ddc68b0af7b8517ac2f|||ONDS|||Ondas Spends $875.8 Million to Build a Drone Warfare Company From Scratch
+2026-10-29T07:30:57+00:00|||PASS|||0a8de33fffd769f77184738a466e310d|||HON|||Honeywell Aerospace Shares Fall 2.73% After Hours Despite Q3 Earnings Beat - Honeywell Aerospace (NASDAQ
+2026-10-29T07:31:02+00:00|||SENT|||d84158795f28a36dbd89b738091f2a50|||HON|||Honeywell Aerospace lifts second-half cash flow view, tops quarterly estimates By Reuters
+2026-10-29T07:31:05+00:00|||PASS|||0bf9241ac749f78ede50fd0433b4caa6|||HON|||Honeywell Aerospace stock fall 3% after posting Q3 results on rising costs By Investing.com
+2026-10-29T07:31:09+00:00|||PASS|||067c0afcf2063cb8c874ef05a63e92e0|||MSFT|||CoreWeave, neocloud stocks drop after Microsoft capex misses estimates (CRWV:NASDAQ)
+2026-10-29T07:31:10+00:00|||PASS|||5a39900fd2c3612f8b0f1fc3571de847|||MSFT|||What Microsoft (MSFT) Said on Its Q1 Earnings Call
+2026-10-29T07:31:13+00:00|||PASS|||337eac55ded6579893acc2fddd4c5569|||MSFT|||Microsoft (MSFT) Reports Q1 Earnings: What Key Metrics Have to Say
+2026-10-29T07:31:17+00:00|||SENT|||4f7abed284db93bf5f245315bbc6efab|||MSFT|||Microsoft pops as Q1 results, guidance top estimates (MSFT:NASDAQ)
+2026-10-29T07:31:22+00:00|||PASS|||0729f26d0594bf4a7c6181836deeb50e|||AMZN|||Amazon Extends Job Cuts to Devices After 1,000 Retail Layoffs
+2026-10-29T07:31:28+00:00|||PASS|||27a2b0388c9c9ebbb22b916b60afe89d|||TSLA|||Tesla wins court battle over delayed FSD features in South Korea (TSLA:NASDAQ)
+2026-10-29T07:31:30+00:00|||PASS|||5e4a7ac3f46d8292662c7996ec4aab04|||TSLA|||Tesla Wins Lawsuit in South Korea Over FSD Feature Delays
+2026-10-29T07:31:35+00:00|||PASS|||da4f1144cf315b7e483c8e5c0d268a0d|||MRVL|||[News] Marvell Eyes Lumentum Acquisition in What Could Be One of the 10 Largest Tech and Telecom Deals Ever
+2026-10-29T07:31:38+00:00|||PASS|||77645c59df082e0b1df660d6635666ce|||ARM|||Why Arm’s Q2 Earnings Could Spur a Recovery in Its Stock
+2026-10-29T07:31:41+00:00|||PASS|||63787b9eb38abcfd8f6fcdfd77d04323|||INTC|||Intel Stock Enters Earnings With a ‘Strong’ Setup, Analysts Say
+2026-10-29T07:31:42+00:00|||PASS|||460de905a67364d9a04c46f07bbd33f4|||INTC|||Pentagon Watchdog Declines to Probe Ukraine Intel, Starlink Cuts
+2026-10-29T07:31:50+00:00|||SENT|||22cad85ac603280cfcf5471b0b0daf79|||ASX|||ASE Technology Hldg: Q3 Earnings Snapshot
+2026-10-29T07:31:54+00:00|||PASS|||3b4a577661d1c91b31d2c4a7813f8fe2|||SKHY|||SK hynix CEO Kwak Makes Earnings Call Debut to Rebuild Investor Trust
+2026-10-29T07:31:55+00:00|||PASS|||3b3a214028a189c9c54b26387961942a|||SKHY|||Stock Market Today, Oct. 28: SK Hynix Surges on Record Q3 Results and AI-Memory Demand
+2026-10-29T07:32:14+00:00|||PASS|||8fb874ab9a076534450cc005f5b5be2a|||TER|||Teradyne stock falls despite Q3 earnings beat, strong AI-driven outlook (TER:NASDAQ)
+2026-10-29T07:32:25+00:00|||PASS|||dc57dcd610735ceabd34123ca1ab5dca|||LITE|||[News] Marvell Eyes Lumentum Acquisition in What Could Be One of the 10 Largest Tech and Telecom Deals Ever
+2026-10-29T07:32:41+00:00|||PASS|||6dd46b2f7562acb6c3ba7b1ddc12ca63|||CRWV|||CoreWeave, neocloud stocks drop after Microsoft capex misses estimates (CRWV:NASDAQ)
+2026-10-29T07:32:47+00:00|||PASS|||d49b7341d2a729ce3ae0460e5b728f68|||NOW|||ServiceNow shares drop 18% after mixed earnings results
+2026-10-29T07:32:49+00:00|||PASS|||19dadf23243a0502798c96486a8c0292|||NOW|||What ServiceNow (NOW) Said on Its Q3 Earnings Call
+2026-10-29T07:32:51+00:00|||PASS|||a39b13b9265bb971970f88c511897970|||NOW|||ServiceNow Fans AI Fears on Quarterly Subscription Sales Outlook
+2026-10-29T07:32:52+00:00|||PASS|||4ed4e265b86549f9f07fb7f18b41ef6a|||NOW|||ServiceNow’s stock slides as earnings miss overshadows a raised AI outlook
+2026-10-29T07:32:54+00:00|||PASS|||235bd9c0832ad46df070b0f53ef093aa|||NOW|||ServiceNow Falls After Quarterly Sales Outlook Revives AI Fears
+2026-10-29T07:32:56+00:00|||PASS|||61e17b9aa422f94a07760d4bff70dc47|||NOW|||ServiceNow Reports Third Quarter 2026 Financial Results
+2026-10-29T07:32:57+00:00|||PASS|||88548faebb9b3431b646131da1698b7c|||NOW|||ServiceNow launches Control Tower Alliance to help enterprises adopt AI safely at scale
+2026-10-29T07:32:58+00:00|||PASS|||9770e79b1e1fe70be9002997a3a1b60c|||NOW|||Watch Microsoft, ServiceNow Earnings: Key Takeaways
+2026-10-29T07:33:06+00:00|||PASS|||09a6ab454cf6001e8749e054c5506556|||DDOG|||Upwind raises $400M after walking away from Datadog acquisition offer
+2026-10-29T07:33:11+00:00|||PASS|||94a6d6896c9a54c4805a7e5c5049b20d|||FTNT|||Fortinet’s stock is taking a dive after earnings. Here’s why.
+2026-10-29T07:33:13+00:00|||PASS|||a2c3a2a7fc22b038117df2a1a0c199a0|||FTNT|||Fortinet Reports Strong Third Quarter 2026 Financial Results
+2026-10-29T07:33:39+00:00|||PASS|||0235af0f41e2d2b13b75d9bef3e47d25|||SPCX|||Pentagon Watchdog Declines to Probe Ukraine Intel, Starlink Cuts
+2026-10-29T07:33:40+00:00|||PASS|||2af4c0f3f7fc3dd83fbc88433a77ef5e|||SPCX|||Not Space. Not Starlink. Here's My Top Reason to Buy SpaceX Stock.
+2026-10-29T07:33:41+00:00|||PASS|||9525556dc97172e6ae13a62c2f0b83c1|||SPCX|||How SpaceX Hurt Alphabet’s Third-Quarter Earnings
+2026-10-29T07:33:49+00:00|||PASS|||887b7b43cdb432a77719623eba86c791|||USAR|||What Needs To Be True To Buy USA Rare Earth Stock?
