@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "holding": true,
+  "text": "10-Q 季報",
+  "ticker": "GOOGL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "holding": true,
+  "text": "10-Q 季報",
+  "ticker": "GLW",
+  "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000279/glw-20260930.htm"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "COHU",
+  "url": "https://www.sec.gov/Archives/edgar/data/21535/000143774926033843/cohu20260926_10q.htm"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "4",
+  "holding": false,
+  "text": "Form 4 內部人小額買進：Grimme Arne（董事）：353 股，均價 $163.57，約 $57,740（依事先設定的 10b5-1 計畫）",
+  "ticker": "NBIS",
+  "url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000143/xslF345X06/form4.xml"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "BAND",
+  "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000082/band-20260930.htm"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "PWR",
+  "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000041/pwr-20260930.htm"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "LIN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1707925/000162828026068079/lin-20260930.htm"
+ }
+]
