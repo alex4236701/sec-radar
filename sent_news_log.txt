@@ -1,27 +1,4 @@
-@@HEARTBEAT|||2026-10-29|||2026-10-21T13:41:10+00:00
-2026-10-15T19:05:04+00:00|||SENT|||6c0f3c5fbf3431a3acf771156fd2256b|||META|||Meta Platforms Drug Sale Criminal Probe Halted by DOJ Officials
-2026-10-15T19:05:09+00:00|||PASS|||79005fc53f73e2a166ad161eb091d55b|||AAPL|||Apple TV outage disrupts MLS as fans miss out on Lionel Messi action
-2026-10-15T19:05:24+00:00|||PASS|||5e97bf719dfa068383b53ff8a66d9a8b|||GFS|||GlobalFoundries gets US$21bn for plants in US-Japan deal
-2026-10-15T19:05:32+00:00|||PASS|||a8f4c4eb43644a4984bb533716d6ceb6|||SNDK|||SanDisk Stock Is Falling on AI Fears. Its $93.9 Billion Contract Book Tells Another Story
-2026-10-15T19:07:02+00:00|||PASS|||83ed0a016651a46cfb7d5081393e1554|||SPCX|||EU plans to fast-track antitrust approval of SpaceX rival
-2026-10-15T19:07:18+00:00|||PASS|||737e226e70ef3dd5bae11a3559e336a2|||BE|||Google's $4 Billion Fuel-Cell Project Puts Bloom Energy's AI Power Backlog to the Test
-2026-10-15T19:52:06+00:00|||PASS|||adb74e2fecae03a8baf9d7e7bff73fbf|||MU|||Micron & SanDisk Stocks Look Oversold: Time to Buy the Dip?
-2026-10-15T19:52:56+00:00|||PASS|||812cd61e80acf0e2ca930394f79974ec|||SNDK|||Micron & SanDisk Stocks Look Oversold: Time to Buy the Dip?
-2026-10-15T19:53:02+00:00|||PASS|||4e58ad0c5834427126ba41e1c4445e08|||ASML|||ASML Earnings Point to Soaring AI Chip Demand. Why the Stock Isn’t Budging.
-2026-10-15T19:53:43+00:00|||PASS|||b18a49646257ba3704119029dd5a5baf|||CRWV|||CoreWeave: Why Credit Markets See A 54% Chance Of Default (NASDAQ:CRWV)
-2026-10-15T19:54:23+00:00|||PASS|||711d6063f92ed57afbfb36ea344665eb|||SPCX|||Will SpaceX merge with Tesla? Speculation resurfaces it could happen before the end of 2026
-2026-10-15T20:54:26+00:00|||PASS|||679ce9d5da00c52837ab45bd7c6a8510|||ONDS|||What Needs To Be True To Buy Ondas Stock Now?
-2026-10-15T20:54:31+00:00|||SENT|||69853f99cbb3175290afab504d1e5e91|||ONDS|||Ondas Retreats 6% Despite Regna AI Launch With Palantir; AeroVironment Drops 3%, Kratos Slips
-2026-10-15T20:54:39+00:00|||PASS|||c019faf5ccc6d08b0682e172abdf76aa|||WOLF|||Wolfspeed, Inc. Announces Date of Fiscal First Quarter Earnings Call for November 4, 2026
-2026-10-15T20:55:58+00:00|||PASS|||76bfdfadb4afac4c0ca75631802da45a|||DELL|||Michael Dell Loses Title of World’s Fourth Richest Person After $36 Billion Drop in Net Worth in Two Days
-2026-10-15T20:56:04+00:00|||PASS|||805c7f0661fc2bbf5510d596332fe772|||CRWV|||CoreWeave Founders Shield Fortunes With $3.3 Billion Stock Sales
-2026-10-15T20:56:28+00:00|||SENT|||57066b1b137d6b779ba296d362c6e4da|||VRNS|||Varonis Systems gains after Proofpoint agrees to buy for $49.75/share in cash (VRNS:NASDAQ)
-2026-10-15T20:56:35+00:00|||SENT|||d8dc481fa04baf56edd7e5aec3cb1109|||VRNS|||Varonis stock climbs on $6.3 billion Proofpoint deal
-2026-10-15T21:53:55+00:00|||PASS|||04a39fcb09368926d9c30ea2e9bede9b|||NVDA|||Supermicro hires a new CFO after $2.5 billion Nvidia smuggling case and a 2-year search
-2026-10-15T21:54:11+00:00|||PASS|||222e626a5156e30317006914d9ae7639|||WDC|||Super Micro Names Former Western Digital Executive Mark Long CFO
-2026-10-15T21:54:48+00:00|||PASS|||0d1cd515c0ce93bb79a9b4e8d385eb77|||POWI|||Power Integrations to Announce Third-Quarter Financial Results
-2026-10-15T21:54:58+00:00|||PASS|||b61a45d03b6a34ccdc946c5053500e31|||CRWV|||CoreWeave three co-founders sold $3.3 billion in shares since IPO
-2026-10-15T21:55:39+00:00|||PASS|||a230ea15e63db6db63bc06ab44af15da|||SPCX|||Ukraine Outage Revives Concerns Over Relying on Musk’s SpaceX
+@@HEARTBEAT|||2026-10-30|||2026-10-21T13:41:10+00:00
 2026-10-16T01:58:51+00:00|||PASS|||13cb293e8daeb28cc0efe09ece03a883|||GOOGL|||Google warns suspected China-linked hackers could exploit BeyondTrust flaw
 2026-10-16T01:59:36+00:00|||PASS|||0dbfefb0a7c212af0f8834b094432177|||INTC|||Intel silent on Israeli Fab 28 output after deadly blast, leaving CPU supply outlook unclear
 2026-10-16T01:59:48+00:00|||SENT|||5d24a1ccb9a76b44181c914b61e2fd72|||SKHY|||SK hynix showcases next-generation AI memory technologies beyond HBM
@@ -1113,3 +1090,55 @@
 2026-10-29T18:37:06+00:00|||PASS|||44c6df41791d7d0b8e56509a7b56b8c8|||FTNT|||ServiceNow, Fortinet Q3 earnings reports lead software stocks lower as outlooks disappoint
 2026-10-29T18:37:16+00:00|||PASS|||bc71caa1b559ff322fd393aa0e748b3e|||BAND|||What Bandwidth (BAND) Said on Its Q3 Earnings Call
 2026-10-29T18:37:32+00:00|||PASS|||924ac65a2b5a534d8a2b40549258ce86|||SPCX|||Eutelsat expects $11 billion revenue after EU's Starlink rival comes online
+2026-10-29T23:25:32+00:00|||PASS|||966b5603a8ad4d232a32819e3934267c|||UUUU|||Energy Fuels faces earnings test as rare earth pivot unfolds
+2026-10-29T23:25:37+00:00|||PASS|||631bae96df147927dc3be85be323d801|||GOOGL|||Alphabet shares tumble in $500bn rout
+2026-10-29T23:25:38+00:00|||PASS|||f9e22409b07cdfe048727f2665bdaa09|||GOOGL|||Alphabet’s Market Value Drops $500 Billion
+2026-10-29T23:25:39+00:00|||PASS|||25afeda48ff3f26789dec7426ad9b486|||GOOGL|||Alphabet loses $482 billion in market value, the biggest drop in its history
+2026-10-29T23:25:41+00:00|||PASS|||0d9daadc59dee2caab3bf47900c5eb35|||GOOGL|||US files lawsuit claiming Google wouldn't give employee new job following military leave
+2026-10-29T23:25:42+00:00|||PASS|||b1481ddf2fcb1a0040156661feca0b76|||GOOGL|||Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value
+2026-10-29T23:25:58+00:00|||PASS|||ad5a7e62783781708ca51f2d81857b61|||AVGO|||Broadcom Stocks Decline 2.73% With Equipment-Value Support in a $63 Billion AI Deal
+2026-10-29T23:26:09+00:00|||SENT|||6f2304a1152a3396c97ec9d220dd11bb|||FCEL|||FuelCell Energy Completes $49 Million EXIM Financing to Support Gyeonggi Green Energy Project in South Korea
+2026-10-29T23:26:15+00:00|||PASS|||64c2d8273c7c52b71b09cb881204dc0e|||CAT|||Caterpillar Stock Falls Despite Record $78 Billion Order Backlog
+2026-10-29T23:26:23+00:00|||PASS|||d614bd9b46239abff34e02ce4a7a26a9|||MSFT|||Microsoft Issues $25 Billion in New Bonds, Adding to AI Debt Spree
+2026-10-29T23:26:25+00:00|||PASS|||6cf54a61f701a92ecdee7d6d2fb2689f|||AMZN|||Amazon Q3 Earnings: A $220 Billion Bet Wall Street Doesn't Understand (NASDAQ:AMZN)
+2026-10-29T23:26:28+00:00|||SENT|||75f38c338573ad3067648d4b07d02872|||AMZN|||Amazon the Latest Mag 7 to Miss Q3 Estimates
+2026-10-29T23:26:33+00:00|||SENT|||e8c1a5a04532283f0c24728cf2d47523|||AMZN|||Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged
+2026-10-29T23:26:37+00:00|||PASS|||e33a566310c50e2bb1f3c8245f9867ef|||META|||Texas Sues Harris County Over Race-Targeted Election Ads on Meta
+2026-10-29T23:26:40+00:00|||PASS|||94964cbc12caaa4d11af43258cd8588d|||AAPL|||Apple's Q4 Earnings Loom: Buy or Sell AAPL Stock Ahead of Results?
+2026-10-29T23:26:48+00:00|||SENT|||67474ea87568da4929ea768b097a7fa0|||NVDA|||Nvidia Moves to Backstop a Cloud Provider’s $45 Billion Anthropic Project
+2026-10-29T23:26:51+00:00|||PASS|||97b660d08ecb9df4eb595870e6cf2fe6|||NVDA|||Nvidia's Huang says dealings with firm in US spy probe were 'normal', Bloomberg News reports
+2026-10-29T23:26:52+00:00|||PASS|||0f72edb7cc4f4549572036a0069953fe|||NVDA|||Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’
+2026-10-29T23:26:55+00:00|||PASS|||d68114aa41e46005bd3193e90746581c|||MRVL|||Lumentum stock rises on report of possible merger with Marvell
+2026-10-29T23:27:03+00:00|||SENT|||7c698391f716997a7ce34ceb03cec70e|||INTC|||Intel’s Data Center Business Is Now Almost As Big As Its PC Division After A 78% Surge, While Q4 Guidance Hints At Softer Revenue And Thinner Margins
+2026-10-29T23:27:05+00:00|||PASS|||cccf5c16c435cb05759ab62bf05e397b|||INTC|||Tech Futures Skid As Amazon, Intel Lead Earnings Losers
+2026-10-29T23:27:07+00:00|||PASS|||c8b6c765fb8bd97b40e9b3611b599ad8|||INTC|||Intel earnings show the company is 'still PC dependent', says Benchmark's Cody Acree
+2026-10-29T23:27:10+00:00|||PASS|||533c1db7ffb79443d55fbd6d92ca48fa|||TSM|||TSMC Hunts for Rare-Earth-Free Tools After a Record $46.7 Billion Quarter
+2026-10-29T23:27:10+00:00|||PASS|||8deef0c7519557b78075e4b88c4f9e33|||TSM|||Beyond NVIDIA: Why TSMC Stock Looks Attractive After Q3 Earnings
+2026-10-29T23:27:19+00:00|||PASS|||6e6ac54a4b382d1a1151b08b1a4ddc6f|||SNDK|||Sandisk sees revenue nearly quintuple — and a stock split is on the way
+2026-10-29T23:27:24+00:00|||SENT|||bbfd5a3c9e8232fc9aa2a0e7f001756e|||SNDK|||Sandisk Reports Another Big Earnings Beat. Investors May Have Wanted More.
+2026-10-29T23:27:28+00:00|||PASS|||5129bdc10707311e2d3ececa6121b6fb|||SNDK|||Sandisk Posts Strong Profit, Upbeat Outlook on Growing AI Demand
+2026-10-29T23:27:30+00:00|||PASS|||9919a986f75252dafb7792a1e43496ca|||SNDK|||SanDisk beats on revenue and earnings, stock climbs slightly in extended trading
+2026-10-29T23:27:31+00:00|||PASS|||098380ae2b8733514964871eda52a2c4|||SNDK|||Sandisk Corporation (SNDK) Tops Q1 Earnings and Revenue Estimates
+2026-10-29T23:27:34+00:00|||PASS|||ae3ea7a0b0e1119d6e6bdfe49f75773f|||SNDK|||Sandisk perks up as storage strength boosts Q1 results, guidance; unveils 8-1 stock split (SNDK:NASDAQ)
+2026-10-29T23:27:40+00:00|||SENT|||3dc0d40066eb63bed07ab083e3740495|||SNDK|||Sandisk tops Q1 estimates and guides higher, sets 8-for-1 stock split
+2026-10-29T23:27:44+00:00|||PASS|||bcdf1d6327ddc4728e74352bc69251a0|||STX|||Seagate: Pricing Power, 60% EPS Growth And A 0.2x PEG (Upgrade To Buy) (NASDAQ:STX)
+2026-10-29T23:28:10+00:00|||PASS|||40da1e451eea8a9a9c1925b71b15aa89|||LITE|||Lumentum stock rises on report of possible merger with Marvell
+2026-10-29T23:28:16+00:00|||SENT|||942d92ef7550ee7ee6004a2f5e8aa9a7|||AXTI|||AXT: Q3 Earnings Snapshot
+2026-10-29T23:28:19+00:00|||PASS|||bd536e56cef0c79ba1aee165b0ba723a|||CSCO|||Cisco 360 Gets An Incentive Boost As Cisco Pushes Partners Toward AI, Cross-Architecture Sales
+2026-10-29T23:28:24+00:00|||SENT|||8a039826219097f97bd15e7a91da0011|||CSCO|||Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware
+2026-10-29T23:28:33+00:00|||SENT|||d41b207186f9557db0746e07904c0cb6|||MPWR|||Monolithic Power Systems beats estimates on AI demand By Investing.com
+2026-10-29T23:28:37+00:00|||SENT|||96db2dbb7f27dce25481c8e206db7b05|||MPWR|||Monolithic Power Systems names Tony Balow as CFO
+2026-10-29T23:28:54+00:00|||PASS|||9c1723d5bc6b2eb79574ae82980109ef|||NOW|||ServiceNow stock sinks in worst day ever, Fortinet shares drop as Q3 earnings reports send software sector lower
+2026-10-29T23:28:55+00:00|||PASS|||98f8fd48fcb86347315e7e47e274b891|||NOW|||‘It was just a fight that we decided to pick’: Serval raises $150 million at a $3 billion valuation to take on ServiceNow
+2026-10-29T23:28:56+00:00|||PASS|||f3de9567c235e395a8897df05667d252|||NOW|||ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears
+2026-10-29T23:29:01+00:00|||PASS|||d2daec10fe8bc6ae4da7b50efddd601a|||CRM|||Salesforce to buy defense tech firm Rune in military business push
+2026-10-29T23:29:09+00:00|||PASS|||ea5d41365780c9c654325bf4b4d753fc|||FTNT|||ServiceNow stock sinks in worst day ever, Fortinet shares drop as Q3 earnings reports send software sector lower
+2026-10-29T23:29:14+00:00|||SENT|||0932df25ab78032d18424d14405fc9f9|||FTNT|||Fortinet Tumbles 20% as Service Revenue Forecast Cut Overshadows Beat; Palo Alto Drops 5%, CrowdStrike Falls 4%
+2026-10-29T23:29:27+00:00|||SENT|||8b0f0633be028617ee6b967827af411e|||TWLO|||Twilio Stock: Twilio Earnings Top Estimates. Shares Fall On Slowing Organic Growth.
+2026-10-29T23:29:30+00:00|||PASS|||60b96167f7246a1deb8a5d90731b0426|||TWLO|||Twilio Stock Tumbles on Q3 Earnings
+2026-10-29T23:29:32+00:00|||PASS|||3fb8b59ced32b424fd6763614323a13b|||TWLO|||Twilio (TWLO) Q3 Earnings and Revenues Beat Estimates
+2026-10-29T23:29:37+00:00|||SENT|||83c376fa1616da5bfb25eac639c3e34f|||TWLO|||Twilio tumbles after releasing Q3 results despite raising full-year revenue guidance
+2026-10-29T23:29:58+00:00|||SENT|||0ad925dcf3149618782a01507196e03b|||SPCX|||SpaceX’s Largest Revenue Source Is a Finite Deal With Anthropic
+2026-10-29T23:30:01+00:00|||PASS|||4108fd3e032a027c09c6582ddf64ad5e|||SPCX|||Opinion: While the Odds of a SpaceX-Tesla Merger Are Climbing, Combining 2 Wrongs Won't Make a Right on Wall Street
+2026-10-29T23:30:29+00:00|||PASS|||f64e525b57e19f865334874ba3bfc4bb|||CRCL|||Tether, Circle freeze $2.38 billion after Binance reports security incident
+2026-10-29T23:30:33+00:00|||PASS|||cdbe07455443c5df1d0b399c084cb2c8|||CRCL|||Binance Hack: $2 Billion Drained, Circle and Tether Freeze, Crypto Markets React
