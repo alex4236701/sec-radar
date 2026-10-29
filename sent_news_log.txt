@@ -1,15 +1,4 @@
 @@HEARTBEAT|||2026-10-29|||2026-10-21T13:41:10+00:00
-2026-10-15T16:59:24+00:00|||PASS|||889934500e6858674246f632468e1986|||MSFT|||Microsoft's Q1 results might produce larger-than-normal beat due to Azure growth: analysts
-2026-10-15T16:59:48+00:00|||PASS|||5734a7235f9b2617fd9b86375648dc6a|||WDC|||Super Micro names former Western Digital executive Mark Long as new CFO
-2026-10-15T16:59:54+00:00|||PASS|||63f9522a7cf06bcab197be470d1c3126|||ASML|||Chinese Startup Unveils First EUV Light Source Prototype To Challenge ASML’s Monopoly, But Dutch Firm Won’t Be Losing Any Sleep Over This Progress
-2026-10-15T17:00:25+00:00|||PASS|||3dec8db4ca14ee5eb6cc7a8771173dd9|||MPWR|||Monolithic (MPWR) Upgraded to Buy: What Does It Mean for the Stock?
-2026-10-15T17:00:33+00:00|||PASS|||a7808d79f03efefb2f035c644a876815|||DELL|||Michael Dell’s Net Worth Falls Over $20 Billion, Losing World’s Fourth-Richest Person Status
-2026-10-15T17:53:16+00:00|||PASS|||8acd19bd06fb5489bd25001bdeb22bc8|||AAPL|||Apple Hits $5 Trillion Market Cap as Nvidia's Lead Shrinks
-2026-10-15T17:53:20+00:00|||PASS|||c666e2998f91db007cb3fcb749e59329|||NVDA|||Apple Hits $5 Trillion Market Cap as Nvidia's Lead Shrinks
-2026-10-15T17:54:20+00:00|||PASS|||617c9cb9ff846f488eb186b21f71ef0b|||CRWV|||CoreWeave credit default swaps hit distress levels as investors sour on AI debt
-2026-10-15T17:54:23+00:00|||PASS|||598a40c9570ec3f13b1f955e4179c913|||CRWV|||Top Midday Stories: Anthropic Reports $16.8 Billion in Q3 Revenue; CoreWeave's Credit Risk Hits Intraday High
-2026-10-15T17:54:31+00:00|||PASS|||5f0381d27f142c858b1e338e209ea58a|||CRM|||Klient Launches Klient Insights: Live PSA Dashboards Inside Salesforce
-2026-10-15T17:55:27+00:00|||PASS|||d67b8e84d98d5418d10107e8371341d9|||IONQ|||Quantum Computing Stocks Rebound After Dilution Scare: IonQ and Rigetti Climb 3%, D-Wave Advances 2%
 2026-10-15T19:05:04+00:00|||SENT|||6c0f3c5fbf3431a3acf771156fd2256b|||META|||Meta Platforms Drug Sale Criminal Probe Halted by DOJ Officials
 2026-10-15T19:05:09+00:00|||PASS|||79005fc53f73e2a166ad161eb091d55b|||AAPL|||Apple TV outage disrupts MLS as fans miss out on Lionel Messi action
 2026-10-15T19:05:24+00:00|||PASS|||5e97bf719dfa068383b53ff8a66d9a8b|||GFS|||GlobalFoundries gets US$21bn for plants in US-Japan deal
@@ -1093,3 +1082,34 @@
 2026-10-29T16:27:01+00:00|||SENT|||54437a5c7d652fccae6ea44a2f66627d|||CMI|||Cummins unveils innovative new mining engine platform
 2026-10-29T16:27:08+00:00|||PASS|||46495b0a229d74a917889251e3e0af9f|||LIN|||Linde (LIN) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
 2026-10-29T16:27:13+00:00|||SENT|||cfa4f0d1e8c940aec7695503432568a5|||LIN|||Linde (LIN) Surpasses Q3 Earnings and Revenue Estimates
+2026-10-29T18:34:17+00:00|||PASS|||9924230f283e58e334da25260410b8f0|||GOOGL|||Alphabet's Google Finnish Unit Faces Investigation Over Environmental Damage at Data Center Site
+2026-10-29T18:34:21+00:00|||PASS|||7feb363540f7f5fdebad0618d9513034|||GOOGL|||US files lawsuit claiming Google wouldn't give employee new job following military deployment
+2026-10-29T18:34:24+00:00|||PASS|||50a59af7db6643e6d0bb178a60afba8b|||MU|||Micron Stock Falls as Samsung Earnings Show the High Bar for Memory Stocks.
+2026-10-29T18:34:25+00:00|||PASS|||cbefc57b58aee2dd449be2ee40e5eb75|||MU|||Micron Shares Fall 2.6% as Samsung Earnings Miss Forecasts Despite Record Chip Profits
+2026-10-29T18:34:46+00:00|||PASS|||8d614c38ca238b12175733af515fff14|||GEV|||GE Vernova in $9B deal to buy high-voltage manufacturer as gas turbine orders slow
+2026-10-29T18:34:49+00:00|||PASS|||8151a21dbeca25fbb72c7b210f649cef|||CAT|||Tariff Refunds Boost Polaris and Logistics Stocks, but Leave Caterpillar Sidelined
+2026-10-29T18:34:51+00:00|||PASS|||beb6663c11ca6671f8adc775dd582274|||CAT|||Caterpillar earnings beat estimates amid rapid AI buildout By Investing.com
+2026-10-29T18:34:52+00:00|||PASS|||bad26cc60883c961a760ab3f30092898|||CAT|||Watch Caterpillar Plunges As Earnings Beat Fails To Soothe AI Jitters
+2026-10-29T18:35:00+00:00|||PASS|||5b30a38d888279e36ae253fac62b172d|||MSFT|||Update: Market Chatter: Microsoft Plans to Raise at Least $25 Billion From US Bond Offering
+2026-10-29T18:35:03+00:00|||PASS|||17b3ff30381862a88afc98d89dd1c012|||MSFT|||Microsoft expects to raise $25 billion in US bond sale, source says
+2026-10-29T18:35:08+00:00|||PASS|||ea3695037f2566f10eb376d43e9f582e|||MSFT|||Watch Google Sales Miss Reignites AI Fears, Microsoft Eyes $25B Debt Offering
+2026-10-29T18:35:12+00:00|||PASS|||4f8b50764de55d47812d02323dc2f40c|||AMZN|||Amazon Stock Dips Ahead of Q3 Earnings: What's Going On?
+2026-10-29T18:35:18+00:00|||PASS|||da1377d521687e4583e39fd4fe70fdcb|||META|||Meta’s Unusual Stock Split Comes With a $60 Billion Twist Investors Should Know About
+2026-10-29T18:35:24+00:00|||PASS|||8180e361aa8acf936a82b042baadd20d|||NVDA|||Nvidia Stock Declines as Competition Probe—and Spy Report—Presents New AI Concern
+2026-10-29T18:35:25+00:00|||PASS|||ffe00eb0013ebf1eb29ade77e6a7a265|||NVDA|||Alphabet heads for a $400 billion day that only Nvidia has ever topped
+2026-10-29T18:35:29+00:00|||PASS|||1478db7f0c1055fd558fe8b0fc575874|||NVDA|||Nvidia CEO Jensen Huang may have been the target of a spy plot through 'Chinese intelligence asset,' report claims — exec from firm under investigation for smuggling banned AI chips to China accused of being a spy, was also feeding information to Beijing
+2026-10-29T18:35:31+00:00|||PASS|||10a3865e6e4dcf4fb2827e72a10b2774|||NVDA|||Dept of Justice reportedly probes Nvidia over $13 billion Hugging Face AI platform acquisition — concerns raised over competition in AI and pressure on customers
+2026-10-29T18:35:35+00:00|||PASS|||a09bc39757ca9b09d7dfd5febe099c2e|||NVDA|||Nvidia Stock Slips as Competition Probe Presents New AI Concern
+2026-10-29T18:35:36+00:00|||PASS|||e61fe773b2d3e7dfc2868a0e0e9d0c30|||NVDA|||Watch Marvell in Talks to Buy Nvidia-Backed Lumentum
+2026-10-29T18:35:52+00:00|||PASS|||85e37b9c4ae4983476f16daf836a2ec4|||ASX|||ASE raises capex budget to US$11.5bn
+2026-10-29T18:35:55+00:00|||PASS|||5854b5747ba02686d6e5c6e7e96f5e12|||SNDK|||SanDisk options price 6.5% swing post Q1 earnings: Full breakdown
+2026-10-29T18:36:37+00:00|||PASS|||2b06b1287bafc0fa7f43172aa8c6cd22|||VRT|||Vertiv Simplifies High-Density AI Infrastructure Deployment Across Data Centre Environments
+2026-10-29T18:36:40+00:00|||PASS|||5fe2f05528cf536298dd4a59b3afc499|||CRWV|||Long-Term CoreWeave, Inc. (NASDAQ: CRWV) Shareholders Should Contact the Shareholders Foundation Regarding Pending Lawsuit
+2026-10-29T18:36:45+00:00|||PASS|||7f8221053fdd6007496248197aed5ead|||PLTR|||Baird reiterates Palantir stock rating ahead of Q3 results By Investing.com
+2026-10-29T18:36:50+00:00|||PASS|||cb70e21154eba56cc7c51ac00f341bd0|||NOW|||ServiceNow Stock Is Worst in S&P 500 After a Key Revenue Measure Fell Short
+2026-10-29T18:36:54+00:00|||PASS|||d99d234ae8c2b39ebc2a3a0b159c5397|||NOW|||ServiceNow, Fortinet Q3 earnings reports lead software stocks lower as outlooks disappoint
+2026-10-29T18:36:55+00:00|||PASS|||1180fb967d5db6883ec90a966ecf76d0|||NOW|||ServiceNow shares plunge 25% after earnings revive AI disruption fears
+2026-10-29T18:37:04+00:00|||PASS|||cf0829cba908733a42196d6b0983a78c|||FTNT|||Fortinet's Q3 Earnings Showed Cracks In The Bull Case, Stock Is A Hold (NASDAQ:FTNT)
+2026-10-29T18:37:06+00:00|||PASS|||44c6df41791d7d0b8e56509a7b56b8c8|||FTNT|||ServiceNow, Fortinet Q3 earnings reports lead software stocks lower as outlooks disappoint
+2026-10-29T18:37:16+00:00|||PASS|||bc71caa1b559ff322fd393aa0e748b3e|||BAND|||What Bandwidth (BAND) Said on Its Q3 Earnings Call
+2026-10-29T18:37:32+00:00|||PASS|||924ac65a2b5a534d8a2b40549258ce86|||SPCX|||Eutelsat expects $11 billion revenue after EU's Starlink rival comes online
