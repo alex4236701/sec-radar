@@ -54,5 +54,53 @@
   "text": "10-Q 季報",
   "ticker": "LIN",
   "url": "https://www.sec.gov/Archives/edgar/data/1707925/000162828026068079/lin-20260930.htm"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "holding": true,
+  "text": "10-Q 季報",
+  "ticker": "ECL",
+  "url": "https://www.sec.gov/Archives/edgar/data/31462/000162828026068208/ecl-20260930.htm"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "STX",
+  "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：ANTHONY FREY（高階主管），4,631 股，約 $281,565",
+  "ticker": "PENG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1616533/000195004726010482/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "KLAC",
+  "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000034/klac-20260930.htm"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "ENTG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000162/entg-20260926.htm"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：THE JOHN W BOYNTON IV TR OF 2006（董事），333 股，約 $60,719",
+  "ticker": "NBIS",
+  "url": "https://www.sec.gov/Archives/edgar/data/1513845/000195004726010478/xsl144X01/primary_doc.xml"
  }
 ]
