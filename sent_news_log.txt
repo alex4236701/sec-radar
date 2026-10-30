@@ -1,14 +1,4 @@
 @@HEARTBEAT|||2026-10-30|||2026-10-21T13:41:10+00:00
-2026-10-16T01:58:51+00:00|||PASS|||13cb293e8daeb28cc0efe09ece03a883|||GOOGL|||Google warns suspected China-linked hackers could exploit BeyondTrust flaw
-2026-10-16T01:59:36+00:00|||PASS|||0dbfefb0a7c212af0f8834b094432177|||INTC|||Intel silent on Israeli Fab 28 output after deadly blast, leaving CPU supply outlook unclear
-2026-10-16T01:59:48+00:00|||SENT|||5d24a1ccb9a76b44181c914b61e2fd72|||SKHY|||SK hynix showcases next-generation AI memory technologies beyond HBM
-2026-10-16T02:01:43+00:00|||PASS|||7b52ce304fb8c2da926cf630af0ba736|||CRCL|||Multiliquid Closes Seed Round Led by Polychain with Participation from Strobe Ventures, CMT Digital, Metalayer Ventures, Generative Ventures and Circle Ventures, Bringing Total Funding to $8 Million
-2026-10-16T05:57:56+00:00|||PASS|||e7b3d5d3d0407568b9e7c57a8f647f08|||TSLA|||Did Elon Musk Just Hint at Tesla x SpaceX Merger, or Will Cars Fly First?
-2026-10-16T05:58:57+00:00|||PASS|||a2e4c88aa867142b13957ceb5df606e4|||CRWV|||CoreWeave Founders Sell $3.3 Billion in Shares Since IPO
-2026-10-16T05:59:36+00:00|||PASS|||03bcd0646c6e06d9693966afb32d190a|||SPCX|||Tesla unveils ‘flying’ sports car with SpaceX rocket thrusters
-2026-10-16T05:59:37+00:00|||PASS|||5dfc28d4a236e602a3f0a8a9b7448fe6|||SPCX|||Did Elon Musk Just Hint at Tesla x SpaceX Merger, or Will Cars Fly First?
-2026-10-16T05:59:39+00:00|||PASS|||4618d770413e21445adfbde384bf37cb|||SPCX|||Watch Ross Gerber on Tesla Roadster, Potential SpaceX Merger
-2026-10-16T06:00:05+00:00|||PASS|||491e20f1c761dda05e63d6f5fe2502bc|||IONQ|||Quantum computing stocks rally as IonQ, D-Wave and Rigetti post record earnings
 2026-10-16T10:00:32+00:00|||PASS|||3bcf32b28613d949f8e4076cc4f40936|||GOOGL|||Marvell keeps reaffirming its $120 billion Google deal and Wall Street keeps selling anyway
 2026-10-16T10:00:38+00:00|||PASS|||6f1a7334af6af79cd3d11c6a2242672f|||MU|||Micron Stocks Fall Although $35B Buyback Window Nears
 2026-10-16T10:01:12+00:00|||PASS|||341f92f9cee16b6eccb20d348920247a|||AAPL|||Apple (AAPL) Gets Court Order For AI Hiring Records In Trade Secrets Fight
@@ -1142,3 +1132,41 @@
 2026-10-29T23:30:01+00:00|||PASS|||4108fd3e032a027c09c6582ddf64ad5e|||SPCX|||Opinion: While the Odds of a SpaceX-Tesla Merger Are Climbing, Combining 2 Wrongs Won't Make a Right on Wall Street
 2026-10-29T23:30:29+00:00|||PASS|||f64e525b57e19f865334874ba3bfc4bb|||CRCL|||Tether, Circle freeze $2.38 billion after Binance reports security incident
 2026-10-29T23:30:33+00:00|||PASS|||cdbe07455443c5df1d0b399c084cb2c8|||CRCL|||Binance Hack: $2 Billion Drained, Circle and Tether Freeze, Crypto Markets React
+2026-10-30T07:33:26+00:00|||PASS|||175dc44f3250ce8c7aae16b075a53706|||GOOGL|||Google’s $500bn bloodbath reflects the danger it faces from AI
+2026-10-30T07:33:29+00:00|||PASS|||b414003a9daae192579f8d816fa36bdd|||MU|||Micron Is Trading for Less Than 6 Times Forward Earnings. Here's Why That's a Sign to Buy.
+2026-10-30T07:33:52+00:00|||PASS|||efa200fc62d68af93a53dbac6f1ef8b1|||CAT|||Caterpillar posted record revenue and backlog but its stock still fell
+2026-10-30T07:34:01+00:00|||PASS|||79977eac4503191beba742edfb2c7dd0|||MSFT|||Microsoft taps debt markets with $25B bond sale to boost AI (MSFT:NASDAQ)
+2026-10-30T07:34:04+00:00|||PASS|||e9e9306f8bd8d564eefe34ba669d5501|||MSFT|||Microsoft plans to raise $25 billion in debt as it pursues AI buildout
+2026-10-30T07:34:07+00:00|||PASS|||2406817b621cdfb7df920255c2003ca9|||MSFT|||Microsoft expects to raise $25 billion in US bond sale, sources say By Reuters
+2026-10-30T07:34:11+00:00|||PASS|||66d0e2f7804f5d52274ea515ecabff3a|||MSFT|||Microsoft to raise up to $25 billion in bond market as investors get pickier about AI debt binge
+2026-10-30T07:34:14+00:00|||PASS|||30962c8623f5e52dfed657c423a231d4|||MSFT|||Microsoft expects to raise $25 billion in US bond sale, sources say
+2026-10-30T07:34:17+00:00|||PASS|||8c03e81b2d641fa9747659a7d3118f61|||MSFT|||Market Chatter: Microsoft Attracts $115 Billion of Demand for Bond Offering
+2026-10-30T07:34:20+00:00|||PASS|||e36fca379acf6b72fdf23765f0b9a6db|||MSFT|||Market Chatter: Microsoft Plans to Raise at Least $25 Billion From US Bond Offering
+2026-10-30T07:34:23+00:00|||PASS|||d9fa462fa9b9f4ad1fac123b2a749cdb|||AMZN|||AWS installs an AI accelerator every 14 seconds and eyes $1 trillion annual revenue
+2026-10-30T07:34:25+00:00|||PASS|||4bf33fae8942c616003df5e1373c83db|||AMZN|||Amazon's $578 Billion AWS Backlog Is Growing Faster Than Its Revenue
+2026-10-30T07:34:26+00:00|||PASS|||1414af973755b26f95266755f53aa6c4|||AMZN|||Amazon Just Burned $42 Billion in Cash Chasing AI Growth. Is Wall Street Ignoring the Risk?
+2026-10-30T07:34:29+00:00|||PASS|||a0191d54f0b0090f219478723162e0f6|||AAPL|||Apple supplier Luxshare falls as Q3 profit growth slows; 9M profit misses forecast
+2026-10-30T07:34:32+00:00|||PASS|||8a61daff8e5ea207be08f757d0cd671f|||TSLA|||The Case Against a SpaceX and Tesla Merger
+2026-10-30T07:34:33+00:00|||PASS|||d41bef966ba6dc4ddd8636fbbd3d1caa|||TSLA|||Tesla's robotaxi cash flow could bankroll SpaceX's AI ambitions: Ark Invest
+2026-10-30T07:34:34+00:00|||PASS|||b7e290081fa57182bd4db327ae04c1b3|||TSLA|||Tesla-SpaceX Merger ‘Does Make Strategic Sense,’ Analyst Says — But SpaceX Needs Nearly 2x The Growth
+2026-10-30T07:34:36+00:00|||PASS|||8ffa9d5681186a5b1ebc07ff6ec77a59|||TSLA|||Musk’s Tesla-SpaceX Merger Would Formalize a Decadeslong Partnership
+2026-10-30T07:34:39+00:00|||PASS|||1005b420a0b2bd3f8828e709a52b1bde|||NVDA|||Nvidia in talks to give credit support for Nscale's deal with Anthropic, The Information reports
+2026-10-30T07:34:43+00:00|||PASS|||bf9033495f7c51b316f9196bb483798c|||NVDA|||Nvidia in Talks to Offer Credit Support for Nscale Project
+2026-10-30T07:34:51+00:00|||SENT|||4c4a86bf7e000fc76f90c9f0ea2584dd|||NVDA|||Nvidia to Invest $3 Billion in Meta’s Equity Offering as They Expand AI Partnership
+2026-10-30T07:34:54+00:00|||PASS|||99c657989c69f007ede0bd00269e166a|||AMD|||AMD Has Ripped 170% This Year: Is It Too Late to Buy?
+2026-10-30T07:34:59+00:00|||PASS|||afb653da803b13db1c211f81bc9b3684|||ARM|||Asian Private-Equity Firm to Buy Beleaguered China Evergrande’s Property-Management Arm
+2026-10-30T07:35:03+00:00|||PASS|||47eb4c0a792225ce2ab8bfd7bc3944d0|||TSM|||TSMC Co-COO Y.P. Chyn Says Longer Hours Don’t Improve R&D, Recalling The Company’s 24-Hour “Night Owl” Program That Failed In Just 6 Months
+2026-10-30T07:35:04+00:00|||PASS|||fda08dc7a0099ba25a051978cb6b6a03|||TSM|||Taiwan semiconductor output to hit NT$9.1 trillion as TSIA urges stable power
+2026-10-30T07:35:12+00:00|||PASS|||b337c4616c1a484ecbef02837555925d|||SNDK|||Sandisk (SNDK) Objects To Its Shares Joining A Tokenized Stock Offering
+2026-10-30T07:35:46+00:00|||PASS|||caf3745da4e60a0c199fbf69d28f90f8|||MPWR|||Monolithic (MPWR) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
+2026-10-30T07:35:48+00:00|||PASS|||50e66e05e4ee540637c5b75089a53312|||MPWR|||Monolithic Power (MPWR) Q3 Earnings and Revenues Beat Estimates
+2026-10-30T07:35:52+00:00|||PASS|||7128533684c683d922157d39d5e1c6ea|||MPWR|||Monolithic Power Systems Announces Appointments of Chief Financial Officer and Chief Accounting Officer
+2026-10-30T07:36:08+00:00|||PASS|||d203190c523bc962b69b9ca3d90adda4|||NOW|||ServiceNow Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into ServiceNow (NOW)
+2026-10-30T07:36:18+00:00|||PASS|||8fabde9d391e7eea4d2b26e4ad1bb42a|||FTNT|||Fortinet beat earnings estimates and investors sold the stock anyway
+2026-10-30T07:36:46+00:00|||PASS|||574fc2aa41802175c1953ca3d89058cc|||SPCX|||The Case Against a SpaceX and Tesla Merger
+2026-10-30T07:36:50+00:00|||PASS|||9ea118136d5dbe74bf2fddabe277a5b4|||SPCX|||Residents sue to void tax deal for SpaceX's $100 billion spaceport approved under a code name
+2026-10-30T07:36:51+00:00|||PASS|||4321eb00a66d02ed99a544ba8201ef89|||SPCX|||Tesla-SpaceX Merger ‘Does Make Strategic Sense,’ Analyst Says — But SpaceX Needs Nearly 2x The Growth
+2026-10-30T07:37:04+00:00|||SENT|||c822f18df007b6e9eaeb827568d2a386|||PPTA|||Perpetua awarded up to $40m in US Army funding to advance domestic tungsten supply
+2026-10-30T07:37:19+00:00|||PASS|||2158ce703f2bb04db1a0d3cb453e5160|||ROK|||[PRNewswire] Rockwell Automation Introduces SecureOT Capabilities
+2026-10-30T07:37:22+00:00|||PASS|||d4cb46d9aaa283a7c60d0094b8aa469a|||IONQ|||IONQ Below Key Moving Averages: Buy, Hold or Sell Before Q3 Earnings?
+2026-10-30T07:37:28+00:00|||PASS|||d3a2878bdc51d18a9b5d6aa431a46218|||CRCL|||Binance Hack: $6.3 Billion Impacted, Circle and Tether Freeze, Crypto Markets React
