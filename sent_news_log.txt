@@ -1189,3 +1189,22 @@
 2026-10-30T16:12:52+00:00|||PASS|||d7fc9deea95b6883b428d253084a022a|||RKLB|||Rocket Lab: Is It Finally Time to Buy Below $60?
 2026-10-30T16:13:20+00:00|||PASS|||ea425aac6039f6ff79f1570d4676e64c|||CRCL|||Tether, Circle freeze $2.38 billion after Binance reports security incident By Reuters
 2026-10-30T16:13:24+00:00|||PASS|||379c528bb293cea99ba2d9e05a96af7b|||CRCL|||Binance Drained of $5.5 Billion in Suspected Hack, Tether and Circle Freeze $1.8 Billion
+2026-10-30T18:06:50+00:00|||PASS|||4b04558a51d4152c22973165344adbfa|||GOOGL|||Alphabet loses $475 billion in market value, the biggest drop in its history
+2026-10-30T18:07:10+00:00|||PASS|||4d8b0837c2508e7b0954a6b7501ae6b2|||AVGO|||Broadcom’s $63B Anthropic Deal Could Be The One That Finally Gets it Into Gear
+2026-10-30T18:07:24+00:00|||PASS|||07a81df8be2f9d39314b35725f51a9e3|||MSFT|||Microsoft’s Buyout Blitz Is a Calculated Economic Risk
+2026-10-30T18:07:31+00:00|||SENT|||9a1ae44c070f63674fc595d0b1f6f39a|||AMZN|||Amazon sets up $80 billion supplier financing for AI hardware
+2026-10-30T18:07:38+00:00|||PASS|||57970fcf2bdcaea881ebcf3cea482361|||TSLA|||Tesla Could Be About to Unlock a Brand-New Revenue Stream. Time to Buy the Stock?
+2026-10-30T18:07:45+00:00|||PASS|||a975da513b300b06bdcf4b1598e62cea|||MRVL|||Marvell Is in Talks to Buy an $83 Billion AI Laser Maker
+2026-10-30T18:07:50+00:00|||PASS|||2872423b5b8f7785bf7066bebe355095|||INTC|||Amazon and Intel Tank the AI Trade. The 1 Factor Linking Big Tech’s Underwhelming Earnings.
+2026-10-30T18:07:51+00:00|||PASS|||79bd42a9b671cfdb202031fc2eca24f1|||INTC|||After Intel’s historic stock drop, analysts say there’s no reason to buy the dip
+2026-10-30T18:07:53+00:00|||PASS|||a6668091441592a1a80ffbc27a77a83d|||INTC|||Intel stock drops 25% after $500bn wiped off value of Google’s parent company Alphabet
+2026-10-30T18:07:54+00:00|||PASS|||ba0bfffe6ccd9e1f15d0b8d537d17164|||INTC|||Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake
+2026-10-30T18:08:48+00:00|||PASS|||fcba8ddac7745efb152f874890d313d6|||PLTR|||Apple, Super Micro, AMD, Palantir Step Up To Earnings Plate After Tech Sell-Off
+2026-10-30T18:08:50+00:00|||PASS|||02b0a6004b7c677ece83cf1a603265fb|||NOW|||ServiceNow Investors Seek Proof of AI Monetization After Q3 Results, RBC Says
+2026-10-30T18:08:53+00:00|||PASS|||73c7f12512604a8345b6b659400d0214|||CRM|||Deal Dispatch: DoorDash Buys Instacart For $17B, Thrive Holdings Acquires ADT, SalesForce Nabs Rune Techn
+2026-10-30T18:08:56+00:00|||PASS|||947777717f1039f3877a410f569ab9f9|||DDOG|||Datadog Sinks 12%, CrowdStrike Falls 4% Despite $6.3 Billion Binance Hack Spotlighting Cyber Defense; Palo Alto and Fortinet Slide 3%
+2026-10-30T18:09:02+00:00|||PASS|||83ff17549b01f43b6047005fc8a60559|||FTNT|||Datadog Sinks 12%, CrowdStrike Falls 4% Despite $6.3 Billion Binance Hack Spotlighting Cyber Defense; Palo Alto and Fortinet Slide 3%
+2026-10-30T18:09:28+00:00|||PASS|||cbf416f761e1e66e07554697109b6c09|||SPCX|||Binance Points to Massive SpaceX Stake After Hack
+2026-10-30T18:09:29+00:00|||PASS|||3b230f8c0f3853efc2514c4977178639|||SPCX|||Elon Musk, CZ Trade Blows Over SpaceX Shares After $6.4B Binance Hack
+2026-10-30T18:09:31+00:00|||PASS|||2c1bccfe065c42dca9d6c3940f385954|||SPCX|||There are 3 Questions to Answer Before a Possible Tesla and SpaceX Merger
+2026-10-30T18:10:02+00:00|||PASS|||7a0a10e41a44972cfb4d419be1115c77|||CRCL|||Secret Service, FBI Join Binance Hack Probe as Circle Freezes $823 Million
