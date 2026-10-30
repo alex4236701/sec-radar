@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "date": "2026-10-30",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "AMZN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+ },
+ {
+  "date": "2026-10-30",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "INTC",
+  "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm"
+ },
+ {
+  "date": "2026-10-30",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：VANGUARD CAPITAL MANAGEMENT LLC，持股 5.09%",
+  "ticker": "AAOI",
+  "url": "https://www.sec.gov/Archives/edgar/data/1158114/000210011926001557/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-30",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "ALGM",
+  "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526439990/algm-20260925.htm"
+ },
+ {
+  "date": "2026-10-30",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "FTNT",
+  "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000027/ftnt-20260930.htm"
+ },
+ {
+  "date": "2026-10-30",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：VANGUARD CAPITAL MANAGEMENT LLC，持股 7.39%",
+  "ticker": "BE",
+  "url": "https://www.sec.gov/Archives/edgar/data/1664703/000210011926001546/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-30",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：VANGUARD CAPITAL MANAGEMENT LLC，持股 5.21%",
+  "ticker": "IONQ",
+  "url": "https://www.sec.gov/Archives/edgar/data/1824920/000210011926001617/xslSCHEDULE_13G_X02/primary_doc.xml"
+ }
+]
