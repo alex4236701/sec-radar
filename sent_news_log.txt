@@ -1255,3 +1255,15 @@
 2026-10-31T06:06:48+00:00|||PASS|||1ff1306301933f51de422fbfad7823ed|||CRM|||Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune
 2026-10-31T06:06:51+00:00|||PASS|||b440f2627c5145452d842bf6f87274b6|||CRM|||Salesforce to Acquire Defense Tech Firm Rune Technologies to Expand Military AI Logistics Capabilities
 2026-10-31T06:07:42+00:00|||PASS|||a8fbc4dce6aca0805b2ff6e74c613ca9|||ROK|||Rockwell Automation Increases Quarterly Dividend to $1.45 Per Share on Common Stock
+2026-10-31T14:38:48+00:00|||PASS|||dc68b2df11c87932e6a43f5721642dd0|||FCEL|||FuelCell Energy Sinks 12% Despite Completing $49 Million Export-Import Bank Financing; Bloom Energy Tumbles 10%, Plug Power Falls 4%
+2026-10-31T14:38:58+00:00|||PASS|||7ecab47a23b4b7576aa3f17f259079ac|||AMZN|||Tech layoffs tracker 2026: All the job losses across Amazon, Microsoft, Netflix, Electronic Arts, Apple, Meta and others
+2026-10-31T14:39:01+00:00|||PASS|||374e5eeb51e8acd641a530245fb309c4|||AMZN|||Amazon withdraws bid for drone deliveries from Westborough facility
+2026-10-31T14:39:03+00:00|||PASS|||f87900bfcfa20af0cdfd81946338ed5d|||META|||Tech layoffs tracker 2026: All the job losses across Amazon, Microsoft, Netflix, Electronic Arts, Apple, Meta and others
+2026-10-31T14:39:05+00:00|||PASS|||4d3707bc032d98fd5dd4c66129afcc22|||AAPL|||Tech layoffs tracker 2026: All the job losses across Amazon, Microsoft, Netflix, Electronic Arts, Apple, Meta and others
+2026-10-31T14:39:06+00:00|||PASS|||56157a74b5cfa27dd6fa2dd9d45ca7f4|||AAPL|||Apple’s Biggest Threat Isn’t Android — It’s AAPL's Own Devices, Analyst Says Ahead Of Q4 Earnings
+2026-10-31T14:39:07+00:00|||PASS|||54db15a1e5490c6e0b0150a3f9707095|||AAPL|||Apple's Next Big Test Is Not Q4 Earnings
+2026-10-31T14:39:10+00:00|||PASS|||7a7e868e28ba51b52f5502423ff9eefc|||TSLA|||A SpaceX and Tesla Merger Will Only Be Successful If This One Thing Happens
+2026-10-31T14:39:17+00:00|||PASS|||ca1a9ab392f50adb4d83b9927ef4768c|||ARM|||First Atlantic to Acquire 100% of the North Arm Project, 52 sq km of Mantle-Derived Ultramafic Rocks in Western Newfoundland Never Systematically Tested for Geologic Hydrogen, Chromium or Awaruite Nickel-Cobalt Alloy
+2026-10-31T14:39:31+00:00|||PASS|||d8f50c9a3b757ed09b5fe0db57ee5bf8|||ASML|||ASML’s CEO is putting his paycheck on the line for employee morale. It could help retain talent that’s nearly impossible to replace
+2026-10-31T14:40:44+00:00|||PASS|||929962ac5143befaec46e92de5d8c90b|||SPCX|||A SpaceX and Tesla Merger Will Only Be Successful If This One Thing Happens
+2026-10-31T14:41:09+00:00|||PASS|||afcb861864f10398f12911528b9f6afd|||CRCL|||Q3 Earnings: 2 Dates Every Space Investor Needs to Circle
