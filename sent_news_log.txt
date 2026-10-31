@@ -1242,3 +1242,16 @@
 2026-10-30T22:34:30+00:00|||PASS|||5f9a16e688cc79b6d23881b299716e1c|||SPCX|||Tesla-SpaceX Merger Could Face The Biggest Regulatory Risk In China, BofA Warns
 2026-10-30T22:34:48+00:00|||SENT|||f2ce461ac5f6cddce4d40baad7b4996a|||TE|||T1 Energy files prospectus supplement for potential resale of common stock tied to convertible notes
 2026-10-30T22:35:00+00:00|||PASS|||66dbef8d8567862082dfcc62b34741ed|||ROK|||Rockwell Automation Introduces SecureOT Capabilities to Help OEMs Address Emerging Cybersecurity Regulations
+2026-10-31T06:04:52+00:00|||PASS|||32f75866c89354471a9e2387f11bc6a7|||GOOGL|||Alphabet's October wipeout hits $766 billion, its worst month ever
+2026-10-31T06:05:11+00:00|||PASS|||a8bc809baee7ea028ab7d3987a3aebc1|||FCEL|||FuelCell Energy Inc. stock falls Friday, underperforms market
+2026-10-31T06:05:22+00:00|||PASS|||01711e4bea88c9cf708d38213510719b|||MSFT|||Microsoft Sold $25 Billion in Bonds a Day After Its Azure Beat. Here’s Where the Stock Could Go by 2031
+2026-10-31T06:05:25+00:00|||PASS|||3ffe4d0413255b4928f4158dec329255|||AMZN|||Amazon Just Lost $42 Billion in Free Cash Flow. Is It a Red Flag for Investors?
+2026-10-31T06:05:30+00:00|||PASS|||0e6061f4ccd79d73d69f21f68a37b4b2|||META|||Meta’s Rating Outlook Cut to Negative by S&P on AI Spending
+2026-10-31T06:05:31+00:00|||PASS|||c3c9a0bd7692b8f0907518a0bc72b5df|||META|||UK competition watchdog to probe Meta terms for publishers, businesses
+2026-10-31T06:05:36+00:00|||SENT|||f50473415614c973564c76030a8aa2ae|||AAPL|||Apple (AAPL) Fined In South Korea Over Unfair App Store Practices
+2026-10-31T06:05:42+00:00|||SENT|||0cde45d220449a1843b8574736ee6506|||TSLA|||Musk Says Tesla, SpaceX Form Committees to Weigh Merger
+2026-10-31T06:05:52+00:00|||PASS|||24d5fc4bbd1daca8f4bdd1476a5a9100|||INTC|||Stocks Slide, Intel Plunges, Binance Hacked | Markets P.M. for Oct. 30
+2026-10-31T06:06:32+00:00|||PASS|||332dd40ba9a0427120ee1a2f0bcc5fae|||MPWR|||Monolithic Power Systems (MPWR) Stock Price Nears Record High After Q3 Earnings
+2026-10-31T06:06:48+00:00|||PASS|||1ff1306301933f51de422fbfad7823ed|||CRM|||Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune
+2026-10-31T06:06:51+00:00|||PASS|||b440f2627c5145452d842bf6f87274b6|||CRM|||Salesforce to Acquire Defense Tech Firm Rune Technologies to Expand Military AI Logistics Capabilities
+2026-10-31T06:07:42+00:00|||PASS|||a8fbc4dce6aca0805b2ff6e74c613ca9|||ROK|||Rockwell Automation Increases Quarterly Dividend to $1.45 Per Share on Common Stock
