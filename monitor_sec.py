@@ -1116,7 +1116,8 @@ def send_report(stats, total, is_alert, digest_items):
 
 
 # ==================== 紀錄檔 ====================
-# 一行一筆：案號|||處理日期|||狀態（SENT 推播、DIGEST 併入每日通知、SKIP 略過、SEEN 首次啟用只記錄）
+# 一行一筆：案號|||處理日期|||狀態（SENT 推播、DIGEST 併入每日通知、SKIP 略過、SEEN 首次啟用只記錄）|||代號|||一句說明|||原文網址
+# 後三欄給使用者電腦上的「研究辦公室」看哪檔有推播（2026-11-01 加）；舊紀錄只有前三欄也照常讀
 # 以 @@ 開頭的是狀態資訊（版本、每日回報日期、上次警報時間、今日 AI 用量）
 def load_state():
     state = {"history": {}, "version": "", "heartbeat": "", "last_alert": "", "ai_date": "", "ai_count": 0}
@@ -1142,7 +1143,8 @@ def load_state():
                 continue
             # 舊版紀錄只有案號，沒有日期：視為今天處理，30 天後自動清除
             state["history"][parts[0]] = (parts[1] if len(parts) >= 2 else today,
-                                          parts[2] if len(parts) >= 3 else "LEGACY")
+                                          parts[2] if len(parts) >= 3 else "LEGACY",
+                                          *[parts[i] if len(parts) > i else "" for i in (3, 4, 5)])
     return state
 
 
@@ -1151,10 +1153,23 @@ def append_line(line):
         f.write(line + "\n")
 
 
-def record(state, accession, status):
+def log_field(text, limit=120):
+    """紀錄檔一欄：拿掉換行與分隔符號，避免一行被切錯"""
+    return re.sub(r"\s+", " ", (text or "").replace("|||", "/")).strip()[:limit]
+
+
+def record(state, accession, status, ticker="", note="", url=""):
     today = datetime.now(UTC_TZ).strftime("%Y-%m-%d")
-    state["history"][accession] = (today, status)
-    append_line(f"{accession}|||{today}|||{status}")
+    extra = (log_field(ticker, 12), log_field(note), log_field(url, 300))
+    state["history"][accession] = (today, status, *extra)
+    append_line("|||".join([accession, today, status, *extra]))
+
+
+def card_note(intel):
+    """推播卡的一句說明，例如「利空｜【8-K 重大申報】」"""
+    kind = intel["title"].rsplit("｜", 1)[-1].rsplit("：", 1)[0]
+    kind = re.sub(r"^[^\w【]+", "", kind).strip()
+    return f"{intel.get('direction', '留意')}｜{kind}"
 
 
 def save_meta(state, key, *values):
@@ -1173,8 +1188,11 @@ def rewrite_state(state):
         if state["last_alert"]:
             f.write(f"@@ALERT|||{state['last_alert']}\n")
         f.write(f"@@AI|||{AI_USAGE['date']}|||{AI_USAGE['count']}\n")
-        for acc, (d, s) in sorted(kept.items(), key=lambda kv: kv[1][0]):
-            f.write(f"{acc}|||{d}|||{s}\n")
+        for acc, v in sorted(kept.items(), key=lambda kv: kv[1][0]):
+            fields = [acc, *v]
+            while len(fields) > 3 and not fields[-1]:
+                fields.pop()
+            f.write("|||".join(fields) + "\n")
     os.replace(tmp, HISTORY_FILE)
     return len(state["history"]) - len(kept)
 
@@ -1319,7 +1337,7 @@ def process_ticker(ticker, cik, state, stats, bootstrap):
 
         # 換新版第一次執行：舊版沒追蹤的表單，今天以前的只記錄不推，避免一次推出一大堆舊申報
         if bootstrap and form not in LEGACY_FORMS and f["filingDate"] < today_et:
-            record(state, acc, "SEEN")
+            record(state, acc, "SEEN", ticker, form)
             print("      [首次啟用] 舊申報只記錄、不推播", flush=True)
             continue
 
@@ -1345,7 +1363,8 @@ def process_ticker(ticker, cik, state, stats, bootstrap):
         if decision["action"] == "card":
             if send_filing_card(ticker, f, cik, decision["intel"]):
                 stats["pushed"] += 1
-                record(state, acc, "SENT")
+                record(state, acc, "SENT", ticker, card_note(decision["intel"]),
+                       filing_view_url(cik, acc, f["primaryDocument"]))
                 print("      🎉 [推播成功]", flush=True)
             else:
                 stats["push_failed"] += 1
@@ -1355,12 +1374,13 @@ def process_ticker(ticker, cik, state, stats, bootstrap):
             add_digest({"date": f["filingDate"], "ticker": ticker, "form": form, "text": decision["text"],
                         "url": filing_view_url(cik, acc, f["primaryDocument"]), "holding": ticker in HOLDINGS})
             stats["digested"] += 1
-            record(state, acc, "DIGEST")
+            record(state, acc, "DIGEST", ticker, f"{form} {decision['text']}",
+                   filing_view_url(cik, acc, f["primaryDocument"]))
             print(f"      📋 [併入每日通知] {decision['text']}", flush=True)
         else:
             if "例行 6-K" not in decision["reason"]:
                 stats["skipped"] += 1
-            record(state, acc, "SKIP")
+            record(state, acc, "SKIP", ticker, form)
             print(f"      [略過] {decision['reason']}", flush=True)
 
     if pending_144:
@@ -1378,12 +1398,14 @@ def send_form4_results(ticker, cik, items, state, stats):
                         "holding": ticker in HOLDINGS})
             stats["digested"] += 1
             for g, _ in group:
-                record(state, g["accessionNumber"], "DIGEST")
+                record(state, g["accessionNumber"], "DIGEST", ticker, f"{f['form'].upper()} {payload}",
+                       filing_view_url(cik, g["accessionNumber"], g["primaryDocument"]))
             print(f"      📋 [併入每日通知] {payload}", flush=True)
         elif send_filing_card(ticker, f, cik, payload):
             stats["pushed"] += 1
             for g, _ in group:
-                record(state, g["accessionNumber"], "SENT")
+                record(state, g["accessionNumber"], "SENT", ticker, card_note(payload),
+                       filing_view_url(cik, g["accessionNumber"], g["primaryDocument"]))
             print(f"      🎉 [推播成功] Form 4 買進共 {len(group)} 份", flush=True)
             time.sleep(1)
         else:
@@ -1407,7 +1429,8 @@ def send_form144_cards(ticker, cik, items, state, stats):
     if send_filing_card(ticker, f, cik, intel):
         stats["pushed"] += 1
         for g, _ in items:
-            record(state, g["accessionNumber"], "SENT")
+            record(state, g["accessionNumber"], "SENT", ticker, card_note(intel),
+                   filing_view_url(cik, g["accessionNumber"], g["primaryDocument"]))
         print(f"      🎉 [推播成功] Form 144 共 {len(items)} 份", flush=True)
     else:
         stats["push_failed"] += 1
