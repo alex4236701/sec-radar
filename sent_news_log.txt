@@ -1278,3 +1278,16 @@
 2026-11-01T06:36:46+00:00|||SENT|||e9cc61407f9171c3639f53d2dfe2fddb|||SPCX|||SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution
 2026-11-01T06:36:49+00:00|||PASS|||0a334e3a67d6badd93ff300de63427ff|||SPCX|||Changpeng Zhao fires back at Elon Musk's mockery after $6.3 billion Binance hack, citing $1B SpaceX stake
 2026-11-01T06:37:17+00:00|||PASS|||2cdd3664dbc019e125841b1ee6f2abfe|||CRCL|||Circle Sinks 12% in a Week After Binance Hack: “We Have Frozen More Than 800M USDC”
+2026-11-01T15:22:59+00:00|||PASS|||4ed957ec129dbf9dba427502cad07d92|||MSFT|||Microsoft Tests New AI Memory as Recall Alternative
+2026-11-01T15:23:00+00:00|||PASS|||0cacc0bdcc1883747a2e537bb180bab5|||MSFT|||5 insightful analyst questions from Microsoft’s Q3 earnings call
+2026-11-01T15:23:05+00:00|||PASS|||34b82d011a317c0b6222fbca09df8e53|||META|||French lawmakers add $11.2 billion internet tax based on traffic usage to budget, costs $0.06 per gigabyte of content accessed — law still has to pass Senate approval, US tech giants like Google and Meta could face new taxes on content[Updated]
+2026-11-01T15:23:10+00:00|||PASS|||504a96987204666d83de0c6cd7618823|||NVDA|||Beyond Nvidia And Hyperscalers: Beth Kindig Sees A $1 Trillion AI Infrastructure Opportunity For These Stocks
+2026-11-01T15:23:11+00:00|||PASS|||c4b9023109aca0984f8824af253aa540|||NVDA|||Nvidia Q3 FY2027 Preview: The Fabless Model Just Got A $279 Billion Footnote (NASDAQ:NVDA)
+2026-11-01T15:23:15+00:00|||PASS|||08a66f33426cac62aaec554ad3349430|||MRVL|||Lumentum Is Up 11% in a Week. Will Marvell Pay “Close to $100 Billion”?
+2026-11-01T15:23:26+00:00|||PASS|||c238a297140e4bfb7d433307c374f047|||SKHY|||SK Hynix Shares Surge. Why It's Not Too Late to Buy the Stock.
+2026-11-01T15:24:17+00:00|||PASS|||a5d3487b55a68dad35fee303500cf23f|||PLTR|||(LEAD) HD Hyundai Robotics partners with Palantir on AI solutions
+2026-11-01T15:24:50+00:00|||PASS|||0a7c9bf9cb3ad3de20444308c430d07a|||SPCX|||SpaceX (SPCX) Loses Bid To Dismiss Clean Air Act Lawsuit
+2026-11-01T15:24:52+00:00|||PASS|||a348fec60ee89e794360e509fa7b637d|||RKLB|||Rocket Lab's Backlog Is $2.36 Billion -- More Than Double Its 2026 Revenue -- and the Stock Still Fell 38% This Month. Here's the Disconnect.
+2026-11-01T15:25:18+00:00|||PASS|||9b200a4708db5b396b247f1f92c4783d|||LLY|||After Eli Lilly’s Explosive Earnings Report, Is It Too Late to Buy the Stock?
+2026-11-01T15:25:25+00:00|||SENT|||e979196b0837d59c44b97422143a9e30|||LLY|||Eli Lilly Rallies 11% in a Week as Q3 Sales Jump 39%, “Exceeding Our Prior Expectations”
+2026-11-01T15:25:28+00:00|||PASS|||f04d154aaf78873d7c2d706e3af5a478|||ABBV|||Healthcare Earnings Scoreboard: 96% beat EPS estimates, 70% post Y/Y earnings growth (ABBV:NYSE)

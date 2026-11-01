@@ -1,0 +1,73 @@
+{
+  "ABBV": {
+    "created": "2026-11-01",
+    "cs_names": [],
+    "names": [
+      "AbbVie",
+      "AbbVie Inc."
+    ],
+    "official_name": "AbbVie",
+    "strict": false
+  },
+  "ADI": {
+    "created": "2026-11-01",
+    "cs_names": [],
+    "names": [
+      "Analog Devices",
+      "ADI"
+    ],
+    "official_name": "ANALOG DEVICES",
+    "strict": true
+  },
+  "DHR": {
+    "created": "2026-11-01",
+    "cs_names": [],
+    "names": [
+      "Danaher"
+    ],
+    "official_name": "DANAHER",
+    "strict": false
+  },
+  "LLY": {
+    "created": "2026-11-01",
+    "cs_names": [],
+    "names": [
+      "Eli Lilly",
+      "Lilly"
+    ],
+    "official_name": "ELI LILLY &",
+    "strict": false
+  },
+  "MOH": {
+    "created": "2026-11-01",
+    "cs_names": [],
+    "names": [
+      "Molina Healthcare",
+      "Molina"
+    ],
+    "official_name": "MOLINA HEALTHCARE",
+    "strict": true
+  },
+  "ORCL": {
+    "created": "2026-11-01",
+    "cs_names": [
+      "Oracle"
+    ],
+    "names": [
+      "Oracle Corporation",
+      "Oracle Corp."
+    ],
+    "official_name": "ORACLE",
+    "strict": false
+  },
+  "TXN": {
+    "created": "2026-11-01",
+    "cs_names": [],
+    "names": [
+      "Texas Instruments",
+      "TI"
+    ],
+    "official_name": "TEXAS INSTRUMENTS",
+    "strict": false
+  }
+}
