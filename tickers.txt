@@ -87,6 +87,8 @@ IFNNY
 ALGM
 WOLF
 NVTS
+TXN
+ADI
 
 # ---------- 伺服器與資料中心硬體 ----------
 DELL
@@ -95,6 +97,7 @@ VRT
 TTMI
 
 # ---------- 新興雲端算力與礦企轉型 ----------
+ORCL
 CRWV
 NBIS
 WULF
@@ -182,3 +185,9 @@ IONQ
 QNT
 CRCL
 GLXY
+
+#-------醫療與生技醫藥相關--------------------
+DHR
+LLY
+ABBV
+MOH
