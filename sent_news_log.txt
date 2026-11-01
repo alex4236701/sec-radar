@@ -1,4 +1,4 @@
-@@HEARTBEAT|||2026-10-31|||2026-10-21T13:41:10+00:00
+@@HEARTBEAT|||2026-11-01|||2026-10-21T13:41:10+00:00
 2026-10-21T13:48:11+00:00|||PASS|||53275986069174eeb637c5c24fd51416|||GOOGL|||Revolut Outage Hits Crypto Access as Google Cloud Failure Disrupts Banking Services
 2026-10-21T13:48:14+00:00|||PASS|||283f6083ce691b37451da8dc0a2ff92c|||GOOGL|||Google Cloud outage hits UK banks
 2026-10-21T13:48:18+00:00|||PASS|||b9ebe1f7e45cd9d67900ff6243ac239c|||GOOGL|||Google Says Services Are Recovering After U.K. Cloud Outage Hits Businesses
@@ -1267,3 +1267,14 @@
 2026-10-31T14:39:31+00:00|||PASS|||d8f50c9a3b757ed09b5fe0db57ee5bf8|||ASML|||ASML’s CEO is putting his paycheck on the line for employee morale. It could help retain talent that’s nearly impossible to replace
 2026-10-31T14:40:44+00:00|||PASS|||929962ac5143befaec46e92de5d8c90b|||SPCX|||A SpaceX and Tesla Merger Will Only Be Successful If This One Thing Happens
 2026-10-31T14:41:09+00:00|||PASS|||afcb861864f10398f12911528b9f6afd|||CRCL|||Q3 Earnings: 2 Dates Every Space Investor Needs to Circle
+2026-11-01T06:34:16+00:00|||PASS|||36ff24842f905df525437aab4507cf8a|||GOOGL|||The 5 most interesting analyst questions from Alphabet’s Q3 earnings call
+2026-11-01T06:34:35+00:00|||PASS|||aeec51bcc4e60e8ef87b28fc937e0498|||AVGO|||Broadcom tells investors not to trust its own $73 billion AI backlog
+2026-11-01T06:34:38+00:00|||PASS|||0c1993dae02e97025f2b76090c151e9c|||COHR|||Coherent Stock Fell 11% as Intel and Amazon Earnings Hit AI Hardware Stocks. Here’s Where the Stock Could Go
+2026-11-01T06:34:53+00:00|||PASS|||5e686e911824ac48a497667358619598|||MSFT|||Microsoft (MSFT) Lands $25 Billion Bond Deal As AI Push Deepens
+2026-11-01T06:34:56+00:00|||PASS|||f90ca7eebc34b1d9e209b55d61d6c4dd|||META|||Zuckerberg Says Meta’s “Core Business Is Strong.” S&P Still Cut Its Outlook to Negative
+2026-11-01T06:35:03+00:00|||PASS|||c74e509a99fea0dfa6c768152dc1ba7c|||AMD|||What to Expect From AMD’s Q3 Earnings
+2026-11-01T06:35:09+00:00|||SENT|||79c14c7c04209cb543dfb3a8cafb8416|||MRVL|||Lumentum Jumped on Reports Marvell Is in Late-Stage Talks to Acquire the Company. LITE Stock Is a Buy No Matter What.
+2026-11-01T06:35:31+00:00|||PASS|||9162ef9778156d54cee000f9aa564046|||KLAC|||5 revealing analyst questions from KLA Corporation’s Q3 earnings call
+2026-11-01T06:36:46+00:00|||SENT|||e9cc61407f9171c3639f53d2dfe2fddb|||SPCX|||SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution
+2026-11-01T06:36:49+00:00|||PASS|||0a334e3a67d6badd93ff300de63427ff|||SPCX|||Changpeng Zhao fires back at Elon Musk's mockery after $6.3 billion Binance hack, citing $1B SpaceX stake
+2026-11-01T06:37:17+00:00|||PASS|||2cdd3664dbc019e125841b1ee6f2abfe|||CRCL|||Circle Sinks 12% in a Week After Binance Hack: “We Have Frozen More Than 800M USDC”
