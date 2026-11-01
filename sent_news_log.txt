@@ -1291,3 +1291,15 @@
 2026-11-01T15:25:18+00:00|||PASS|||9b200a4708db5b396b247f1f92c4783d|||LLY|||After Eli Lilly’s Explosive Earnings Report, Is It Too Late to Buy the Stock?
 2026-11-01T15:25:25+00:00|||SENT|||e979196b0837d59c44b97422143a9e30|||LLY|||Eli Lilly Rallies 11% in a Week as Q3 Sales Jump 39%, “Exceeding Our Prior Expectations”
 2026-11-01T15:25:28+00:00|||PASS|||f04d154aaf78873d7c2d706e3af5a478|||ABBV|||Healthcare Earnings Scoreboard: 96% beat EPS estimates, 70% post Y/Y earnings growth (ABBV:NYSE)
+2026-11-01T20:41:20+00:00|||PASS|||e8484c30694c2d3a28544c10d3c34cbf|||GOOGL|||Why Did Alphabet (GOOGL) Shares Fall After Its $500 Billion Value Wipeout?
+2026-11-01T20:41:21+00:00|||PASS|||d3719ab45c41687361567ffb50265233|||GOOGL|||Alphabet: This Isn't Time To Buy The Dip (Rating Downgrade) (NASDAQ:GOOGL)
+2026-11-01T20:41:23+00:00|||PASS|||92a5a43a21c60e6d361fc5b1ed36d8e3|||GOOGL|||GOOGL Market Cap Drops Nearly $500B After Google Search Fell Below 50% Of Alphabet's Revenue — David Sacks Explains Why That's A Good Thing
+2026-11-01T20:41:46+00:00|||PASS|||2c4da64240e1bf517e3aa0d5423396b6|||CAT|||Chocolate Caterpillar or Chocolate Teapot? Top up the disk space for Windows 10 to find out
+2026-11-01T20:41:48+00:00|||PASS|||8367643268ec0b789fcd0b22ef60c0de|||RRX|||Regal Rexnord Archives
+2026-11-01T20:41:53+00:00|||PASS|||1ff2a54008ec446dd44f67a6fdcc951b|||HON|||Honeywell Aerospace (HONA) Is Building A $500 Million Tempe Manufacturing Expansion
+2026-11-01T20:41:57+00:00|||PASS|||e39812c1a9cc15c0f50311f334a4f7fb|||MSFT|||1 Reason to Buy Microsoft Stock for 10 Years
+2026-11-01T20:43:04+00:00|||PASS|||c81fced013d3daaf629b53ab134ab3f5|||PLTR|||Palantir Stock Slowly Forms a Bullish Pattern as Q3 Earnings Loom
+2026-11-01T20:43:06+00:00|||PASS|||65ffed17d55750b0f0058c7552fc75ee|||PLTR|||HD Hyundai Robotics Expands Physical AI Partnership With Palantir
+2026-11-01T20:43:09+00:00|||PASS|||8a31b0873a75d85c273347957764c500|||PLTR|||HD Hyundai Robotics partners with Palantir on AI solutions
+2026-11-01T20:43:18+00:00|||PASS|||76ac7b4321d99820078e699764b45056|||FTNT|||FTNT Investors Have Opportunity to Join Fortinet, Inc. Fraud Investigation with SBS Law
+2026-11-01T20:43:58+00:00|||PASS|||cf9369c6feb34370b30ffeba9d2f75a7|||PWR|||Quanta Services (PWR) Stock Cools As Q3 Earnings Reset The Debate
