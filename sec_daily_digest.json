@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "date": "2026-10-28",
+  "form": "424B5",
+  "holding": false,
+  "text": "424B5 公司發債：$2,000,000,000",
+  "ticker": "TXN",
+  "url": "https://www.sec.gov/Archives/edgar/data/97476/000119312526434821/d166196d424b5.htm"
+ },
+ {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "LLY",
+  "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm"
+ },
+ {
+  "date": "2026-10-30",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：VANGUARD PORTFOLIO MANAGEMENT LLC，持股 4.44%（已降到 5% 以下）",
+  "ticker": "MOH",
+  "url": "https://www.sec.gov/Archives/edgar/data/1179929/000210012126001083/xslSCHEDULE_13G_X02/primary_doc.xml"
+ }
+]
