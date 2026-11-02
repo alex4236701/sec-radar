@@ -1320,3 +1320,77 @@
 2026-11-02T08:00:59+00:00|||SENT|||60b6b20995e34c3ce3ca73fa57432322|||SPCX|||School IB economics: SpaceX and Tesla boards explore potential merger
 2026-11-02T08:01:02+00:00|||PASS|||ed8087719d7be09d83c8acce764f703d|||SPCX|||County withheld SpaceX tax break records despite state ruling, residents' lawsuit says
 2026-11-02T08:01:03+00:00|||PASS|||2f326d45aa9e50dfefae0db2e303fe66|||SPCX|||Barclays Says a SpaceX Merger Is Now "a Key Part" of the Tesla Bull Case. Here's Who Actually Wins if It Happens -- and Who Pays.
+2026-11-02T19:40:44+00:00|||PASS|||3620ffb525b7dc8f31775092dbbf16b8|||GOOGL|||Amazon Vs. Alphabet: The $420B AI Capex Squeeze Leaves Both At Hold (NASDAQ:AMZN)
+2026-11-02T19:40:47+00:00|||PASS|||29c7c9161ac966b4ac575ac41f2a9e45|||GOOGL|||Google disrupts million-device XCPE Android malware botnet, bans TV box maker
+2026-11-02T19:40:50+00:00|||PASS|||4e77fa720072daaef6bf89fbc2fd566d|||GOOGL|||Alphabet Shareholder Sues Executives Over AI Copyright Claims
+2026-11-02T19:40:55+00:00|||PASS|||493f1b8f1889332c59f62ff55c6d8247|||MU|||Micron posted a $54 billion quarter while Oracle's AI debt spooks Wall Street
+2026-11-02T19:41:19+00:00|||SENT|||1ffa4ad050ac326363608a5c2f9aee4d|||GEV|||GE Vernova order backlog hits $197bn as data center demand drives gas turbine sales
+2026-11-02T19:41:23+00:00|||PASS|||e4cca6395a6ab96ed499c20b73c4c81d|||GEV|||GE Vernova shares gain 5% after Q2 results beat; Analysts see up to 45% upside
+2026-11-02T19:41:27+00:00|||PASS|||5a4261931c0f14563a91a5b1c61c9fe8|||CAT|||What Could Caterpillar (CAT) Gain From This Dealer Acquisition?
+2026-11-02T19:41:31+00:00|||SENT|||12eb1a8e9c66da193a91cadbc57942be|||CAT|||Caterpillar acquires longtime dealer Fabick Cat
+2026-11-02T19:41:35+00:00|||PASS|||326b6c83e5aa0a46187de603cc1c37bc|||RRX|||Regal Rexnord (RRX) reports earnings tomorrow: what to expect
+2026-11-02T19:41:41+00:00|||PASS|||97675adf3deef1b3a90496ef4b9f15c7|||MSFT|||Microsoft Just Revealed a $677 Billion Reason to Buy Its Stock
+2026-11-02T19:41:42+00:00|||PASS|||9993dfcb11e61d0a408fb2bab74d2ed9|||MSFT|||Oracle Declines 4% as $10 Billion Bond Sale Revives AI Debt Worries; CoreWeave Advances 2%, Microsoft Holds Steady
+2026-11-02T19:41:43+00:00|||PASS|||6e1a093d09e7c0040a0c12305101b887|||MSFT|||AWS Vs. Microsoft Azure Vs. Google Cloud Q3 Earnings Face-Off
+2026-11-02T19:41:45+00:00|||PASS|||ce0dabedbeaa8fb762b201c4000524a9|||AMZN|||Amazon Vs. Alphabet: The $420B AI Capex Squeeze Leaves Both At Hold (NASDAQ:AMZN)
+2026-11-02T19:41:52+00:00|||PASS|||e17c8a964c136f08accded5008555ebf|||AMZN|||Amazon.com (AMZN) Secures $80 Billion For AI Buildout And Targets 75% Automation
+2026-11-02T19:41:52+00:00|||PASS|||95d3ecc9b480b5a7bf21c12cfeffe89a|||AMZN|||Amazon Stock Climbs After Phillip Securities Upgrade to Buy
+2026-11-02T19:41:58+00:00|||PASS|||95c6eb73391aa00a4086f4e12b26a3c9|||META|||Meta eyes at least $20 billion from potential bond offerings, Bloomberg News reports
+2026-11-02T19:42:00+00:00|||PASS|||eadbaea1ce53f3582fdd14bbf02ba716|||META|||Meta to raise $20B from bond offering -- Bloomberg (META:NASDAQ)
+2026-11-02T19:42:04+00:00|||SENT|||159293077ed65da83feaf52c3239f014|||META|||Meta Fails to Evade Class Status in Healthcare Pixel Lawsuit
+2026-11-02T19:42:07+00:00|||PASS|||769f2a7ea2c6c1fb4c3089b8769f79c9|||AAPL|||Apple Q4 earnings live: iPhone 18 sales in the spotlight
+2026-11-02T19:42:09+00:00|||PASS|||4016addf55aba682a75f8c2121b87e86|||AAPL|||Apple’s $1 Trillion Rally Leaves No Room for Error on Earnings
+2026-11-02T19:42:10+00:00|||PASS|||c1b003afc8615811e610f20ab7375d5a|||AAPL|||Apple earnings, Binance hack, midterm elections - What’s moving markets
+2026-11-02T19:42:13+00:00|||PASS|||894ae1f8bb4c7a70568889134d0b5193|||TSLA|||Black Cautions Tesla Shareholders On SpaceX Merger Risks: Says Marvell-Lumentum Deal Reaction Offers Early Warning
+2026-11-02T19:42:14+00:00|||PASS|||6e940d41cde6f812ab0e8e59b3505b53|||TSLA|||Analyst models potential market reaction to a SpaceX-Tesla all-stock merger
+2026-11-02T19:42:15+00:00|||PASS|||7fbf04919a03e3a6f7f8adddc14fcf4a|||TSLA|||Tesla Rival NIO's October Deliveries Sink 15%
+2026-11-02T19:42:17+00:00|||PASS|||68936745007f702f6b990898d62ce0d0|||TSLA|||SpaceX Could Mirror Nvidia’s Revenue Boom, Sequoia Partner Says — Tesla Influencer Runs Hypothetical Merger Math
+2026-11-02T19:42:20+00:00|||PASS|||3dc3f713e684afe8a5dd6a6b278b1ee9|||NVDA|||Anthropic Did in 5 Years What Took Nvidia 31—And It Raises a $2 Trillion Question
+2026-11-02T19:42:21+00:00|||PASS|||695ebd43238c4cb085650b6e415512d4|||NVDA|||Elon Musk's SpaceX Plan Swallows Nvidia's Entire $300 Billion Growth Forecast — And Then Some
+2026-11-02T19:42:24+00:00|||PASS|||0c34807a7fb99027fbd77f999377bb93|||NVDA|||Nvidia in talks to backstop Nscale's Monarch Compute Campus project for Anthropic - report
+2026-11-02T19:42:29+00:00|||SENT|||30c471597790f10fe50111f3d0c095c5|||NVDA|||NVIDIA Brev security breach may have exposed SSH keys used to access customer VMs — investigation finds unauthorized activity spanning 16 days, but no evidence of misuse
+2026-11-02T19:42:32+00:00|||PASS|||f0b3b207d0483cb0f6083bf8c528656d|||NVDA|||SpaceX Could Mirror Nvidia’s Revenue Boom, Sequoia Partner Says — Tesla Influencer Runs Hypothetical Merger Math
+2026-11-02T19:42:34+00:00|||PASS|||2cbdf2452f8f5d3a2d4afefdf32bd35a|||AMD|||AMD (AMD) Q3 earnings: what to expect
+2026-11-02T19:42:37+00:00|||PASS|||172e5e52d9407c4c5e55f508415733ec|||MRVL|||Marvell-Lumentum Merger: Implications Of A Major AI Photonics Deal (NASDAQ:MRVL)
+2026-11-02T19:42:43+00:00|||SENT|||ccc61f4bef6b9c76492a4946edd49e99|||MRVL|||Marvell to purchase Lumentum for $115 billion in record-breaking AI tech deal, both stocks tank
+2026-11-02T19:42:45+00:00|||PASS|||5b6720246b7b8e3845dbb919c7c73ff9|||MRVL|||Black Cautions Tesla Shareholders On SpaceX Merger Risks: Says Marvell-Lumentum Deal Reaction Offers Early Warning
+2026-11-02T19:42:47+00:00|||PASS|||1117dd3568de43d078cf8e2d3bce4a0f|||MRVL|||Lumentum-Marvell deal: motives, dilution risks, and what it means for the optical trade
+2026-11-02T19:42:51+00:00|||SENT|||c5cb4f19c905d02fd48c05b1a01c4255|||MRVL|||Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal
+2026-11-02T19:42:57+00:00|||PASS|||3f6e7dc669bdab5cf541ca70d3f018ea|||INTC|||INTC SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving Intel
+2026-11-02T19:43:01+00:00|||PASS|||c7bf6be16eef113d8db6b72933cfc692|||INTC|||Intel’s Regression: Accuracy Of Its Guidance Falters, As 18A Capacity Gets Cannibalized To Feed The Older Intel 3 Process
+2026-11-02T19:43:04+00:00|||PASS|||3ac7d769bcff7d574f0cbbd6a2fdbaf1|||TSM|||TSMC Phoenix Campus Fuels a $265B Suburban Property Boom
+2026-11-02T19:43:10+00:00|||SENT|||d8b6ff8c332f103eecfa7e390e28046f|||TSEM|||Tower Semiconductor rises on strong Q4 revenue guidance
+2026-11-02T19:43:16+00:00|||PASS|||480ce54b3a0a563bd942039a44ccf598|||SKHY|||SK Hynix Q3 Earnings: Inventory Doesn’t Lie And Points To Continued Cycle (NASDAQ:SKHY)
+2026-11-02T19:43:29+00:00|||SENT|||370f5ccd44214258a8c30e53dce5aa3a|||ACLS|||Axcelis and Veeco delay merger closing to Q1 2027 By Investing.com
+2026-11-02T19:43:35+00:00|||SENT|||eac15b86652f37372825cdbca1eb6c3b|||VECO|||Axcelis Technologies and Veeco Instruments Provide Update on Expected Timing of Merger Closing
+2026-11-02T19:43:57+00:00|||SENT|||25eaadbc94810de82af548aa70e53e42|||LITE|||Marvell-Lumentum Merger: Implications Of A Major AI Photonics Deal (NASDAQ:MRVL)
+2026-11-02T19:44:00+00:00|||PASS|||d0066941d3f6bbd6c9126cb425966d91|||LITE|||Black Cautions Tesla Shareholders On SpaceX Merger Risks: Says Marvell-Lumentum Deal Reaction Offers Early Warning
+2026-11-02T19:44:02+00:00|||PASS|||33bd7200cb0b0c180eecf7d2717be394|||LITE|||Lumentum Stocks Drop 11% With Merger Risk Overshadowing Its $1.6 Billion Revenue Outlook
+2026-11-02T19:44:07+00:00|||SENT|||5b229a1473fd8bf8464e95262b735f45|||LITE|||Marvell doubles down on AI boom with costly $115 billion Lumentum deal
+2026-11-02T19:44:24+00:00|||PASS|||f0c3ca24f901b3fd4d1d574bc97fc108|||DELL|||Michael Dell turned $1,000 and a college dorm room into a $302 billion company. His advice to founders seeking validation: ‘Don’t go ask’
+2026-11-02T19:44:29+00:00|||PASS|||109021c2558793fb355ea047defcc8fc|||ORCL|||Oracle stock slides as it borrows another $10 billion for AI spending
+2026-11-02T19:44:33+00:00|||SENT|||b485e06f1d8d43ebdd42958074b572f5|||ORCL|||Oracle Sinks 7% on $20 Billion Stock and Bond Sale to Fund AI Buildout
+2026-11-02T19:44:39+00:00|||PASS|||918417ccafff650784eb3ed123394f2e|||ORCL|||Oracle Is Offering $10 Billion of High-Grade Dollar Bonds
+2026-11-02T19:44:41+00:00|||PASS|||6d0acd1237d475687de12b43b83c6f13|||ORCL|||Oracle gobbles $20 billion borrowing limit a week after setting it
+2026-11-02T19:44:41+00:00|||PASS|||d4b3566fd06bd41776ee726842e0c962|||ORCL|||Rapidflow Inc, a US-based Oracle Cloud and Technology Partner, Acquires GreenCube to Expand Global Oracle EPM and BI Capabilities and Accelerate International Growth
+2026-11-02T19:44:48+00:00|||SENT|||367cd36fa6167b0ddbd3ae99c4c2d244|||ORCL|||Oracle shares fall after $10 billion stock offering
+2026-11-02T19:44:51+00:00|||PASS|||3670f32619266eb5947ca8c59a4648ca|||CRWV|||Oracle Declines 4% as $10 Billion Bond Sale Revives AI Debt Worries; CoreWeave Advances 2%, Microsoft Holds Steady
+2026-11-02T19:45:00+00:00|||SENT|||a1436a56e973c2a05224c3e97b67838f|||CIFR|||Cipher Digital Reports $27 Million in Q3 Revenue as HPC Leasing Begins and Contracted Revenue Reaches $9.1 Billion at Barber Lake
+2026-11-02T19:45:05+00:00|||PASS|||2a05d3508fb14b40d59969e417db7c44|||PLTR|||Palantir Just Became Worth Four ServiceNows — That Raises a $333 Billion Question
+2026-11-02T19:45:06+00:00|||PASS|||da0849b0f22ac0d72e91746f5a774c32|||PLTR|||Palantir Earnings On Tap. Can Software Maker Buck AI Sell-Off?
+2026-11-02T19:45:07+00:00|||PASS|||b91ee54979c00b0924797306b550a954|||PLTR|||Palantir Faces Q3 Earnings Test as Wall Street Splits on Valuation
+2026-11-02T19:45:09+00:00|||PASS|||177dd16ad681384f22b6351535f18676|||PLTR|||Top Wall Street Forecasters Revamp Palantir Expectations Ahead Of Q3 Earnings
+2026-11-02T19:45:09+00:00|||PASS|||d8dc78215520660813c61cc0c84e68fa|||PLTR|||Palantir Earnings: Can the Stock’s Run Keep Going?
+2026-11-02T19:45:13+00:00|||PASS|||c8d406278e50a37023e833f4cf7c1dcb|||CRM|||Hammerhead AI Names Salesforce AppExchange Pioneer and Former Twilio CRO Bobby Napiltonia as President
+2026-11-02T19:45:16+00:00|||PASS|||8128cf47f9ea55cba7ac21d99f81ccdd|||DDOG|||Datadog Before Q3 Earnings: What's in the Cards for the Stock?
+2026-11-02T19:45:23+00:00|||PASS|||dfd622ac09a06e0151a513d8a37265b6|||OKTA|||Okta to Announce Third Quarter Fiscal Year 2027 Financial Results on December 1, 2026
+2026-11-02T19:45:27+00:00|||PASS|||8d26f55b6081945fd1f3ef3b0a8a42ad|||AKAM|||MazeBolt launches native RADAR deployment for Akamai DDoS protection customers
+2026-11-02T19:45:33+00:00|||SENT|||d68fd82d55fc9df589666878fd03acff|||VRNS|||Proofpoint CEO Sumit Dhawan- ‘Very Excited’ for $6.3 Billion Varonis Acquisition
+2026-11-02T19:45:37+00:00|||PASS|||82b4e4f1e44d34f337dcc4650fe5d867|||TWLO|||TWLO SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving Twilio
+2026-11-02T19:45:38+00:00|||PASS|||f1dbd13155efdd90075df0572d8855fd|||TWLO|||Hammerhead AI Names Salesforce AppExchange Pioneer and Former Twilio CRO Bobby Napiltonia as President
+2026-11-02T19:45:55+00:00|||PASS|||9bb104b7230bd54f8f5d3b0580334395|||SPCX|||Black Cautions Tesla Shareholders On SpaceX Merger Risks: Says Marvell-Lumentum Deal Reaction Offers Early Warning
+2026-11-02T19:45:59+00:00|||SENT|||7b81e988d0d9f8c020389c040c3662d2|||SPCX|||SpaceX reportedly wants to buy Boost Mobile to compete with AT&T, T-Mobile, and Verizon
+2026-11-02T19:46:02+00:00|||PASS|||2184cfcdb213f9a8490e9dffbe6ce06c|||SPCX|||Elon Musk's SpaceX Plan Swallows Nvidia's Entire $300 Billion Growth Forecast — And Then Some
+2026-11-02T19:46:03+00:00|||PASS|||c8514cc25f1c809afe1bb93d9b367506|||SPCX|||SpaceX Could Mirror Nvidia’s Revenue Boom, Sequoia Partner Says — Tesla Influencer Runs Hypothetical Merger Math
+2026-11-02T19:46:33+00:00|||PASS|||2b737c59bab2b5378114dff2f19cc7ab|||ABBV|||These Analysts Increase Their Forecasts On AbbVie After Strong Q3 Results
+2026-11-02T19:46:34+00:00|||PASS|||f6ab5c4d823dfa848205935c6f84ef1f|||ABBV|||The top 5 analyst questions from AbbVie’s Q3 earnings call
