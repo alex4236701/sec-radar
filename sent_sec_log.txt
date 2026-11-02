@@ -1,6 +1,6 @@
 @@VERSION|||2
 @@HEARTBEAT|||2026-10-31
-@@AI|||2026-11-01|||3
+@@AI|||2026-11-02|||8
 0001973239-26-000135|||2026-10-06|||LEGACY
 0001193125-26-394998|||2026-10-06|||LEGACY
 0001193125-26-393324|||2026-10-06|||LEGACY
@@ -983,3 +983,27 @@
 0000316011-26-000040|||2026-11-01|||SENT|||LLY|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/59478/000031601126000040/xsl144X01/primary_doc.xml
 0001551152-26-000033|||2026-11-01|||SENT|||ABBV|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1551152/000155115226000033/abbv-20261030.htm
 0002100121-26-001083|||2026-11-01|||DIGEST|||MOH|||SCHEDULE 13G/A 13G 修正：VANGUARD PORTFOLIO MANAGEMENT LLC，持股 4.44%（已降到 5% 以下）|||https://www.sec.gov/Archives/edgar/data/1179929/000210012126001083/xslSCHEDULE_13G_X02/primary_doc.xml
+0001193125-26-442515|||2026-11-02|||SENT|||GOOGL|||留意｜【公司發債】|||https://www.sec.gov/Archives/edgar/data/1652044/000119312526442515/d125079d424b5.htm
+0001193125-26-442717|||2026-11-02|||SENT|||MRVL|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1835632/000119312526442717/d352474d8k.htm
+0001193125-26-442714|||2026-11-02|||SENT|||MRVL|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/d81187d8k.htm
+0001178913-26-004949|||2026-11-02|||SENT|||TSEM|||利多｜【外國公司重大公告 6-K】|||https://www.sec.gov/Archives/edgar/data/928876/000117891326004949/zk2636309.htm
+0001178913-26-004923|||2026-11-02|||DIGEST|||TSEM|||SCHEDULE 13G/A 13G 修正：Harel Insurance Investments & Financial Services Ltd.，持股 6.30%|||https://www.sec.gov/Archives/edgar/data/928876/000117891326004923/xslSCHEDULE_13G_X02/primary_doc.xml
+0001193125-26-442547|||2026-11-02|||SKIP|||PENG|||4
+0001193125-26-442534|||2026-11-02|||SENT|||PENG|||留意｜【主動型大股東 13D 減持退出】|||https://www.sec.gov/Archives/edgar/data/1616533/000119312526442534/xslSCHEDULE_13D_X02/primary_doc.xml
+0001965462-26-000002|||2026-11-02|||SKIP|||LRCX|||4
+0001959173-26-007596|||2026-11-02|||DIGEST|||LRCX|||144 Form 144 內部人預告賣股：Mayer Bethany（董事），719 股，約 $174,422|||https://www.sec.gov/Archives/edgar/data/707549/000195917326007596/xsl144X01/primary_doc.xml
+0001104659-26-120939|||2026-11-02|||SENT|||ACLS|||利空｜【8-K 公告解讀】|||https://www.sec.gov/Archives/edgar/data/1113232/000110465926120939/tm2628711d1_8k.htm
+0001104659-26-120936|||2026-11-02|||SENT|||VECO|||利空｜【8-K 公告解讀】|||https://www.sec.gov/Archives/edgar/data/103145/000110465926120936/tm2628709d1_8k.htm
+0001959173-26-007586|||2026-11-02|||DIGEST|||TER|||144 Form 144 內部人預告賣股：JOHNSON MERCEDES（董事），166 股，約 $45,723|||https://www.sec.gov/Archives/edgar/data/97210/000195917326007586/xsl144X01/primary_doc.xml
+0001193125-26-442758|||2026-11-02|||SENT|||LITE|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1633978/000119312526442758/d163169d8k.htm
+0001628280-26-068655|||2026-11-02|||SENT|||LITE|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite-20261102.htm
+0001959173-26-007614|||2026-11-02|||SENT|||ADI|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/6281/000195917326007614/xsl144X01/primary_doc.xml
+0001193125-26-442729|||2026-11-02|||SENT|||ORCL|||利空｜【增發新股】|||https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm
+0001193125-26-442669|||2026-11-02|||SENT|||ORCL|||例行｜【大型公司例行貨架登記】|||https://www.sec.gov/Archives/edgar/data/1341439/000119312526442669/d181173ds3asr.htm
+0001513845-26-000147|||2026-11-02|||SKIP|||NBIS|||4
+0001819989-26-000050|||2026-11-02|||DIGEST|||CIFR|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm
+0001819989-26-000047|||2026-11-02|||SENT|||CIFR|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1819989/000181998926000047/cifr-20261102.htm
+0001959173-26-007624|||2026-11-02|||SENT|||SNOW|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1640147/000195917326007624/xsl144X01/primary_doc.xml
+0001959173-26-007594|||2026-11-02|||SENT|||GNRC|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1474735/000195917326007594/xsl144X01/primary_doc.xml
+0001959173-26-007616|||2026-11-02|||SENT|||LIN|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1707925/000195917326007616/xsl144X01/primary_doc.xml
+0001959173-26-007584|||2026-11-02|||SENT|||CRCL|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1876042/000195917326007584/xsl144X01/primary_doc.xml

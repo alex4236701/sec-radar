@@ -22,5 +22,37 @@
   "text": "13G 修正：VANGUARD PORTFOLIO MANAGEMENT LLC，持股 4.44%（已降到 5% 以下）",
   "ticker": "MOH",
   "url": "https://www.sec.gov/Archives/edgar/data/1179929/000210012126001083/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-02",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：Harel Insurance Investments & Financial Services Ltd.，持股 6.30%",
+  "ticker": "TSEM",
+  "url": "https://www.sec.gov/Archives/edgar/data/928876/000117891326004923/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-02",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Mayer Bethany（董事），719 股，約 $174,422",
+  "ticker": "LRCX",
+  "url": "https://www.sec.gov/Archives/edgar/data/707549/000195917326007596/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-02",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：JOHNSON MERCEDES（董事），166 股，約 $45,723",
+  "ticker": "TER",
+  "url": "https://www.sec.gov/Archives/edgar/data/97210/000195917326007586/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-02",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "CIFR",
+  "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm"
  }
 ]
