@@ -1394,3 +1394,40 @@
 2026-11-02T19:46:03+00:00|||PASS|||c8514cc25f1c809afe1bb93d9b367506|||SPCX|||SpaceX Could Mirror Nvidia’s Revenue Boom, Sequoia Partner Says — Tesla Influencer Runs Hypothetical Merger Math
 2026-11-02T19:46:33+00:00|||PASS|||2b737c59bab2b5378114dff2f19cc7ab|||ABBV|||These Analysts Increase Their Forecasts On AbbVie After Strong Q3 Results
 2026-11-02T19:46:34+00:00|||PASS|||f6ab5c4d823dfa848205935c6f84ef1f|||ABBV|||The top 5 analyst questions from AbbVie’s Q3 earnings call
+2026-11-02T21:50:02+00:00|||PASS|||8adbd1589761dc792f6e9078d7fd0f41|||MU|||Micron Expected to Launch Massive Stock Buybacks in December. What to Know.
+2026-11-02T21:50:04+00:00|||PASS|||7a8de4fcb08a8c0a9dfdbfdbf02b24ed|||UCTT|||Ultra Clean (UCTT) Upgraded to Buy: What Does It Mean for the Stock?
+2026-11-02T21:50:14+00:00|||PASS|||a6971df59e09c3b50983c32396ec8b60|||VSH|||Why FPA Queens Road Small Cap Value Fund Aggressively Reduced Its Stake in Vishay Intertechnology, Inc. (VSH)
+2026-11-02T21:50:22+00:00|||PASS|||1a95d2686e20c2ba9380126be4572bd7|||AVGO|||Top court upholds antitrust watchdog's 18.6 bln-won fine on Broadcom
+2026-11-02T21:50:38+00:00|||PASS|||7063bc46e2f8a9ffbbe638779b7babbe|||AAPL|||Apple Stock Drops Despite Fiscal Q4 Earnings Beat
+2026-11-02T21:50:43+00:00|||SENT|||ff36be6aa40f295b79aa3d17f57ae6a9|||AAPL|||Apple slips as Q4 results top estimates on iPhone strength (AAPL:NASDAQ)
+2026-11-02T21:50:50+00:00|||PASS|||8a784271eab031511152bcc4a31660fb|||AMD|||AMD Could Swing $90.7 Billion After Earnings
+2026-11-02T21:50:52+00:00|||PASS|||19aa822792163e8520f32e941c309b97|||AMD|||AMD Stocks Edge Higher With Earnings Testing a $74 Billion Data-Center Forecast
+2026-11-02T21:50:54+00:00|||PASS|||c95261c1bbc4486dd91066be359f3f84|||MRVL|||Marvell Stocks Decline 6.8% With Lumentum Deal Putting Dilution Ahead of Synergies
+2026-11-02T21:50:57+00:00|||PASS|||65c52a6a7d2ee2fac382a39524cf4a3c|||MRVL|||Driven by A.I. Boom, Marvell and Lumentum Announce $115 Billion Merger
+2026-11-02T21:50:58+00:00|||PASS|||f45091d16d394c5ab1c9132cdf5db305|||MRVL|||Marvell Technology to buy Lumentum in all-stock deal
+2026-11-02T21:51:00+00:00|||PASS|||05efb062d49bb9589959286208a2ef54|||MRVL|||Marvell Plunges 13% on Lumentum Takeover Rumors: Make Your 3-5 Year Bet Right Now
+2026-11-02T21:51:03+00:00|||PASS|||62c3f1eb9cfb8abe7e58863399c735c7|||QCOM|||Is QCOM Stock a Smart Investment Option Before Q4 Earnings Release?
+2026-11-02T21:51:08+00:00|||PASS|||8f2b7e6413892dce92a8234f477f1bfb|||TSM|||TSMC’s $265 Billion Campus Is Driving a Real Estate Boom in the Phoenix Suburbs
+2026-11-02T21:51:13+00:00|||PASS|||dba5958a73e61df87c1f9bd0011c2a1e|||TSM|||[News] TSMC Reportedly Eyes Potential US$45B Fab Expansion in Sherman, Texas, Raising Stakes for Samsung
+2026-11-02T21:51:22+00:00|||SENT|||901c5936edea9990c2c4028490cab8f4|||TSEM|||Tower Semiconductor guides to a $2 billion year as chip market splits in two
+2026-11-02T21:51:36+00:00|||SENT|||8ab29d04ac1bead2c70c3da2c6c58acb|||PENG|||Penguin Solutions Introduces High-Bandwidth SMART Modular MRDIMMs for Next-Generation AI Data Centers
+2026-11-02T21:51:57+00:00|||SENT|||55a0270dd1a72bd50e7f18941804ee49|||AEIS|||Advanced Energy Reports Third Quarter 2026 Results
+2026-11-02T21:52:02+00:00|||SENT|||30a6c40fa01fde1848770ac283b0bc7f|||ICHR|||Ichor Holdings, Ltd. Announces Third Quarter 2026 Financial Results
+2026-11-02T21:52:12+00:00|||PASS|||f45938358c1f4bb3fa3804a4d9b4f59b|||LITE|||Lumentum Goes From $1 Billion Spinoff to $115 Billion Takeover
+2026-11-02T21:52:13+00:00|||PASS|||ca6076d5e5901f1026400a87134648ca|||LITE|||Marvell Stocks Decline 6.8% With Lumentum Deal Putting Dilution Ahead of Synergies
+2026-11-02T21:52:18+00:00|||SENT|||88eb7d28f992c0108415562e38a4cf90|||LITE|||Lumentum (LITE) Beats Q1 Earnings and Revenue Estimates
+2026-11-02T21:52:24+00:00|||SENT|||391a939c8065365749333aa7aecc607a|||LITE|||Marvell Technology to buy Lumentum in all-stock deal
+2026-11-02T21:52:43+00:00|||PASS|||c57fc391cb630f5bb94df15c18df6f4e|||VRT|||Buy Vertiv on Solid Q3 Earnings Guidance to Tap Huge Price Upside
+2026-11-02T21:52:45+00:00|||PASS|||f32420ef3ae323acd414a3834ba2f923|||ORCL|||Watch Oracle Kicks Off $20 Billion Capital Raise
+2026-11-02T21:52:47+00:00|||PASS|||ef0bb470401aa6fab179fc6202c68428|||ORCL|||Oracle Declines 4% as $10 Billion Bond Sale Revives AI Debt Worries; CoreWeave Advances 2%, Microsoft Holds Steady
+2026-11-02T21:52:56+00:00|||SENT|||b77e6540e03fc2f7641e4dbec08b57d2|||PLTR|||Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigger
+2026-11-02T21:52:59+00:00|||PASS|||eb1f000987bd575bbdc533491a948c15|||PLTR|||Palantir Q3 earnings: Did the AI company just have a 'celestial' quarter?
+2026-11-02T21:53:04+00:00|||SENT|||cec457866e34beb9ded4d47314b02bab|||PLTR|||Palantir beats on earnings and revenue, Q3 commercial revenue surpasses government revenue
+2026-11-02T21:53:08+00:00|||PASS|||c2813d6d3d9dd09fa8b3779a5631ec2d|||NOW|||The top 5 analyst questions from ServiceNow’s Q3 earnings call
+2026-11-02T21:53:13+00:00|||SENT|||bcde5062f47bd289ad923d47b88be190|||CRM|||Salesforce agrees to buy Cresta (CRM:NYSE)
+2026-11-02T21:53:16+00:00|||PASS|||20ff3dee6e6436d5542f2d6a02445c3d|||SNOW|||Snowflake to Announce Financial Results for the Third Quarter of Fiscal 2027 on December 2, 2026
+2026-11-02T21:53:27+00:00|||PASS|||66db9d2562d9ed42a64a1bd14b3e9627|||ZS|||Zscaler Dodges AI Security Patent Claims After Lawsuit Dropped
+2026-11-02T21:53:43+00:00|||SENT|||a27b451d940eeefbda56e35594bde2d4|||KEYS|||Keysight names Jason Kary as CFO effective December 18 By Investing.com
+2026-11-02T21:53:46+00:00|||PASS|||73a89c93fab824bdc61128ecd8ba7778|||KEYS|||Keysight Announces CFO Succession
+2026-11-02T21:53:56+00:00|||PASS|||9489397e9806f04fa2fb4b7d6da55bf2|||SPCX|||SpaceX Is in Talks With Boost Mobile to Expand Wireless Coverage
+2026-11-02T21:53:57+00:00|||PASS|||03bb592f6891d884fa09fcbe4718ccbc|||SPCX|||A $731 Billion Opportunity for SpaceX Stock
