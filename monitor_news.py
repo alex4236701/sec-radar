@@ -1131,13 +1131,15 @@ def load_history():
                     AI_STATE["last_alert"] = parts[2].strip()
                 continue
             parts = line.split("|||")
-            if len(parts) == 5 and parts[1] in {"SENT", "PASS", "LEGACY"}:
+            # 第六欄（2026-11-03 加）是給研究辦公室看的繁中標題，舊紀錄只有五欄
+            if len(parts) in (5, 6) and parts[1] in {"SENT", "PASS", "LEGACY"}:
                 try:
                     t = datetime.fromisoformat(parts[0])
                 except Exception:
                     t = now
                 entries.append({"time": t, "status": parts[1], "fp": parts[2],
-                                "ticker": parts[3], "title": parts[4]})
+                                "ticker": parts[3], "title": parts[4],
+                                "title_zh": parts[5] if len(parts) == 6 else ""})
             elif len(parts) >= 3:
                 entries.append({"time": now, "status": "LEGACY", "fp": parts[0],
                                 "ticker": parts[1], "title": parts[2]})
@@ -1149,7 +1151,12 @@ def load_history():
 
 def format_history_line(entry):
     title = entry["title"].replace("|||", " ").replace("\n", " ")
-    return f"{entry['time'].isoformat(timespec='seconds')}|||{entry['status']}|||{entry['fp']}|||{entry['ticker']}|||{title}"
+    line = f"{entry['time'].isoformat(timespec='seconds')}|||{entry['status']}|||{entry['fp']}|||{entry['ticker']}|||{title}"
+    # 推播成功的新聞多一欄繁中標題（加在最後，巡查讀的前五欄位置不變）
+    zh = (entry.get("title_zh") or "").replace("|||", " ").replace("\n", " ").strip()
+    if entry["status"] == "SENT" and zh and zh != title:
+        line += f"|||{zh}"
+    return line
 
 
 def append_history(entry, history_entries, seen_fps):
@@ -1552,7 +1559,7 @@ PRODUCT：新產品、新技術發表、監管核准。
 3. 標題真的沒有足夠資訊時，只寫「標題未提及金額或條款」，不要硬湊推測。
 
 【撰寫要求（像朋友聊天一樣自然講重點，繁體中文）】：
-title_zh：把英文標題翻成繁體中文，保留型號與代號。
+title_zh：把英文標題翻成繁體中文。數字、金額、百分比與單位照原文保留、不換算（例如 $197bn 就寫 $197bn，不改成億美元）；公司名、型號與代號用英文原文；不加原文沒有的意思。
 action：一句話白話說明發生什麼事，40 到 60 字。有對象或金額就自然帶出，沒有就不用硬湊。
 impact：實質財務影響（營收、毛利、負債、稀釋），40 到 60 字，遵守上方資訊限制。
 direction：這則消息對公司價值的方向，只能填「利多」「利空」「中性」其中一個；好壞參半、要看後續或只是例行消息的填中性。
@@ -1774,6 +1781,7 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
         if ok_push:
             stats["pushed"] += 1
             entry["status"] = "SENT"
+            entry["title_zh"] = title_zh
             append_history(entry, history_entries, seen_fps)
             pushed_this_round += 1
             print("      🎉 [推播成功]", flush=True)
