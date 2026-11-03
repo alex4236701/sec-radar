@@ -1,6 +1,6 @@
 @@VERSION|||2
 @@HEARTBEAT|||2026-11-03
-@@AI|||2026-11-03|||8
+@@AI|||2026-11-03|||11
 0001973239-26-000135|||2026-10-06|||LEGACY
 0001193125-26-394998|||2026-10-06|||LEGACY
 0001193125-26-393324|||2026-10-06|||LEGACY
@@ -1059,3 +1059,18 @@
 0001950047-26-010517|||2026-11-03|||SENT|||ISRG|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1035267/000195004726010517/xsl144X01/primary_doc.xml
 0001972490-26-000023|||2026-11-03|||DIGEST|||RSG|||144 Form 144 內部人預告賣股：Bales Brian A（高階主管），3,400 股，約 $829,600|||https://www.sec.gov/Archives/edgar/data/1060391/000197249026000023/xsl144X01/primary_doc.xml
 0001060391-26-000327|||2026-11-03|||DIGEST|||RSG|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/1060391/000106039126000327/rsg-20260930.htm
+0001104659-26-121809|||2026-11-03|||SENT|||CAT|||利多｜【內部人公開市場買進】|||https://www.sec.gov/Archives/edgar/data/18230/000110465926121809/xslF345X06/tm2628874-1_4seq1.xml
+0000082811-26-000236|||2026-11-03|||SENT|||RRX|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/82811/000008281126000236/rrx-20261103.htm
+0001193125-26-444440|||2026-11-03|||DIGEST|||META|||424B5 424B5 公司發債（初步說明書，尚未定價）|||https://www.sec.gov/Archives/edgar/data/1326801/000119312526444440/d135326d424b5.htm
+0000320193-26-000026|||2026-11-03|||DIGEST|||AAPL|||10-K 10-K 年報|||https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm
+0001046179-26-000732|||2026-11-03|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：1 份申報，合計 1,000 股，約 $71,490，均價 $71.49|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000732/xslF345X06/wk-form4_1793707033.xml
+0001178913-26-004972|||2026-11-03|||SKIP|||TSEM|||6-K
+0001193125-26-444399|||2026-11-03|||SENT|||SKHY|||留意｜【主動型大股東 13D】|||https://www.sec.gov/Archives/edgar/data/2120882/000119312526444399/xslSCHEDULE_13D_X02/primary_doc.xml
+0001652535-26-000078|||2026-11-03|||DIGEST|||ICHR|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/1652535/000165253526000078/ichr-20260925.htm
+0001193125-26-444718|||2026-11-03|||SKIP|||VICR|||4
+0001321655-26-000048|||2026-11-03|||DIGEST|||PLTR|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm
+0001551182-26-000040|||2026-11-03|||DIGEST|||ETN|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/1551182/000155118226000040/etn-20260930.htm
+0001551182-26-000037|||2026-11-03|||SENT|||ETN|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1551182/000155118226000037/etn-20261103.htm
+0001959173-26-007683|||2026-11-03|||DIGEST|||GNRC|||144 Form 144 內部人預告賣股：Raabe Kyle Andrew（高階主管），598 股，約 $125,580|||https://www.sec.gov/Archives/edgar/data/1474735/000195917326007683/xsl144X01/primary_doc.xml
+0001959173-26-007672|||2026-11-03|||DIGEST|||CRCL|||144 Form 144 內部人預告賣股：Razzaghi Hossein（高階主管），1,831 股，約 $133,773|||https://www.sec.gov/Archives/edgar/data/1876042/000195917326007672/xsl144X01/primary_doc.xml
+0001959173-26-007671|||2026-11-03|||DIGEST|||CRCL|||144 Form 144 內部人預告賣股：Schulz Tamara L（高階主管），1,194 股，約 $87,234|||https://www.sec.gov/Archives/edgar/data/1876042/000195917326007671/xsl144X01/primary_doc.xml

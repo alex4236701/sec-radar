@@ -22,5 +22,77 @@
   "text": "10-Q 季報",
   "ticker": "RSG",
   "url": "https://www.sec.gov/Archives/edgar/data/1060391/000106039126000327/rsg-20260930.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "424B5",
+  "holding": false,
+  "text": "424B5 公司發債（初步說明書，尚未定價）",
+  "ticker": "META",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526444440/d135326d424b5.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-K",
+  "holding": false,
+  "text": "10-K 年報",
+  "ticker": "AAPL",
+  "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "4",
+  "holding": false,
+  "text": "Form 4 員工／高管持股計畫統一買進（非主動買進）：1 份申報，合計 1,000 股，約 $71,490，均價 $71.49",
+  "ticker": "TSM",
+  "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000732/xslF345X06/wk-form4_1793707033.xml"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "ICHR",
+  "url": "https://www.sec.gov/Archives/edgar/data/1652535/000165253526000078/ichr-20260925.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "PLTR",
+  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "ETN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000040/etn-20260930.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Raabe Kyle Andrew（高階主管），598 股，約 $125,580",
+  "ticker": "GNRC",
+  "url": "https://www.sec.gov/Archives/edgar/data/1474735/000195917326007683/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Razzaghi Hossein（高階主管），1,831 股，約 $133,773",
+  "ticker": "CRCL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1876042/000195917326007672/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Schulz Tamara L（高階主管），1,194 股，約 $87,234",
+  "ticker": "CRCL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1876042/000195917326007671/xsl144X01/primary_doc.xml"
  }
 ]
