@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "date": "2026-10-30",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：VANGUARD PORTFOLIO MANAGEMENT LLC，持股 5.36%",
+  "ticker": "APD",
+  "url": "https://www.sec.gov/Archives/edgar/data/2969/000210012126001038/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-02",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Bales Brian A（高階主管），3,400 股，約 $829,600",
+  "ticker": "RSG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1060391/000197249026000023/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-10-30",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "RSG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1060391/000106039126000327/rsg-20260930.htm"
+ }
+]
