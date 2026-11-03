@@ -1536,3 +1536,24 @@
 2026-11-03T17:18:45+00:00|||PASS|||bc86dd73135eda960ea059eb00e0cdef|||ETN|||Eaton rises as earnings beat estimates, data center demand fuels growth (ETN:NYSE)
 2026-11-03T17:18:50+00:00|||PASS|||e49c2c16d2727798175dbab22c59f741|||ROK|||Exploring Analyst Estimates for Rockwell Automation (ROK) Q4 Earnings, Beyond Revenue and EPS
 2026-11-03T17:18:53+00:00|||PASS|||9385323b2f3b43247d6e1ad2b97896da|||LIN|||Linde India Q2 Results: Net profit slides 31% as margins take a hit; revenue up 12%
+2026-11-03T19:40:04+00:00|||PASS|||20ff112c586a5fc16250a07a0209ec9d|||MKSI|||Earnings To Watch: Marks & Spencer Group PLC (LSE:MKS) Q2 2027 -- GF Value Sees 12% Upside
+2026-11-03T19:40:13+00:00|||PASS|||ad071a61c0f105f6e1bb0137628c49b4|||VSH|||Vishay faces earnings test as chip demand remains uneven By Investing.com
+2026-11-03T19:40:15+00:00|||PASS|||a8330abf41796ac9eaf8b207c2e1d81e|||VSH|||Earnings To Watch: Vishay Precision Group Inc (VPG) Q3 2026 -- GF Value Sees 33% Downside
+2026-11-03T19:40:19+00:00|||PASS|||c99d1045f74cd01e33e0af7de1226611|||NVTS|||Navitas Is 73% Off Its High. Tuesday’s Report Has to Put the “Power Wall” in Revenue
+2026-11-03T19:40:22+00:00|||PASS|||a70b00367d587f9634a02ce9f51899d1|||COHR|||Should COHR Stock Be in Your Portfolio Before Q1 Earnings?
+2026-11-03T19:40:34+00:00|||PASS|||ffd63881a7cdf492e7e4344170fef136|||MSFT|||Oracle Rallies 6% as $20 Billion Stock and Bond Sale Clears Funding Overhang; CoreWeave Climbs 7%, Microsoft Gains 2%
+2026-11-03T19:40:37+00:00|||PASS|||a83bc746b4502b851f3ad5f316dd0d48|||AMZN|||Tech layoffs 2026: Tracking all the job losses across Amazon, Microsoft, Netflix, Electronic Arts, Apple, Meta and others
+2026-11-03T19:40:37+00:00|||PASS|||6cc34c77e6b7dfc52e928c88752c82e7|||AMZN|||A $1 Trillion Reason to Buy Amazon Stock Today
+2026-11-03T19:40:39+00:00|||PASS|||3cde7e29b3700e3bc93f4ed252238ab5|||AMZN|||Amazon closes AI creator's account after he attempts to buy seven Nvidia DGX Spark mini-PCs — Epic CEO Tim Sweeney says his regular orders were canceled before arrival after he tried to buy two GPUs
+2026-11-03T19:40:40+00:00|||PASS|||f69fec67d52b2197481ca76b37a802cc|||AMZN|||Amazon Thinks AWS Could Become a $1 Trillion Business. Here's Why.
+2026-11-03T19:40:44+00:00|||SENT|||b3bde493683a735d36b438b0f7d9d14f|||META|||Instagram Sex Trafficking Lawsuit Partially Revived on Appeal|||Instagram 性販運訴訟上訴後部分恢復
+2026-11-03T19:40:47+00:00|||PASS|||0d0e0dc17d52f599b6ddbcc75415cfbf|||META|||Meta seeks to raise up to $25 billion in debt sale as AI spending jumps
+2026-11-03T19:40:48+00:00|||PASS|||b8421c8d69ae30f865d9f197332a3fd1|||META|||Tech layoffs 2026: Tracking all the job losses across Amazon, Microsoft, Netflix, Electronic Arts, Apple, Meta and others
+2026-11-03T19:40:54+00:00|||SENT|||ee0b06506b5c0edc1978a88372770b94|||AAPL|||Apple Just Stockpiled $10 Billion of Parts While Warning Memory Prices Are 'Unprecedented.' Should Investors Worry?|||Apple 已囤積 $10 Billion 的零件，同時警告記憶體價格「前所未有」；投資人該擔心嗎？
+2026-11-03T19:40:58+00:00|||PASS|||f06b726cbeb72cc29ebb05d79a786745|||TSLA|||Tesla Stock: Want a SpaceX Merger? Look at the Marvell-Lumentum Deal.
+2026-11-03T19:41:03+00:00|||PASS|||1e4a3a838a78dfb563c14568c2e1eb91|||MRVL|||Poll: How will Marvell’s acquisition of Lumentum impact the AI data center market?
+2026-11-03T19:41:04+00:00|||PASS|||b0ceb591651f58c5d22a68ec4ec76313|||MRVL|||Want a Tesla-SpaceX Merger? Look at the Marvell-Lumentum Deal.
+2026-11-03T19:41:05+00:00|||PASS|||e24c59b0d75c1a2979c903f050c7d528|||MRVL|||Tesla Stock: Want a SpaceX Merger? Look at the Marvell-Lumentum Deal.
+2026-11-03T19:42:13+00:00|||PASS|||43cca6a1139a5f96e570b2ac12b65d6a|||SNOW|||Snowflake Helps Enterprises Deploy AI Agents with Trusted Business Context and Built-In Controls
+2026-11-03T19:42:32+00:00|||PASS|||ce04e04d2c79d7647a4efbc3bdb8a8b0|||BB|||All You Need to Know About BlackBerry (BB) Rating Upgrade to Buy
+2026-11-03T19:42:45+00:00|||PASS|||d4e5f95b2f6a433ec53d1fa21e982746|||SPCX|||Tesla-SpaceX Merger: What the Marvell-Lumentum Backlash Tells Investors
