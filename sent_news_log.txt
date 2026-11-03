@@ -1469,3 +1469,70 @@
 2026-11-03T08:21:55+00:00|||PASS|||91ceae8c08f5c91d77e789eb45245ead|||DELL|||Enterprise architecture: Dell and Microsoft integrate hybrid AI
 2026-11-03T08:21:59+00:00|||PASS|||6d0bda646430f9fd69f750cc5fa120ef|||ORCL|||Oracle to sell US$20 billion in stocks and bonds as concerns grow over debt-fueled expansion
 2026-11-03T08:23:01+00:00|||PASS|||e332dd9fbd185500a97ca2022716c8c7|||APD|||What Analyst Projections for Key Metrics Reveal About Air Products and Chemicals (APD) Q4 Earnings
+2026-11-03T17:14:02+00:00|||PASS|||a3ca37980dbb26e1990f95e7ebdd311c|||GOOGL|||Google Parent Alphabet Just Hit a Major Milestone, and It Has Nothing to Do With Its $482 Billion Single-Session Loss
+2026-11-03T17:14:06+00:00|||PASS|||dd235c0e7ef16cb7a8f8994fce00e419|||MU|||GlobalWafers to issue US$500m in bonds to Micron
+2026-11-03T17:14:08+00:00|||PASS|||011072418c961cd671628fb31db8206c|||MU|||Micron: A $150 Billion AI Reckoning Is Coming (NASDAQ:MU)
+2026-11-03T17:14:13+00:00|||PASS|||7ccecc9eb24592b94a7f485297fc0053|||MU|||GlobalWafers to issue US$500 million in bonds with Micron as sole subscriber
+2026-11-03T17:14:24+00:00|||PASS|||aede934bfbb82ba69d12339b56a000ee|||VSH|||Vishay faces earnings test as chip demand remains uneven
+2026-11-03T17:14:31+00:00|||PASS|||80d0f0b8184ff6896c40d242631632d7|||AVGO|||Broadcom denied names of cloud providers backing VMware merger challenge
+2026-11-03T17:14:39+00:00|||PASS|||549c4844cba51cf2505a30a6bf23026f|||CAT|||Caterpillar Inc. Acquires Fabick Cat Dealership – Company Announcement
+2026-11-03T17:14:43+00:00|||SENT|||79cc63a76868a2a63c937920a70ac5f2|||RRX|||Regal Rexnord (RRX) Q3 Earnings and Revenues Beat Estimates|||Regal Rexnord (RRX) 第三季獲利與營收優於預期
+2026-11-03T17:14:51+00:00|||PASS|||f8bd5e40870c51018ba2dae697bfbbe2|||MSFT|||Opinion: 5 questions to ask if your boss offers you a buyout, as Microsoft did with 60,000 employees
+2026-11-03T17:14:53+00:00|||PASS|||46ac26fb6b754838a0d98b99acb3f40b|||MSFT|||Tech layoffs 2026: Tracking all the job losses across Amazon, Microsoft, Netflix, Electronic Arts, Apple, Meta and others
+2026-11-03T17:14:58+00:00|||SENT|||b03357c213f3c100d5250ed640fdfd90|||AMZN|||Amazon Discounting Policy Challengers Get Antitrust Class Status|||Amazon 折扣政策挑戰者獲反壟斷集體訴訟資格
+2026-11-03T17:15:03+00:00|||SENT|||a5458e98db7284c6f6840517b5d2a8da|||AMZN|||Spain's competition watchdog plans to sanction Apple, Amazon (AAPL:NASDAQ)|||西班牙競爭監管機構計劃制裁 Apple、Amazon
+2026-11-03T17:15:09+00:00|||PASS|||4bff760f53b772bb0cdf6ff1d9ad4060|||META|||Meta Reportedly Plans To Raise $20B From Its Cross-Border Bond Sales, Including Debut Euro Offering
+2026-11-03T17:15:10+00:00|||PASS|||ad2a89c3344418da0ce290fef13f5716|||META|||Meta seeks at least $20 billion in bond sale as AI debt boom accelerates
+2026-11-03T17:15:14+00:00|||PASS|||13b482eacf0ee5f554f7e4b02362caab|||AAPL|||Apple Lost About $140 Billion After Hours as Its New CEO Calls Memory Prices “Unprecedented”
+2026-11-03T17:15:17+00:00|||PASS|||0a636a5e1374097fe6b3eb607eceddc3|||AAPL|||CFOs, Businesses Grapple with Midterm Uncertainty; Apple Beats Expectations
+2026-11-03T17:15:19+00:00|||PASS|||c5c3f61622fe6793a0964ee8114901fd|||TSLA|||How a SpaceX-Tesla merger could hand Musk majority control
+2026-11-03T17:15:21+00:00|||PASS|||7cfab1e24eee8179cf76e30f67bcd576|||TSLA|||Musk’s pay under a SpaceX-Tesla merger: voting control, but no $1 trillion payday​
+2026-11-03T17:15:23+00:00|||PASS|||a67d8e316b50c1d8bfc7de01ad80f1a4|||TSLA|||Tesla wins trade zone status for Texas Megapacks, but China tariffs stay
+2026-11-03T17:15:25+00:00|||PASS|||738cb994cb59693eb77297589155fe46|||TSLA|||Musk’s pay under a SpaceX-Tesla merger: voting control, but no $1 trillion payday​ By Reuters
+2026-11-03T17:15:25+00:00|||PASS|||6b1ceeca93d129b022107013ccd6ce8c|||TSLA|||Want a Tesla-SpaceX Merger? Look at the Marvell-Lumentum Deal.
+2026-11-03T17:15:26+00:00|||PASS|||79b4279b0ccd23669fb54339281879c7|||TSLA|||Tesla Bulls Are Betting on a SpaceX Merger — Top Analyst Says Marvell's $115 Billion Lumentum Deal Shows
+2026-11-03T17:15:28+00:00|||PASS|||cab840b9eb0fdb8b1fa36fdbd3422446|||TSLA|||TSLA Stock Slips Overnight: Trump Vows To Shield Musk — But Influencer Flags ‘Tougher Than Ever’ SpaceX Merger Vote
+2026-11-03T17:15:30+00:00|||PASS|||4a10f0d05a5fb67d2e0432e1f4c9a8cc|||NVDA|||Nvidia CEO gave go-ahead on Marvell's mega-acquisition of Lumentum
+2026-11-03T17:15:32+00:00|||PASS|||1c2c1b50264a26397eefe5d635ef8be3|||NVDA|||Amazon closes AI creator's account after he attempts to buy seven Nvidia DGX Spark mini-PCs — Epic CEO Tim Sweeney says his regular orders were canceled before arrival after he tried to buy two GPUs
+2026-11-03T17:15:34+00:00|||PASS|||33c8bdec394fa7447508d125c23bf511|||AMD|||AMD Q3 Earnings to Test CFO Jean Hu Data Center Growth Forecast - Advanced Micro Devices (NASDAQ:AMD)
+2026-11-03T17:15:36+00:00|||PASS|||f32ab8f22696a9d546be6970ad4b08c9|||MRVL|||Marvell And Lumentum Merger Doesn't Make Any Sense To Me (NASDAQ:MRVL)
+2026-11-03T17:15:38+00:00|||PASS|||d2d86c320357c056543f0927ba972f14|||MRVL|||Nvidia CEO gave go-ahead on Marvell's mega-acquisition of Lumentum
+2026-11-03T17:15:39+00:00|||PASS|||43418f462cf17e3265fdf4ea891f87d1|||MRVL|||Marvell Technology to acquire Lumentum Holdings in historic US$115 billion deal
+2026-11-03T17:15:40+00:00|||PASS|||866bb2be70e46fdd3d67a44ce9af8dd7|||MRVL|||Marvell, Lumentum Stocks Have Lost $91 Billion. Could Their Merger Fall Apart?
+2026-11-03T17:15:41+00:00|||PASS|||5e776577e61c3289180615fc2cd3ef3b|||MRVL|||Tesla-SpaceX Merger: What the Marvell-Lumentum Backlash Tells Investors
+2026-11-03T17:15:42+00:00|||PASS|||c697cb64a2331647e62f309a04e036fa|||MRVL|||Marvell stock: StoneX reiterates Buy on Lumentum acquisition
+2026-11-03T17:15:46+00:00|||PASS|||2685c9d7d187a647ffe50b860d527eaa|||ARM|||Emaar Is Said to Study Buyout of $14 Billion Construction Arm
+2026-11-03T17:15:48+00:00|||PASS|||8499222274b86567f21366b2e9e0fec7|||INTC|||AMD Needs a Huge Outlook to Avoid Intel’s Fate as AI Fears Rise
+2026-11-03T17:15:50+00:00|||PASS|||ef72ab3d88cbe8d39b5df5777e7aa972|||INTC|||U.S. Loses $35.1 Billion From Its Bet On Intel's Imploding Stock
+2026-11-03T17:15:52+00:00|||PASS|||4bb106ab9885948f82ee77980ec2aeae|||TSM|||Insider Move: Lipen Yuan Invests $71K In Taiwan Semiconductor Stock
+2026-11-03T17:16:04+00:00|||PASS|||8e2c9719f4a0f9b8633abf81c5cba431|||ASML|||ASML reports transactions under its current share buyback program
+2026-11-03T17:16:26+00:00|||SENT|||850c1a7f272bf375b519f1a472b93219|||ENTG|||Entegris acquires Advanced Abrasives, plans Taiwan facility By Investing.com|||Entegris 收購 Advanced Abrasives，並計畫在台灣設廠
+2026-11-03T17:16:36+00:00|||SENT|||0b0fd86b6a03939b4bceb53e4f11a08c|||LITE|||Lumentum Stock Gains After $5 Billion Co-Packaged Optics Win|||Lumentum 股價在取得 $5 billion 共封裝光學訂單後上漲
+2026-11-03T17:16:41+00:00|||PASS|||ddfd69d22fee7f5f7f278d870a413415|||LITE|||Nvidia CEO gave go-ahead on Marvell's mega-acquisition of Lumentum
+2026-11-03T17:16:42+00:00|||PASS|||626ec6421df5d7ca3ff8e1048d3b4888|||LITE|||Marvell, Lumentum Stocks Have Lost $91 Billion. Could Their Merger Fall Apart?
+2026-11-03T17:16:43+00:00|||PASS|||607e349aa98739ad7206c1308c2c64a9|||LITE|||Tesla-SpaceX Merger: What the Marvell-Lumentum Backlash Tells Investors
+2026-11-03T17:16:44+00:00|||PASS|||14e2f54e3ba5c4f4b80cf03ae19f9ca4|||LITE|||Marvell stock: StoneX reiterates Buy on Lumentum acquisition
+2026-11-03T17:16:57+00:00|||PASS|||60176f444c1e007ff04af70971e2320d|||TXN|||TI celebrates 70 years of innovation in Europe alongside leading customers to engineer next-generation systems
+2026-11-03T17:17:01+00:00|||PASS|||7c3b9509fd1e4e0f776ddf67fc49719c|||DELL|||Morgan Stanley Offers $2.3 Billion Debt for Dell Family Deal
+2026-11-03T17:17:09+00:00|||SENT|||f89c45aaf564fc803e64c25a1be6488d|||ORCL|||Oracle said to allocate 65% of $10 billion share sale to top 10 investors By Investing.com|||據稱 Oracle 將 $10 billion 股票發行的 65% 配售給前 10 大投資者
+2026-11-03T17:17:13+00:00|||PASS|||466377557f342624b7bc52892f9f6890|||CRWV|||CoreWeave (CRWV) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release
+2026-11-03T17:17:16+00:00|||PASS|||aa95d7176bdbf8626fe190c04987ac99|||CIFR|||Will US Elections Gut AI Stocks? Plus, Cipher Digital’s Earnings & SpaceX’s Lawsuit
+2026-11-03T17:17:19+00:00|||PASS|||4e3d8ae2b4610a3e15393e7b588c42b5|||PLTR|||Palantir Stock Tumbles as Wall Street Finds Problems in Big Earnings Beat
+2026-11-03T17:17:20+00:00|||PASS|||1312b3a222620c1f0f768c102faf5dad|||PLTR|||Palantir slumps 5% after earnings as analysts point to slowdown in total contract value
+2026-11-03T17:17:27+00:00|||SENT|||b2fc5365c252c35292843f5285874333|||CRM|||Salesforce (CRM) Files Share Offering, Is The Pullback A Valuation Opportunity?|||Salesforce（CRM）提交股票發行文件，股價回落是否帶來估值機會？
+2026-11-03T17:17:41+00:00|||PASS|||15f382f0b53c8c644691a94d9aa9182a|||AKAM|||Gear Up for Akamai Technologies (AKAM) Q3 Earnings: Wall Street Estimates for Key Metrics
+2026-11-03T17:18:01+00:00|||PASS|||c3de24bac54ad0c597af3cee1a9e6b0c|||VELO|||Velo3D and Sandia National Laboratories Sign Five-Year CRADA to Collaborate on Metal Additive Manufacturing
+2026-11-03T17:18:05+00:00|||PASS|||75e0d15bb9fb72c6f98aead8e3a9e8cb|||SPCX|||How a SpaceX-Tesla merger could hand Musk majority control
+2026-11-03T17:18:07+00:00|||PASS|||5a82ca2bf283c781ece60aac0285eb1d|||SPCX|||Musk’s pay under a SpaceX-Tesla merger: voting control, but no $1 trillion payday​
+2026-11-03T17:18:08+00:00|||PASS|||c44d1098040f173a549f7c81dae39256|||SPCX|||Musk’s pay under a SpaceX-Tesla merger: voting control, but no $1 trillion payday​ By Reuters
+2026-11-03T17:18:09+00:00|||PASS|||8bf6ea6d883c4cd5691845b7a7403658|||SPCX|||Want a Tesla-SpaceX Merger? Look at the Marvell-Lumentum Deal.
+2026-11-03T17:18:10+00:00|||PASS|||14244407f85ec95451867badc6239c9f|||SPCX|||Tesla Stock: Want a SpaceX Merger? Look at the Marvell-Lumentum Deal.
+2026-11-03T17:18:12+00:00|||PASS|||0b5cc3609ee6e23c8392b5aa1f4e4fe7|||SPCX|||Tesla Bulls Are Betting on a SpaceX Merger — Top Analyst Says Marvell's $115 Billion Lumentum Deal Shows
+2026-11-03T17:18:13+00:00|||PASS|||2d345957d48237591c2b794e1cc72b1d|||SPCX|||TSLA Stock Slips Overnight: Trump Vows To Shield Musk — But Influencer Flags ‘Tougher Than Ever’ SpaceX Merger Vote
+2026-11-03T17:18:28+00:00|||SENT|||a18dec50d8ed4fa1d3f43390ba46d3f0|||MTRN|||Materion earnings on deck after raising guidance on record quarter By Investing.com|||Materion 在創紀錄季度上調財測後，即將公布財報
+2026-11-03T17:18:40+00:00|||SENT|||987fba04f4a7a6acd0fc7cd1f56f37b6|||ETN|||Eaton Reports Record $8.9 Billion in Third-Quarter Sales|||Eaton公布第三季創紀錄的 $8.9 billion 銷售額
+2026-11-03T17:18:42+00:00|||PASS|||736a1d28675b6f930514f2a4a75f47b1|||ETN|||Eaton Earnings Are Rock Solid. It Won’t Be Enough to Ease AI Concerns.
+2026-11-03T17:18:44+00:00|||PASS|||10527212e02f81c53e2fb450775d7b92|||ETN|||Eaton beats estimates on strong demand
+2026-11-03T17:18:45+00:00|||PASS|||bc86dd73135eda960ea059eb00e0cdef|||ETN|||Eaton rises as earnings beat estimates, data center demand fuels growth (ETN:NYSE)
+2026-11-03T17:18:50+00:00|||PASS|||e49c2c16d2727798175dbab22c59f741|||ROK|||Exploring Analyst Estimates for Rockwell Automation (ROK) Q4 Earnings, Beyond Revenue and EPS
+2026-11-03T17:18:53+00:00|||PASS|||9385323b2f3b43247d6e1ad2b97896da|||LIN|||Linde India Q2 Results: Net profit slides 31% as margins take a hit; revenue up 12%
