@@ -94,5 +94,77 @@
   "text": "Form 144 內部人預告賣股：Schulz Tamara L（高階主管），1,194 股，約 $87,234",
   "ticker": "CRCL",
   "url": "https://www.sec.gov/Archives/edgar/data/1876042/000195917326007671/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "holding": true,
+  "text": "10-Q 季報",
+  "ticker": "OUST",
+  "url": "https://www.sec.gov/Archives/edgar/data/1816581/000162828026069640/oust-20260930.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "holding": true,
+  "text": "10-Q 季報",
+  "ticker": "NVTS",
+  "url": "https://www.sec.gov/Archives/edgar/data/1821769/000162828026069551/nvts-20260930.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "holding": true,
+  "text": "10-Q 季報",
+  "ticker": "RRX",
+  "url": "https://www.sec.gov/Archives/edgar/data/82811/000008281126000238/rbc-20260930.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "FORM",
+  "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000043/form-20260926.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "LITE",
+  "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026069615/lite-20260926.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "MPWR",
+  "url": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026069440/mpwr-20260930.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "GNRC",
+  "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926034665/gnrc20260930_10q.htm"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Fox-Geen Jeremy（高階主管），4,238 股，約 $317,850",
+  "ticker": "CRCL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1876042/000195917326007685/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "ABBV",
+  "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000037/abbv-20260930.htm"
  }
 ]
