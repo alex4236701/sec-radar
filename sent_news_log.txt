@@ -1457,3 +1457,15 @@
 2026-11-03T03:33:48+00:00|||SENT|||221731f892d77f0b74f7730388269aa0|||CRM|||Exclusive: Salesforce Acquires Startup Cresta for $2.7 Billion
 2026-11-03T03:34:07+00:00|||PASS|||070d9b5933b40afe5de0eb10f33914e9|||IOT|||Samsara to Announce Third Quarter Fiscal Year 2027 Financial Results on December 3, 2026
 2026-11-03T03:34:47+00:00|||PASS|||e12b6974826342df27f2518563502f91|||CRCL|||Ark Invest buys $3.4 million in Coinbase, adds Circle and Robinhood as stocks trade lower
+2026-11-03T08:20:02+00:00|||PASS|||534e88a02cb14950c809a99a9e08aaa6|||GOOGL|||Alphabet Has Lost $766 Billion in October, Its Worst Month Ever. UBS Warns Against Running for the Exits.
+2026-11-03T08:20:17+00:00|||PASS|||e7fadf0015c10cf1ca17af33330c8444|||WOLF|||What Is Wolfspeed (WOLF) Signaling With Its New Tech And EV Supply Deal?
+2026-11-03T08:20:30+00:00|||PASS|||a3d0fed6e197dc33e075b67cf56c28c4|||ECL|||Ecolab Inc. stock outperforms competitors on strong trading day
+2026-11-03T08:20:39+00:00|||PASS|||a244f47a0b641169ad80bdd725c254b6|||AMZN|||Amazon Is Pouring About $220 Billion Into AI This Year, and Insuring Its Debt Costs 50% More Than in August
+2026-11-03T08:20:44+00:00|||PASS|||c91da79dbeb24edb9f037d373698affd|||AAPL|||World in Brief: Anthropic’s big spending plans; Apple’s earnings beat estimates
+2026-11-03T08:20:47+00:00|||SENT|||5cb07a69440cfad69da7c8088e9dceee|||AAPL|||Apple Sales Rise 12%; Tariff Refunds Pad EPS: Rapid Earnings Reaction
+2026-11-03T08:20:55+00:00|||PASS|||c5e8aa1e9ffcf86bbaeb98a62e7a4863|||AMD|||AMD's $2 Trillion AI Opportunity Comes With a Supply Risk
+2026-11-03T08:21:01+00:00|||PASS|||c2f86dff5fab4c56b9e73ae032a34acc|||INTC|||Microsoft’s AI PC Roadmap Outlines Next-Gen AMD & Intel Chips, With Entry-Tier 8 GB, Copilot+ Ready 16 GB+, Builder PCs & Supercomputers at 128 GB+
+2026-11-03T08:21:20+00:00|||PASS|||9f51b0bf3e1e2d769aed432194a978e4|||ACLS|||Axcelis Invests $35M in New Ion Implantation Facility in South Korea
+2026-11-03T08:21:55+00:00|||PASS|||91ceae8c08f5c91d77e789eb45245ead|||DELL|||Enterprise architecture: Dell and Microsoft integrate hybrid AI
+2026-11-03T08:21:59+00:00|||PASS|||6d0bda646430f9fd69f750cc5fa120ef|||ORCL|||Oracle to sell US$20 billion in stocks and bonds as concerns grow over debt-fueled expansion
+2026-11-03T08:23:01+00:00|||PASS|||e332dd9fbd185500a97ca2022716c8c7|||APD|||What Analyst Projections for Key Metrics Reveal About Air Products and Chemicals (APD) Q4 Earnings

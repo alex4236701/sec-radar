@@ -19,6 +19,16 @@
     "official_name": "ANALOG DEVICES",
     "strict": true
   },
+  "APD": {
+    "created": "2026-11-03",
+    "cs_names": [],
+    "names": [
+      "Air Products",
+      "Air Products & Chemicals"
+    ],
+    "official_name": "Air Products & Chemicals",
+    "strict": true
+  },
   "DHR": {
     "created": "2026-11-01",
     "cs_names": [],
@@ -26,6 +36,18 @@
       "Danaher"
     ],
     "official_name": "DANAHER",
+    "strict": false
+  },
+  "ISRG": {
+    "created": "2026-11-03",
+    "cs_names": [
+      "Intuitive"
+    ],
+    "names": [
+      "Intuitive Surgical",
+      "Intuitive"
+    ],
+    "official_name": "INTUITIVE SURGICAL",
     "strict": false
   },
   "LLY": {
@@ -60,6 +82,17 @@
     "official_name": "ORACLE",
     "strict": false
   },
+  "RSG": {
+    "created": "2026-11-03",
+    "cs_names": [
+      "Republic"
+    ],
+    "names": [
+      "Republic Services"
+    ],
+    "official_name": "REPUBLIC SERVICES",
+    "strict": false
+  },
   "TXN": {
     "created": "2026-11-01",
     "cs_names": [],
@@ -68,6 +101,16 @@
       "TI"
     ],
     "official_name": "TEXAS INSTRUMENTS",
+    "strict": false
+  },
+  "WM": {
+    "created": "2026-11-03",
+    "cs_names": [],
+    "names": [
+      "Waste Management",
+      "WM"
+    ],
+    "official_name": "WASTE MANAGEMENT",
     "strict": false
   }
 }
