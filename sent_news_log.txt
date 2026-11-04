@@ -1585,3 +1585,21 @@
 2026-11-04T00:46:27+00:00|||PASS|||37b3493d5f8fb1a9e2887c9284fcff56|||CRM|||Sesame Software Launches Free Migration Assessment to Help Enterprises Leave Salesforce Without Losing Data
 2026-11-04T00:46:41+00:00|||PASS|||4515a36b6217bf13c79ba7272f00a35b|||VRNS|||Varonis (VRNS) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
 2026-11-04T00:46:48+00:00|||SENT|||88b5876c1627492bfc97ed5328ef20d0|||VRNS|||Varonis Systems (VRNS) Q3 Earnings and Revenues Surpass Estimates|||Varonis Systems（VRNS）第三季獲利與營收均超越預期
+2026-11-04T07:49:47+00:00|||PASS|||cb8e0aca8c1ccdbe123e0bcd68b97a6a|||AVGO|||Marvell’s Acquisition of Lumentum to Unite Optical and Electronic Capabilities, Potentially Challenging Broadcom’s Market Leadership, Says TrendForce
+2026-11-04T07:50:04+00:00|||PASS|||dd239429a5644afd2411bd67c8f929e7|||META|||Meta raises $15 billion in five-part US bond sale to fund AI expansion
+2026-11-04T07:50:09+00:00|||PASS|||e51ce682bc999f8fff10e5289fcc7741|||TSLA|||Midterm Election Impact: SPCX, ASTS, RKLB Stocks Sink As Musk’s Political Ties Put Tesla-SpaceX Merger Under Fresh Scrutiny
+2026-11-04T07:50:14+00:00|||PASS|||2b15793e5b6bf16542feed37a6960621|||NVDA|||Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered
+2026-11-04T07:50:17+00:00|||PASS|||49a56d180942043a235cd8470ce6dfa0|||AMD|||AMD beats expectations as agentic AI sparks its data center revenue growth engines
+2026-11-04T07:50:20+00:00|||PASS|||3c57b2c3a5bf0448406465e7a82be323|||MRVL|||MRVL's Proposed LITE Buyout Suggests Long-Term AI Infrastructure Boom
+2026-11-04T07:50:24+00:00|||PASS|||56fb0b005b1813cce9ca2b54d3432215|||ARM|||Emaar Offers to Buy Out Construction Arm at $16.3 Billion Value
+2026-11-04T07:50:29+00:00|||PASS|||f7b5f6fc290488630605f6791818b4e4|||TSM|||TSMC scheduled to list NT$14.8 billion green bonds on Nov. 12
+2026-11-04T07:50:31+00:00|||PASS|||27c2d3ed4a3169a9cd2f7bda79c5fa95|||TSM|||TSMC's acquisition of AUO plant reshapes panel supply chain
+2026-11-04T07:50:41+00:00|||SENT|||8bac7bd5c94ba49a44338dc8e37a400d|||SKHY|||US chip curbs on China complicate SK Hynix's US$45 billion NAND plan|||美國對中國的晶片限制使 SK Hynix 的 US$45 billion NAND 計畫複雜化
+2026-11-04T07:51:27+00:00|||PASS|||01f17cf9e5bc8dba0aa77c5c77641556|||VRT|||Vertiv’s unveils new Singapore Experience Center
+2026-11-04T07:51:30+00:00|||PASS|||b2c495b2d18ea1026305f6e5454a0b5d|||ORCL|||CoreWeave Soars 5%, Oracle Up 4% as Oracle’s $20 Billion Raise Is “Exactly What They Previewed”
+2026-11-04T07:51:32+00:00|||PASS|||5e3b95cce77aff088e8967913cf0b618|||CRWV|||CoreWeave Soars 5%, Oracle Up 4% as Oracle’s $20 Billion Raise Is “Exactly What They Previewed”
+2026-11-04T07:51:43+00:00|||PASS|||662e70faf547f841467704a854b84d77|||IBM|||Yonsei steps up quantum computing research with latest IBM processor
+2026-11-04T07:51:49+00:00|||PASS|||a94730f6d75d785fd78781fe55deb533|||ZS|||ZS Investors Have Opportunity to Join Zscaler, Inc. Fraud Investigation with SBS Law
+2026-11-04T07:52:12+00:00|||PASS|||62e56c7d486543630d11d618a52b8be5|||SPCX|||Midterm Election Impact: SPCX, ASTS, RKLB Stocks Sink As Musk’s Political Ties Put Tesla-SpaceX Merger Under Fresh Scrutiny
+2026-11-04T07:52:14+00:00|||PASS|||d4ddda41063b9f72c79dc1fcf64a88c2|||RKLB|||Midterm Election Impact: SPCX, ASTS, RKLB Stocks Sink As Musk’s Political Ties Put Tesla-SpaceX Merger Under Fresh Scrutiny
+2026-11-04T07:52:15+00:00|||PASS|||dae2b4af75417513b8d82e66a3ab7edd|||RKLB|||Rocket Lab Plunged 7% Amid Amazon Fears — but That Could Be the Best Reason to Buy
