@@ -1517,3 +1517,22 @@
 2026-11-04T17:31:22+00:00|||SENT|||af474a7a94482f6bfa3e35daf89ba8f2|||CRCL|||Circle Beats Q3 Estimates on Arc Token Sale, Cuts 5% of Staff|||Circle 憑藉 Arc 代幣出售，第三季業績優於預期，並裁減 5% 員工
 2026-11-04T17:31:29+00:00|||PASS|||fb4fd1d2fcec829a8d349d26354a7fab|||LLY|||Novo Nordisk Stock Shrugs Off Eli Lilly Threat as Weight-Loss Pill Shines in Earnings
 2026-11-04T17:31:37+00:00|||SENT|||c3138957202f66ea8002524506cbf98a|||ABBV|||AbbVie bolsters UK R&D presence, inks $1.38bn IBD deal with Nxera|||AbbVie 擴大英國研發布局，與 Nxera 簽署 $1.38bn IBD 交易
+2026-11-04T19:55:19+00:00|||PASS|||c5c84a9913f6400d8d39a6b426ded1eb|||WULF|||TeraWulf Falls 4% Despite Google Backstop for $19 Billion Anthropic Leases; Cipher Digital Plunges 18%, IREN Tumbles 9%
+2026-11-04T19:55:29+00:00|||PASS|||249b4414aa5c4a54f5fe5e9907289bb5|||GOOGL|||Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan
+2026-11-04T19:55:32+00:00|||PASS|||71d1a4bad172467d3a8738d7a7450f58|||GOOGL|||TeraWulf Falls 4% Despite Google Backstop for $19 Billion Anthropic Leases; Cipher Digital Plunges 18%, IREN Tumbles 9%
+2026-11-04T19:55:34+00:00|||PASS|||37c2ee90180ad6afb38bbbc5292c0be6|||GOOGL|||Watch out for Big Tech companies like Meta and Alphabet issuing more shares and diluting your stock ownership
+2026-11-04T19:56:06+00:00|||PASS|||06b0c6cdcc3b45e8d727b217f86d0ce8|||MSFT|||Microsoft Stocks Jump 3.5% as $25 Billion Debt Sale Is Due to Close
+2026-11-04T19:56:07+00:00|||PASS|||834d7a35d0e8de986948e204714aef4b|||MSFT|||If You Invest $1,000 in Microsoft Today, Here’s What It Could Be Worth by 2029
+2026-11-04T19:56:11+00:00|||PASS|||af7fbb03ff49f6dd805f4323a3a87f3c|||META|||Watch out for Big Tech companies like Meta and Alphabet issuing more shares and diluting your stock ownership
+2026-11-04T19:56:15+00:00|||PASS|||3029fc76f4728a0de4bda2f32a322c3d|||TSLA|||Amdocs Posts Downbeat Q4 Earnings, Joins Skyworks Solutions, Tesla And Other Big Stocks Moving Lower In W
+2026-11-04T19:56:18+00:00|||PASS|||402790508665f9ddab12203e1ea858fd|||NVDA|||Nvidia Stocks Decline 1.35% as $108 Billion Guide Sets the Next Revenue Hurdle
+2026-11-04T19:56:21+00:00|||PASS|||42344650910dd437f65e02ae5a8a58ca|||MRVL|||If You Invest $1,000 in Marvell Today, Here’s What It Could Be Worth by 2030
+2026-11-04T19:56:24+00:00|||PASS|||d4cda06e7c76224c10da7d158d5777f2|||QCOM|||SpaceX’s Qualcomm deal could be a precursor to a telecom takeover
+2026-11-04T19:56:29+00:00|||PASS|||49f93418aba0faac431d1bed1214d745|||INTC|||Intel CEO Lip Bu Tan acquires $9.7M in Intel stock
+2026-11-04T19:56:31+00:00|||PASS|||ba517e9a40ffe9ee22eff5cc3fb545aa|||TSM|||TSMC Stocks Move Lower as November Sales Data Face a $53.3 Billion Quarterly Hurdle
+2026-11-04T19:57:01+00:00|||SENT|||51000ee32b73f3593cc6d4a746c8c7df|||AEHR|||AEHR Stock Jumps as Aehr Systems Reports Blockbuster Q3 Revenue|||AEHR股價跳漲，因Aehr Systems公布亮眼的Q3營收
+2026-11-04T19:58:13+00:00|||PASS|||b3d7b018919946cb5ad7d70c884b686c|||SPCX|||SpaceX’s Qualcomm deal could be a precursor to a telecom takeover
+2026-11-04T19:58:15+00:00|||PASS|||069052fadaec10a57519b9e8cd2980e2|||SPCX|||Watch Tesla, SpaceX Take a Hit as Dems' Sweep Midterms; McDonald's Moves on Revenue | Stock Movers
+2026-11-04T19:58:36+00:00|||PASS|||cc12a9ffff96a2f8c5c4e70729b186e7|||CMI|||Cummins India Q2 results: Revenue at ₹3,247 crore led by growth in domestic and export markets
+2026-11-04T19:58:45+00:00|||PASS|||0b55d66d4a283b22b57f55e8260c7c84|||CRCL|||Funding Circle Holdings plc CEO appointment
+2026-11-04T19:58:52+00:00|||PASS|||91b1e0baad2087aef28eae153381ea0a|||LLY|||Eli Lilly Revenue Climbs on Demand for Obesity Drugs
