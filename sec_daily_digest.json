@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "holding": true,
+  "text": "10-Q 季報",
+  "ticker": "VSH",
+  "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000080/form10q.htm"
+ },
+ {
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "holding": true,
+  "text": "10-Q 季報",
+  "ticker": "CAT",
+  "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm"
+ },
+ {
+  "date": "2026-11-04",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Alexander Keith Brian（董事），900 股，約 $238,473",
+  "ticker": "AMZN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000100027526000119/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-04",
+  "form": "424B5",
+  "holding": false,
+  "text": "424B5 公司發債（初步說明書，尚未定價）",
+  "ticker": "META",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526446110/d44678d424b5.htm"
+ },
+ {
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "AMD",
+  "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+ },
+ {
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "ALAB",
+  "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000045/alab-20260930.htm"
+ },
+ {
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "CRCL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm"
+ }
+]
