@@ -1,4 +1,4 @@
-@@HEARTBEAT|||2026-11-03|||2026-10-21T13:41:10+00:00
+@@HEARTBEAT|||2026-11-04|||2026-10-21T13:41:10+00:00
 2026-10-21T13:48:11+00:00|||PASS|||53275986069174eeb637c5c24fd51416|||GOOGL|||Revolut Outage Hits Crypto Access as Google Cloud Failure Disrupts Banking Services
 2026-10-21T13:48:14+00:00|||PASS|||283f6083ce691b37451da8dc0a2ff92c|||GOOGL|||Google Cloud outage hits UK banks
 2026-10-21T13:48:18+00:00|||PASS|||b9ebe1f7e45cd9d67900ff6243ac239c|||GOOGL|||Google Says Services Are Recovering After U.K. Cloud Outage Hits Businesses
@@ -1557,3 +1557,31 @@
 2026-11-03T19:42:13+00:00|||PASS|||43cca6a1139a5f96e570b2ac12b65d6a|||SNOW|||Snowflake Helps Enterprises Deploy AI Agents with Trusted Business Context and Built-In Controls
 2026-11-03T19:42:32+00:00|||PASS|||ce04e04d2c79d7647a4efbc3bdb8a8b0|||BB|||All You Need to Know About BlackBerry (BB) Rating Upgrade to Buy
 2026-11-03T19:42:45+00:00|||PASS|||d4e5f95b2f6a433ec53d1fa21e982746|||SPCX|||Tesla-SpaceX Merger: What the Marvell-Lumentum Backlash Tells Investors
+2026-11-04T00:43:06+00:00|||PASS|||2cbc5375971f53073ea477a61b091a6d|||GOOGL|||Google responds to political backlash over removing search from schools that ban AI
+2026-11-04T00:43:15+00:00|||SENT|||ab26ef36a114903aa68af1ddea5bc4dc|||GOOGL|||Setback for Google as EU court adviser warns AI chatbot may breach copyright rules|||Google遭遇挫折：歐盟法院顧問警告，AI 聊天機器人可能違反版權規則
+2026-11-04T00:43:32+00:00|||SENT|||67c82546c48cc1bc6d2eb01491493fe7|||OUST|||Ouster, Inc. (OUST) Reports Q3 Loss, Beats Revenue Estimates|||Ouster, Inc. (OUST)公布第三季虧損，營收高於預期
+2026-11-04T00:43:42+00:00|||SENT|||848f77a141d5e30473925053031682a6|||WOLF|||Wolfspeed Intros Transparent SiC Substrates for AR, Quantum Computing|||Wolfspeed推出面向AR、量子運算的透明SiC基板
+2026-11-04T00:43:49+00:00|||SENT|||5e133f07f7c6fd8db433132d04fff523|||NVTS|||Navitas Semiconductor Announces Third Quarter 2026 Financial Results|||Navitas Semiconductor 宣布 2026 年第三季財務業績
+2026-11-04T00:43:58+00:00|||PASS|||9b9d30e9b54f198d162643dc378a0f44|||FCEL|||FuelCell Energy Inc. stock rises Tuesday, outperforms market
+2026-11-04T00:44:04+00:00|||PASS|||3986281f5f2d43ea5b71d510fec5fe63|||ECL|||Ecolab Inc. stock underperforms Tuesday when compared to competitors
+2026-11-04T00:44:15+00:00|||SENT|||6cf48904025e502c9b948c2f57e0603b|||MSFT|||Microsoft Stocks Rise With $44.9 Billion Anthropic Commitment Disclosed|||Microsoft 股價上漲，$44.9 billion Anthropic 承諾曝光
+2026-11-04T00:44:21+00:00|||PASS|||d9c4dd67cab94c63709f957db0214483|||META|||Meta raises $15 billion in five-part US bond sale By Reuters
+2026-11-04T00:44:24+00:00|||PASS|||881851e765a675769fe4dcdecf7a6489|||META|||Meta raises $15 billion in five-part US bond sale
+2026-11-04T00:44:26+00:00|||PASS|||075802acb7d4616b8340c092481e9640|||AAPL|||Apple heads into the holidays with record revenue, growing market share, and a wave of new products
+2026-11-04T00:44:30+00:00|||PASS|||94a9b3aa617cfdd1f2c774c1acdffd9e|||TSLA|||Tesla-SpaceX Merger: What the Marvell-Lumentum Backlash Tells Investors
+2026-11-04T00:44:34+00:00|||PASS|||5695b75d84002a307a462f77b0c7fec1|||AMD|||AMD: Don't Chase The Record Quarter (NASDAQ:AMD)
+2026-11-04T00:44:37+00:00|||PASS|||e2a2718f117f39ca820124b14a3ecb76|||AMD|||AMD Stock Surges After Hours As Q3 Sales Surge 45% On AI Boom, And Expectations For 80% Revenue Jump In 2027
+2026-11-04T00:44:42+00:00|||SENT|||c85a2c5aaa8ada03450111ab5946516c|||AMD|||AMD stock jumps after hours as quarterly results, revenue guidance beat estimates|||AMD 季度業績及營收指引優於預期，盤後股價跳漲
+2026-11-04T00:44:46+00:00|||PASS|||d3594a88f9b58ce6ade9ab583784ed0a|||MRVL|||Marvell to Expand AI Connectivity Portfolio with Lumentum Acquisition
+2026-11-04T00:44:47+00:00|||PASS|||e7083960a8f0784e870e086755f3a9f9|||MRVL|||Marvell Technology could plunge on latest multibillion-dollar acquisition
+2026-11-04T00:44:50+00:00|||PASS|||0d2b4f007c83818c4de7482f6c68528b|||QCOM|||Qualcomm Could Swing $14.4 Billion In Value After Earnings
+2026-11-04T00:45:06+00:00|||SENT|||53d3a4ef7733fc26595b9e132fdb8246|||SKHY|||US China Export Controls Threaten SK Hynix's Multi-Billion-Dollar New York Chip Expansion Plan|||美中出口管制威脅 SK Hynix 在紐約的數十億美元晶片擴建計畫
+2026-11-04T00:45:35+00:00|||SENT|||9e34157e0b4190f22d6283814ac1237d|||ALAB|||Astera Labs, Inc. (ALAB) Q3 Earnings and Revenues Beat Estimates|||Astera Labs, Inc. (ALAB) 第三季獲利與營收優於預期
+2026-11-04T00:45:43+00:00|||PASS|||873c866f73196c600b6675ebe0352213|||LITE|||Marvell to Expand AI Connectivity Portfolio with Lumentum Acquisition
+2026-11-04T00:45:54+00:00|||SENT|||0f875581a28d5d11b2bd9f6b7d1ba83a|||SWKS|||Skyworks Solutions (SWKS) Tops Q4 Earnings and Revenue Estimates|||Skyworks Solutions (SWKS) 第四季獲利與營收優於預期
+2026-11-04T00:46:08+00:00|||SENT|||47e0dd5f0dd514d6ed23a6356254db31|||ADI|||Analog Devices completes Alif Semiconductor acquisition By Investing.com|||Analog Devices 完成收購 Alif Semiconductor
+2026-11-04T00:46:21+00:00|||PASS|||c0abd5f738e75c8fa14647ee8eb54253|||PLTR|||Midterms, Markets, and Earnings Malaise. Apple and Palantir Sum Up the Mood.
+2026-11-04T00:46:23+00:00|||PASS|||36a948a177818a0630732665879bf3a6|||PLTR|||Palantir sinks after earnings as analysts point to slowdown in total contract value
+2026-11-04T00:46:27+00:00|||PASS|||37b3493d5f8fb1a9e2887c9284fcff56|||CRM|||Sesame Software Launches Free Migration Assessment to Help Enterprises Leave Salesforce Without Losing Data
+2026-11-04T00:46:41+00:00|||PASS|||4515a36b6217bf13c79ba7272f00a35b|||VRNS|||Varonis (VRNS) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
+2026-11-04T00:46:48+00:00|||SENT|||88b5876c1627492bfc97ed5328ef20d0|||VRNS|||Varonis Systems (VRNS) Q3 Earnings and Revenues Surpass Estimates|||Varonis Systems（VRNS）第三季獲利與營收均超越預期
