@@ -1510,3 +1510,23 @@
 2026-11-05T17:37:21+00:00|||PASS|||e54cf6417b6d27ed0bd76605afceb9df|||CRCL|||Samsung Wallet launches USDC accounts on Solana for US Galaxy users
 2026-11-05T17:37:27+00:00|||PASS|||34765187795a3befa6ca85bfc4c51d05|||ABBV|||Abbvie's Nxera deal, Nooks $500m, and the birth of Onvaro
 2026-11-05T17:37:34+00:00|||PASS|||d893a1d24f08dccda6688194382d8852|||WM|||WM Technology, Inc. to Announce Third Quarter 2026 Financial Results on November 9, 2026
+2026-11-05T20:08:47+00:00|||SENT|||320f875ec7411595905eb0730df8335c|||WULF|||Google could take stake in TeraWulf’s $19B AI project | CoinDesk Videos|||Google 可能入股 TeraWulf 的 $19B AI 專案
+2026-11-05T20:08:50+00:00|||PASS|||8a36ca84594bff26dbb37c318dd04b18|||WULF|||TeraWulf Stock Slides Ahead of Q3 Earnings
+2026-11-05T20:08:58+00:00|||PASS|||d0dbb81d8bafc0d9f1e9dfb270ec4353|||GOOGL|||Google Plans to Spend $17 Billion on Wyoming Data Center
+2026-11-05T20:09:03+00:00|||PASS|||ec572691ca72b8bea8305103fbd8f676|||MU|||Micron Stock Falls After Report of $4.5 Billion Taiwan Pause
+2026-11-05T20:09:05+00:00|||PASS|||02c9c85b9441c6840d2b3bb05757d449|||MU|||Micron Stock Gets Crushed by AI Selloff. Don’t Ignore the $200 Billion Silver Lining.
+2026-11-05T20:09:33+00:00|||PASS|||12d7797ea439d3859f47f43d4866eb5c|||MSFT|||Nscale's US$35 billion IPO faces fresh uncertainty after Microsoft rejects Texas AI capacity expansion
+2026-11-05T20:09:38+00:00|||PASS|||b15f4dccf776625f52f55040ba2c9beb|||META|||Meta (META) Acquires Conductor As New U.S. AI Rules Cloud The Payoff
+2026-11-05T20:09:42+00:00|||PASS|||eb2070d5cc02735c746e37f75d5d5c17|||TSLA|||The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $450 billion two-day wipeout
+2026-11-05T20:09:43+00:00|||PASS|||728d1bebfd2c71d44150a4756c17587f|||TSLA|||SpaceX, Tesla extend losses as midterm results cloud data center, merger outlook
+2026-11-05T20:09:51+00:00|||SENT|||a5599015dcf56395506a4033511f21a9|||MRVL|||Marvell agrees to buy Lumentum in $115B stock deal|||Marvell 同意以 $115B 股票交易收購 Lumentum
+2026-11-05T20:10:13+00:00|||SENT|||f678c95c79cf60780d27d1d0aa10ff38|||ASML|||ASML posts record quarter as Washington keeps its China chip deadline alive|||ASML創下季度業績紀錄之際，華盛頓仍維持中國晶片期限
+2026-11-05T20:10:16+00:00|||PASS|||fe89f15294e5ae4e01cacf8e6a6d2296|||AMAT|||Applied Materials Stocks Fall 12% Before a $10.25 Billion Revenue Test
+2026-11-05T20:10:21+00:00|||PASS|||38e9a18cc3bcd3d45b0988d53bd63049|||ACLS|||What Axcelis Technologies (ACLS) Said on Its Q3 Earnings Call
+2026-11-05T20:10:25+00:00|||SENT|||c0f1b35c3b74f9d510c44d007f76a720|||ACLS|||Axcelis Technologies (ACLS) Tops Q3 Earnings and Revenue Estimates|||Axcelis Technologies (ACLS) 第三季獲利與營收均優於預期
+2026-11-05T20:11:14+00:00|||PASS|||aa69bbc3fa1ba8629444a9196f70feb6|||SNOW|||LendingTree Can’t Arbitrate Claims Over Snowflake Data Breach
+2026-11-05T20:11:18+00:00|||PASS|||277d7a733736a7afc644ea842d05cbf3|||IBM|||Oak Ridge National Laboratory, IBM, and AMD Launch New Co-Design Platform for Quantum Error Correction
+2026-11-05T20:11:48+00:00|||PASS|||e061b8bb9aeaefa8b6ae6f8c1beb5484|||SPCX|||The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $450 billion two-day wipeout
+2026-11-05T20:11:49+00:00|||PASS|||f3f155ca0a0a2e45d961e9a854b2d576|||SPCX|||SpaceX, Tesla extend losses as midterm results cloud data center, merger outlook
+2026-11-05T20:12:21+00:00|||SENT|||074f01884601cccd158cb94ddb7a27a7|||QNT|||Quantinuum Unveils Nexus Roadmap to Deliver the First Developer Platform Designed for the Fault-Tolerant Quantum Era|||Quantinuum公布Nexus路線圖，旨在推出首個為容錯量子時代設計的開發者平台
+2026-11-05T20:12:28+00:00|||PASS|||f722e02d780c147a7321dd337a17ec6c|||LLY|||4 Healthcare ETFs to Tap Into Eli Lilly's Post-Q3 Earnings Rally
