@@ -1,6 +1,6 @@
 @@VERSION|||2
 @@HEARTBEAT|||2026-11-05
-@@AI|||2026-11-05|||0
+@@AI|||2026-11-05|||9
 0001973239-26-000135|||2026-10-06|||LEGACY
 0001193125-26-394998|||2026-10-06|||LEGACY
 0001193125-26-393324|||2026-10-06|||LEGACY
@@ -1219,3 +1219,22 @@
 0001707744-26-000025|||2026-11-05|||SKIP|||RBRK|||4
 0002019143-26-000025|||2026-11-05|||SKIP|||RBRK|||4
 0001060391-26-000329|||2026-11-05|||SKIP|||RSG|||4
+0001628280-26-070529|||2026-11-05|||DIGEST|||EOSE|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/1805077/000162828026070529/eose-20260930.htm
+0001628280-26-070528|||2026-11-05|||SENT|||EOSE|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1805077/000162828026070528/eose-20261104.htm
+0001193125-26-448357|||2026-11-05|||SKIP|||MSFT|||8-K
+0001959173-26-007778|||2026-11-05|||SENT|||MSFT|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/789019/000195917326007778/xsl144X01/primary_doc.xml
+0001000275-26-000122|||2026-11-05|||DIGEST|||AMZN|||144/A Form 144 內部人預告賣股：Alexander Keith Brian（NO LONGER AN AFFILIATE），股數未知，約 $0|||https://www.sec.gov/Archives/edgar/data/1018724/000100027526000122/xsl144X01/primary_doc.xml
+0001193125-26-448015|||2026-11-05|||DIGEST|||META|||424B5 424B5 公司發債：$15,000,000,000|||https://www.sec.gov/Archives/edgar/data/1326801/000119312526448015/d135326d424b5.htm
+0001104659-26-123080|||2026-11-05|||SENT|||ACLS|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1113232/000110465926123080/tm2629011d1_8k.htm
+0001959173-26-007767|||2026-11-05|||DIGEST|||AEIS|||144 Form 144 內部人預告賣股：DelSanto Anne（董事），265 股，約 $53,005|||https://www.sec.gov/Archives/edgar/data/927003/000195917326007767/xsl144X01/primary_doc.xml
+0001493594-26-000041|||2026-11-05|||SENT|||MTSI|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1493594/000149359426000041/mtsi-20261105.htm
+0000019617-26-000397|||2026-11-05|||DIGEST|||ALGM|||SCHEDULE 13G/A 13G 修正：JPMORGAN CHASE & CO，持股 4.30%（已降到 5% 以下）|||https://www.sec.gov/Archives/edgar/data/866291/000001961726000397/xslSCHEDULE_13G_X02/primary_doc.xml
+0001171843-26-007146|||2026-11-05|||SENT|||HIMX|||利空｜【外國公司重大公告 6-K】|||https://www.sec.gov/Archives/edgar/data/1342338/000117184326007146/f6k_110526.htm
+0000851205-26-000082|||2026-11-05|||DIGEST|||CGNX|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/851205/000085120526000082/cgnx-20261004.htm
+0001753539-26-000154|||2026-11-05|||SENT|||BKSY|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1753539/000175353926000154/bksy-20261105.htm
+0001628280-26-070557|||2026-11-05|||DIGEST|||LEU|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/1065059/000162828026070557/leu-20260930.htm
+0000026172-26-000037|||2026-11-05|||DIGEST|||CMI|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/26172/000002617226000037/cmi-20260930.htm
+0000026172-26-000035|||2026-11-05|||SENT|||CMI|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/26172/000002617226000035/cmi-20261105.htm
+0001959173-26-007766|||2026-11-05|||DIGEST|||GNRC|||144 Form 144 內部人預告賣股：Taffe Norman P（高階主管），300 股，約 $54,603|||https://www.sec.gov/Archives/edgar/data/1474735/000195917326007766/xsl144X01/primary_doc.xml
+0001024478-26-000045|||2026-11-05|||SENT|||ROK|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1024478/000102447826000045/rok-20261105.htm
+0000002969-26-000043|||2026-11-05|||SENT|||APD|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/2969/000000296926000043/apd-20261105.htm
