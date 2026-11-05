@@ -1,77 +1,4 @@
 @@HEARTBEAT|||2026-11-05|||2026-10-21T13:41:10+00:00
-2026-10-22T14:36:37+00:00|||PASS|||9f26eb52a63218e9cb86c5c3ac0b3d16|||MU|||Micron introduces quarterly employee bonus tied to profits
-2026-10-22T14:36:44+00:00|||SENT|||dc45abf3295af5b533286296ca4163a3|||MU|||Micron pulls the plug on future 4F² DRAM after two decades of research in dramatic shift — company says architecture offers no meaningful density advantages, increases manufacturing complexity and costs, and has fundamental scaling limitations
-2026-10-22T14:36:50+00:00|||SENT|||383aee3ab8e502bacb14a778495bf41d|||MU|||Micron Posted a $54.23 Billion Quarter and Guided to $61.5 Billion for Next Quarter
-2026-10-22T14:36:52+00:00|||PASS|||127a611db403978b6bf83b935c6cb20f|||MU|||While Micron Calls The 4F² Memory Cell Architecture A “Myth,” YMTC Has Followed CXMT In Lining Up A Prototype That Operates At 9,600 MT/s
-2026-10-22T14:37:01+00:00|||SENT|||3a47324d08e88cc8f4287facfeefeb4d|||TTMI|||TTM Technologies (TTMI) Q3 Earnings and Revenues Surpass Estimates
-2026-10-22T14:37:09+00:00|||SENT|||4455018f3a52f68e2c8448847bfb72e2|||UMAC|||Unusual Machines receives $16.9M order from Powerus By Investing.com
-2026-10-22T14:37:31+00:00|||PASS|||59d062adca85823a8c788a0ce180fd0c|||ECL|||ZwitterCo Announces Strategic Investment from Ecolab to Drive Water Circularity
-2026-10-22T14:37:38+00:00|||SENT|||6a883b9592b50c6fc1877deb5a7ec8f2|||HON|||Honeywell Q3 2026 slides: 34% EPS growth drives guidance raise By Investing.com
-2026-10-22T14:37:47+00:00|||PASS|||d3944b61682f6ae0581acfa6deecb05b|||MSFT|||Microsoft says ConnectWise breach let Chinese spies loose on 2,250 cloud tenants
-2026-10-22T14:37:50+00:00|||PASS|||81f827371317a768b8854394d03f312b|||MSFT|||Microsoft is Creating a $700 Billion Moat With Its AI Spend Through 2030
-2026-10-22T14:37:55+00:00|||PASS|||1342c2557ea16026388b8cc5304361e1|||AMZN|||Hackers pile on PHP2Shell as AWS reveals attacks began before disclosure
-2026-10-22T14:37:59+00:00|||PASS|||ecd27f609f6760505f29369f60490e24|||META|||Publishers, advertisers call EU, UK antitrust regulators to suspend Meta's new commercial terms
-2026-10-22T14:38:06+00:00|||PASS|||2c41aa57958a044be6270fcae3819f8c|||META|||Meta's new stock sale sends one signal: AI demand isn't slowing down
-2026-10-22T14:38:10+00:00|||PASS|||da706f324f299ad76e0da702a743f858|||META|||Meta's AI build-out comes with an $825 billion price tag
-2026-10-22T14:38:16+00:00|||PASS|||e9ffa66fc9248b514c520a057288cd9b|||META|||Meta Reports $825 Billion in Future Spending Commitments
-2026-10-22T14:38:17+00:00|||PASS|||0179ff0799e98569f8fb29b2113cbe95|||META|||Meta has strong chance of getting $25 billion New Mexico penalty slashed on appeal, experts say
-2026-10-22T14:38:21+00:00|||PASS|||ef60f76a208773199104ea6b9b9cb77c|||TSLA|||Analysts Hike Tesla Price Targets; SpaceX Merger, AI 'In Full Control'
-2026-10-22T14:38:22+00:00|||PASS|||b2c6e39cb5de9307cd8b1f149ac2c716|||TSLA|||Why Tesla shareholders should be 'a little bit nervous' about a SpaceX merger
-2026-10-22T14:38:23+00:00|||PASS|||d549d681e3866325ea25d4c5f17cb3d4|||TSLA|||Dan Ives Sees 90% Odds Of A Tesla-SpaceX Merger: Eyes ‘More And More M&A’ Across Space, Industrials
-2026-10-22T14:38:24+00:00|||PASS|||493267a8e5f944fc29a7328a714845c0|||TSLA|||A SpaceX-Tesla merger: The ins, outs, and what-have-yous
-2026-10-22T14:38:28+00:00|||PASS|||e65a9f02385c5bdb2ed2f71cd457cb7d|||TSLA|||Market Chatter: Nvidia, Tesla to Invest $2.80 Billion in Samsung Electro-Mechanics
-2026-10-22T14:38:29+00:00|||PASS|||7e7c364c6b72ebc2210e21cc7b7f61b0|||TSLA|||Analyst sees boost to SpaceX shares in long run if Tesla merger happens
-2026-10-22T14:38:33+00:00|||PASS|||f2c10a42c285b9e7c0ce6aff0aa3d60c|||NVDA|||Nvidia in talks to invest in Firmus after failed IPO - report
-2026-10-22T14:38:38+00:00|||PASS|||cbab6e10bac19af54a994f0997ca0597|||NVDA|||Market Chatter: Nvidia, Tesla to Invest $2.80 Billion in Samsung Electro-Mechanics
-2026-10-22T14:38:44+00:00|||PASS|||521bc50b12521937cd30ae52acae89c4|||ARM|||Coinbase’s Ireland Arm Fined by Irish Central Bank Over Breaches
-2026-10-22T14:38:52+00:00|||SENT|||8af54d9f28dd2e10e76b6997445fe3db|||TSM|||TSMC is seeking chipmaking equipment that doesn't contain Chinese rare-earth magnets — asks suppliers to provide alternative motors as export controls threaten fab operations
-2026-10-22T14:39:01+00:00|||PASS|||097455986e4dd942bb37d9a4311d22f2|||WDC|||Western Digital Stock Has Nearly Halved—and Earnings Could Spark a Comeback
-2026-10-22T14:39:09+00:00|||PASS|||3bb60a31bef499f5b6f7b60d6594f519|||AMAT|||Applied Materials Slides After Targeting $12 Billion in Services by 2030
-2026-10-22T14:39:29+00:00|||PASS|||cc32fe4cd9570ee2e8f2f5d6fdb74e30|||CRDO|||Credo's Fundamentals Remain Good, But Too Early To Buy The Channel Bottom Or Dip (CRDO)
-2026-10-22T14:39:51+00:00|||PASS|||5bdfd705315537008312c4d51e6557e3|||VRT|||Dassault Systèmes and Vertiv Team to Accelerate AI Factory Design and Deployment – Company Announcement
-2026-10-22T14:39:53+00:00|||PASS|||c33a5300a2b16ff3ccae5869dae21f74|||CRWV|||BofA reiterates Buy on CoreWeave stock ahead of Q3 earnings By Investing.com
-2026-10-22T14:39:58+00:00|||PASS|||a67c46e4dc249b1562b5de6204153d4d|||NBIS|||Nebius gets $3.5 billion Citi facility for data center growth
-2026-10-22T14:40:01+00:00|||PASS|||80318e931136738745b72579ce46b779|||NBIS|||Nebius secures $3.5 billion financing facility with Citi
-2026-10-22T14:40:08+00:00|||PASS|||78e8dd605d6d9001909e68a5bd085f1c|||CRM|||REI Systems Launches GovGrants® Public Sector on Salesforce, Delivering Advanced Grants Management and AI-Powered Intelligence
-2026-10-22T14:40:10+00:00|||PASS|||3f89d6a6062edb0850c533e90cb0de4f|||CRM|||Salesforce's $5.6B Braze Buyout: Moving From AI Defense To Full-Scale Offense (NYSE:CRM)
-2026-10-22T14:40:14+00:00|||PASS|||75a5a237238ae68add44bca9fd3b8395|||IBM|||Is Kyndryl the next MicroStrategy? Why the IBM spinoff is finally rebounding
-2026-10-22T14:40:16+00:00|||PASS|||cb8ebeea91d94a015484148a60956d9d|||IBM|||IBM Earnings Offer a Glimmer of Recovery
-2026-10-22T14:40:17+00:00|||PASS|||d82d2ee8e45c4c29beb4577111e5672d|||IBM|||IBM beat on revenue and profit, then Krishna's own words sank the stock
-2026-10-22T14:40:19+00:00|||PASS|||c9c5c130ab473e47994915cad86de0b7|||IBM|||IBM’s stock falls as investors struggle to shake off July earnings miss
-2026-10-22T14:40:43+00:00|||PASS|||10f229b3818349c93f93b5253455a0f4|||VIAV|||Inertial Labs, a VIAVI Solutions Company, Accelerates Complex Alt-PNT and Guidance Systems Design with Programmable INS Development Platform
-2026-10-22T14:40:53+00:00|||PASS|||492f00c9cbb0dbcf5a60dff5580f2550|||SPCX|||Elon Musk: SpaceX Revenue Could Hit “Somewhere Between $500 Billion and a Trillion” by 2027
-2026-10-22T14:40:55+00:00|||PASS|||80953bfd3adb21249ece79d2cab892dd|||SPCX|||Analysts Hike Tesla Price Targets; SpaceX Merger, AI 'In Full Control'
-2026-10-22T14:40:56+00:00|||PASS|||55d0f2444ac6a674b0a97dfbf7ef7ab9|||SPCX|||SpaceX and Tesla Are Already Joined at the Hip. What a Formal Merger Would Mean.
-2026-10-22T14:40:58+00:00|||PASS|||e2587073a371dc08f85ce4064862c3fa|||SPCX|||Why Tesla shareholders should be 'a little bit nervous' about a SpaceX merger
-2026-10-22T14:40:59+00:00|||PASS|||c6e73c7f09353aa3d6fc1cb9fb94ad68|||SPCX|||Dan Ives Sees 90% Odds Of A Tesla-SpaceX Merger: Eyes ‘More And More M&A’ Across Space, Industrials
-2026-10-22T14:41:00+00:00|||PASS|||def414c03758896c587c55482805b611|||SPCX|||A Tesla-SpaceX Merger Would Make a Daunting Foe — For Now
-2026-10-22T14:41:01+00:00|||PASS|||5fcaf9584c52c346365e6b167a1db3f5|||SPCX|||A SpaceX-Tesla merger: The ins, outs, and what-have-yous
-2026-10-22T14:41:02+00:00|||PASS|||af68faa9c19600c537a2ad923368b050|||SPCX|||Elon Musk’s dream merger is a nightmare for SpaceX shareholders
-2026-10-22T14:41:18+00:00|||PASS|||5c4c51c6c975cc627849e7711ba3293d|||BE|||Is Bloom Energy (BE) A Bargain As AI Power Demand Puts Focus On Q3 Earnings?
-2026-10-22T17:22:41+00:00|||PASS|||aab2044bf9a12f2d36438847abe5f4cf|||MU|||Micron unveils global profit-linked bonus plan after Taiwan union pressure
-2026-10-22T17:23:02+00:00|||PASS|||d63301df6490f412d54bb25665f6001c|||FCEL|||DEADLINE ALERT for DKS, BBNX, FCEL, and LINC: The Law
-2026-10-22T17:23:13+00:00|||PASS|||50aa8a55f8b9138ca2d6d98bc453992e|||MSFT|||Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents
-2026-10-22T17:23:14+00:00|||PASS|||aa45940b40510aaafe97a98de45b59b0|||MSFT|||Nvidia, Apple, Alphabet, Microsoft, and Amazon Now Make Up 30.8% of VOO and 49.2% of VUG. Here's a Better Low-Cost Vanguard ETF to Buy Now.
-2026-10-22T17:23:17+00:00|||PASS|||5a510ce1344ed4ffc6ce041ac1b4b670|||AMZN|||Amazon Q3: The $220 Billion Question Investors Can't Ignore (NASDAQ:AMZN)
-2026-10-22T17:23:17+00:00|||PASS|||1142c07f0bd44d5ad566fff2f444f8fb|||AMZN|||If You Invest $1,000 in Amazon Each Month Starting Now, This is What You’d Have in 5 Years
-2026-10-22T17:23:18+00:00|||PASS|||6f9d8282aff263ab930bbb4f55c41b22|||AMZN|||Nvidia, Apple, Alphabet, Microsoft, and Amazon Now Make Up 30.8% of VOO and 49.2% of VUG. Here's a Better Low-Cost Vanguard ETF to Buy Now.
-2026-10-22T17:23:21+00:00|||PASS|||1f2ed7db50e7727e3f4d4ba6d563cfaf|||META|||Meta whines New Mexico is “impossible” to please after historic $25 billion fine
-2026-10-22T17:23:27+00:00|||SENT|||ff8315be97daafe9cd750cadbb3eea65|||META|||EXCLUSIVE: Rhode Island sues Meta over alleged tolerance for scam advertising
-2026-10-22T17:23:30+00:00|||PASS|||be193e38cb057f828dddae415a76c2bd|||AAPL|||Nvidia, Apple, Alphabet, Microsoft, and Amazon Now Make Up 30.8% of VOO and 49.2% of VUG. Here's a Better Low-Cost Vanguard ETF to Buy Now.
-2026-10-22T17:23:33+00:00|||PASS|||c97672dcb139c1700861e79647438f5c|||TSLA|||A SpaceX-Tesla Merger Feels Inevitable. Is It Actually a Good Deal?
-2026-10-22T17:23:34+00:00|||PASS|||e98df887fa5c000b9c772b324395e425|||TSLA|||What Is the Biggest Obstacle to a SpaceX-Tesla Merger? JPMorgan Points to China
-2026-10-22T17:23:41+00:00|||PASS|||0415c92f9420a897f609b1dbe69de341|||QCOM|||Hackintosh was supposed to be dead. Then someone put macOS on Snapdragon.
-2026-10-22T17:24:28+00:00|||PASS|||d4119d95fc3a005c3656f7a853f2ef9f|||VICR|||Vicor Corporation Shares Gain 4.5% on Strong Q3 Earnings Growth
-2026-10-22T17:24:35+00:00|||PASS|||2b5a6b029a341ed9068b916e76c2f7f2|||DELL|||Dell unveils Nvidia Vera CPU offerings, launches its first Groq 3 LPU rack-scale inference solution
-2026-10-22T17:24:40+00:00|||SENT|||8f46ebceb647d3a0cf11dc332ab6251c|||HPE|||HPE expands Private Cloud AI solution to support mixed Nvidia hardware clusters, launches Vera CPU rack
-2026-10-22T17:24:45+00:00|||PASS|||9267113b25b387c4dda935d9da28a6ed|||CRWV|||BofA reiterates Buy on CoreWeave stock ahead of Q3 earnings
-2026-10-22T17:24:48+00:00|||PASS|||6faa61fffed5f2d3144e950d05076361|||NBIS|||Nebius Group Secures $3.5 Billion Senior Secured Facility With Citi
-2026-10-22T17:24:52+00:00|||PASS|||8ca3b3af86584923d6854b7d0b044d28|||PLTR|||Palantir continues to drive up US government, commercial deals into Q3 earnings: Citi
-2026-10-22T17:25:29+00:00|||PASS|||a1688bb60635b8717b2acf9e4aae730c|||SPCX|||John Malone Predicts SpaceX Will Invest $10B in Skydance
-2026-10-22T17:25:30+00:00|||PASS|||7d0769f3fc0be583c33a32d8a76e129e|||SPCX|||A SpaceX-Tesla Merger Feels Inevitable. Is It Actually a Good Deal?
-2026-10-22T17:25:31+00:00|||PASS|||b8c2286738675dafa23f4ad0c085e579|||SPCX|||What Is the Biggest Obstacle to a SpaceX-Tesla Merger? JPMorgan Points to China
-2026-10-22T17:25:32+00:00|||PASS|||85d892503c3a04ba9806073645ee409b|||SPCX|||Could China Prevent a SpaceX-Tesla Merger? JPMorgan Examines Regulatory Risks and a Possible Solution
-2026-10-22T17:25:34+00:00|||PASS|||516718b00c36d9bf2ec34445c5708edc|||SPCX|||Analyst sees boost to SpaceX shares in long run if Tesla merger happens
 2026-10-22T20:38:23+00:00|||PASS|||5d6fd72d12a1b2ba55fe6ee467231093|||GOOGL|||Nvidia, Apple, Alphabet, Microsoft, and Amazon Now Make Up 30.8% of VOO and 49.2% of VUG. Here's a Better Low-Cost Vanguard ETF to Buy Now.
 2026-10-22T20:38:50+00:00|||PASS|||a61141cc3be5175ee384cc3f063c9320|||HON|||Honeywell Aerospace (HONA) vs. GE and RTX: Can a High-Margin Aerospace Platform Deliver a Post-Spin-Off Re-Rating?
 2026-10-22T20:38:57+00:00|||PASS|||b50fd0288364b82b667aa5ae3cf4f8de|||META|||Meta’s Big Equity Offering Might Come Soon; Could Berkshire Be a Buyer?
@@ -1535,3 +1462,51 @@
 2026-11-05T08:17:37+00:00|||PASS|||47851ce47e88d82d135d0f100d2a5a9b|||IONQ|||IonQ (IONQ) Acquires Security Firm And Expands Quantum Access In Connecticut
 2026-11-05T08:17:40+00:00|||PASS|||db427eeaf13648d9774c52b09f2d5983|||CRCL|||Circle CEO Backs Binance Despite $6.3 Billion Hack: ‘Remains an Extraordinarily Powerful Platform’ With
 2026-11-05T08:17:46+00:00|||PASS|||95a40ff68892b8c127cb2fff86b7c58d|||ABBV|||AbbVie (ABBV) Stock Climbs As Q3 Earnings Fuel Growth Case
+2026-11-05T17:32:47+00:00|||SENT|||c1b1add6e5dd9734bfaf8ad846b74ce7|||EOSE|||Eos Energy Enterprises, Inc. (EOSE) Reports Q3 Loss, Beats Revenue Estimates|||Eos Energy Enterprises, Inc. (EOSE)公布第三季虧損，營收高於預期
+2026-11-05T17:32:55+00:00|||PASS|||37bf96eabe76ef283dffb2848084262e|||GOOGL|||Google AI in School Triggered Teen’s Mental Health Crisis, Lawsuit Says
+2026-11-05T17:32:57+00:00|||PASS|||a49240060a3c194b80d9d3fb827443ec|||GOOGL|||Google Joins The Surge Of Tech Layoffs
+2026-11-05T17:33:02+00:00|||SENT|||c3c7cf081305f4b490a54a2a6cbe72de|||GOOGL|||Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults|||若 Anthropic 違約，Google 可能取得比特幣礦商 TeraWulf 的 $19 billion AI 專案股權
+2026-11-05T17:33:05+00:00|||PASS|||639b170d27ae3abd83a4c082bf69281e|||GOOGL|||Google Created 5 Billionaires Worth $553B — Almost All That Wealth Belongs to 2 People
+2026-11-05T17:33:08+00:00|||PASS|||01ddda41801e4965c4d5370a01dbd99d|||MU|||Micron hits unexpected roadblock on $4.5 billion chip bet
+2026-11-05T17:33:10+00:00|||PASS|||f8d2406f4967be09bacd2472d9c40496|||MU|||Micron pauses work on $4.5 billion Taiwan plant, Bloomberg News reports By Reuters
+2026-11-05T17:33:13+00:00|||PASS|||0015c84d608057dfb7682c070f743b88|||MU|||Micron Pauses Work on $4.5 Billion Taiwan Plant After Labor Spat
+2026-11-05T17:33:15+00:00|||PASS|||c8d130627d56bcade633e94a5705c13b|||MU|||Micron's $4.5 billion Taoyuan plant construction halted amidst labor dispute — company and union still haven’t reached agreement as latter asks for clearer profit-sharing terms
+2026-11-05T17:33:20+00:00|||PASS|||54105aeec81b40366417cda153a4387b|||MU|||Micron pauses work on $4.5 billion Taiwan plant, Bloomberg News reports
+2026-11-05T17:33:31+00:00|||SENT|||4323dfe3cfcfb9df179045c8a8501cbc|||ONDS|||Ondas to acquire Stemme, targets 10 aircraft per month by 2028|||Ondas 將收購 Stemme，目標於 2028 年每月生產 10 架飛機
+2026-11-05T17:33:54+00:00|||SENT|||7cb3373fa3b4c13b50d4439f5253fe01|||RDW|||Redwire wins $20 million DARPA contract for second low-orbit satellite test|||Redwire 獲得 DARPA 2,000 萬美元合約，進行第二次低軌衛星測試
+2026-11-05T17:33:57+00:00|||PASS|||bd794b7f726f5901a1abc1f7a894affd|||MSFT|||Microsoft, Amazon Add $400 Billion in Market Value as Analyst Sees Pricing Upside From Data Center Constraints
+2026-11-05T17:33:59+00:00|||PASS|||dd30404e3f50e4e322f87a4b885bd5b7|||MSFT|||Microsoft Opts Against Expanding Nscale Texas Data Centre Agreement Ahead of Planned $35 Billion IPO
+2026-11-05T17:34:00+00:00|||PASS|||cb6ea4a97bcfc66cef539832f77aade8|||MSFT|||Microsoft Is the Last Big Tech Buyback Holdout: Alphabet, Meta, Amazon Go Dark as AI Spending Eats Cash, Says This Market Commentator
+2026-11-05T17:34:05+00:00|||PASS|||f5f1bfebe91ead20b9ea77f458dfdf3b|||AAPL|||Today in Apple history: Fortune names Steve Jobs ‘CEO of the decade’
+2026-11-05T17:34:08+00:00|||PASS|||1aceda98e28063fb0c164f3ef46061e5|||TSLA|||SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out
+2026-11-05T17:34:09+00:00|||PASS|||e9df1027e71b89de21edaf31db3106cc|||TSLA|||Tesla Optimus Rival Agility Robotics Begins Trading After SPAC Merger
+2026-11-05T17:34:10+00:00|||PASS|||4c106ff77666f750f5442a4386507cee|||TSLA|||TSLA Stock Slips Overnight: Analysts Flag Political, Premium Risks To SpaceX Merger — Cathie Wood’s ARK Buys Anyway
+2026-11-05T17:34:13+00:00|||PASS|||0ec57cf434bf08fb2678baa85e5da688|||NVDA|||Nvidia has lost nearly $1.4 trillion since its October record
+2026-11-05T17:34:13+00:00|||PASS|||c642989bfd39d79bc42f5a5310d04b2b|||NVDA|||US Tech Stocks Wipe Out $1.7 Trillion as Nvidia, AMD Sink - NVIDIA (NASDAQ:NVDA)
+2026-11-05T17:34:16+00:00|||PASS|||05e270e1bd1c0fc2efba0515844668e2|||AMD|||US Tech Stocks Wipe Out $1.7 Trillion as Nvidia, AMD Sink - NVIDIA (NASDAQ:NVDA)
+2026-11-05T17:34:16+00:00|||PASS|||944e5537a3ac692a114b3312c20f9e8f|||AMD|||AMD Stock Jumped After Its Report. I'd Wait for a Lower Price to Buy.
+2026-11-05T17:34:20+00:00|||PASS|||0906f57b9fc1ce7fd21cd2ed06ec0dd1|||QCOM|||Qualcomm, Arm drop after earnings: Here's what you need to know
+2026-11-05T17:34:24+00:00|||PASS|||9b031dfc06372a3c42afa8b9fd75026f|||ARM|||Qualcomm, Arm drop after earnings: Here's what you need to know
+2026-11-05T17:34:25+00:00|||PASS|||60e9ddfa061cfc6db2d986fc24e20d72|||ARM|||Arm Stock: Earnings Show It Has an Apple and Android Problem
+2026-11-05T17:34:28+00:00|||PASS|||d3c8b4154cb2c9d94533a153bafe8532|||INTC|||Intel leaker claims Nova Lake desktop chips have 5.1 GHz clock limit beyond 90°C — high clock speeds could demand significant cooling for next-gen chips
+2026-11-05T17:34:59+00:00|||PASS|||40fc0c6c6acb2533665d8f76858925f1|||ENTG|||Entegris Expands Strategic Partnership with Kioxia to Accelerate Materials Innovation for Next-Generation Memory in the AI Era
+2026-11-05T17:35:06+00:00|||SENT|||2314c6038642d6a7b0651a3b1b130520|||MTSI|||M/A-Com (MTSI) Beats Q4 Earnings and Revenue Estimates|||M/A-Com (MTSI) 第四季獲利與營收優於預期
+2026-11-05T17:35:33+00:00|||PASS|||3e84e4a5dd938b4ac0c8ce06a87cc22d|||NBIS|||Nebius Group (NBIS) Expected to Beat Earnings Estimates: Can the Stock Move Higher?
+2026-11-05T17:35:34+00:00|||PASS|||1170d932fefcf0af639df82a46da2247|||NBIS|||Microsoft’s $5 Billion AI Spending Shortfall Puts IREN, Nebius Under Spotlight as Satellite Imagery Shows
+2026-11-05T17:35:39+00:00|||PASS|||4dd5eaa9585739fbf831866462d02462|||NOW|||LTM and ServiceNow turn internal AI agent deployment into enterprise go-to-market play
+2026-11-05T17:35:46+00:00|||PASS|||4c767be38a0af8172dea472786042d43|||IBM|||IBM, AMD and Oak Ridge join forces to launch quantum computing error-correction platform
+2026-11-05T17:36:05+00:00|||PASS|||32342b22ea1916ad6927300743b74ea4|||HIMX|||No surprises in Himax’s (NASDAQ:HIMX) Q3 sales numbers but stock drops 22%
+2026-11-05T17:36:09+00:00|||SENT|||f19240ec17b7a8126308c71e9b5729fb|||HIMX|||Himax: Q3 Earnings Snapshot|||Himax：第三季財報摘要
+2026-11-05T17:36:22+00:00|||PASS|||539b1caff5d0ff5cdc89084340d5e998|||SPCX|||SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out
+2026-11-05T17:36:23+00:00|||PASS|||442eba51afd3d5b522745eb44f2dae6f|||SPCX|||SpaceX Default Risk Hits Fresh Peak as Tech-Led Selloff Builds
+2026-11-05T17:36:24+00:00|||PASS|||606fd5fca4afb9ea45716d6e1b002925|||SPCX|||Wall Street Is Being Asked to Take Part of SpaceX’s $40 Billion AI Bet
+2026-11-05T17:36:31+00:00|||PASS|||64925e3676c33ca1037f193a0cae3c20|||BKSY|||BlackSky Stock Surges After Surprising Q3 Results
+2026-11-05T17:36:34+00:00|||SENT|||d4c5c96154f417a60a15433d9f93d716|||BKSY|||BlackSky Technology Inc. (BKSY) Reports Q3 Loss, Tops Revenue Estimates|||BlackSky Technology Inc. (BKSY) 公布第三季虧損，營收高於預期
+2026-11-05T17:36:52+00:00|||PASS|||9f00ab686c7ed44abd71f143321f7b50|||CMI|||Cummins (CMI) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
+2026-11-05T17:36:57+00:00|||SENT|||53bc01227a84e76faa368a0cbf34ee59|||CMI|||Cummins (CMI) Q3 Earnings and Revenues Miss Estimates|||Cummins (CMI)第三季獲利與營收均不及預期
+2026-11-05T17:37:04+00:00|||SENT|||a09eae17651bf0f05cdfa82dbd4842aa|||ROK|||Rockwell Automation Profit Rises, Issues Fiscal Year Outlook|||Rockwell Automation 獲利上升，發布財年展望
+2026-11-05T17:37:10+00:00|||PASS|||8de7d08902c0df42589ef02843a481bb|||APD|||Air Products and Chemicals (APD) Q4 Earnings: How Key Metrics Compare to Wall Street Estimates
+2026-11-05T17:37:14+00:00|||SENT|||08a47bf21e273f559b32b4dc9d916cd1|||APD|||Air Products gains in premarket trading as FY27 earnings outlook tops estimates|||Air Products因FY27獲利展望高於預期，盤前股價上漲
+2026-11-05T17:37:21+00:00|||PASS|||e54cf6417b6d27ed0bd76605afceb9df|||CRCL|||Samsung Wallet launches USDC accounts on Solana for US Galaxy users
+2026-11-05T17:37:27+00:00|||PASS|||34765187795a3befa6ca85bfc4c51d05|||ABBV|||Abbvie's Nxera deal, Nooks $500m, and the birth of Onvaro
+2026-11-05T17:37:34+00:00|||PASS|||d893a1d24f08dccda6688194382d8852|||WM|||WM Technology, Inc. to Announce Third Quarter 2026 Financial Results on November 9, 2026
