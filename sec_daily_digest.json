@@ -1,1 +1,42 @@
-[]
+[
+ {
+  "date": "2026-11-06",
+  "form": "424B5",
+  "holding": false,
+  "text": "424B5 公司發債",
+  "ticker": "META",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm"
+ },
+ {
+  "date": "2026-11-06",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：FMR LLC，持股 7.40%",
+  "ticker": "PENG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1616533/000031506626002953/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-06",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Mayer Bethany（董事），16 股，約 $3,336",
+  "ticker": "LRCX",
+  "url": "https://www.sec.gov/Archives/edgar/data/707549/000195917326007804/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-06",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：HOU HONG Q（高階主管、董事），2,000 股，約 $202,000",
+  "ticker": "SMTC",
+  "url": "https://www.sec.gov/Archives/edgar/data/88941/000195917326007805/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-06",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "MP",
+  "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000057/mp-20260930.htm"
+ }
+]

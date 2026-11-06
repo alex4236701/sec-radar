@@ -1,6 +1,6 @@
 @@VERSION|||2
 @@HEARTBEAT|||2026-11-06
-@@AI|||2026-11-06|||14
+@@AI|||2026-11-06|||15
 0002080157-26-000015|||2026-10-07|||SKIP
 0001944970-26-000027|||2026-10-07|||SKIP
 0001855880-26-000020|||2026-10-07|||SKIP
@@ -1042,3 +1042,10 @@
 0001277620-26-000011|||2026-11-06|||SKIP|||ISRG|||4
 0001959173-26-007787|||2026-11-06|||DIGEST|||WM|||144 Form 144 內部人預告賣股：Varkey Johnson（高階主管），500 股，約 $121,000|||https://www.sec.gov/Archives/edgar/data/823768/000195917326007787/xsl144X01/primary_doc.xml
 0001225208-26-008729|||2026-11-06|||SKIP|||WM|||4
+0001628280-26-071306|||2026-11-06|||SENT|||WULF|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/wulf-20261106.htm
+0001193125-26-450754|||2026-11-06|||DIGEST|||META|||424B5 424B5 公司發債|||https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm
+0000315066-26-002953|||2026-11-06|||DIGEST|||PENG|||SCHEDULE 13G/A 13G 修正：FMR LLC，持股 7.40%|||https://www.sec.gov/Archives/edgar/data/1616533/000031506626002953/xslSCHEDULE_13G_X02/primary_doc.xml
+0001959173-26-007804|||2026-11-06|||DIGEST|||LRCX|||144 Form 144 內部人預告賣股：Mayer Bethany（董事），16 股，約 $3,336|||https://www.sec.gov/Archives/edgar/data/707549/000195917326007804/xsl144X01/primary_doc.xml
+0001959173-26-007805|||2026-11-06|||DIGEST|||SMTC|||144 Form 144 內部人預告賣股：HOU HONG Q（高階主管、董事），2,000 股，約 $202,000|||https://www.sec.gov/Archives/edgar/data/88941/000195917326007805/xsl144X01/primary_doc.xml
+0001973251-26-000042|||2026-11-06|||SENT|||SNOW|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1640147/000197325126000042/xsl144X01/primary_doc.xml
+0001801368-26-000057|||2026-11-06|||DIGEST|||MP|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/1801368/000180136826000057/mp-20260930.htm
