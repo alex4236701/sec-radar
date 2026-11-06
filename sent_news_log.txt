@@ -1,18 +1,4 @@
 @@HEARTBEAT|||2026-11-06|||2026-10-21T13:41:10+00:00
-2026-10-23T06:18:19+00:00|||PASS|||b08047d2f574b3dfee5a6bf3a87677fd|||TTMI|||TTM Technologies Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into TTM Technologies (TTMI)
-2026-10-23T06:18:49+00:00|||PASS|||91f42078b3f176429289a1e382fce595|||TSLA|||Why a Merger With Tesla Could Be a Disaster for SpaceX
-2026-10-23T06:18:51+00:00|||PASS|||c6a5242620f85c47b8f35d58bc0fe40d|||TSLA|||Watch A Tesla-SpaceX Merger Doesn’t Add Up
-2026-10-23T06:18:59+00:00|||PASS|||d8308f4a77df73e22483b8e26ad248a8|||ARM|||SK Data Center Arm in Talks to Fund $350 Billion AI Buildout
-2026-10-23T06:19:07+00:00|||SENT|||3d88dace97465bd6d26edd73ee109645|||INTC|||FCC grants Intel a waiver to foreign robot ban to prevent chip disruptions
-2026-10-23T06:19:25+00:00|||PASS|||ea5e41c22ae61d271ef8e738aba6ab5f|||LRCX|||Lam Research sees WFE topping US$200 billion in 2027
-2026-10-23T06:20:00+00:00|||SENT|||f60901568999ce19f4733195c2149a4e|||IFNNY|||[News] Infineon and NVIDIA Expand GaN Power Collaboration for AI Data Centers
-2026-10-23T06:20:13+00:00|||PASS|||707d08b734b2d6aec8c1fbaaacf7acad|||NBIS|||Nebius Lands $3.5 Billion Financing Amid Neocloud Debt Fears
-2026-10-23T06:20:16+00:00|||PASS|||a7bb5bc1c13ad20ec3706f130ea70e34|||NBIS|||Nebius signs $3.5 billion senior secured bridge loan with Citi
-2026-10-23T06:20:54+00:00|||PASS|||c789df9ab5c2d9a0c0b9d96de4c4f03c|||SPCX|||Why a Merger With Tesla Could Be a Disaster for SpaceX
-2026-10-23T06:20:58+00:00|||PASS|||3efc7521885f7071d800a22f429b041c|||SPCX|||SpaceX records $561 million investment gain from stake in Elon Musk's Boring Co.
-2026-10-23T06:21:05+00:00|||PASS|||5c1179e3fe76457861fefc541d9c354c|||SPCX|||SpaceX in Talks to Access 80,000 Cell Sites for New Network
-2026-10-23T06:21:08+00:00|||PASS|||e98c50f901e4fa91673b064cb1df0f16|||SPCX|||Watch A Tesla-SpaceX Merger Doesn’t Add Up
-2026-10-23T06:21:35+00:00|||PASS|||e3f4a75c831e0cc4cd21551951dd4393|||CRCL|||Trump, World Liberty Financial Sued by Circle Investor Over Alleged $2 Billion UAE Crypto Windfall: ‘No P
 2026-10-23T14:20:42+00:00|||PASS|||8e7b27d28038b4770cb729bb26f952e4|||GOOGL|||Waymo Keeps Importing Chinese Zeekr Robotaxis as a Senate Ban Looms
 2026-10-23T14:20:46+00:00|||PASS|||98e6d9c4d0e4c3992e683177e8465c08|||GOOGL|||Countdown to Alphabet (GOOGL) Q3 Earnings: Wall Street Forecasts for Key Metrics
 2026-10-23T14:20:55+00:00|||PASS|||9f20345041f5acdfb7d677b367399c83|||UMAC|||Here are Friday's biggest analyst calls: Nvidia, SpaceX, CoreWeave, Deckers, Unusual Machines & more
@@ -1538,3 +1524,19 @@
 2026-11-06T01:04:04+00:00|||PASS|||b622bd7bf259796820c48c902cd201d7|||QNT|||Quantinuum Stock Rises After Earnings Beat. It Has Big Ambitions.
 2026-11-06T01:04:06+00:00|||PASS|||ee8297f2ef541a18b782bfc84ddf5006|||QNT|||Quantum Computing Stocks: IonQ, Quantinuum Q3 Results, Guidance Top Views
 2026-11-06T01:04:10+00:00|||SENT|||8746dd62a2834a32c76eea5211c89462|||QNT|||Quantinuum ticks up as it boosts full-year guidance (QNT:NASDAQ)|||Quantinuum上調全年展望，股價小幅走高
+2026-11-06T08:17:47+00:00|||SENT|||2663f3830ab009ffd0a22c89dc06ac78|||GOOGL|||Google, Meta and TikTok Sue California Over Ban on Features for Kids|||Google、Meta 和 TikTok 就加州禁止兒童使用某些功能提起訴訟
+2026-11-06T08:17:59+00:00|||SENT|||5181a5e4a14b5c72168b2aa9cc9194c2|||UMAC|||Unusual Machines, Inc. (UMAC) Reports Q3 Loss, Beats Revenue Estimates|||Unusual Machines, Inc. (UMAC) 公布第三季虧損，營收優於預期
+2026-11-06T08:18:06+00:00|||PASS|||0f69da8b34725e2adb69f4fbedc31f96|||VSH|||Is Vishay Intertechnology (VSH) A Bargain After Record Revenue?
+2026-11-06T08:18:24+00:00|||PASS|||4ecd41eb0ae749b7beeb54ea08d4422b|||MSFT|||AI data center firm IREN delays Microsoft AI deliveries, plans $15 billion spending push
+2026-11-06T08:18:31+00:00|||PASS|||ea0cf4da1d9eb4f59ba5b9e37b70832f|||META|||Meta Acquires Conductor to Expand Into Multi-Agent AI Coding Tools
+2026-11-06T08:18:34+00:00|||PASS|||b2ea25aa4bdc378336d329ca51ae6710|||AAPL|||Apple Stock: Record Revenue Ahead, But Memory Costs Will Eat The Growth (NASDAQ:AAPL)
+2026-11-06T08:18:36+00:00|||PASS|||0e21d5436804daee8de3d66b9f480635|||TSLA|||Ross Gerber Says Tesla's 'Good Old Days' Ended When Elon Musk Started Selling Shares to Buy Twitter
+2026-11-06T08:18:45+00:00|||SENT|||bac2f177e42a5c16cdcdf911dca3470f|||QCOM|||Qualcomm validates HBC memory architecture, targets AI250 samples in 1H27|||Qualcomm 驗證 HBC 記憶體架構，目標於 2027 年上半年提供 AI250 樣品
+2026-11-06T08:18:53+00:00|||PASS|||d090395aae36653c03efd26cc0a7ef20|||TSM|||TSMC Stocks Fall 7.46% Despite a $53.3 Billion Revenue Midpoint
+2026-11-06T08:19:01+00:00|||PASS|||f7393dee0d96a9766d51ff230842c5b2|||SKHY|||SK Hynix AI arm buys US$377 million stake in Penguin Solutions from SK Telecom
+2026-11-06T08:19:11+00:00|||SENT|||c5965736e9ae74dcd08dc02b16cc1fb9|||PENG|||SK Hynix AI arm buys US$377 million stake in Penguin Solutions from SK Telecom|||SK Hynix旗下AI部門以US$377 million向SK Telecom購入Penguin Solutions股權
+2026-11-06T08:20:07+00:00|||PASS|||831af63beb56fcc2f9fa020272898d86|||IBM|||Yonsei First to Deploy IBM Quantum Nighthawk
+2026-11-06T08:20:13+00:00|||PASS|||aedb19b2b186227144b7b8e71c378653|||PANW|||Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M
+2026-11-06T08:20:41+00:00|||PASS|||67c562a2a548c6d4305b1fa0644bf210|||SPCX|||US proposes space launch rule changes in potential boost for SpaceX
+2026-11-06T08:20:55+00:00|||PASS|||e6392021aabd566108190a22b173c08d|||LEU|||Centrus Energy stock rating upgraded to Buy at Roth/MKM on revenue risk mitigation
+2026-11-06T08:21:10+00:00|||PASS|||4cfc7b27e9ebb3d89d384d7854052de3|||CRCL|||CRCL Stock Layoffs: What to Know About the Latest Circle Job Cuts
