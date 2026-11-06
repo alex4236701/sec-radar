@@ -1,11 +1,4 @@
 @@HEARTBEAT|||2026-11-06|||2026-10-21T13:41:10+00:00
-2026-10-23T17:19:14+00:00|||PASS|||ef643cef75f9cbfc01f3101350788143|||CAT|||Dividend Roundup: Citigroup, IBM, Caterpillar, Costco, and more (DVY:NASDAQ)
-2026-10-23T17:19:16+00:00|||PASS|||8ce9446421ba3a75781db7db3b178103|||CAT|||Caterpillar stock may move 6.3% on Oct. 29 earnings report
-2026-10-23T17:19:28+00:00|||PASS|||612866400fc9eb5b238440e283a0cde3|||META|||Eyemart Consumers Revive Lawsuit Over Web Data Sharing With Meta
-2026-10-23T17:20:34+00:00|||PASS|||86a0fda5add42c999f1852db5d6956b5|||NBIS|||Nebius borrows $3.5 billion as investors question neocloud debt
-2026-10-23T17:20:39+00:00|||PASS|||dcb41e68b4ce462fdea1a0774ade1ec2|||PLTR|||Palantir Guided for $2.16 Billion in Revenue for Q3. Its Last 2 Quarters Suggest We Should Expect More.
-2026-10-23T17:21:15+00:00|||PASS|||2a1b0279e8644e442d943f16b902e66d|||SPCX|||US telecom operators wobble after report SpaceX in talks for cell sites By Reuters
-2026-10-23T17:21:20+00:00|||PASS|||eb83d0eb9ef965868ce804ae9951e6b4|||SPCX|||US telecom operators wobble after report SpaceX in talks for cell sites
 2026-10-23T20:32:19+00:00|||PASS|||a399dfbf4777699c1eff8f9762976327|||GEV|||GE Vernova Stocks Edge Lower Before $176 Billion Backlog Checkpoint
 2026-10-23T20:32:32+00:00|||PASS|||5b06c02a7e196c19ab8ce0f41176ce6f|||TSLA|||SpaceX-Tesla Merger? | Zuckerberg's Deal | The Rundown
 2026-10-23T20:32:35+00:00|||PASS|||d881914eb29d38fa9a88b3241e1907fd|||NVDA|||Apple Overtakes Nvidia as $5 Trillion Market Cap Battle Signals AI Stock Rotation
@@ -1547,3 +1540,25 @@
 2026-11-06T16:56:33+00:00|||SENT|||769f1e3184da4582bca27e328b571d59|||VSAT|||Viasat wins Space Force network operations contract worth up to $450 million|||Viasat贏得一份價值最高達$450 million的Space Force網路營運合約
 2026-11-06T16:56:48+00:00|||SENT|||8b26f6b05d5bae1c05b707f809956c2c|||BE|||NTT Data signs 900MW fuel cell supply deal with Bloom Energy|||NTT Data與Bloom Energy簽訂900MW燃料電池供應協議
 2026-11-06T16:57:03+00:00|||PASS|||ced3231368235a5ce6257c03d0898787|||CRCL|||Keller approves settlement terms in lawsuit over Westlake's proposed Circle T Data Center
+2026-11-06T19:35:07+00:00|||PASS|||fead39c38ae4b2db548bb79e1d53cb65|||GOOGL|||Google Plans $17B Wyoming Data Center
+2026-11-06T19:35:26+00:00|||PASS|||83b98648a3d7bdd2f50f0d40d2790e46|||CIEN|||Ciena Eyes 30% Revenue Growth in FY27: Can Strong Demand Sustain It?
+2026-11-06T19:35:29+00:00|||PASS|||76ac2f538e9ed84f9ebbff3d8d33877c|||FCEL|||FuelCell Energy Inc. stock falls Thursday, underperforms market
+2026-11-06T19:35:41+00:00|||PASS|||e4bc79550eca65ca87315db89cd8a250|||META|||Mark Cuban Accuses Facebook of Running AI Deepfake Scams as $16 Billion Revenue Estimate Emerges
+2026-11-06T19:35:46+00:00|||PASS|||81ecf233ff1670a819ceefb56e90e7a1|||AAPL|||Apple Pulls in $31 Billion of Orders for a $7.5 Billion Bond Sale
+2026-11-06T19:35:51+00:00|||SENT|||ebb86b30446d4a7281ce74a39fb59666|||AAPL|||Apple boosts purchase commitments by $33B amid memory crunch|||Apple 因記憶體供應吃緊增加 $33B 採購承諾
+2026-11-06T19:35:55+00:00|||PASS|||778de63bb69ce17ced40941be2df8978|||TSLA|||Tesla Cybertruck's bumpy run: cracked windows, long delays and 11 recalls
+2026-11-06T19:35:57+00:00|||PASS|||644c5027731cf5d013575244cf7c7bfe|||TSLA|||‘He wants the whole bag:’ A SpaceX-Tesla merger could help Elon Musk gain major control — without hitting lofty goals
+2026-11-06T19:35:59+00:00|||PASS|||97192599fd9bce719c58e00a33fb5ff7|||NVDA|||Nvidia Just Had Its Worst Day Since DeepSeek, Losing About $450 Billion
+2026-11-06T19:36:03+00:00|||PASS|||db82bbb6abf6299b86116d84ade21fec|||MRVL|||Marvell Is Betting $115 Billion on 1 of AI's Biggest Bottlenecks
+2026-11-06T19:37:07+00:00|||PASS|||2506e7d69234f983b68eea87eacea65e|||PLTR|||Stock Market Suffers Ugly Losses In Election Week; Apple, Palantir Led Key Earnings: Weekly Review
+2026-11-06T19:37:08+00:00|||PASS|||10b06f1bd4a936f07f52adf5a7ab08fc|||PLTR|||Palantir Stock Is Down 19% From Its Highs. Time to Buy the Dip?
+2026-11-06T19:37:11+00:00|||PASS|||ba223bea32aa6a880669e7392ba435d4|||NOW|||ServiceNow Stocks Move Lower as New Layoff Round Follows 35% Slide
+2026-11-06T19:37:19+00:00|||SENT|||857e30a29ef0d3fc13df7b230dfed183|||CRM|||Deal Dispatch: Salesforce Buys Cresta, CrowdStrike Acquires Two AI Companies, Out West Restaurant Group B|||交易快訊：Salesforce 收購 Cresta，CrowdStrike 收購兩家 AI 公司，Out West Restaurant Group B
+2026-11-06T19:37:21+00:00|||PASS|||7db1c3afff06ccc8de89efcba22e7da1|||CRM|||Salesforce Bets on AI Voice Agents With Planned Cresta Acquisition
+2026-11-06T19:37:33+00:00|||PASS|||76081bf131b264d7a7c9aafc7c0f63db|||NET|||Cloudflare Stock Surges After AI Slump. What Its Earnings Bump Says About Tech Fears.
+2026-11-06T19:37:56+00:00|||PASS|||15a8964aa31f0cbe078de5b3efaedb35|||SPCX|||SpaceX to Get Under 10% of Revenue From US Government, Musk Says
+2026-11-06T19:37:57+00:00|||PASS|||607cce47f60610e9d1c33692db319807|||SPCX|||Cathie Wood Makes $437 Million In Trades. Adds Nvidia, SpaceX; Offloads Broadcom
+2026-11-06T19:37:58+00:00|||PASS|||3d10034a429e2afc2fba54b8de44c3e4|||SPCX|||SpaceX Soars 6% as AI Stocks Rebound From $420 Billion Post-Midterm Musk Selloff
+2026-11-06T19:38:00+00:00|||PASS|||a83fb923b50575994febc220ae8f331b|||RKLB|||Better Space Stock: Rocket Lab vs. AST SpaceMobile (Hint: It Comes Down to Dilution)
+2026-11-06T19:38:24+00:00|||PASS|||c7e793b3510fe7825ecb5f1d11e5d361|||IONQ|||IonQ Shares Surge 10% As Analysts See Acquisition Opportunities, Sold-Out 2027 Capacity And Quantum Secur
+2026-11-06T19:38:38+00:00|||PASS|||073d75e9616cdc6fa91a610fa99101f0|||RSG|||Onsemi (ON) Scraps Plan for $2 Billion Expansion in Czech Republic
