@@ -1,25 +1,4 @@
-@@HEARTBEAT|||2026-11-06|||2026-10-21T13:41:10+00:00
-2026-10-23T20:32:19+00:00|||PASS|||a399dfbf4777699c1eff8f9762976327|||GEV|||GE Vernova Stocks Edge Lower Before $176 Billion Backlog Checkpoint
-2026-10-23T20:32:32+00:00|||PASS|||5b06c02a7e196c19ab8ce0f41176ce6f|||TSLA|||SpaceX-Tesla Merger? | Zuckerberg's Deal | The Rundown
-2026-10-23T20:32:35+00:00|||PASS|||d881914eb29d38fa9a88b3241e1907fd|||NVDA|||Apple Overtakes Nvidia as $5 Trillion Market Cap Battle Signals AI Stock Rotation
-2026-10-23T20:32:45+00:00|||PASS|||7deb6331c2023eafba6e1f42596bbbfd|||INTC|||Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs
-2026-10-23T20:32:46+00:00|||PASS|||bd95627a16193d4cfe5e05849fdd777c|||INTC|||FCC grants Intel waiver to use existing foreign-made robotic devices
-2026-10-23T20:33:19+00:00|||PASS|||a1ddbdeaf4c38a56914303bee13a28b3|||CRDO|||Credo Soars 7% as Super Micro’s $4 Billion Forecast Hike Signals “Increased Demand for AI Platforms”
-2026-10-23T20:33:32+00:00|||PASS|||88ae199ec34acf4c30983828a993d56b|||NOK|||In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE
-2026-10-23T20:34:23+00:00|||PASS|||89230cdb5a1e6d281a87604fa215a5f2|||SPCX|||SpaceX-Tesla Merger? | Zuckerberg's Deal | The Rundown
-2026-10-23T20:34:26+00:00|||PASS|||38fc13c338851ac4d42df6e337290770|||SPCX|||Not Starlink. Not Starship. Not Grok. $561 Million of SpaceX's $4.4 Billion Profit Came From an Unexpected Source.
-2026-10-23T20:34:28+00:00|||PASS|||fb6c8b00fb8f08bc936e36e5907c2a96|||SPCX|||In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE
-2026-10-23T20:34:29+00:00|||PASS|||373a92eb70b9941f4669c193f1f66d96|||SPCX|||Elon Musk Could Skirt $2 Billion Tax Bill With SpaceX Stock Gift
-2026-10-23T20:34:33+00:00|||PASS|||c6a0dd4922df576840fa8413d98a405a|||SPCX|||SpaceX in talks over 80,000 cell sites to build new wireless network - Bloomberg
-2026-10-23T20:34:59+00:00|||PASS|||2e88173c3598bc320baab64a80768229|||CRCL|||Coinbase will make USDC the default stablecoin on 82 million Galaxy phones
-2026-10-23T23:53:50+00:00|||PASS|||393b872fb137d9de41586e66be7aeb8f|||COHR|||Coherent Named One of TIME’s America’s Growth Leaders 2027
-2026-10-23T23:54:09+00:00|||PASS|||7eba242eca0b8c1190587ce59e73e7b1|||META|||Exclusive: Meta acquires AI data platform Sundial
-2026-10-23T23:54:14+00:00|||PASS|||0c2737ca1b50324be260bd81ca6111f7|||TSLA|||BMW iX5 First Drive, GM's Big Tech Plans, And Tesla Cybercab Deliveries Are Coming Soon
-2026-10-23T23:54:16+00:00|||PASS|||63bc7cf0b33686588615552b5f1d8aa1|||TSLA|||Watch SpaceX-Tesla Merger? | Zuckerberg's Deal | The Rundown
-2026-10-23T23:54:20+00:00|||PASS|||47514c811b1a491f454fb50864f0436f|||NVDA|||Security Firm Discovers 32 NVIDIA B300 GPUs Operating Inside China Telecom, Showing U.S. Export Controls Aren’t Curbing Top-Tier AI Hardware From Getting Out
-2026-10-23T23:54:28+00:00|||PASS|||5e5c342324a81f6d10808f423f8017c7|||INTC|||Intel granted waiver from FCC for purchase of foreign-made robots — chipmaker’s automated guided vehicles could have run afoul of agency’s sweeping robot ban (updated)
-2026-10-23T23:56:01+00:00|||PASS|||a0ab63cda29f9dbf28ad2cb5a2832064|||SPCX|||SpaceX $40 Billion Off-Balance Sheet Debt Snarled by AI Turmoil
-2026-10-23T23:56:02+00:00|||PASS|||015ed2323271b4f3870fdf362a937ba2|||SPCX|||Watch SpaceX-Tesla Merger? | Zuckerberg's Deal | The Rundown
+@@HEARTBEAT|||2026-11-07|||2026-10-21T13:41:10+00:00
 2026-10-24T04:52:54+00:00|||PASS|||382c6849bda06d265f24d10abd6c9026|||QCOM|||Qualcomm May Be Preparing Another Round of Job Cuts Next Month. Here’s What to Know.
 2026-10-24T04:53:13+00:00|||PASS|||4ff828e60fe911ad87a8a68d37878f2d|||KLAC|||Should KLAC Stock Be in Your Portfolio Pre-Q1 Earnings Results?
 2026-10-24T12:50:39+00:00|||PASS|||59daa22cfba08c28f8483a8a644ae19c|||ONDS|||Ondas Inc. Financials | ONDS
@@ -1562,3 +1541,22 @@
 2026-11-06T19:38:00+00:00|||PASS|||a83fb923b50575994febc220ae8f331b|||RKLB|||Better Space Stock: Rocket Lab vs. AST SpaceMobile (Hint: It Comes Down to Dilution)
 2026-11-06T19:38:24+00:00|||PASS|||c7e793b3510fe7825ecb5f1d11e5d361|||IONQ|||IonQ Shares Surge 10% As Analysts See Acquisition Opportunities, Sold-Out 2027 Capacity And Quantum Secur
 2026-11-06T19:38:38+00:00|||PASS|||073d75e9616cdc6fa91a610fa99101f0|||RSG|||Onsemi (ON) Scraps Plan for $2 Billion Expansion in Czech Republic
+2026-11-07T00:10:07+00:00|||PASS|||7307e42b452c4c55750603d09c3cf59b|||GOOGL|||Google Acquires Qualcomm Stake Through Modular Purchase
+2026-11-07T00:10:09+00:00|||PASS|||0ea43ab5057aa2998e6cf0ef7c76b4c8|||GOOGL|||Alphabet takes $548 million stake in partner Qualcomm in data center push By Reuters
+2026-11-07T00:10:13+00:00|||PASS|||c70fcd8060872949a2e982cc1c6fe339|||GOOGL|||Google acquires Wyoming data center site from AI infrastructure firm Crusoe
+2026-11-07T00:10:16+00:00|||PASS|||0f55f97cf5cfd56c0644a1488fe051c9|||GOOGL|||Google Is Spending $17 Billion on a Wyoming Data Center and Says It Will Pay for 100% of Its Power
+2026-11-07T00:10:36+00:00|||PASS|||81a83d0b077ea8dfc516c97c969ac9dc|||FCEL|||FuelCell Energy Inc. stock rises Friday, outperforms market
+2026-11-07T00:10:54+00:00|||SENT|||d08356f8c9f73629acebdf80971e0460|||TSLA|||SpaceX Land Deal, Tesla Merger Dealt Election Blow. Space Stocks Rebound.|||SpaceX 土地交易、Tesla 合併案遭遇選舉打擊；太空股反彈
+2026-11-07T00:10:58+00:00|||PASS|||03aba8d64651ea216344305777d80125|||TSLA|||How Elon Musk's SpaceX, Tesla lost $420B in market value this week
+2026-11-07T00:11:07+00:00|||PASS|||2ac37ce042f2313c57fc0516f12071ae|||QCOM|||Google Acquires Qualcomm Stake Through Modular Purchase
+2026-11-07T00:11:14+00:00|||SENT|||81c663277f58824d9d5b9a8a74718f1c|||QCOM|||Alphabet takes $548 million stake in partner Qualcomm in data center push By Reuters|||Alphabet在資料中心布局中，斥資$548 million取得合作夥伴Qualcomm的股權
+2026-11-07T00:11:33+00:00|||PASS|||d2ecc56ebed19fd2f0224df99e4eb336|||LRCX|||Own a Semiconductor ETF? Lam Research’s Buyback Move Affects You
+2026-11-07T00:11:57+00:00|||SENT|||d91b30f14ef1f552a34d40f8cad19d5a|||LITE|||Lumentum Stocks Rise 4.38% as AI Optics Rebound Builds on $5 Billion Design Win|||Lumentum股價上漲4.38%，AI光學反彈延續，受惠於$5 Billion設計案
+2026-11-07T00:12:20+00:00|||PASS|||9bc059f1204c42d0b968d1bdbfbd2b70|||CRWV|||Stock Market Up, Still Suffers Stiff Weekly Loss; Inflation Data, CoreWeave Earnings Due
+2026-11-07T00:12:34+00:00|||SENT|||8414641c44a7ff443157e95ac265c055|||IBM|||IBM, AMD, And Oak Ridge Unveil Quantum Error Correction Platform|||IBM、AMD 與 Oak Ridge 發表量子錯誤更正平台
+2026-11-07T00:12:38+00:00|||PASS|||ce9f9bb6023068d23d3a10d5ed1a9ccc|||IBM|||IBM Unveils Its Most Advanced Quantum Computer in Chicago, Marking a Milestone for Illinois's Quantum Future
+2026-11-07T00:13:08+00:00|||PASS|||01f01eb6062c6dfd7cb34b3a5a2f59a4|||SPCX|||Elon Musk opens the door for a big SpaceX acquisition
+2026-11-07T00:13:10+00:00|||PASS|||271246a244075ad414f068e210731f31|||SPCX|||Elon Musk Says SpaceX Sales Are ‘Exploding’—and Forecasts Revenue Twice Wall Street’s Estimate
+2026-11-07T00:13:12+00:00|||PASS|||a882d8559bc2535ffe015004743195ea|||SPCX|||Google's $900 Million SpaceX Bet Is Now Worth $69 Billion. It Added Millions More Shares
+2026-11-07T00:13:25+00:00|||PASS|||afc656ffdf4e0b0d5124a9ee56d85093|||LEU|||Centrus Energy surges as Roth raises to Buy as near-term concerns subside (LEU:NYSE)
+2026-11-07T00:13:45+00:00|||PASS|||9ecdef113968b12a791d671d36e23413|||LLY|||Hims & Hers inks deal with Eli Lilly to offer branded weight loss drugs
