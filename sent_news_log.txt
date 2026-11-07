@@ -1,9 +1,4 @@
 @@HEARTBEAT|||2026-11-07|||2026-10-21T13:41:10+00:00
-2026-10-24T12:50:39+00:00|||PASS|||59daa22cfba08c28f8483a8a644ae19c|||ONDS|||Ondas Inc. Financials | ONDS
-2026-10-24T12:51:06+00:00|||PASS|||41a7ede6d2107c967f0b622d821f1ea0|||TSLA|||Tesla Got Trump Tariff Refunds, and Elon Musk Isn’t Sitting on the Cash — CFO Says Money Is Going Into...
-2026-10-24T12:51:54+00:00|||SENT|||d731dd1daf4ce68e8d19929b429be841|||CSCO|||Cisco posts record revenue and cuts 4,000 jobs on the same earnings call
-2026-10-24T12:52:15+00:00|||PASS|||b8cf4c903a83b0a9b8f6fad6075f58c3|||NBIS|||Nebius Stock Fell 7% the Day It Announced a $3.5 Billion Citi Facility. Here’s What Its CEO Said About How Long the AI Chip Shortage Lasts
-2026-10-24T12:52:54+00:00|||PASS|||91ead0fb2ea707b8b92b88ab82727303|||SPCX|||Elon Musk Expects SpaceX to Make $500 Billion to $1 Trillion in Sales Next Year. Here's What That Means for the Stock.
 2026-10-24T18:54:53+00:00|||PASS|||761fc669ee39c5fcfc5f0a8eefe82d13|||ONDS|||Ondas Inc. Advanced Charts | ONDS
 2026-10-24T18:55:00+00:00|||PASS|||5e8f9c0371582f0a6d74de77e091d917|||NVTS|||How AI Power Board Launches At Navitas Semiconductor (NVTS) Has Changed Its Investment Story
 2026-10-24T18:55:05+00:00|||PASS|||1fa3972dc8e16362d626ebdc0a9f8e17|||GLW|||Can AI Fiber Still Deliver? Corning Faces High-Stakes Q3 Earnings Test Oct. 27 as Valuation Stretches
@@ -1569,3 +1564,13 @@
 2026-11-07T06:23:19+00:00|||PASS|||c6a8c85f5970b595c641982657d2c85f|||LLY|||Judge hears arguments in Raleigh County officials’ motion to dismiss Chad Lilly lawsuit - The Register-Herald
 2026-11-07T06:23:22+00:00|||PASS|||9a66a29a6749320e8d631e4cc4cc2e91|||LLY|||Lilly and Hims & Hers expand access to FDA-approved Lilly medicines
 2026-11-07T06:23:26+00:00|||PASS|||ad58932693560faadde697e653f8d0c5|||ISRG|||Intuitive Machines (LUNR) Q3 Earnings on Deck, Shares Climb 21%
+2026-11-07T14:59:27+00:00|||PASS|||a1f821516be9827e27cd52e4a6607c65|||EOSE|||Eos Energy Enterprises (EOSE) Stock Looks Fully Priced After Revenue Jump
+2026-11-07T14:59:33+00:00|||PASS|||b5fd4e0954001f6fa891f6441974175f|||GOOGL|||Is Google's New Cryptocurrency Push a Reason to Buy Alphabet Stock?
+2026-11-07T15:00:03+00:00|||PASS|||5f86e9df856e21906ba88bbb2c9567f4|||META|||Better Stock Split to Buy: Meta Platforms vs. Sandisk
+2026-11-07T15:00:07+00:00|||PASS|||a7ce793dc38203802a484970b267c280|||NVDA|||Nvidia Is Worth $1.3 Trillion Less After Its 5th Straight Losing Week
+2026-11-07T15:00:10+00:00|||PASS|||cb6ca244d529c01c52f4a6b38c026820|||AMD|||AMD stock is down 27% from its $1 trillion peak after a chip rout
+2026-11-07T15:00:11+00:00|||PASS|||61890b1700f4b77b86112d64dade3098|||AMD|||1 Reason to Buy AMD Stock Before 2027
+2026-11-07T15:00:13+00:00|||PASS|||234248d9a26a3ec8ba10db9db1555f16|||MRVL|||Marvell Technology: Against Sentiment Again - Rerating From Sell To Buy
+2026-11-07T15:00:25+00:00|||PASS|||1e5b3579a16eaef9a3ce6b27cdd4cbee|||SNDK|||Better Stock Split to Buy: Meta Platforms vs. Sandisk
+2026-11-07T15:02:16+00:00|||PASS|||9fbbafe9f997e782604da4beb0512535|||ABBV|||Why Is AbbVie (ABBV) Spending $1.37 Billion On Pipeline And UK Research?
+2026-11-07T15:02:19+00:00|||PASS|||cdda3e6fcfa94173bb708a8f1ee42b8f|||MOH|||FIFA reduce Molina ban after Argentina brawl during 2026 World Cup final
