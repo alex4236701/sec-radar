@@ -1,6 +1,4 @@
 @@HEARTBEAT|||2026-11-07|||2026-10-21T13:41:10+00:00
-2026-10-24T04:52:54+00:00|||PASS|||382c6849bda06d265f24d10abd6c9026|||QCOM|||Qualcomm May Be Preparing Another Round of Job Cuts Next Month. Here’s What to Know.
-2026-10-24T04:53:13+00:00|||PASS|||4ff828e60fe911ad87a8a68d37878f2d|||KLAC|||Should KLAC Stock Be in Your Portfolio Pre-Q1 Earnings Results?
 2026-10-24T12:50:39+00:00|||PASS|||59daa22cfba08c28f8483a8a644ae19c|||ONDS|||Ondas Inc. Financials | ONDS
 2026-10-24T12:51:06+00:00|||PASS|||41a7ede6d2107c967f0b622d821f1ea0|||TSLA|||Tesla Got Trump Tariff Refunds, and Elon Musk Isn’t Sitting on the Cash — CFO Says Money Is Going Into...
 2026-10-24T12:51:54+00:00|||SENT|||d731dd1daf4ce68e8d19929b429be841|||CSCO|||Cisco posts record revenue and cuts 4,000 jobs on the same earnings call
@@ -1560,3 +1558,14 @@
 2026-11-07T00:13:12+00:00|||PASS|||a882d8559bc2535ffe015004743195ea|||SPCX|||Google's $900 Million SpaceX Bet Is Now Worth $69 Billion. It Added Millions More Shares
 2026-11-07T00:13:25+00:00|||PASS|||afc656ffdf4e0b0d5124a9ee56d85093|||LEU|||Centrus Energy surges as Roth raises to Buy as near-term concerns subside (LEU:NYSE)
 2026-11-07T00:13:45+00:00|||PASS|||9ecdef113968b12a791d671d36e23413|||LLY|||Hims & Hers inks deal with Eli Lilly to offer branded weight loss drugs
+2026-11-07T06:20:19+00:00|||PASS|||f77133509aea5936673af88d518cf3e3|||GOOGL|||Google acquires Wyoming data center site from AI infrastructure firm Crusoe By Reuters
+2026-11-07T06:20:42+00:00|||PASS|||96f3a25186ded39a56d369ff8fc49c55|||CAT|||The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us.
+2026-11-07T06:20:51+00:00|||PASS|||29eabe1b0f978fa8775dc2e2acb05301|||AMZN|||Tech layoffs 2026: Tracking the job losses across Canva, Squarespace, Amazon, Microsoft, Apple, Meta and others
+2026-11-07T06:20:54+00:00|||PASS|||eb1fa6daecb29d3d5d6e908fcc1959b4|||META|||Tech layoffs 2026: Tracking the job losses across Canva, Squarespace, Amazon, Microsoft, Apple, Meta and others
+2026-11-07T06:21:02+00:00|||PASS|||a9baa8faf5b7446a6e93ba260b46a474|||AMD|||AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook
+2026-11-07T06:21:22+00:00|||PASS|||7d0ab7161c1b3f584d24a32ee1a6b58e|||LRCX|||Lam Research (LRCX) Authorizes $25 Billion Share Repurchase Program
+2026-11-07T06:22:01+00:00|||SENT|||efddaf1a160e7afbca3c7086ce6f2f27|||ADI|||Analog Devices Completes Acquisition of Alif Semiconductor|||Analog Devices 完成收購 Alif Semiconductor
+2026-11-07T06:22:47+00:00|||PASS|||896c86f6853fe1d95251aa1026825708|||SPCX|||Options Action: SpaceX back on launch pad
+2026-11-07T06:23:19+00:00|||PASS|||c6a8c85f5970b595c641982657d2c85f|||LLY|||Judge hears arguments in Raleigh County officials’ motion to dismiss Chad Lilly lawsuit - The Register-Herald
+2026-11-07T06:23:22+00:00|||PASS|||9a66a29a6749320e8d631e4cc4cc2e91|||LLY|||Lilly and Hims & Hers expand access to FDA-approved Lilly medicines
+2026-11-07T06:23:26+00:00|||PASS|||ad58932693560faadde697e653f8d0c5|||ISRG|||Intuitive Machines (LUNR) Q3 Earnings on Deck, Shares Climb 21%
