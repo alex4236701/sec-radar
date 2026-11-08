@@ -111,7 +111,7 @@ SNOW
 DDOG
 IBM
 ZETA
-
+FROG
 # ---------- 資安 ----------
 PANW
 FTNT
@@ -121,7 +121,6 @@ NET
 AKAM
 RBRK
 VRNS
-FROG
 
 # ---------- 通訊軟體、物聯網與邊緣運算 ----------
 TWLO
@@ -163,9 +162,11 @@ UUUU
 PPTA
 UAMY
 MTRN
+ELMT
 
 # ---------- 能源與電力 ----------
 LEU
+SOLS
 BE
 FCEL
 EOSE
@@ -182,6 +183,16 @@ LIN
 ECL
 APD
 WCN
+CEG
+VST
+TLN
+PEG
+NRG
+DUK
+EVRG
+ED
+NEE
+XEL
 
 # ---------- 量子運算與數位資產 ----------
 IONQ
