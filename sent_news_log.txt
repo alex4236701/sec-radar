@@ -1,29 +1,4 @@
-@@HEARTBEAT|||2026-11-07|||2026-10-21T13:41:10+00:00
-2026-10-24T18:54:53+00:00|||PASS|||761fc669ee39c5fcfc5f0a8eefe82d13|||ONDS|||Ondas Inc. Advanced Charts | ONDS
-2026-10-24T18:55:00+00:00|||PASS|||5e8f9c0371582f0a6d74de77e091d917|||NVTS|||How AI Power Board Launches At Navitas Semiconductor (NVTS) Has Changed Its Investment Story
-2026-10-24T18:55:05+00:00|||PASS|||1fa3972dc8e16362d626ebdc0a9f8e17|||GLW|||Can AI Fiber Still Deliver? Corning Faces High-Stakes Q3 Earnings Test Oct. 27 as Valuation Stretches
-2026-10-24T18:55:10+00:00|||PASS|||3757afdac757493f8a174650ff99ec73|||GEV|||The AI Power Bill Comes Due: Will GE Vernova’s Q3 Earnings Oct. 28 Prove Its $176B Backlog Is Real?
-2026-10-24T18:55:14+00:00|||PASS|||d7e34d61f35a5c6243c483b75f1d3753|||ECL|||Ecolab Inc. stock outperforms competitors despite losses on the day
-2026-10-24T18:55:19+00:00|||PASS|||376459a926013e837edc2c2c7e6f1a0b|||MSFT|||Microsoft’s $50 Billion Gamble: Can Microsoft’s Azure Growth Justify Its Exploding AI Budget?
-2026-10-24T18:55:22+00:00|||PASS|||9fd5f3f832294267fa4671509257c3fd|||AMZN|||Jeff Bezos took 60 meetings to raise Amazon’s first $1 million. Now worth $361 billion, he says the cure for stress is to ‘take the first step’
-2026-10-24T18:55:28+00:00|||PASS|||25a396335f7438afa7958dda6d9ab2ff|||TSLA|||Musk Calls Tesla’s Merger Vote “Quite a High Hurdle.” JPMorgan’s Premium Math Puts the Stock Near $500.
-2026-10-24T18:55:30+00:00|||PASS|||36ccbd192b38c7f1d90c04c00b34d17b|||TSLA|||'Almost Everything Elon Musk Touches’ Grows 10x and More, Says Top Analyst as He Makes the Case for Tesla-SpaceX Merger
-2026-10-24T18:55:34+00:00|||SENT|||a18158e8b55ad9e86612f3a6782a02f2|||TSLA|||Stocktwits Zero To Sixty: Tesla And SpaceX Form Merger Committees As Profits Drop, While Rivian Buys AI Startup And GM, Ford Advance EV Plans
-2026-10-24T18:55:37+00:00|||PASS|||bb06e331aab2a1db615c49f8d8c7eea3|||TSLA|||Elon Musk Says a SpaceX-Tesla Merger Is a “Good Idea.” Here’s What Stands in the Way.
-2026-10-24T18:55:52+00:00|||PASS|||58ed765b6eaa45948a16a795eba23c7f|||SNDK|||Sandisk's New Business Model Is Transforming the Business. Now Is the Time to Buy the Stock.
-2026-10-24T18:55:55+00:00|||PASS|||c148add8458c9ba5879201f018a4700e|||STX|||Seagate’s Q1 Earnings Dilemma on Oct. 27: Blockbuster AI Data Demand Confronts Rising Oversupply Fears
-2026-10-24T18:56:42+00:00|||PASS|||e5fb1ca174674ba335f7cc58ce316257|||CRM|||OUE REIT to acquire additional 50% stake in Sydney's Salesforce Tower for A$539.3 mil
-2026-10-24T18:57:14+00:00|||PASS|||266add0dc21dbb24dcefa1d61c8f65f4|||SPCX|||Zelensky thanks US for Starlink, presses for missile deliveries
-2026-10-24T18:57:16+00:00|||PASS|||af6f3c7f9d4ce7c0b176a0b119617b23|||SPCX|||SpaceX Will Spend Up to $40 Billion in a Single Quarter. Its CFO Says the Payback Is “Less Than a Year.”
-2026-10-25T05:03:19+00:00|||PASS|||0e4a9fb5350e2690110f4519d25fbc14|||NVTS|||Navitas Semiconductor Corporation (NVTS) Discusses Breaking the AI Infrastructure Power Wall and Portfolio Expansion Through Recent Acquisition - Slideshow (NASDAQ:NVTS) 2026-10-24
-2026-10-25T05:03:34+00:00|||PASS|||edbf90aa4561556a77ead9255aba381a|||MSFT|||Microsoft Q1: A $744 Billion AI Reckoning Is Coming (NASDAQ:MSFT)
-2026-10-25T05:03:42+00:00|||PASS|||f39173469c56f1b800ac0f28150bdcac|||META|||Meta’s AI commitments surge to US$825 billion, testing financing power
-2026-10-25T05:03:43+00:00|||PASS|||508f0cbb8019dc4710ef7ec3f2b70634|||META|||Meta Just Unveiled a New Takeover Weapon — But There's a Catch
-2026-10-25T05:03:47+00:00|||PASS|||7f7d01b4fea8e9a5c268034904d61fd1|||TSLA|||Tesla-SpaceX merger tests whether Musk's technology empire is worth more together
-2026-10-25T05:03:48+00:00|||PASS|||7f6d850dbe94f35a9cf72ac271cba411|||TSLA|||SA Asks: How much could Tesla be worth in a merger deal? (TSLA:NASDAQ)
-2026-10-25T05:03:50+00:00|||PASS|||1f65ef374f09087c0b1d3ad303765bca|||TSLA|||Tesla (TSLA) Q3 Earnings Reveal A Sharper Margin Squeeze
-2026-10-25T05:04:12+00:00|||PASS|||9a16c3f79040917f2084eca16de79520|||LRCX|||Lam Research (LRCX) Stock Faces Q1 Earnings Quality Questions After Records
-2026-10-25T05:05:27+00:00|||PASS|||52ac9707824ae70cba0decba736b6b4b|||SPCX|||SpaceX (NasdaqGS:SPCX) Q3 Earnings Revive Profit Story As Capex Looms
+@@HEARTBEAT|||2026-11-08|||2026-10-21T13:41:10+00:00
 2026-10-25T13:17:43+00:00|||PASS|||60309208c61936e5f2be12795160fdd4|||META|||Meta’s Pricier Camera-Free Ray-Bans Won’t Make Sense to Techies
 2026-10-25T13:17:46+00:00|||PASS|||0d7317ab74d0de067ccf1c7951407d81|||AAPL|||Apple’s iPhone Duo, Musk’s Merger Challenge, AI Spending Questions and More: This Week in Tech
 2026-10-25T13:17:51+00:00|||PASS|||443d9c4430f11495404e4410a5a74d34|||TSLA|||Tesla Model Y Is Most Recalled EV
@@ -1574,3 +1549,19 @@
 2026-11-07T15:00:25+00:00|||PASS|||1e5b3579a16eaef9a3ce6b27cdd4cbee|||SNDK|||Better Stock Split to Buy: Meta Platforms vs. Sandisk
 2026-11-07T15:02:16+00:00|||PASS|||9fbbafe9f997e782604da4beb0512535|||ABBV|||Why Is AbbVie (ABBV) Spending $1.37 Billion On Pipeline And UK Research?
 2026-11-07T15:02:19+00:00|||PASS|||cdda3e6fcfa94173bb708a8f1ee42b8f|||MOH|||FIFA reduce Molina ban after Argentina brawl during 2026 World Cup final
+2026-11-08T06:26:56+00:00|||SENT|||044db83ac0c2f2add650c7d1eeac8a62|||CRUS|||Learn Why The Bull Case For Cirrus Logic Stock Could Change Following Buyback Expansion|||了解 Cirrus Logic 股票的看多理由為何可能因回購計畫擴大而改變
+2026-11-08T06:27:12+00:00|||PASS|||009edf76e5246d62ecae67fe8e9f2c8b|||VSH|||Vishay Intertechnology, Inc. 2026 Q3 - Results - Earnings Call Presentation (NYSE:VSH) 2026-11-07
+2026-11-08T06:27:17+00:00|||PASS|||44a755ff141a78afa965f1acae79aefa|||AVGO|||Anthropic’s “Down Quarter” Highlights Broadcom’s $161 Billion Risk
+2026-11-08T06:27:24+00:00|||PASS|||c3dfbbd9c62d07cc63a831e8e7fecdf9|||CAT|||Caterpillar Inc. TDR Overview (CAT80)
+2026-11-08T06:27:27+00:00|||PASS|||92487b51d195c7b13effe93b1b969ed1|||RRX|||Regal Rexnord Corporation 2026 Q3 - Results - Earnings Call Presentation (NYSE:RRX) 2026-11-06
+2026-11-08T06:27:35+00:00|||PASS|||0dd1ef513e927fd1c1e7c52c33a1f9a0|||META|||Meta strategy chief Dave Wehner leaves to become CFO of Fireworks AI
+2026-11-08T06:27:37+00:00|||PASS|||dc024793184f93134d909fc1bdf6ac19|||META|||Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO
+2026-11-08T06:27:38+00:00|||PASS|||c96d6be31d3991e4b2620d523935f4bc|||AAPL|||Tech layoffs 2026: Tracking the job losses across Canva, Squarespace, Amazon, Microsoft, Apple, Meta and others
+2026-11-08T06:27:45+00:00|||SENT|||262c334f6ba3ad9a4057331baf690c2c|||NVDA|||"Congress will investigate": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties|||「國會將展開調查」：Nvidia 執行長 Jensen Huang 面臨與中國間諜關係指控的調查
+2026-11-08T06:27:48+00:00|||PASS|||14835262f941c2d6dacf850c9c72a58a|||AMD|||AMD: AI Panic Meets Outsized CPU/GPU Gains - Upgrade To Buy
+2026-11-08T06:27:52+00:00|||PASS|||28f88d2c5689faa1b0a18c1a0d6c3091|||QCOM|||Alphabet Acquires Qualcomm Stake Through Modular Purchase
+2026-11-08T06:28:27+00:00|||PASS|||e071dda75a03d99551e867e4b6106409|||LITE|||Coherent Surges 13% as Investors Revisit $20 Billion AI Deal After Sell-Off; Lumentum Climbs 4%, Applied Optoelectronics Gains 3%
+2026-11-08T06:29:23+00:00|||PASS|||1b9212730be3de916ed7209f741ff320|||SPCX|||SpaceX sets Nov. 13 date for Starship launch and catch
+2026-11-08T06:29:26+00:00|||PASS|||4b6b01fd661e02ceb8be64dc615bfc42|||SPCX|||Alphabet (GOOGL) Expands SpaceX Stake to $69 Billion and Deepens AI Ties
+2026-11-08T06:29:27+00:00|||PASS|||834abd5d644ad06c317bd797676bfc15|||SPCX|||Better IPO to Buy: Anthropic vs. SpaceX
+2026-11-08T06:29:39+00:00|||PASS|||bf591662e0179864a898da9528215b6d|||LEU|||What Centrus Energy (LEU) Said on Its Q3 Earnings Call
