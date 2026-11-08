@@ -1,14 +1,4 @@
 @@HEARTBEAT|||2026-11-08|||2026-10-21T13:41:10+00:00
-2026-10-25T19:09:56+00:00|||PASS|||5af572a51de6025fc2e2ddd6c252ff64|||AMKR|||A $1.3 Billion Reason to Buy Amkor Stock
-2026-10-25T19:10:18+00:00|||PASS|||ff722db75859307e354f617514a0c074|||HON|||Honeywell (HON) Q3 Earnings Put Margin Expansion Center Stage
-2026-10-25T19:10:22+00:00|||PASS|||805ba4f1d52281b316c1a56ffbf3b649|||MSFT|||Microsoft: China Hackers Unleash AI-Powered Cyberattacks Targeting Supply Chains
-2026-10-25T19:10:26+00:00|||PASS|||1678503b936cac004c9480f8e99b00ec|||AMZN|||The Hidden $496 Billion Catalyst Waiting to Ignite Amazon Stock on Oct. 29
-2026-10-25T19:10:31+00:00|||SENT|||5e1df5beab7024df7334d48b298cdca7|||META|||The Morning Risk Report: Meta Ordered to Pay $25 Billion to New Mexico in Data-Privacy Case
-2026-10-25T19:10:34+00:00|||PASS|||b6ca60328dfb8ba61afcaaaccbec79ce|||META|||Meta: A Strong Quarter Behind A $9.9 Billion Legal Charge And $35 Billion Of Capex
-2026-10-25T19:10:38+00:00|||PASS|||2a2da4a6332f8665e2c8c066620ce7e0|||TSLA|||Tesla Stock Is Down 17% Over the Past Year. Buy Now or Wait for Merger Terms?
-2026-10-25T19:10:39+00:00|||PASS|||90163f5a69499a92c23f09216e02ff27|||TSLA|||Tesla’s Big Quarter, GM's Buyback Fight, Elon Musk’s Autonomous Driving Push and More: This Week in Mobil
-2026-10-25T19:10:42+00:00|||PASS|||68a46ef3e5e657d12a556e2d4aecdf1c|||TSLA|||Consumer Tech (Oct 19-23): OpenAI Reportedly Seeks $30 Billion, Tesla Cuts 2026 Capex Forecast, Anthropic
-2026-10-25T19:11:41+00:00|||PASS|||6fb4e4c3eac93010c347319c24ef3ca2|||NBIS|||Nebius Secures $3.5 Billion From Citi as It Shifts From Converts to Secured Debt
 2026-10-26T06:43:53+00:00|||PASS|||85a8f7199f0e399b110fd8492a79c928|||AMKR|||Amkor Technology: Nvidia's $3 Billion Vote Of Confidence Lands On A De-Rated Stock (AMKR)
 2026-10-26T06:43:58+00:00|||SENT|||d898a0c04ed79ef6b06856ca5acfb82f|||UMAC|||Exclusive: Inside Unusual Machines' $52 Million Drone Battery Acquisition
 2026-10-26T06:44:22+00:00|||PASS|||07e48fb45eef687b61fe842fd8e5169f|||META|||A $1 Trillion Depreciation Bomb Is Ticking Beneath the AI Market - Meta Platforms (NASDAQ:META), Amazon.c
@@ -1559,3 +1549,22 @@
 2026-11-08T06:29:26+00:00|||PASS|||4b6b01fd661e02ceb8be64dc615bfc42|||SPCX|||Alphabet (GOOGL) Expands SpaceX Stake to $69 Billion and Deepens AI Ties
 2026-11-08T06:29:27+00:00|||PASS|||834abd5d644ad06c317bd797676bfc15|||SPCX|||Better IPO to Buy: Anthropic vs. SpaceX
 2026-11-08T06:29:39+00:00|||PASS|||bf591662e0179864a898da9528215b6d|||LEU|||What Centrus Energy (LEU) Said on Its Q3 Earnings Call
+2026-11-08T20:40:25+00:00|||PASS|||970e802861cfd08674ac21ec98d0063c|||MKSI|||MKS (MKSI) Beat Q3 Guidance, Is The Stock Still Cheap?
+2026-11-08T20:40:35+00:00|||PASS|||fa92e1e1f2582c5ddffbbf1c037b16de|||VSH|||What Vishay Precision Group (VPG) Said on Its Q3 Earnings Call
+2026-11-08T20:40:41+00:00|||PASS|||319ed34ca48c4c8bcaee76fb7310d7dd|||COHR|||Coherent Corp. Company & People | COHR
+2026-11-08T20:40:45+00:00|||PASS|||db7801a9469ef6202dc8b692b7a5974c|||GLW|||The top 5 analyst questions from Owens Corning’s Q3 2026 earnings call
+2026-11-08T20:40:56+00:00|||PASS|||603a8f1ab02a963e65bfb411c6ea763f|||AMZN|||DoorDash’s $17 billion Instacart bet faces new threat from Amazon, Uber
+2026-11-08T20:41:02+00:00|||PASS|||a2ee92a256aea8ac9163fa83cb5ef2f7|||TSLA|||Ron Baron Has Made $30B Betting On Elon Musk — Now He Sees ‘Hundreds Of Billions’ More Coming From His TSLA, SPCX Investments
+2026-11-08T20:41:06+00:00|||PASS|||5392e32d84be394f9dac3cec959c756b|||NVDA|||Nvidia launches probe into reported espionage plot targeting CEO Jensen Huang
+2026-11-08T20:41:09+00:00|||PASS|||cfdbdc8633837701ff19d5a29800d79a|||NVDA|||Nvidia opens probe after report that CEO Huang was target of foreign intelligence
+2026-11-08T20:41:12+00:00|||PASS|||bd5adefba8d8d20dfa23ba385362f4e8|||NVDA|||Nvidia Board Is Launching Investigation After Reporting That CEO Targeted By Chinese Informant
+2026-11-08T20:41:14+00:00|||PASS|||bf912c033cb3eff738f6abf66b0b6075|||NVDA|||Nvidia launches probe after report CEO Huang was target of foreign intelligence By Reuters
+2026-11-08T20:41:16+00:00|||PASS|||340a35b5dfcbd51c5fcd4f9390337252|||NVDA|||Nvidia CEO Jensen Huang admits affair, board to launch investigation
+2026-11-08T20:41:21+00:00|||PASS|||eb5406e99eac00bf5218c338037bf56c|||NVDA|||Nvidia Board to Probe Spying Case After CEO Admits Affair
+2026-11-08T20:41:23+00:00|||PASS|||b4ae96f578d621578dd6bf5dc01af22c|||NVDA|||Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy
+2026-11-08T20:41:27+00:00|||PASS|||b733e93b228b96c470914224236a17be|||NVDA|||Investigation Finds Chinese Military-Linked Firms Somehow Gained Approval To Assemble NVIDIA H200 AI GPUs, Highlighting A Half-Baked U.S. Approval System
+2026-11-08T20:42:10+00:00|||PASS|||22560522abd9369b28149a92621534c1|||CSCO|||Cisco Systems Has Suffered $145 Billion Wipeout. Will Earnings Change This?
+2026-11-08T20:43:05+00:00|||PASS|||65378ac7967ede7965e649decb1fd963|||SPCX|||NASA's $10 billion Moon base deal is a ceiling, not a payout for SpaceX
+2026-11-08T20:43:10+00:00|||SENT|||e448ee0cf1775fee3b8553a0511806d5|||RKLB|||SpaceX Rival Rocket Lab Reports Mixed Earnings, AST Space Up Next|||SpaceX競爭對手Rocket Lab公布好壞參半的財報，AST Space緊接登場
+2026-11-08T20:43:34+00:00|||PASS|||ae87b2f07f5e64dd6804d2c2e2a5570b|||IONQ|||IonQ's Record Revenue Includes a Big SkyWater Boost: Does That Change the Story?
+2026-11-08T20:43:47+00:00|||PASS|||20db8332cb2fb96cf59a49a48e962b78|||RSG|||Ward in talks over Republic of Ireland contract extension
