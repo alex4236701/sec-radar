@@ -29,6 +29,16 @@
     "official_name": "Air Products & Chemicals",
     "strict": true
   },
+  "APP": {
+    "created": "2026-11-10",
+    "cs_names": [],
+    "names": [
+      "AppLovin",
+      "AppLovin Corporation"
+    ],
+    "official_name": "AppLovin",
+    "strict": true
+  },
   "CEG": {
     "created": "2026-11-09",
     "cs_names": [
@@ -39,6 +49,16 @@
     ],
     "official_name": "Constellation Energy",
     "strict": false
+  },
+  "COIN": {
+    "created": "2026-11-10",
+    "cs_names": [],
+    "names": [
+      "Coinbase",
+      "Coinbase Global"
+    ],
+    "official_name": "Coinbase Global",
+    "strict": true
   },
   "DHR": {
     "created": "2026-11-01",
@@ -97,6 +117,16 @@
       "JFrog"
     ],
     "official_name": "JFrog",
+    "strict": true
+  },
+  "HOOD": {
+    "created": "2026-11-10",
+    "cs_names": [],
+    "names": [
+      "Robinhood",
+      "Robinhood Markets"
+    ],
+    "official_name": "Robinhood Markets",
     "strict": true
   },
   "HUM": {
