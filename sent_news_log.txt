@@ -1,4 +1,4 @@
-@@HEARTBEAT|||2026-11-09|||2026-10-21T13:41:10+00:00
+@@HEARTBEAT|||2026-11-10|||2026-10-21T13:41:10+00:00
 2026-10-26T23:11:51+00:00|||SENT|||c95ad7078bbd57c913d521baec3a9346|||AMKR|||Amkor Technology stock rises 4% after hours despite Q3 earnings, revenue miss|||Amkor Technology 第三季獲利與營收不如預期，盤後股價仍漲 4%
 2026-10-26T23:12:09+00:00|||SENT|||09acd51fba520ad5d1f9d478e0a5de2f|||AVGO|||BofA, Blackstone, Citi, Morgan Stanley lead $63B AI compute financing in pact with Broadcom (BAC:NYSE)|||BofA、Blackstone、Citi、Morgan Stanley 主導與 Broadcom 合作的 $63B AI 算力融資
 2026-10-26T23:12:13+00:00|||PASS|||e0f8b35b532d21af13b1f15f2c91259b|||AVGO|||Wall Street banks, Blackstone line up $63 billion to finance Broadcom chips for Anthropic By Reuters
@@ -1536,3 +1536,29 @@
 2026-11-09T20:03:00+00:00|||PASS|||d8e983f3816d789cf385bfbde8abea97|||ISRG|||Intuitive Machines Selected for NASA's Next-Generation Lunar Delivery Contract to Support Moon Base
 2026-11-09T20:03:03+00:00|||PASS|||b16288866fbe2c6016c68244481b6a2a|||HUM|||Humana Analysts Raise Their Forecasts After Q3 Results
 2026-11-09T20:03:07+00:00|||PASS|||0bad2546ef8f3a274c8b02c5265c5080|||WM|||Joseph Wm Foran Takes a Bullish Stance: Acquires $256K In Matador Resources Stock
+2026-11-09T22:33:45+00:00|||PASS|||f3d64d97927a143fdf3ee294d4056849|||GOOGL|||Waymo Faces Fresh Federal Probe as Robotaxis Keep Blowing Past Stopped School Buses
+2026-11-09T22:33:46+00:00|||PASS|||a4d62352b51c5a8c996b3cc88c9c5f6c|||GOOGL|||Alphabet’s Wing to invest $125M in new delivery drone factory
+2026-11-09T22:34:03+00:00|||PASS|||7e0e9ea7bdb7b284963111ae57de19f0|||AVGO|||Broadcom Stocks Jump 8.21% as Investors Eye $21.7 Billion AI Revenue Guide
+2026-11-09T22:34:13+00:00|||PASS|||5f969405ca0ebece623a2278e3ed72ed|||CAT|||Caterpillar Stocks Jump 6.61% as Anthropic Takes Over $3.4 Billion Generator Order
+2026-11-09T22:34:30+00:00|||SENT|||47329a1e081c3e18710e83fd3d5b87ca|||NVDA|||Nvidia Intervened in US Probe of Megaspeed Chip Smuggling|||Nvidia介入美國對Megaspeed晶片走私的調查
+2026-11-09T22:34:36+00:00|||PASS|||640d07f93c4282842a205b148c83ae64|||NVDA|||Nvidia Stock Slides After Chip Maker Opens Probe
+2026-11-09T22:34:37+00:00|||PASS|||8b419866acbba54f2e98f13462641ead|||NVDA|||Nvidia-Backed Fireworks AI Notifies Customers of Its Second Hack in Weeks
+2026-11-09T22:34:40+00:00|||PASS|||b1712ce2d5ffb7297391e93c10aeea82|||NVDA|||What to Know About Nvidia’s Investigation of CEO Jensen Huang
+2026-11-09T22:34:41+00:00|||PASS|||0353f1e4ba1e2ac7312ac6e6c01f0cbc|||NVDA|||Nasdaq defies Nvidia impact as Huang faces espionage affair probe
+2026-11-09T22:34:43+00:00|||PASS|||2a2aa3ee3bb5dc9cf6d69b7a8705a279|||NVDA|||What to Know About Nvidia’s Investigation After CEO’s Affair
+2026-11-09T22:34:58+00:00|||PASS|||3ff220f6eba7f41e1e431f246991ee22|||WDC|||Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%
+2026-11-09T22:35:05+00:00|||SENT|||1aa4ae9b0571f1326df5d3b018faddc6|||ASML|||ASML Raises 2026 Guidance as AI Demand Accelerates Capacity Expansion|||ASML 因 AI 需求加速產能擴張而上調 2026 年指引
+2026-11-09T22:35:27+00:00|||SENT|||239d6abc6fe93c38556b030b4ad3146c|||ENTG|||Entegris targets 15% revenue growth, authorizes $500M buyback|||Entegris設定營收成長15%目標，批准$500M庫藏股計畫
+2026-11-09T22:35:39+00:00|||PASS|||734a08f6e5a867aaa38ff5369fc0be0d|||CSCO|||Cisco Unveils Frontier AI Red Teaming and Agent Observability to Secure the Agentic Enterprise
+2026-11-09T22:35:53+00:00|||PASS|||09cc8c48010b2251c29aba01fb886d17|||HPE|||Royal Australasian College of Surgeons Targets AU$2.1 Million in Savings With HPE Private Cloud
+2026-11-09T22:35:57+00:00|||PASS|||da3e067b9b722cf5e4104430c1f86c06|||CRWV|||CoreWeave faces earnings as neocloud debt, customers and politics all bite
+2026-11-09T22:35:58+00:00|||PASS|||57adfa593c8a8f483a0c10524a482447|||CRWV|||CoreWeave Could Swing $4.85 Billion In Value After Earnings
+2026-11-09T22:36:00+00:00|||PASS|||a04b017de4e6acc039ad0d863dfd64bb|||CRWV|||CoreWeave Has a $104 Billion Backlog. Now It Also Has a Political Problem.
+2026-11-09T22:36:39+00:00|||PASS|||6d5218b7daac5bee92f5448c7d35a4b8|||SPCX|||SpaceX plans $24 billion gas power plant, data center project in Texas
+2026-11-09T22:36:52+00:00|||SENT|||431c155b50cdf56dd5e7360bd227c8b9|||USAR|||USA Rare Earth Shares Dip After Q3 Misses Estimates|||USA Rare Earth 股價在第三季業績未達預期後下跌
+2026-11-09T22:37:01+00:00|||PASS|||1a8bd6814ee0058b14d5dd88e4e8a683|||SOLS|||Solstice Advanced Materials Reaches Key Development Milestone for Next-Generation Foam Blowing Agent
+2026-11-09T22:37:20+00:00|||PASS|||7f4e2c9a1238d5917d4bec88ebce3c2a|||NRG|||LS Power to Acquire Six Natural Gas Power Generation Assets from NRG Energy
+2026-11-09T22:37:29+00:00|||SENT|||45c6421282a5c1a2c180e446ee6faf0c|||NEE|||Giant Merger of NextEra and Dominion Could Fail Amid Anger Over Electricity Bills|||NextEra與Dominion的大型合併案可能因電費不滿而告吹
+2026-11-09T22:37:40+00:00|||SENT|||fad1bb8c96edbdb2825ea6e93b5dc843|||COIN|||Coinbase gets final OCC approval to run its custody business as a national trust bank|||Coinbase 獲 OCC 最終批准，以國家信託銀行形式經營託管業務
+2026-11-09T22:37:47+00:00|||PASS|||18539317b87ef053c83c04acd6eab4fa|||LLY|||Eli Lilly May Have Just Found a New $23 Billion Market for Its GLP-1 Pill
+2026-11-09T22:37:52+00:00|||PASS|||a86ca7b13e10627cfa4178d2b3790e26|||ISRG|||Intuitive Machines Stock (LUNR): What Options Traders and Financial Analysts Expect Ahead of Q3 Earnings
