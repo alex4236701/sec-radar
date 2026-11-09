@@ -1,1 +1,138 @@
-[]
+[
+ {
+  "date": "2026-11-09",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：ACE HEATHER S（高階主管），3,200 股，約 $529,344",
+  "ticker": "QCOM",
+  "url": "https://www.sec.gov/Archives/edgar/data/804328/000195917326007839/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-09",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：Clal Insurance Enterprises Holdings Ltd，持股 5.60%",
+  "ticker": "TSEM",
+  "url": "https://www.sec.gov/Archives/edgar/data/928876/000117891326005059/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-09",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：RAYMOND MARY JANE（董事），2,000 股，約 $80,000",
+  "ticker": "VECO",
+  "url": "https://www.sec.gov/Archives/edgar/data/103145/000195917326007849/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-09",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Canney Jacqueline P（高階主管），1,289 股，約 $131,091",
+  "ticker": "NOW",
+  "url": "https://www.sec.gov/Archives/edgar/data/1373715/000195917326007841/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-06",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "FROG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526451981/frog-20260930.htm"
+ },
+ {
+  "date": "2026-11-09",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Taffe Norman P（高階主管），100 股，約 $19,000",
+  "ticker": "GNRC",
+  "url": "https://www.sec.gov/Archives/edgar/data/1474735/000195917326007857/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-09",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "CEG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000119/ceg-20260930.htm"
+ },
+ {
+  "date": "2026-11-09",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "VST",
+  "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm"
+ },
+ {
+  "date": "2026-11-05",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：FMR LLC，持股 3.60%（已降到 5% 以下）",
+  "ticker": "VST",
+  "url": "https://www.sec.gov/Archives/edgar/data/1692819/000031506626002865/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-05",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：FMR LLC，持股 4.40%（已降到 5% 以下）",
+  "ticker": "NRG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1013871/000031506626002821/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-05",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "DUK",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm"
+ },
+ {
+  "date": "2026-11-05",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "EVRG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1711269/000171126926000117/evrg-20260930.htm"
+ },
+ {
+  "date": "2026-11-05",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "ED",
+  "url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000155/ed-20260930.htm"
+ },
+ {
+  "date": "2026-11-09",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Milosevich Gregory M（高階主管），2,100 股，約 $484,302",
+  "ticker": "DHR",
+  "url": "https://www.sec.gov/Archives/edgar/data/313616/000195917326007850/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-05",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：FMR LLC，持股 6.00%",
+  "ticker": "TMO",
+  "url": "https://www.sec.gov/Archives/edgar/data/97745/000031506626002874/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-06",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "HUM",
+  "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000066/hum-20260930.htm"
+ },
+ {
+  "date": "2026-11-05",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "OSCR",
+  "url": "https://www.sec.gov/Archives/edgar/data/1568651/000156865126000086/oscr-20260930.htm"
+ }
+]
