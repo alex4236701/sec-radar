@@ -29,6 +29,17 @@
     "official_name": "Air Products & Chemicals",
     "strict": true
   },
+  "CEG": {
+    "created": "2026-11-09",
+    "cs_names": [
+      "Constellation"
+    ],
+    "names": [
+      "Constellation Energy"
+    ],
+    "official_name": "Constellation Energy",
+    "strict": false
+  },
   "DHR": {
     "created": "2026-11-01",
     "cs_names": [],
@@ -37,6 +48,65 @@
     ],
     "official_name": "DANAHER",
     "strict": false
+  },
+  "DUK": {
+    "created": "2026-11-09",
+    "cs_names": [
+      "Duke"
+    ],
+    "names": [
+      "Duke Energy"
+    ],
+    "official_name": "Duke Energy",
+    "strict": false
+  },
+  "ED": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "Con Edison",
+      "ConEd",
+      "Consolidated Edison"
+    ],
+    "official_name": "CONSOLIDATED EDISON",
+    "strict": true
+  },
+  "ELMT": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "Elmet",
+      "Elmet Technologies"
+    ],
+    "official_name": "Elmet",
+    "strict": false
+  },
+  "EVRG": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "Evergy"
+    ],
+    "official_name": "Evergy",
+    "strict": false
+  },
+  "FROG": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "JFrog"
+    ],
+    "official_name": "JFrog",
+    "strict": true
+  },
+  "HUM": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "Humana"
+    ],
+    "official_name": "HUMANA",
+    "strict": true
   },
   "ISRG": {
     "created": "2026-11-03",
@@ -70,6 +140,26 @@
     "official_name": "MOLINA HEALTHCARE",
     "strict": true
   },
+  "NEE": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "NextEra Energy",
+      "NextEra"
+    ],
+    "official_name": "NEXTERA ENERGY",
+    "strict": false
+  },
+  "NRG": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "NRG Energy",
+      "NRG"
+    ],
+    "official_name": "NRG ENERGY",
+    "strict": true
+  },
   "ORCL": {
     "created": "2026-11-01",
     "cs_names": [
@@ -82,6 +172,27 @@
     "official_name": "ORACLE",
     "strict": false
   },
+  "OSCR": {
+    "created": "2026-11-09",
+    "cs_names": [
+      "Oscar"
+    ],
+    "names": [
+      "Oscar Health"
+    ],
+    "official_name": "Oscar Health",
+    "strict": false
+  },
+  "PEG": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "PSEG",
+      "Public Service Enterprise Group"
+    ],
+    "official_name": "PUBLIC SERVICE ENTERPRISE",
+    "strict": true
+  },
   "RSG": {
     "created": "2026-11-03",
     "cs_names": [
@@ -91,6 +202,37 @@
       "Republic Services"
     ],
     "official_name": "REPUBLIC SERVICES",
+    "strict": false
+  },
+  "SOLS": {
+    "created": "2026-11-09",
+    "cs_names": [
+      "Solstice"
+    ],
+    "names": [
+      "Solstice Advanced Materials"
+    ],
+    "official_name": "Solstice Advanced Materials",
+    "strict": false
+  },
+  "TLN": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "Talen Energy",
+      "Talen"
+    ],
+    "official_name": "Talen Energy",
+    "strict": false
+  },
+  "TMO": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "Thermo Fisher",
+      "Thermo Fisher Scientific"
+    ],
+    "official_name": "THERMO FISHER SCIENTIFIC",
     "strict": false
   },
   "TXN": {
@@ -103,6 +245,37 @@
     "official_name": "TEXAS INSTRUMENTS",
     "strict": false
   },
+  "UNH": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "UnitedHealth",
+      "UnitedHealth Group",
+      "UnitedHealthcare"
+    ],
+    "official_name": "UNITEDHEALTH",
+    "strict": true
+  },
+  "VST": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "Vistra",
+      "Vistra Corp",
+      "Vistra Energy"
+    ],
+    "official_name": "Vistra",
+    "strict": true
+  },
+  "WCN": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "Waste Connections"
+    ],
+    "official_name": "Waste Connections",
+    "strict": false
+  },
   "WM": {
     "created": "2026-11-03",
     "cs_names": [],
@@ -111,6 +284,16 @@
       "WM"
     ],
     "official_name": "WASTE MANAGEMENT",
+    "strict": false
+  },
+  "XEL": {
+    "created": "2026-11-09",
+    "cs_names": [],
+    "names": [
+      "Xcel Energy",
+      "Xcel"
+    ],
+    "official_name": "XCEL ENERGY",
     "strict": false
   }
 }

@@ -1,26 +1,4 @@
-@@HEARTBEAT|||2026-11-08|||2026-10-21T13:41:10+00:00
-2026-10-26T06:43:53+00:00|||PASS|||85a8f7199f0e399b110fd8492a79c928|||AMKR|||Amkor Technology: Nvidia's $3 Billion Vote Of Confidence Lands On A De-Rated Stock (AMKR)
-2026-10-26T06:43:58+00:00|||SENT|||d898a0c04ed79ef6b06856ca5acfb82f|||UMAC|||Exclusive: Inside Unusual Machines' $52 Million Drone Battery Acquisition
-2026-10-26T06:44:22+00:00|||PASS|||07e48fb45eef687b61fe842fd8e5169f|||META|||A $1 Trillion Depreciation Bomb Is Ticking Beneath the AI Market - Meta Platforms (NASDAQ:META), Amazon.c
-2026-10-26T06:44:25+00:00|||PASS|||c34ad1f6f3bcd36682e0534d30fc28b6|||AAPL|||Apple's Market Cap Grew From $350 Billion to $4.6 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Apple's Next Chapter Under John Ternus.
-2026-10-26T06:44:29+00:00|||PASS|||ebf236808e90009222de4b020ecd9594|||TSLA|||Elon Musk Met Xi Jinping and Took Tesla FSD to China — Now His CFO Says Getting the Green Light for Unsupervised Driving Is ‘Hard’
-2026-10-26T06:44:31+00:00|||PASS|||bba2eb2091c3bc2298ec8c92800df3a7|||TSLA|||Elon Musk Became the First Person Ever Confirmed With a Net Worth Above $1 Trillion in June 2026. Here's Why That Milestone Still Matters for Tesla and SpaceX Shareholders.
-2026-10-26T06:44:32+00:00|||PASS|||665a969ce03b70e708a8206628625aee|||TSLA|||Bank of America resets Tesla forecast as Robotaxi miles double
-2026-10-26T06:44:36+00:00|||PASS|||14352fa1abb259293593dfe976ca91c9|||NVDA|||Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.
-2026-10-26T06:44:52+00:00|||PASS|||d795a3284951fb6c63eb66b5a8f1803b|||SKHY|||SK Hynix Plans $12 Billion Dividend From Kioxia Gains: Report
-2026-10-26T06:44:53+00:00|||PASS|||46722954eee1ea01a81447b5718d7c0f|||SKHY|||SK Hynix Leveraged Funds to Be Delisted in US as AI Rally Cools
-2026-10-26T06:44:56+00:00|||PASS|||8bcde2a2d1da89c208e0e1c95dde74e9|||SKHY|||SK Hynix plans $12 billion dividend from its Kioxia stake windfall
-2026-10-26T06:44:58+00:00|||PASS|||c1a47c9321c0adea489efebce7d4f11d|||SKHY|||SK hynix weighs $12.1 billion special dividend, newspaper says
-2026-10-26T06:45:29+00:00|||PASS|||12d676511bac6019d6d76604f6b6096d|||NOK|||IndeRes upgrades Nokia stock rating on strong Q3 results By Investing.com
-2026-10-26T06:45:31+00:00|||PASS|||ab2bb9b3ef91a07d6651824f3f30b219|||NOK|||Nokia stock rating upgraded to Reduce by IndeRes on strong Q3 results
-2026-10-26T06:45:52+00:00|||SENT|||2deada9e3c212252301ce967ca2328e5|||CRM|||Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion
-2026-10-26T06:46:03+00:00|||PASS|||02404d6250a8fdc07e9a570d4cd41a4b|||ZS|||Zscaler: AI-assisted hackers target financial and personal data across 19 markets
-2026-10-26T06:46:29+00:00|||PASS|||5dd77ba8b895874319a1b5bd086c8b48|||SPCX|||Elon Musk’s SpaceX Locks Down $40 Billion In GPU Financing As Dan Ives Predicts ‘Game of Thrones Battle’
-2026-10-26T06:46:32+00:00|||PASS|||ca3e49650879b4cc2c9a996de1483ee5|||SPCX|||Musk Claims SpaceX Closed $40 Billion Debt Deal for AI Chips
-2026-10-26T06:46:34+00:00|||PASS|||d74318fc665ce72cc06fd9a3ac3b91a4|||SPCX|||Elon Musk confirms $40 billion SpaceX debt deal for AI chips, warns of neocloud shakeout
-2026-10-26T06:46:37+00:00|||PASS|||3ea9813702792c3681ed45a99e37ec86|||SPCX|||Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals
-2026-10-26T06:46:39+00:00|||PASS|||b8811b05d9e182b71af56aaa166c8f98|||SPCX|||SpaceX closes $40 billion debt deal for AI chips, Elon Musk says
-2026-10-26T06:46:42+00:00|||PASS|||db551f0609f377299b835eaffea6bec4|||SPCX|||Musk says SpaceX raised $40 billion in debt deal, predicts neocloud shakeout
+@@HEARTBEAT|||2026-11-09|||2026-10-21T13:41:10+00:00
 2026-10-26T16:15:17+00:00|||PASS|||784bfb748d39c488fdcf11a0fa68bbeb|||GOOGL|||Meta’s $95B Equity Deal Echoes Alphabet’s Offering. Convertible Stock Could Yield 6%.
 2026-10-26T16:15:20+00:00|||PASS|||365213bb284014577b3214e7b6cfb3dd|||GOOGL|||Google ordered to suspend site work at two data centers in Finland following tree clearing controversy
 2026-10-26T16:15:23+00:00|||PASS|||c8afbb1fcaa848ded8f143d246f9ab61|||MU|||After Two Spectacular Micron Buy Ratings, I’m Calling It Quits (Downgrade To Sell) (MU)
@@ -1568,3 +1546,34 @@
 2026-11-08T20:43:10+00:00|||SENT|||e448ee0cf1775fee3b8553a0511806d5|||RKLB|||SpaceX Rival Rocket Lab Reports Mixed Earnings, AST Space Up Next|||SpaceX競爭對手Rocket Lab公布好壞參半的財報，AST Space緊接登場
 2026-11-08T20:43:34+00:00|||PASS|||ae87b2f07f5e64dd6804d2c2e2a5570b|||IONQ|||IonQ's Record Revenue Includes a Big SkyWater Boost: Does That Change the Story?
 2026-11-08T20:43:47+00:00|||PASS|||20db8332cb2fb96cf59a49a48e962b78|||RSG|||Ward in talks over Republic of Ireland contract extension
+2026-11-09T08:28:09+00:00|||PASS|||1f51c1152cbecc58629ad03ffb4e1d1b|||UUUU|||What Energy Fuels (EFR) Said on Its Q3 Earnings Call
+2026-11-09T08:28:23+00:00|||PASS|||d68bbf633e216d23b5ca011e0e7a17c8|||VSH|||What Vishay Intertechnology (VSH) Said on Its Q3 Earnings Call
+2026-11-09T08:28:38+00:00|||PASS|||9287fbf3866c835bd59bdb96255c582f|||RDW|||5 revealing analyst questions from Redwire’s Q3 2026 earnings call
+2026-11-09T08:28:43+00:00|||PASS|||7259f71e621fc9e0dbe0eb455eb8eae1|||AAPL|||Apple Won’t “Play in Traffic” on AI. It’s Up 28% in a Year: Too Late to Buy?
+2026-11-09T08:28:47+00:00|||PASS|||27527c644c004fd957187f8e09d7bb1c|||TSLA|||Tesla to halt Cybertruck production in eight months: Musk
+2026-11-09T08:28:50+00:00|||PASS|||e69530811d009e9e4aef06fd1393a796|||TSLA|||Tesla seeks 10-year school property tax break for proposed $10 billion solar cell plant
+2026-11-09T08:28:51+00:00|||PASS|||99d44abf7aedaa5206e557091cdabc12|||TSLA|||Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'
+2026-11-09T08:28:55+00:00|||PASS|||e25d4f3d31fba0da66429b2c96fd4487|||NVDA|||Nvidia Shares Dip on Robinhood as Huang Affair Spurs Board Probe
+2026-11-09T08:28:57+00:00|||PASS|||4e53854525425fcc7d10201dcaf12b47|||NVDA|||Nvidia to Probe Spying Case After CEO Admits Infidelity
+2026-11-09T08:28:59+00:00|||PASS|||d4ce45fb8b867a0ffd12f42152c56bb0|||NVDA|||Asian Markets at Risk of Pressure on Nvidia Probe: Markets Wrap
+2026-11-09T08:29:01+00:00|||PASS|||a8daa3cba1697e0cb148e0904ecbb6f9|||NVDA|||What we know about Nvidia's probe into CEO Jensen Huang
+2026-11-09T08:29:02+00:00|||PASS|||e463462fdf53b3894bc6777b8131b584|||NVDA|||Trump backs Nvidia's Huang amid affair, spy investigation
+2026-11-09T08:29:04+00:00|||PASS|||aa0106c926263e841d1eb61baf9d2f64|||NVDA|||Reactions to Nvidia's probe into CEO Jensen Huang
+2026-11-09T08:29:05+00:00|||PASS|||2ce61815f26d856d4064d31c73157d46|||NVDA|||Nvidia Board Launches Probe In CEO Jensen Huang Spying Case. The Stock Is Falling.
+2026-11-09T08:29:08+00:00|||PASS|||5407047e065b66c542676abf8a59e1d7|||NVDA|||Nvidia Faces Governance Overhang: Jensen Huang’s Affair Admission Sparks Board Probe, Analysts Warn Of Leadership Risks
+2026-11-09T08:29:10+00:00|||PASS|||3e2f1108614e45098d608625610eb0ea|||AMD|||AMD: $100 Billion Revenue Target Appears Set (NASDAQ:AMD)
+2026-11-09T08:30:08+00:00|||PASS|||30170575685ff6d516e68068c0d97601|||ORCL|||Oracle Just Walked Away From a $7 Billion Tencent Deal. Here’s What It Means for ORCL Stock.
+2026-11-09T08:30:14+00:00|||PASS|||1d14940ff0bc2c797e8e59ae7e3d5c69|||PLTR|||Palantir alumni launch plan to ‘wake sleeping giants’ of European defence
+2026-11-09T08:30:23+00:00|||SENT|||856c63788f68beaf07eb4c4a6ff620bd|||IBM|||EU sues IBM and two European companies over troubled border system, FT reports|||《金融时报》报道，欧盟就陷入困境的边境系统起诉 IBM 及两家欧洲公司
+2026-11-09T08:30:32+00:00|||PASS|||fa5b19b3a0e594cb861afe8b249591f9|||NET|||What Cloudflare (NET) Said on Its Q3 Earnings Call
+2026-11-09T08:30:55+00:00|||PASS|||11bfe051d6845d90169c8102935bc8d4|||SPCX|||Elon Musk's BTC-holding firm SpaceX plans a $24 billion supercomputer
+2026-11-09T08:31:00+00:00|||SENT|||185646848f69493b77f59bb382bef6f5|||SPCX|||Musk says SpaceX annual recurring revenue likely to top US$500 billion by December 2027|||Musk稱SpaceX年度經常性收入可能在2027年12月前超過US$500 billion
+2026-11-09T08:31:03+00:00|||PASS|||d0d265dd9dbe186ba0065381bcb1df98|||SPCX|||Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'
+2026-11-09T08:31:07+00:00|||SENT|||b5d29c45614ad6b1090c0cc91123a1b9|||SPCX|||SpaceX (SPCX) Lands $45 Billion AI Deal As New Contracts Recast Its Growth Story|||SpaceX (SPCX) 簽下 $45 Billion AI 合約，新合約重塑其成長故事
+2026-11-09T08:31:36+00:00|||PASS|||7766896393da5f37643993b813dfacaa|||CEG|||Constellation Software (TSX:CSU) Stock Faces Q3 Earnings Margin Squeeze
+2026-11-09T08:31:39+00:00|||PASS|||f9d8dbfa2a283697fd3ce40a9e03e1e7|||VST|||Vistra prices $1.5 billion junior subordinated notes offering By Investing.com
+2026-11-09T08:31:49+00:00|||PASS|||15ce6ad391b9cb3a329a2f4bd3c15280|||XEL|||Business People: Securian taps retired Xcel CEO to lead board
+2026-11-09T08:31:53+00:00|||SENT|||122038156f9e78cb98be4502f9f9e25f|||QNT|||[PRNewswire] Quantinuum Reports Third Quarter 2026 Results|||Quantinuum公布2026年第三季度業績
+2026-11-09T08:32:02+00:00|||SENT|||8db014f1ac7f7f8c4a6e2668d6ced9f0|||TMO|||What Does Thermo Fisher Scientific (TMO) Mean By A New $5 Billion Buyback?|||Thermo Fisher Scientific (TMO) 的新 $5 Billion 庫藏股回購代表什麼？
+2026-11-09T08:32:10+00:00|||PASS|||4e81263b80c5663bcd50e7f537b310da|||HUM|||What Humana (HUM) Said on Its Q3 Earnings Call
+2026-11-09T08:32:13+00:00|||PASS|||0a640e2096ee9aa864034a708fa9a577|||OSCR|||What Oscar Health (OSCR) Said on Its Q3 Earnings Call
