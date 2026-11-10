@@ -1,6 +1,6 @@
 @@VERSION|||2
 @@HEARTBEAT|||2026-11-10
-@@AI|||2026-11-10|||12
+@@AI|||2026-11-10|||18
 0001193125-26-419614|||2026-10-13|||SENT
 0001178913-26-004755|||2026-10-13|||SKIP
 0001178913-26-004752|||2026-10-13|||SENT
@@ -1059,3 +1059,55 @@
 0001950047-26-010822|||2026-11-10|||SENT|||ABBV|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1551152/000195004726010822/xsl144X01/primary_doc.xml
 0000049071-26-000068|||2026-11-10|||SKIP|||HUM|||8-K
 0000731766-26-000274|||2026-11-10|||SKIP|||UNH|||8-K
+0000093751-26-000746|||2026-11-10|||SENT|||WOLF|||例行｜【被動型大股東 13G】|||https://www.sec.gov/Archives/edgar/data/895419/000009375126000746/xslSCHEDULE_13G_X02/primary_doc.xml
+0000093751-26-000714|||2026-11-10|||SENT|||RDW|||例行｜【被動型大股東 13G】|||https://www.sec.gov/Archives/edgar/data/1819810/000009375126000714/xslSCHEDULE_13G_X02/primary_doc.xml
+0000093751-26-000708|||2026-11-10|||DIGEST|||QCOM|||SCHEDULE 13G 13G 被動型持股超過 5%：STATE STREET CORP，持股 5.00%|||https://www.sec.gov/Archives/edgar/data/804328/000009375126000708/xslSCHEDULE_13G_X02/primary_doc.xml
+0001046179-26-000797|||2026-11-10|||SENT|||TSM|||留意｜【外國公司重大公告 6-K】|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm
+0001046179-26-000796|||2026-11-10|||SENT|||TSM|||利多｜【外國公司重大公告 6-K】|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000796/tsm-revenue20261110.htm
+0001046179-26-000794|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000794/xslF345X06/wk-form4_1794310898.xml
+0001046179-26-000793|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000793/xslF345X06/wk-form4_1794310890.xml
+0001046179-26-000792|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000792/xslF345X06/wk-form4_1794310883.xml
+0001046179-26-000791|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000791/xslF345X06/wk-form4_1794310876.xml
+0001046179-26-000790|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000790/xslF345X06/wk-form4_1794310870.xml
+0001046179-26-000789|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000789/xslF345X06/wk-form4_1794310863.xml
+0001046179-26-000782|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000782/xslF345X06/wk-form4_1794310702.xml
+0001046179-26-000781|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000781/xslF345X06/wk-form4_1794310695.xml
+0001046179-26-000780|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000780/xslF345X06/wk-form4_1794310688.xml
+0001046179-26-000779|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000779/xslF345X06/wk-form4_1794310680.xml
+0001046179-26-000778|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000778/xslF345X06/wk-form4_1794310674.xml
+0001046179-26-000777|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000777/xslF345X06/wk-form4_1794310668.xml
+0001046179-26-000776|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000776/xslF345X06/wk-form4_1794310662.xml
+0001046179-26-000775|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000775/xslF345X06/wk-form4_1794310656.xml
+0001046179-26-000774|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000774/xslF345X06/wk-form4_1794310650.xml
+0001046179-26-000773|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000773/xslF345X06/wk-form4_1794310644.xml
+0001046179-26-000772|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000772/xslF345X06/wk-form4_1794310638.xml
+0001046179-26-000771|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000771/xslF345X06/wk-form4_1794310631.xml
+0001046179-26-000758|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000758/xslF345X06/wk-form4_1794310320.xml
+0001046179-26-000757|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000757/xslF345X06/wk-form4_1794310312.xml
+0001046179-26-000756|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000756/xslF345X06/wk-form4_1794310306.xml
+0001046179-26-000755|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000755/xslF345X06/wk-form4_1794310298.xml
+0001046179-26-000754|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000754/xslF345X06/wk-form4_1794310289.xml
+0001046179-26-000753|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000753/xslF345X06/wk-form4_1794310280.xml
+0001046179-26-000746|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000746/xslF345X06/wk-form4_1794309328.xml
+0001046179-26-000745|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000745/xslF345X06/wk-form4_1794309321.xml
+0001046179-26-000744|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000744/xslF345X06/wk-form4_1794309313.xml
+0001046179-26-000743|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000743/xslF345X06/wk-form4_1794309306.xml
+0001046179-26-000742|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000742/xslF345X06/wk-form4_1794309298.xml
+0001046179-26-000741|||2026-11-10|||DIGEST|||TSM|||4 Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000741/xslF345X06/wk-form4_1794309291.xml
+0000950103-26-017186|||2026-11-10|||SENT|||ASX|||利多｜【外國公司重大公告 6-K】|||https://www.sec.gov/Archives/edgar/data/1122411/000095010326017186/dp256592_6k.htm
+0001959173-26-007891|||2026-11-10|||SENT|||KLAC|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/319201/000195917326007891/xsl144X01/primary_doc.xml
+0001140361-26-042892|||2026-11-10|||SENT|||ENTG|||利多｜【8-K 公告解讀】|||https://www.sec.gov/Archives/edgar/data/1101302/000114036126042892/ef20085135_8k.htm
+0000093751-26-000630|||2026-11-10|||DIGEST|||CSCO|||SCHEDULE 13G 13G 被動型持股超過 5%：STATE STREET CORP，持股 5.00%|||https://www.sec.gov/Archives/edgar/data/858877/000009375126000630/xslSCHEDULE_13G_X02/primary_doc.xml
+0000093751-26-000724|||2026-11-10|||DIGEST|||SWKS|||SCHEDULE 13G 13G 被動型持股超過 5%：STATE STREET CORP，持股 4.60%|||https://www.sec.gov/Archives/edgar/data/4127/000009375126000724/xslSCHEDULE_13G_X02/primary_doc.xml
+0001193125-26-454426|||2026-11-10|||DIGEST|||PDYN|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/1826681/000119312526454426/pdyn-20260930.htm
+0001193125-26-454410|||2026-11-10|||SENT|||PDYN|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1826681/000119312526454410/pdyn-20261110.htm
+0000093751-26-000737|||2026-11-10|||DIGEST|||USAR|||SCHEDULE 13G 13G 被動型持股超過 5%：STATE STREET CORP，持股 3.80%|||https://www.sec.gov/Archives/edgar/data/1970622/000009375126000737/xslSCHEDULE_13G_X02/primary_doc.xml
+0000093751-26-000735|||2026-11-10|||DIGEST|||UAMY|||SCHEDULE 13G 13G 被動型持股超過 5%：STATE STREET CORP，持股 5.50%|||https://www.sec.gov/Archives/edgar/data/101538/000009375126000735/xslSCHEDULE_13G_X02/primary_doc.xml
+0000093751-26-000690|||2026-11-10|||DIGEST|||MTRN|||SCHEDULE 13G 13G 被動型持股超過 5%：STATE STREET CORP，持股 7.70%|||https://www.sec.gov/Archives/edgar/data/1104657/000009375126000690/xslSCHEDULE_13G_X02/primary_doc.xml
+0000093751-26-000629|||2026-11-10|||DIGEST|||LEU|||SCHEDULE 13G 13G 被動型持股超過 5%：STATE STREET CORP，持股 7.40%|||https://www.sec.gov/Archives/edgar/data/1065059/000009375126000629/xslSCHEDULE_13G_X02/primary_doc.xml
+0000093751-26-000729|||2026-11-10|||DIGEST|||TE|||SCHEDULE 13G 13G 被動型持股超過 5%：STATE STREET CORP，持股 4.00%|||https://www.sec.gov/Archives/edgar/data/1992243/000009375126000729/xslSCHEDULE_13G_X02/primary_doc.xml
+0000093751-26-000640|||2026-11-10|||DIGEST|||CMI|||SCHEDULE 13G 13G 被動型持股超過 5%：STATE STREET CORP，持股 5.00%|||https://www.sec.gov/Archives/edgar/data/26172/000009375126000640/xslSCHEDULE_13G_X02/primary_doc.xml
+0001104659-26-124699|||2026-11-10|||SENT|||DUK|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1326160/000110465926124699/tm2629239d1_8k.htm
+0001628280-26-072454|||2026-11-10|||DIGEST|||QNT|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/2110105/000162828026072454/qnt-20260930.htm
+0001628280-26-072544|||2026-11-10|||DIGEST|||MOH|||144 Form 144 內部人預告賣股：Richard Shapiro（董事），782 股，約 $159,020|||https://www.sec.gov/Archives/edgar/data/1179929/000162828026072544/xsl144X01/primary_doc.xml
+0001802241-26-000008|||2026-11-10|||DIGEST|||HUM|||144 Form 144 內部人預告賣股：Frederick Wayne A.I.（董事），440 股，約 $187,644|||https://www.sec.gov/Archives/edgar/data/49071/000180224126000008/xsl144X01/primary_doc.xml

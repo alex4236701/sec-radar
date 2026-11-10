@@ -1,1 +1,114 @@
-[]
+[
+ {
+  "date": "2026-11-10",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：STATE STREET CORP，持股 5.00%",
+  "ticker": "QCOM",
+  "url": "https://www.sec.gov/Archives/edgar/data/804328/000009375126000708/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "4",
+  "holding": false,
+  "text": "Form 4 員工／高管持股計畫統一買進（非主動買進）：30 份申報，合計 1,655 股，約 $116,678，均價 $70.50",
+  "ticker": "TSM",
+  "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000794/xslF345X06/wk-form4_1794310898.xml"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：STATE STREET CORP，持股 5.00%",
+  "ticker": "CSCO",
+  "url": "https://www.sec.gov/Archives/edgar/data/858877/000009375126000630/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：STATE STREET CORP，持股 4.60%",
+  "ticker": "SWKS",
+  "url": "https://www.sec.gov/Archives/edgar/data/4127/000009375126000724/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "PDYN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1826681/000119312526454426/pdyn-20260930.htm"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：STATE STREET CORP，持股 3.80%",
+  "ticker": "USAR",
+  "url": "https://www.sec.gov/Archives/edgar/data/1970622/000009375126000737/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：STATE STREET CORP，持股 5.50%",
+  "ticker": "UAMY",
+  "url": "https://www.sec.gov/Archives/edgar/data/101538/000009375126000735/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：STATE STREET CORP，持股 7.70%",
+  "ticker": "MTRN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1104657/000009375126000690/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：STATE STREET CORP，持股 7.40%",
+  "ticker": "LEU",
+  "url": "https://www.sec.gov/Archives/edgar/data/1065059/000009375126000629/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：STATE STREET CORP，持股 4.00%",
+  "ticker": "TE",
+  "url": "https://www.sec.gov/Archives/edgar/data/1992243/000009375126000729/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：STATE STREET CORP，持股 5.00%",
+  "ticker": "CMI",
+  "url": "https://www.sec.gov/Archives/edgar/data/26172/000009375126000640/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "QNT",
+  "url": "https://www.sec.gov/Archives/edgar/data/2110105/000162828026072454/qnt-20260930.htm"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Richard Shapiro（董事），782 股，約 $159,020",
+  "ticker": "MOH",
+  "url": "https://www.sec.gov/Archives/edgar/data/1179929/000162828026072544/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-10",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Frederick Wayne A.I.（董事），440 股，約 $187,644",
+  "ticker": "HUM",
+  "url": "https://www.sec.gov/Archives/edgar/data/49071/000180224126000008/xsl144X01/primary_doc.xml"
+ }
+]
