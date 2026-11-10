@@ -1,6 +1,6 @@
 @@VERSION|||2
 @@HEARTBEAT|||2026-11-10
-@@AI|||2026-11-10|||18
+@@AI|||2026-11-10|||26
 0001193125-26-419614|||2026-10-13|||SENT
 0001178913-26-004755|||2026-10-13|||SKIP
 0001178913-26-004752|||2026-10-13|||SENT
@@ -1111,3 +1111,47 @@
 0001628280-26-072454|||2026-11-10|||DIGEST|||QNT|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/2110105/000162828026072454/qnt-20260930.htm
 0001628280-26-072544|||2026-11-10|||DIGEST|||MOH|||144 Form 144 內部人預告賣股：Richard Shapiro（董事），782 股，約 $159,020|||https://www.sec.gov/Archives/edgar/data/1179929/000162828026072544/xsl144X01/primary_doc.xml
 0001802241-26-000008|||2026-11-10|||DIGEST|||HUM|||144 Form 144 內部人預告賣股：Frederick Wayne A.I.（董事），440 股，約 $187,644|||https://www.sec.gov/Archives/edgar/data/49071/000180224126000008/xsl144X01/primary_doc.xml
+0000950103-26-017277|||2026-11-10|||SENT|||UCTT|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1275014/000095010326017277/dp256657_8k.htm
+0000914208-26-000438|||2026-11-10|||SENT|||MKSI|||例行｜【被動型大股東 13G】|||https://www.sec.gov/Archives/edgar/data/1049502/000091420826000438/xslSCHEDULE_13G_X02/primary_doc.xml
+0001628280-26-072758|||2026-11-10|||SKIP|||AMKR|||4
+0001950047-26-010907|||2026-11-10|||SENT|||AMKR|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1047127/000195004726010907/xsl144X01/primary_doc.xml
+0001683168-26-008496|||2026-11-10|||SENT|||UMAC|||留意｜【8-K 公告解讀】|||https://www.sec.gov/Archives/edgar/data/1956955/000168316826008496/umac_8k.htm
+0001842665-26-000009|||2026-11-10|||SENT|||UMAC|||例行｜【被動型大股東 13G】|||https://www.sec.gov/Archives/edgar/data/1956955/000184266526000009/xslSCHEDULE_13G_X02/primary_doc.xml
+0001950047-26-010912|||2026-11-10|||SENT|||OUST|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1816581/000195004726010912/xsl144X01/primary_doc.xml
+0000914208-26-000458|||2026-11-10|||SENT|||WOLF|||例行｜【被動型大股東 13G】|||https://www.sec.gov/Archives/edgar/data/895419/000091420826000458/xslSCHEDULE_13G_X02/primary_doc.xml
+0001104659-26-125254|||2026-11-10|||DIGEST|||QCOM|||424B5 424B5 公司發債：$4,000,000,000|||https://www.sec.gov/Archives/edgar/data/804328/000110465926125254/tm2629187-2_424b5.htm
+0000914208-26-000446|||2026-11-10|||DIGEST|||PENG|||SCHEDULE 13G/A 13G 修正：Invesco Ltd.，持股 6.30%|||https://www.sec.gov/Archives/edgar/data/1616533/000091420826000446/xslSCHEDULE_13G_X02/primary_doc.xml
+0001616533-26-000058|||2026-11-10|||SENT|||PENG|||留意｜【既有股東轉售股票】|||https://www.sec.gov/Archives/edgar/data/1616533/000161653326000058/peng-prospectussupplement4.htm
+0001192758-26-000010|||2026-11-10|||SKIP|||VECO|||4
+0001595888-26-000161|||2026-11-10|||DIGEST|||AEHR|||SCHEDULE 13G 13G 被動型持股超過 5%：JANE STREET GROUP, LLC，持股 5.10%|||https://www.sec.gov/Archives/edgar/data/1040470/000159588826000161/xslSCHEDULE_13G_X02/primary_doc.xml
+0001156899-26-000037|||2026-11-10|||SKIP|||SMTC|||4
+0001974078-26-000411|||2026-11-10|||DIGEST|||AAOI|||144 Form 144 內部人預告賣股：Murry Stefan J.（高階主管），4,000 股，約 $195,102|||https://www.sec.gov/Archives/edgar/data/1158114/000197407826000411/xsl144X01/primary_doc.xml
+0001894643-26-000005|||2026-11-10|||SKIP|||SWKS|||4
+0001793686-26-000004|||2026-11-10|||SKIP|||SWKS|||4
+0000004127-26-000055|||2026-11-10|||DIGEST|||SWKS|||10-K 10-K 年報|||https://www.sec.gov/Archives/edgar/data/4127/000000412726000055/swks-20261002.htm
+0000914208-26-000440|||2026-11-10|||DIGEST|||MPWR|||SCHEDULE 13G/A 13G 修正：Invesco Ltd.，持股 4.80%（已降到 5% 以下）|||https://www.sec.gov/Archives/edgar/data/1280452/000091420826000440/xslSCHEDULE_13G_X02/primary_doc.xml
+0001769628-26-000462|||2026-11-10|||SKIP|||CRWV|||4
+0001769628-26-000461|||2026-11-10|||SENT|||CRWV|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/crwv-20261110.htm
+0001950047-26-010948|||2026-11-10|||SENT|||PLTR|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1321655/000195004726010948/xsl144X01/primary_doc.xml
+0001433644-26-000019|||2026-11-10|||SKIP|||SNOW|||4
+0001433644-26-000018|||2026-11-10|||SKIP|||SNOW|||4
+0001823009-26-000024|||2026-11-10|||SKIP|||FROG|||4
+0001193125-26-455539|||2026-11-10|||SENT|||AKAM|||留意｜【8-K 公告解讀】|||https://www.sec.gov/Archives/edgar/data/1086222/000119312526455539/d51061d8k.htm
+0000914208-26-000396|||2026-11-10|||DIGEST|||CGNX|||SCHEDULE 13G 13G 被動型持股超過 5%：Invesco Ltd.，持股 5.10%|||https://www.sec.gov/Archives/edgar/data/851205/000091420826000396/xslSCHEDULE_13G_X02/primary_doc.xml
+0001899287-26-000069|||2026-11-10|||SENT|||AMPX|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1899287/000189928726000069/ampx-20261110.htm
+0001193125-26-455458|||2026-11-10|||SENT|||VELO|||利空｜【財報揭露繼續經營疑慮】|||https://www.sec.gov/Archives/edgar/data/1825079/000119312526455458/velo-20260930.htm
+0001193125-26-455425|||2026-11-10|||SENT|||VELO|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1825079/000119312526455425/velo-20261110.htm
+0001950047-26-010914|||2026-11-10|||DIGEST|||VSAT|||144 Form 144 內部人預告賣股：MICHAEL KRELLER（高階主管），4,575 股，約 $343,125|||https://www.sec.gov/Archives/edgar/data/797721/000195004726010914/xsl144X01/primary_doc.xml
+0001950047-26-010913|||2026-11-10|||SENT|||VSAT|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/797721/000195004726010913/xsl144X01/primary_doc.xml
+0001213900-26-118059|||2026-11-10|||SKIP|||ELMT|||8-K
+0001628280-26-072824|||2026-11-10|||SKIP|||LEU|||8-K
+0001437749-26-036155|||2026-11-10|||SKIP|||GNRC|||4
+0001959173-26-007905|||2026-11-10|||DIGEST|||DUK|||144 Form 144 內部人預告賣股：Renjel Louis E.（高階主管），785 股，約 $101,387|||https://www.sec.gov/Archives/edgar/data/1326160/000195917326007905/xsl144X01/primary_doc.xml
+0001876042-26-000314|||2026-11-10|||SKIP|||CRCL|||4
+0001079500-26-000011|||2026-11-10|||DIGEST|||GLXY|||4 Form 4 內部人小額買進：DEASON DOUGLAS R（董事）：5,000 股，均價 $13.98，約 $69,900|||https://www.sec.gov/Archives/edgar/data/1859392/000107950026000011/xslF345X06/wk-form4_1794349072.xml
+0000313616-26-000223|||2026-11-10|||SKIP|||DHR|||4
+0000313616-26-000222|||2026-11-10|||SKIP|||DHR|||4
+0001959173-26-007920|||2026-11-10|||SENT|||DHR|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/313616/000195917326007920/xsl144X01/primary_doc.xml
+0001786054-26-000008|||2026-11-10|||SKIP|||LLY|||4
+0001950047-26-010911|||2026-11-10|||SENT|||MOH|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1179929/000195004726010911/xsl144X01/primary_doc.xml
+0001950047-26-010957|||2026-11-10|||DIGEST|||ISRG|||144 Form 144 內部人預告賣股：GARY LOEB（高階主管），400 股，約 $184,224|||https://www.sec.gov/Archives/edgar/data/1035267/000195004726010957/xsl144X01/primary_doc.xml
