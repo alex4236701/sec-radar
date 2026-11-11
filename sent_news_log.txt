@@ -1,39 +1,4 @@
-@@HEARTBEAT|||2026-11-10|||2026-10-21T13:41:10+00:00
-2026-10-27T22:26:33+00:00|||PASS|||64063ac2f8e5303fc5e00e8781a8687f|||GOOGL|||Alphabet reports Q3 earnings on Wednesday: Here's what to watch for
-2026-10-27T22:26:35+00:00|||PASS|||c082f00ef17633527472f7467ac1b1f9|||GOOGL|||Can Strong Search and Cloud Growth Drive GOOGL's Q3 Earnings?
-2026-10-27T22:26:44+00:00|||SENT|||c8a4ea904a827e87d4b34c4bad3f5df1|||UCTT|||Ultra Clean Q3 2026 slides: record revenue, margin gains on AI demand|||Ultra Clean 2026 年第三季簡報：營收創新高，AI 需求帶動利潤率提升
-2026-10-27T22:26:53+00:00|||SENT|||710d20bfc1109d61de2d5ff590a9b435|||UCTT|||Ultra Clean earnings beat by $0.21, revenue topped estimates|||Ultra Clean 每股盈餘比預期高 $0.21，營收也優於預期
-2026-10-27T22:26:56+00:00|||PASS|||5131e37d46f867495214656e0f5c04a1|||UCTT|||Ultra Clean earnings face test as stock reels from pullback By Investing.com
-2026-10-27T22:27:02+00:00|||SENT|||d87f5732e97255e54dd2b3c748d096e8|||TTMI|||TTM Technologies completes $100M buyback, authorizes new program By Investing.com|||TTM Technologies 完成 $100M 買回，並授權新的買回計畫
-2026-10-27T22:27:22+00:00|||SENT|||2d31ea9a5850108269b4d8c0442118f1|||AVGO|||Banks Eye $21 Billion of Bonds for Broadcom Chip-Financing Deal|||銀行擬為 Broadcom 晶片融資案發行 $21 Billion 債券
-2026-10-27T22:27:29+00:00|||SENT|||d4b2eb4ba554860cf183d865dfa650b7|||AVGO|||Google TPUs Are Cheaper Than NVIDIA GPUs, Yet Anthropic’s $63 Billion TPU Financing Hit A Roadblock Until Broadcom Sweetened Terms For Banks|||Google TPU 比 NVIDIA GPU 便宜，但 Anthropic 的 $63 Billion TPU 融資一度卡關，直到 Broadcom 給銀行更好的條件
-2026-10-27T22:27:42+00:00|||PASS|||de67ec4f836f11914e3a216fc6bb08a2|||HON|||Honeywell Aerospace to Release Q3 Earnings: What's in the Cards?
-2026-10-27T22:27:46+00:00|||PASS|||0805cb8431c3f78930c6bbe513e1cfe2|||MSFT|||Microsoft Could Swing By $184 Billion After Earnings
-2026-10-27T22:27:48+00:00|||PASS|||63588f1107f2b816368af90eb0b4795d|||MSFT|||Tech layoffs 2026: Tracking the job losses across Microsoft, Netflix, Electronic Arts, eBay, Apple, Meta and others
-2026-10-27T22:27:56+00:00|||SENT|||0cc0f43558597d1d1ce04bedd59f725e|||AMZN|||US agency approves Amazon Leo’s $11.5 billion acquisition of Globalstar|||美國主管機關核准 Amazon Leo 以 $11.5 billion 收購 Globalstar
-2026-10-27T22:28:00+00:00|||PASS|||e9f39db82109a02692df31bba8c4f193|||META|||Why Meta Platforms’ $27 Billion Data Center Bond Is Slumping
-2026-10-27T22:28:05+00:00|||SENT|||e0457539ed13908ca8855345ecb5dcd5|||META|||Watch Meta Boosts Equity Offering to $98 Billion, Raising Its AI Bet|||Meta 把股權發行擴大到 $98 Billion，加碼 AI
-2026-10-27T22:28:07+00:00|||PASS|||2874498442e26f88f40c51332345d584|||META|||Market Chatter: Meta Platforms' Share Sale for AI Spending Oversubscribed
-2026-10-27T22:28:10+00:00|||PASS|||b9270c541f0f0731aa2723d096c743bc|||META|||Meta’s $97.5B AI money grab: why Zuckerberg is racing to raise cash before rivals
-2026-10-27T22:28:11+00:00|||PASS|||6a3354573420b2096112890ce34bb397|||META|||Meta Is Selling Up to $95 Billion of Stock. Its Chip Suppliers Want In
-2026-10-27T22:28:16+00:00|||SENT|||9a2972c89ce320de55debdc13e0702a8|||META|||Meta Wraps Up First Phase of Equity Financing—$37.5 Billion. Convertibles Yield 6.5%|||Meta 完成第一階段股權融資 $37.5 Billion，可轉債殖利率 6.5%
-2026-10-27T22:28:21+00:00|||PASS|||146aa9d3cf3e85046a6420d09f66891f|||TSLA|||Tesla Rises 6% as Barclays Upgrade Cites SpaceX Merger Potential; Lucid Drops 4%, Rivian Slips
-2026-10-27T22:28:26+00:00|||PASS|||d9b75309e5ee02acbc9f285b01eaadc7|||NVDA|||Nvidia, AMD to buy $4B in Meta shares as part of expanded chip partnerships
-2026-10-27T22:28:33+00:00|||SENT|||a4fa7955dd94430428d4face3f8b4972|||AMD|||Nvidia, AMD to buy $4B in Meta shares as part of expanded chip partnerships|||Nvidia、AMD 將買進 $4B 的 Meta 股票，擴大晶片合作
-2026-10-27T22:28:41+00:00|||PASS|||7ce98c48cc5e5a0ba1535c1e6a610d32|||INTC|||Infisical's $40M raise, Intel buys Classiq, RadNet's radiology tie-up
-2026-10-27T22:28:43+00:00|||PASS|||dbebdb5041491c6e50689d2f8a1f4cbf|||INTC|||Intel faces test of recovery as Wedbush looks beyond Q3 results
-2026-10-27T22:28:44+00:00|||PASS|||ddf6905e55e035aa2713c1e0f7d1b920|||INTC|||Intel offers 'balanced setup' into Q3 results, with servers the key: Wedbush (INTC:NASDAQ)
-2026-10-27T22:28:54+00:00|||PASS|||07753577e7492dfaf348607ef343cd16|||SKHY|||SK Hynix's Solidigm Reportedly In Talks Over $45B Investment In US Chip Plant
-2026-10-27T22:28:56+00:00|||PASS|||a408a7a92f03bfaea6b948a448f70f28|||SKHY|||SK Hynix Jumps On Dividend Report As Memory Makers Sell Out 2027
-2026-10-27T22:29:03+00:00|||PASS|||d7bc811f3fd536347ccc96410852a4e3|||STX|||Seagate Stock Slides Despite Earnings Beat, Adding To Slump For AI Stock
-2026-10-27T22:29:05+00:00|||PASS|||0199af26514b81fc0c5d72965366815c|||STX|||Seagate Stock Falls as Record-Breaking Earnings Aren’t Enough
-2026-10-27T22:29:07+00:00|||PASS|||dc63dd417f2cfba0ae9f61c8891c33cf|||STX|||Seagate falls in extended trading on quarterly results
-2026-10-27T22:29:15+00:00|||SENT|||fa1ee1d3d91c852a0de5e2b919721517|||STX|||Seagate Technology shares fall 6% despite Q1 earnings beat and raised guidance|||Seagate Technology 第一季獲利優於預期並上調財測，股價仍跌 6%
-2026-10-27T22:29:35+00:00|||SENT|||6bb3b5003afbc2e51acccac2e0ebf5cf|||TER|||Teradyne Revenue, Profit Jump on Semiconductor Test Growth|||Teradyne 半導體測試成長，營收與獲利大增
-2026-10-27T22:29:51+00:00|||PASS|||71ef11853d652295f54bc58ab90c18e2|||CSCO|||Cisco’s CMO has to generate more revenue on the same budget. Here’s where she’s placing her bets
-2026-10-27T22:29:53+00:00|||PASS|||4a9a3727e2961ce6cf6dc1a227bf6182|||CSCO|||Ingram Micro Launches AI-Powered SMB Quick Buy Program Packed With Cisco Technology: Exclusive
-2026-10-27T22:29:56+00:00|||PASS|||9c5cf11bc966b69cab76ec44b766ea64|||SWKS|||Did Skyworks Solutions, Inc. Insiders Breach their Fiduciary Duties to Shareholders?
-2026-10-27T22:31:06+00:00|||PASS|||664ee43fb1984f6da00f9791fe9a8d6d|||IONQ|||IonQ Jumped 7%, Rigetti Up 8% on Intel’s $2.3 Billion Quantum Buy: “Full-Stack Quantum Computing Business”
+@@HEARTBEAT|||2026-11-11|||2026-10-21T13:41:10+00:00
 2026-10-28T01:30:09+00:00|||PASS|||11144dce3e38044a9994467d0ebd1729|||GOOGL|||OpenAI plans to buy Google’s AI chips, The Information reports By Reuters
 2026-10-28T01:30:13+00:00|||PASS|||7192bca82db142e91d27c21c9636217b|||GOOGL|||OpenAI plans to buy Google's AI chips, The Information reports
 2026-10-28T01:30:17+00:00|||SENT|||0aeb9d679037c351408d52d05a291a0d|||GOOGL|||OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips|||長期是 Nvidia 客戶的 OpenAI 計畫購買 Google 的 AI 晶片
@@ -1559,3 +1524,29 @@
 2026-11-10T19:56:56+00:00|||PASS|||b026094a01e1987a8b37a9bea9dd3501|||SOLS|||Aura Introduces Solstice, an In-House AI Engine
 2026-11-10T19:56:59+00:00|||PASS|||c8acad99fb443eaecc8eff8e786ef80f|||BE|||Bloom Energy’s AI Growth Story Isn’t Over. The 15% Dip Could Be Your Chance to Buy.
 2026-11-10T19:57:42+00:00|||PASS|||3ff1a6bcf0d587d472ad54d0a0f6ae0b|||WM|||WM Launches "I Recycle" Pledge Ahead of America Recycles Day
+2026-11-11T00:43:34+00:00|||PASS|||c78c7753b7f132fbaa19b7a09780d72c|||MU|||Micron Technology Stocks Slip 1.27% as Hot CPI Overshadows $1 Billion Anthropic Bet
+2026-11-11T00:43:39+00:00|||PASS|||46c80e58c73eb1f95116357303ad0475|||TTMI|||3 Key Reasons to Buy TTMI Stock Despite a 54% Six-Month Slide
+2026-11-11T00:43:57+00:00|||PASS|||faa3a780714382569074eac28fa01a59|||GEV|||GE Vernova to spend $34.5M expanding Louisiana transformer manufacturing capacity
+2026-11-11T00:44:04+00:00|||PASS|||2861fd3a6f2e12ca0de26807f56744b9|||MSFT|||Microsoft Briefly Overtakes Nvidia as Jensen Huang Affair Helps Erase $1.8 Trillion Lead
+2026-11-11T00:44:07+00:00|||PASS|||79bfc976033fa67e93b5089bfb1bb86c|||MSFT|||Microsoft Is Back Above $4 Trillion and Only $266 Billion Behind Nvidia
+2026-11-11T00:44:09+00:00|||PASS|||3074cd8efec90b5052eda79c462dc617|||MSFT|||Microsoft challenges Trump's new ban over major AI risk
+2026-11-11T00:44:20+00:00|||SENT|||4dfbfd7a30b8dccf96332b2ddb84e9ba|||NVDA|||Scoop: Commerce Department received national security warning on Nvidia CEO affair|||獨家：商務部收到關於 Nvidia CEO 事件的國家安全警告
+2026-11-11T00:44:27+00:00|||PASS|||a16a4871498274c2f3dae7602b247c92|||NVDA|||Law Firm Wachtell Lipton to Lead Nvidia Internal Investigation
+2026-11-11T00:44:27+00:00|||PASS|||c45085d606197cd3548b9c59b62a0a34|||NVDA|||Microsoft Briefly Overtakes Nvidia as Jensen Huang Affair Helps Erase $1.8 Trillion Lead
+2026-11-11T00:44:29+00:00|||PASS|||6921497b6756d4d3539c645ec0bc577e|||NVDA|||Nvidia’s Bull Case Hinges on CEO Huang Surviving China Spy Probe
+2026-11-11T00:44:33+00:00|||PASS|||341b0745ba8391b24d276a25a25dc067|||NVDA|||Nvidia Erases 2026 Gains as Republicans Threaten Jensen Huang With Subpoena
+2026-11-11T00:44:36+00:00|||PASS|||c47d3815c349c408fe3deedebccd1031|||NVDA|||Nvidia Hires Wachtell Lipton to Investigate CEO Jensen Huang’s Affair With Chinese Executive
+2026-11-11T00:44:38+00:00|||PASS|||144db7cf4987761a3e22ea9a9f3f03c5|||NVDA|||What to Know About Nvidia’s Investigation of Its C.E.O.
+2026-11-11T00:44:49+00:00|||PASS|||9a9e684005b6415e40fc6fd86439b884|||TSM|||TSMC posts record October sales as AI chip demand shrugs off the selloff
+2026-11-11T00:44:51+00:00|||PASS|||2277a381989c888093df3e16cab41006|||TSM|||TSMC's October Sales Climb 14.7% Sequentially
+2026-11-11T00:45:44+00:00|||SENT|||e9ac10545048fc72998f638a069f45dc|||CRWV|||Watch CoreWeave Boosts Forecast, Easing Slowdown Concerns|||關注：CoreWeave 上調預測，緩解成長放緩疑慮
+2026-11-11T00:45:48+00:00|||PASS|||8845db64b891fededac29983e8d556f3|||CRWV|||CoreWeave plans multibillion-dollar chip-backed debt deal
+2026-11-11T00:45:50+00:00|||PASS|||33f0fb5d63a50cb4e45f32d8ff27da3e|||CRWV|||CoreWeave Earnings Beat Expectations, Assuaging Market Nervousness
+2026-11-11T00:45:51+00:00|||PASS|||0c652e0f8cce9825c523a460bfb94013|||CRWV|||'Fast Money' traders react to CoreWeave earnings
+2026-11-11T00:45:59+00:00|||SENT|||8c6438ba6d0a515ae37599a1a103baea|||CRWV|||CoreWeave Earnings, Revenue Top Views. Cash Burn Less Than Expected.|||CoreWeave 財報、營收優於預期，現金消耗低於預期
+2026-11-11T00:46:36+00:00|||SENT|||ff3fe4dfe656069f7ce84cd97996a41b|||AMPX|||Amprius Technologies (AMPX) Reports Q3 Loss, Beats Revenue Estimates|||Amprius Technologies (AMPX) 公布第三季虧損，營收優於預期
+2026-11-11T00:46:43+00:00|||SENT|||71047b421759fe650f3df3a46c5a75a5|||VELO|||Velo3D Stock Tumbles on Mixed Q3 Earnings|||Velo3D 股價因第三季業績好壞參半而大跌
+2026-11-11T00:46:48+00:00|||PASS|||3aac4da270977c0140e7e48f978e6336|||SPCX|||SpaceX proposes $24 billion data center, power plant in Starbase
+2026-11-11T00:46:49+00:00|||PASS|||b8fa18bb79d2a3aca5ecb71cb9b4a589|||SPCX|||SpaceX Could Profit From AI Data Center Crackdown, Deutsche Bank Says as It Raises 2028 Forecast
+2026-11-11T00:46:52+00:00|||PASS|||a16f97fa23c6ead65e300e7a5d960566|||PL|||One Reason To Buy Planet Labs Stock
+2026-11-11T00:47:37+00:00|||PASS|||f3d128158fb011b995ece9e8b5db4323|||LLY|||Hims & Hers Drops 18% as Q3 Loss and Profit Outlook Cut Disappoint; Novo Nordisk Slides 2%, Eli Lilly Holds Steady
