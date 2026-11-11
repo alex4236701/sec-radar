@@ -1,64 +1,4 @@
 @@HEARTBEAT|||2026-11-11|||2026-10-21T13:41:10+00:00
-2026-10-28T16:13:00+00:00|||SENT|||09dc0982ad803c4b2cec5ba90eaa027d|||GOOGL|||Update: Google, Apple Fined in Korea Over Prohibited App Market Practices|||Google、Apple 因違規的應用程式市場行為在韓國遭罰款
-2026-10-28T16:13:04+00:00|||PASS|||0c29112695515b84de23ddcbd2b5fec4|||GOOGL|||Alphabet stock rises as OpenAI plans to buy Google’s TPUs
-2026-10-28T16:13:07+00:00|||PASS|||e1b85aae3571c2bae61fa30590ddea9c|||GOOGL|||Google to preview a new crypto security system as private-key hacks mount
-2026-10-28T16:13:09+00:00|||PASS|||c1f492f47343e78a667b5c0e9495243d|||MU|||Micron’s stock rises after SK Hynix earnings. Here’s its next major test.
-2026-10-28T16:13:11+00:00|||PASS|||82dd67337a520828898245bc83209a89|||MU|||Micron Stock Gains as SK Hynix Reports Record Revenue Above 100 Trillion Won
-2026-10-28T16:13:27+00:00|||PASS|||4a32bed2d2a87fb758c5e02474b84346|||COHR|||Coherent Corp. stock may move 8.5% on Nov. 4 earnings release By Investing.com
-2026-10-28T16:13:29+00:00|||PASS|||2a18cd1b74b46afb442b6386e7768ab6|||COHR|||Coherent Corp. stock may move 8.5% on Nov. 4 earnings release
-2026-10-28T16:13:34+00:00|||PASS|||bed6ea2834218423e8cb8d8d0288c1d6|||FCEL|||FUELCELL ENERGY, INC. INVESTORS WITH LOSSES HAVE UNTIL
-2026-10-28T16:13:37+00:00|||PASS|||7c631ad2c02eee91db2aec59267bdeb2|||FCEL|||FuelCell Energy Appoints Peter Hopper to Board of Directors as it Advances Data Center Power Strategy
-2026-10-28T16:13:44+00:00|||SENT|||8f9814c83c9bfe396dcd5dfff12224b6|||GEV|||GE Vernova boosts grid push with $9 billion Trench deal, lifts revenue forecast|||GE Vernova 以 $9 billion 收購 Trench 加強電網業務，並上調營收預測
-2026-10-28T16:13:47+00:00|||PASS|||db710192287696ed22c331759e705880|||GEV|||Top Midday Stories: GE Vernova to Acquire Trench Group for $9 Billion; Wendy's Receives $1.4 Billion Takeover Offer From Trian-Led Group
-2026-10-28T16:13:49+00:00|||PASS|||ea72039c7ebc9bf309ac5a18d3db6c1f|||GEV|||GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows
-2026-10-28T16:13:56+00:00|||SENT|||698db3d0550cb284afd72c856d14bb4d|||GEV|||GE Vernova profit nearly triples as backlog hits $196.7 billion|||GE Vernova 獲利接近三倍，未完成訂單達 $196.7 billion
-2026-10-28T16:13:59+00:00|||PASS|||bd075b6eab6b1777892584a4c7ce33c9|||GEV|||GE Vernova Orders Soar. Earnings Reveal That AI Power Demand Remains Red Hot.
-2026-10-28T16:14:01+00:00|||PASS|||0335a267991d905c6fe3239696ca952f|||GEV|||GE Vernova to acquire Trench Group for $9.0 billion
-2026-10-28T16:14:02+00:00|||PASS|||95f369e577570c62d6002a687d12eb87|||GEV|||GE Vernova to Acquire Trench Group
-2026-10-28T16:14:04+00:00|||PASS|||8df2833baa862deef143375fc953356c|||CAT|||How To Earn $500 A Month From Caterpillar Stock Ahead Of Q3 Earnings
-2026-10-28T16:14:10+00:00|||PASS|||0a5074a9a9f96c32f3b33fc4927749b6|||RDW|||Redwire Corporation (RDW) May Report Negative Earnings: Know the Trend Ahead of Q3 Release
-2026-10-28T16:14:16+00:00|||PASS|||0284b72b3379e258a90a6f3ae0aa8000|||META|||Meta Loses $400 Billion, Auctions More Stock, But Analysts Still See 1.4x Upside
-2026-10-28T16:14:18+00:00|||PASS|||57ac0f7e3423bdbd6bb4845e122706e5|||AAPL|||Seeking Clues to Apple (AAPL) Q4 Earnings? A Peek Into Wall Street Projections for Key Metrics
-2026-10-28T16:14:21+00:00|||PASS|||d1df5625f14e2b8d1a2824a51ef4a511|||TSLA|||Musk Likes a Tesla-SpaceX Merger. Then He Admitted It Needs a Majority of ALL Tesla Shares, Not Just Votes Cast
-2026-10-28T16:14:22+00:00|||PASS|||1f0a5c6fd96d47b497cb94966845efc2|||TSLA|||Tesla Closed Up 4% at $407. Here’s What a SpaceX Merger Could Mean for Your Shares.
-2026-10-28T16:14:26+00:00|||PASS|||b528118019d83006895cd6e210c26e2d|||AMD|||AMD Is Putting $1 Billion Into Meta's Own Stock Sale
-2026-10-28T16:14:28+00:00|||PASS|||045bca4d778c4aa176da24c0abc27d90|||AMD|||AMD Jumped 5% and Is Closing In on $1 Trillion Again
-2026-10-28T16:14:29+00:00|||PASS|||242872a143555cfad108082cebed4b76|||AMD|||AMD Target Raised to $720 Ahead of Q3 Results
-2026-10-28T16:14:36+00:00|||PASS|||e4a4a4eb27bb0b4bb38301995edaa045|||INTC|||Robinhood misses on Q3 earnings, plus IBM, Intel, and Oracle object to tokenized plans
-2026-10-28T16:14:37+00:00|||PASS|||e12b29ce72198819923b0273295327b4|||INTC|||Intel Q3 earnings on deck: What to expect (INTC:NASDAQ)
-2026-10-28T16:14:40+00:00|||PASS|||2304273322f7bf3ffafed342e53ab207|||INTC|||Intel’s $2.3 billion quantum bet: can it revive the sector?
-2026-10-28T16:14:41+00:00|||PASS|||b8245183e9fd044adcb1b935013b5c1f|||INTC|||Sandisk and Intel Stocks Rise as AI Trade Reignites Before Big Tech Earnings
-2026-10-28T16:14:45+00:00|||PASS|||fe8027aa1c97f2f3ac4a60de215bfc9d|||INTC|||Intel gets tax breaks while local authorities lose revenue, claims policy org
-2026-10-28T16:14:47+00:00|||PASS|||929f66794764a0914c8666841f6aa31a|||INTC|||Oracle Cloud Infrastructure Brings NVIDIA, AMD, Intel, Google, Cerebras, SambaNova & Broadcom Under One Massive “AI” Roof, Deploying Vera Rubin, 6th Gen EPYC & MI455X, and Diamond Rapids Among Many Others
-2026-10-28T16:14:55+00:00|||PASS|||beb09ea8b65e405b616ee967f794ac06|||SKHY|||Micron’s stock rises after SK Hynix earnings. Here’s its next major test.
-2026-10-28T16:14:56+00:00|||PASS|||bc7bfb30018708e0ef30b45dad3941e3|||SKHY|||SK Hynix jumps on Q3 earnings
-2026-10-28T16:14:58+00:00|||PASS|||5511107da007129e1af3dc6bb9f7ed8f|||SKHY|||SK Hynix Stock Surges 7% After Record Quarterly Profit And Buyback Plan
-2026-10-28T16:15:03+00:00|||PASS|||491c26be82e60a3b05054042d21f6338|||SKHY|||SK hynix-owned Solidigm is plotting a new $45 billion flash memory factory for the US, report claims — wants go-ahead to export equipment for China upgrades in return
-2026-10-28T16:15:04+00:00|||PASS|||451b0f0b74a57137c6ea642ed80bc4a7|||SKHY|||SK Hynix delivered on third-quarter results — but the outlook is what really mattered to Wall Street and the AI trade
-2026-10-28T16:15:06+00:00|||PASS|||bc9f34f11cf65ca180724aa57afec3c2|||SKHY|||SK Hynix Stock Jumps On Q3 Earnings Beat
-2026-10-28T16:15:10+00:00|||PASS|||83fe744df867365545b6dcb6ad568901|||SKHY|||SK Hynix Shares Jump Nearly 11% as Q3 Profit Beats Forecasts and Shareholder Returns Reach 100 Trillion Won
-2026-10-28T16:15:11+00:00|||PASS|||2e4683fecfedefa151f8c53bbc73a206|||SKHY|||Tech stocks are poised to move higher following record earnings from chipmaker SK Hynix
-2026-10-28T16:15:14+00:00|||PASS|||b88a8bef5de5b57ad4ee3b70c7622b82|||SNDK|||The AI Trade Is Back. Why Sandisk Stock Is Rising Before Big Tech Earnings.
-2026-10-28T16:15:18+00:00|||PASS|||4e2c99af9e0dbf62c77f40d5ff97c40e|||STX|||Why Seagate Stock Is Falling Despite An Earnings Beat And Strong AI-Driven Demand
-2026-10-28T16:15:46+00:00|||PASS|||d4be01e6bc1b9063d3fd3726123d3238|||CSCO|||Cisco open sources tool for detecting AI agents on hacking sprees
-2026-10-28T16:15:56+00:00|||PASS|||e2dd0c43f6aa9014216e25b9340aba1b|||IFNNY|||Enphase and Infineon deploy 900V GaN switches in solid-state transformers designed for AI data centers
-2026-10-28T16:15:58+00:00|||PASS|||e0f7040da02a6d0fff7eefdb06585d95|||ALGM|||Earnings to watch: Allegro MicroSystems (ALGM) reports Q3 results tomorrow
-2026-10-28T16:16:04+00:00|||PASS|||a7178c4a78b9eafea0041cf64c331675|||VRT|||Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results
-2026-10-28T16:16:09+00:00|||SENT|||64e349f537b482f79ecb0c6a2c25bd3b|||VRT|||Vertiv raises 2026 outlook after third-quarter revenue jumps 61%|||Vertiv 第三季營收大增 61%，上調 2026 年財測
-2026-10-28T16:16:12+00:00|||PASS|||4093734dde32919362a95682996349da|||VRT|||Vertiv Earnings Set a New Bar for AI Stocks
-2026-10-28T16:16:18+00:00|||PASS|||61a05d97cc1f9a013273c3b3aa6a8d58|||PLTR|||Exploring Analyst Estimates for Palantir Technologies (PLTR) Q3 Earnings, Beyond Revenue and EPS
-2026-10-28T16:16:19+00:00|||PASS|||a478055ee0e3ccb3df142aa307892c67|||PLTR|||Palantir: The Trust Layer For Agentic AI Heading Into Q3 Earnings (NASDAQ:PLTR)
-2026-10-28T16:16:27+00:00|||PASS|||9865efffc8bd3b3c874f963453d00ddc|||IBM|||Robinhood misses on Q3 earnings, plus IBM, Intel, and Oracle object to tokenized plans
-2026-10-28T16:16:56+00:00|||PASS|||8f679d76e27ae7544467f6cd80d6b322|||SPCX|||SpaceX Launches Grok AI Partner Program: Here’s What To Know
-2026-10-28T16:17:01+00:00|||PASS|||a8848732f3f0e17e517f21e258564b37|||SPCX|||SpaceX’s $40 billion GPU lease won’t affect its credit rating - Fitch
-2026-10-28T16:17:02+00:00|||PASS|||57493b95619d09848e7994a27824f034|||SPCX|||SpaceX Tells FAA It Alone Expects 10,000 Launches A Year, As It Gears Up To Target $28.5 Trillion Market That Elon Musk Believes Is Inadequate
-2026-10-28T16:17:03+00:00|||PASS|||d4f3ce3097e4d435f33c128f15c511d5|||SPCX|||Tesla Closed Up 4% at $407. Here’s What a SpaceX Merger Could Mean for Your Shares.
-2026-10-28T16:17:16+00:00|||PASS|||d517eabae35d15c47802148401296ca2|||USAR|||USA Rare Earth Just Broke Ground on a $1.2 Billion Magnet Complex. Here's Why It Matters.
-2026-10-28T16:17:26+00:00|||PASS|||d324a187035e4d2fb8da000b3e8a81f7|||PWR|||Earnings to watch: Quanta (PWR) reports Q3 results tomorrow
-2026-10-28T16:17:29+00:00|||PASS|||2a8e8515a15cc1edfe3fc925f7e37e7b|||GNRC|||Generac CEO Aaron Jagdfeld on outlook for power outages from severe weather
-2026-10-28T16:17:34+00:00|||SENT|||1f17155242bb519b3fb16019a5ae5fc1|||GNRC|||Generac Shares Fall 2% as Q3 Revenue Misses Forecasts Despite Earnings Growth|||Generac 第三季營收不如預期、獲利仍成長，股價跌 2%
-2026-10-28T16:17:42+00:00|||SENT|||5a8036bb7e10429d958cc3bff3caa38b|||GNRC|||Generac stock sees data center backlog surge to $4.5 billion|||Generac 資料中心未完成訂單大增到 $4.5 billion
-2026-10-28T16:17:50+00:00|||PASS|||d4e038799a299725ce1619a005a4a40a|||CRCL|||Coinbase Q3 earnings face falling estimates: Can USDC stem the slide?
 2026-10-28T18:24:27+00:00|||PASS|||c872508783841c84dd6b2c3324103c8b|||MU|||Micron Biomedical Appoints Anand Subramony, Ph.D., as Executive Vice President, Global Product Development and Combination Product Commercialization
 2026-10-28T18:24:57+00:00|||PASS|||9ba57ee57f73ab4f4cad1a78009216dc|||MSFT|||Should 60K Microsoft workers take the buyout and run? How to know when you should nab a package, or turn it down
 2026-10-28T18:24:58+00:00|||PASS|||fb66e6077a84afdda982f68f05dda11d|||MSFT|||If You Invest $1,000 in Microsoft Today, Here’s What It Could Be Worth by 2030
@@ -1532,3 +1472,49 @@
 2026-11-11T08:05:31+00:00|||PASS|||59d4cc86980afafaea10c0de60a8d768|||CRWV|||CoreWeave beats on earnings, stock pops in extended trading
 2026-11-11T08:06:53+00:00|||PASS|||e972f4c31a91d32f6e304524c9522902|||HOOD|||Robinhood Settles Users’ Cash Sweep Suit for Nearly $17 Million
 2026-11-11T08:07:00+00:00|||PASS|||4237ccc53b720e9978b5265e55d17e07|||ISRG|||Intuitive Machines (LUNR) Lands NASA Lunar Contract With Up To $15 Billion Scope
+2026-11-11T17:21:31+00:00|||PASS|||8b7530a2ff8c3904759b8734c1496586|||GOOGL|||Alphabet or CoreWeave: Which AI Stock Is Better to Buy in a Market Crash?
+2026-11-11T17:21:47+00:00|||PASS|||3ae9e9ab49751f55b88e87d35a39d37c|||AVGO|||NVIDIA Falls 4% as Board Probe of Jensen Huang Weighs on Shares; AMD and Broadcom Gain 3%
+2026-11-11T17:21:54+00:00|||SENT|||c30639d967257f87133b4c9af4b59dbd|||COHR|||[News] Coherent Signs Long-Term Supply Agreement with China-Based VOT for 6-Inch InP Substrates|||Coherent 與中國 VOT 簽署 6 英寸 InP 基板長期供應協議
+2026-11-11T17:22:02+00:00|||PASS|||3b4144e1f8b8a92f1a87de7bbc53a28c|||FCEL|||FuelCell Energy Inc. stock falls Tuesday, underperforms market
+2026-11-11T17:22:14+00:00|||SENT|||7a77da4363f6235e354f91ae95118ef4|||RDW|||Redwire Secures Follow On Order from U.S. Army AVCOE to Support Advanced Soldier Training on Mission-Ready Stalker UAS|||Redwire獲美國陸軍 AVCOE 後續訂單，支持以可執行任務的 Stalker UAS 進行進階士兵訓練
+2026-11-11T17:22:21+00:00|||PASS|||5d59cc1d26e43cc5793546d0107b014a|||MSFT|||Microsoft Is Fighting Trump Administration’s Looming Ban On Chinese Optical AI Parts; Lobbying Executive Says Decision Will “Grind The Data Center Rollout To A Halt”
+2026-11-11T17:22:23+00:00|||PASS|||048df824cfcf930e150a3d806404324e|||MSFT|||Microsoft Warns Trump Administration's Proposed China Data-Center Tech Ban Could Slow US AI Buildout, Rai
+2026-11-11T17:22:25+00:00|||PASS|||f5b66879dc8509a29d1bc46ef1ff6906|||MSFT|||Microsoft stock sinks as new AI rival targets $27 billion business
+2026-11-11T17:22:30+00:00|||PASS|||e1096e37c974642215ab6fb8bd3d667a|||AMZN|||Hackers use AntiFox AI agents in AWS credential-theft attacks
+2026-11-11T17:22:36+00:00|||PASS|||29c3b771e9cce32881ec788ce84c1b55|||TSLA|||Why The NHRA Banned The Tesla Model S Plaid
+2026-11-11T17:22:37+00:00|||PASS|||eba814cbc97f5212b3df2d843634bf42|||TSLA|||Elon Musk Makes Bold $10 Trillion Net Worth Remark as He Predicts Tesla Cybercab Will Dominate Ride-Haili
+2026-11-11T17:22:44+00:00|||SENT|||57d25034f805f67f8e46d7c266db7d7e|||TSLA|||Finland Approves Tesla’s Driver Assistance System Ahead of EU|||芬蘭在歐盟之前批准 Tesla 的駕駛輔助系統
+2026-11-11T17:22:48+00:00|||PASS|||aa9b4aaac5f70790da09ca06685b0901|||TSLA|||Elon Musk Just Put a $1 Trillion Chip Bill on Tesla’s Table. That’s a Warning for Anyone Holding 1,000 Tesla Shares
+2026-11-11T17:22:49+00:00|||PASS|||1b96f9e5a49bcf0aa777efe370a8a1dd|||TSLA|||Is It Too Late to Buy Tesla Stock?
+2026-11-11T17:22:53+00:00|||PASS|||1432056ae363cb5033af20f8bd4c8d6f|||NVDA|||Why Nvidia Stock Is Rising Despite Wall Street’s First Call for CEO Huang to Step Down
+2026-11-11T17:22:55+00:00|||PASS|||3afa76a5a792ef6322e57b88f4432fc2|||NVDA|||Dan Ives warns removing Jensen Huang as Nvidia CEO could wipe $1.2 trillion from the company's value
+2026-11-11T17:22:58+00:00|||PASS|||3fb5c88bd05ae22a4322b09b6db802bf|||AMD|||AMD Price Prediction: AI Boom and Record Revenue Set the Stage for Another Monster Rally
+2026-11-11T17:23:11+00:00|||SENT|||c9aa99bed6ceb2ed86acc959594ffdd8|||INTC|||Intel’s Next-Gen Diamond Rapids “Xeon 7” CPU Smiles For The Camera, A 256 P-Core Chip Built On 18A-P That Aims For A 2027 Launch|||Intel 下一代 Diamond Rapids「Xeon 7」CPU 亮相，採用 18A-P 製程的 256 個 P-core 晶片，目標於 2027 年推出
+2026-11-11T17:23:18+00:00|||PASS|||d1e1abf19f7db04b67df53fca98c944c|||TSM|||TSMC Stocks Climb 3.37% After Record NT$586.9 Billion October Revenue
+2026-11-11T17:23:28+00:00|||PASS|||24f1b9dae82c8e7c10c38c6b02095877|||SKHY|||Netlist CEO Hints Licensing Deal With SK Hynix Is In Works After Q3 Sales Rise 150%: Retail Turns Bullish
+2026-11-11T17:24:02+00:00|||PASS|||afa30a9d66cc27d628968ff25115e50b|||CSCO|||Cisco Q1 earnings on deck: What to expect (CSCO:NASDAQ)
+2026-11-11T17:24:18+00:00|||PASS|||fe231c8b6dbaf6cfd69181ca2fbde9c8|||DELL|||KIOXIA and Dell Technologies Collaborate on the Industry’s First 157 PB Single-Rack Object Store, Redefining Storage Economics
+2026-11-11T17:24:23+00:00|||PASS|||cd83c1fdf47ae749441b1bf771240c36|||ORCL|||Oracle Commodity Holding Announces $105,000 Private Placement
+2026-11-11T17:24:24+00:00|||PASS|||24e5930604176f7f3151549815ba1a46|||ORCL|||Warren Buffett's Successor, Greg Abel, Just Bought $9.6 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)
+2026-11-11T17:24:27+00:00|||PASS|||30ce1e3d7270abbd992971a78b08b587|||CRWV|||CoreWeave Stock Surges After Earnings. Its Debt Pivot Eases AI Fears.
+2026-11-11T17:24:29+00:00|||PASS|||d6d79ae9280c1a39ac57b394be509f0a|||CRWV|||Nasdaq Jumps After CoreWeave Earnings
+2026-11-11T17:24:32+00:00|||PASS|||43c1b5b8f11865232ffa2d84047c3660|||CRWV|||Watch CNBC’s full discussion on CoreWeave's stock surge and Nvidia's probe on 'Squawk on the Street'
+2026-11-11T17:24:34+00:00|||PASS|||eecf8043af9a2c58f873c55011a741d3|||CRWV|||Alphabet or CoreWeave: Which AI Stock Is Better to Buy in a Market Crash?
+2026-11-11T17:24:36+00:00|||PASS|||5424822822d7062512a3ab4d80e3a112|||CRWV|||CoreWeave earnings convince investors it can pay for AI buildout: Rosenblatt's McPeake
+2026-11-11T17:24:38+00:00|||PASS|||eacd5ce64ec29a79c90e44fa8b953fb3|||CRWV|||CoreWeave's earnings signal a turnaround for the stock, but analysts say it will take time
+2026-11-11T17:24:41+00:00|||PASS|||b5757d6085d2eed44f71868a15ebfcf4|||CRWV|||CoreWeave's $35 billion debt raises a major AI warning
+2026-11-11T17:24:46+00:00|||PASS|||23f0386277a3c3ce41a92c0230c8d2b8|||PLTR|||Helsing launches Clarity, a European rival to Palantir's Maven
+2026-11-11T17:24:48+00:00|||PASS|||eabf65561a6b1c01db0ce37e77120591|||PLTR|||Helsing Unveils AI Military Software to Challenge Palantir
+2026-11-11T17:24:49+00:00|||PASS|||3369591e41de4dc505333f589be27f73|||PLTR|||Helsing unveils European rival to Palantir military targeting system
+2026-11-11T17:24:53+00:00|||PASS|||6b26b9828bdd006247e4ee7f187679ea|||CRM|||Meet Rox, the $1.3 billion AI sales startup betting it can take on Salesforce
+2026-11-11T17:25:00+00:00|||PASS|||5c7dd3568f65459611c0ab8866ce00c3|||IBM|||IBM Unveils Next-Gen Quantum Chip. Useful Systems Are Years, Not Decades, Away.
+2026-11-11T17:25:01+00:00|||PASS|||c3f836c8397dd90f58c15de5a59d5d99|||IBM|||IBM Quantum announces upcoming Nighthawk r3 processor designed to execute 10,000 operations
+2026-11-11T17:25:13+00:00|||SENT|||5633a2eb1fd2a11d0f2e624a2939e27c|||NET|||Cloudflare (NET) Lifts Guidance as Enterprise Demand Drives Revenue Beat and Record Bookings|||Cloudflare (NET) 上調財測，企業需求帶動營收超預期並創下訂單新高
+2026-11-11T17:25:36+00:00|||PASS|||6e664b4825280a2a1ec85751761411f2|||SPCX|||SpaceX Stock Shrugs Off AI Worries Ahead of Starship Launch
+2026-11-11T17:25:37+00:00|||PASS|||fc838b1df9dc9b5cc7fb09d211f1260c|||SPCX|||Starlink rival Telesat faces Dec. 6 default on US$1.71B loan — what it means for taxpayers, pensioners and investors
+2026-11-11T17:25:43+00:00|||SENT|||5094b8984174774ed819932b7748d6cb|||SPCX|||SpaceX Scores Key FCC Breakthrough in $8 Billion Spectrum Deal: Starlink Moves Closer to Nationwide 5G Push|||SpaceX在$8 Billion頻譜交易取得FCC關鍵突破：Starlink更接近推進全國性5G服務
+2026-11-11T17:26:13+00:00|||PASS|||353330ab8afb68ee5b2fb43612590be2|||VST|||Here's What Key Metrics Tell Us About Vistra (VST) Q3 Earnings
+2026-11-11T17:26:25+00:00|||PASS|||6c46acc5b82e94b9a47e074a1d1e0881|||IONQ|||IonQ Shares Surge as Revenue Soars. Is It Too Late to Buy the Quantum Computing Stock?
+2026-11-11T17:26:32+00:00|||PASS|||05afeb0006820c7b35679ca5c6ccfda7|||QNT|||Quantinuum upgrades quantum computer at Riken, partners with SoftBank for AI data center deployments
+2026-11-11T17:26:38+00:00|||PASS|||eefa324ac60cef07d564108172eca59c|||HOOD|||Robinhood: The Hidden Risk Behind Record Revenue (NASDAQ:HOOD)
+2026-11-11T17:26:45+00:00|||PASS|||948f0e5079265398c29945d31090af68|||LLY|||Fauna Bio Announces Second Target Designation in Obesity Discovery Collaboration with Lilly
