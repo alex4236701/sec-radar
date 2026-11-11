@@ -1,17 +1,4 @@
 @@HEARTBEAT|||2026-11-11|||2026-10-21T13:41:10+00:00
-2026-10-28T18:24:27+00:00|||PASS|||c872508783841c84dd6b2c3324103c8b|||MU|||Micron Biomedical Appoints Anand Subramony, Ph.D., as Executive Vice President, Global Product Development and Combination Product Commercialization
-2026-10-28T18:24:57+00:00|||PASS|||9ba57ee57f73ab4f4cad1a78009216dc|||MSFT|||Should 60K Microsoft workers take the buyout and run? How to know when you should nab a package, or turn it down
-2026-10-28T18:24:58+00:00|||PASS|||fb66e6077a84afdda982f68f05dda11d|||MSFT|||If You Invest $1,000 in Microsoft Today, Here’s What It Could Be Worth by 2030
-2026-10-28T18:24:59+00:00|||PASS|||a3969bf5b062bd5509e856f4a2eb32aa|||MSFT|||Microsoft’s Contracted Backlog Could Grow Into a $1 Trillion Opportunity
-2026-10-28T18:25:07+00:00|||PASS|||bb9c8e2f62cd42ec05c2801a9cff777d|||NVDA|||Nvidia Has The Best Chance to Breach $6 Trillion First So I Buy
-2026-10-28T18:25:15+00:00|||PASS|||e8ff305fd508acac8e56379beb51c365|||INTC|||Intel’s $2.3 Billion Bet on a Quantum Future is a Decade in the Making
-2026-10-28T18:25:24+00:00|||PASS|||ed242b44a79d187327ff210dc5d55d1f|||SKHY|||SK Hynix Reports Record Q3 Results Driven by AI Memory Surge
-2026-10-28T18:25:26+00:00|||PASS|||ea6218610c41579d5b8b372ac7c38257|||SKHY|||SK Hynix hits record revenue as AI memory boom drives DRAM prices higher
-2026-10-28T18:25:28+00:00|||PASS|||7197f3463025b80cbe6cb7012ad6272e|||SKHY|||SK Hynix posts record quarter, analyst says stock looks 'ridiculously cheap'
-2026-10-28T18:25:31+00:00|||PASS|||7ad89213dd2d640f273c6e8498f75770|||SKHY|||SK Hynix’s Profit Surge, $45 Billion Payout Fuel AI Rally
-2026-10-28T18:25:50+00:00|||PASS|||12a3b7b1f7ca2d69125a0ba800ec1a5d|||TER|||Teradyne Q3 Earnings Beat Estimates, Revenues Increase Year over Year
-2026-10-28T18:25:51+00:00|||PASS|||017a5ae0dbcd42f0fe3cb75a338c929b|||TER|||What Teradyne (TER) Said on Its Q3 Earnings Call
-2026-10-28T18:26:17+00:00|||PASS|||f7c0f269024c4e888a964b3ee66664d3|||VRT|||Vertiv shares jump 14 percent as data center earnings beat expectations
 2026-10-28T22:43:26+00:00|||SENT|||5a69adba0d6ced4198481bfae649db38|||GOOGL|||Google stock plunges as Q3 sales fall short of expectations|||Google 第三季營收不如預期，股價重挫
 2026-10-28T22:43:36+00:00|||SENT|||97c0306bfcbbb5495113b71976fd981f|||GOOGL|||Alphabet’s Google Cloud revenue doubles to $31 billion as cash flow stays deep red|||Alphabet 的 Google Cloud 營收倍增到 $31 billion，現金流仍大幅為負
 2026-10-28T22:43:40+00:00|||PASS|||1f497a24c3c7cf73ff18f4b3111744ab|||GOOGL|||Google misses revenue expectations, Alphabet stock sinks in early after-hours trading
@@ -1518,3 +1505,23 @@
 2026-11-11T17:26:32+00:00|||PASS|||05afeb0006820c7b35679ca5c6ccfda7|||QNT|||Quantinuum upgrades quantum computer at Riken, partners with SoftBank for AI data center deployments
 2026-11-11T17:26:38+00:00|||PASS|||eefa324ac60cef07d564108172eca59c|||HOOD|||Robinhood: The Hidden Risk Behind Record Revenue (NASDAQ:HOOD)
 2026-11-11T17:26:45+00:00|||PASS|||948f0e5079265398c29945d31090af68|||LLY|||Fauna Bio Announces Second Target Designation in Obesity Discovery Collaboration with Lilly
+2026-11-11T19:45:01+00:00|||PASS|||4b9b48b04e29512d629771326c224ff6|||OUST|||Ouster (OUST) Stock Could Be Pricey Following Record Revenue News
+2026-11-11T19:45:23+00:00|||PASS|||1b914e183957e0647c4831023e59b78a|||MSFT|||This Number Tells Me The Microsoft Data Center Selloff Is Excessive, Prompting Me to Buy
+2026-11-11T19:45:36+00:00|||SENT|||89eb480536bbaf51aeca8aaa43b825bc|||TSLA|||Tesla (TSLA) Forms Special Committee To Review Possible All Stock Merger|||Tesla成立特別委員會，審查可能的全股票合併
+2026-11-11T19:45:41+00:00|||PASS|||b44cd8fbf353729450f4d5a037cf99ff|||TSLA|||SpaceX Stock Carries Up To 25% ‘Political Discount,’ Dan Ives Says — Sees Elon Musk’s Tesla Merger Still In Play
+2026-11-11T19:45:49+00:00|||SENT|||ad2f4ff9ca26ee8c20b19b19d41b16f3|||NVDA|||Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says|||共和黨人稱國會準備傳喚Nvidia執行長Jensen Huang
+2026-11-11T19:45:53+00:00|||PASS|||3caaf666c02a7c6f409ad320bc2d7b87|||NVDA|||Nvidia Stock Rises Despite Wall Street’s First Call for CEO Huang to Step Down
+2026-11-11T19:45:54+00:00|||PASS|||4e0e141e899529aa8b9b6d831283158e|||NVDA|||Wachtell, Nvidia's pick for Huang probe, built reputation in boardroom battles
+2026-11-11T19:45:57+00:00|||PASS|||20a286b28624e750721f088b4ea9dcca|||NVDA|||Nvidia Partners See Early Signs Customers Are Unnerved By Jensen Huang Investigation
+2026-11-11T19:46:02+00:00|||PASS|||5824b728311b80bda6e1f203ab3ab9e1|||NVDA|||NVIDIA Stocks Rise Despite Baird Downgrade as $10 Billion Anthropic Bet Emerges
+2026-11-11T19:46:05+00:00|||PASS|||8caf27ebe804ad92621a20fcdd5ed53e|||AMD|||“Demand Is Higher Than Supply”: AMD Has Ripped 141% in 2026. Is It Too Late to Buy?
+2026-11-11T19:46:18+00:00|||SENT|||4e584ebac74ae37e21abee49b8097920|||TSM|||Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI|||台灣晶片巨頭 TSMC 將投資 $1B 給 Anthropic、OpenAI
+2026-11-11T19:46:45+00:00|||PASS|||7f0fff2d6ccb3b38e62cfeb946b6db9a|||TER|||Teradyne Stock Jumps. Jefferies Sees a $2 Billion Nvidia Opportunity.
+2026-11-11T19:46:57+00:00|||PASS|||3bb9905032a4642ea9cbde6d74501b10|||LITE|||Watch Lumentum Slips on Deal Reaction; Fossil Group Rallies on Outlook | Stock Movers
+2026-11-11T19:47:22+00:00|||PASS|||ed4b01f1a80b24656bd891c56919fb03|||CRWV|||CoreWeave CEO Intrator tells CNBC he has canceled his planned share sale program
+2026-11-11T19:47:37+00:00|||PASS|||d4b7cf162586867f2ab6fad72befa035|||IBM|||IBM to offer access to a dual-processor quantum system in 2027
+2026-11-11T19:47:51+00:00|||SENT|||01ea262b21bb0dd7defcaf229fdd4483|||FTNT|||Fortinet Raises 2026 Outlook After Strong Q3: Time to Hold the Stock?|||Fortinet 強勁第三季後上調 2026 年展望：現在該持有這檔股票嗎？
+2026-11-11T19:48:23+00:00|||SENT|||b5c503b3ba0d0091c5793a59077c6b9c|||SPCX|||Anthropic Believes Its Partnership With SpaceX Won’t Last Beyond Q2 2027, And Elon Musk Now Says “We’ll Be Happy To Take The Compute Back”|||Anthropic認為與SpaceX的合作不會延續到2027年第二季之後，Elon Musk表示「我們很樂意收回運算資源」
+2026-11-11T19:48:26+00:00|||PASS|||2b3d955dbc52b44c958c1c0a3fce99b6|||SPCX|||Starlink gets faster ahead of 'V3' launches, but shift to dynamic pricing could backfire
+2026-11-11T19:49:09+00:00|||PASS|||287f9146349dd3a4418532e7f5be7bc4|||CRCL|||OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month
+2026-11-11T19:49:12+00:00|||PASS|||3119756b36fe339e5c10993c3cf42328|||COIN|||OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month
