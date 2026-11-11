@@ -1,37 +1,4 @@
 @@HEARTBEAT|||2026-11-11|||2026-10-21T13:41:10+00:00
-2026-10-28T01:30:09+00:00|||PASS|||11144dce3e38044a9994467d0ebd1729|||GOOGL|||OpenAI plans to buy Google’s AI chips, The Information reports By Reuters
-2026-10-28T01:30:13+00:00|||PASS|||7192bca82db142e91d27c21c9636217b|||GOOGL|||OpenAI plans to buy Google's AI chips, The Information reports
-2026-10-28T01:30:17+00:00|||SENT|||0aeb9d679037c351408d52d05a291a0d|||GOOGL|||OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips|||長期是 Nvidia 客戶的 OpenAI 計畫購買 Google 的 AI 晶片
-2026-10-28T01:30:39+00:00|||PASS|||8321c81f0c777b51ce12e04946351166|||FCEL|||Deadline Alert: FuelCell Energy, Inc. Investors Have Until
-2026-10-28T01:30:42+00:00|||PASS|||513c456f8e9484224df26e3385b38a6f|||GEV|||GE Vernova Stocks Rise 2.55% Before $176 Billion Backlog Test
-2026-10-28T01:30:52+00:00|||PASS|||7a8c5609a5c154a469ce096cd1a5c19a|||MSFT|||Watch out — that Microsoft Teams chat might be hackers impersonating your IT support
-2026-10-28T01:31:00+00:00|||SENT|||ccf5851eb8fe9b5ff965b838d620af87|||META|||Zuckerberg Stock Deal, Meta Restructuring Hit With Challenge (2)|||Zuckerberg 股票交易與 Meta 重組遭到挑戰
-2026-10-28T01:31:06+00:00|||PASS|||59d46a065e990f5d15a4920e81bff22f|||TSLA|||Scott Galloway Warns Tesla Is the ‘Patient’ and SpaceX Its ‘Organ Donor’ in Elon Musk’s $3.5 Trillion Merger Plan: 'Real Merger With a Fake Premise'
-2026-10-28T01:31:15+00:00|||PASS|||e3ee45a4cccdec50458b51317e4adee6|||QCOM|||Watch Anduril's Luckey Partners With Qualcomm to Build American-Made Laptop
-2026-10-28T01:31:25+00:00|||PASS|||d27bb523771be87114cd7894842e6cdb|||SKHY|||SK Hynix's record quarter shows AI demand turning memory into a contracted, supply-limited business
-2026-10-28T01:31:26+00:00|||PASS|||e2e8bdf78b5d12d679dbf34d78eeaf26|||SKHY|||Seoul stocks open sharply higher on revived AI optimism, SK hynix earnings
-2026-10-28T01:31:33+00:00|||SENT|||8d9d6fba5825edcdd80437450c9b19f4|||SKHY|||SK Hynix Plans $75 Billion in Shareholder Returns After Blockbuster Earnings|||SK Hynix 財報亮眼後計畫 $75 Billion 股東回饋
-2026-10-28T01:31:39+00:00|||SENT|||c3bb93e20c9f92de992ae195710b771b|||SKHY|||SK Hynix quarterly profit soars sevenfold to $63bn on strong memory demand|||SK Hynix 記憶體需求強勁，單季獲利暴增七倍至 $63bn
-2026-10-28T01:31:59+00:00|||PASS|||a6c00582db635acb97c0eb5117d57b45|||TER|||Teradyne (TER) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
-2026-10-28T01:32:02+00:00|||PASS|||e33ad9ed76135d53198bdd5cbf0b20bf|||TER|||Teradyne (TER) Tops Q3 Earnings and Revenue Estimates
-2026-10-28T01:32:22+00:00|||PASS|||5d6889c4a6888c30890fd366159afb64|||MPWR|||Did Monolithic Power Systems, Inc. Insiders Breach their Fiduciary Duties to Shareholders?
-2026-10-28T01:32:44+00:00|||PASS|||f427dbf9004561d9a85ceafa5911779f|||IBM|||A $1 Billion Reason to Consider Buying the IBM Stock Dip
-2026-10-28T01:32:57+00:00|||SENT|||e4410246f78870f1aaadb042971c38c4|||AKAM|||Akamai Launches AI Inference Service and Agent Execution Environment|||Akamai 推出 AI 推論服務與代理執行環境
-2026-10-28T07:08:56+00:00|||PASS|||4ff17520226a2902ca846559486b69c7|||AVGO|||Broadcom to Supply $63 Billion in XPUs and AI Equipment for Anthropic
-2026-10-28T07:08:58+00:00|||PASS|||b2766fa0e23f56fd2c2babae19fdd634|||AVGO|||Market Chatter: Broadcom CEO Helped Secure $63 Billion Anthropic AI Financing Deal
-2026-10-28T07:09:07+00:00|||PASS|||950b4676dde70a617d4de3b2465de75a|||GLW|||Corning hits US$20 billion run-rate goal early as optical demand drives next growth phase
-2026-10-28T07:09:18+00:00|||PASS|||51ae2e3177dfc4e9ff8ee57c54457647|||AMZN|||ASTS Stock Slips Overnight As FCC Clears Amazon’s $11.5B Globalstar Deal — Touts ‘Even More Competition’
-2026-10-28T07:09:24+00:00|||PASS|||69cc99ea941170ef70eec0e15b1789ed|||TSLA|||Tesla-SpaceX Merger Needs No Premium, Investor Says — But Floats $500 To Sway Angry Holders Missing Bigger Payoff
-2026-10-28T07:09:27+00:00|||PASS|||901a05027418bd58ea12de21068ce0d7|||TSLA|||Tesla ends a nearly 7-year Cybertruck wait with refunds and a pitch to buy a different car
-2026-10-28T07:09:28+00:00|||PASS|||54f4b67ffb6057b539968374b67564bc|||TSLA|||Tesla Jumps 5% as Barclays Raises Its Target to $450 on SpaceX Merger Prospects
-2026-10-28T07:09:37+00:00|||SENT|||e1b5fad25b43b1baa5b34b60de410d07|||AMD|||AMD to invest US$1 billion in Meta's stock sale as Helios racks enter testing|||AMD 將投資 US$1 billion 參與 Meta 股票發行，Helios 機櫃進入測試
-2026-10-28T07:09:43+00:00|||PASS|||94a0537c959fe03d98311d15200ae53e|||QCOM|||Qualcomm’s Layoff Notices Start in November. A 2026 Bonus Paid in January Shouldn’t Count Against His $25,560 Social Security Earnings Limit
-2026-10-28T07:09:52+00:00|||PASS|||0dd6d574a6ee64e482a65c1bb5db498e|||SKHY|||SK Hynix Q3 profit jumps more than 7-fold, beats forecasts By Reuters
-2026-10-28T07:09:58+00:00|||PASS|||5c07e97b28d49f8a03cd12d09fb4c170|||SKHY|||SK Hynix shares soar over 8% as profit beats, chipmaker to return $25 billion to investors
-2026-10-28T07:10:00+00:00|||PASS|||a52c158018db874424ed7defbc20b53d|||SNDK|||Pre-Q1 Earnings: Is Sandisk Stock a Portfolio Must-Have?
-2026-10-28T07:10:18+00:00|||PASS|||816897638557e181c41d3b52d3cba61e|||TER|||Teradyne Reports Third Quarter 2026 Results
-2026-10-28T07:10:43+00:00|||PASS|||52f7044d26f9a6f6d373ae49b5ea3c3c|||VRT|||Will AI Product Push Change Vertiv Stock Narrative Ahead Of Q3 Earnings
-2026-10-28T07:11:22+00:00|||PASS|||b894e051a8e402bb4fddc02e2d77f80e|||SPCX|||Tesla-SpaceX Merger Needs No Premium, Investor Says — But Floats $500 To Sway Angry Holders Missing Bigger Payoff
 2026-10-28T16:13:00+00:00|||SENT|||09dc0982ad803c4b2cec5ba90eaa027d|||GOOGL|||Update: Google, Apple Fined in Korea Over Prohibited App Market Practices|||Google、Apple 因違規的應用程式市場行為在韓國遭罰款
 2026-10-28T16:13:04+00:00|||PASS|||0c29112695515b84de23ddcbd2b5fec4|||GOOGL|||Alphabet stock rises as OpenAI plans to buy Google’s TPUs
 2026-10-28T16:13:07+00:00|||PASS|||e1b85aae3571c2bae61fa30590ddea9c|||GOOGL|||Google to preview a new crypto security system as private-key hacks mount
@@ -1550,3 +1517,18 @@
 2026-11-11T00:46:49+00:00|||PASS|||b8fa18bb79d2a3aca5ecb71cb9b4a589|||SPCX|||SpaceX Could Profit From AI Data Center Crackdown, Deutsche Bank Says as It Raises 2028 Forecast
 2026-11-11T00:46:52+00:00|||PASS|||a16f97fa23c6ead65e300e7a5d960566|||PL|||One Reason To Buy Planet Labs Stock
 2026-11-11T00:47:37+00:00|||PASS|||f3d128158fb011b995ece9e8b5db4323|||LLY|||Hims & Hers Drops 18% as Q3 Loss and Profit Outlook Cut Disappoint; Novo Nordisk Slides 2%, Eli Lilly Holds Steady
+2026-11-11T08:03:30+00:00|||PASS|||5f18e02c9565132124c692e4503b78e4|||GOOGL|||‘That’s The Bet’: Palmer Luckey Backs Elon Musk’s $150 Billion Robotaxi Ambitions as Tesla Tops Waymo in Texas
+2026-11-11T08:03:53+00:00|||PASS|||17715fa0b395f87d704cff87d3adeae0|||GEV|||GE Vernova's Backlog Hit $197 Billion and the Stock Fell Anyway. Here's What a $10,000 Investment Could Be Worth by 2030.
+2026-11-11T08:04:04+00:00|||PASS|||b5937e125ca6edecdc63fe739ab28f13|||AMZN|||Amazon’s Cloud Computing Business Already Brings in More Revenue Than 476 Companies in the S&P 500. Here’s What It Would Take to Reach $1 Trillion.
+2026-11-11T08:04:10+00:00|||PASS|||0eb9369b0938bb7f92597087001ec385|||TSLA|||‘That’s The Bet’: Palmer Luckey Backs Elon Musk’s $150 Billion Robotaxi Ambitions as Tesla Tops Waymo in Texas
+2026-11-11T08:04:13+00:00|||PASS|||ea48ef36c95fa5c68924adb12d04fe5d|||NVDA|||Jensen Huang probe puts Nvidia board's independence to test
+2026-11-11T08:04:15+00:00|||PASS|||7f8cd8d66a0ff6cd9f8b204468543b10|||NVDA|||Senior Republican on US Senate banking panel calls on Nvidia CEO Huang to resign
+2026-11-11T08:04:16+00:00|||PASS|||5fceb6dd82f9d62dcfa0534e3fe297c5|||NVDA|||Nvidia-backed AI cloud firm Nscale considers delaying $35 billion listing, the Telegraph reports
+2026-11-11T08:04:25+00:00|||SENT|||89fd910b8072a49991e92f84b5318e9a|||AMD|||Stock Market Today, Nov. 10: AMD Rises on Plan to Invest $2.5 Billion in Anthropic|||股市今日，11月10日：AMD計劃向Anthropic投資$2.5 Billion，股價上漲
+2026-11-11T08:04:32+00:00|||PASS|||0451a620ff48baced0b9b573a6268030|||QCOM|||Qualcomm begins global layoffs; up to 1,000 jobs may be cut in India
+2026-11-11T08:04:41+00:00|||PASS|||940dfa6a52d495c82a8e9bd8f947cb2e|||SKHY|||Samsung, SK hynix price targets diverge nearly threefold over AI outlook
+2026-11-11T08:05:11+00:00|||PASS|||508bd8e5c02143efcc6d17a6da941e79|||AXTI|||AXT (AXTI) Stock Seems Reasonably Valued As Record Revenue Reshapes Earnings
+2026-11-11T08:05:21+00:00|||PASS|||db76f545f11ae9402c41bf45a766f0c1|||IFNNY|||Infineon Unveils RISC-V Automotive MCU, AURIX RC1
+2026-11-11T08:05:31+00:00|||PASS|||59d4cc86980afafaea10c0de60a8d768|||CRWV|||CoreWeave beats on earnings, stock pops in extended trading
+2026-11-11T08:06:53+00:00|||PASS|||e972f4c31a91d32f6e304524c9522902|||HOOD|||Robinhood Settles Users’ Cash Sweep Suit for Nearly $17 Million
+2026-11-11T08:07:00+00:00|||PASS|||4237ccc53b720e9978b5265e55d17e07|||ISRG|||Intuitive Machines (LUNR) Lands NASA Lunar Contract With Up To $15 Billion Scope
