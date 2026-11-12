@@ -1,6 +1,6 @@
 @@VERSION|||2
 @@HEARTBEAT|||2026-11-12
-@@AI|||2026-11-12|||0
+@@AI|||2026-11-12|||10
 0001193125-26-419614|||2026-10-13|||SENT
 0001178913-26-004755|||2026-10-13|||SKIP
 0001178913-26-004752|||2026-10-13|||SENT
@@ -1165,3 +1165,35 @@
 0001334944-26-000038|||2026-11-11|||SKIP|||NOW|||4
 0001465391-26-000034|||2026-11-11|||SKIP|||NOW|||4
 0001628280-26-072936|||2026-11-11|||SKIP|||TE|||4
+0001950047-26-011002|||2026-11-12|||SENT|||MU|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/723125/000195004726011002/xsl144X01/primary_doc.xml
+0001950047-26-011000|||2026-11-12|||SENT|||MU|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/723125/000195004726011000/xsl144X01/primary_doc.xml
+0001193125-26-457088|||2026-11-12|||SENT|||ONDS|||利多｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-20261112.htm
+0000103730-26-000083|||2026-11-12|||SENT|||VSH|||留意｜【8-K 公告解讀】|||https://www.sec.gov/Archives/edgar/data/103730/000010373026000083/vsh-20261112.htm
+0000899140-26-001276|||2026-11-12|||SENT|||COHR|||利多｜【內部人公開市場買進】|||https://www.sec.gov/Archives/edgar/data/820318/000089914026001276/xslF345X06/form4.xml
+0000899140-26-001275|||2026-11-12|||SENT|||COHR|||利多｜【內部人公開市場買進】|||https://www.sec.gov/Archives/edgar/data/820318/000089914026001275/xslF345X06/form4.xml
+0001045810-26-000082|||2026-11-12|||SENT|||NVDA|||利空｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm
+0001950047-26-010998|||2026-11-12|||SENT|||AMD|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/2488/000195004726010998/xsl144X01/primary_doc.xml
+0001835632-26-000026|||2026-11-12|||SKIP|||MRVL|||8-K
+0001046179-26-000800|||2026-11-12|||SENT|||TSM|||留意｜【外國公司重大公告 6-K】|||https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm
+0001405693-26-000015|||2026-11-12|||SKIP|||LRCX|||4
+0001950047-26-010994|||2026-11-12|||DIGEST|||AEIS|||144 Form 144 內部人預告賣股：JOHN DONAGHEY（高階主管），3,238 股，約 $767,244|||https://www.sec.gov/Archives/edgar/data/927003/000195004726010994/xsl144X01/primary_doc.xml
+0001950047-26-010987|||2026-11-12|||SENT|||MTSI|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1493594/000195004726010987/xsl144X01/primary_doc.xml
+0001950047-26-011006|||2026-11-12|||DIGEST|||SWKS|||144 Form 144 內部人預告賣股：ROBERT TERRY（高階主管），5,724 股，約 $498,904|||https://www.sec.gov/Archives/edgar/data/4127/000195004726011006/xsl144X01/primary_doc.xml
+0001969223-26-001168|||2026-11-12|||SENT|||TXN|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/97476/000196922326001168/xsl144X01/primary_doc.xml
+0001769628-26-000465|||2026-11-12|||DIGEST|||CRWV|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm
+0001104659-26-126008|||2026-11-12|||SENT|||NBIS|||留意｜【外國公司重大公告 6-K】|||https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_6k.htm
+0001950047-26-010983|||2026-11-12|||SENT|||PLTR|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1321655/000195004726010983/xsl144X01/primary_doc.xml
+0001899287-26-000071|||2026-11-12|||DIGEST|||AMPX|||10-Q 10-Q 季報|||https://www.sec.gov/Archives/edgar/data/1899287/000189928726000071/ampx-20260930.htm
+0001167557-26-000241|||2026-11-12|||DIGEST|||IRDM|||SCHEDULE 13G/A 13G 修正：AQR CAPITAL MANAGEMENT LLC，持股 1.39%（已降到 5% 以下）|||https://www.sec.gov/Archives/edgar/data/1418819/000116755726000241/xslSCHEDULE_13G_X02/primary_doc.xml
+0001832050-26-000010|||2026-11-12|||SENT|||MP|||利多｜【內部人公開市場買進】|||https://www.sec.gov/Archives/edgar/data/1801368/000183205026000010/xslF345X06/wk-form4_1794484251.xml
+0001031609-26-000009|||2026-11-12|||SENT|||MP|||利多｜【內部人公開市場買進】|||https://www.sec.gov/Archives/edgar/data/1801368/000103160926000009/xslF345X06/wk-form4_1794483689.xml
+0001831686-26-000010|||2026-11-12|||SENT|||MP|||利多｜【內部人公開市場買進】|||https://www.sec.gov/Archives/edgar/data/1801368/000183168626000010/xslF345X06/wk-form4_1794483446.xml
+0001628280-26-073175|||2026-11-12|||SENT|||LEU|||利多｜【8-K 公告解讀】|||https://www.sec.gov/Archives/edgar/data/1065059/000162828026073175/leu-20261112.htm
+0001213900-26-118327|||2026-11-12|||SENT|||TE|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1992243/000121390026118327/ea0311994-8k_t1energy.htm
+0001024478-26-000048|||2026-11-12|||DIGEST|||ROK|||10-K 10-K 年報|||https://www.sec.gov/Archives/edgar/data/1024478/000102447826000048/rok-20260930.htm
+0001950047-26-010992|||2026-11-12|||SENT|||WCN|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1318220/000195004726010992/xsl144X01/primary_doc.xml
+0001622536-26-000088|||2026-11-12|||SENT|||TLN|||利多｜【8-K 公告解讀】|||https://www.sec.gov/Archives/edgar/data/1622536/000162253626000088/tln-20261109.htm
+0001959173-26-007946|||2026-11-12|||SENT|||TLN|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1622536/000195917326007946/xsl144X01/primary_doc.xml
+0001104659-26-125375|||2026-11-12|||SENT|||NRG|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1013871/000110465926125375/tm2629511d1_8k.htm
+0001561733-26-000018|||2026-11-12|||SKIP|||ISRG|||4
+0001768291-26-000008|||2026-11-12|||SKIP|||HUM|||4

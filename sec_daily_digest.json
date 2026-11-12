@@ -1,1 +1,50 @@
-[]
+[
+ {
+  "date": "2026-11-12",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：JOHN DONAGHEY（高階主管），3,238 股，約 $767,244",
+  "ticker": "AEIS",
+  "url": "https://www.sec.gov/Archives/edgar/data/927003/000195004726010994/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-12",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：ROBERT TERRY（高階主管），5,724 股，約 $498,904",
+  "ticker": "SWKS",
+  "url": "https://www.sec.gov/Archives/edgar/data/4127/000195004726011006/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-12",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "CRWV",
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm"
+ },
+ {
+  "date": "2026-11-12",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "AMPX",
+  "url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000071/ampx-20260930.htm"
+ },
+ {
+  "date": "2026-11-12",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：AQR CAPITAL MANAGEMENT LLC，持股 1.39%（已降到 5% 以下）",
+  "ticker": "IRDM",
+  "url": "https://www.sec.gov/Archives/edgar/data/1418819/000116755726000241/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-12",
+  "form": "10-K",
+  "holding": false,
+  "text": "10-K 年報",
+  "ticker": "ROK",
+  "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000048/rok-20260930.htm"
+ }
+]
