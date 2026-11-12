@@ -1,35 +1,4 @@
 @@HEARTBEAT|||2026-11-12|||2026-10-21T13:41:10+00:00
-2026-10-29T18:34:17+00:00|||PASS|||9924230f283e58e334da25260410b8f0|||GOOGL|||Alphabet's Google Finnish Unit Faces Investigation Over Environmental Damage at Data Center Site
-2026-10-29T18:34:21+00:00|||PASS|||7feb363540f7f5fdebad0618d9513034|||GOOGL|||US files lawsuit claiming Google wouldn't give employee new job following military deployment
-2026-10-29T18:34:24+00:00|||PASS|||50a59af7db6643e6d0bb178a60afba8b|||MU|||Micron Stock Falls as Samsung Earnings Show the High Bar for Memory Stocks.
-2026-10-29T18:34:25+00:00|||PASS|||cbefc57b58aee2dd449be2ee40e5eb75|||MU|||Micron Shares Fall 2.6% as Samsung Earnings Miss Forecasts Despite Record Chip Profits
-2026-10-29T18:34:46+00:00|||PASS|||8d614c38ca238b12175733af515fff14|||GEV|||GE Vernova in $9B deal to buy high-voltage manufacturer as gas turbine orders slow
-2026-10-29T18:34:49+00:00|||PASS|||8151a21dbeca25fbb72c7b210f649cef|||CAT|||Tariff Refunds Boost Polaris and Logistics Stocks, but Leave Caterpillar Sidelined
-2026-10-29T18:34:51+00:00|||PASS|||beb6663c11ca6671f8adc775dd582274|||CAT|||Caterpillar earnings beat estimates amid rapid AI buildout By Investing.com
-2026-10-29T18:34:52+00:00|||PASS|||bad26cc60883c961a760ab3f30092898|||CAT|||Watch Caterpillar Plunges As Earnings Beat Fails To Soothe AI Jitters
-2026-10-29T18:35:00+00:00|||PASS|||5b30a38d888279e36ae253fac62b172d|||MSFT|||Update: Market Chatter: Microsoft Plans to Raise at Least $25 Billion From US Bond Offering
-2026-10-29T18:35:03+00:00|||PASS|||17b3ff30381862a88afc98d89dd1c012|||MSFT|||Microsoft expects to raise $25 billion in US bond sale, source says
-2026-10-29T18:35:08+00:00|||PASS|||ea3695037f2566f10eb376d43e9f582e|||MSFT|||Watch Google Sales Miss Reignites AI Fears, Microsoft Eyes $25B Debt Offering
-2026-10-29T18:35:12+00:00|||PASS|||4f8b50764de55d47812d02323dc2f40c|||AMZN|||Amazon Stock Dips Ahead of Q3 Earnings: What's Going On?
-2026-10-29T18:35:18+00:00|||PASS|||da1377d521687e4583e39fd4fe70fdcb|||META|||Meta’s Unusual Stock Split Comes With a $60 Billion Twist Investors Should Know About
-2026-10-29T18:35:24+00:00|||PASS|||8180e361aa8acf936a82b042baadd20d|||NVDA|||Nvidia Stock Declines as Competition Probe—and Spy Report—Presents New AI Concern
-2026-10-29T18:35:25+00:00|||PASS|||ffe00eb0013ebf1eb29ade77e6a7a265|||NVDA|||Alphabet heads for a $400 billion day that only Nvidia has ever topped
-2026-10-29T18:35:29+00:00|||PASS|||1478db7f0c1055fd558fe8b0fc575874|||NVDA|||Nvidia CEO Jensen Huang may have been the target of a spy plot through 'Chinese intelligence asset,' report claims — exec from firm under investigation for smuggling banned AI chips to China accused of being a spy, was also feeding information to Beijing
-2026-10-29T18:35:31+00:00|||PASS|||10a3865e6e4dcf4fb2827e72a10b2774|||NVDA|||Dept of Justice reportedly probes Nvidia over $13 billion Hugging Face AI platform acquisition — concerns raised over competition in AI and pressure on customers
-2026-10-29T18:35:35+00:00|||PASS|||a09bc39757ca9b09d7dfd5febe099c2e|||NVDA|||Nvidia Stock Slips as Competition Probe Presents New AI Concern
-2026-10-29T18:35:36+00:00|||PASS|||e61fe773b2d3e7dfc2868a0e0e9d0c30|||NVDA|||Watch Marvell in Talks to Buy Nvidia-Backed Lumentum
-2026-10-29T18:35:52+00:00|||PASS|||85e37b9c4ae4983476f16daf836a2ec4|||ASX|||ASE raises capex budget to US$11.5bn
-2026-10-29T18:35:55+00:00|||PASS|||5854b5747ba02686d6e5c6e7e96f5e12|||SNDK|||SanDisk options price 6.5% swing post Q1 earnings: Full breakdown
-2026-10-29T18:36:37+00:00|||PASS|||2b06b1287bafc0fa7f43172aa8c6cd22|||VRT|||Vertiv Simplifies High-Density AI Infrastructure Deployment Across Data Centre Environments
-2026-10-29T18:36:40+00:00|||PASS|||5fe2f05528cf536298dd4a59b3afc499|||CRWV|||Long-Term CoreWeave, Inc. (NASDAQ: CRWV) Shareholders Should Contact the Shareholders Foundation Regarding Pending Lawsuit
-2026-10-29T18:36:45+00:00|||PASS|||7f8221053fdd6007496248197aed5ead|||PLTR|||Baird reiterates Palantir stock rating ahead of Q3 results By Investing.com
-2026-10-29T18:36:50+00:00|||PASS|||cb70e21154eba56cc7c51ac00f341bd0|||NOW|||ServiceNow Stock Is Worst in S&P 500 After a Key Revenue Measure Fell Short
-2026-10-29T18:36:54+00:00|||PASS|||d99d234ae8c2b39ebc2a3a0b159c5397|||NOW|||ServiceNow, Fortinet Q3 earnings reports lead software stocks lower as outlooks disappoint
-2026-10-29T18:36:55+00:00|||PASS|||1180fb967d5db6883ec90a966ecf76d0|||NOW|||ServiceNow shares plunge 25% after earnings revive AI disruption fears
-2026-10-29T18:37:04+00:00|||PASS|||cf0829cba908733a42196d6b0983a78c|||FTNT|||Fortinet's Q3 Earnings Showed Cracks In The Bull Case, Stock Is A Hold (NASDAQ:FTNT)
-2026-10-29T18:37:06+00:00|||PASS|||44c6df41791d7d0b8e56509a7b56b8c8|||FTNT|||ServiceNow, Fortinet Q3 earnings reports lead software stocks lower as outlooks disappoint
-2026-10-29T18:37:16+00:00|||PASS|||bc71caa1b559ff322fd393aa0e748b3e|||BAND|||What Bandwidth (BAND) Said on Its Q3 Earnings Call
-2026-10-29T18:37:32+00:00|||PASS|||924ac65a2b5a534d8a2b40549258ce86|||SPCX|||Eutelsat expects $11 billion revenue after EU's Starlink rival comes online
 2026-10-29T23:25:32+00:00|||PASS|||966b5603a8ad4d232a32819e3934267c|||UUUU|||Energy Fuels faces earnings test as rare earth pivot unfolds
 2026-10-29T23:25:37+00:00|||PASS|||631bae96df147927dc3be85be323d801|||GOOGL|||Alphabet shares tumble in $500bn rout
 2026-10-29T23:25:38+00:00|||PASS|||f9e22409b07cdfe048727f2665bdaa09|||GOOGL|||Alphabet’s Market Value Drops $500 Billion
@@ -1465,3 +1434,32 @@
 2026-11-12T17:47:38+00:00|||PASS|||2dffe89f00f8ce0947efe493c336000a|||ISRG|||Intuitive Machines Reports Third Quarter 2026 Financial Results; Reports Record Financials Across The Board - Revenue, Profitability, Positive Cash Flow, and Backlog
 2026-11-12T17:47:40+00:00|||PASS|||e50e2be4fb8db079657224fe6ea49868|||HUM|||Did Humana Inc. Insiders Breach their Fiduciary Duties to Shareholders?
 2026-11-12T17:47:42+00:00|||PASS|||cfdfb3a12a3f7f515df1131dc9959825|||UNH|||Did UnitedHealth Group Incorporated Insiders Breach their Fiduciary Duties to Shareholders?
+2026-11-12T20:10:52+00:00|||PASS|||a520e8c8e8cd8a90b90562292b591049|||GOOGL|||HSBC says the time is right to buy Alphabet (GOOG:NASDAQ)
+2026-11-12T20:10:57+00:00|||SENT|||df7beb68d9753448dc6824bcc389e900|||GOOGL|||OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development By Reuters|||OpenAI、Google、Anthropic 遭訴，原告要求停止前沿 AI 開發
+2026-11-12T20:11:08+00:00|||PASS|||aba3b9c1b0cf2acf4712fb149ead5c70|||OUST|||US returns over $12 billion in oil proceeds to Venezuela since Maduro's ouster, report says
+2026-11-12T20:11:27+00:00|||PASS|||e87f8bad684832f70c586d866de9def3|||MSFT|||Is Outlook down? Widespread outage hits Microsoft and OpenAI
+2026-11-12T20:11:29+00:00|||PASS|||ee0f54de9951a3b8aab834d2788c2afb|||MSFT|||Microsoft Outlook Hit by Global Outage, Leaving Users Unable to Access Email
+2026-11-12T20:11:30+00:00|||PASS|||880294d93693424fd061c66ea6476676|||MSFT|||Microsoft Says It’s Working to Fix Outlook, Copilot Outage
+2026-11-12T20:11:33+00:00|||PASS|||cb986cbeffdd086ec371367bae3b5c99|||MSFT|||Is Outlook down? Widespread outage hits Microsoft apps
+2026-11-12T20:11:35+00:00|||PASS|||82b4bb6914f1617cd3475563841188aa|||MSFT|||Microsoft’s Outlook email hit by new outage
+2026-11-12T20:11:40+00:00|||PASS|||49e2af2a6da2964cbf21e07acf84cd73|||AMZN|||Amazon Stocks Gain as Anthropic IPO Puts $271.8 Billion Value on Stake
+2026-11-12T20:11:45+00:00|||PASS|||f16a76f9542631a0db991815d03689db|||TSLA|||Man Explains Why Now Is the Right Time To Buy a Tesla: "FSD Is Hitting Mainstream"
+2026-11-12T20:11:48+00:00|||PASS|||ff99a702465d1e3513fb836163089037|||NVDA|||Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns
+2026-11-12T20:11:52+00:00|||SENT|||64f21e54a45e13a8e56d797e6b580c97|||NVDA|||Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?|||誰是接替Jensen Huang的Nvidia臨時執行長Colette Kress？
+2026-11-12T20:11:55+00:00|||PASS|||eb776257216facf825393333fc94a4c6|||NVDA|||Jensen Huang built Nvidia into a $4 trillion AI giant but his 4% stake wasn't enough to save his job
+2026-11-12T20:11:56+00:00|||PASS|||e199db5b1ece81f772b2bd94e6947b79|||NVDA|||Kalshi traders speculate Nvidia's Ian Buck will replace Huang as CEO
+2026-11-12T20:11:57+00:00|||PASS|||eb1e1daa8d2416c60afcab94d7aa5b29|||NVDA|||Nvidia stock tumbles as CEO Jensen Huang steps down, dragging down other AI names
+2026-11-12T20:11:58+00:00|||PASS|||52200706a5447e2b028ade9a8d47f455|||NVDA|||Nvidia stock pares morning losses after CEO Jensen Huang announces resignation
+2026-11-12T20:11:59+00:00|||PASS|||e7054e15fafdeec3895182b21eee40fd|||NVDA|||Wall Street edges up, Nvidia drops after CEO resigns
+2026-11-12T20:12:07+00:00|||PASS|||5b6c658e1d40d3e0fed1b588c4470238|||INTC|||Intel Stocks Fall 3.49% as NVIDIA CEO Exit Clouds a $13 Billion Partnership Stake
+2026-11-12T20:12:08+00:00|||PASS|||82aa3aa0ab5f1d1f8536f7e52f29e903|||INTC|||Key House intel lawmakers urge probe of Huang’s relationship with alleged Chinese spy
+2026-11-12T20:13:00+00:00|||PASS|||7dcaaf3ca21cba8c2eb20d58209d1a10|||NBIS|||Nebius Earnings Top Estimates. Nvidia-Backed Neoclouds Sell Off.
+2026-11-12T20:13:37+00:00|||PASS|||7564bce6dec882a9eaa83703672cd806|||SPCX|||SpaceX Plans $74 Billion Investment to Build Data Centers in Texas and Arizona
+2026-11-12T20:13:44+00:00|||SENT|||07ed8fadeb46dfda4ee5478d716a72f8|||SPCX|||SpaceX Announces $74 Billion AI Data-Center Expansions In Texas, Arizona|||SpaceX宣布在德州、亞利桑那州擴建$74 Billion AI資料中心
+2026-11-12T20:13:47+00:00|||PASS|||a65a27f47b1296ce968cfc20d6b5ae93|||SPCX|||Binance founder CZ says crypto exchange didn't sell any SpaceX stock amid hack
+2026-11-12T20:14:11+00:00|||PASS|||0e4dfea63708012eb8b19a106fc22ac3|||ROK|||Rockwell Automation, Feeding America Eastern Wisconsin and Fork Farms Launch Clock Tower Farms
+2026-11-12T20:14:22+00:00|||PASS|||05d4b04d24ba1531c2c71d8c9f207a24|||CEG|||Constellation Energy Lands $5 Billion DOE Loan As Nuclear Uprates Accelerate
+2026-11-12T20:14:26+00:00|||SENT|||36b30fa8daf2e3d042ebff9dcfce09e4|||CEG|||Constellation Energy Soars 13% in a Week on a Guidance Raise: “A Platform Heretofore Unseen”|||Constellation Energy 因上調財測一週內大漲 13%：「前所未見的平台」
+2026-11-12T20:14:45+00:00|||PASS|||e0c8c2fb5eb5398f2b0c180b0747762a|||COIN|||Coinbase CEO says industry collaboration can help contain fallout from hacks like Binance breach
+2026-11-12T20:14:47+00:00|||PASS|||1535a73ffa38075c5de396f5ecf0d257|||HOOD|||Klarna names Robinhood executive Chris Koegel as CFO By Investing.com
+2026-11-12T20:14:52+00:00|||PASS|||d12652ed94093a1160b0fdeff730389a|||TMO|||Is Thermo Fisher Scientific (TMO) Reasonable After Its $5 Billion Buyback?
