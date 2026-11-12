@@ -1,79 +1,4 @@
 @@HEARTBEAT|||2026-11-12|||2026-10-21T13:41:10+00:00
-2026-10-29T16:21:13+00:00|||PASS|||39fb03932cbfa445b7ca2790e396548e|||EOSE|||Will Eos Energy Enterprises, Inc. (EOSE) Report Negative Earnings Next Week? What You Should Know
-2026-10-29T16:21:24+00:00|||SENT|||178b8c6859467a7110c1cbf0c0d5f16e|||GOOGL|||Finland launches criminal probe into land clearance for Google data centre|||芬蘭對 Google 資料中心用地清理展開刑事調查
-2026-10-29T16:21:27+00:00|||PASS|||1067000eb4898431a7297d74cd2e9f5d|||GOOGL|||Alphabet heads for a $500 billion drop in market value, the biggest in its history
-2026-10-29T16:21:30+00:00|||PASS|||4f1ff8a65dd3d0c9d40eea6686f73dd1|||GOOGL|||Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows
-2026-10-29T16:21:33+00:00|||PASS|||46264742004ff2a5992215cdbd271889|||GOOGL|||US sues Google for failing to restore a former employee to a similar job following military deployment
-2026-10-29T16:21:35+00:00|||PASS|||e9a79d3a097d8d8f42baf2895a465aab|||GOOGL|||Alphabet: Why AI Won't Kill Search And Where The Chart Says To Buy (NASDAQ:GOOG)
-2026-10-29T16:21:37+00:00|||PASS|||abe85277bfb5d763d5b9144f68322407|||GOOGL|||Alphabet’s Jaw-Dropping Number: Up to $1.08 Trillion Commitments Vs. $561 Billion Orders
-2026-10-29T16:21:39+00:00|||PASS|||f9433c18da14067849bfaf46dd8ccb58|||GOOGL|||Microsoft beat estimates while Google looks at a value hit, and rising risks at Nvidia
-2026-10-29T16:21:41+00:00|||PASS|||3820541f4097aa4bd3764e7fa4c8a63c|||GOOGL|||Google Erases a Record $500 Billion as AI Eats Into Sales
-2026-10-29T16:21:44+00:00|||PASS|||ac2efbb26767ab803acf1af4030c3815|||MU|||Micron Dips as Samsung Earnings Show the High Bar for Memory Stocks.
-2026-10-29T16:22:01+00:00|||PASS|||b2594b2af8a0f5aafde63bc7df73b070|||COHR|||Marvell Sinks 13%, Lumentum Jumps 6% on Reported Acquisition Talks; Coherent Holds Flat, Applied Optoelectronics Drops 3%
-2026-10-29T16:22:08+00:00|||PASS|||8ea97a9d41bbf44a6d49e6573d929874|||GEV|||GE Vernova Bets $9 Billion on Transmission Lines
-2026-10-29T16:22:09+00:00|||PASS|||5b9708a26b29b243f11c8c00e50cb97c|||GEV|||GE Vernova Places High-Voltage, $9 Billion Bet on Energy Equipment
-2026-10-29T16:22:17+00:00|||PASS|||edd108ec1ab129edbf4f935d0683ea04|||CAT|||Caterpillar Q3 2026 slides: record sales, 96% backlog surge
-2026-10-29T16:22:19+00:00|||PASS|||3d8dc8ea0a8d464e7c6b718d346892f9|||CAT|||Caterpillar (CAT) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates
-2026-10-29T16:22:25+00:00|||SENT|||39500f487085c5da22030abd8450542e|||CAT|||Caterpillar Stock Tumbles Despite Q3 Earnings Beat As Revenue Falls Short Of Estimates|||Caterpillar 第三季獲利優於預期但營收不如預期，股價重挫
-2026-10-29T16:22:28+00:00|||PASS|||ed63721b9406d2ff3e1498cf9ca16b21|||CAT|||Caterpillar tumbles as tariff costs, rising inventories overshadow earnings (CAT:NYSE)
-2026-10-29T16:22:30+00:00|||PASS|||8f7869986cb1183efa03c41a19a86ba8|||CAT|||Caterpillar Tops Estimates as AI Power Demand Fuels Growth
-2026-10-29T16:22:36+00:00|||PASS|||17605a1be3e094bfc6a4a65bbd659cf4|||HON|||Honeywell Aerospace Q3 Earnings Beat Estimates, Sales Increase Y/Y
-2026-10-29T16:22:39+00:00|||PASS|||2a62ec30fb35caaa386a7d22aeca380d|||MSFT|||Microsoft's $28 Billion Cash Flow Edge Over Google Gives It an AI Advantage, Analyst Says
-2026-10-29T16:22:40+00:00|||PASS|||5b4573ce6bf91d9117f1e2359f4d1259|||MSFT|||Microsoft's $39.4B CapEx Bill: The Price Of Azure Dominance (NASDAQ:MSFT)
-2026-10-29T16:22:42+00:00|||PASS|||3a1bd65639e1580331f54278f4f02189|||MSFT|||Microsoft’s Layoff Plan Is Why I Am Ok With A Premium Over Other Hyperscalers (MSFT)
-2026-10-29T16:22:44+00:00|||PASS|||e322833bc7ab61927bab123a6e883dd5|||MSFT|||Microsoft Looks to Raise at Least $25 Billion From US Bond Sale
-2026-10-29T16:22:46+00:00|||PASS|||e569657390f33e40002698ab65eb4d0e|||MSFT|||Microsoft’s Employee Buyout Could Serve as Model for AI-Era Layoffs
-2026-10-29T16:22:48+00:00|||PASS|||6b6b10b6ced2beba8a9e02f8afd3f1f8|||MSFT|||Microsoft beat estimates while Google looks at a value hit, and rising risks at Nvidia
-2026-10-29T16:22:55+00:00|||SENT|||21efa7d3a7bdda3f83aa030f9a302c6b|||MSFT|||Microsoft Sees Azure Accelerating as Quarterly Capex Tops $50 Billion|||Microsoft 預估 Azure 成長加速，單季資本支出超過 $50 Billion
-2026-10-29T16:22:59+00:00|||PASS|||ba8cd0ef85909ea1193bd1696f0c3b1c|||AMZN|||What to watch in Amazon's earnings results
-2026-10-29T16:23:01+00:00|||PASS|||e10eb2e7b92d3a00e1de6f52f4c4f094|||AMZN|||Amazon Earnings: Can AWS Growth Justify $220 Billion in AI Spending?
-2026-10-29T16:23:03+00:00|||PASS|||dd10646142b32a557475e4dd25df1db3|||AMZN|||DoorDash Makes $17 Billion Instacart Bet to Ward Off Amazon and Walmart Threats
-2026-10-29T16:23:06+00:00|||PASS|||5c6e2a5faf2898a9b5f6445793dce836|||META|||Meta to buy 200,000 tons of low carbon cement associated credits from Fortera
-2026-10-29T16:23:10+00:00|||PASS|||50e9a603918106201c7886c983f0acff|||TSLA|||Tesla vs. Ford: Which Stock Has an Edge After Q3 Earnings?
-2026-10-29T16:23:11+00:00|||PASS|||cfe4c97de1392009565b60b83c4cb4ea|||TSLA|||Opinion: While the Odds of a SpaceX-Tesla Merger Are Climbing, Combining 2 Wrongs Won't Make a Right on Wall Street
-2026-10-29T16:23:14+00:00|||PASS|||7e2df366994cb7adc6c79be33df99081|||TSLA|||South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds
-2026-10-29T16:23:18+00:00|||PASS|||a1c1e8797010858a0e12ba1a19925b8b|||NVDA|||Canada, Nvidia Back Cohere in Round at Over $20 Billion Value
-2026-10-29T16:23:20+00:00|||PASS|||274e15276b9a28447950c96b99ecea28|||NVDA|||Microsoft beat estimates while Google looks at a value hit, and rising risks at Nvidia
-2026-10-29T16:23:25+00:00|||SENT|||753ea7349eb952658a9023ed10134abd|||NVDA|||Nvidia Just Disclosed an $18 Billion Stake in SpaceX. Here's What Jensen Huang Sees That the Market Doesn't.|||Nvidia 剛揭露持有 SpaceX $18 Billion 股份，黃仁勳看到了市場沒看到的什麼
-2026-10-29T16:23:31+00:00|||SENT|||3bc0c862c10aacc1698b172f1553cc46|||NVDA|||Nvidia CEO Huang caught up in reported Chinese spy probe as AI stocks slide|||Nvidia 執行長黃仁勳傳被捲入中國間諜調查，AI 股下跌
-2026-10-29T16:23:35+00:00|||PASS|||73b6cd861eb0cb5d93e804950c67b296|||AMD|||Advanced Micro (AMD) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures
-2026-10-29T16:23:37+00:00|||PASS|||5dfc1d35ac80e3cf9668d6ee700b9414|||MRVL|||Marvell Stock Slides. Why the Market Hates the Idea of a Lumentum Buyout.
-2026-10-29T16:23:39+00:00|||PASS|||5bbc4b5e7e5a91af03355482c547529c|||MRVL|||Marvell Falls on Financing Fears Over $83 Billion Lumentum Deal
-2026-10-29T16:23:40+00:00|||PASS|||686b0545fd7fe916dbee3fa2b70af4a4|||MRVL|||Lumentum stock jumps on report of possible merger with Marvell
-2026-10-29T16:23:42+00:00|||PASS|||e397e2ad0a967878105ee6e49b385739|||MRVL|||Raymond James reiterates Strong Buy on Marvell stock amid acquisition talks
-2026-10-29T16:23:47+00:00|||PASS|||56191f67b319f91df8515c72eb3e1cff|||INTC|||Microsoft Unveils Biggest DirectX Raytracing Upgrade Since 2018, Bringing More Efficient Ray Tracing To NVIDIA, AMD & Intel GPUs
-2026-10-29T16:23:48+00:00|||PASS|||a27e06634f51718526525f79ccd973f2|||INTC|||Intel (INTC) Agrees $2.3 Billion Quantum Deal That Could Reshape Its Stack
-2026-10-29T16:23:49+00:00|||PASS|||48447d614e402f3f8784c809deea44c1|||INTC|||Top Wall Street Forecasters Revamp Intel Expectations Ahead Of Q3 Earnings
-2026-10-29T16:23:50+00:00|||PASS|||50342831a08478ef37fb7f7f301b51b9|||INTC|||Intel Q3 earnings on deck: What to expect
-2026-10-29T16:23:57+00:00|||SENT|||eb6915569af62328bcebf03f2112ea21|||TSM|||AUO sells Taichung plant to TSMC for NT$38.8B, scraps Quanta deal|||AUO 以 NT$38.8B 把台中廠賣給 TSMC，取消與 Quanta 的交易
-2026-10-29T16:24:05+00:00|||PASS|||ec726fd926ff6a277c11e87ce5fe3ca9|||SKHY|||SK Hynix Stock Rallies as Chipmaker Plans Massive Buyback and Special Dividend
-2026-10-29T16:24:30+00:00|||PASS|||17fbeb5435049091de72a7cd1afac5b3|||ENTG|||Compared to Estimates, Entegris (ENTG) Q3 Earnings: A Look at Key Metrics
-2026-10-29T16:24:34+00:00|||SENT|||26eac3ccf5fd17ffbe5c74563d79168b|||ENTG|||Entegris (ENTG) Beats Q3 Earnings and Revenue Estimates|||Entegris（ENTG）第三季獲利與營收都優於預期
-2026-10-29T16:24:43+00:00|||PASS|||508e1505abb77f2983ff1d5df1182517|||LITE|||Lumentum Holdings (LITE) Is Reportedly In Advanced Acquisition Talks
-2026-10-29T16:24:45+00:00|||PASS|||c5578c7e033655921f0ff8a4a54c33a3|||LITE|||Marvell Stock Slides. Why the Market Hates the Idea of a Lumentum Buyout.
-2026-10-29T16:24:47+00:00|||PASS|||1130d34f0c62ea4338338c632966def9|||LITE|||Marvell Falls on Financing Fears Over $83 Billion Lumentum Deal
-2026-10-29T16:24:48+00:00|||PASS|||f7a52aea4474d6221c3f6e5cd41858f4|||LITE|||Marvell Stock Sinks While Lumentum Jumps on Report of Potential Takeover
-2026-10-29T16:24:49+00:00|||PASS|||f8755d002417525a6d3ac74166f488d4|||LITE|||Lumentum stock jumps on report of possible merger with Marvell
-2026-10-29T16:24:57+00:00|||PASS|||94cf95e41641b9b14a2a1aebdcd8325b|||NOK|||Orange seeks compensation from Nokia over outage in France earlier this month - report
-2026-10-29T16:25:08+00:00|||SENT|||51660c085f27ca79e97bce05897de4a7|||ALGM|||Allegro MicroSystems, Inc. (ALGM) Q2 Earnings and Revenues Beat Estimates|||Allegro MicroSystems（ALGM）第二季獲利與營收都優於預期
-2026-10-29T16:25:20+00:00|||PASS|||b99b3b4b5adfad4bdf39a1e4f903b16c|||PLTR|||Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction
-2026-10-29T16:25:21+00:00|||PASS|||6f83d84d65fbe3d851bcc20c532ece31|||PLTR|||Baird reiterates Palantir stock rating ahead of Q3 results
-2026-10-29T16:25:24+00:00|||PASS|||29d19d39da2aeffefb58998b9f58acb8|||NOW|||ServiceNow shares plunge 24% after earnings revive AI disruption fears
-2026-10-29T16:25:25+00:00|||PASS|||b1f4382cb98c8cf695b3ff0e04e9a259|||NOW|||ServiceNow Posts Downbeat Q3 Earnings, Joins Sprouts Farmers Market, Alphabet And Other Big Stocks Moving
-2026-10-29T16:25:35+00:00|||PASS|||53dc720c88c6ffd642ef9fe1681913b8|||FTNT|||Fortinet's Q3 Results Show Disappointing Slowdown Amid Tight Supply, BofA Says
-2026-10-29T16:25:37+00:00|||PASS|||bac3e1e77876d24388866960c2f1d612|||FTNT|||Fortinet Q3 Earnings & Revenues Beat Estimates, Increase Y/Y
-2026-10-29T16:25:38+00:00|||PASS|||ecefc9227b8d2154a59969a7abf76307|||FTNT|||Fortinet Stock Heads for Record Two-Day Rout. A Key Revenue Driver May Be to Blame.
-2026-10-29T16:25:40+00:00|||PASS|||56ebc00a0b659631350c26fe75833aba|||FTNT|||These Analysts Slash Their Forecasts On Fortinet After Q3 Results
-2026-10-29T16:25:50+00:00|||PASS|||a700e9e0e0659ff29ad35d5d393fa050|||BAND|||Here's What Key Metrics Tell Us About Bandwidth (BAND) Q3 Earnings
-2026-10-29T16:25:54+00:00|||PASS|||73c2727658272e750d9262aa0a1dbfef|||BB|||‘I get more meetings because of the brand’: BlackBerry’s CEO on keeping a famous name
-2026-10-29T16:26:14+00:00|||SENT|||c9230ff3632a1e75b2e0e7c2d1199d58|||SPCX|||Elon Musk's SpaceX buying out 418 homes near flagship AI data center, but only if they drop participation in lawsuit — report claims the company is targeting an entire neighborhood, but will only buy from people who don't pursue noise pollution complaints|||Elon Musk 的 SpaceX 要買下旗艦 AI 資料中心附近 418 戶住宅，但只買不參與噪音訴訟的住戶
-2026-10-29T16:26:21+00:00|||PASS|||8b9ed68be142908428607b1b6e90cdf0|||SPCX|||SpaceX (SPCX) Locks In $40 Billion For AI Buildout As Consolidation Fears Grow
-2026-10-29T16:26:43+00:00|||PASS|||3c6f4ed4bc31c1424dfb6d6c86c21079|||ETN|||Ahead of Eaton (ETN) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics
-2026-10-29T16:26:46+00:00|||PASS|||47e0ee9c2987a3778cd1ee6cb0704237|||PWR|||Quanta Services (PWR) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
-2026-10-29T16:26:54+00:00|||SENT|||3b13f7810609feb19ebccacf5a15dfc5|||PWR|||Quanta Services (PWR) Q3 Earnings and Revenues Beat Estimates|||Quanta Services（PWR）第三季獲利與營收都優於預期
-2026-10-29T16:27:01+00:00|||SENT|||54437a5c7d652fccae6ea44a2f66627d|||CMI|||Cummins unveils innovative new mining engine platform|||Cummins 推出新的礦業引擎平台
-2026-10-29T16:27:08+00:00|||PASS|||46495b0a229d74a917889251e3e0af9f|||LIN|||Linde (LIN) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
-2026-10-29T16:27:13+00:00|||SENT|||cfa4f0d1e8c940aec7695503432568a5|||LIN|||Linde (LIN) Surpasses Q3 Earnings and Revenue Estimates|||Linde（LIN）第三季獲利與營收優於預期
 2026-10-29T18:34:17+00:00|||PASS|||9924230f283e58e334da25260410b8f0|||GOOGL|||Alphabet's Google Finnish Unit Faces Investigation Over Environmental Damage at Data Center Site
 2026-10-29T18:34:21+00:00|||PASS|||7feb363540f7f5fdebad0618d9513034|||GOOGL|||US files lawsuit claiming Google wouldn't give employee new job following military deployment
 2026-10-29T18:34:24+00:00|||PASS|||50a59af7db6643e6d0bb178a60afba8b|||MU|||Micron Stock Falls as Samsung Earnings Show the High Bar for Memory Stocks.
@@ -1463,3 +1388,80 @@
 2026-11-12T08:42:40+00:00|||PASS|||7a0a3c1d9d426dd5e704321a5fc5c870|||CRWV|||Watch CoreWeave Earnings Triggers AI Boost
 2026-11-12T08:43:20+00:00|||PASS|||1ac135f27ee84978ac7ed445cabc44b7|||SPCX|||From SpaceX to Anthropic, markets have a new playbook for mega-share debuts
 2026-11-12T08:44:12+00:00|||SENT|||43924283070b83d1db787c5c2b48acf0|||LLY|||China approves Eli Lilly’s weight-loss pill orforglipron|||中國核准 Eli Lilly 的減重藥 orforglipron
+2026-11-12T17:41:10+00:00|||PASS|||fc64964ef8edd0751efd218806426f70|||WULF|||Inside CoreWeave’s Earnings! Plus, TeraWulf’s Naz Khan & SpaceX’s Anthropic Contract Cut?
+2026-11-12T17:41:15+00:00|||PASS|||4594c5391d20d24846ed8c759c0f6787|||WULF|||TeraWulf COO: 83% of Revenue Now Comes From AI as Lake Mariner Nears Completion
+2026-11-12T17:41:16+00:00|||PASS|||f7095d9fb3d722b274ef0f60298eed8f|||WULF|||TeraWulf Stock Rises With AI Infrastructure Stocks After CoreWeave Earnings
+2026-11-12T17:41:23+00:00|||PASS|||b5175460b785bc8acc849abf41befb2a|||GOOGL|||Motorola Settles Lawsuit Over Data Sharing With Google, TikTok
+2026-11-12T17:41:30+00:00|||SENT|||9a33b82b5b228333372af4a1425e1c47|||GOOGL|||Setback for Google as EU Court adviser backs $1.7 billion antitrust fine|||Google 遭遇挫折：歐盟法院顧問支持 $1.7 billion 反壟斷罰款
+2026-11-12T17:41:43+00:00|||SENT|||35751421a2f3b464b15ecb4c691d21c6|||ONDS|||Drone Maker Ondas Raises Full-Year Outlook|||無人機製造商 Ondas 上調全年展望
+2026-11-12T17:41:52+00:00|||SENT|||50a1910cc95a6a27699effa46b15035b|||VSH|||Vishay Intertechnology to form semiconductor joint venture with Kaynes Technology in India|||Vishay Intertechnology 將與 Kaynes Technology 在印度成立半導體合資企業
+2026-11-12T17:41:56+00:00|||PASS|||4d3cbab20937fb599ddaf8f736418847|||VSH|||Vishay Intertechnology Stock Earnings Beat Has The Bull Case Changed?
+2026-11-12T17:42:02+00:00|||PASS|||61f88048ca84ef9691145f038d4dac24|||AVGO|||Broadcom: Jensen Huang's Resignation Is A $2 Trillion Game Changer (NASDAQ:AVGO)
+2026-11-12T17:42:03+00:00|||PASS|||350d6dc046f2092fbc11d2a49e20b6ba|||AVGO|||AMD, Broadcom shares rally as Nvidia CEO Huang resigns
+2026-11-12T17:42:05+00:00|||PASS|||b777901566b5d152ce146cb535d71d7e|||AVGO|||AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns
+2026-11-12T17:42:18+00:00|||PASS|||38fd899add3043290bcde08923cb44ce|||RDW|||Redwire names William Mahoney defense tech CTO
+2026-11-12T17:42:19+00:00|||PASS|||e321f33ad0e74b6756fedf5275f01fb5|||RDW|||Redwire Appoints Defense Tech CTO to Accelerate Innovation in Autonomous Systems
+2026-11-12T17:42:22+00:00|||PASS|||fa35d9e3d63ed8a8a262f94d66afad66|||MSFT|||Microsoft Is Fighting a Ban on Chinese Parts Inside AI Data Centers
+2026-11-12T17:42:24+00:00|||PASS|||29c3669ff7bb22b03c3b5c8ea04b5ff3|||MSFT|||Tech layoffs tracker 2026: All the job losses across Disney, Amazon, Microsoft, Apple, Meta and more
+2026-11-12T17:42:25+00:00|||PASS|||1933524a9bf64c7b27bda4187b62bec7|||MSFT|||Nvidia Is Back Below $4 Trillion, and Microsoft Just Passed It
+2026-11-12T17:42:28+00:00|||PASS|||176bc24b8555f6703d0afb55e8381542|||AMZN|||Tech layoffs tracker 2026: All the job losses across Disney, Amazon, Microsoft, Apple, Meta and more
+2026-11-12T17:42:30+00:00|||PASS|||ca0e67bca91d8a09affe23e4c64bdd92|||AMZN|||Amazon Settles Pregnant Worker’s Overtime Denial, Firing Lawsuit
+2026-11-12T17:42:31+00:00|||PASS|||6cce44c86c8454c91d5fdf0b149bd20e|||AMZN|||Clinician Nexus Names Former Amazon Web Services AI Leader Nick Lefler as President
+2026-11-12T17:42:35+00:00|||PASS|||aa1a10401071f6212e6f6f95d0635ae4|||AMZN|||Amazon receives UK approvals for Prime Air drone deliveries
+2026-11-12T17:42:43+00:00|||SENT|||db7ede1073ba4bba53389526d27e8535|||META|||Meta's $27B Off-Balance-Sheet AI Deal Reminds Steve Eisman of Enron— Joseph Carlson Disagrees|||Meta 的 $27B 表外 AI 交易讓 Steve Eisman 想起 Enron——Joseph Carlson 不認同
+2026-11-12T17:42:47+00:00|||PASS|||9a118e26f3bc734be5f48110589c595b|||META|||Meta fined by UK regulator over repeated inaccuracies in WhatsApp Business data
+2026-11-12T17:42:50+00:00|||PASS|||8a25ce2e5ab1c219561c7d05d0bf1e3c|||AAPL|||President Trump says Apple’s Tim Cook is the only man to replace Jensen Huang as Nvidia CEO — proposes ’A ‘legend replaces a legend’ in call for Apple’s executive chairman of its board
+2026-11-12T17:42:52+00:00|||PASS|||c4d5cf2088539dce7d0ae2ba326a584e|||AAPL|||Trump floats Apple chairman Tim Cook as Jensen Huang’s successor
+2026-11-12T17:42:53+00:00|||PASS|||c74599d9835da59c99e764fd6df0a1a3|||AAPL|||Trump says ex Apple CEO Cook is 'a legend', should replace Huang at Nvidia
+2026-11-12T17:42:55+00:00|||PASS|||12fa35e63e13c0c2a8ff0fba071b62bf|||AAPL|||Trump pitches Apple's Tim Cook as new Nvidia CEO after Huang resigns
+2026-11-12T17:42:56+00:00|||PASS|||820ff7fb09d456f9cddae362dbab5d5c|||AAPL|||Apple supplier Foxconn posts record profit, raises outlook
+2026-11-12T17:42:59+00:00|||PASS|||24f15e58c225460d220cda8641b45161|||TSLA|||How the SpaceX Stock Slump Complicates Elon Musk’s Tesla Merger
+2026-11-12T17:43:01+00:00|||PASS|||13a59249334024b40dfc5490df93d5f1|||TSLA|||Why SpaceX Stock Is Getting in the Way of a Tesla Merger
+2026-11-12T17:43:06+00:00|||SENT|||3f96e58c7d12a29d06b3e15072c7344d|||NVDA|||Nvidia CEO Jensen Huang Resigns—and the Stock Is Falling|||Nvidia 執行長 Jensen Huang 辭職，股價下跌
+2026-11-12T17:43:09+00:00|||PASS|||e4a0db30f5c162a11ae1296cbc8fd7ff|||NVDA|||Jensen Huang's Nvidia exit casts shadow over Wall Street’s $500 billion AI financing bet
+2026-11-12T17:43:11+00:00|||PASS|||09e83f77f19690bb792ddfbc862634fb|||NVDA|||Instant view: Nvidia CEO Jensen Huang steps down
+2026-11-12T17:43:12+00:00|||PASS|||c0f0fb3bfa216b4dcf24bec52dd6da53|||NVDA|||Nvidia Stock Hammered As CEO Resigns In Disgrace
+2026-11-12T17:43:14+00:00|||PASS|||37ba1ac6580c3761bb261cc63d60279f|||NVDA|||Trump pitches Apple's Tim Cook as new Nvidia CEO after Huang resigns
+2026-11-12T17:43:20+00:00|||SENT|||b8e823e25d5d6d0bbeececbffdf2a5fa|||NVDA|||Huang, Face of the AI Boom, Ousted by Nvidia Board as CEO|||黃仁勳，AI 熱潮的代表人物，遭 Nvidia 董事會罷免 CEO 職務
+2026-11-12T17:43:24+00:00|||PASS|||423495a3a33a24fa3e959ea6d2e7a75c|||AMD|||AMD Stocks Gain 2.6% as Investors Look Beyond NVIDIA After CEO Exit
+2026-11-12T17:43:25+00:00|||PASS|||8aac345f695ec5e3d48acdb3cf6c22e2|||AMD|||AMD, Broadcom shares rally as Nvidia CEO Huang resigns
+2026-11-12T17:43:26+00:00|||PASS|||73f4f668b58b10c01ef7cb20f5ef901f|||AMD|||AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns
+2026-11-12T17:43:28+00:00|||PASS|||6a06654812ad584cf3e8e84d498b882e|||AMD|||Nvidia CEO Exit Reports Sends Shockwaves Through AI Chip Stocks -- AMD and Broadcom Stocks Jump
+2026-11-12T17:43:31+00:00|||PASS|||748063576ad46b4ad3c1c73fde6ed11e|||MRVL|||Marvell adds three independent directors to board ahead of proposed Lumentum acquisition
+2026-11-12T17:43:34+00:00|||PASS|||88cd12d01e20586993271a53178b4b5c|||QCOM|||Qualcomm CEO: AI won't replace your smartphone anytime soon
+2026-11-12T17:43:43+00:00|||SENT|||ebcccace9c2613cb2b33221bbe4faa7b|||TSM|||Taiwan Chip Giant TSMC Acknowledges Hack Of Reportedly 49,000 Employee Files Occurred But Says Leaked Data Matches That Stored With External Cloud Provider|||台灣晶片巨頭 TSMC 承認發生駭客事件，據報 49,000 份員工檔案遭波及，但稱外洩資料與外部雲端供應商儲存的資料相符
+2026-11-12T17:44:02+00:00|||PASS|||adaece21b74e22d5a18b479f183591e9|||ONTO|||Onto Innovation (ONTO) Beat Expectations, Is The Stock Still Cheap?
+2026-11-12T17:44:19+00:00|||SENT|||4b8fb5e4d2199490b970797d13239feb|||ALAB|||Astera Labs Sees Scorpio X-Series Exiting Year Above $1 Billion Revenue Run Rate|||Astera Labs 預計 Scorpio X-Series 年底營收年化運行率將高於 $1 Billion
+2026-11-12T17:44:26+00:00|||PASS|||4ea36044e93d600c1f2d11f7a12c8537|||LITE|||Marvell adds three independent directors to board ahead of proposed Lumentum acquisition
+2026-11-12T17:44:34+00:00|||PASS|||5d6889c4a6888c30890fd366159afb64|||MPWR|||Did Monolithic Power Systems, Inc. Insiders Breach their Fiduciary Duties to Shareholders?
+2026-11-12T17:44:42+00:00|||PASS|||c2c223de2582da3f299a7478277dd0d7|||ADI|||ADI Global Distribution misses guidance, cuts outlook
+2026-11-12T17:44:50+00:00|||SENT|||b347907bf079f9dd7cc0971b92b9fbb2|||VRT|||Vertiv Introduces Medium-Voltage Power System to Help AI Data Centers Connect to the Grid Faster and Free Indoor Space for Compute|||Vertiv推出中壓電力系統，協助AI資料中心更快接入電網並騰出室內空間供運算使用
+2026-11-12T17:44:53+00:00|||PASS|||68e55a4df5969e5d3319f10bf9b4e003|||VRT|||The Reason To Buy Vertiv Stock Today
+2026-11-12T17:44:56+00:00|||PASS|||3de005c6acce36796eb6e2dafd8acad2|||ORCL|||Oracle Commodity Holding Increases Private Placement to $150,000
+2026-11-12T17:44:57+00:00|||PASS|||e928458f078e8c61ced5ac59ca2ac9cc|||ORCL|||What Does Oracle (ORCL) Gain From Its $4.5 Billion Nashville Headquarters Project?
+2026-11-12T17:45:00+00:00|||PASS|||103c2e61d23ebf2d49331f437d5a7325|||CRWV|||CoreWeave Bonds Rise After Strong Earnings Soothe Debt Anxiety
+2026-11-12T17:45:06+00:00|||SENT|||e15bc7425c740c4f0e867f91136265f6|||NBIS|||Nebius signs $12bn in deals for Q3, all deals reportedly cover its capex|||Nebius 第三季簽下 $12bn 交易，據報所有交易均可涵蓋其資本支出
+2026-11-12T17:45:12+00:00|||SENT|||de5d8770ed375ce08059f95cbc8421ef|||NBIS|||Nebius Stock Plummets After Earnings as CEO Warns of Revenue Delay|||Nebius 財報公布後股價暴跌，CEO 警告營收延遲
+2026-11-12T17:45:20+00:00|||PASS|||70dbe1cd55f4c8be51afcbe844e93e38|||NOW|||ServiceNow launches AI-powered engine to accelerate migrations from CRM rivals
+2026-11-12T17:45:23+00:00|||PASS|||c2be8ed4ee00fd6992b744196dbddce9|||CRM|||Kushner’s Affinity, Salesforce Back Quantum Startup Q-Ctrl in $290 Million Round
+2026-11-12T17:45:27+00:00|||PASS|||73cb24c36d59200b685435c41fd2e198|||DDOG|||Rocket Companies Appoints Datadog COO Adam Blitzer to Board of Directors
+2026-11-12T17:45:32+00:00|||PASS|||61638b5749b32a444272c5dfbe08a28e|||IBM|||Quantum leap: IBM plans to scale beyond 1,000 qubits in 2027 with Nighthawk r3 processor
+2026-11-12T17:45:45+00:00|||PASS|||f1bc66f6b8fa9f8e0cae65d57d598285|||AKAM|||Akamai Technologies (AKAM) Wraps Up $1.1 Billion Notes Deal For Cloud Buildout
+2026-11-12T17:45:57+00:00|||SENT|||73cd200a8eb16abc211cb5ee99bd42ec|||IOT|||Samsara Launches Industry-First 360-Degree Camera Built for Open-Cab Equipment|||Samsara推出業界首款專為開放式駕駛艙設備打造的360度攝影機
+2026-11-12T17:46:21+00:00|||PASS|||d0a2d0a5d7132874a66ee8f01d18379b|||SPCX|||SpaceX to invest over $74 billion in supercompute facilities in Texas, Arizona By Reuters
+2026-11-12T17:46:22+00:00|||PASS|||c7f959ee09a35d7bc5e3654410a802a3|||SPCX|||SpaceX Plans $74 Billion Data Center Projects in Arizona, Texas
+2026-11-12T17:46:23+00:00|||PASS|||5d546a54ab4df7e412114ae6cb22edb1|||SPCX|||How the SpaceX Stock Slump Complicates Elon Musk’s Tesla Merger
+2026-11-12T17:46:24+00:00|||PASS|||eef76706b960366a7c04a394947286c8|||SPCX|||Why SpaceX Stock Is Getting in the Way of a Tesla Merger
+2026-11-12T17:46:26+00:00|||PASS|||1c7ced532f102d18d783da79395538e9|||SPCX|||SpaceX's IPO reveals a $19 billion opportunity for Anthropic
+2026-11-12T17:46:44+00:00|||PASS|||a617b07c790b504755537a835c430ada|||LEU|||Oklo, Centrus Secure Fuel Supply for Aurora Powerhouse Deployment in Ohio – Company Announcement
+2026-11-12T17:46:56+00:00|||SENT|||1a909a0256087f9720db5ba0f2bbb5b3|||ROK|||Rockwell Automation Introduces LogixEdge Controllers for Software-Defined Automation|||Rockwell Automation推出用於軟體定義自動化的LogixEdge控制器
+2026-11-12T17:47:19+00:00|||PASS|||0742e1c6ab3e74002d9fd5d68fe8f5c6|||COIN|||Coinbase CEO Brian Armstrong reacts to Jensen Huang probe
+2026-11-12T17:47:22+00:00|||PASS|||7bc0a00293797653739434cbd2e3b416|||HOOD|||Klarna names Robinhood executive Chris Koegel as CFO
+2026-11-12T17:47:28+00:00|||PASS|||449ecdfc957e1a72ce8150ba218ff2a2|||ABBV|||ABBV Stock Rises More Than 4% in a Month: Time to Buy, Hold or Sell?
+2026-11-12T17:47:32+00:00|||PASS|||0c818cfb9eb98586ee3ca8d73de86870|||ISRG|||Intuitive Machines Q3 2026 slides: record revenue, $1.9B backlog
+2026-11-12T17:47:33+00:00|||PASS|||025b7ab6b61bffbf2c1dfa166a8fa244|||ISRG|||Intuitive Machines Surges 16% on Record Quarter and Positive Free Cash Flow; AST SpaceMobile Falls 3%, Rocket Lab Slips 2%
+2026-11-12T17:47:35+00:00|||PASS|||d58d3234fcea844c3439add252d5da10|||ISRG|||Intuitive Machines jumps 14% as record revenue and backlog beat expectations
+2026-11-12T17:47:36+00:00|||PASS|||521a7ff25e560b5efe77e10615a3c619|||ISRG|||Intuitive Machines, Inc. (LUNR) Reports Q3 Loss, Beats Revenue Estimates
+2026-11-12T17:47:38+00:00|||PASS|||2dffe89f00f8ce0947efe493c336000a|||ISRG|||Intuitive Machines Reports Third Quarter 2026 Financial Results; Reports Record Financials Across The Board - Revenue, Profitability, Positive Cash Flow, and Backlog
+2026-11-12T17:47:40+00:00|||PASS|||e50e2be4fb8db079657224fe6ea49868|||HUM|||Did Humana Inc. Insiders Breach their Fiduciary Duties to Shareholders?
+2026-11-12T17:47:42+00:00|||PASS|||cfdfb3a12a3f7f515df1131dc9959825|||UNH|||Did UnitedHealth Group Incorporated Insiders Breach their Fiduciary Duties to Shareholders?
