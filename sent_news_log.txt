@@ -1,42 +1,4 @@
 @@HEARTBEAT|||2026-11-12|||2026-10-21T13:41:10+00:00
-2026-10-29T07:30:22+00:00|||PASS|||36182411b614afab9bfd00c7d1536521|||GOOGL|||Alphabet misses revenue expectations as shares fall 9%
-2026-10-29T07:30:26+00:00|||PASS|||d9534110e055b27ac2b389100e19ec29|||GOOGL|||Google shares tumble 10% after $51bn AI outlay deepens cash burn
-2026-10-29T07:30:38+00:00|||PASS|||6010a11bb3035ddc68b0af7b8517ac2f|||ONDS|||Ondas Spends $875.8 Million to Build a Drone Warfare Company From Scratch
-2026-10-29T07:30:57+00:00|||PASS|||0a8de33fffd769f77184738a466e310d|||HON|||Honeywell Aerospace Shares Fall 2.73% After Hours Despite Q3 Earnings Beat - Honeywell Aerospace (NASDAQ
-2026-10-29T07:31:02+00:00|||SENT|||d84158795f28a36dbd89b738091f2a50|||HON|||Honeywell Aerospace lifts second-half cash flow view, tops quarterly estimates By Reuters|||Honeywell Aerospace 上調下半年現金流展望，季度表現優於預期
-2026-10-29T07:31:05+00:00|||PASS|||0bf9241ac749f78ede50fd0433b4caa6|||HON|||Honeywell Aerospace stock fall 3% after posting Q3 results on rising costs By Investing.com
-2026-10-29T07:31:09+00:00|||PASS|||067c0afcf2063cb8c874ef05a63e92e0|||MSFT|||CoreWeave, neocloud stocks drop after Microsoft capex misses estimates (CRWV:NASDAQ)
-2026-10-29T07:31:10+00:00|||PASS|||5a39900fd2c3612f8b0f1fc3571de847|||MSFT|||What Microsoft (MSFT) Said on Its Q1 Earnings Call
-2026-10-29T07:31:13+00:00|||PASS|||337eac55ded6579893acc2fddd4c5569|||MSFT|||Microsoft (MSFT) Reports Q1 Earnings: What Key Metrics Have to Say
-2026-10-29T07:31:17+00:00|||SENT|||4f7abed284db93bf5f245315bbc6efab|||MSFT|||Microsoft pops as Q1 results, guidance top estimates (MSFT:NASDAQ)|||Microsoft 第一季成績與財測優於預期，股價大漲
-2026-10-29T07:31:22+00:00|||PASS|||0729f26d0594bf4a7c6181836deeb50e|||AMZN|||Amazon Extends Job Cuts to Devices After 1,000 Retail Layoffs
-2026-10-29T07:31:28+00:00|||PASS|||27a2b0388c9c9ebbb22b916b60afe89d|||TSLA|||Tesla wins court battle over delayed FSD features in South Korea (TSLA:NASDAQ)
-2026-10-29T07:31:30+00:00|||PASS|||5e4a7ac3f46d8292662c7996ec4aab04|||TSLA|||Tesla Wins Lawsuit in South Korea Over FSD Feature Delays
-2026-10-29T07:31:35+00:00|||PASS|||da4f1144cf315b7e483c8e5c0d268a0d|||MRVL|||[News] Marvell Eyes Lumentum Acquisition in What Could Be One of the 10 Largest Tech and Telecom Deals Ever
-2026-10-29T07:31:38+00:00|||PASS|||77645c59df082e0b1df660d6635666ce|||ARM|||Why Arm’s Q2 Earnings Could Spur a Recovery in Its Stock
-2026-10-29T07:31:41+00:00|||PASS|||63787b9eb38abcfd8f6fcdfd77d04323|||INTC|||Intel Stock Enters Earnings With a ‘Strong’ Setup, Analysts Say
-2026-10-29T07:31:42+00:00|||PASS|||460de905a67364d9a04c46f07bbd33f4|||INTC|||Pentagon Watchdog Declines to Probe Ukraine Intel, Starlink Cuts
-2026-10-29T07:31:50+00:00|||SENT|||22cad85ac603280cfcf5471b0b0daf79|||ASX|||ASE Technology Hldg: Q3 Earnings Snapshot|||ASE Technology：第三季財報摘要
-2026-10-29T07:31:54+00:00|||PASS|||3b4a577661d1c91b31d2c4a7813f8fe2|||SKHY|||SK hynix CEO Kwak Makes Earnings Call Debut to Rebuild Investor Trust
-2026-10-29T07:31:55+00:00|||PASS|||3b3a214028a189c9c54b26387961942a|||SKHY|||Stock Market Today, Oct. 28: SK Hynix Surges on Record Q3 Results and AI-Memory Demand
-2026-10-29T07:32:14+00:00|||PASS|||8fb874ab9a076534450cc005f5b5be2a|||TER|||Teradyne stock falls despite Q3 earnings beat, strong AI-driven outlook (TER:NASDAQ)
-2026-10-29T07:32:25+00:00|||PASS|||dc57dcd610735ceabd34123ca1ab5dca|||LITE|||[News] Marvell Eyes Lumentum Acquisition in What Could Be One of the 10 Largest Tech and Telecom Deals Ever
-2026-10-29T07:32:41+00:00|||PASS|||6dd46b2f7562acb6c3ba7b1ddc12ca63|||CRWV|||CoreWeave, neocloud stocks drop after Microsoft capex misses estimates (CRWV:NASDAQ)
-2026-10-29T07:32:47+00:00|||PASS|||d49b7341d2a729ce3ae0460e5b728f68|||NOW|||ServiceNow shares drop 18% after mixed earnings results
-2026-10-29T07:32:49+00:00|||PASS|||19dadf23243a0502798c96486a8c0292|||NOW|||What ServiceNow (NOW) Said on Its Q3 Earnings Call
-2026-10-29T07:32:51+00:00|||PASS|||a39b13b9265bb971970f88c511897970|||NOW|||ServiceNow Fans AI Fears on Quarterly Subscription Sales Outlook
-2026-10-29T07:32:52+00:00|||PASS|||4ed4e265b86549f9f07fb7f18b41ef6a|||NOW|||ServiceNow’s stock slides as earnings miss overshadows a raised AI outlook
-2026-10-29T07:32:54+00:00|||PASS|||235bd9c0832ad46df070b0f53ef093aa|||NOW|||ServiceNow Falls After Quarterly Sales Outlook Revives AI Fears
-2026-10-29T07:32:56+00:00|||PASS|||61e17b9aa422f94a07760d4bff70dc47|||NOW|||ServiceNow Reports Third Quarter 2026 Financial Results
-2026-10-29T07:32:57+00:00|||PASS|||88548faebb9b3431b646131da1698b7c|||NOW|||ServiceNow launches Control Tower Alliance to help enterprises adopt AI safely at scale
-2026-10-29T07:32:58+00:00|||PASS|||9770e79b1e1fe70be9002997a3a1b60c|||NOW|||Watch Microsoft, ServiceNow Earnings: Key Takeaways
-2026-10-29T07:33:06+00:00|||PASS|||09a6ab454cf6001e8749e054c5506556|||DDOG|||Upwind raises $400M after walking away from Datadog acquisition offer
-2026-10-29T07:33:11+00:00|||PASS|||94a6d6896c9a54c4805a7e5c5049b20d|||FTNT|||Fortinet’s stock is taking a dive after earnings. Here’s why.
-2026-10-29T07:33:13+00:00|||PASS|||a2c3a2a7fc22b038117df2a1a0c199a0|||FTNT|||Fortinet Reports Strong Third Quarter 2026 Financial Results
-2026-10-29T07:33:39+00:00|||PASS|||0235af0f41e2d2b13b75d9bef3e47d25|||SPCX|||Pentagon Watchdog Declines to Probe Ukraine Intel, Starlink Cuts
-2026-10-29T07:33:40+00:00|||PASS|||2af4c0f3f7fc3dd83fbc88433a77ef5e|||SPCX|||Not Space. Not Starlink. Here's My Top Reason to Buy SpaceX Stock.
-2026-10-29T07:33:41+00:00|||PASS|||9525556dc97172e6ae13a62c2f0b83c1|||SPCX|||How SpaceX Hurt Alphabet’s Third-Quarter Earnings
-2026-10-29T07:33:49+00:00|||PASS|||887b7b43cdb432a77719623eba86c791|||USAR|||What Needs To Be True To Buy USA Rare Earth Stock?
 2026-10-29T16:21:13+00:00|||PASS|||39fb03932cbfa445b7ca2790e396548e|||EOSE|||Will Eos Energy Enterprises, Inc. (EOSE) Report Negative Earnings Next Week? What You Should Know
 2026-10-29T16:21:24+00:00|||SENT|||178b8c6859467a7110c1cbf0c0d5f16e|||GOOGL|||Finland launches criminal probe into land clearance for Google data centre|||芬蘭對 Google 資料中心用地清理展開刑事調查
 2026-10-29T16:21:27+00:00|||PASS|||1067000eb4898431a7297d74cd2e9f5d|||GOOGL|||Alphabet heads for a $500 billion drop in market value, the biggest in its history
@@ -1490,3 +1452,14 @@
 2026-11-12T02:00:17+00:00|||PASS|||32e25365005ee6598b92b6cd26e7598f|||DUK|||Duke Energy (DUK) Secures Merger Credit Consent On A Narrative That Still Sees Value
 2026-11-12T02:00:23+00:00|||PASS|||0379d60115dfcb0d876303e1ca043166|||NEE|||NextEra Energy (NEE) Draws Fresh Virginia Questions Over Merger Consumer Protections
 2026-11-12T02:00:46+00:00|||PASS|||c44501fc104e87f93238d99cbf7afb04|||APP|||AppLovin (APP) Jumps On Strong Q3 Results, Is The Stock Still Cheap?
+2026-11-12T08:41:01+00:00|||PASS|||bc9dd798c878842eedfae38ffbf23204|||WOLF|||Wolfspeed returns to GaN as CEO touts vertical integration
+2026-11-12T08:41:22+00:00|||PASS|||705168d9a32cf478fbb30f713f284056|||META|||Russell Brand Still Has One Major Social Media Platform After Meta Ban: ‘Stay Tuned’
+2026-11-12T08:41:27+00:00|||PASS|||c81a36ef22c6f251f9ec492e3b27ee6a|||NVDA|||Congressional Stock-Trading Ban Advocate Ro Khanna, Spouse Sold Nvidia Shares At Peak Before Spy Scandal Emerged
+2026-11-12T08:41:29+00:00|||PASS|||5708d932f8f1cd6eff5fed83be3007b7|||NVDA|||Nvidia’s Next CEO Could Come From Inside – Or Arm: Here’s Who Traders Are Watching In The Succession Race
+2026-11-12T08:41:30+00:00|||PASS|||b9cc62ba443b1a1d2fc4dcaacb4231bf|||NVDA|||Nvidia has lost $450 billion since Jensen Huang admitted to an affair. Millions of 401(k)s are exposed
+2026-11-12T08:41:36+00:00|||PASS|||3278ba7cf164ac386c1076974953b6d4|||ARM|||Nvidia’s Next CEO Could Come From Inside – Or Arm: Here’s Who Traders Are Watching In The Succession Race
+2026-11-12T08:42:27+00:00|||PASS|||72e4c35ed826cfb572c584dce846973b|||DELL|||Dell Sinks 12% in a Week on Texas Data Center Fears: “A Moratorium, a Ban”
+2026-11-12T08:42:38+00:00|||SENT|||0a98a7871f4beaeac81621dbb8f9db81|||CRWV|||CoreWeave CEO addresses "volatility in the capital markets" as company posts $3.66bn in revenue|||CoreWeave CEO 回應「資本市場波動」，公司公布營收 $3.66bn
+2026-11-12T08:42:40+00:00|||PASS|||7a0a3c1d9d426dd5e704321a5fc5c870|||CRWV|||Watch CoreWeave Earnings Triggers AI Boost
+2026-11-12T08:43:20+00:00|||PASS|||1ac135f27ee84978ac7ed445cabc44b7|||SPCX|||From SpaceX to Anthropic, markets have a new playbook for mega-share debuts
+2026-11-12T08:44:12+00:00|||SENT|||43924283070b83d1db787c5c2b48acf0|||LLY|||China approves Eli Lilly’s weight-loss pill orforglipron|||中國核准 Eli Lilly 的減重藥 orforglipron
