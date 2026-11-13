@@ -1,18 +1,1 @@
-[
- {
-  "date": "2026-11-13",
-  "form": "SCHEDULE 13G",
-  "holding": false,
-  "text": "13G 被動型持股超過 5%：SK square Co Ltd，持股 20.00%",
-  "ticker": "SKHY",
-  "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526459140/xslSCHEDULE_13G_X02/primary_doc.xml"
- },
- {
-  "date": "2026-11-13",
-  "form": "SCHEDULE 13G/A",
-  "holding": false,
-  "text": "13G 修正：VAN ECK ASSOCIATES CORP，持股 6.70%",
-  "ticker": "LEU",
-  "url": "https://www.sec.gov/Archives/edgar/data/1065059/000086917826000107/xslSCHEDULE_13G_X02/primary_doc.xml"
- }
-]
+[]
