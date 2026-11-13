@@ -1,23 +1,4 @@
 @@HEARTBEAT|||2026-11-13|||2026-10-21T13:41:10+00:00
-2026-10-30T18:06:50+00:00|||PASS|||4b04558a51d4152c22973165344adbfa|||GOOGL|||Alphabet loses $475 billion in market value, the biggest drop in its history
-2026-10-30T18:07:10+00:00|||PASS|||4d8b0837c2508e7b0954a6b7501ae6b2|||AVGO|||Broadcom’s $63B Anthropic Deal Could Be The One That Finally Gets it Into Gear
-2026-10-30T18:07:24+00:00|||PASS|||07a81df8be2f9d39314b35725f51a9e3|||MSFT|||Microsoft’s Buyout Blitz Is a Calculated Economic Risk
-2026-10-30T18:07:31+00:00|||SENT|||9a1ae44c070f63674fc595d0b1f6f39a|||AMZN|||Amazon sets up $80 billion supplier financing for AI hardware|||Amazon 為 AI 硬體設立 $80 billion 供應商融資
-2026-10-30T18:07:38+00:00|||PASS|||57970fcf2bdcaea881ebcf3cea482361|||TSLA|||Tesla Could Be About to Unlock a Brand-New Revenue Stream. Time to Buy the Stock?
-2026-10-30T18:07:45+00:00|||PASS|||a975da513b300b06bdcf4b1598e62cea|||MRVL|||Marvell Is in Talks to Buy an $83 Billion AI Laser Maker
-2026-10-30T18:07:50+00:00|||PASS|||2872423b5b8f7785bf7066bebe355095|||INTC|||Amazon and Intel Tank the AI Trade. The 1 Factor Linking Big Tech’s Underwhelming Earnings.
-2026-10-30T18:07:51+00:00|||PASS|||79bd42a9b671cfdb202031fc2eca24f1|||INTC|||After Intel’s historic stock drop, analysts say there’s no reason to buy the dip
-2026-10-30T18:07:53+00:00|||PASS|||a6668091441592a1a80ffbc27a77a83d|||INTC|||Intel stock drops 25% after $500bn wiped off value of Google’s parent company Alphabet
-2026-10-30T18:07:54+00:00|||PASS|||ba0bfffe6ccd9e1f15d0b8d537d17164|||INTC|||Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake
-2026-10-30T18:08:48+00:00|||PASS|||fcba8ddac7745efb152f874890d313d6|||PLTR|||Apple, Super Micro, AMD, Palantir Step Up To Earnings Plate After Tech Sell-Off
-2026-10-30T18:08:50+00:00|||PASS|||02b0a6004b7c677ece83cf1a603265fb|||NOW|||ServiceNow Investors Seek Proof of AI Monetization After Q3 Results, RBC Says
-2026-10-30T18:08:53+00:00|||PASS|||73c7f12512604a8345b6b659400d0214|||CRM|||Deal Dispatch: DoorDash Buys Instacart For $17B, Thrive Holdings Acquires ADT, SalesForce Nabs Rune Techn
-2026-10-30T18:08:56+00:00|||PASS|||947777717f1039f3877a410f569ab9f9|||DDOG|||Datadog Sinks 12%, CrowdStrike Falls 4% Despite $6.3 Billion Binance Hack Spotlighting Cyber Defense; Palo Alto and Fortinet Slide 3%
-2026-10-30T18:09:02+00:00|||PASS|||83ff17549b01f43b6047005fc8a60559|||FTNT|||Datadog Sinks 12%, CrowdStrike Falls 4% Despite $6.3 Billion Binance Hack Spotlighting Cyber Defense; Palo Alto and Fortinet Slide 3%
-2026-10-30T18:09:28+00:00|||PASS|||cbf416f761e1e66e07554697109b6c09|||SPCX|||Binance Points to Massive SpaceX Stake After Hack
-2026-10-30T18:09:29+00:00|||PASS|||3b230f8c0f3853efc2514c4977178639|||SPCX|||Elon Musk, CZ Trade Blows Over SpaceX Shares After $6.4B Binance Hack
-2026-10-30T18:09:31+00:00|||PASS|||2c1bccfe065c42dca9d6c3940f385954|||SPCX|||There are 3 Questions to Answer Before a Possible Tesla and SpaceX Merger
-2026-10-30T18:10:02+00:00|||PASS|||7a0a10e41a44972cfb4d419be1115c77|||CRCL|||Secret Service, FBI Join Binance Hack Probe as Circle Freezes $823 Million
 2026-10-30T22:31:29+00:00|||PASS|||5508aa3317cf6bdc301768e89153279f|||WULF|||Terawulf stock may move 9.9% on earnings release next week By Investing.com
 2026-10-30T22:31:37+00:00|||PASS|||af3be2fb2852a2763cc7c2dca6fc74c4|||GOOGL|||Alphabet Is in Talks to Join Trump’s Golden Dome Defense Program
 2026-10-30T22:31:38+00:00|||PASS|||ce2db517430276948252257259515d7e|||GOOGL|||Alphabet’s October wipeout hits $758 billion, its worst month ever
@@ -1456,3 +1437,39 @@
 2026-11-13T17:22:54+00:00|||SENT|||ce1e336117334573a289cb33306bfc32|||IONQ|||Quantum earnings Q3 2026: D-Wave, IonQ, IQM, Quantinuum, Rigetti, and Xanadu publish third-quarter results alongside newly public Pasqal|||Quantum Q3 2026 財報：D-Wave、IonQ、IQM、Quantinuum、Rigetti 和 Xanadu 公布第三季業績，Pasqal 則新近上市
 2026-11-13T17:22:57+00:00|||SENT|||f862254eec6fc1dbe09eef65afba5f27|||IONQ|||IonQ appoints new CFO and chief accounting officer|||IonQ 任命新任 CFO 與首席會計官
 2026-11-13T17:23:13+00:00|||PASS|||faaceb88a6b03f5445fd1daddb7a7cc7|||ISRG|||Intuitive Machines stock jumps after record $269 million quarter beats estimates
+2026-11-13T19:54:07+00:00|||PASS|||0a66633a39def3110f61b7acab4d9300|||GOOGL|||If You Invest $1,000 in Alphabet Today, Here’s What It Could Be Worth by 2030
+2026-11-13T19:54:09+00:00|||PASS|||00f84044b64afa19da5f287f68946fd6|||MU|||Micron Stocks Fall 3.96% as Nvidia CEO Exit Drags Memory Shares Lower
+2026-11-13T19:54:25+00:00|||SENT|||44400b571802e8f35bb52dd7c5ca5724|||NVTS|||Navitas Semiconductor Widens Renesas Patent Fight in New Suit|||Navitas Semiconductor在新訴訟中擴大與Renesas的專利爭端
+2026-11-13T19:54:42+00:00|||SENT|||5b129632d56f7c5afd1172b220dbc745|||RDW|||Redwire Space Exec on Significance of Winning $40 Million NASA Moon Base Deal|||Redwire Space 高層談贏得 $40 Million NASA 月球基地合約的意義
+2026-11-13T19:54:46+00:00|||PASS|||cec14663a7353743d5ba2bcb1b839733|||MSFT|||Microsoft continues to restore Outlook email after outage, rules out ‘cyber or AI’ agents
+2026-11-13T19:54:49+00:00|||PASS|||277e187ff401442a8d794504f3545fe0|||MSFT|||Microsoft’s Global Outage and Fixes: What We Know
+2026-11-13T19:54:51+00:00|||PASS|||bea5fece09f4152559e04171fe6ba88e|||MSFT|||The Microsoft outage didn’t lose your email — here’s what it does mean for you
+2026-11-13T19:54:53+00:00|||PASS|||ad02b9ba7ef04435f6969f7acdae087f|||MSFT|||‘Strangely calming and unnerving’: How Microsoft’s massive outage upended the corporate workday
+2026-11-13T19:54:55+00:00|||PASS|||18ae158c98add273c2505e377d5a0a7a|||MSFT|||Microsoft outage exposes global reliance on core tech providers
+2026-11-13T19:54:57+00:00|||PASS|||5deea5c0f8412c19efc671268830c026|||MSFT|||Early lunch, more chatter: Microsoft outage brings workers to a standstill
+2026-11-13T19:55:00+00:00|||PASS|||34075978f39a15fc7668c20b0d687ee4|||MSFT|||Microsoft points to ‘broad recovery and stability’ after widespread Outlook outage
+2026-11-13T19:55:02+00:00|||PASS|||60fe414f926cd8b7007f7e7cf5dbb7cc|||MSFT|||Why Microsoft Outage Is the Worst Possible Timing for the Stock
+2026-11-13T19:55:05+00:00|||PASS|||69348235974fb4459955e0c6a0fdff46|||AMZN|||Microsoft’s global outage may be worse than Amazon’s or CrowdStrike’s, expert says
+2026-11-13T19:55:09+00:00|||PASS|||05bc762c65fd71744ecfaa8b43c7b536|||TSLA|||Elon Musk's SpaceX–Tesla Merger 'Almost Inconceivable' to Avoid, Biographer Says
+2026-11-13T19:55:16+00:00|||SENT|||aad05fd110ca4b56ac1a7b9886fbe801|||NVDA|||Nvidia approached Arm CEO Haas to succeed Huang, FT reports|||Nvidia 接洽 Arm 執行長 Haas 接替 Huang，FT 報導
+2026-11-13T19:55:19+00:00|||PASS|||ab76eecef49b09b4515e0eead50cb909|||NVDA|||Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits
+2026-11-13T19:55:20+00:00|||PASS|||4ceb5675d18e9ded54bb36f46dca75a5|||NVDA|||Nvidia’s Ousted CEO Gets Fresh Subpoena Threat From House GOP
+2026-11-13T19:55:21+00:00|||PASS|||b6761f9e1ccf8d5a4d2c53de89cb8647|||NVDA|||Arm shares slide as Nvidia succession search puts CEO Rene Haas in spotlight
+2026-11-13T19:55:22+00:00|||PASS|||92b70b7a9b8646f3bfded638d2ebd9f1|||NVDA|||HSBC downgrades Nvidia, says stock to struggle until new CEO named
+2026-11-13T19:55:31+00:00|||PASS|||6978273c0f23ceeab62ceaa3a7e4367f|||INTC|||Intel Core Ultra 7 260K Quietly Launches As Newegg-Exclusive CPU, Paired With Up To GeForce RTX 5070 At $1999
+2026-11-13T19:55:34+00:00|||PASS|||4f2df74a505779b3243c421e17447f9f|||INTC|||Intel Stocks Fall 4.55% as Nvidia Shake-Up Clouds Its $5 Billion Partner Bet
+2026-11-13T19:55:36+00:00|||PASS|||83b6ec95b4db9be379ba71e58e760cdf|||TSM|||TSMC Just Booked a Record NT$587 Billion Month. Nvidia’s November 17 Report Is the Next Test
+2026-11-13T19:55:37+00:00|||PASS|||ff8dcf18021ed0e2adbcde0f640d5708|||TSM|||TSMC Stocks Fall 2.21% as NVIDIA Shake-Up Overshadows Record October Revenue
+2026-11-13T19:56:12+00:00|||PASS|||84ae982f9bf66ab57cf6f2e90ab5b782|||CSCO|||Cisco posts strongest revenue growth in 15 years as AI demand fuels networking rebound
+2026-11-13T19:56:25+00:00|||PASS|||b436e1f9926a9b268c99c5fa6405edee|||HPE|||Super Micro Slides 7% Despite Gartner’s $957 Billion AI Server Forecast; Dell Falls 4%, Hewlett Packard Enterprise Dips
+2026-11-13T19:56:28+00:00|||PASS|||2b3d6ecbfd38c05feaf8edb96ca2d16f|||VRT|||Vertiv Introduces High-Density Remote Power Panel for Next-Generation AI Data Centers
+2026-11-13T19:56:32+00:00|||PASS|||c0e1fbbb64682fc4309c23980d05f578|||ORCL|||Oracle's $125 billion debt raises a major AI warning
+2026-11-13T19:56:46+00:00|||PASS|||28cb3876645330fb47d35bf97f8185dd|||PANW|||As Microsoft Goes Dark, Palo Alto Networks Jumps Ahead Of Its Q1 Earnings Report (PANW)
+2026-11-13T19:57:09+00:00|||PASS|||44ab42c636781089936bf55117cb4e9b|||AMPX|||Amprius: 2028 Battery Ban Is The Real Test (NYSE:AMPX)
+2026-11-13T19:57:18+00:00|||SENT|||573ce0ded45f9388efe43e45ed621995|||SPCX|||Elon Musk Isn’t Worried About Anthropic Walking Away From SpaceX’s $120 Billion AI Deal: ‘The Opposite Is Going To Happen’|||Elon Musk 不擔心 Anthropic 退出 SpaceX 的 $120 Billion AI 交易：『事情會朝相反方向發展』
+2026-11-13T19:57:22+00:00|||PASS|||fbd71772d9f42877e0ed33a9e6744bb5|||SPCX|||Elon Musk’s SpaceX Has Spent $15 Billion on Starship. Tonight Could Change Everything
+2026-11-13T19:57:24+00:00|||PASS|||2afdf68c516eaac5f314fd7eebe54b9d|||RKLB|||Intuitive Machines Falls 7% Despite Record Quarter as Space Stocks Slide; AST SpaceMobile Sinks 9%, Rocket Lab Drops 5%
+2026-11-13T19:57:43+00:00|||PASS|||8a8ba838da2000a21c45650e6ad8288b|||CMI|||Pat Cummins delivers damning verdict on whether Steve Smith and David Warner bans were fair
+2026-11-13T19:58:00+00:00|||PASS|||99971bcc9946405c338dd07d1c9a4726|||NEE|||NextEra Condemns Avangrid Invoking Democrat Concerns Over Merger
+2026-11-13T19:58:12+00:00|||SENT|||01ced1c82e9f335a049b66bcf4ac8f23|||HOOD|||Supreme Court will hear Robinhood effort to toss IPO info omissions lawsuit|||最高法院將審理 Robinhood 撤銷 IPO 資訊遺漏訴訟的請求
+2026-11-13T19:58:20+00:00|||PASS|||e8e714b1bbfc9276dd040dce28b49d2f|||ISRG|||Intuitive Machines Falls 7% Despite Record Quarter as Space Stocks Slide; AST SpaceMobile Sinks 9%, Rocket Lab Drops 5%
