@@ -1,42 +1,4 @@
 @@HEARTBEAT|||2026-11-13|||2026-10-21T13:41:10+00:00
-2026-10-30T07:33:26+00:00|||PASS|||175dc44f3250ce8c7aae16b075a53706|||GOOGL|||Google’s $500bn bloodbath reflects the danger it faces from AI
-2026-10-30T07:33:29+00:00|||PASS|||b414003a9daae192579f8d816fa36bdd|||MU|||Micron Is Trading for Less Than 6 Times Forward Earnings. Here's Why That's a Sign to Buy.
-2026-10-30T07:33:52+00:00|||PASS|||efa200fc62d68af93a53dbac6f1ef8b1|||CAT|||Caterpillar posted record revenue and backlog but its stock still fell
-2026-10-30T07:34:01+00:00|||PASS|||79977eac4503191beba742edfb2c7dd0|||MSFT|||Microsoft taps debt markets with $25B bond sale to boost AI (MSFT:NASDAQ)
-2026-10-30T07:34:04+00:00|||PASS|||e9e9306f8bd8d564eefe34ba669d5501|||MSFT|||Microsoft plans to raise $25 billion in debt as it pursues AI buildout
-2026-10-30T07:34:07+00:00|||PASS|||2406817b621cdfb7df920255c2003ca9|||MSFT|||Microsoft expects to raise $25 billion in US bond sale, sources say By Reuters
-2026-10-30T07:34:11+00:00|||PASS|||66d0e2f7804f5d52274ea515ecabff3a|||MSFT|||Microsoft to raise up to $25 billion in bond market as investors get pickier about AI debt binge
-2026-10-30T07:34:14+00:00|||PASS|||30962c8623f5e52dfed657c423a231d4|||MSFT|||Microsoft expects to raise $25 billion in US bond sale, sources say
-2026-10-30T07:34:17+00:00|||PASS|||8c03e81b2d641fa9747659a7d3118f61|||MSFT|||Market Chatter: Microsoft Attracts $115 Billion of Demand for Bond Offering
-2026-10-30T07:34:20+00:00|||PASS|||e36fca379acf6b72fdf23765f0b9a6db|||MSFT|||Market Chatter: Microsoft Plans to Raise at Least $25 Billion From US Bond Offering
-2026-10-30T07:34:23+00:00|||PASS|||d9fa462fa9b9f4ad1fac123b2a749cdb|||AMZN|||AWS installs an AI accelerator every 14 seconds and eyes $1 trillion annual revenue
-2026-10-30T07:34:25+00:00|||PASS|||4bf33fae8942c616003df5e1373c83db|||AMZN|||Amazon's $578 Billion AWS Backlog Is Growing Faster Than Its Revenue
-2026-10-30T07:34:26+00:00|||PASS|||1414af973755b26f95266755f53aa6c4|||AMZN|||Amazon Just Burned $42 Billion in Cash Chasing AI Growth. Is Wall Street Ignoring the Risk?
-2026-10-30T07:34:29+00:00|||PASS|||a0191d54f0b0090f219478723162e0f6|||AAPL|||Apple supplier Luxshare falls as Q3 profit growth slows; 9M profit misses forecast
-2026-10-30T07:34:32+00:00|||PASS|||8a61daff8e5ea207be08f757d0cd671f|||TSLA|||The Case Against a SpaceX and Tesla Merger
-2026-10-30T07:34:33+00:00|||PASS|||d41bef966ba6dc4ddd8636fbbd3d1caa|||TSLA|||Tesla's robotaxi cash flow could bankroll SpaceX's AI ambitions: Ark Invest
-2026-10-30T07:34:34+00:00|||PASS|||b7e290081fa57182bd4db327ae04c1b3|||TSLA|||Tesla-SpaceX Merger ‘Does Make Strategic Sense,’ Analyst Says — But SpaceX Needs Nearly 2x The Growth
-2026-10-30T07:34:36+00:00|||PASS|||8ffa9d5681186a5b1ebc07ff6ec77a59|||TSLA|||Musk’s Tesla-SpaceX Merger Would Formalize a Decadeslong Partnership
-2026-10-30T07:34:39+00:00|||PASS|||1005b420a0b2bd3f8828e709a52b1bde|||NVDA|||Nvidia in talks to give credit support for Nscale's deal with Anthropic, The Information reports
-2026-10-30T07:34:43+00:00|||PASS|||bf9033495f7c51b316f9196bb483798c|||NVDA|||Nvidia in Talks to Offer Credit Support for Nscale Project
-2026-10-30T07:34:51+00:00|||SENT|||4c4a86bf7e000fc76f90c9f0ea2584dd|||NVDA|||Nvidia to Invest $3 Billion in Meta’s Equity Offering as They Expand AI Partnership|||Nvidia 將投資 $3 Billion 參與 Meta 股權發行，擴大 AI 合作
-2026-10-30T07:34:54+00:00|||PASS|||99c657989c69f007ede0bd00269e166a|||AMD|||AMD Has Ripped 170% This Year: Is It Too Late to Buy?
-2026-10-30T07:34:59+00:00|||PASS|||afb653da803b13db1c211f81bc9b3684|||ARM|||Asian Private-Equity Firm to Buy Beleaguered China Evergrande’s Property-Management Arm
-2026-10-30T07:35:03+00:00|||PASS|||47eb4c0a792225ce2ab8bfd7bc3944d0|||TSM|||TSMC Co-COO Y.P. Chyn Says Longer Hours Don’t Improve R&D, Recalling The Company’s 24-Hour “Night Owl” Program That Failed In Just 6 Months
-2026-10-30T07:35:04+00:00|||PASS|||fda08dc7a0099ba25a051978cb6b6a03|||TSM|||Taiwan semiconductor output to hit NT$9.1 trillion as TSIA urges stable power
-2026-10-30T07:35:12+00:00|||PASS|||b337c4616c1a484ecbef02837555925d|||SNDK|||Sandisk (SNDK) Objects To Its Shares Joining A Tokenized Stock Offering
-2026-10-30T07:35:46+00:00|||PASS|||caf3745da4e60a0c199fbf69d28f90f8|||MPWR|||Monolithic (MPWR) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
-2026-10-30T07:35:48+00:00|||PASS|||50e66e05e4ee540637c5b75089a53312|||MPWR|||Monolithic Power (MPWR) Q3 Earnings and Revenues Beat Estimates
-2026-10-30T07:35:52+00:00|||PASS|||7128533684c683d922157d39d5e1c6ea|||MPWR|||Monolithic Power Systems Announces Appointments of Chief Financial Officer and Chief Accounting Officer
-2026-10-30T07:36:08+00:00|||PASS|||d203190c523bc962b69b9ca3d90adda4|||NOW|||ServiceNow Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into ServiceNow (NOW)
-2026-10-30T07:36:18+00:00|||PASS|||8fabde9d391e7eea4d2b26e4ad1bb42a|||FTNT|||Fortinet beat earnings estimates and investors sold the stock anyway
-2026-10-30T07:36:46+00:00|||PASS|||574fc2aa41802175c1953ca3d89058cc|||SPCX|||The Case Against a SpaceX and Tesla Merger
-2026-10-30T07:36:50+00:00|||PASS|||9ea118136d5dbe74bf2fddabe277a5b4|||SPCX|||Residents sue to void tax deal for SpaceX's $100 billion spaceport approved under a code name
-2026-10-30T07:36:51+00:00|||PASS|||4321eb00a66d02ed99a544ba8201ef89|||SPCX|||Tesla-SpaceX Merger ‘Does Make Strategic Sense,’ Analyst Says — But SpaceX Needs Nearly 2x The Growth
-2026-10-30T07:37:04+00:00|||SENT|||c822f18df007b6e9eaeb827568d2a386|||PPTA|||Perpetua awarded up to $40m in US Army funding to advance domestic tungsten supply|||Perpetua 獲美國陸軍最多 $40m 資金，推動美國國內鎢供應
-2026-10-30T07:37:19+00:00|||PASS|||2158ce703f2bb04db1a0d3cb453e5160|||ROK|||[PRNewswire] Rockwell Automation Introduces SecureOT Capabilities
-2026-10-30T07:37:22+00:00|||PASS|||d4cb46d9aaa283a7c60d0094b8aa469a|||IONQ|||IONQ Below Key Moving Averages: Buy, Hold or Sell Before Q3 Earnings?
-2026-10-30T07:37:28+00:00|||PASS|||d3a2878bdc51d18a9b5d6aa431a46218|||CRCL|||Binance Hack: $6.3 Billion Impacted, Circle and Tether Freeze, Crypto Markets React
 2026-10-30T16:09:01+00:00|||PASS|||111ee1787a0e2016a88d25ef3ad29f21|||GOOGL|||Alphabet lost $482 billion in market cap in 1 day. The fix? Have its chatbot suggest you stuff to buy
 2026-10-30T16:09:02+00:00|||PASS|||535ee83b6ae9c4336acde2ce478e6786|||GOOGL|||Alphabet Shares Plunge. Why Now Is a Great Time to Buy the Dip.
 2026-10-30T16:09:03+00:00|||PASS|||d64a3b8370df8730ef5b80afdd343882|||GOOGL|||Intel stock drops 25% after $500bn wiped off value of Google’s parent company Alphabet
@@ -1474,3 +1436,30 @@
 2026-11-13T01:20:44+00:00|||SENT|||8404936b4d1c1630ae8963ccf1ebb803|||HOOD|||Louisiana sues Kalshi, Robinhood and other prediction markets in escalating regulatory fight|||Louisiana 起訴 Kalshi、Robinhood 及其他預測市場業者，監管爭端進一步升高
 2026-11-13T01:20:51+00:00|||PASS|||cea19c554ea23e15965b12a538449eb4|||LLY|||Lilly breaks ground in Pennsylvania's Lehigh Valley on a $3.5 billion site to make next-generation obesity medicines, the latest of 10 new U.S. sites since 2020
 2026-11-13T01:20:56+00:00|||SENT|||22e7fdfe1ca60e38417c0aad230860f6|||LLY|||Eli Lilly Just Raised Its 2026 Sales Forecast to as Much as $92 Billion. But Is Viking Therapeutics the Next Big Obesity Winner?|||Eli Lilly剛將2026年銷售預測上調至最高$92 Billion。但Viking Therapeutics會是下一個減重市場大贏家嗎？
+2026-11-13T08:30:45+00:00|||PASS|||a685a6cc36261a443e6deaa7e73755f4|||VUZI|||Vuzix: Q3 Earnings Snapshot
+2026-11-13T08:30:51+00:00|||PASS|||4af3293c01cdd310638b2fd82540e252|||AVGO|||Broadcom (AVGO) Stock Gets A Fresh AI Opening After Rival CEO Exit
+2026-11-13T08:31:06+00:00|||PASS|||29ea132ae66acbe8c6aaf9c3975bb72b|||MSFT|||Microsoft outage hits hundreds of millions, CNBC anchors can't read your emails
+2026-11-13T08:31:08+00:00|||PASS|||aae868eed8921231d243cd1c2a261e3b|||MSFT|||Microsoft fixes stall as outage hits Outlook and Teams in 74 countries
+2026-11-13T08:31:11+00:00|||PASS|||d1924bc7d154b0ac94dc334e2f3c6176|||MSFT|||Microsoft outage hits companies and governments worldwide as it struggles to restore services
+2026-11-13T08:31:13+00:00|||PASS|||2f2a0e918a6fbae288737d6be504f480|||MSFT|||Microsoft Outage Gums Up Markets, Forces Traders to Use Phones
+2026-11-13T08:31:16+00:00|||PASS|||0a0d00c85755751f773bdfa6bdeb34c4|||MSFT|||Microsoft's massive M365 outage stretches past 12 hours as its fixes keep failing
+2026-11-13T08:31:19+00:00|||PASS|||12c011c251b83f2176c6e3eec76fb23b|||MSFT|||Microsoft races to restore services after global outage
+2026-11-13T08:31:22+00:00|||PASS|||e2a55c9a7e2ac3f169154de00bb3b485|||MSFT|||Microsoft Working to Fix Widespread Outage
+2026-11-13T08:31:24+00:00|||PASS|||915d422d27695d014033d58c0c42e4c7|||MSFT|||Microsoft battling to fix global Outlook outage
+2026-11-13T08:31:29+00:00|||PASS|||ff4750d073aa622055532b4355d59fd5|||TSLA|||Would a Tesla–SpaceX Merger Be Bullish for Bitcoin? Careful What You Wish For
+2026-11-13T08:31:35+00:00|||SENT|||b956df5fbf03e94b6432826220d0e652|||TSLA|||SpaceX could announce $1.5 trillion Tesla merger in December: report|||報導：SpaceX 可能於12月宣布 1.5 trillion 美元的 Tesla 合併
+2026-11-13T08:31:40+00:00|||PASS|||a981b5dbd20f277b6e0dde4f192ea117|||NVDA|||Billionaire KoGuan Vows Not to Buy Nvidia Stock as Huang Quits
+2026-11-13T08:31:42+00:00|||PASS|||5dbf370d95d4b450de05b50449a8ed7d|||NVDA|||Alice Huang-Linked Firm Procured Banned Nvidia Chips in China
+2026-11-13T08:31:43+00:00|||PASS|||285343a16f42eb497b3d4d05cab26ecb|||NVDA|||Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion
+2026-11-13T08:31:45+00:00|||PASS|||98a0ed6ff8e80b8a1c3b078a1c11aecc|||NVDA|||Who Could Replace Jensen Huang as Nvidia’s CEO? Here Are 7 Candidates.
+2026-11-13T08:31:46+00:00|||PASS|||6119498105e1df0c0fb650d6768152c5|||NVDA|||AI stocks pare losses as investors assess fallout of Nvidia CEO's exit
+2026-11-13T08:31:51+00:00|||PASS|||267bd2aac4ec781247a7e6324c2e1cdf|||QCOM|||[News] Qualcomm Reportedly Begins First Wave of India Layoffs, with Over 1,000 Jobs at Risk
+2026-11-13T08:32:10+00:00|||SENT|||1dcfe8a567512c9325ebf6d649bb0768|||PENG|||Penguin Solutions Launches AI Platform Operations Services to Accelerate Customers’ Time to Value and Safeguard SLA Achievement|||Penguin Solutions推出AI平台營運服務，以加快客戶取得價值的速度並確保SLA達成
+2026-11-13T08:32:18+00:00|||SENT|||02ef2f9c4b8e84bf21515b536ec6caeb|||AMAT|||Applied Materials posts impressive 53% jump in revenue as it beats expectations again|||Applied Materials 營收大增 53%，再度超出預期
+2026-11-13T08:32:45+00:00|||PASS|||50f0a45e5e961e54c8d5a670a8b0fcef|||CSCO|||Cisco CEO Sees 'Multi-Billion-Dollar Networking Super Cycle' As Agentic AI Demand Surges
+2026-11-13T08:32:57+00:00|||PASS|||5a8bcab0bceab5a61f113a88ad00f550|||DELL|||Super Micro Slides 7% Despite Gartner’s $957 Billion AI Server Forecast; Dell Falls 4%, Hewlett Packard Enterprise Dips
+2026-11-13T08:33:04+00:00|||PASS|||7ec7afa526377f5d0c0ae64954b357f7|||NBIS|||Nebius stock crashes 20% as $45 billion AI gamble raises fears
+2026-11-13T08:33:06+00:00|||PASS|||2c4363aa3f69c64d69615afd8c848d3a|||CIFR|||Applied Digital Sinks 8% as Nebius Outlook and NVIDIA CEO Exit Hit AI Data Center Stocks; Cipher Digital Falls 4%, TeraWulf Slides 3%
+2026-11-13T08:33:42+00:00|||PASS|||f6560bcdb9c453c50bc54352dc171e58|||SPCX|||SpaceX: The $120.5 Billion AI Contract May Indicate A Valuation Problem
+2026-11-13T08:33:44+00:00|||PASS|||145449c467e84fd1b85494a538586921|||SPCX|||SpaceX, Tesla merger talks progress, Bloomberg News reports By Reuters
+2026-11-13T08:34:41+00:00|||PASS|||2ecd772eee4227c451b4d7f55273f965|||APP|||AppLovin Just Ripped 47% in a Month: Is It Too Late to Buy APP Stock Now?
