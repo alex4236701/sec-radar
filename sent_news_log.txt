@@ -1,38 +1,4 @@
-@@HEARTBEAT|||2026-11-13|||2026-10-21T13:41:10+00:00
-2026-10-30T22:31:29+00:00|||PASS|||5508aa3317cf6bdc301768e89153279f|||WULF|||Terawulf stock may move 9.9% on earnings release next week By Investing.com
-2026-10-30T22:31:37+00:00|||PASS|||af3be2fb2852a2763cc7c2dca6fc74c4|||GOOGL|||Alphabet Is in Talks to Join Trump’s Golden Dome Defense Program
-2026-10-30T22:31:38+00:00|||PASS|||ce2db517430276948252257259515d7e|||GOOGL|||Alphabet’s October wipeout hits $758 billion, its worst month ever
-2026-10-30T22:31:43+00:00|||SENT|||ffd656942d3b68f05c0ad512575f1e9f|||GOOGL|||Alphabet Stocks Move Higher With Cloud Backlog Above $560 Billion|||Alphabet 雲端未完成訂單超過 $560 Billion，股價走高
-2026-10-30T22:31:47+00:00|||PASS|||f2854c27d47cab74313f178169ec34c4|||MU|||Micron Peer Enthusiasm Entices Me To Buy Again
-2026-10-30T22:31:50+00:00|||PASS|||a88ec7e9c4dbccc3f980c96f18de0d13|||UCTT|||Ultra Clean Holdings (UCTT) Stock Rallies On Q3 Earnings As Cash Burn Looms
-2026-10-30T22:31:54+00:00|||PASS|||0996caba39c795bc7f82b578684b585d|||TTMI|||TTM TECHNOLOGIES, INC. INVESTIGATION: TTMI Securities
-2026-10-30T22:32:05+00:00|||PASS|||2903d5e7fe2bf7c6b60117e62d59eed1|||AVGO|||Former SEC Chair: Broadcom’s $63 Billion Package Feels Like “That 08 Off-Balance Sheet Craze”
-2026-10-30T22:32:07+00:00|||PASS|||cfa659902fa1f02614a61bedea1f331b|||AVGO|||History Says Now Is the Perfect Time to Buy Broadcom Stock
-2026-10-30T22:32:11+00:00|||PASS|||68cd90812d5d336d91850856aca2e983|||GLW|||Corning’s Q3 earnings call: our top 5 analyst questions
-2026-10-30T22:32:13+00:00|||PASS|||6187dc2cce3fd6de558a6a8f3317c3a1|||GLW|||Corning Q3 Sales Jump 19% as AI Optical Demand and Margins Accelerate
-2026-10-30T22:32:15+00:00|||PASS|||86c071acd2fbf6d1095c1fa269a29c6d|||GLW|||Buy Corning on Solid Q3 Earnings, Guidance and AI Photonics Space Rally
-2026-10-30T22:32:17+00:00|||PASS|||f1b602d42d2a19ea8f22777edca271cf|||FCEL|||Watch Need To Rethink How AI Infrastructure Is Powered: FuelCell Energy CEO
-2026-10-30T22:32:20+00:00|||PASS|||78a03826689536305aeb4c3552fb4cc2|||FCEL|||FuelCell Energy completes $24.7M export financing tranche
-2026-10-30T22:32:23+00:00|||PASS|||0ff8e3635c701a94a80fa370c6797eed|||GEV|||GE Vernova Stocks Decline 3% With Grid Expansion Adding Acquisition Execution Risk
-2026-10-30T22:32:33+00:00|||PASS|||835f4128eb796b1c4f8066a1a6c55ef6|||MSFT|||Microsoft Raises $25 Billion as AI Spending Expands
-2026-10-30T22:32:39+00:00|||PASS|||ad8c4adbd8720e54bd45ceaed2e513fa|||META|||Meta settles social media addiction lawsuit, averting trial
-2026-10-30T22:32:42+00:00|||PASS|||feb508c6622d14681cc72a0e44a72585|||AAPL|||What to expect from Apple's Q4 earnings this Monday
-2026-10-30T22:32:45+00:00|||PASS|||c5ff42ec473a1a88738d5cdd55e51242|||TSLA|||Tesla-SpaceX Merger Could Face The Biggest Regulatory Risk In China, BofA Warns
-2026-10-30T22:32:48+00:00|||PASS|||80a6bcd431761dae453abe586875273d|||AMD|||AMD Stocks Drop 11% With a $13 Billion Revenue Test Approaching
-2026-10-30T22:32:53+00:00|||PASS|||81e1e9bea251d872a4de4b83b1b94ced|||INTC|||U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling
-2026-10-30T22:32:54+00:00|||PASS|||cd9e1f52afc0a327b82ed767d5177cd1|||INTC|||Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout
-2026-10-30T22:32:55+00:00|||PASS|||f78742a04dd7d539a02179dd958fd19c|||INTC|||Stocks Slide, Intel Plunges, Binance Hacked
-2026-10-30T22:32:56+00:00|||PASS|||2fefa7db98ec5912ab57eb6e05e19078|||INTC|||Trump’s Commerce Department’s Intel Stake Fell By More Than $10 Billion In A Day As Stock Craters
-2026-10-30T22:32:57+00:00|||PASS|||f50186d9e379fa04cacefffdea3dadb5|||INTC|||Intel stock has worst day since 1970s, wiping about $12 billion off government's stake
-2026-10-30T22:33:09+00:00|||PASS|||76bb290b4d20b24277b4922769aaf04d|||STX|||Seagate (STX) Q1 Earnings Ride Record Cash Flow And AI Demand
-2026-10-30T22:33:10+00:00|||PASS|||09ff13f9af4fb8a5b35305326a66438f|||STX|||5 revealing analyst questions from Seagate’s Q3 earnings call
-2026-10-30T22:33:38+00:00|||PASS|||781ec40a65d7176a2a21f6c253ea1683|||CSCO|||Cisco, Microsoft Law Heads Get $46 Million as Legal Groups Shift
-2026-10-30T22:33:55+00:00|||PASS|||da5645d04930d727c450d12e05d4f551|||PLTR|||Palantir Stock Tests Key Level As Earnings Loom
-2026-10-30T22:33:56+00:00|||PASS|||7eb4208da1d679171a01706b8a799597|||PLTR|||Should Palantir Stock Be in Your Portfolio Before Q3 Earnings?
-2026-10-30T22:34:29+00:00|||PASS|||f2fc8a2720c492fbabb8493b3e419a10|||SPCX|||SpaceX has lost more than $500 billion in market value in less than a month
-2026-10-30T22:34:30+00:00|||PASS|||5f9a16e688cc79b6d23881b299716e1c|||SPCX|||Tesla-SpaceX Merger Could Face The Biggest Regulatory Risk In China, BofA Warns
-2026-10-30T22:34:48+00:00|||SENT|||f2ce461ac5f6cddce4d40baad7b4996a|||TE|||T1 Energy files prospectus supplement for potential resale of common stock tied to convertible notes|||T1 Energy 提交公開說明書補充文件，可轉債相關普通股可能轉售
-2026-10-30T22:35:00+00:00|||PASS|||66dbef8d8567862082dfcc62b34741ed|||ROK|||Rockwell Automation Introduces SecureOT Capabilities to Help OEMs Address Emerging Cybersecurity Regulations
+@@HEARTBEAT|||2026-11-14|||2026-10-21T13:41:10+00:00
 2026-10-31T06:04:52+00:00|||PASS|||32f75866c89354471a9e2387f11bc6a7|||GOOGL|||Alphabet's October wipeout hits $766 billion, its worst month ever
 2026-10-31T06:05:11+00:00|||PASS|||a8bc809baee7ea028ab7d3987a3aebc1|||FCEL|||FuelCell Energy Inc. stock falls Friday, underperforms market
 2026-10-31T06:05:22+00:00|||PASS|||01711e4bea88c9cf708d38213510719b|||MSFT|||Microsoft Sold $25 Billion in Bonds a Day After Its Azure Beat. Here’s Where the Stock Could Go by 2031
@@ -1473,3 +1439,38 @@
 2026-11-13T19:58:00+00:00|||PASS|||99971bcc9946405c338dd07d1c9a4726|||NEE|||NextEra Condemns Avangrid Invoking Democrat Concerns Over Merger
 2026-11-13T19:58:12+00:00|||SENT|||01ced1c82e9f335a049b66bcf4ac8f23|||HOOD|||Supreme Court will hear Robinhood effort to toss IPO info omissions lawsuit|||最高法院將審理 Robinhood 撤銷 IPO 資訊遺漏訴訟的請求
 2026-11-13T19:58:20+00:00|||PASS|||e8e714b1bbfc9276dd040dce28b49d2f|||ISRG|||Intuitive Machines Falls 7% Despite Record Quarter as Space Stocks Slide; AST SpaceMobile Sinks 9%, Rocket Lab Drops 5%
+2026-11-14T00:56:15+00:00|||PASS|||5f19141d78856563123558e25c64fc11|||GOOGL|||Google finally has an answer to Meta’s Ray-Ban smart glasses
+2026-11-14T00:56:39+00:00|||PASS|||182942daf94352fd701df3a2a82438d4|||CAT|||Caterpillar Financial Services issues $1 billion in new notes due 2028
+2026-11-14T00:56:50+00:00|||SENT|||5fa2d003715dc834e65af77e5b1d69ff|||MSFT|||Massive Microsoft outage disrupts businesses, government agencies worldwide|||Microsoft大規模故障擾亂全球企業與政府機構運作
+2026-11-14T00:56:53+00:00|||PASS|||d0cad8b7421f0e85d38223ebdc551896|||MSFT|||DAS Technology Gives Retailers a Competitive Advantage During Microsoft Outage
+2026-11-14T00:56:55+00:00|||PASS|||425e86922575a4471b0378b1c61c1db5|||MSFT|||Microsoft outage shows the risks of relying on a single technology provider for essential services
+2026-11-14T00:56:56+00:00|||PASS|||dc37b4d053fb26d18ea8d5626b0ab0a3|||MSFT|||Inside Microsoft’s Rush to Get Back Online After a Global Outage
+2026-11-14T00:56:58+00:00|||PASS|||678ac5dcac004acaab8db018b40a64e8|||MSFT|||How the Microsoft outage impacted courts and governments
+2026-11-14T00:57:01+00:00|||PASS|||58e5efd278bff0d6a67ed76b2532b5aa|||MSFT|||Microsoft Says Outage Disrupting Outlook Is Improving
+2026-11-14T00:57:03+00:00|||PASS|||060a474aed44ff9951a7371166014c9e|||MSFT|||Microsoft’s massive Outlook outage might be over
+2026-11-14T00:57:04+00:00|||PASS|||fb93c1fe667bbc37cdc7706e2b366e0c|||MSFT|||Microsoft’s global outage may be worse than Amazon’s or CrowdStrike’s, expert says
+2026-11-14T00:57:08+00:00|||PASS|||c8daf7da9e74c2d287cbbea047737a60|||META|||Google finally has an answer to Meta’s Ray-Ban smart glasses
+2026-11-14T00:57:09+00:00|||PASS|||26f998fe4f495bbd9d50cd7686749ff7|||META|||Facebook feud between former N.J. officials erupts into lawsuit over sexual harassment claim
+2026-11-14T00:57:11+00:00|||PASS|||f0b54277c1208d26cceda29be0352592|||AAPL|||Whale Rock Capital takes new stake in Microsoft, exits Apple, among Q3 moves (HPE:NYSE)
+2026-11-14T00:57:14+00:00|||PASS|||ac37195e52b8859f1e07ad40e20bac43|||TSLA|||SpaceX, Tesla Merger Puts Musk At Forefront Of 'Revolutionary' Tech, Analyst Says
+2026-11-14T00:57:15+00:00|||PASS|||2635017e9a21dba686514fb9837da12b|||TSLA|||Investors Just Got Big News on a SpaceX-Tesla Merger
+2026-11-14T00:57:16+00:00|||PASS|||4d3720aab8bd581c375a7ee12b8002d9|||TSLA|||1 Million Reasons to Buy the Dip in Tesla Stock (You Can Thank Terafab)
+2026-11-14T00:57:18+00:00|||PASS|||ce760a2e1d99bc4891a28db037f76cb2|||TSLA|||Tesla vs. BYD: One Has a $14 Billion Problem, and the Other Has a Sky-High Valuation
+2026-11-14T00:57:20+00:00|||PASS|||700a4f3135469caec9ab5eb3f5351fe1|||NVDA|||Wall Street Loses a Powerful Dealmaker After Nvidia’s CEO Is Ousted
+2026-11-14T00:57:23+00:00|||PASS|||8f99364f88fda120c8616940bcd0bc57|||NVDA|||Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!
+2026-11-14T00:57:24+00:00|||PASS|||9d10f50b97f71c8c6ea5a22b496f511c|||NVDA|||Nvidia stock slips as investors digest CEO exit, broader chip sell-off accelerates
+2026-11-14T00:57:25+00:00|||PASS|||159977879b032faccf05a12f26c93041|||NVDA|||Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion
+2026-11-14T00:57:30+00:00|||PASS|||9e7a9aa2f8a7e529e1d9f7ee9bc7f006|||QCOM|||Qualcomm announces $4 billion senior notes offering with multiple maturities
+2026-11-14T00:57:33+00:00|||PASS|||a06f47a26aba47d8dcdbf08905213108|||ARM|||Nvidia board reportedly approached Arm CEO Rene Haas during replacement search — Jensen Huang’s transgressions leave Nvidia scrambling to fill a massive void
+2026-11-14T00:57:35+00:00|||PASS|||ca0dc3a3914c7c78e440f3d400a2833a|||ARM|||Nvidia approached Arm CEO Rene Haas to succeed Jensen Huang: report
+2026-11-14T00:57:38+00:00|||PASS|||fe5803fb8d7b5b222d7d0c40cd2b0588|||INTC|||Soros Fund ramps up Intel stake to over $340 million in third quarter
+2026-11-14T00:58:16+00:00|||PASS|||85eaf4617680c9ff0d1a3ac3f63d4d78|||CSCO|||Cisco CEO on trusting Nvidia chips after Jensen Huang's exit: 'Absolutely'
+2026-11-14T00:58:30+00:00|||PASS|||7c9274057955e5cb4c9c1cdfb66e120e|||HPE|||Whale Rock Capital takes new stake in Microsoft, exits Apple, among Q3 moves (HPE:NYSE)
+2026-11-14T00:58:37+00:00|||PASS|||b5733d04d294388ad0f968d6ba1c370e|||CRWV|||CRWV Q3 Earnings Impress, Outlook Raised: How to Play the Stock Now?
+2026-11-14T00:59:20+00:00|||SENT|||4d699f5d161a6dfb71b2e536ac65022d|||SPCX|||SpaceX Launches Starship on Ambitious Bid to Catch Spacecraft|||SpaceX 發射 Starship，積極嘗試捕捉航天器
+2026-11-14T00:59:23+00:00|||PASS|||417a21f942507c27775218f3966d5f30|||SPCX|||SpaceX’s Big Day: A Historic Starship Launch, a Tesla Merger Under Scrutiny, and a $74 Billion AI Bet
+2026-11-14T00:59:24+00:00|||PASS|||1625190738ed623cdce80db7f7293a63|||SPCX|||Investors Just Got Big News on a SpaceX-Tesla Merger
+2026-11-14T00:59:42+00:00|||PASS|||989943a048ed06fb83f72adee3b67645|||LEU|||Centrus, Oklo deal secures fuel for Ohio reactor deployment
+2026-11-14T01:00:13+00:00|||PASS|||96864af1681885e5018ced859eae8c40|||COIN|||Coinbase CEO Brian Armstrong reacts to Jensen Huang probe and Binance hack
+2026-11-14T01:00:16+00:00|||PASS|||e2ec03e60e693aca29bf53a5c4c7bf7f|||HOOD|||Robinhood's $2.1 Billion IPO Returns To Haunt It. Supreme Court Takes Up Investor Lawsuit
+2026-11-14T01:00:17+00:00|||PASS|||23bf0f4bb46db4313ce7d18388fe5d8a|||HOOD|||SCOTUS to consider Robinhood's appeal to block IPO-related lawsuit (HOOD:NASDAQ)
