@@ -1,17 +1,4 @@
 @@HEARTBEAT|||2026-11-14|||2026-10-21T13:41:10+00:00
-2026-10-31T06:04:52+00:00|||PASS|||32f75866c89354471a9e2387f11bc6a7|||GOOGL|||Alphabet's October wipeout hits $766 billion, its worst month ever
-2026-10-31T06:05:11+00:00|||PASS|||a8bc809baee7ea028ab7d3987a3aebc1|||FCEL|||FuelCell Energy Inc. stock falls Friday, underperforms market
-2026-10-31T06:05:22+00:00|||PASS|||01711e4bea88c9cf708d38213510719b|||MSFT|||Microsoft Sold $25 Billion in Bonds a Day After Its Azure Beat. Here’s Where the Stock Could Go by 2031
-2026-10-31T06:05:25+00:00|||PASS|||3ffe4d0413255b4928f4158dec329255|||AMZN|||Amazon Just Lost $42 Billion in Free Cash Flow. Is It a Red Flag for Investors?
-2026-10-31T06:05:30+00:00|||PASS|||0e6061f4ccd79d73d69f21f68a37b4b2|||META|||Meta’s Rating Outlook Cut to Negative by S&P on AI Spending
-2026-10-31T06:05:31+00:00|||PASS|||c3c9a0bd7692b8f0907518a0bc72b5df|||META|||UK competition watchdog to probe Meta terms for publishers, businesses
-2026-10-31T06:05:36+00:00|||SENT|||f50473415614c973564c76030a8aa2ae|||AAPL|||Apple (AAPL) Fined In South Korea Over Unfair App Store Practices|||Apple（AAPL）因不公平的 App Store 行為在韓國遭罰款
-2026-10-31T06:05:42+00:00|||SENT|||0cde45d220449a1843b8574736ee6506|||TSLA|||Musk Says Tesla, SpaceX Form Committees to Weigh Merger|||Musk 表示 Tesla、SpaceX 已成立委員會評估合併
-2026-10-31T06:05:52+00:00|||PASS|||24d5fc4bbd1daca8f4bdd1476a5a9100|||INTC|||Stocks Slide, Intel Plunges, Binance Hacked | Markets P.M. for Oct. 30
-2026-10-31T06:06:32+00:00|||PASS|||332dd40ba9a0427120ee1a2f0bcc5fae|||MPWR|||Monolithic Power Systems (MPWR) Stock Price Nears Record High After Q3 Earnings
-2026-10-31T06:06:48+00:00|||PASS|||1ff1306301933f51de422fbfad7823ed|||CRM|||Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune
-2026-10-31T06:06:51+00:00|||PASS|||b440f2627c5145452d842bf6f87274b6|||CRM|||Salesforce to Acquire Defense Tech Firm Rune Technologies to Expand Military AI Logistics Capabilities
-2026-10-31T06:07:42+00:00|||PASS|||a8fbc4dce6aca0805b2ff6e74c613ca9|||ROK|||Rockwell Automation Increases Quarterly Dividend to $1.45 Per Share on Common Stock
 2026-10-31T14:38:48+00:00|||PASS|||dc68b2df11c87932e6a43f5721642dd0|||FCEL|||FuelCell Energy Sinks 12% Despite Completing $49 Million Export-Import Bank Financing; Bloom Energy Tumbles 10%, Plug Power Falls 4%
 2026-10-31T14:38:58+00:00|||PASS|||7ecab47a23b4b7576aa3f17f259079ac|||AMZN|||Tech layoffs tracker 2026: All the job losses across Amazon, Microsoft, Netflix, Electronic Arts, Apple, Meta and others
 2026-10-31T14:39:01+00:00|||PASS|||374e5eeb51e8acd641a530245fb309c4|||AMZN|||Amazon withdraws bid for drone deliveries from Westborough facility
@@ -1474,3 +1461,18 @@
 2026-11-14T01:00:13+00:00|||PASS|||96864af1681885e5018ced859eae8c40|||COIN|||Coinbase CEO Brian Armstrong reacts to Jensen Huang probe and Binance hack
 2026-11-14T01:00:16+00:00|||PASS|||e2ec03e60e693aca29bf53a5c4c7bf7f|||HOOD|||Robinhood's $2.1 Billion IPO Returns To Haunt It. Supreme Court Takes Up Investor Lawsuit
 2026-11-14T01:00:17+00:00|||PASS|||23bf0f4bb46db4313ce7d18388fe5d8a|||HOOD|||SCOTUS to consider Robinhood's appeal to block IPO-related lawsuit (HOOD:NASDAQ)
+2026-11-14T06:51:07+00:00|||PASS|||cbbd9cf676cbb8af45d17ea79cb73caf|||RDW|||Did Revenue Miss Just Shift Redwire (RDW) Investment Narrative?
+2026-11-14T06:51:11+00:00|||PASS|||4295532575b147bdb439e706874a946d|||MSFT|||Microsoft says services experiencing ‘broad recovery’ after global outage
+2026-11-14T06:51:12+00:00|||PASS|||d82c013e7b2632b795e77155d9d0aa9f|||MSFT|||The Microsoft outage means no incessant email chimes or message pings, but still we stayed online
+2026-11-14T06:51:14+00:00|||PASS|||a209265f4ba6b7f519736dd9863222de|||MSFT|||Microsoft updates on outage disrupting Outlook email, Teams, and Copilot for users
+2026-11-14T06:51:16+00:00|||PASS|||e43b76fb8e9ef35ed47fb05aa5071407|||MSFT|||Microsoft’s latest email outage turned into a full-blown global cloud crisis
+2026-11-14T06:51:17+00:00|||PASS|||b1af2726167cb25ff02d717a1e8e5329|||MSFT|||Microsoft Outage Sends Traders Back to Phones and Fax
+2026-11-14T06:51:21+00:00|||PASS|||bd0a317dfbf24c14e5319900b2454b15|||META|||Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more
+2026-11-14T06:51:22+00:00|||PASS|||b561d6914eca4f390ac6d9aa473bffa4|||META|||Tech layoffs tracker 2026: All the job losses across Disney, Amazon, Microsoft, Apple, Meta and more
+2026-11-14T06:51:24+00:00|||PASS|||5cfe9afb44aac9b0bf302026dbcc8460|||AAPL|||Tech layoffs tracker 2026: All the job losses across Disney, Amazon, Microsoft, Apple, Meta and more
+2026-11-14T06:51:31+00:00|||SENT|||0013d62926980d406b96dbe0a20ec860|||TSLA|||Tesla invites select customers to buy a Cybercab for $29,990|||Tesla 邀請部分客戶以 $29,990 購買 Cybercab
+2026-11-14T06:51:37+00:00|||PASS|||333ffe49a261aa82d40b94251e7cd73d|||NVDA|||Jensen Huang will forfeit $108 million in Nvidia stock awards — a minuscule 0.08% of his $138.4 billion fortune
+2026-11-14T06:51:38+00:00|||PASS|||5aa95832eac6675ba3449b914f846b33|||NVDA|||Rene Haas, Ian Buck, Chris Malachowsky: Wall Street zeroes in on potential Nvidia CEO successors
+2026-11-14T06:51:44+00:00|||PASS|||1d2fe699d5b56b59702c7b00737b40dc|||ARM|||Nvidia Yet to Hire Search Firm for Jensen Huang's Successor as Arm CEO Rene Haas Reportedly Emerges as Po
+2026-11-14T06:53:22+00:00|||SENT|||3d1eb86790d7232be21eb39e161e46cb|||SPCX|||SpaceX Starship launch successful, but a booster went boom.|||SpaceX Starship 發射成功，但助推器爆炸。
+2026-11-14T06:54:07+00:00|||PASS|||4c1d53b949b72206f484d931907aa039|||HOOD|||Supreme Court Agrees To Hear Robinhood Appeal In 2021 IPO Investor Lawsuit - GameStop (NYSE:GME)
