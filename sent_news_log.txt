@@ -1,16 +1,4 @@
 @@HEARTBEAT|||2026-11-15|||2026-10-21T13:41:10+00:00
-2026-11-01T20:41:20+00:00|||PASS|||e8484c30694c2d3a28544c10d3c34cbf|||GOOGL|||Why Did Alphabet (GOOGL) Shares Fall After Its $500 Billion Value Wipeout?
-2026-11-01T20:41:21+00:00|||PASS|||d3719ab45c41687361567ffb50265233|||GOOGL|||Alphabet: This Isn't Time To Buy The Dip (Rating Downgrade) (NASDAQ:GOOGL)
-2026-11-01T20:41:23+00:00|||PASS|||92a5a43a21c60e6d361fc5b1ed36d8e3|||GOOGL|||GOOGL Market Cap Drops Nearly $500B After Google Search Fell Below 50% Of Alphabet's Revenue — David Sacks Explains Why That's A Good Thing
-2026-11-01T20:41:46+00:00|||PASS|||2c4da64240e1bf517e3aa0d5423396b6|||CAT|||Chocolate Caterpillar or Chocolate Teapot? Top up the disk space for Windows 10 to find out
-2026-11-01T20:41:48+00:00|||PASS|||8367643268ec0b789fcd0b22ef60c0de|||RRX|||Regal Rexnord Archives
-2026-11-01T20:41:53+00:00|||PASS|||1ff2a54008ec446dd44f67a6fdcc951b|||HON|||Honeywell Aerospace (HONA) Is Building A $500 Million Tempe Manufacturing Expansion
-2026-11-01T20:41:57+00:00|||PASS|||e39812c1a9cc15c0f50311f334a4f7fb|||MSFT|||1 Reason to Buy Microsoft Stock for 10 Years
-2026-11-01T20:43:04+00:00|||PASS|||c81fced013d3daaf629b53ab134ab3f5|||PLTR|||Palantir Stock Slowly Forms a Bullish Pattern as Q3 Earnings Loom
-2026-11-01T20:43:06+00:00|||PASS|||65ffed17d55750b0f0058c7552fc75ee|||PLTR|||HD Hyundai Robotics Expands Physical AI Partnership With Palantir
-2026-11-01T20:43:09+00:00|||PASS|||8a31b0873a75d85c273347957764c500|||PLTR|||HD Hyundai Robotics partners with Palantir on AI solutions
-2026-11-01T20:43:18+00:00|||PASS|||76ac7b4321d99820078e699764b45056|||FTNT|||FTNT Investors Have Opportunity to Join Fortinet, Inc. Fraud Investigation with SBS Law
-2026-11-01T20:43:58+00:00|||PASS|||cf9369c6feb34370b30ffeba9d2f75a7|||PWR|||Quanta Services (PWR) Stock Cools As Q3 Earnings Reset The Debate
 2026-11-02T07:58:46+00:00|||PASS|||caf19f6d96c8dc1b564aba88dfcc82eb|||META|||Halle Berry's Instagram Allegedly Hacked Ahead of Cryptic 'Disrespect' Post
 2026-11-02T07:58:51+00:00|||PASS|||e490bcdefea152151e4ccd08939390bc|||TSLA|||Tesla, Samsung flag manufacturing risks from Trump's Vietnam tariff push (TSLA:NASDAQ)
 2026-11-02T07:58:55+00:00|||PASS|||922b94e31219798bc0232890a5a1cbd5|||TSLA|||Tesla, Samsung oppose new US tariffs on Vietnam as probe deadline nears
@@ -1488,3 +1476,13 @@
 2026-11-15T15:48:50+00:00|||PASS|||ebc521e7298482cabeb8d84fd9c61099|||SPCX|||Jensen Huang Exits Nvidia, Musk’s SpaceX Gets a Big Bet and Microsoft’s Outage Spreads: This Week In Tech
 2026-11-15T15:48:50+00:00|||PASS|||f7067a3ea63fe5d9c4cccb6959e26386|||SPCX|||$17 Billion of SpaceX Stock Left Peter Thiel’s Fund Last Quarter
 2026-11-15T15:49:32+00:00|||PASS|||534ba10210499e0155f4de1a53108092|||COIN|||Coinbase suspends INR withdrawals in India after banking partner outage
+2026-11-15T21:08:47+00:00|||SENT|||7b8b8d9508e5a0f44e2316d12aae1bba|||GOOGL|||OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze|||OpenAI、Anthropic、Google及其他AI巨頭面臨要求暫停開發的訴訟
+2026-11-15T21:09:05+00:00|||PASS|||6b3a7524fe021c3bd9ac63cc78c11e24|||COHR|||Nvidia, AMD, CoreWeave, Coherent, First Solar, Trade Desk, and More Stocks That Explain Today’s Market
+2026-11-15T21:09:18+00:00|||PASS|||fc1fa8f65e04b24b99fe3e5fe0194f90|||MSFT|||Microsoft says services ‘restored,’ outage over
+2026-11-15T21:09:24+00:00|||SENT|||41bf73bb98644a77e789356bb73d88c1|||MSFT|||Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests — email warning system fails, 40 first responders deployed for triage, four taken to hospital|||Microsoft 365 當機導致 15 名飯店住客氯氣中毒——電子郵件警示系統失效，40 名急救人員到場處置，4 人送醫
+2026-11-15T21:09:27+00:00|||PASS|||9feb148d6d2964d0440e486dc3cccfca|||MSFT|||Microsoft Outlook Outage and FAA Groundstop Show Dependence on Fragile Technology
+2026-11-15T21:09:28+00:00|||PASS|||97e0638fc385cf0d8c63a5c59903eb09|||MSFT|||Why the Microsoft Outage Came at the Worst Possible Time for the Stock
+2026-11-15T21:09:33+00:00|||PASS|||da8f56d0b3d43fd18fbfa93954983913|||META|||Italy Orders Meta To Pay $887M For Not Obtaining Specific Consent Over User Photos
+2026-11-15T21:09:41+00:00|||PASS|||bfd6bcd9c97bb80cfc8e353306a5d41b|||NVDA|||Jensen Huang Discusses Comeback as Nvidia CEO With Allies Amid Board Probe and Washington Pushback
+2026-11-15T21:09:43+00:00|||PASS|||821ed88f376164e1205da595bd3309f9|||NVDA|||Nvidia Earnings Without Jensen Huang Could Trigger $341 Billion Stock Swing As Options Traders Brace For Volatility
+2026-11-15T21:09:46+00:00|||PASS|||053e182ec44e2c36a66dceaf0ee90b98|||NVDA|||Robotics engineer leaves Nvidia over lack of transparency around Jensen Huang’s exit, details decision — joins chorus of disgruntled staff as petition to reinstate former CEO passes 150,000 signatures
