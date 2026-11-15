@@ -1,15 +1,4 @@
-@@HEARTBEAT|||2026-11-14|||2026-10-21T13:41:10+00:00
-2026-11-01T06:34:16+00:00|||PASS|||36ff24842f905df525437aab4507cf8a|||GOOGL|||The 5 most interesting analyst questions from Alphabet’s Q3 earnings call
-2026-11-01T06:34:35+00:00|||PASS|||aeec51bcc4e60e8ef87b28fc937e0498|||AVGO|||Broadcom tells investors not to trust its own $73 billion AI backlog
-2026-11-01T06:34:38+00:00|||PASS|||0c1993dae02e97025f2b76090c151e9c|||COHR|||Coherent Stock Fell 11% as Intel and Amazon Earnings Hit AI Hardware Stocks. Here’s Where the Stock Could Go
-2026-11-01T06:34:53+00:00|||PASS|||5e686e911824ac48a497667358619598|||MSFT|||Microsoft (MSFT) Lands $25 Billion Bond Deal As AI Push Deepens
-2026-11-01T06:34:56+00:00|||PASS|||f90ca7eebc34b1d9e209b55d61d6c4dd|||META|||Zuckerberg Says Meta’s “Core Business Is Strong.” S&P Still Cut Its Outlook to Negative
-2026-11-01T06:35:03+00:00|||PASS|||c74e509a99fea0dfa6c768152dc1ba7c|||AMD|||What to Expect From AMD’s Q3 Earnings
-2026-11-01T06:35:09+00:00|||SENT|||79c14c7c04209cb543dfb3a8cafb8416|||MRVL|||Lumentum Jumped on Reports Marvell Is in Late-Stage Talks to Acquire the Company. LITE Stock Is a Buy No Matter What.|||傳 Marvell 已進入收購 Lumentum 的後期洽談，Lumentum 股價大漲；文章認為 LITE 怎樣都值得買
-2026-11-01T06:35:31+00:00|||PASS|||9162ef9778156d54cee000f9aa564046|||KLAC|||5 revealing analyst questions from KLA Corporation’s Q3 earnings call
-2026-11-01T06:36:46+00:00|||SENT|||e9cc61407f9171c3639f53d2dfe2fddb|||SPCX|||SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution|||SpaceX 未能讓法院駁回 NAACP 針對 Memphis 資料中心空氣污染的訴訟
-2026-11-01T06:36:49+00:00|||PASS|||0a334e3a67d6badd93ff300de63427ff|||SPCX|||Changpeng Zhao fires back at Elon Musk's mockery after $6.3 billion Binance hack, citing $1B SpaceX stake
-2026-11-01T06:37:17+00:00|||PASS|||2cdd3664dbc019e125841b1ee6f2abfe|||CRCL|||Circle Sinks 12% in a Week After Binance Hack: “We Have Frozen More Than 800M USDC”
+@@HEARTBEAT|||2026-11-15|||2026-10-21T13:41:10+00:00
 2026-11-01T15:22:59+00:00|||PASS|||4ed957ec129dbf9dba427502cad07d92|||MSFT|||Microsoft Tests New AI Memory as Recall Alternative
 2026-11-01T15:23:00+00:00|||PASS|||0cacc0bdcc1883747a2e537bb180bab5|||MSFT|||5 insightful analyst questions from Microsoft’s Q3 earnings call
 2026-11-01T15:23:05+00:00|||PASS|||34b82d011a317c0b6222fbca09df8e53|||META|||French lawmakers add $11.2 billion internet tax based on traffic usage to budget, costs $0.06 per gigabyte of content accessed — law still has to pass Senate approval, US tech giants like Google and Meta could face new taxes on content[Updated]
@@ -1477,3 +1466,21 @@
 2026-11-14T15:16:18+00:00|||PASS|||7d73537964bfddf8198558f4938c2c4d|||TSM|||TSMC gets record NT$167.6 billion in aid from U.S., Japan, Germany, China
 2026-11-14T15:17:06+00:00|||PASS|||705f35fc1953a41b62c81477d0e3af4b|||DELL|||Super Micro Slides 3% as Reported DOJ Smuggling Probe Weighs for a Second Day; Dell Sinks 8%, NVIDIA Retreats 4%
 2026-11-14T15:17:12+00:00|||PASS|||98309000ac700a73b692af5564dd6f4e|||ORCL|||Oracle Now Gets “$16 Billion a Year” per Gigawatt, Up From $10 Billion
+2026-11-15T06:55:58+00:00|||PASS|||43aae3e175609d555dec5926e3477e56|||GLW|||Corning Inc. stock underperforms Friday when compared to competitors
+2026-11-15T06:56:02+00:00|||PASS|||e5104f6310f57c219a912a21ff727c67|||GEV|||GE Vernova Inc. stock falls Friday, underperforms market
+2026-11-15T06:56:09+00:00|||PASS|||34d7362a74f016f8de4ca5e19f47d202|||RDW|||What Does Redwire (RDW) Need To Prove After Its CTO Hire And Army Order?
+2026-11-15T06:56:12+00:00|||PASS|||c1fc736d3080c33b4aff3b0603eac633|||MSFT|||Could everything be broken? Grounded jets, Microsoft outage, AI chaos make some wonder
+2026-11-15T06:56:21+00:00|||SENT|||b831b12efbbee227e7e6b614c9865131|||META|||Italy Fines Meta €805 Million Over Android Users’ Photo Privacy Breach - Meta Platforms (NASDAQ:META)|||Meta因Android用戶照片隱私洩漏遭義大利處以€805 Million罰款
+2026-11-15T06:56:26+00:00|||PASS|||d22544dda96a7dfbea9acb949f62c3ae|||AAPL|||Nvidia lost $1.6 trillion after Jensen Huang's exit, but Apple's and Uber's CEO transitions offer a blueprint
+2026-11-15T06:56:28+00:00|||PASS|||c85eeac3676ab1bc79f9396095db42e9|||TSLA|||Elon Musk's Tesla and SpaceX Lost More Than $420 Billion in Combined Market Value in Two Days After Democrats Swept the Midterms, With Investors Fearing New Congressional Probes. Here's Why That Political Risk Matters for Shareholders
+2026-11-15T06:56:34+00:00|||PASS|||6ab47a1219fa154ed94d6f5f921d3361|||TSLA|||Tesla (TSLA) Breaks Ground On $10 Billion Texas Solar Factory As EU Approvals Advance
+2026-11-15T06:56:37+00:00|||PASS|||09f427908941fb5c869531fe6113695d|||NVDA|||“Bank of Nvidia” Has $164.5 Billion Riding on the AI Boom. Here’s How Jensen Huang’s Exit Could Put It at Risk
+2026-11-15T06:56:38+00:00|||PASS|||a2b468baff6093f809dcb559d930ec4c|||NVDA|||Asian governments react to Nvidia CEO Jensen Huang’s exit
+2026-11-15T06:56:41+00:00|||PASS|||244e819afa4fd43a40ca1417abbe5a8c|||MRVL|||Marvell Technology (MRVL): Can Its $20 Billion Revenue Outlook Justify the Valuation?
+2026-11-15T06:57:01+00:00|||PASS|||5b8f1f8963a6409254a2ee93013b1c33|||KLAC|||KLA (KLAC) Generates $1.34 Billion in Cash, What’s Next?
+2026-11-15T06:57:38+00:00|||PASS|||1d3bab457bfa96b5604a3596b7c61819|||CRWV|||CoreWeave Stock Surges as Revenue Soars. Is It Too Late to Buy the Stock?
+2026-11-15T06:58:16+00:00|||PASS|||57de3303361ca9b17e8e239e25512cf3|||SPCX|||Elon Musk's Tesla and SpaceX Lost More Than $420 Billion in Combined Market Value in Two Days After Democrats Swept the Midterms, With Investors Fearing New Congressional Probes. Here's Why That Political Risk Matters for Shareholders
+2026-11-15T06:58:17+00:00|||PASS|||33c4d74d578545dd29587d5d79035f84|||SPCX|||Forget SpaceX: This Potential Blockbuster IPO Has Attracted $26 Billion From AI Giants
+2026-11-15T06:58:20+00:00|||PASS|||1794433fcef173acb34b824d719cc42a|||RKLB|||Cathie Wood and 7 Others Bought Aerospace Stocks. Rocket Lab Is 59% Below Its High. Time to Buy?
+2026-11-15T06:59:01+00:00|||PASS|||95619f799a6b6afadff4c202db175748|||HOOD|||Supreme Court Agrees To Consider Robinhood's Request To Drop IPO Lawsuit
+2026-11-15T06:59:13+00:00|||PASS|||f39b22b744cbb39d20b4c47de14c2ed8|||WM|||Revolutionize Waste Management with This Easy Recycling Hack
