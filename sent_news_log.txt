@@ -1,41 +1,4 @@
-@@HEARTBEAT|||2026-11-16|||2026-10-21T13:41:10+00:00
-2026-11-02T21:50:02+00:00|||PASS|||8adbd1589761dc792f6e9078d7fd0f41|||MU|||Micron Expected to Launch Massive Stock Buybacks in December. What to Know.
-2026-11-02T21:50:04+00:00|||PASS|||7a8de4fcb08a8c0a9dfdbfdbf02b24ed|||UCTT|||Ultra Clean (UCTT) Upgraded to Buy: What Does It Mean for the Stock?
-2026-11-02T21:50:14+00:00|||PASS|||a6971df59e09c3b50983c32396ec8b60|||VSH|||Why FPA Queens Road Small Cap Value Fund Aggressively Reduced Its Stake in Vishay Intertechnology, Inc. (VSH)
-2026-11-02T21:50:22+00:00|||PASS|||1a95d2686e20c2ba9380126be4572bd7|||AVGO|||Top court upholds antitrust watchdog's 18.6 bln-won fine on Broadcom
-2026-11-02T21:50:38+00:00|||PASS|||7063bc46e2f8a9ffbbe638779b7babbe|||AAPL|||Apple Stock Drops Despite Fiscal Q4 Earnings Beat
-2026-11-02T21:50:43+00:00|||SENT|||ff36be6aa40f295b79aa3d17f57ae6a9|||AAPL|||Apple slips as Q4 results top estimates on iPhone strength (AAPL:NASDAQ)|||Apple 第四季 iPhone 強勁、成績優於預期，股價小跌
-2026-11-02T21:50:50+00:00|||PASS|||8a784271eab031511152bcc4a31660fb|||AMD|||AMD Could Swing $90.7 Billion After Earnings
-2026-11-02T21:50:52+00:00|||PASS|||19aa822792163e8520f32e941c309b97|||AMD|||AMD Stocks Edge Higher With Earnings Testing a $74 Billion Data-Center Forecast
-2026-11-02T21:50:54+00:00|||PASS|||c95261c1bbc4486dd91066be359f3f84|||MRVL|||Marvell Stocks Decline 6.8% With Lumentum Deal Putting Dilution Ahead of Synergies
-2026-11-02T21:50:57+00:00|||PASS|||65c52a6a7d2ee2fac382a39524cf4a3c|||MRVL|||Driven by A.I. Boom, Marvell and Lumentum Announce $115 Billion Merger
-2026-11-02T21:50:58+00:00|||PASS|||f45091d16d394c5ab1c9132cdf5db305|||MRVL|||Marvell Technology to buy Lumentum in all-stock deal
-2026-11-02T21:51:00+00:00|||PASS|||05efb062d49bb9589959286208a2ef54|||MRVL|||Marvell Plunges 13% on Lumentum Takeover Rumors: Make Your 3-5 Year Bet Right Now
-2026-11-02T21:51:03+00:00|||PASS|||62c3f1eb9cfb8abe7e58863399c735c7|||QCOM|||Is QCOM Stock a Smart Investment Option Before Q4 Earnings Release?
-2026-11-02T21:51:08+00:00|||PASS|||8f2b7e6413892dce92a8234f477f1bfb|||TSM|||TSMC’s $265 Billion Campus Is Driving a Real Estate Boom in the Phoenix Suburbs
-2026-11-02T21:51:13+00:00|||PASS|||dba5958a73e61df87c1f9bd0011c2a1e|||TSM|||[News] TSMC Reportedly Eyes Potential US$45B Fab Expansion in Sherman, Texas, Raising Stakes for Samsung
-2026-11-02T21:51:22+00:00|||SENT|||901c5936edea9990c2c4028490cab8f4|||TSEM|||Tower Semiconductor guides to a $2 billion year as chip market splits in two|||Tower Semiconductor 預估全年 $2 billion 營收，晶片市場兩極分化
-2026-11-02T21:51:36+00:00|||SENT|||8ab29d04ac1bead2c70c3da2c6c58acb|||PENG|||Penguin Solutions Introduces High-Bandwidth SMART Modular MRDIMMs for Next-Generation AI Data Centers|||Penguin Solutions 推出給下一代 AI 資料中心用的高頻寬 SMART Modular MRDIMM
-2026-11-02T21:51:57+00:00|||SENT|||55a0270dd1a72bd50e7f18941804ee49|||AEIS|||Advanced Energy Reports Third Quarter 2026 Results|||Advanced Energy 公布 2026 年第三季成績
-2026-11-02T21:52:02+00:00|||SENT|||30a6c40fa01fde1848770ac283b0bc7f|||ICHR|||Ichor Holdings, Ltd. Announces Third Quarter 2026 Financial Results|||Ichor Holdings 公布 2026 年第三季財務成績
-2026-11-02T21:52:12+00:00|||PASS|||f45938358c1f4bb3fa3804a4d9b4f59b|||LITE|||Lumentum Goes From $1 Billion Spinoff to $115 Billion Takeover
-2026-11-02T21:52:13+00:00|||PASS|||ca6076d5e5901f1026400a87134648ca|||LITE|||Marvell Stocks Decline 6.8% With Lumentum Deal Putting Dilution Ahead of Synergies
-2026-11-02T21:52:18+00:00|||SENT|||88eb7d28f992c0108415562e38a4cf90|||LITE|||Lumentum (LITE) Beats Q1 Earnings and Revenue Estimates|||Lumentum（LITE）第一季獲利與營收優於預期
-2026-11-02T21:52:24+00:00|||SENT|||391a939c8065365749333aa7aecc607a|||LITE|||Marvell Technology to buy Lumentum in all-stock deal|||Marvell Technology 將以全換股方式收購 Lumentum
-2026-11-02T21:52:43+00:00|||PASS|||c57fc391cb630f5bb94df15c18df6f4e|||VRT|||Buy Vertiv on Solid Q3 Earnings Guidance to Tap Huge Price Upside
-2026-11-02T21:52:45+00:00|||PASS|||f32420ef3ae323acd414a3834ba2f923|||ORCL|||Watch Oracle Kicks Off $20 Billion Capital Raise
-2026-11-02T21:52:47+00:00|||PASS|||ef0bb470401aa6fab179fc6202c68428|||ORCL|||Oracle Declines 4% as $10 Billion Bond Sale Revives AI Debt Worries; CoreWeave Advances 2%, Microsoft Holds Steady
-2026-11-02T21:52:56+00:00|||SENT|||b77e6540e03fc2f7641e4dbec08b57d2|||PLTR|||Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigger|||Palantir 營收成長 96% 至 $2.3 billion，投資人的耐心一觸即發
-2026-11-02T21:52:59+00:00|||PASS|||eb1f000987bd575bbdc533491a948c15|||PLTR|||Palantir Q3 earnings: Did the AI company just have a 'celestial' quarter?
-2026-11-02T21:53:04+00:00|||SENT|||cec457866e34beb9ded4d47314b02bab|||PLTR|||Palantir beats on earnings and revenue, Q3 commercial revenue surpasses government revenue|||Palantir 獲利與營收優於預期，第三季商業營收超過政府營收
-2026-11-02T21:53:08+00:00|||PASS|||c2813d6d3d9dd09fa8b3779a5631ec2d|||NOW|||The top 5 analyst questions from ServiceNow’s Q3 earnings call
-2026-11-02T21:53:13+00:00|||SENT|||bcde5062f47bd289ad923d47b88be190|||CRM|||Salesforce agrees to buy Cresta (CRM:NYSE)|||Salesforce 同意收購 Cresta
-2026-11-02T21:53:16+00:00|||PASS|||20ff3dee6e6436d5542f2d6a02445c3d|||SNOW|||Snowflake to Announce Financial Results for the Third Quarter of Fiscal 2027 on December 2, 2026
-2026-11-02T21:53:27+00:00|||PASS|||66db9d2562d9ed42a64a1bd14b3e9627|||ZS|||Zscaler Dodges AI Security Patent Claims After Lawsuit Dropped
-2026-11-02T21:53:43+00:00|||SENT|||a27b451d940eeefbda56e35594bde2d4|||KEYS|||Keysight names Jason Kary as CFO effective December 18 By Investing.com|||Keysight 任命 Jason Kary 為財務長，12 月 18 日生效
-2026-11-02T21:53:46+00:00|||PASS|||73a89c93fab824bdc61128ecd8ba7778|||KEYS|||Keysight Announces CFO Succession
-2026-11-02T21:53:56+00:00|||PASS|||9489397e9806f04fa2fb4b7d6da55bf2|||SPCX|||SpaceX Is in Talks With Boost Mobile to Expand Wireless Coverage
-2026-11-02T21:53:57+00:00|||PASS|||03bb592f6891d884fa09fcbe4718ccbc|||SPCX|||A $731 Billion Opportunity for SpaceX Stock
+@@HEARTBEAT|||2026-11-17|||2026-10-21T13:41:10+00:00
 2026-11-03T03:31:17+00:00|||PASS|||bcb453e8144f5a15a2cd51f07c2676bd|||GOOGL|||Alphabet Lost $500 Billion in Market Value. Should You Really Buy AI Stocks Now?
 2026-11-03T03:31:21+00:00|||SENT|||9e686d10791379cb8dda15a743253328|||GOOGL|||Alphabet in talks to acquire assistant startup Howie AI|||Alphabet 洽談收購助理新創 Howie AI
 2026-11-03T03:31:30+00:00|||PASS|||65bb5dbd20e1b4417b9cf54ca9da5245|||MKSI|||MKS invests $25M to expand China manufacturing facility By Investing.com
@@ -1473,3 +1436,28 @@
 2026-11-16T20:00:58+00:00|||PASS|||854931f3621afd8f2fb5b10c71d7552c|||COIN|||Coinbase and Broadridge Publish Proposed Standard for Onchain Shareholder Communications; Broadridge Launches Data Oracle
 2026-11-16T20:01:07+00:00|||SENT|||958b1368155630bdf9c6da5891d6d079|||LLY|||Eli Lilly to Buy Calytrix Bio for Up to $1.5 Billion|||Eli Lilly 將以最高 $1.5 billion 收購 Calytrix Bio
 2026-11-16T20:01:44+00:00|||PASS|||330f64446542d22ac6368e8b9597bcf9|||RSG|||Republic Brands Group Acquires Rebecca Minkoff, Unveils Ambitious Global Growth Strategy
+2026-11-16T22:23:30+00:00|||PASS|||3c0085a1b27d7e175377d4412699e12c|||MU|||Dow Jones Futures: AMD, Nvidia, Micron Lead AI Trade Lower With Nvidia Earnings On Deck
+2026-11-16T22:23:57+00:00|||PASS|||1744b4bf31e9f1cf556895118a148430|||OUST|||Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market
+2026-11-16T22:24:27+00:00|||PASS|||7857a01c90de6ee8d92313aa3834ae78|||CIEN|||Ciena (CIEN) Raised Its Forecast After a Record Quarter. What Drove It?
+2026-11-16T22:24:29+00:00|||PASS|||f3294ba25c6162960e7f816f1dde18f1|||GLW|||Corning Inc. stock underperforms Monday when compared to competitors
+2026-11-16T22:24:51+00:00|||PASS|||ec413401e858784803afe3bdf0e54a7e|||MSFT|||Microsoft details how three problems combined for a global outage
+2026-11-16T22:24:53+00:00|||PASS|||841dbcacf2c45a3f93355cbd71614ab5|||MSFT|||Corvex exits Microsoft, raises holdings in Amazon.com, cuts stake in Walt Disney (MSFT:NASDAQ)
+2026-11-16T22:24:56+00:00|||PASS|||80195407b5dc5fd2e945acb96f440f8f|||MSFT|||Microsoft reveals what triggered global outage that left 80% of servers unresponsive
+2026-11-16T22:25:00+00:00|||PASS|||53ec21b8780534368f078f53f2539f7b|||MSFT|||Microsoft says latent July bug triggered global Microsoft 365 outage
+2026-11-16T22:25:03+00:00|||PASS|||4a4ebee879eca14fccc4f008e59d3917|||MSFT|||Microsoft blames monster email outage on software defect introduced in July fix
+2026-11-16T22:25:07+00:00|||PASS|||d60cadbb58f098af255b064d7205cc3e|||MSFT|||Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign
+2026-11-16T22:25:18+00:00|||PASS|||205fb261f2c93abc90daaad5ba8d155f|||AMZN|||Corvex exits Microsoft, raises holdings in Amazon.com, cuts stake in Walt Disney (MSFT:NASDAQ)
+2026-11-16T22:25:27+00:00|||PASS|||bea3f31f9d5bbe34abc9604544f1a1ec|||TSLA|||Tesla Will Invest $3.31 Billion to Expand German Factory for Cybercab Production
+2026-11-16T22:25:28+00:00|||PASS|||289d7a9edb1aa42110214f035a69c8b8|||TSLA|||TSLA, SPCX Diverge Overnight As Retail Traders Split On Merger Winner — Could SpaceX Get Tesla’s S&P 500 Seat?
+2026-11-16T22:25:31+00:00|||PASS|||0828b2cffffc6e3e059313db66615d66|||NVDA|||Nvidia Short Sellers Reap $24 Billion as Stock Extends Slide
+2026-11-16T22:25:33+00:00|||PASS|||e9c030c981af18af84ba116b50460256|||NVDA|||Soros Joins Family Offices Reaping Nvidia Gains Before CEO Exit
+2026-11-16T22:25:36+00:00|||PASS|||5811a34cb962d0e9b7fc9331ded9fe84|||NVDA|||Donald Trump’s Jaw-Dropping Stake in Nvidia Revealed
+2026-11-16T22:25:44+00:00|||PASS|||639da2f3de9b11ac6ddb8941261f1988|||INTC|||3G Capital starts position Nu, adds to Taiwan Semiconductor, cuts stake in Intel among Q3 moves
+2026-11-16T22:25:45+00:00|||PASS|||8ab2cf5905d71f84233b21e8376a12dc|||INTC|||INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%
+2026-11-16T22:25:48+00:00|||PASS|||29a0284948495c3aa23d517022869dbe|||TSM|||3G Capital starts position Nu, adds to Taiwan Semiconductor, cuts stake in Intel among Q3 moves
+2026-11-16T22:25:49+00:00|||PASS|||6cbf21e1baa535dc0965283af3ca0a8b|||TSM|||INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%
+2026-11-16T22:28:10+00:00|||PASS|||a6584bda7700bd41831fc06710e637d2|||LITE|||Lumentum (LITE) Got a Takeover Offer. What Does It Mean for Holders? (
+2026-11-16T22:32:35+00:00|||PASS|||bca9be138d9eb9698062c59bc4a7a07d|||SPCX|||Memphis Is Collecting So Much Revenue From SpaceX’s Colossus 1 Data Center That It Is Now Dishing Out $25,000 To Eligible Residents In The Vicinity
+2026-11-16T22:32:37+00:00|||PASS|||b1a91dd1eade1870ae3f16e5010404e5|||SPCX|||Quebecor Holder Fiera Backs $21.7 Billion Telus Bid as Starlink Threat Looms
+2026-11-16T22:32:38+00:00|||PASS|||27c6cf156cb17b1476155aef599d0c80|||SPCX|||TSLA, SPCX Diverge Overnight As Retail Traders Split On Merger Winner — Could SpaceX Get Tesla’s S&P 500 Seat?
+2026-11-16T22:34:32+00:00|||SENT|||7c0ac677059d799999e798c299dcaa56|||ED|||Con Edison announces 6 million share public offering|||Con Edison宣布公開發行6 million股股票
