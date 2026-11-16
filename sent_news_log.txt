@@ -1,21 +1,4 @@
-@@HEARTBEAT|||2026-11-15|||2026-10-21T13:41:10+00:00
-2026-11-02T07:58:46+00:00|||PASS|||caf19f6d96c8dc1b564aba88dfcc82eb|||META|||Halle Berry's Instagram Allegedly Hacked Ahead of Cryptic 'Disrespect' Post
-2026-11-02T07:58:51+00:00|||PASS|||e490bcdefea152151e4ccd08939390bc|||TSLA|||Tesla, Samsung flag manufacturing risks from Trump's Vietnam tariff push (TSLA:NASDAQ)
-2026-11-02T07:58:55+00:00|||PASS|||922b94e31219798bc0232890a5a1cbd5|||TSLA|||Tesla, Samsung oppose new US tariffs on Vietnam as probe deadline nears
-2026-11-02T07:58:56+00:00|||PASS|||11f60ce0f1cfcb3994c30d04a8446ec1|||TSLA|||School IB economics: SpaceX and Tesla boards explore potential merger
-2026-11-02T07:58:58+00:00|||PASS|||7a4e8101e8352b21099f9139a32e6e33|||TSLA|||Barclays Says a SpaceX Merger Is Now "a Key Part" of the Tesla Bull Case. Here's Who Actually Wins if It Happens -- and Who Pays.
-2026-11-02T07:59:04+00:00|||SENT|||4b550ab4234c9ec0f6990494eed24aab|||NVDA|||Justice Department questions Nvidia's $12.93 billion Hugging Face deal|||美國司法部質疑 Nvidia 的 $12.93 billion Hugging Face 交易
-2026-11-02T07:59:13+00:00|||PASS|||642035e034bb5ba8a52588002477863b|||INTC|||Trump Bragged About Intel Stock Gains. Now the U.S. Stake Has Lost $11 Billion
-2026-11-02T07:59:21+00:00|||PASS|||698b6f254c8bf1a1ecd98e77758fd8eb|||SNDK|||Sandisk (SNDK) Stock Price Sinks As Q1 Results Fuel Profit Debate
-2026-11-02T08:00:03+00:00|||PASS|||d16fa84843f83fbec4bf191cb6686db7|||DELL|||Refreshing Thoughts Ahead Of Dell's Q3 Earnings
-2026-11-02T08:00:17+00:00|||PASS|||b5548182f742e90dc0b07b8b90b459c3|||CRM|||Salesforce to Buy Defense Tech Startup, Extending Acquisition Streak
-2026-11-02T08:00:24+00:00|||PASS|||79863e6235e6ab7f1b5aacf9c4dc6950|||PANW|||Cyberattacks to accelerate as AI makes hacking easier, says Palo Alto Networks CEO
-2026-11-02T08:00:34+00:00|||PASS|||eae168e6ad25d539a2ad5f50f5185655|||TWLO|||CPaaS Market Value to Exceed $50 Billion Globally by 2031, as Infobip, Twilio, and Sinch Identified as Market Leaders
-2026-11-02T08:00:36+00:00|||PASS|||37b86287ce04278bbc372be1b5278c45|||TWLO|||TWLO Investors Have Opportunity to Join Twilio Inc. Fraud Investigation with SBS Law
-2026-11-02T08:00:53+00:00|||PASS|||ce4227541f23a94f71832660cdce29ec|||SPCX|||Here's My Top Reason to Buy SpaceX Stock Right Now
-2026-11-02T08:00:59+00:00|||SENT|||60b6b20995e34c3ce3ca73fa57432322|||SPCX|||School IB economics: SpaceX and Tesla boards explore potential merger|||SpaceX 與 Tesla 董事會研究可能合併（IB 經濟學教學文章）
-2026-11-02T08:01:02+00:00|||PASS|||ed8087719d7be09d83c8acce764f703d|||SPCX|||County withheld SpaceX tax break records despite state ruling, residents' lawsuit says
-2026-11-02T08:01:03+00:00|||PASS|||2f326d45aa9e50dfefae0db2e303fe66|||SPCX|||Barclays Says a SpaceX Merger Is Now "a Key Part" of the Tesla Bull Case. Here's Who Actually Wins if It Happens -- and Who Pays.
+@@HEARTBEAT|||2026-11-16|||2026-10-21T13:41:10+00:00
 2026-11-02T19:40:44+00:00|||PASS|||3620ffb525b7dc8f31775092dbbf16b8|||GOOGL|||Amazon Vs. Alphabet: The $420B AI Capex Squeeze Leaves Both At Hold (NASDAQ:AMZN)
 2026-11-02T19:40:47+00:00|||PASS|||29c7c9161ac966b4ac575ac41f2a9e45|||GOOGL|||Google disrupts million-device XCPE Android malware botnet, bans TV box maker
 2026-11-02T19:40:50+00:00|||PASS|||4e77fa720072daaef6bf89fbc2fd566d|||GOOGL|||Alphabet Shareholder Sues Executives Over AI Copyright Claims
@@ -1486,3 +1469,20 @@
 2026-11-15T21:09:41+00:00|||PASS|||bfd6bcd9c97bb80cfc8e353306a5d41b|||NVDA|||Jensen Huang Discusses Comeback as Nvidia CEO With Allies Amid Board Probe and Washington Pushback
 2026-11-15T21:09:43+00:00|||PASS|||821ed88f376164e1205da595bd3309f9|||NVDA|||Nvidia Earnings Without Jensen Huang Could Trigger $341 Billion Stock Swing As Options Traders Brace For Volatility
 2026-11-15T21:09:46+00:00|||PASS|||053e182ec44e2c36a66dceaf0ee90b98|||NVDA|||Robotics engineer leaves Nvidia over lack of transparency around Jensen Huang’s exit, details decision — joins chorus of disgruntled staff as petition to reinstate former CEO passes 150,000 signatures
+2026-11-16T08:19:58+00:00|||SENT|||28091de7611afc6075403092995b5148|||VSH|||India's Kaynes signs chip packaging JV with US-based Vishay as quarterly profit falls 66%|||印度 Kaynes 與美國 Vishay 簽署晶片封裝合資協議，Kaynes 季度獲利下滑 66%
+2026-11-16T08:20:09+00:00|||PASS|||3f0b3c1d4c108baed09a24a1724849ef|||FCEL|||FuelCell Energy director Homer Livingston III acquires $246,955 in stock By Investing.com
+2026-11-16T08:20:13+00:00|||PASS|||00c3cb670793071e86b8844e9dca7403|||CAT|||CAT Investors Have Opportunity to Join Caterpillar Inc. Fraud Investigation with SBS Law
+2026-11-16T08:20:20+00:00|||PASS|||593d34eee0f77f6053091e002145f7ac|||MSFT|||Microsoft outage opens up conversations on balancing resiliency & innovation: Hitachi Vantara
+2026-11-16T08:20:24+00:00|||PASS|||87449c67389e31bc75fb7575a20ace98|||META|||Italy orders Meta to pay $887M over Facebook's photo access practices (META:NASDAQ)
+2026-11-16T08:20:32+00:00|||PASS|||95eb30aad3fdd18a1e280ccd9ba9640f|||NVDA|||Scott Bessent Gives Nvidia 10 Days to Explain China Chip Concerns, Calls for External CEO to Replace Jens
+2026-11-16T08:20:34+00:00|||PASS|||36a0b261c43e523caba8d396e15e7990|||NVDA|||FirstFT: Jensen Huang in talks with allies for Nvidia comeback
+2026-11-16T08:20:41+00:00|||SENT|||d36ad41082a52166beb364bf21e690b7|||NVDA|||Nvidia CEO Jensen Huang Resigns as Stock Tanks. Here Are the Next Steps for Investors.|||Nvidia 執行長 Jensen Huang 辭職、股價大跌：投資人接下來該怎麼做
+2026-11-16T08:20:43+00:00|||PASS|||5bf13a552363e24eff322bf003f9089f|||NVDA|||Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout
+2026-11-16T08:20:52+00:00|||PASS|||480d1feba31a5db15eaf69367b11babc|||INTC|||Intel Stock Down 3.8% Overnight on Robinhood as Lip-Bu Tan Faces Lawsuit Over PC Slowdown Disclosure
+2026-11-16T08:20:58+00:00|||SENT|||96162a7c7538caf4e35b759f04a1b145|||INTC|||Intel CEO Lip-Bu Tan Named As Defendant In New Class-Action Lawsuit; Shareholders Take Chipmaker To Court Over Concealing A Prolonged PC Sales Slowdown|||Intel 執行長 Lip-Bu Tan 被列為新集體訴訟被告；股東就晶片商隱瞞持續低迷的 PC 銷售狀況提告
+2026-11-16T08:21:10+00:00|||PASS|||99a846a8c5e0288f99f224c13e5945b0|||SKHY|||SK Hynix to spend $1 billion over five years to support chip suppliers
+2026-11-16T08:21:20+00:00|||PASS|||a22b73ee6b6b12d7c8398e3df0a0e9fc|||AMAT|||Applied Materials expands India R&D ambitions, targets 2027 start for US$5 billion project
+2026-11-16T08:21:48+00:00|||SENT|||8ce76dc75a24df0db05edd87b6b0210a|||CSCO|||Cisco Systems Raises Outlook On Soaring Revenue, Profit|||Cisco Systems 因營收與獲利大幅攀升，上調展望
+2026-11-16T08:22:43+00:00|||PASS|||9ed3599ff43e5586585fa5c865277211|||SPCX|||Vulcan rocket fails during launch, dealing major blow to SpaceX competitors
+2026-11-16T08:22:48+00:00|||SENT|||65d14106c9471d237b3fc438a2fc65fc|||SPCX|||SpaceX’s Starship returns from orbit and is captured by launch pad arms in a dramatic first|||SpaceX 的 Starship 首次從軌道返回，並由發射台機械臂捕獲
+2026-11-16T08:23:34+00:00|||PASS|||44ce017ad805fb884503f4a96d879dc5|||HOOD|||Intel Stock Down 3.8% Overnight on Robinhood as Lip-Bu Tan Faces Lawsuit Over PC Slowdown Disclosure
