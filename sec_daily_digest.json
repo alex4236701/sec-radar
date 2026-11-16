@@ -6,5 +6,141 @@
   "text": "13G 修正：FOUNDERS FUND II LP，持股 3.80%（已降到 5% 以下）",
   "ticker": "SPCX",
   "url": "https://www.sec.gov/Archives/edgar/data/1181412/000142601226000007/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Smith Gregory Stephen（高階主管、董事），4,000 股，約 $942,880",
+  "ticker": "TER",
+  "url": "https://www.sec.gov/Archives/edgar/data/97210/000195917326008014/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：AMERIPRISE FINANCIAL INC，持股 5.50%",
+  "ticker": "AEIS",
+  "url": "https://www.sec.gov/Archives/edgar/data/927003/000119312526462514/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：PRICE T ROWE ASSOCIATES INC /MD/，持股 9.50%",
+  "ticker": "ENTG",
+  "url": "https://www.sec.gov/Archives/edgar/data/1101302/000008025526000687/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Kuo Wei Chang（董事），100 股，約 $135,000",
+  "ticker": "MPWR",
+  "url": "https://www.sec.gov/Archives/edgar/data/1280452/000196922326001184/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：WELLINGTON MANAGEMENT GROUP LLP，持股 7.60%",
+  "ticker": "POWI",
+  "url": "https://www.sec.gov/Archives/edgar/data/833640/000090221926000393/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Kent Ian（高階主管），1,356 股，約 $38,849",
+  "ticker": "ALGM",
+  "url": "https://www.sec.gov/Archives/edgar/data/866291/000195917326008013/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Canney Jacqueline P（高階主管），2,475 股，約 $250,049",
+  "ticker": "NOW",
+  "url": "https://www.sec.gov/Archives/edgar/data/1373715/000195917326008028/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：DRIEHAUS CAPITAL MANAGEMENT LLC，持股 9.00%",
+  "ticker": "BAND",
+  "url": "https://www.sec.gov/Archives/edgar/data/1514416/000093820626000058/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：PRICE T ROWE ASSOCIATES INC /MD/，持股 10.60%",
+  "ticker": "IOT",
+  "url": "https://www.sec.gov/Archives/edgar/data/1642896/000008025526000725/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：Legal & General Group Plc，持股 2.60%（已降到 5% 以下）",
+  "ticker": "BB",
+  "url": "https://www.sec.gov/Archives/edgar/data/1070235/000149511526000067/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：PRICE T ROWE ASSOCIATES INC /MD/，持股 7.60%",
+  "ticker": "AMBA",
+  "url": "https://www.sec.gov/Archives/edgar/data/1280263/000008025526000697/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：PRICE T ROWE ASSOCIATES INC /MD/，持股 3.90%（已降到 5% 以下）",
+  "ticker": "KEYS",
+  "url": "https://www.sec.gov/Archives/edgar/data/1601046/000008025526000700/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：PRICE T ROWE ASSOCIATES INC /MD/，持股 5.10%",
+  "ticker": "VIAV",
+  "url": "https://www.sec.gov/Archives/edgar/data/912093/000008025526000685/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：DRIEHAUS CAPITAL MANAGEMENT LLC，持股 5.31%",
+  "ticker": "FEIM",
+  "url": "https://www.sec.gov/Archives/edgar/data/39020/000093820626000054/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "SCHEDULE 13G/A",
+  "holding": false,
+  "text": "13G 修正：PRICE T ROWE ASSOCIATES INC /MD/，持股 0.10%（已降到 5% 以下）",
+  "ticker": "UAMY",
+  "url": "https://www.sec.gov/Archives/edgar/data/101538/000008025526000683/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Lefevere Kurt（高階主管），450 股，約 $142,585",
+  "ticker": "APD",
+  "url": "https://www.sec.gov/Archives/edgar/data/2969/000195917326008041/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-16",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Steven Orlando（董事），702 股，約 $146,700",
+  "ticker": "MOH",
+  "url": "https://www.sec.gov/Archives/edgar/data/1179929/000162828026074068/xsl144X01/primary_doc.xml"
  }
 ]
