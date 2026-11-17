@@ -1,30 +1,4 @@
 @@HEARTBEAT|||2026-11-17|||2026-10-21T13:41:10+00:00
-2026-11-03T03:31:17+00:00|||PASS|||bcb453e8144f5a15a2cd51f07c2676bd|||GOOGL|||Alphabet Lost $500 Billion in Market Value. Should You Really Buy AI Stocks Now?
-2026-11-03T03:31:21+00:00|||SENT|||9e686d10791379cb8dda15a743253328|||GOOGL|||Alphabet in talks to acquire assistant startup Howie AI|||Alphabet 洽談收購助理新創 Howie AI
-2026-11-03T03:31:30+00:00|||PASS|||65bb5dbd20e1b4417b9cf54ca9da5245|||MKSI|||MKS invests $25M to expand China manufacturing facility By Investing.com
-2026-11-03T03:31:48+00:00|||PASS|||e87d0d71d8a7fd827e57b022338b5681|||FCEL|||FuelCell Energy Inc. stock falls Monday, underperforms market
-2026-11-03T03:31:50+00:00|||PASS|||7fdfe6effe476236b32482b980bce4f3|||FCEL|||FCEL URGENT DEADLINE: FuelCell Energy, Inc. Investors Have
-2026-11-03T03:32:00+00:00|||PASS|||9bd9accca5f2d579697285621e4a12e0|||AMZN|||Amazon: Tune Out The Noise. Focus On The $1 Trillion AWS Number (NASDAQ:AMZN)
-2026-11-03T03:32:03+00:00|||PASS|||c75ab578490339b08a9f117d3d2d20dd|||META|||Meta eyes at least $20 billion from potential bond offerings, Bloomberg News reports By Reuters
-2026-11-03T03:32:06+00:00|||PASS|||3f6663644de257a203def451cccdd808|||META|||Meta Eyes at Least $20 Billion From Potential Bond Offerings
-2026-11-03T03:32:09+00:00|||PASS|||56151f0d560311d4ddad4e9300f84fbc|||AAPL|||Apple earnings beat estimates; shares fall on memory costs, slowing services
-2026-11-03T03:32:16+00:00|||PASS|||f7d8d9de1a8b8ec2dcf3c0f4fcb9fb08|||MRVL|||Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’
-2026-11-03T03:32:22+00:00|||SENT|||3656de373a93c568b34a78d9bfc85d9d|||MRVL|||Marvell pays up for Lumentum, 33 times forward earnings, to match Broadcom on lasers|||Marvell 以預估本益比 33 倍高價收購 Lumentum，要在雷射上追上 Broadcom
-2026-11-03T03:32:52+00:00|||PASS|||789819514cfc78729bbe9b961246f80a|||AEHR|||What Aehr Test Systems (AEHR) Said on Its Q1 Earnings Call
-2026-11-03T03:32:53+00:00|||PASS|||46033eb3e50f620a7e950b0ce079aebe|||AEHR|||Aehr Test Systems Stock Pops After Q1 Results: Here's Why
-2026-11-03T03:33:03+00:00|||PASS|||88e9ea3c478def855ac10d5207570c79|||LITE|||Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’
-2026-11-03T03:33:04+00:00|||PASS|||dd5e131a6f947a7ff12a66913952c6a1|||LITE|||Marvell Plunges 13% on Lumentum Takeover Rumors: Make Your 3-5 Year Bet Right Now
-2026-11-03T03:33:20+00:00|||PASS|||48060a05df5a10fc4eec56711c06ade7|||DELL|||Enterprise architecture: Dell and Microsoft power AI at scale
-2026-11-03T03:33:29+00:00|||SENT|||f9707ba24efbd09344276c22a0aa3e23|||ORCL|||Oracle Announces Pricing of $20 Billion of Common Stock and Senior Notes|||Oracle 公布 $20 Billion 普通股與優先債券的發行價格
-2026-11-03T03:33:36+00:00|||PASS|||96ad51eefa1c7312eee98730e7f4e2bf|||PLTR|||Palantir Profit Soars as U.S. Commercial Revenue Overtakes Government Business
-2026-11-03T03:33:37+00:00|||PASS|||18a5a5d4b6e6585a95c2ea7c9652eaab|||PLTR|||Palantir Stock Tumbles Even as Earnings Get Big Boost From U.S. Customers
-2026-11-03T03:33:39+00:00|||PASS|||c39da8ccce322f75555e45e3ed20962f|||PLTR|||Palantir Earnings Top Views. Revenue Beat Slightly Smaller.
-2026-11-03T03:33:39+00:00|||PASS|||23ba62cf2469c584f1b000639634be53|||PLTR|||Palantir delivering earnings and free cash flow 'in spades,' says Rosenblatt's John McPeake
-2026-11-03T03:33:41+00:00|||PASS|||fc490725f0cbefde2db871cb6bafdc20|||PLTR|||Palantir reports booming U.S. commercial revenue growth, topping government for first time
-2026-11-03T03:33:41+00:00|||PASS|||28664b22785d337a69471e1829e26d60|||PLTR|||Palantir earnings reveal a major AI turning point
-2026-11-03T03:33:48+00:00|||SENT|||221731f892d77f0b74f7730388269aa0|||CRM|||Exclusive: Salesforce Acquires Startup Cresta for $2.7 Billion|||獨家：Salesforce 以 $2.7 Billion 收購新創 Cresta
-2026-11-03T03:34:07+00:00|||PASS|||070d9b5933b40afe5de0eb10f33914e9|||IOT|||Samsara to Announce Third Quarter Fiscal Year 2027 Financial Results on December 3, 2026
-2026-11-03T03:34:47+00:00|||PASS|||e12b6974826342df27f2518563502f91|||CRCL|||Ark Invest buys $3.4 million in Coinbase, adds Circle and Robinhood as stocks trade lower
 2026-11-03T08:20:02+00:00|||PASS|||534e88a02cb14950c809a99a9e08aaa6|||GOOGL|||Alphabet Has Lost $766 Billion in October, Its Worst Month Ever. UBS Warns Against Running for the Exits.
 2026-11-03T08:20:17+00:00|||PASS|||e7fadf0015c10cf1ca17af33330c8444|||WOLF|||What Is Wolfspeed (WOLF) Signaling With Its New Tech And EV Supply Deal?
 2026-11-03T08:20:30+00:00|||PASS|||a3d0fed6e197dc33e075b67cf56c28c4|||ECL|||Ecolab Inc. stock outperforms competitors on strong trading day
@@ -1461,3 +1435,25 @@
 2026-11-16T22:32:37+00:00|||PASS|||b1a91dd1eade1870ae3f16e5010404e5|||SPCX|||Quebecor Holder Fiera Backs $21.7 Billion Telus Bid as Starlink Threat Looms
 2026-11-16T22:32:38+00:00|||PASS|||27c6cf156cb17b1476155aef599d0c80|||SPCX|||TSLA, SPCX Diverge Overnight As Retail Traders Split On Merger Winner — Could SpaceX Get Tesla’s S&P 500 Seat?
 2026-11-16T22:34:32+00:00|||SENT|||7c0ac677059d799999e798c299dcaa56|||ED|||Con Edison announces 6 million share public offering|||Con Edison宣布公開發行6 million股股票
+2026-11-17T04:39:33+00:00|||PASS|||53d9caf59c27e15c66a0ac01a4aa1cc4|||GOOGL|||Apaloosa adds Oracle, exits Advanced Micro, raises stake in NVIDIA, cuts in Alphabet among Q3 moves
+2026-11-17T04:39:39+00:00|||PASS|||dedaea5fafc2dab86afece4ac76c8dfa|||AMKR|||Amkor Technology to Present at Upcoming Conferences
+2026-11-17T04:39:52+00:00|||PASS|||fb75fc4d086be6b895603bb9f0bcbf6c|||ONDS|||Ondas Inc. 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:ONDS) 2026-11-16
+2026-11-17T04:39:54+00:00|||PASS|||3f5e1412f4ad0a0d15008371018c78a9|||ONDS|||Ondas Falls 8% Despite $1.1 Billion 2027 Revenue Target as Drone Stocks Extend Losses; Red Cat Drops 5%, Unusual Machines Slides 4%
+2026-11-17T04:40:32+00:00|||PASS|||5ec3ba087b1e313810e190f844f04791|||MSFT|||Could everything be broken? Grounded jets, bank trouble, Microsoft outage, AI chaos make some wonder
+2026-11-17T04:40:47+00:00|||SENT|||e3bb0ae2fcd6cff204eba090b6bdb69f|||META|||Meta faces sanctions bid over withheld evidence in teen mental health cases|||Meta因在青少年心理健康案件中隱瞞證據而面臨制裁請求
+2026-11-17T04:40:50+00:00|||PASS|||87710be66333efac388b59f5a333faa4|||META|||Meta Hit With Sanctions Motion Over Document Privilege Abuses
+2026-11-17T04:40:54+00:00|||PASS|||8f90d1c350dab029a57505ecfacdf426|||TSLA|||Tesla board member Joe Gebbia: Nvidia should “reinstate” Jensen Huang to let investigation play out
+2026-11-17T04:40:57+00:00|||PASS|||80fed8dddee179c8cb0652e85b590549|||NVDA|||‘A complete evaporation of confidence’ – 6 things have to go right for Nvidia post Jensen, starting with $109 billion in revenue
+2026-11-17T04:41:33+00:00|||PASS|||d8168dc616ef15e06c0d464f06c6dda0|||TSM|||Taiwan Semiconductor Booked a Record NT$587 Billion Month. The Stock Has Lost Nearly 10% in Three Days Anyway
+2026-11-17T04:44:02+00:00|||PASS|||8b20cd5f6c2d6c3ac33b13762e12ade6|||CSCO|||FAA Air Traffic Ground Stop Investigation: HPE Juniper Routers, Cisco Routers, And The Aftermath Of A Telecom Network Upgrade
+2026-11-17T04:44:24+00:00|||PASS|||cae441e1bceafb506ed79a46cf30711c|||HPE|||FAA Air Traffic Ground Stop Investigation: HPE Juniper Routers, Cisco Routers, And The Aftermath Of A Telecom Network Upgrade
+2026-11-17T04:44:37+00:00|||PASS|||474dea7c56c05661f359fce2324703b1|||ORCL|||Apaloosa adds Oracle, exits Advanced Micro, raises stake in NVIDIA, cuts in Alphabet among Q3 moves
+2026-11-17T04:44:43+00:00|||SENT|||6c90d2f5c6df19010ed2a8055fda53b5|||CRWV|||CoreWeave responds to its recent stock volatility with strong quarterly results|||CoreWeave以強勁季度業績回應近期股價波動
+2026-11-17T04:45:20+00:00|||SENT|||af5fefee187231cdcb32ec07d0f56315|||CRM|||Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware|||Optimizely 遭駭，CNN、Fox News、BBC 與 Salesforce 網站遭惡意軟體感染
+2026-11-17T04:46:45+00:00|||PASS|||53f982b84c6f799cf9975b80981e59d0|||SPCX|||Disruption from Musk’s Starlink and others behind $31 billion pursuit of Telus, Peladeau says
+2026-11-17T04:48:11+00:00|||PASS|||59a6646693996e83b85d3029fbc62167|||ETN|||Eaton Stock Declines More Than 7% in 6 Months: Time to Buy the Dip?
+2026-11-17T04:48:14+00:00|||PASS|||8fdfa4b3fc177b723c0bdfbbc80384a5|||CMI|||Cummins India shares to hit ₹5,600 or fall to ₹3,320? Analysts split on stock after Q2 results
+2026-11-17T04:49:03+00:00|||PASS|||bf5e31a15db0eb9e4d21ff756c71eeef|||ED|||Con Edison Announces Common Share Offering with a Forward Component
+2026-11-17T04:49:06+00:00|||PASS|||df5c7d8f38f42de8409ad495ee49fdb7|||XEL|||XCel Brands (XELB) Reports Q3 Loss, Misses Revenue Estimates
+2026-11-17T04:49:30+00:00|||SENT|||327ba6b9cbdea6b002cb3b82fffb12b1|||LLY|||Lilly signs cancer research deal with Stipple Bio worth up to $5.9 billion|||Lilly 與 Stipple Bio 簽署癌症研究協議，金額最高達 $5.9 billion
+2026-11-17T04:49:32+00:00|||PASS|||d9e490af27fbbfbb971fb0b2f6cfeba4|||LLY|||Stipple Bio Announces Multi-Target Multi-Modality Oncology Research Collaboration with Lilly
