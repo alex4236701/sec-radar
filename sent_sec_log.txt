@@ -1,7 +1,6 @@
 @@VERSION|||2
-@@HEARTBEAT|||2026-11-14
-@@AI|||2026-11-16|||9
-0001758209-26-000016|||2026-10-17|||DIGEST
+@@HEARTBEAT|||2026-11-17
+@@AI|||2026-11-17|||2
 0000009631-26-000037|||2026-10-19|||SENT
 0001628280-26-066229|||2026-10-19|||SENT
 0001193125-26-424709|||2026-10-19|||SENT
@@ -1181,3 +1180,68 @@
 0001193125-26-462726|||2026-11-16|||SKIP|||ED|||8-K
 0001628280-26-074068|||2026-11-16|||DIGEST|||MOH|||144 Form 144 內部人預告賣股：Steven Orlando（董事），702 股，約 $146,700|||https://www.sec.gov/Archives/edgar/data/1179929/000162828026074068/xsl144X01/primary_doc.xml
 0001568651-26-000098|||2026-11-16|||SKIP|||OSCR|||8-K
+0000919574-26-008119|||2026-11-17|||SENT|||WULF|||例行｜【被動型大股東 13G】|||https://www.sec.gov/Archives/edgar/data/1083301/000091957426008119/xslSCHEDULE_13G_X02/primary_doc.xml
+0001104659-26-128302|||2026-11-17|||SENT|||WULF|||例行｜【被動型大股東 13G】|||https://www.sec.gov/Archives/edgar/data/1083301/000110465926128302/xslSCHEDULE_13G_X02/primary_doc.xml
+0001193125-26-464050|||2026-11-17|||SKIP|||GOOGL|||4
+0001193125-26-463983|||2026-11-17|||SKIP|||GOOGL|||4
+0001193125-26-463865|||2026-11-17|||SENT|||TTMI|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/1116942/000119312526463865/d173958d8k.htm
+0001104659-26-128489|||2026-11-17|||SENT|||ONDS|||例行｜【被動型大股東 13G】|||https://www.sec.gov/Archives/edgar/data/1646188/000110465926128489/xslSCHEDULE_13G_X02/primary_doc.xml
+0001104659-26-128306|||2026-11-17|||SENT|||WOLF|||例行｜【被動型大股東 13G】|||https://www.sec.gov/Archives/edgar/data/895419/000110465926128306/xslSCHEDULE_13G_X02/primary_doc.xml
+0001011712-26-000037|||2026-11-17|||SENT|||WOLF|||例行｜【被動型大股東 13G】|||https://www.sec.gov/Archives/edgar/data/895419/000101171226000037/xslSCHEDULE_13G_X02/primary_doc.xml
+0001950047-26-011160|||2026-11-17|||SENT|||CIEN|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/936395/000195004726011160/xsl144X01/primary_doc.xml
+0001950047-26-011152|||2026-11-17|||SENT|||CIEN|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/936395/000195004726011152/xsl144X01/primary_doc.xml
+0001950047-26-011111|||2026-11-17|||SENT|||CIEN|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/936395/000195004726011111/xsl144X01/primary_doc.xml
+0000789019-26-000236|||2026-11-17|||SKIP|||MSFT|||4
+0001018724-26-000044|||2026-11-17|||SKIP|||AMZN|||4
+0001950047-26-011194|||2026-11-17|||SENT|||AMZN|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1018724/000195004726011194/xsl144X01/primary_doc.xml
+0001921094-26-001197|||2026-11-17|||SENT|||META|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1326801/000192109426001197/xsl144X01/primary_doc.xml
+0001921094-26-001188|||2026-11-17|||SENT|||AAPL|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/320193/000192109426001188/xsl144X01/primary_doc.xml
+0000002488-26-000197|||2026-11-17|||SKIP|||AMD|||4
+0001950047-26-011155|||2026-11-17|||SENT|||AMD|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/2488/000195004726011155/xsl144X01/primary_doc.xml
+0001950047-26-011119|||2026-11-17|||SENT|||AMD|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/2488/000195004726011119/xsl144X01/primary_doc.xml
+0001628280-26-074228|||2026-11-17|||SKIP|||MRVL|||4
+0001628280-26-074226|||2026-11-17|||SKIP|||MRVL|||4
+0001628280-26-074222|||2026-11-17|||SKIP|||MRVL|||4
+0001958244-26-000721|||2026-11-17|||SENT|||MRVL|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1835632/000195824426000721/xsl144X01/primary_doc.xml
+0001266824-26-000221|||2026-11-17|||SKIP|||WDC|||4
+0001193125-26-463554|||2026-11-17|||SENT|||WDC|||留意｜【8-K 重大申報】|||https://www.sec.gov/Archives/edgar/data/106040/000119312526463554/d162653d8k.htm
+0001950047-26-011112|||2026-11-17|||DIGEST|||COHU|||144 Form 144 內部人預告賣股：CHRIS G BOHRSON（高階主管），1,000 股，約 $40,930|||https://www.sec.gov/Archives/edgar/data/21535/000195004726011112/xsl144X01/primary_doc.xml
+0001723433-26-000042|||2026-11-17|||SKIP|||ICHR|||4
+0000904454-26-000631|||2026-11-17|||SKIP|||MTSI|||4
+0000904454-26-000629|||2026-11-17|||SKIP|||MTSI|||4
+0000904454-26-000627|||2026-11-17|||SKIP|||MTSI|||4
+0000904454-26-000625|||2026-11-17|||SKIP|||MTSI|||4
+0001950047-26-011108|||2026-11-17|||DIGEST|||LITE|||144 Form 144 內部人預告賣股：WUPEN YUEN（高階主管），500 股，約 $276,965|||https://www.sec.gov/Archives/edgar/data/1633978/000195004726011108/xsl144X01/primary_doc.xml
+0001950047-26-011124|||2026-11-17|||SENT|||LITE|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1633978/000195004726011124/xsl144X01/primary_doc.xml
+0001950047-26-011166|||2026-11-17|||DIGEST|||CSCO|||144 Form 144 內部人預告賣股：NICHLAS FINK（高階主管），3,287 股，約 $314,369|||https://www.sec.gov/Archives/edgar/data/858877/000195004726011166/xsl144X01/primary_doc.xml
+0001950047-26-011171|||2026-11-17|||SENT|||CSCO|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/858877/000195004726011171/xsl144X01/primary_doc.xml
+0001950047-26-011170|||2026-11-17|||SENT|||CSCO|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/858877/000195004726011170/xsl144X01/primary_doc.xml
+0001950047-26-011169|||2026-11-17|||SENT|||CSCO|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/858877/000195004726011169/xsl144X01/primary_doc.xml
+0001950047-26-011168|||2026-11-17|||SENT|||CSCO|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/858877/000195004726011168/xsl144X01/primary_doc.xml
+0001950047-26-011165|||2026-11-17|||SENT|||CSCO|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/858877/000195004726011165/xsl144X01/primary_doc.xml
+0001280452-26-000022|||2026-11-17|||DIGEST|||MPWR|||144 Form 144 內部人預告賣股：DEAN ROBERT W II（高階主管），5 股，約 $6,271|||https://www.sec.gov/Archives/edgar/data/1280452/000128045226000022/xsl144X01/primary_doc.xml
+0001214659-26-014455|||2026-11-17|||SKIP|||MPWR|||4
+0001958244-26-000722|||2026-11-17|||SENT|||HPE|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1645590/000195824426000722/xsl144X01/primary_doc.xml
+0000935836-26-000604|||2026-11-17|||DIGEST|||NBIS|||SCHEDULE 13G/A 13G 修正：Situational Awareness LP，持股 3.40%（已降到 5% 以下）|||https://www.sec.gov/Archives/edgar/data/1513845/000093583626000604/xslSCHEDULE_13G_X02/primary_doc.xml
+0001321655-26-000050|||2026-11-17|||DIGEST|||PLTR|||SCHEDULE 13G/A 13G 修正：Palantir Technologies Inc.，持股 8.50%|||https://www.sec.gov/Archives/edgar/data/1321655/000132165526000050/xslSCHEDULE_13G_X01/primary_doc.xml
+0001104659-26-128526|||2026-11-17|||DIGEST|||IBM|||424B5 424B5 公司發債|||https://www.sec.gov/Archives/edgar/data/51143/000110465926128526/tm2628653-2_424b5.htm
+0001950047-26-011156|||2026-11-17|||DIGEST|||FTNT|||144 Form 144 內部人預告賣股：Margrit Christiane Ohlgart（高階主管），215 股，約 $27,352|||https://www.sec.gov/Archives/edgar/data/1262039/000195004726011156/xsl144X01/primary_doc.xml
+0001786926-26-000006|||2026-11-17|||SKIP|||NET|||4
+0001950047-26-011137|||2026-11-17|||DIGEST|||NET|||144 Form 144 內部人預告賣股：KATRIN SUSANNE SUDER（董事），800 股，約 $239,976|||https://www.sec.gov/Archives/edgar/data/1477333/000195004726011137/xsl144X01/primary_doc.xml
+0001950047-26-011136|||2026-11-17|||DIGEST|||NET|||144 Form 144 內部人預告賣股：ALISSA M STARZAK（高階主管），3,334 股，約 $993,732|||https://www.sec.gov/Archives/edgar/data/1477333/000195004726011136/xsl144X01/primary_doc.xml
+0001921094-26-001198|||2026-11-17|||DIGEST|||TWLO|||144 Form 144 內部人預告賣股：Viggiano Aidan（高階主管），1,418 股，約 $289,771|||https://www.sec.gov/Archives/edgar/data/1447669/000192109426001198/xsl144X01/primary_doc.xml
+0001895106-26-000024|||2026-11-17|||DIGEST|||IOT|||SCHEDULE 13G/A 13G 修正：Bicket John，持股 19.80%|||https://www.sec.gov/Archives/edgar/data/1642896/000189510626000024/xslSCHEDULE_13G_X02/primary_doc.xml
+0001921094-26-001192|||2026-11-17|||DIGEST|||IOT|||144 Form 144 內部人預告賣股：Kirchhoff Benjamin Louis（高階主管），2,229 股，約 $91,010|||https://www.sec.gov/Archives/edgar/data/1642896/000192109426001192/xsl144X01/primary_doc.xml
+0001213900-26-120715|||2026-11-17|||DIGEST|||SPCX|||SCHEDULE 13G/A 13G 修正：Gracias Antonio J.，持股 5.50%|||https://www.sec.gov/Archives/edgar/data/1181412/000121390026120715/xslSCHEDULE_13G_X02/primary_doc.xml
+0001950047-26-011117|||2026-11-17|||DIGEST|||IRDM|||144 Form 144 內部人預告賣股：KATHLEEN MORGAN（高階主管），2,752 股，約 $124,776|||https://www.sec.gov/Archives/edgar/data/1418819/000195004726011117/xsl144X01/primary_doc.xml
+0001831686-26-000012|||2026-11-17|||SENT|||MP|||利多｜【內部人公開市場買進】|||https://www.sec.gov/Archives/edgar/data/1801368/000183168626000012/xslF345X06/wk-form4_1794877813.xml
+0001628280-26-074235|||2026-11-17|||DIGEST|||UAMY|||144 Form 144 內部人預告賣股：RichardIsaak（Retired CFO），187,169 股，約 $578,352|||https://www.sec.gov/Archives/edgar/data/101538/000162828026074235/xsl144X01/primary_doc.xml
+0001950047-26-011173|||2026-11-17|||DIGEST|||BE|||144 Form 144 內部人預告賣股：SATISH CHITOORI（高階主管），2,260 股，約 $433,897|||https://www.sec.gov/Archives/edgar/data/1664703/000195004726011173/xsl144X01/primary_doc.xml
+0001950047-26-011172|||2026-11-17|||DIGEST|||BE|||144 Form 144 內部人預告賣股：SHAWN SODERBERG（高階主管），3,081 股，約 $591,521|||https://www.sec.gov/Archives/edgar/data/1664703/000195004726011172/xsl144X01/primary_doc.xml
+0001950047-26-011113|||2026-11-17|||DIGEST|||BE|||144 Form 144 內部人預告賣股：AMAN JOSHI（高階主管），5,148 股，約 $919,051|||https://www.sec.gov/Archives/edgar/data/1664703/000195004726011113/xsl144X01/primary_doc.xml
+0001974078-26-000419|||2026-11-17|||SENT|||NRG|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1013871/000197407826000419/xsl144X01/primary_doc.xml
+0001104659-26-128249|||2026-11-17|||DIGEST|||QNT|||SCHEDULE 13G/A 13G 修正：CITADEL ADVISORS LLC，持股 1.60%（已降到 5% 以下）|||https://www.sec.gov/Archives/edgar/data/2110105/000110465926128249/xslSCHEDULE_13G_X02/primary_doc.xml
+0000097745-26-000184|||2026-11-17|||SKIP|||TMO|||4
+0001950047-26-011127|||2026-11-17|||SENT|||ABBV|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1551152/000195004726011127/xsl144X01/primary_doc.xml
+0001211493-26-000010|||2026-11-17|||SKIP|||MOH|||4
+0001104659-26-128343|||2026-11-17|||DIGEST|||WM|||SCHEDULE 13G/A 13G 修正：GATES FOUNDATION TRUST，持股 5.20%|||https://www.sec.gov/Archives/edgar/data/823768/000110465926128343/xslSCHEDULE_13G_X02/primary_doc.xml
