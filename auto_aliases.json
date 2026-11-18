@@ -50,6 +50,17 @@
     "official_name": "Constellation Energy",
     "strict": false
   },
+  "CNC": {
+    "created": "2026-11-18",
+    "cs_names": [],
+    "names": [
+      "Centene",
+      "Centene Corporation",
+      "Centene Corp."
+    ],
+    "official_name": "CENTENE",
+    "strict": true
+  },
   "COIN": {
     "created": "2026-11-10",
     "cs_names": [],
@@ -59,6 +70,18 @@
     ],
     "official_name": "Coinbase Global",
     "strict": true
+  },
+  "CVS": {
+    "created": "2026-11-18",
+    "cs_names": [
+      "CVS"
+    ],
+    "names": [
+      "CVS Health",
+      "CVS"
+    ],
+    "official_name": "CVS HEALTH",
+    "strict": false
   },
   "DHR": {
     "created": "2026-11-01",
@@ -101,6 +124,18 @@
     "official_name": "Elmet",
     "strict": false
   },
+  "ELV": {
+    "created": "2026-11-18",
+    "cs_names": [
+      "Anthem"
+    ],
+    "names": [
+      "Elevance Health",
+      "Elevance"
+    ],
+    "official_name": "Elevance Health",
+    "strict": false
+  },
   "EVRG": {
     "created": "2026-11-09",
     "cs_names": [],
@@ -117,6 +152,16 @@
       "JFrog"
     ],
     "official_name": "JFrog",
+    "strict": true
+  },
+  "HCA": {
+    "created": "2026-11-18",
+    "cs_names": [],
+    "names": [
+      "HCA Healthcare",
+      "HCA"
+    ],
+    "official_name": "HCA Healthcare",
     "strict": true
   },
   "HOOD": {
