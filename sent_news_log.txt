@@ -1,23 +1,4 @@
 @@HEARTBEAT|||2026-11-18|||2026-10-21T13:41:10+00:00
-2026-11-04T19:55:19+00:00|||PASS|||c5c84a9913f6400d8d39a6b426ded1eb|||WULF|||TeraWulf Falls 4% Despite Google Backstop for $19 Billion Anthropic Leases; Cipher Digital Plunges 18%, IREN Tumbles 9%
-2026-11-04T19:55:29+00:00|||PASS|||249b4414aa5c4a54f5fe5e9907289bb5|||GOOGL|||Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan
-2026-11-04T19:55:32+00:00|||PASS|||71d1a4bad172467d3a8738d7a7450f58|||GOOGL|||TeraWulf Falls 4% Despite Google Backstop for $19 Billion Anthropic Leases; Cipher Digital Plunges 18%, IREN Tumbles 9%
-2026-11-04T19:55:34+00:00|||PASS|||37c2ee90180ad6afb38bbbc5292c0be6|||GOOGL|||Watch out for Big Tech companies like Meta and Alphabet issuing more shares and diluting your stock ownership
-2026-11-04T19:56:06+00:00|||PASS|||06b0c6cdcc3b45e8d727b217f86d0ce8|||MSFT|||Microsoft Stocks Jump 3.5% as $25 Billion Debt Sale Is Due to Close
-2026-11-04T19:56:07+00:00|||PASS|||834d7a35d0e8de986948e204714aef4b|||MSFT|||If You Invest $1,000 in Microsoft Today, Here’s What It Could Be Worth by 2029
-2026-11-04T19:56:11+00:00|||PASS|||af7fbb03ff49f6dd805f4323a3a87f3c|||META|||Watch out for Big Tech companies like Meta and Alphabet issuing more shares and diluting your stock ownership
-2026-11-04T19:56:15+00:00|||PASS|||3029fc76f4728a0de4bda2f32a322c3d|||TSLA|||Amdocs Posts Downbeat Q4 Earnings, Joins Skyworks Solutions, Tesla And Other Big Stocks Moving Lower In W
-2026-11-04T19:56:18+00:00|||PASS|||402790508665f9ddab12203e1ea858fd|||NVDA|||Nvidia Stocks Decline 1.35% as $108 Billion Guide Sets the Next Revenue Hurdle
-2026-11-04T19:56:21+00:00|||PASS|||42344650910dd437f65e02ae5a8a58ca|||MRVL|||If You Invest $1,000 in Marvell Today, Here’s What It Could Be Worth by 2030
-2026-11-04T19:56:24+00:00|||PASS|||d4cda06e7c76224c10da7d158d5777f2|||QCOM|||SpaceX’s Qualcomm deal could be a precursor to a telecom takeover
-2026-11-04T19:56:29+00:00|||PASS|||49f93418aba0faac431d1bed1214d745|||INTC|||Intel CEO Lip Bu Tan acquires $9.7M in Intel stock
-2026-11-04T19:56:31+00:00|||PASS|||ba517e9a40ffe9ee22eff5cc3fb545aa|||TSM|||TSMC Stocks Move Lower as November Sales Data Face a $53.3 Billion Quarterly Hurdle
-2026-11-04T19:57:01+00:00|||SENT|||51000ee32b73f3593cc6d4a746c8c7df|||AEHR|||AEHR Stock Jumps as Aehr Systems Reports Blockbuster Q3 Revenue|||AEHR股價跳漲，因Aehr Systems公布亮眼的Q3營收
-2026-11-04T19:58:13+00:00|||PASS|||b3d7b018919946cb5ad7d70c884b686c|||SPCX|||SpaceX’s Qualcomm deal could be a precursor to a telecom takeover
-2026-11-04T19:58:15+00:00|||PASS|||069052fadaec10a57519b9e8cd2980e2|||SPCX|||Watch Tesla, SpaceX Take a Hit as Dems' Sweep Midterms; McDonald's Moves on Revenue | Stock Movers
-2026-11-04T19:58:36+00:00|||PASS|||cc12a9ffff96a2f8c5c4e70729b186e7|||CMI|||Cummins India Q2 results: Revenue at ₹3,247 crore led by growth in domestic and export markets
-2026-11-04T19:58:45+00:00|||PASS|||0b55d66d4a283b22b57f55e8260c7c84|||CRCL|||Funding Circle Holdings plc CEO appointment
-2026-11-04T19:58:52+00:00|||PASS|||91b1e0baad2087aef28eae153381ea0a|||LLY|||Eli Lilly Revenue Climbs on Demand for Obesity Drugs
 2026-11-05T00:57:00+00:00|||SENT|||f373dd6ee850e789bb9e3c2e9102defd|||WULF|||TeraWulf Signs Credit Support Deals With Google for $19 Billion Anthropic Leases|||TeraWulf與Google簽署信用支持協議，涉及$19 Billion Anthropic租賃合約
 2026-11-05T00:57:09+00:00|||SENT|||965306b5cd791ee6fd07b35296acc9b7|||CRUS|||Cirrus Logic (CRUS) Q2 Earnings and Revenues Surpass Estimates|||Cirrus Logic (CRUS) Q2盈餘與營收均超出預期
 2026-11-05T00:57:14+00:00|||PASS|||6eae091362908f2eaaef1a72c3643774|||GOOGL|||Waymo Co-CEO Calls Uber Partnership A 'Crapshoot' As Company Plots Its Exit - Uber Technologies (NYSE:UBE
@@ -1423,3 +1404,26 @@
 2026-11-18T18:23:41+00:00|||PASS|||43f13cd06b4a081b119de93542bcd727|||HUM|||Humana Foundation Marks 45 Years With Nearly $14 Million in Grants to Expand Healthy Food Access and Help Seniors Feel More Connected – Company Announcement - FT.com
 2026-11-18T18:23:48+00:00|||PASS|||652144095b89865b3e25cc133602ffd7|||ELV|||Argus upgrades Elevance stock rating to buy on 2027 growth outlook
 2026-11-18T18:23:52+00:00|||PASS|||9bb0558cf35002ae029d529d490e78ea|||RSG|||Russian athletes to be banned from entering Czech Republic amid ice hockey row
+2026-11-18T20:44:33+00:00|||PASS|||b35f37c9478d6117d19771be8c9e8133|||WULF|||TeraWulf Rises 6%, Cipher Digital Gains 5% After NVIDIA’s Record Quarter; IREN Climbs 4%
+2026-11-18T20:44:44+00:00|||PASS|||acd83db5a865673f4f1e4af2e18132c8|||GOOGL|||Waymo pulled from Arizona highways after California ban
+2026-11-18T20:44:45+00:00|||PASS|||5d023ea73023925d10a859b4eb1ea21f|||GOOGL|||California temporarily bans Waymo driverless cars from freeways
+2026-11-18T20:44:53+00:00|||PASS|||e2f4d98c819b9f7cf3f39c9c64bf17aa|||AMKR|||Amkor Technology Announces Increases in Quarterly Dividend
+2026-11-18T20:45:21+00:00|||PASS|||5a2296d0a05cbabe0c101e6b5d29eb21|||AMZN|||Amazon’s $17B bet on Ohio data center hub at risk by voters, FT says
+2026-11-18T20:45:28+00:00|||PASS|||6de93cbefbca13f38ed3e92d0ab4edb1|||NVDA|||What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation
+2026-11-18T20:45:29+00:00|||PASS|||4c418000c1e8b51712c71b08bc9a0b50|||NVDA|||Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit
+2026-11-18T20:45:31+00:00|||PASS|||5cd5740633c3c1c4b0bd5dbaa7481016|||NVDA|||Nvidia promises employee pay raises, equity before December to quell unrest in wake of Jensen Huang scandal — at first all-hands meeting since CEO’s departure, staff offered perks, told ‘we’re going to be fine'
+2026-11-18T20:45:35+00:00|||PASS|||56ff7dd456d0aff63f05a9c35453d3a9|||NVDA|||The Bank of Nvidia's tab jumped to nearly $670 billion — and its customers are taking longer to pay: Chart of the Day
+2026-11-18T20:45:37+00:00|||PASS|||8e77e73819bfe5bae1059cfa5c68b27c|||NVDA|||Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe
+2026-11-18T20:45:41+00:00|||PASS|||4c30ec64c94bab61c2016098dc9c03f7|||MRVL|||Lumentum Is Down 33% in a Month as Marvell’s Slide Shrinks Its Buyout Value. Can LITE Stock Get Back to Bernstein’s $700 Target?
+2026-11-18T20:45:46+00:00|||PASS|||9f492c116be0f5df5aafe6961e7eef4c|||ARM|||Nvidia reportedly approaches Arm CEO Rene Haas for top job after Jensen Huang exit
+2026-11-18T20:45:51+00:00|||PASS|||c448f065af8a4512b370a3cc2ac947c2|||INTC|||Microsoft Becomes The First Announced Intel EMIB Customer For Its Azure Custom Silicon, Also Locks In Multi-Year Xeon Capacity That Includes Next-Gen Diamond Rapids
+2026-11-18T20:46:06+00:00|||SENT|||d79ac0dc9c0d99dc69c934078bf60615|||STX|||Seagate’s $175 Million Investor Deal Over Huawei Gets Court Nod|||Seagate 涉 Huawei 的 $175 Million 投資人協議獲法院批准
+2026-11-18T20:46:41+00:00|||PASS|||37c0773618432fb36e7bb711c69a26db|||LITE|||Lumentum Is Down 33% in a Month as Marvell’s Slide Shrinks Its Buyout Value. Can LITE Stock Get Back to Bernstein’s $700 Target?
+2026-11-18T20:46:58+00:00|||PASS|||ba0b80450611566336f8224c90d4d9b8|||DELL|||The first Nvidia RTX Spark mini PCs launch today from Asus, Dell, and MSI
+2026-11-18T20:47:04+00:00|||PASS|||89b1e2ac9cfa1e186a31ed98704d55d5|||CRWV|||CoreWeave and Neoclouds Slide Post-Nvidia Earnings As AI Fears Remain
+2026-11-18T20:47:05+00:00|||PASS|||14c1257f54ff556b240aefdcd69d955e|||CRWV|||Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren
+2026-11-18T20:47:29+00:00|||SENT|||4e0116fdb455533cbe98cd419f7d2083|||RBRK|||Rubrik Launches Configuration Resilience for Microsoft 365|||Rubrik 為 Microsoft 365 推出 Configuration Resilience
+2026-11-18T20:47:52+00:00|||PASS|||9a4df6303665508c39a84e183d05c43e|||SPCX|||Warner Music Mogul Len Blavatnik Builds $5 Billion SpaceX Stake
+2026-11-18T20:48:01+00:00|||PASS|||bd7f5a95deee10f13b89daf7aa9a982a|||USAR|||USA Rare Earth: Look At The Dilution Before Buying The Drop (NASDAQ:USAR)
+2026-11-18T20:48:15+00:00|||PASS|||5ed21438123210f1050cfbee9f7342b8|||GNRC|||Generac Jolted After Nvidia Earnings. Why It’s a Top S&P 500 Stock Today.
+2026-11-18T20:48:45+00:00|||SENT|||f8e51c6225c5b4799365a7e87cd30662|||LLY|||Health Canada approves Lilly's Mounjaro® (tirzepatide) to reduce cardiovascular risk in adults with type 2 diabetes|||Health Canada 批准 Lilly 的 Mounjaro®（tirzepatide）用於降低第二型糖尿病成人心血管風險
