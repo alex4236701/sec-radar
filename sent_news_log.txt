@@ -1,22 +1,4 @@
 @@HEARTBEAT|||2026-11-18|||2026-10-21T13:41:10+00:00
-2026-11-04T07:49:47+00:00|||PASS|||cb8e0aca8c1ccdbe123e0bcd68b97a6a|||AVGO|||Marvell’s Acquisition of Lumentum to Unite Optical and Electronic Capabilities, Potentially Challenging Broadcom’s Market Leadership, Says TrendForce
-2026-11-04T07:50:04+00:00|||PASS|||dd239429a5644afd2411bd67c8f929e7|||META|||Meta raises $15 billion in five-part US bond sale to fund AI expansion
-2026-11-04T07:50:09+00:00|||PASS|||e51ce682bc999f8fff10e5289fcc7741|||TSLA|||Midterm Election Impact: SPCX, ASTS, RKLB Stocks Sink As Musk’s Political Ties Put Tesla-SpaceX Merger Under Fresh Scrutiny
-2026-11-04T07:50:14+00:00|||PASS|||2b15793e5b6bf16542feed37a6960621|||NVDA|||Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered
-2026-11-04T07:50:17+00:00|||PASS|||49a56d180942043a235cd8470ce6dfa0|||AMD|||AMD beats expectations as agentic AI sparks its data center revenue growth engines
-2026-11-04T07:50:20+00:00|||PASS|||3c57b2c3a5bf0448406465e7a82be323|||MRVL|||MRVL's Proposed LITE Buyout Suggests Long-Term AI Infrastructure Boom
-2026-11-04T07:50:24+00:00|||PASS|||56fb0b005b1813cce9ca2b54d3432215|||ARM|||Emaar Offers to Buy Out Construction Arm at $16.3 Billion Value
-2026-11-04T07:50:29+00:00|||PASS|||f7b5f6fc290488630605f6791818b4e4|||TSM|||TSMC scheduled to list NT$14.8 billion green bonds on Nov. 12
-2026-11-04T07:50:31+00:00|||PASS|||27c2d3ed4a3169a9cd2f7bda79c5fa95|||TSM|||TSMC's acquisition of AUO plant reshapes panel supply chain
-2026-11-04T07:50:41+00:00|||SENT|||8bac7bd5c94ba49a44338dc8e37a400d|||SKHY|||US chip curbs on China complicate SK Hynix's US$45 billion NAND plan|||美國對中國的晶片限制使 SK Hynix 的 US$45 billion NAND 計畫複雜化
-2026-11-04T07:51:27+00:00|||PASS|||01f17cf9e5bc8dba0aa77c5c77641556|||VRT|||Vertiv’s unveils new Singapore Experience Center
-2026-11-04T07:51:30+00:00|||PASS|||b2c495b2d18ea1026305f6e5454a0b5d|||ORCL|||CoreWeave Soars 5%, Oracle Up 4% as Oracle’s $20 Billion Raise Is “Exactly What They Previewed”
-2026-11-04T07:51:32+00:00|||PASS|||5e3b95cce77aff088e8967913cf0b618|||CRWV|||CoreWeave Soars 5%, Oracle Up 4% as Oracle’s $20 Billion Raise Is “Exactly What They Previewed”
-2026-11-04T07:51:43+00:00|||PASS|||662e70faf547f841467704a854b84d77|||IBM|||Yonsei steps up quantum computing research with latest IBM processor
-2026-11-04T07:51:49+00:00|||PASS|||a94730f6d75d785fd78781fe55deb533|||ZS|||ZS Investors Have Opportunity to Join Zscaler, Inc. Fraud Investigation with SBS Law
-2026-11-04T07:52:12+00:00|||PASS|||62e56c7d486543630d11d618a52b8be5|||SPCX|||Midterm Election Impact: SPCX, ASTS, RKLB Stocks Sink As Musk’s Political Ties Put Tesla-SpaceX Merger Under Fresh Scrutiny
-2026-11-04T07:52:14+00:00|||PASS|||d4ddda41063b9f72c79dc1fcf64a88c2|||RKLB|||Midterm Election Impact: SPCX, ASTS, RKLB Stocks Sink As Musk’s Political Ties Put Tesla-SpaceX Merger Under Fresh Scrutiny
-2026-11-04T07:52:15+00:00|||PASS|||dae2b4af75417513b8d82e66a3ab7edd|||RKLB|||Rocket Lab Plunged 7% Amid Amazon Fears — but That Could Be the Best Reason to Buy
 2026-11-04T17:24:53+00:00|||PASS|||8b4baf685826a2a62d7933329574ca5d|||UUUU|||Energy Fuels Announces Appointment of Jeffrey Olsen to Board of Directors
 2026-11-04T17:24:56+00:00|||PASS|||c7d948946cf579833927467e9cfb32f8|||CRUS|||Cirrus Logic earnings on deck as Apple iPhone concerns mount
 2026-11-04T17:25:00+00:00|||PASS|||54792129d4955495cb58bd7fb23badc0|||GOOGL|||Jobber Integrates with AI Mode in Google Search, Opening a New Customer Acquisition Channel for Home and Commercial Service Businesses
@@ -1422,3 +1404,19 @@
 2026-11-18T03:02:42+00:00|||PASS|||463cafc0ff22a371d396bad50dadcb84|||PPTA|||Perpetua eyes $83 million aerospace backing for tungsten
 2026-11-18T03:03:22+00:00|||PASS|||57375c16b502f5e7f00f162a7fb49e4b|||COIN|||Coinbase AI defense blocks $4.7 million from being sent to deepfake Elon Musk scam
 2026-11-18T03:03:40+00:00|||PASS|||32d8db3b611ff0ce5251757613fe8e24|||CVS|||The man who sold Aetna to CVS for almost $70 billion says the deal was cover for problems ‘they never really fixed’—just as CVS breaks itself in two
+2026-11-18T08:54:05+00:00|||PASS|||d079e06fe932b823075e0a48f93ea9a8|||WULF|||Bernstein sees upside for bitcoin miners Riot and TeraWulf, citing discounts to implied AI data center values
+2026-11-18T08:54:12+00:00|||PASS|||0f3bd2c00abc51afedacfef786157072|||GOOGL|||Google finds self-running AI hacking tool with Russian comments in its files
+2026-11-18T08:54:13+00:00|||PASS|||a74e7be040b3a0fe443ab5e0898d8ef3|||GOOGL|||Alphabet’s Waymo Pulls Robotaxis Off Freeways After California Ban
+2026-11-18T08:54:15+00:00|||PASS|||fc31900702a3989422f8f7bc6c4266f9|||GOOGL|||California bans Waymo freeway operations after safety incidents
+2026-11-18T08:54:16+00:00|||PASS|||1ae399821a7dd9e40f0f1e4e3818826a|||GOOGL|||Waymo suspends all driverless taxi rides on freeways after ban in California
+2026-11-18T08:54:19+00:00|||PASS|||dc1f210b9c9f0d7504bba62f6370abe9|||GOOGL|||US bankruptcy judge approves Spirit Airlines data sale to Google
+2026-11-18T08:54:23+00:00|||PASS|||76a8ed2e1ee9f33c95fca6df8266c011|||MU|||Micron Stock Is Down 41%, but the $35 Billion Buyback Could Change the Game. Here's How.
+2026-11-18T08:54:38+00:00|||PASS|||5b33b00802934f6fa97f1082d4695c3d|||AVGO|||Broadcom Is “the Best Play” on Nvidia’s CEO Exit, One Investor Argues. The Reason Is China
+2026-11-18T08:54:56+00:00|||PASS|||7d6fa62d14befa574788f591dd49c066|||TSLA|||“Of Course,” Musk Says When Told Tesla’s $1.6 Trillion Already Prices In Moderate Cybercab Success.
+2026-11-18T08:54:59+00:00|||PASS|||4dd5f33f9770084a6b14e88debd743ba|||NVDA|||Catch up: Nvidia’s post-Huang earnings beat expectations; Putin, Trump and Xi to meet in China
+2026-11-18T08:55:02+00:00|||PASS|||ff138914d27717684afeb3fd4400b585|||NVDA|||Nvidia Introduced Alibaba to Alice Huang for Workaround on U.S. Export Controls
+2026-11-18T08:55:04+00:00|||PASS|||25432eb88c400e4cc3fc03a4d90628cf|||NVDA|||World in Brief: Nvidia’s post-Huang earnings beat expectations; more tech disruptions
+2026-11-18T08:56:10+00:00|||PASS|||c8e07aaac7c789110aade58c0d6a0903|||CRM|||CRM Stock Faces Worst Week Since April: Fresh Layoffs Reportedly Surface Across Salesforce Teams
+2026-11-18T08:56:23+00:00|||PASS|||335737987bbd7c922423195266fec5e5|||IBM|||How IBM Is Deploying AI for HR and Marketing | WSJLI
+2026-11-18T08:57:09+00:00|||PASS|||58bd42e6627d7e4a93e486bf8a7dcd7e|||MP|||How Investors May Respond To MP Materials Stock Q3 Earnings Beat
+2026-11-18T08:58:00+00:00|||SENT|||dfd851531535092562217a894aca2700|||COIN|||Ark Invest buys crypto stocks as it sells $85 million in Nvidia, Coinbase brings onchain loans to New York, and more|||Ark Invest 買入加密貨幣股票、賣出 $85 million Nvidia 持股，Coinbase 將鏈上貸款帶入紐約等
