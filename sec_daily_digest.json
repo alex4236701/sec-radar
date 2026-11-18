@@ -1,18 +1,1 @@
-[
- {
-  "date": "2026-11-17",
-  "form": "8-K",
-  "holding": false,
-  "text": "8-K 股東會投票結果（項目 5.07,9.01）",
-  "ticker": "VIAV",
-  "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026074422/viav-20261111.htm"
- },
- {
-  "date": "2026-11-17",
-  "form": "424B5",
-  "holding": false,
-  "text": "424B5 公司發債（初步說明書，尚未定價）",
-  "ticker": "DUK",
-  "url": "https://www.sec.gov/Archives/edgar/data/1326160/000110465926128850/tm2629411-1_424b5.htm"
- }
-]
+[]
