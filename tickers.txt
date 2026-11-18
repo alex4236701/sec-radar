@@ -212,6 +212,10 @@ ISRG
 HUM
 UNH
 OSCR
+CNC
+HCA
+ELV
+CVS
 
 #-------廢物相關回收--------------------
 WM
