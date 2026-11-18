@@ -1,64 +1,4 @@
 @@HEARTBEAT|||2026-11-18|||2026-10-21T13:41:10+00:00
-2026-11-04T17:24:53+00:00|||PASS|||8b4baf685826a2a62d7933329574ca5d|||UUUU|||Energy Fuels Announces Appointment of Jeffrey Olsen to Board of Directors
-2026-11-04T17:24:56+00:00|||PASS|||c7d948946cf579833927467e9cfb32f8|||CRUS|||Cirrus Logic earnings on deck as Apple iPhone concerns mount
-2026-11-04T17:25:00+00:00|||PASS|||54792129d4955495cb58bd7fb23badc0|||GOOGL|||Jobber Integrates with AI Mode in Google Search, Opening a New Customer Acquisition Channel for Home and Commercial Service Businesses
-2026-11-04T17:25:03+00:00|||PASS|||a6a512009eb4f5702f21d6ba44726987|||GOOGL|||EXCLUSIVE: Google extends voluntary buyout offers to employees in several countries
-2026-11-04T17:25:09+00:00|||PASS|||25213ac508cad80390cae54e95f1611f|||GOOGL|||Google to Invest $15 Billion in Malaysia Over Two Years
-2026-11-04T17:25:11+00:00|||PASS|||f9d02a89c1b9e5fa0dde01b8a84f5bdf|||GOOGL|||Google extends voluntary buyout offers to employees in several countries: Reuters (GOOG:NASDAQ)
-2026-11-04T17:25:15+00:00|||PASS|||d0c2a1e91d559b55aa2610894913a667|||GOOGL|||Google to invest $15 billion in Malaysia in 2027 and 2028
-2026-11-04T17:25:20+00:00|||PASS|||af06713d5d6af1877c134133d1200537|||GOOGL|||Google to Spend $15 Billion in Malaysia Data Center Expansion
-2026-11-04T17:25:42+00:00|||SENT|||7a77c0db54e9f4785359ebdd9f19119f|||VSH|||Vishay Q3 2026 slides: record revenue, 25.5% margin expansion|||Vishay Q3 2026 簡報：營收創紀錄，利潤率擴張 25.5%
-2026-11-04T17:25:47+00:00|||PASS|||f298f2d6caa00a82cdf2631b74e60d76|||WOLF|||Investors brace for Wolfspeed earnings after massive Q4 miss By Investing.com
-2026-11-04T17:25:54+00:00|||PASS|||d92af8aa7297eb865d99f7259b7d07eb|||GLW|||Owens Corning Forecasts Weak Q4 Sales Amid Housing Market Pressure
-2026-11-04T17:25:57+00:00|||PASS|||1e73882bab0a1ff845d0603ed55e8e84|||GLW|||Owens Corning (OC) Q3 Earnings and Revenues Miss Estimates
-2026-11-04T17:25:58+00:00|||PASS|||cf08e11588297819817c1e8b3fd4054d|||GLW|||Owens Corning: Q3 Earnings Snapshot
-2026-11-04T17:26:12+00:00|||PASS|||f8c0905a3bd1e9fe58179b96da1f4ed2|||MSFT|||Microsoft Corporation (MSFT) Outperforms with Record Quarter Driven by Azure Demand Surge
-2026-11-04T17:26:18+00:00|||PASS|||2261cafe58c5de92a177626245dcf0cb|||META|||Meta Starts Debut Euro Bond Sale After $15 Billion Dollar Deal
-2026-11-04T17:26:21+00:00|||PASS|||bd021179b7e04b8ef9978e2263bc3bde|||META|||Meta issues $15bn five-part bond offering to fund AI infrastructure
-2026-11-04T17:26:26+00:00|||PASS|||cd9a1e9968e81fcf375e2d88b9c23e99|||META|||Meta Starts Debut Euro Bond Sale After $15 Billion US Deal
-2026-11-04T17:26:31+00:00|||PASS|||30dac20a295442eeab712a639fed1b55|||TSLA|||Tesla (TSLA) Shares Underperform as Record Q2 Revenue Is Overshadowed by Margin Pressure
-2026-11-04T17:26:33+00:00|||PASS|||e25b35b885f61d75b57f597f8744960e|||TSLA|||Tesla Shares Fall 4.5% as Democratic Midterm Victory Raises Regulatory and Merger Concerns
-2026-11-04T17:26:41+00:00|||SENT|||dcdbfe9f93bca2d53bf690ab1361a784|||NVDA|||Nvidia can only fulfill 1% of China’s massive $70 billion GPU order for AI chips, report claims — supply constraints choke export-friendly RTX Pro 5500 deliveries despite huge demand|||報導稱，Nvidia只能滿足中國700億美元AI晶片GPU訂單的1%——供應受限，出口友善的RTX Pro 5500交付受阻，儘管需求龐大
-2026-11-04T17:26:50+00:00|||PASS|||64cc7a7903ff05bbf436de37fecde1a8|||QCOM|||SpaceX Partners with Qualcomm for Starlink Mobile Rollout: What It Means for Telco Investors
-2026-11-04T17:26:55+00:00|||PASS|||df7d208b996809c9ef26793d7c647f20|||QCOM|||SpaceX signs deal with Qualcomm to provide network technology for U.S. mobile service
-2026-11-04T17:26:59+00:00|||PASS|||e8f1a5df84f373ff87afb3b9b54ecb1f|||QCOM|||Qualcomm beat earnings for the tenth straight quarter and its stock fell anyway
-2026-11-04T17:27:02+00:00|||PASS|||1b14a8e69213a6570e714818a6f5bcdd|||QCOM|||Qualcomm Earnings Come as Smartphone Sales Slump and Data Center Ambitions Grow
-2026-11-04T17:27:09+00:00|||PASS|||85dc3d8ca2cde7a3e4e3d9a482f498bb|||INTC|||AMD Is Set To Out-Earn Intel For The First Time In Its History, Guiding To $17 Billion In Q4 Revenue Against Intel’s $15.5 Billion Midpoint Projection
-2026-11-04T17:27:12+00:00|||PASS|||675173cde4fcf5b881a522d0af314d96|||INTC|||Intel Stock Implodes, Sheds $434 Billion in 4 Months
-2026-11-04T17:27:16+00:00|||PASS|||a3c08ac28e1b0ce76525b220ef2e0ce1|||INTC|||AMD expects to outsell Intel in Q4 for the first time in history — $17B guidance would exceed Intel's projections
-2026-11-04T17:27:22+00:00|||PASS|||3e5113729c5df0f4a1675c725e3fa819|||GFS|||GlobalFoundries (GFS) Reports Q3 Earnings: What Key Metrics Have to Say
-2026-11-04T17:27:28+00:00|||SENT|||2deb839b4548c49572fb1bb1b9f312bb|||GFS|||GlobalFoundries Inc. (GFS) Q3 Earnings and Revenues Beat Estimates|||GlobalFoundries Inc. (GFS) 第三季盈餘與營收均優於預期
-2026-11-04T17:27:35+00:00|||PASS|||4928216af297d42b43394fb25887b468|||SNDK|||Sandisk Is Retiring Its Own Stock At A Discount - Upgrade To Buy (NASDAQ:SNDK)
-2026-11-04T17:27:40+00:00|||PASS|||b7151d6e5d1fd98ea1d7ae70369a814e|||STX|||Seagate's $1.2 Billion Debt Paydown: What Comes Next for Investors?
-2026-11-04T17:27:50+00:00|||PASS|||e7253314a8b47a28a2beea44f78f2b31|||ONTO|||Stay Ahead of the Game With Onto Innovation (ONTO) Q3 Earnings: Wall Street's Insights on Key Metrics
-2026-11-04T17:27:58+00:00|||SENT|||e0e90a05788cb616cd2fff9ac68ba310|||CAMT|||Camtek (CAMT) Q3 Earnings and Revenues Surpass Estimates|||Camtek (CAMT) 第三季獲利與營收優於預期
-2026-11-04T17:28:06+00:00|||PASS|||efa24bd4df5861f5a84dc41a4e4ddeca|||AEHR|||AEHR Q1 Earnings Beat Estimates on AI Demand, Revenue Outlook Raised
-2026-11-04T17:28:13+00:00|||PASS|||084fa0c9479f53d04bca48b76aa9243f|||ALAB|||Astera Labs Stock Falls Despite Strong Earnings. Its Growth Story Is Intact.
-2026-11-04T17:28:17+00:00|||PASS|||cf25cd98d16f2d8f3f180df0b939bf17|||MTSI|||Wall Street's Insights Into Key Metrics Ahead of M/A-Com (MTSI) Q4 Earnings
-2026-11-04T17:28:28+00:00|||SENT|||4c7de7eea16c4629a0e71aa50158781a|||AXTI|||What AI Bubble? AXT Reports Record Q3 Revenue And Positive Forward Outlook (Rating Downgrade)|||AI 泡沫在哪？AXT 公布第三季營收創新高並給出正向前景展望（評級遭下調）
-2026-11-04T17:28:35+00:00|||PASS|||8de9e490fdc04f674d906dd66922bd38|||SWKS|||Skyworks Stock Sinks as Android Woes Delay the Qorvo’s Merger Payoff
-2026-11-04T17:28:52+00:00|||PASS|||a1a55e401cd692e2d574df1b6524eb29|||ORCL|||Oracle drops Tencent as cloud client, losing multi-billion-dollar contract - report
-2026-11-04T17:28:54+00:00|||PASS|||2b07d8115a91875f4a88c4c14a4a260a|||ORCL|||Chubu Electric Power Grid Launches 10 Millionth Smart Meter with Oracle
-2026-11-04T17:29:00+00:00|||PASS|||a90e86357bf16f84b3970741a9cae5e9|||ORCL|||Oracle Stock Slips After $7 Billion Tencent Deal Is Canceled
-2026-11-04T17:29:09+00:00|||SENT|||d046eae933bd54f1a4e8a8defd0d5233|||ORCL|||Oracle Cancels $7 Billion Tencent AI Chip Leasing Agreement Amid US Regulatory Pressure|||Oracle 因美國監管壓力取消與 Tencent 的 $7 billion AI 晶片租賃協議
-2026-11-04T17:29:18+00:00|||PASS|||3519779b1cdea536f8324fb085589a92|||PLTR|||Palantir Shares Sink Despite Sales Smash $2 Billion for First Time Ever
-2026-11-04T17:29:25+00:00|||PASS|||8807c95a296ece8fed1ab02cd9b3506b|||DDOG|||Midday Need to Know: Oil slides, Datadog tumbles on Q4 results & more (SPY:NYSEARCA)
-2026-11-04T17:29:30+00:00|||SENT|||1456bb4ed1ef853d72001eb7761f4222|||DDOG|||Datadog Reports 35% Revenue Growth to $1.2 Billion in Q3 2026 and Issues Full-Year Guidance|||Datadog公布2026年第三季營收成長35%至$1.2 billion，並發布全年指引
-2026-11-04T17:29:34+00:00|||PASS|||7f44f3ec012e0bfe265e406512f1117b|||DDOG|||Datadog’s stock extends steep declines in the wake of earnings
-2026-11-04T17:29:36+00:00|||PASS|||451e4c27413d8beda3928b94f47380ff|||DDOG|||Datadog Beats Earnings Expectations. The Stock Is Acting as If It Didn’t.
-2026-11-04T17:29:40+00:00|||PASS|||48a79b6bcc7b1762b4292768a74f8ba6|||IBM|||Ross Perot Left IBM in 1962 and Started a Company With $1,000. In 1984, General Motors Bought It for $2.5 Billion
-2026-11-04T17:29:47+00:00|||PASS|||7ac8a8324365925bb6d0b52193d93f9e|||FTNT|||Optimorphix, Fortinet Settle Lawsuit Over Bytemobile Patents
-2026-11-04T17:29:52+00:00|||PASS|||60977c44d906f3a5cff47e81ba0311b9|||NET|||Cloudflare faces Q3 earnings test as valuation concerns persist (NET:NYSE)
-2026-11-04T17:30:17+00:00|||PASS|||566dd159f62033592a6602163ca244eb|||SPCX|||SpaceX Partners with Qualcomm for Starlink Mobile Rollout: What It Means for Telco Investors
-2026-11-04T17:30:29+00:00|||PASS|||933daf45bc6413b73b0da99459620b31|||SPCX|||SpaceX signs deal with Qualcomm to provide network technology for U.S. mobile service
-2026-11-04T17:30:32+00:00|||PASS|||15658436c6c777f4c5f63e36c2298c0e|||RKLB|||Rocket Lab Corporation (RKLB) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures
-2026-11-04T17:30:50+00:00|||SENT|||189c34b0024e452b5d00761d02529097|||BE|||Bloom Energy (BE) Raises Full-Year Outlook Following 166% Revenue Surge|||Bloom Energy (BE) 營收大增 166% 後上調全年展望
-2026-11-04T17:31:08+00:00|||SENT|||d90728f766eeea57342399adeaef99d1|||IONQ|||IonQ completes Elisity acquisition and joins Conn. quantum initiative|||IonQ完成收購Elisity並加入康乃狄克州量子倡議
-2026-11-04T17:31:14+00:00|||PASS|||a4442ab11140420a15c2de59d47643e9|||CRCL|||Circle’s Earnings Show Stablecoins Have Arrived. A Crypto Payoff Could Take Longer.
-2026-11-04T17:31:16+00:00|||PASS|||c0061658249ad990217453198ab06454|||CRCL|||Crypto Giants Scrap Crime-Fighting Alliance as Hackers Circle
-2026-11-04T17:31:22+00:00|||SENT|||af474a7a94482f6bfa3e35daf89ba8f2|||CRCL|||Circle Beats Q3 Estimates on Arc Token Sale, Cuts 5% of Staff|||Circle 憑藉 Arc 代幣出售，第三季業績優於預期，並裁減 5% 員工
-2026-11-04T17:31:29+00:00|||PASS|||fb4fd1d2fcec829a8d349d26354a7fab|||LLY|||Novo Nordisk Stock Shrugs Off Eli Lilly Threat as Weight-Loss Pill Shines in Earnings
-2026-11-04T17:31:37+00:00|||SENT|||c3138957202f66ea8002524506cbf98a|||ABBV|||AbbVie bolsters UK R&D presence, inks $1.38bn IBD deal with Nxera|||AbbVie 擴大英國研發布局，與 Nxera 簽署 $1.38bn IBD 交易
 2026-11-04T19:55:19+00:00|||PASS|||c5c84a9913f6400d8d39a6b426ded1eb|||WULF|||TeraWulf Falls 4% Despite Google Backstop for $19 Billion Anthropic Leases; Cipher Digital Plunges 18%, IREN Tumbles 9%
 2026-11-04T19:55:29+00:00|||PASS|||249b4414aa5c4a54f5fe5e9907289bb5|||GOOGL|||Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan
 2026-11-04T19:55:32+00:00|||PASS|||71d1a4bad172467d3a8738d7a7450f58|||GOOGL|||TeraWulf Falls 4% Despite Google Backstop for $19 Billion Anthropic Leases; Cipher Digital Plunges 18%, IREN Tumbles 9%
@@ -1420,3 +1360,66 @@
 2026-11-18T08:56:23+00:00|||PASS|||335737987bbd7c922423195266fec5e5|||IBM|||How IBM Is Deploying AI for HR and Marketing | WSJLI
 2026-11-18T08:57:09+00:00|||PASS|||58bd42e6627d7e4a93e486bf8a7dcd7e|||MP|||How Investors May Respond To MP Materials Stock Q3 Earnings Beat
 2026-11-18T08:58:00+00:00|||SENT|||dfd851531535092562217a894aca2700|||COIN|||Ark Invest buys crypto stocks as it sells $85 million in Nvidia, Coinbase brings onchain loans to New York, and more|||Ark Invest 買入加密貨幣股票、賣出 $85 million Nvidia 持股，Coinbase 將鏈上貸款帶入紐約等
+2026-11-18T18:18:25+00:00|||PASS|||ba282cf619238e486050eaade1950030|||WULF|||TeraWulf Stock Climbs After Nvidia’s Better-Than-Expected Q3 Results
+2026-11-18T18:18:32+00:00|||PASS|||de59849a90e17b0b07e24101b7b007da|||GOOGL|||FBI and Google warn AI hacking tools like Artex now break into networks in hours
+2026-11-18T18:18:34+00:00|||PASS|||2287f028ecd7a4dd97761b78ea456363|||GOOGL|||Waymo pulls robotaxis off highways after California ban, with tech seen as 'far from perfect'
+2026-11-18T18:18:35+00:00|||PASS|||eeca6e4b843dd907f32ea8217da464ee|||GOOGL|||California bans Waymo on freeways, Lowe's & TJX earnings: Stories to watch
+2026-11-18T18:18:37+00:00|||PASS|||f6d6b047f27766bd7fede8658995a0cc|||MU|||Micron Stock: 3 Catalysts Set to Boost the Memory Chip Maker Beyond Nvidia Earnings
+2026-11-18T18:18:50+00:00|||SENT|||60f46bd705def51eb38b8be55e01e879|||VUZI|||Vuzix launches sub-40-gram smart glasses reference design By Investing.com|||Vuzix 推出重量低於 40 克的智慧眼鏡參考設計
+2026-11-18T18:18:57+00:00|||PASS|||9d7761fe5617bcd1293c356096d1bfc1|||AVGO|||AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat
+2026-11-18T18:18:58+00:00|||PASS|||62017caedc3677ce95fadaa5d7b4c62b|||AVGO|||NVIDIA Rises 3% After Record Quarter as Wells Fargo Sees $250 and Barclays Backs Board on Huang; Taiwan Semiconductor Climbs 3%, Broadcom Gains 2%
+2026-11-18T18:18:59+00:00|||PASS|||a338ebb2a3332bfcc49de53fea2fbf90|||AVGO|||Broadcom Has a $27 Billion Advantage Over Taiwan Semiconductor as Your Portfolio’s AI Anchor
+2026-11-18T18:19:00+00:00|||PASS|||26db71e951c72f728df26f2ca2812b19|||AVGO|||Who Reaches $100 Billion in TPU Revenue First, Alphabet or Broadcom?
+2026-11-18T18:19:02+00:00|||PASS|||3e7edfe4fc8b842063d783b1559e2791|||COHR|||Applied Optoelectronics Sinks 9% on $550 Million Stock Sale Plan; Coherent and Lumentum Rise 4%
+2026-11-18T18:19:11+00:00|||PASS|||3234600c241340436e31d65b80287ca9|||ECL|||Ecolab (ECL) Grew Earnings 5%. What Held It Back?
+2026-11-18T18:19:17+00:00|||SENT|||9372dac5889316d0c636634959b27c1e|||ECL|||CoolIT & Ecolab launch 3MW CDU|||CoolIT 與 Ecolab 推出 3MW CDU
+2026-11-18T18:19:23+00:00|||PASS|||508ca0706c18f9a0d16f23e87b8f99c8|||MSFT|||Why Microsoft Could Surprise and Hit $4 Trillion Before NVIDIA Does
+2026-11-18T18:19:24+00:00|||PASS|||f78960b99a37c44b6c5ae969f22082ec|||MSFT|||Microsoft Makes Its AI Case After Global Outage and Anthropic Challenge
+2026-11-18T18:19:25+00:00|||PASS|||c0174aa00f5691219aad272db622e679|||MSFT|||Microsoft in talks with ByteDance for additional $500M in cloud usage: report (MSFT:NASDAQ)
+2026-11-18T18:19:30+00:00|||PASS|||0b30fa32b1086d79c5f9bd7093357060|||AAPL|||5 Apple Products To Wait To Buy Until the Holiday Season
+2026-11-18T18:19:32+00:00|||PASS|||720de8599cfc010285a48267cb30387a|||AAPL|||Apple outage affecting iCloud, Apple Pay and other services appears to be resolved
+2026-11-18T18:19:35+00:00|||PASS|||f5f12a4cc9d05fa49e3145f12810fb8c|||TSLA|||Man Calls Elon Musk's Bluff by Attempting To Buy a $30,000 Tesla Cybercab
+2026-11-18T18:19:38+00:00|||PASS|||b3396a4fc94989d281481a88941d8317|||NVDA|||AI chip export controls targeting China gain bipartisan momentum after Nvidia scandal
+2026-11-18T18:19:43+00:00|||SENT|||0f3c5dd0c70153c6215586a22c203753|||NVDA|||Nvidia’s Supply Commitments Hit $390 Billion, Mostly Memory. SK Hynix Is the Real Winner|||Nvidia的供應承諾達$390 Billion，主要是記憶體；SK Hynix才是真正贏家
+2026-11-18T18:19:46+00:00|||PASS|||3a421991c4c6cddaaad98238ebe2ac13|||NVDA|||Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses
+2026-11-18T18:19:47+00:00|||PASS|||6b183091deac44fc019ddf865048c27e|||NVDA|||Janus Henderson's Richard Clode: We have to be patient around Nvidia's board investigation
+2026-11-18T18:19:48+00:00|||PASS|||bb91ba3e773a7a591f3f60ca2c5ef38e|||NVDA|||Why Nvidia doesn't need a 'big splashy hire' to replace Jensen Huang as CEO
+2026-11-18T18:19:54+00:00|||SENT|||5afa29553f8df60ef971557ea758ff76|||NVDA|||How Nvidia’s (NVDA) Planned $10 Billion Anthropic Investment Deepens Its AI Ties|||Nvidia（NVDA）計畫對 Anthropic 投資 $10 Billion，深化 AI 連結
+2026-11-18T18:19:58+00:00|||PASS|||764d2e4161642cfe6934fa6558178513|||AMD|||AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat
+2026-11-18T18:20:03+00:00|||PASS|||6f9accca9ef0f2642461c3bc707bbc19|||ARM|||UpGuard Launches UpGuard Labs as Dedicated Research Arm to Identify and Analyze Breach and Cybersecurity Risks
+2026-11-18T18:20:06+00:00|||PASS|||6628d4c1c43822c1305a83f83ff42f4d|||INTC|||Microsoft and Intel Deepen Collaboration to Deliver Differentiated Azure Infrastructure
+2026-11-18T18:20:08+00:00|||PASS|||a27f72532ff6dd798a5825883cad8060|||INTC|||Intel conducting another round of layoffs: report (INTC:NASDAQ)
+2026-11-18T18:20:09+00:00|||PASS|||7d556f01dfa8d2a5e92b6cfefceda084|||INTC|||INTC Stock Gains Overnight Amid Fresh Layoffs Buzz
+2026-11-18T18:20:11+00:00|||PASS|||f30e094df341cd4055154969f4ac0213|||TSM|||NVIDIA Rises 3% After Record Quarter as Wells Fargo Sees $250 and Barclays Backs Board on Huang; Taiwan Semiconductor Climbs 3%, Broadcom Gains 2%
+2026-11-18T18:20:13+00:00|||PASS|||42d53383530d1e84c9467d8f302ec870|||TSM|||Broadcom Has a $27 Billion Advantage Over Taiwan Semiconductor as Your Portfolio’s AI Anchor
+2026-11-18T18:20:16+00:00|||PASS|||c5872caeb1606bd5c501bf2ab3df6db6|||GFS|||Boston Dynamics to deploy robots at GlobalFoundries' chip plants
+2026-11-18T18:20:21+00:00|||PASS|||3a73e82efc0c3caf7ab9fcd06c3f9851|||SKHY|||SK Hynix (KOSE:A000660) Stock Price Trails Q3 Earnings Strength
+2026-11-18T18:20:23+00:00|||PASS|||21a812b343bc36a5f3b4035f4c4253c4|||SNDK|||SanDisk leads tech stocks with biggest Q3 earnings surprise (VGT:NYSEARCA)
+2026-11-18T18:20:25+00:00|||PASS|||5e4e338592a84176957c6d18a6ad5d16|||WDC|||Western Digital (WDC) Just Replaced Its Loan With A $1.5 Billion Credit Line
+2026-11-18T18:20:49+00:00|||PASS|||2544ec4de2c541703e9917ddb1dffffb|||CRDO|||Credo Q2: Nvidia Just Unleashed A $45 Billion Game Changer (NASDAQ:CRDO)
+2026-11-18T18:20:52+00:00|||PASS|||493c0f46c6fb04402f10b66e93cbfb17|||SMTC|||Gear Up for Semtech (SMTC) Q3 Earnings: Wall Street Estimates for Key Metrics
+2026-11-18T18:20:54+00:00|||PASS|||b38db3e59111d6839ece919c23446f42|||LITE|||Applied Optoelectronics Sinks 9% on $550 Million Stock Sale Plan; Coherent and Lumentum Rise 4%
+2026-11-18T18:20:56+00:00|||PASS|||219cb2ccd0ff3cdf7cf91532a8bc77c1|||AAOI|||Applied Optoelectronics Sinks 9% on $550 Million Stock Sale Plan; Coherent and Lumentum Rise 4%
+2026-11-18T18:21:12+00:00|||PASS|||97398da4aa97979158d0416fd6028617|||HPE|||Gear Up for Hewlett Packard Enterprise (HPE) Q4 Earnings: Wall Street Estimates for Key Metrics
+2026-11-18T18:21:20+00:00|||SENT|||5ba8f0d747776822bd6c5e2c11f7aed7|||ORCL|||Oracle $17 Billion VA Contract Boost Negotiated Quickly by Email|||Oracle與VA的$17 Billion合約增額透過電子郵件迅速協商
+2026-11-18T18:21:24+00:00|||PASS|||73d16d003b884b09a5c065b4e57aab7d|||CRWV|||CoreWeave Stock and More Big Winners From Nvidia Earnings
+2026-11-18T18:21:30+00:00|||SENT|||6ea0fcb68d56fcb2cdec94bc97118d1d|||NBIS|||Nebius Lowers Outlook, Addresses Worries Over Financing AI Buildout|||Nebius下調展望，回應AI建設融資疑慮
+2026-11-18T18:21:32+00:00|||PASS|||3e87be84c3c97e4ac1c0365703ea9636|||NBIS|||Nebius: The $42.5 Billion Financing Question Behind Its AI Growth
+2026-11-18T18:21:34+00:00|||PASS|||9c55ce1c7e50ab41a0a487c0864ce98f|||CIFR|||TeraWulf Rises 6%, Cipher Digital Gains 5% After NVIDIA’s Record Quarter; IREN Climbs 4%
+2026-11-18T18:21:41+00:00|||PASS|||30d20feb28b7b2dd8a9559614de133d6|||SNOW|||Snowflake Short Interest Falls Ahead Of Q3 Earnings
+2026-11-18T18:21:44+00:00|||PASS|||c3ea7b3c64bcd3df459189f3ed42f0f6|||DDOG|||MinIO Announces Strategic Partnership With Datadog to Power Security and Observability Lakehouse for Enterprise AI
+2026-11-18T18:21:50+00:00|||PASS|||a4ba1edfc31ffcc183670171690482d8|||PANW|||Wave of tech outages sets stage for Palo Alto Networks earnings
+2026-11-18T18:21:50+00:00|||PASS|||76f1c5244ee9854c8227932e5a150fa0|||PANW|||Palo Alto Networks Q1 earnings on deck: What to expect (PANW:NASDAQ)
+2026-11-18T18:22:19+00:00|||PASS|||760a963075b95eef82c24ea2de794aca|||SPCX|||Cameron County commissioners reject SpaceX tax break request for $24bn Texas data center
+2026-11-18T18:22:25+00:00|||SENT|||f6dead469042ec552a7ce996022c522a|||SPCX|||SpaceX’s Tax Break Bid For Its $24 Billion Starbase Data Center Quashed As Commissioners Vote Against Public Hearing For 100% 10-Year Abatement|||SpaceX為其$24 Billion Starbase資料中心爭取減稅遭否決，委員投票反對就100%、為期10年的減免舉行公開聽證會
+2026-11-18T18:22:30+00:00|||SENT|||e3aafdd45b537306ce1ad814d3f2b0e4|||SPCX|||Anthropic Will Pay SpaceX Up to $120.5 Billion for Compute Through 2029. That's More Than SpaceX Raised in the Biggest IPO in History.|||Anthropic 將在 2029 年前向 SpaceX 支付最高 $120.5 billion 購買算力，金額超過 SpaceX 歷史最大 IPO 的募資額
+2026-11-18T18:22:34+00:00|||PASS|||a85edb93a1e6a699535b61c43ad4e129|||RKLB|||There Are 8 Billion Reasons to Buy Rocket Lab At $50
+2026-11-18T18:22:59+00:00|||SENT|||c6c9c627eb4dd939d8d0d03281c99614|||ROK|||Rockwell Automation to acquire Austrian robotics firm AGILOX|||Rockwell Automation 將收購奧地利機器人公司 AGILOX
+2026-11-18T18:23:18+00:00|||SENT|||3539cc00262f0aff6a6aa996ef559823|||NEE|||NextEra-Dominion merger hearings kick off with focus on scope|||NextEra-Dominion 合併聽證會開議，聚焦審查範圍
+2026-11-18T18:23:27+00:00|||PASS|||b2b538c2d064de7cddeeaf7811be49b0|||COIN|||Coinbase CEO Wants AI Agents to Hire and Pay Each Other In Decentralized Economy: 'Freedom of Choice and
+2026-11-18T18:23:30+00:00|||PASS|||f3b2f040c3716f370b442e4e8be5dc92|||HOOD|||Robinhood is down nine straight weeks. Here's why it's time to buy
+2026-11-18T18:23:37+00:00|||PASS|||0d857caec3f781cdb5f213a14588c5ce|||MOH|||Molina Healthcare of Illinois Commits $2.4 Million to Expand Access to Care Across the State
+2026-11-18T18:23:40+00:00|||PASS|||c56b9daabce72182450fd4dee78a40a7|||HUM|||Bicycle Health Appoints Former Humana President Bruce Perkins to Board of Directors
+2026-11-18T18:23:41+00:00|||PASS|||43f13cd06b4a081b119de93542bcd727|||HUM|||Humana Foundation Marks 45 Years With Nearly $14 Million in Grants to Expand Healthy Food Access and Help Seniors Feel More Connected – Company Announcement - FT.com
+2026-11-18T18:23:48+00:00|||PASS|||652144095b89865b3e25cc133602ffd7|||ELV|||Argus upgrades Elevance stock rating to buy on 2027 growth outlook
+2026-11-18T18:23:52+00:00|||PASS|||9bb0558cf35002ae029d529d490e78ea|||RSG|||Russian athletes to be banned from entering Czech Republic amid ice hockey row
