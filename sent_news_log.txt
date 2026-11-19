@@ -1,25 +1,4 @@
 @@HEARTBEAT|||2026-11-19|||2026-10-21T13:41:10+00:00
-2026-11-05T08:14:24+00:00|||PASS|||99d1626106459c4448f754e1da6bd904|||CRUS|||Cirrus Logic rides iPhone content wave, but backend squeeze, PC slump cloud the path ahead
-2026-11-05T08:14:33+00:00|||PASS|||1bf79d97cffbc88897d618bcaf1ec8e2|||UMAC|||What To Expect From Unusual Machines Inc (UMAC) Q3 2026 Earnings
-2026-11-05T08:14:54+00:00|||PASS|||5e8fcc2117389e5b2d7ca15e6a6715f3|||MSFT|||The Nasdaq-100 Is Outperforming Nvidia, Microsoft, Amazon, Meta Platforms, Alphabet, and Tesla This Year. Here's My Favorite Low-Cost ETF to Buy the Dip.
-2026-11-05T08:14:57+00:00|||SENT|||0eb7c20d3c0e72f2a83859f3fd9834d6|||AMZN|||Amazon is in talks to buy AI startup Decart for about $7 billion|||Amazon 正洽談以約 $7 billion 收購 AI 新創 Decart
-2026-11-05T08:14:59+00:00|||PASS|||7edf7efbbaaff6f05d0cf07067f9f04c|||AMZN|||Tech layoffs tracker 2026: All the job losses across Canva, Squarespace, Amazon, Microsoft, Apple, Meta and others
-2026-11-05T08:15:03+00:00|||PASS|||3561916d1447db499f4c843db3a1333b|||META|||Meta's US bond sale drew $58B in orders. Now it's tapping Europe.
-2026-11-05T08:15:04+00:00|||PASS|||049d2d247e49df2636a6df94d75d5a03|||META|||The Nasdaq-100 Is Outperforming Nvidia, Microsoft, Amazon, Meta Platforms, Alphabet, and Tesla This Year. Here's My Favorite Low-Cost ETF to Buy the Dip.
-2026-11-05T08:15:08+00:00|||PASS|||e683b177d9c7a31aa183e00187a003dc|||META|||Meta Goes to Europe for Debt After Raising $15 Billion
-2026-11-05T08:15:11+00:00|||PASS|||239d985b2dff4bf6fb58397b4b1a237b|||META|||Meta Stocks Rise 1.77% While $15 Billion Bond Deal Adds a Cash Hurdle
-2026-11-05T08:15:16+00:00|||PASS|||5293b78ea7690c4696b6c34b632eec8e|||TSLA|||Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Ca
-2026-11-05T08:15:18+00:00|||PASS|||1946a82d3e5490d2f62273a67dc0479d|||NVDA|||The Nasdaq-100 Is Outperforming Nvidia, Microsoft, Amazon, Meta Platforms, Alphabet, and Tesla This Year. Here's My Favorite Low-Cost ETF to Buy the Dip.
-2026-11-05T08:15:24+00:00|||PASS|||40cd9497f484023693a1f0e8d0f01c4b|||ARM|||Arm Stocks Move Lower as Tonight's Earnings Face a $1.38 Billion Test
-2026-11-05T08:15:33+00:00|||SENT|||7bf5d8a6ab9742919922f11a3451753a|||GFS|||GlobalFoundries secures nearly US$1 billion in custom chip design wins as it expands into physical AI|||GlobalFoundries取得近US$1 billion客製晶片設計案，拓展實體AI領域
-2026-11-05T08:16:38+00:00|||PASS|||f2d85a057d3f42ad921f79864a1d09f9|||PANW|||Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup
-2026-11-05T08:16:59+00:00|||SENT|||92852a1bd65f73da22ac7ef68e3bf839|||CGNX|||Cognex Corporation (CGNX) Q3 Earnings and Revenues Beat Estimates|||Cognex Corporation (CGNX) 第三季獲利與營收優於預期
-2026-11-05T08:17:10+00:00|||PASS|||7be795e98eeb9704362893090cbfcf0f|||SPCX|||Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Ca
-2026-11-05T08:17:21+00:00|||PASS|||573d0d267843a5941c29da8064b8a85e|||MTRN|||Seaport upgrades Materion stock rating to Buy on valuation By Investing.com
-2026-11-05T08:17:30+00:00|||PASS|||50a880003addf1ce9eb8a700059b9aba|||CMI|||Cummins India shares tank 14% after Q2 results miss; all eyes on earnings call
-2026-11-05T08:17:37+00:00|||PASS|||47851ce47e88d82d135d0f100d2a5a9b|||IONQ|||IonQ (IONQ) Acquires Security Firm And Expands Quantum Access In Connecticut
-2026-11-05T08:17:40+00:00|||PASS|||db427eeaf13648d9774c52b09f2d5983|||CRCL|||Circle CEO Backs Binance Despite $6.3 Billion Hack: ‘Remains an Extraordinarily Powerful Platform’ With
-2026-11-05T08:17:46+00:00|||PASS|||95a40ff68892b8c127cb2fff86b7c58d|||ABBV|||AbbVie (ABBV) Stock Climbs As Q3 Earnings Fuel Growth Case
 2026-11-05T17:32:47+00:00|||SENT|||c1b1add6e5dd9734bfaf8ad846b74ce7|||EOSE|||Eos Energy Enterprises, Inc. (EOSE) Reports Q3 Loss, Beats Revenue Estimates|||Eos Energy Enterprises, Inc. (EOSE)公布第三季虧損，營收高於預期
 2026-11-05T17:32:55+00:00|||PASS|||37bf96eabe76ef283dffb2848084262e|||GOOGL|||Google AI in School Triggered Teen’s Mental Health Crisis, Lawsuit Says
 2026-11-05T17:32:57+00:00|||PASS|||a49240060a3c194b80d9d3fb827443ec|||GOOGL|||Google Joins The Surge Of Tech Layoffs
@@ -1410,3 +1389,22 @@
 2026-11-19T02:44:17+00:00|||PASS|||6df47bfa27a8f35659fa55893d99d7c0|||SPCX|||Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX
 2026-11-19T02:44:26+00:00|||PASS|||c901a5197d8c801e446e6b7721ee22b5|||USAR|||USA Rare Earth director Michael Blitzer acquires nearly $3 million in shares By Investing.com
 2026-11-19T02:45:07+00:00|||PASS|||429a3a631ab83d8494a3a2c83a58baf7|||COIN|||Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam
+2026-11-19T09:10:42+00:00|||PASS|||e60c710fa2143b677d119836ee68c9f3|||FCEL|||FuelCell Energy Inc. stock falls Wednesday, underperforms market
+2026-11-19T09:10:54+00:00|||PASS|||e39bd9fbc312acb16d0104dec0f9eae4|||MSFT|||Video: Microsoft’s C.E.O. Satya Nadella Addresses Global Outlook Outage
+2026-11-19T09:10:56+00:00|||PASS|||4e406b04a678a9cf10b934cf17a3e507|||MSFT|||Microsoft’s Windows security fix has a loophole, and hackers could use it to gain full control
+2026-11-19T09:11:01+00:00|||PASS|||92085c2702eed2d875a9702e67dae7c4|||META|||Meta Halts Mark Zuckerberg’s New Share Issuance Plan Amid Investor Lawsuit Alleging CEO Pressured Board t
+2026-11-19T09:11:04+00:00|||PASS|||3847a780b7da6761e22db0e35e2c9d27|||META|||Meta pauses plans to create non-voting share class after investor lawsuit
+2026-11-19T09:11:11+00:00|||PASS|||a9e91427f642e3f8867bc9aeaf5688bd|||NVDA|||Nvidia Sizes Up Arm CEO Haas in Search for Huang Successor
+2026-11-19T09:11:17+00:00|||SENT|||3aeaae72074e2f9598e4ebcdab422d4e|||NVDA|||Nvidia reportedly approaches Arm CEO Rene Haas for top job after Jensen Huang exit|||據報 Nvidia 在 Jensen Huang 離任後接洽 Arm CEO Rene Haas 出任最高職位
+2026-11-19T09:11:26+00:00|||PASS|||8fe5b58340718668065fa491e0563991|||INTC|||Intel conducts another round of layoffs as part of ‘broader strategy,’ company says
+2026-11-19T09:11:32+00:00|||PASS|||99e5dd6be18427aa3c50949f2fc34fa4|||GFS|||GlobalFoundries invests US$10 million in India-based Cyient Semiconductors
+2026-11-19T09:12:27+00:00|||PASS|||3e053896ebf35e3ff851499093a08b5a|||DELL|||A $95 billion backlog at 18x P/E: What Dell dip-buyers are missing
+2026-11-19T09:12:33+00:00|||PASS|||8a35105567de0d2f625b6bb7ec3d1c19|||CRWV|||CoreWeave’s McBee Favors Tech Spending Over Debt Buyback
+2026-11-19T09:12:41+00:00|||PASS|||2f5b772c9330c247ee8f898f94ae86e3|||CRM|||CRM Stock Layoffs: What to Know as Salesforce Reportedly Begins More Job Cuts
+2026-11-19T09:12:49+00:00|||PASS|||9f1c4be9a7f599bbc832ebea03b91631|||PANW|||Palo Alto Networks Shares Rise After Earnings Beat
+2026-11-19T09:13:24+00:00|||PASS|||a2ed151474b408537f81328066796b32|||SPCX|||David Ellison Calls Elon Musk’s $1 Billion Investment ‘an Honor and a Privilege,’ Open to Future Starlink Collaboration
+2026-11-19T09:13:25+00:00|||PASS|||f5ed80db3383687788881949d9bcf26b|||SPCX|||Anthropic Raises $107.3 Billion to Top SpaceX’s Record Debut
+2026-11-19T09:13:26+00:00|||PASS|||ea3db589d0b84de187dab1a19b74c22a|||SPCX|||Anthropic Raises Record $107.3 Billion IPO Surpassing SpaceX
+2026-11-19T09:13:36+00:00|||PASS|||522e07cc0ace35014817bffda794b7fb|||USAR|||USA Rare Earth director Michael Blitzer acquires nearly $3 million in shares
+2026-11-19T09:14:08+00:00|||PASS|||1ac91d6b4ca80f3f3820ac09dea2b507|||IONQ|||IonQ: Crashing On Dilution Pain
+2026-11-19T09:14:23+00:00|||SENT|||9f0b174a89a1285a79fed595424eb58c|||ABBV|||AbbVie expands bispecific cancer med push with up to $2.5 billion deal with Germany's Disco|||AbbVie以最高$2.5 billion與德國Disco達成交易，擴大雙特異性癌症藥物布局
