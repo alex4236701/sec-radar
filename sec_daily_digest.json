@@ -1,1 +1,34 @@
-[]
+[
+ {
+  "date": "2026-11-19",
+  "form": "10-K",
+  "holding": false,
+  "text": "10-K 年報",
+  "ticker": "KLIC",
+  "url": "https://www.sec.gov/Archives/edgar/data/56978/000005697826000040/klic-20261003.htm"
+ },
+ {
+  "date": "2026-11-19",
+  "form": "10-Q",
+  "holding": false,
+  "text": "10-Q 季報",
+  "ticker": "PANW",
+  "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000033/panw-20261031.htm"
+ },
+ {
+  "date": "2026-11-19",
+  "form": "424B5",
+  "holding": false,
+  "text": "424B5 公司發債（初步說明書，尚未定價）",
+  "ticker": "ROK",
+  "url": "https://www.sec.gov/Archives/edgar/data/1024478/000119312526467903/d144291d424b5.htm"
+ },
+ {
+  "date": "2026-11-19",
+  "form": "10-K",
+  "holding": false,
+  "text": "10-K 年報",
+  "ticker": "APD",
+  "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000050/apd-20260930.htm"
+ }
+]
