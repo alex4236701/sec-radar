@@ -1,50 +1,4 @@
-@@HEARTBEAT|||2026-11-19|||2026-10-21T13:41:10+00:00
-2026-11-06T00:59:28+00:00|||PASS|||e68884f8ac2cbba621004d5bd545541f|||GOOGL|||'A spiteful move': Google to end search engine access for schools that ban AI use
-2026-11-06T00:59:30+00:00|||PASS|||02bd920e4f56954e78cde7103a2d2b8a|||GOOGL|||Google plans $17 billion Wyoming data center amid rising threats of curbs
-2026-11-06T00:59:34+00:00|||PASS|||e22d42c0c35869d96396f165dc0511c6|||GOOGL|||Alphabet's Google Plans $17 Billion Investment in Wyoming Data Center
-2026-11-06T00:59:41+00:00|||PASS|||2baaff302f688b51996fcec816ca785b|||TTMI|||TTM TECHNOLOGIES, INC. TTMI INVESTORS: Contact Kirby McInerney LLP About the Firm’s Securities Investigation Following 27.7% Share Drop
-2026-11-06T00:59:50+00:00|||PASS|||2c360d179dc6dbfcbfdc39f9a2c3b7a5|||WOLF|||Wolfspeed: Still Bullish After A Post-Earnings Wipeout (NYSE:WOLF)
-2026-11-06T01:00:06+00:00|||PASS|||20a19410c4876115d688ad23107059bf|||MSFT|||IREN tops quarterly revenue estimates, delays some Microsoft AI infrastructure deliveries
-2026-11-06T01:00:08+00:00|||PASS|||91d4ef93cad591a2d371596c1b732647|||MSFT|||Microsoft Q3 Earnings: The Only Top AI Hyperscaler Generating Positive FCF (Rating Downgrade)
-2026-11-06T01:00:15+00:00|||SENT|||da62067354710f9412848a631fda36e1|||META|||Meta Platforms completes $15 billion senior notes offering and issues additional shares|||Meta Platforms 完成 $15 billion 優先票據發行並額外發行股份
-2026-11-06T01:00:21+00:00|||PASS|||5690a488c416c451a0c2e3333d119d53|||TSLA|||The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $456 billion two-day wipeout
-2026-11-06T01:00:22+00:00|||PASS|||3d12bd1de14d41f5adf30157b7e9a0c3|||TSLA|||Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms
-2026-11-06T01:00:25+00:00|||PASS|||9fa11fb9cf83efe11895f0c848bcbfa5|||NVDA|||Watch Nvidia Plunges 9% as AI Selloff Wipes Out $2.3 Trillion | Closing Bell
-2026-11-06T01:00:28+00:00|||PASS|||fadf3fa3707c95947a74b7e5ee8d6d5a|||NVDA|||Nvidia CEO Pressed by US Lawmakers Over Tie to Firm in Spy Probe
-2026-11-06T01:00:29+00:00|||PASS|||be25e6b0ebaab5ee1a37139766a1d335|||NVDA|||NVIDIA’s Vendor Financing Deals Are Not A Ponzi Scheme As It Is Slated To “Take Out $420 Billion” By Putting In $250 Billion, Says Tech Venture Capitalist Gene Munster
-2026-11-06T01:00:33+00:00|||PASS|||0888685b6c7ad2350d6abc98aa04614d|||MRVL|||Marvell's Deal to Acquire Lumentum Could Be a Game Changer for the Stock
-2026-11-06T01:00:46+00:00|||PASS|||1e88a99df4064b4a09e2509d846c000f|||SKHY|||SK Hynix (NasdaqGS:SKHY) Hits U.S. License Delays On $45 Billion New York Plants
-2026-11-06T01:00:59+00:00|||SENT|||c570e51952c233e1bbff804bd4e63552|||LRCX|||Lam Research approves $25B buyback, $0.33 quarterly dividend|||Lam Research 批准 $25B 庫藏股回購及每季 $0.33 股利
-2026-11-06T01:01:25+00:00|||SENT|||ce187f705b70b61e5a746012bc8a2542|||LITE|||Marvell to buy Lumentum in $115 billion all-stock deal — combined company to supply scale-up and scale-in optics for AI data centers|||Marvell 將以 $115 billion 全股票交易收購 Lumentum，合併後公司將為 AI 資料中心供應 scale-up 與 scale-in 光學產品
-2026-11-06T01:01:28+00:00|||PASS|||947f0c267277d2ed68432227b4384764|||LITE|||Marvell's Deal to Acquire Lumentum Could Be a Game Changer for the Stock
-2026-11-06T01:01:30+00:00|||PASS|||420681d2aa8a9605695535444a31f318|||AAOI|||What Applied Optoelectronics (AAOI) Said on Its Q3 Earnings Call
-2026-11-06T01:01:33+00:00|||PASS|||1a6d68c34ed8a0df1fdc762959808d6d|||AAOI|||Applied Optoelectronics Stock Tumbles Despite Q3 Earnings Beat
-2026-11-06T01:01:37+00:00|||SENT|||7da23d34183bb6e2ceda90345ad98fb8|||AAOI|||Applied Optoelectronics: Q3 Earnings Snapshot|||Applied Optoelectronics：第三季財報摘要
-2026-11-06T01:02:01+00:00|||PASS|||4f16a0fbf7e843df19a22b4a2d941fe9|||CIFR|||TeraWulf Falls 4% Despite Google Backstop for $19 Billion Anthropic Leases; Cipher Digital Plunges 18%, IREN Tumbles 9%
-2026-11-06T01:02:05+00:00|||PASS|||b52447e7f1364f8d078f6f220fe88b86|||PLTR|||Palantir Made $2.3 Billion Last Quarter and Calls Itself Antiwar
-2026-11-06T01:02:14+00:00|||PASS|||9f11dd0fb2c923d7dd7e2cf1fdcef61c|||IBM|||Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits
-2026-11-06T01:02:16+00:00|||PASS|||eaedec01feeb82ef16322044675e5cbf|||IBM|||IBM, AMD, Oak Ridge National Laboratory launch quantum error correction platform
-2026-11-06T01:02:25+00:00|||PASS|||b1acf8ac3ddc96680fb5e153732ea95a|||NET|||Cloudflare Stock Rises After Q3 Results: CEO Says ‘Best Quarter Ever’
-2026-11-06T01:02:29+00:00|||SENT|||84072b1bf75e190ff6e28d231cd32508|||NET|||Cloudflare Stock Surges on Lifted Full-Year Outlook, Third-Quarter Revenue Growth|||Cloudflare 上調全年展望、第三季度營收成長，股價大漲
-2026-11-06T01:02:32+00:00|||PASS|||5bd8832e9654ddad20bd698a28843126|||NET|||Cloudflare Earnings Beat. Software Maker Rebounds From AI Stock Rout.
-2026-11-06T01:02:35+00:00|||SENT|||4e2b32a3421c9e4cebfcb4639ccba2b7|||NET|||Cloudflare names Christian Smith as president of revenue By Investing.com|||Cloudflare 任命 Christian Smith 為營收總裁
-2026-11-06T01:02:39+00:00|||PASS|||ece38a0c4b3be2147077fd2bcb3f75cc|||AKAM|||What Akamai Technologies (AKAM) Said on Its Q3 Earnings Call
-2026-11-06T01:02:40+00:00|||PASS|||fb5e70d18fffce6a6ac2f5dd5ddee9fe|||AKAM|||A Tale of Two Data Center Stocks: Why Akamai Stalled and Iren Popped on Earnings
-2026-11-06T01:02:43+00:00|||PASS|||d43fbb67fc492988e67c81b27475f717|||AKAM|||Akamai Technologies (AKAM) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates
-2026-11-06T01:02:47+00:00|||SENT|||01fa0d23f6719d8ff378fd9725443e17|||AKAM|||Akamai Technologies (AKAM) Q3 Earnings and Revenues Surpass Estimates|||Akamai Technologies (AKAM) 第三季獲利與營收均超出預期
-2026-11-06T01:03:09+00:00|||PASS|||c8ae808a37a5ab21e64a856da48fc380|||SPCX|||The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $456 billion two-day wipeout
-2026-11-06T01:03:11+00:00|||PASS|||03286332f4b323aeb1be03972e6ec18d|||SPCX|||Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms
-2026-11-06T01:03:13+00:00|||PASS|||272bc45b8a6c56d1bab10fd9651fe81b|||SPCX|||Elon Musk's SpaceX Default Risk Hits Record High as Democratic Sweep Adds to AI Rout
-2026-11-06T01:03:21+00:00|||SENT|||2d0113f512588875b178bbf9d1414c36|||VSAT|||ViaSat: Fiscal Q2 Earnings Snapshot|||ViaSat：第二財季業績速覽
-2026-11-06T01:03:29+00:00|||SENT|||5e1a7e0eea89fc188f51e8f81a97bf97|||MP|||MP Materials Q3 results beat expectations on rising sales, US price support|||MP Materials 第三季業績因銷售增加及美國價格支持而優於預期
-2026-11-06T01:03:31+00:00|||PASS|||3f5f1c0358ffa87726f0c7a5a2659c98|||MP|||MP Materials Rare-Earth Earnings Were Rock Solid. What’s Up With the Stock?
-2026-11-06T01:03:52+00:00|||PASS|||73ba1b39ad1d759c0c615b91f475465d|||IONQ|||Quantum Computing Stocks: IonQ, Quantinuum Q3 Results, Guidance Top Views
-2026-11-06T01:03:53+00:00|||PASS|||4e6769a195be24a4515c159e8ada7d74|||IONQ|||IonQ CEO Doubles Down on Vision for Quantum Dominance After Blowout Earnings
-2026-11-06T01:03:56+00:00|||SENT|||a391ac4fc4d80e12c345bb8fa3235b8c|||IONQ|||IonQ Tops Estimates in Q3, Raises 2026 Outlook|||IonQ 第三季業績超出預期，上調2026年展望
-2026-11-06T01:04:01+00:00|||PASS|||70813126614251e97e163b1df8b9ae3e|||IONQ|||IonQ Sees Revenue Quadrupling on Quantum Computing Demand
-2026-11-06T01:04:04+00:00|||PASS|||b622bd7bf259796820c48c902cd201d7|||QNT|||Quantinuum Stock Rises After Earnings Beat. It Has Big Ambitions.
-2026-11-06T01:04:06+00:00|||PASS|||ee8297f2ef541a18b782bfc84ddf5006|||QNT|||Quantum Computing Stocks: IonQ, Quantinuum Q3 Results, Guidance Top Views
-2026-11-06T01:04:10+00:00|||SENT|||8746dd62a2834a32c76eea5211c89462|||QNT|||Quantinuum ticks up as it boosts full-year guidance (QNT:NASDAQ)|||Quantinuum上調全年展望，股價小幅走高
+@@HEARTBEAT|||2026-11-20|||2026-10-21T13:41:10+00:00
 2026-11-06T08:17:47+00:00|||SENT|||2663f3830ab009ffd0a22c89dc06ac78|||GOOGL|||Google, Meta and TikTok Sue California Over Ban on Features for Kids|||Google、Meta 和 TikTok 就加州禁止兒童使用某些功能提起訴訟
 2026-11-06T08:17:59+00:00|||SENT|||5181a5e4a14b5c72168b2aa9cc9194c2|||UMAC|||Unusual Machines, Inc. (UMAC) Reports Q3 Loss, Beats Revenue Estimates|||Unusual Machines, Inc. (UMAC) 公布第三季虧損，營收優於預期
 2026-11-06T08:18:06+00:00|||PASS|||0f69da8b34725e2adb69f4fbedc31f96|||VSH|||Is Vishay Intertechnology (VSH) A Bargain After Record Revenue?
@@ -1403,3 +1357,36 @@
 2026-11-19T20:53:28+00:00|||PASS|||9afca0ef17db2a688e6a11bf8c26c0f8|||SPCX|||Musk Says Tesla-SpaceX Merger Shouldn’t Earn Extra Pay - SpaceX (NASDAQ:SPCX)
 2026-11-19T20:53:29+00:00|||PASS|||1e25d184e303db49c4dfcae778ef8828|||SPCX|||Elon Musk's Latest Calls For Tesla-SpaceX Merger; Explains Pay Package
 2026-11-19T20:54:13+00:00|||PASS|||2378de6ba2900673ea2f8e1db64c1521|||COIN|||Coinbase CEO Wants AI Agents to Hire and Pay Each Other In Decentralized Economy: 'Freedom of Choice and Real Competition'
+2026-11-20T02:26:10+00:00|||PASS|||580981a8badf83547682dd648f60b39f|||GOOGL|||Google’s SpaceX Stake Lost More Than $10 Billion in Value Last Quarter While Its Share Count Edged Up
+2026-11-20T02:26:13+00:00|||PASS|||da8180251ba04bea1bab0743259f4533|||MU|||Micron Vs. Sandisk: Stress-Testing The $89 Billion Contract Book For A 2027 NAND Glut (MU)
+2026-11-20T02:26:21+00:00|||PASS|||d4f6281eb392bff48d3836231d55cb4b|||ONDS|||Unusual Machines Rallies 7% on Oppenheimer’s $30 Target; Red Cat Falls 7% in Extended Post-Earnings Rout, Ondas Holds Steady
+2026-11-20T02:26:38+00:00|||PASS|||57fbf02535913fb5cbfb48ed28805efd|||ECL|||BMO reiterates Outperform on Ecolab stock, cites growth outlook
+2026-11-20T02:26:44+00:00|||PASS|||61ffe723f578a19bd110e6d2945fcfbe|||MSFT|||‘The whole internet screams at once’: Downdetector logged 6.4 million U.S. outage reports in a week as Microsoft, the FAA, Chase, and Apple went down
+2026-11-20T02:26:50+00:00|||PASS|||1b0cec43d6051666ab2cf46be924a9bd|||AAPL|||‘The whole internet screams at once’: Downdetector logged 6.4 million U.S. outage reports in a week as Microsoft, the FAA, Chase, and Apple went down
+2026-11-20T02:26:54+00:00|||PASS|||dc9c56b423223a344323c65de3e776af|||TSLA|||Musk Says Tesla-SpaceX Merger Shouldn’t Earn Extra Pay - SpaceX (NASDAQ:SPCX)
+2026-11-20T02:27:02+00:00|||SENT|||5413bd50b99037caa6e88fafd8f47afb|||NVDA|||US approved sale of Nvidia and AMD chips to Chinese companies|||美國批准向中國公司銷售 Nvidia 和 AMD 晶片
+2026-11-20T02:27:09+00:00|||SENT|||3127f57127e000ad9461d2caaaf35a5e|||NVDA|||Nvidia Faces California Subpoena as Its Regulatory Troubles Grow|||Nvidia 面臨 California 傳票，監管麻煩持續增加
+2026-11-20T02:27:12+00:00|||PASS|||6c62890bd01bb69ef37b093057b18f65|||AMD|||AMD stock plunges after short-seller says the chip maker has its own China problems
+2026-11-20T02:27:13+00:00|||PASS|||7d79637b2ebdb9e6ec4e2ed47faea81d|||AMD|||AMD: Why I See Opportunity After The Hunterbrook Short Report (NASDAQ:AMD)
+2026-11-20T02:27:17+00:00|||PASS|||110e8768f4e4a32b03f72d31143fc54d|||QCOM|||Why It’s Time to Buy the Pullback in Qualcomm Stock
+2026-11-20T02:27:19+00:00|||PASS|||6bf8b01eceac8e8e062096aa888c3d83|||ARM|||Who Is Rene Haas? What to Know About the Arm CEO as Nvidia Searches for Jensen Huang's Successor
+2026-11-20T02:27:24+00:00|||PASS|||cb1e9167c1f9cd824a32c6b34a56faec|||INTC|||Crunchbase, Intel add to wave of Bay Area tech layoffs
+2026-11-20T02:27:27+00:00|||PASS|||f9f33c7a06800361fd3e5971afe57f70|||INTC|||Intel cuts more jobs as CEO's restructuring continues
+2026-11-20T02:27:35+00:00|||PASS|||001ee39221f82d39af8e6aeffa8fb70c|||SNDK|||Micron Vs. Sandisk: Stress-Testing The $89 Billion Contract Book For A 2027 NAND Glut (MU)
+2026-11-20T02:27:59+00:00|||PASS|||b809b329fdca449a22bf72bb79c2918e|||ALAB|||Astera Labs and Credo Each Trade About 60% Below Their Highs. Only One Still Needs a $1.46 Billion Second Half
+2026-11-20T02:28:56+00:00|||SENT|||9dc2b59909324e9b1d8f205bfbbb16dd|||KEYS|||Keysight Technologies beats estimates, guides above consensus|||Keysight Technologies 財報優於預期，財測高於市場共識
+2026-11-20T02:28:59+00:00|||PASS|||a59d1c372798e0ffae4d5f3372f8176c|||KEYS|||Compared to Estimates, Keysight (KEYS) Q4 Earnings: A Look at Key Metrics
+2026-11-20T02:29:00+00:00|||PASS|||ff269b042b16ff0ca599182ec1dc0c2a|||KEYS|||Keysight (KEYS) Tops Q4 Earnings and Revenue Estimates
+2026-11-20T02:29:14+00:00|||PASS|||883376e19e583408bc7d4a41720a361f|||SPCX|||Lenders aim to bar SpaceX from launching $40bn of chips into orbit
+2026-11-20T02:29:16+00:00|||PASS|||db6552658f893f42a366192f4c1a9edc|||SPCX|||SpaceX Sells $32 Billion of AI Chip Debt at Yields Topping 8%
+2026-11-20T02:29:17+00:00|||PASS|||2ed3f5ba805b1eed6ebc6ce87d3b8f08|||SPCX|||Anthropic’s IPO nets Goldman Sachs and Morgan Stanley $113 million apiece in fees, eclipsing their SpaceX paydays
+2026-11-20T02:29:21+00:00|||PASS|||8159d2b79a1ef766393166a156141736|||SPCX|||Arizona AG Asks to Delay Vote on $50 Billion SpaceX Data Center
+2026-11-20T02:29:23+00:00|||PASS|||fbb5a4271b8fd125890be05fcc15faf7|||SPCX|||Anthropic IPO Nets Wall Street Underwriters $550 Million, Topping SpaceX
+2026-11-20T02:29:24+00:00|||PASS|||a26edda967a80602bc1356293a8328d0|||SPCX|||Google’s SpaceX Stake Lost More Than $10 Billion in Value Last Quarter While Its Share Count Edged Up
+2026-11-20T02:29:25+00:00|||PASS|||e606ae6812d46b1144294d207d37c5a7|||SPCX|||SpaceX Stock Fails to Reach Orbit After Anthropic’s Blockbuster Debut
+2026-11-20T02:29:27+00:00|||PASS|||3f75264eed9ba2a7d413b24dad43d67d|||SPCX|||‘Misanthropic and evil’: Elon Musk’s SpaceX may get up to $120.5 billion from Anthropic, the AI lab he once slammed
+2026-11-20T02:30:07+00:00|||SENT|||1cab8bc60c040787fceb579252b9c9e4|||NEE|||US DOJ antitrust division closes probe of NextEra Energy's acquisition of Dominion Energy|||美國司法部反壟斷部門結束對 NextEra Energy 收購 Dominion Energy 的調查
+2026-11-20T02:30:18+00:00|||PASS|||3a675fc141f9b473cb60e3d9fd09934e|||DHR|||Point-of-Care/Rapid Diagnostics - Global Strategic Business Report 2026: Capture a $40.7 Billion Market by 2032 with Abbott, Roche, Danaher and Siemens
+2026-11-20T02:30:26+00:00|||PASS|||1064914e8473ba61a60032d94a26cb3a|||HUM|||Humana Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into Humana (HUM)
+2026-11-20T02:30:29+00:00|||PASS|||c51382b79ead26e808e565d88c9fc4f1|||UNH|||UnitedHealth Group Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into UnitedHealth Group (UNH)
+2026-11-20T02:30:38+00:00|||PASS|||68ca441f1d9bb7341afb482c8ba7ee99|||RSG|||Gap Cuts Outlook on Weakness at Banana Republic and Old Navy
