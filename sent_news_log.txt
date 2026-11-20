@@ -1,26 +1,4 @@
 @@HEARTBEAT|||2026-11-20|||2026-10-21T13:41:10+00:00
-2026-11-06T19:35:07+00:00|||PASS|||fead39c38ae4b2db548bb79e1d53cb65|||GOOGL|||Google Plans $17B Wyoming Data Center
-2026-11-06T19:35:26+00:00|||PASS|||83b98648a3d7bdd2f50f0d40d2790e46|||CIEN|||Ciena Eyes 30% Revenue Growth in FY27: Can Strong Demand Sustain It?
-2026-11-06T19:35:29+00:00|||PASS|||76ac2f538e9ed84f9ebbff3d8d33877c|||FCEL|||FuelCell Energy Inc. stock falls Thursday, underperforms market
-2026-11-06T19:35:41+00:00|||PASS|||e4bc79550eca65ca87315db89cd8a250|||META|||Mark Cuban Accuses Facebook of Running AI Deepfake Scams as $16 Billion Revenue Estimate Emerges
-2026-11-06T19:35:46+00:00|||PASS|||81ecf233ff1670a819ceefb56e90e7a1|||AAPL|||Apple Pulls in $31 Billion of Orders for a $7.5 Billion Bond Sale
-2026-11-06T19:35:51+00:00|||SENT|||ebb86b30446d4a7281ce74a39fb59666|||AAPL|||Apple boosts purchase commitments by $33B amid memory crunch|||Apple 因記憶體供應吃緊增加 $33B 採購承諾
-2026-11-06T19:35:55+00:00|||PASS|||778de63bb69ce17ced40941be2df8978|||TSLA|||Tesla Cybertruck's bumpy run: cracked windows, long delays and 11 recalls
-2026-11-06T19:35:57+00:00|||PASS|||644c5027731cf5d013575244cf7c7bfe|||TSLA|||‘He wants the whole bag:’ A SpaceX-Tesla merger could help Elon Musk gain major control — without hitting lofty goals
-2026-11-06T19:35:59+00:00|||PASS|||97192599fd9bce719c58e00a33fb5ff7|||NVDA|||Nvidia Just Had Its Worst Day Since DeepSeek, Losing About $450 Billion
-2026-11-06T19:36:03+00:00|||PASS|||db82bbb6abf6299b86116d84ade21fec|||MRVL|||Marvell Is Betting $115 Billion on 1 of AI's Biggest Bottlenecks
-2026-11-06T19:37:07+00:00|||PASS|||2506e7d69234f983b68eea87eacea65e|||PLTR|||Stock Market Suffers Ugly Losses In Election Week; Apple, Palantir Led Key Earnings: Weekly Review
-2026-11-06T19:37:08+00:00|||PASS|||10b06f1bd4a936f07f52adf5a7ab08fc|||PLTR|||Palantir Stock Is Down 19% From Its Highs. Time to Buy the Dip?
-2026-11-06T19:37:11+00:00|||PASS|||ba223bea32aa6a880669e7392ba435d4|||NOW|||ServiceNow Stocks Move Lower as New Layoff Round Follows 35% Slide
-2026-11-06T19:37:19+00:00|||SENT|||857e30a29ef0d3fc13df7b230dfed183|||CRM|||Deal Dispatch: Salesforce Buys Cresta, CrowdStrike Acquires Two AI Companies, Out West Restaurant Group B|||交易快訊：Salesforce 收購 Cresta，CrowdStrike 收購兩家 AI 公司，Out West Restaurant Group B
-2026-11-06T19:37:21+00:00|||PASS|||7db1c3afff06ccc8de89efcba22e7da1|||CRM|||Salesforce Bets on AI Voice Agents With Planned Cresta Acquisition
-2026-11-06T19:37:33+00:00|||PASS|||76081bf131b264d7a7c9aafc7c0f63db|||NET|||Cloudflare Stock Surges After AI Slump. What Its Earnings Bump Says About Tech Fears.
-2026-11-06T19:37:56+00:00|||PASS|||15a8964aa31f0cbe078de5b3efaedb35|||SPCX|||SpaceX to Get Under 10% of Revenue From US Government, Musk Says
-2026-11-06T19:37:57+00:00|||PASS|||607cce47f60610e9d1c33692db319807|||SPCX|||Cathie Wood Makes $437 Million In Trades. Adds Nvidia, SpaceX; Offloads Broadcom
-2026-11-06T19:37:58+00:00|||PASS|||3d10034a429e2afc2fba54b8de44c3e4|||SPCX|||SpaceX Soars 6% as AI Stocks Rebound From $420 Billion Post-Midterm Musk Selloff
-2026-11-06T19:38:00+00:00|||PASS|||a83fb923b50575994febc220ae8f331b|||RKLB|||Better Space Stock: Rocket Lab vs. AST SpaceMobile (Hint: It Comes Down to Dilution)
-2026-11-06T19:38:24+00:00|||PASS|||c7e793b3510fe7825ecb5f1d11e5d361|||IONQ|||IonQ Shares Surge 10% As Analysts See Acquisition Opportunities, Sold-Out 2027 Capacity And Quantum Secur
-2026-11-06T19:38:38+00:00|||PASS|||073d75e9616cdc6fa91a610fa99101f0|||RSG|||Onsemi (ON) Scraps Plan for $2 Billion Expansion in Czech Republic
 2026-11-07T00:10:07+00:00|||PASS|||7307e42b452c4c55750603d09c3cf59b|||GOOGL|||Google Acquires Qualcomm Stake Through Modular Purchase
 2026-11-07T00:10:09+00:00|||PASS|||0ea43ab5057aa2998e6cf0ef7c76b4c8|||GOOGL|||Alphabet takes $548 million stake in partner Qualcomm in data center push By Reuters
 2026-11-07T00:10:13+00:00|||PASS|||c70fcd8060872949a2e982cc1c6fe339|||GOOGL|||Google acquires Wyoming data center site from AI infrastructure firm Crusoe
@@ -1401,3 +1379,24 @@
 2026-11-20T18:00:21+00:00|||PASS|||881221a3ab7bef451a13b0c6d6180603|||HUM|||TD Cowen lifts UnitedHealth, Humana to Buy on improved earnings outlook
 2026-11-20T18:00:26+00:00|||SENT|||aa7902ab758f4c15c087d87808c81716|||UNH|||UnitedHealth sues US government over lowered Medicare Advantage star ratings|||UnitedHealth 就 Medicare Advantage 星級評分遭下調起訴美國政府
 2026-11-20T18:00:29+00:00|||PASS|||e8ac51e097e242448a4fe605c17226a9|||UNH|||TD Cowen lifts UnitedHealth, Humana to Buy on improved earnings outlook
+2026-11-20T20:35:01+00:00|||PASS|||e9ddcc2834751bfcc3673fb6bc3242e0|||UUUU|||Energy Fuels Inc. Securities Violation Investigation – Robbins LLP is Investigating the Officers and Directors of UUUU for Breaches of Fiduciary Duty and Violations of Securities Laws
+2026-11-20T20:35:10+00:00|||PASS|||69cfa7fe1962f32c5b0012e988e1fa47|||GOOGL|||Waymo recalls self-driving cars over closed freeway lanes, manual traffic control By Reuters
+2026-11-20T20:35:14+00:00|||PASS|||3d61dd51553377c08367bed1dcae8481|||GOOGL|||Waymo recalls self-driving cars over closed freeway lanes, manual traffic control
+2026-11-20T20:35:22+00:00|||PASS|||54d3379d58bdc7b74c250a8a6d3c22dd|||AMKR|||What Amkor Technology Stock's Dividend Increase Means For Shareholders
+2026-11-20T20:35:47+00:00|||PASS|||f1481446a02a6c16e3378637dcb96573|||AMZN|||Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university
+2026-11-20T20:35:49+00:00|||PASS|||c4e8e3dcc9db0e75561166db1cf1b1c7|||META|||Meta is stuck in a trading range. The charts show where to buy
+2026-11-20T20:35:54+00:00|||PASS|||440abadc186fe2f6023bd5e5afd0c0ac|||TSLA|||Tesla-SpaceX Merger Could Hand Elon Musk a 60% Stake — and TSLA Holders a 33% Premium, Analyst Says
+2026-11-20T20:35:59+00:00|||SENT|||12fb1d7093e6b29f8ccb331682bfc3c9|||NVDA|||Nvidia shares fall 11.5% as report of SEC accounting probe adds to pressure|||報導稱SEC會計調查加劇壓力，Nvidia股價下跌11.5%
+2026-11-20T20:36:02+00:00|||PASS|||9ae29f6c7f3d807dbe6884a0aeaa61d5|||NVDA|||Nvidia’s accounting practices are focus of probe by Wall Street regulators: report
+2026-11-20T20:36:03+00:00|||PASS|||854c6c8dc5011d63fc9ffc08ad51281b|||NVDA|||Nvidia stock extends $2.5 trillion rout as SEC probe reportedly investigates its accounting
+2026-11-20T20:36:05+00:00|||PASS|||e15ce7922babab3886db9adf97a806ef|||NVDA|||EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say
+2026-11-20T20:36:06+00:00|||PASS|||24306ba2e779e28ad1c148534e1c9164|||NVDA|||Is Nvidia's $81 Billion Receivables Pile A Risk?
+2026-11-20T20:36:09+00:00|||PASS|||1acc2abc352c04cc1d68f07ae0809da0|||AMD|||AMD Stock Gets Crushed by Anthropic’s Drop and a Short Report. It’s No Time to Panic.
+2026-11-20T20:36:15+00:00|||PASS|||c44fcbba2632678f6b8ea72415988fd7|||INTC|||Tech layoffs tracker 2026: All the job losses across Disney, Intel, Amazon, Microsoft, Apple, Meta and others
+2026-11-20T20:37:56+00:00|||PASS|||887d36071661225760fdc66a21429a98|||SPCX|||SpaceX Closes $32 Billion Debt Deal at Steep Yields
+2026-11-20T20:37:57+00:00|||PASS|||1f256bae47ac61d748681a68d20e490a|||SPCX|||Tesla-SpaceX Merger Could Hand Elon Musk a 60% Stake — and TSLA Holders a 33% Premium, Analyst Says
+2026-11-20T20:38:01+00:00|||PASS|||cdbc44d10d271135512ce44b24e652bf|||SPCX|||Apollo, Goldman lead $44 billion SpaceX GPU debt financing By Reuters
+2026-11-20T20:38:06+00:00|||PASS|||29c50fb6cd64b59adf2537eb5a9e5cc8|||SPCX|||SpaceX Just Raised $32 Billion for AI Chips. Lenders Want Elon Musk to Keep Them on Earth.
+2026-11-20T20:38:10+00:00|||PASS|||c8675d0eb7a886dac704fe055ec1d8df|||SPCX|||SpaceX Eyes “At Least $32 Billion” of AI Chip Debt the Day Its Biggest Compute Tenant Goes Public
+2026-11-20T20:38:29+00:00|||PASS|||1b7b9c2dc49a1df1650c2fc1029aee71|||PWR|||Earnings Estimates Moving Higher for Quanta Services (PWR): Time to Buy?
+2026-11-20T20:38:55+00:00|||PASS|||9716623aec694d8718146e374324f3c6|||HOOD|||Watch Robinhood’s Quirk on ETFs and the Next Generation of Investors
