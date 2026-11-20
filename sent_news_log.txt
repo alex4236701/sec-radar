@@ -1,20 +1,4 @@
 @@HEARTBEAT|||2026-11-20|||2026-10-21T13:41:10+00:00
-2026-11-06T08:17:47+00:00|||SENT|||2663f3830ab009ffd0a22c89dc06ac78|||GOOGL|||Google, Meta and TikTok Sue California Over Ban on Features for Kids|||Google、Meta 和 TikTok 就加州禁止兒童使用某些功能提起訴訟
-2026-11-06T08:17:59+00:00|||SENT|||5181a5e4a14b5c72168b2aa9cc9194c2|||UMAC|||Unusual Machines, Inc. (UMAC) Reports Q3 Loss, Beats Revenue Estimates|||Unusual Machines, Inc. (UMAC) 公布第三季虧損，營收優於預期
-2026-11-06T08:18:06+00:00|||PASS|||0f69da8b34725e2adb69f4fbedc31f96|||VSH|||Is Vishay Intertechnology (VSH) A Bargain After Record Revenue?
-2026-11-06T08:18:24+00:00|||PASS|||4ecd41eb0ae749b7beeb54ea08d4422b|||MSFT|||AI data center firm IREN delays Microsoft AI deliveries, plans $15 billion spending push
-2026-11-06T08:18:31+00:00|||PASS|||ea0cf4da1d9eb4f59ba5b9e37b70832f|||META|||Meta Acquires Conductor to Expand Into Multi-Agent AI Coding Tools
-2026-11-06T08:18:34+00:00|||PASS|||b2ea25aa4bdc378336d329ca51ae6710|||AAPL|||Apple Stock: Record Revenue Ahead, But Memory Costs Will Eat The Growth (NASDAQ:AAPL)
-2026-11-06T08:18:36+00:00|||PASS|||0e21d5436804daee8de3d66b9f480635|||TSLA|||Ross Gerber Says Tesla's 'Good Old Days' Ended When Elon Musk Started Selling Shares to Buy Twitter
-2026-11-06T08:18:45+00:00|||SENT|||bac2f177e42a5c16cdcdf911dca3470f|||QCOM|||Qualcomm validates HBC memory architecture, targets AI250 samples in 1H27|||Qualcomm 驗證 HBC 記憶體架構，目標於 2027 年上半年提供 AI250 樣品
-2026-11-06T08:18:53+00:00|||PASS|||d090395aae36653c03efd26cc0a7ef20|||TSM|||TSMC Stocks Fall 7.46% Despite a $53.3 Billion Revenue Midpoint
-2026-11-06T08:19:01+00:00|||PASS|||f7393dee0d96a9766d51ff230842c5b2|||SKHY|||SK Hynix AI arm buys US$377 million stake in Penguin Solutions from SK Telecom
-2026-11-06T08:19:11+00:00|||SENT|||c5965736e9ae74dcd08dc02b16cc1fb9|||PENG|||SK Hynix AI arm buys US$377 million stake in Penguin Solutions from SK Telecom|||SK Hynix旗下AI部門以US$377 million向SK Telecom購入Penguin Solutions股權
-2026-11-06T08:20:07+00:00|||PASS|||831af63beb56fcc2f9fa020272898d86|||IBM|||Yonsei First to Deploy IBM Quantum Nighthawk
-2026-11-06T08:20:13+00:00|||PASS|||aedb19b2b186227144b7b8e71c378653|||PANW|||Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M
-2026-11-06T08:20:41+00:00|||PASS|||67c562a2a548c6d4305b1fa0644bf210|||SPCX|||US proposes space launch rule changes in potential boost for SpaceX
-2026-11-06T08:20:55+00:00|||PASS|||e6392021aabd566108190a22b173c08d|||LEU|||Centrus Energy stock rating upgraded to Buy at Roth/MKM on revenue risk mitigation
-2026-11-06T08:21:10+00:00|||PASS|||4cfc7b27e9ebb3d89d384d7854052de3|||CRCL|||CRCL Stock Layoffs: What to Know About the Latest Circle Job Cuts
 2026-11-06T16:53:01+00:00|||SENT|||02372a3300f2df26f77df36c2bd8b971|||WULF|||TeraWulf stock soars after beating Q3 revenue forecasts|||TeraWulf Q3 營收超出預期後股價大漲
 2026-11-06T16:53:14+00:00|||SENT|||21522341851ac1e758b2646eb4a10840|||GOOGL|||Google Adds SpaceX Shares as $900M Bet Reaches $69 Billion - Alphabet (NASDAQ:GOOGL)|||Google 增持 SpaceX 股份，$900M 投資增至 $69 Billion
 2026-11-06T16:53:18+00:00|||PASS|||c2476e40e2198bac6842ed674f011418|||GOOGL|||Alphabet takes $548 million stake in partner Qualcomm in data center push
@@ -1390,3 +1374,28 @@
 2026-11-20T02:30:26+00:00|||PASS|||1064914e8473ba61a60032d94a26cb3a|||HUM|||Humana Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into Humana (HUM)
 2026-11-20T02:30:29+00:00|||PASS|||c51382b79ead26e808e565d88c9fc4f1|||UNH|||UnitedHealth Group Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into UnitedHealth Group (UNH)
 2026-11-20T02:30:38+00:00|||PASS|||68ca441f1d9bb7341afb482c8ba7ee99|||RSG|||Gap Cuts Outlook on Weakness at Banana Republic and Old Navy
+2026-11-20T08:54:52+00:00|||PASS|||dc42201cd9a7788e1a6b47fb0312a4ae|||GOOGL|||What next for self-driving cars after California Waymo ban?
+2026-11-20T08:54:55+00:00|||PASS|||0c89653663a450e8978dc2368dcf53c8|||MU|||Samsung, Micron, and SK Hynix Accused of Rigging RAM Prices as Lawsuit Moves Forward
+2026-11-20T08:55:18+00:00|||PASS|||848a7de1b2be3442e16d509808e61d47|||ECL|||BMO reiterates Outperform on Ecolab stock, cites growth outlook By Investing.com
+2026-11-20T08:55:26+00:00|||SENT|||7736ad917e4ac84b828c68f2635e515b|||MSFT|||Microsoft Stocks Rise 3.16% as Anthropic Commits $47.2 Billion Minimum to Azure|||Anthropic 承諾至少向 Azure 提供 $47.2 Billion，Microsoft 股價上漲 3.16%
+2026-11-20T08:55:34+00:00|||PASS|||2d4d76aca0a485abde4c2cc23e9278b1|||TSLA|||Gary Black Warns SpaceX-Tesla Merger Could Wipe Out 24% Premium in Weeks: 'Massive Dilution' Could Crush
+2026-11-20T08:55:38+00:00|||PASS|||e4feb3be4278e7f1604341950617c1d2|||TSLA|||Jeff Bezos Laughs Off Merging Amazon and His $41 Billion AI Startup as Elon Musk Explores Tesla-SpaceX De
+2026-11-20T08:55:42+00:00|||PASS|||c0237cdb324208435e86b58892bda26f|||NVDA|||NVDA Stock Down 40% From October Peak Amid China Spying Crisis: California Begins Probe Into Chip Sales
+2026-11-20T08:55:44+00:00|||PASS|||0fcc75d83910458825428786f5b139c8|||NVDA|||Nvidia in advanced talks to buy diffusion AI startup Inception for over $500M - report
+2026-11-20T08:55:46+00:00|||PASS|||ea1c808eb14365f0d45c4aa4a70366b3|||NVDA|||California Attorney General Issues Investigative Subpoena to Nvidia
+2026-11-20T08:55:47+00:00|||PASS|||b4859b502b7614d0d4765ed72c7f84d0|||NVDA|||Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says
+2026-11-20T08:55:48+00:00|||PASS|||5f2384f0f4d84dca0291ca0527528c68|||NVDA|||California attorney general issues Nvidia subpoena in probe of China chip diversion
+2026-11-20T08:55:51+00:00|||PASS|||22eb1ceccb53e9a0dab00b4dcf480b19|||NVDA|||Nvidia Nears Acquisition of Diffusion AI Developer for More Than $500 Million
+2026-11-20T08:55:51+00:00|||PASS|||27a043af8a2037444d7d6d406ce238aa|||NVDA|||Nvidia’s stock falls further. It has lost $669 billion in six trading days.
+2026-11-20T08:55:53+00:00|||PASS|||bae6cb3c69e817307d22b95a2bdeb428|||NVDA|||‘SpaceX Has Gone All In With Nvidia’: Nvidia’s Biggest Customer Is Also Its Biggest Stock Holding at $19.7B
+2026-11-20T08:55:59+00:00|||PASS|||2f937d8537b11a74beed529036029d6a|||QCOM|||What Should Qualcomm (QCOM) Investors Watch After 500 California Layoffs And New AI Moves?
+2026-11-20T08:56:02+00:00|||PASS|||d45d536ee900a9380f3426b185fa3db0|||ARM|||Nvidia Could Poach Arm's CEO to Replace Jensen Huang. Here's What That Might Mean for ARM Stock.
+2026-11-20T08:56:20+00:00|||PASS|||81520089c883b167a29cdd8035c39775|||SKHY|||SKHY Investors Have Opportunity to Join SK hynix Inc. Fraud Investigation with SBS Law
+2026-11-20T08:56:20+00:00|||PASS|||bf307643a50b0a4e65269f89d654bec1|||SKHY|||Samsung, Micron, and SK Hynix Accused of Rigging RAM Prices as Lawsuit Moves Forward
+2026-11-20T08:56:21+00:00|||PASS|||6845d8208f66e107e211a9546d72ebe1|||SKHY|||Notice of Investigation of SKHY: SK hynix Inc. Investors are Encouraged to Contact Kessler Topaz Meltzer & Check, LLP
+2026-11-20T08:56:30+00:00|||PASS|||751be095ffb2df63ad5ebe32ab46a4b7|||LRCX|||Lam Research sees wafer-fab spending topping $200 billion in 2027 on AI demand
+2026-11-20T08:57:11+00:00|||PASS|||3756118a657e21386ae4103281b0028e|||CRWV|||CoreWeave Changes Its Funding Strategy After Morgan Stanley’s $46 Billion Spending Forecast
+2026-11-20T08:57:41+00:00|||PASS|||23b3014912c212349c35b581c230ebc8|||KEYS|||Keysight Technologies Shares Rise After Q4 Results - Keysight Techs (NYSE:KEYS)
+2026-11-20T08:57:44+00:00|||PASS|||ad5b43b0b04b44c74d5ff0d34a4d7123|||KEYS|||Keysight Technologies perks up on strong Q4 results, guidance (KEYS:NYSE)
+2026-11-20T08:57:53+00:00|||PASS|||a96993078f9df87f77f39d8369f62917|||SPCX|||Gary Black Warns SpaceX-Tesla Merger Could Wipe Out 24% Premium in Weeks: 'Massive Dilution' Could Crush
+2026-11-20T08:57:55+00:00|||PASS|||1bdc0cb763aa8b7f937fa540b82af99a|||SPCX|||Jeff Bezos Laughs Off Merging Amazon and His $41 Billion AI Startup as Elon Musk Explores Tesla-SpaceX De
