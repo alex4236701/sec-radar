@@ -1,15 +1,4 @@
 @@HEARTBEAT|||2026-11-21|||2026-10-21T13:41:10+00:00
-2026-11-07T06:20:19+00:00|||PASS|||f77133509aea5936673af88d518cf3e3|||GOOGL|||Google acquires Wyoming data center site from AI infrastructure firm Crusoe By Reuters
-2026-11-07T06:20:42+00:00|||PASS|||96f3a25186ded39a56d369ff8fc49c55|||CAT|||The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us.
-2026-11-07T06:20:51+00:00|||PASS|||29eabe1b0f978fa8775dc2e2acb05301|||AMZN|||Tech layoffs 2026: Tracking the job losses across Canva, Squarespace, Amazon, Microsoft, Apple, Meta and others
-2026-11-07T06:20:54+00:00|||PASS|||eb1fa6daecb29d3d5d6e908fcc1959b4|||META|||Tech layoffs 2026: Tracking the job losses across Canva, Squarespace, Amazon, Microsoft, Apple, Meta and others
-2026-11-07T06:21:02+00:00|||PASS|||a9baa8faf5b7446a6e93ba260b46a474|||AMD|||AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook
-2026-11-07T06:21:22+00:00|||PASS|||7d0ab7161c1b3f584d24a32ee1a6b58e|||LRCX|||Lam Research (LRCX) Authorizes $25 Billion Share Repurchase Program
-2026-11-07T06:22:01+00:00|||SENT|||efddaf1a160e7afbca3c7086ce6f2f27|||ADI|||Analog Devices Completes Acquisition of Alif Semiconductor|||Analog Devices 完成收購 Alif Semiconductor
-2026-11-07T06:22:47+00:00|||PASS|||896c86f6853fe1d95251aa1026825708|||SPCX|||Options Action: SpaceX back on launch pad
-2026-11-07T06:23:19+00:00|||PASS|||c6a8c85f5970b595c641982657d2c85f|||LLY|||Judge hears arguments in Raleigh County officials’ motion to dismiss Chad Lilly lawsuit - The Register-Herald
-2026-11-07T06:23:22+00:00|||PASS|||9a66a29a6749320e8d631e4cc4cc2e91|||LLY|||Lilly and Hims & Hers expand access to FDA-approved Lilly medicines
-2026-11-07T06:23:26+00:00|||PASS|||ad58932693560faadde697e653f8d0c5|||ISRG|||Intuitive Machines (LUNR) Q3 Earnings on Deck, Shares Climb 21%
 2026-11-07T14:59:27+00:00|||PASS|||a1f821516be9827e27cd52e4a6607c65|||EOSE|||Eos Energy Enterprises (EOSE) Stock Looks Fully Priced After Revenue Jump
 2026-11-07T14:59:33+00:00|||PASS|||b5fd4e0954001f6fa891f6441974175f|||GOOGL|||Is Google's New Cryptocurrency Push a Reason to Buy Alphabet Stock?
 2026-11-07T15:00:03+00:00|||PASS|||5f86e9df856e21906ba88bbb2c9567f4|||META|||Better Stock Split to Buy: Meta Platforms vs. Sandisk
@@ -1407,3 +1396,17 @@
 2026-11-21T02:38:35+00:00|||SENT|||2f5f148f8654ee1d20776204fb6dadf9|||SPCX|||SpaceX Plans to Spend $2.8 Billion on Gas Turbines. Here’s What That Much Natural Gas Demand Means for Pipeline Investors.|||SpaceX計畫斥資$2.8 Billion購買燃氣渦輪機。這麼大的天然氣需求對管線投資者意味著什麼。
 2026-11-21T02:38:37+00:00|||PASS|||afb70b8887adfc0aef848dd96a99e0bc|||SPCX|||Analysis-Wall Street banks set for banner year as Anthropic, SpaceX IPOs generate $1 billion in fees By Reuters
 2026-11-21T02:38:40+00:00|||SENT|||751a5390cad99556090899e955d65916|||SPCX|||Suspected SpaceX Starship Debris and Dead Wildlife Trigger Mexico Probe|||疑似 SpaceX Starship 殘骸與野生動物死亡促使墨西哥展開調查
+2026-11-21T07:31:53+00:00|||PASS|||f5d9a96ddacd00917c8d02bf1fd205b0|||GOOGL|||Waymo Robotaxis Face 2 Recalls Over Closed Freeway Lane Violations, Traffic Control Issues
+2026-11-21T07:32:12+00:00|||PASS|||11de7aad58b1945866fbfcf39582db95|||FCEL|||FuelCell Energy Inc. stock outperforms market despite losses on the day
+2026-11-21T07:32:25+00:00|||PASS|||2662e48ce1f164fa7d1c4c597b152006|||AAPL|||Startup sues Apple in India over tap-to-share contacts feature
+2026-11-21T07:32:29+00:00|||PASS|||460fc2c62117d3178ecbe01842da781b|||NVDA|||After Its Worst Week in 18 Years, Nvidia Now Faces an SEC Investigation. What It Means for Investors
+2026-11-21T07:32:30+00:00|||PASS|||47563e0c053e21088e99526eecb98d29|||NVDA|||Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting
+2026-11-21T07:32:58+00:00|||PASS|||391fab259a0b2bf8d20c5e2ae8693cda|||AMAT|||A $3 Billion Fund Is Betting Big on Applied Materials
+2026-11-21T07:33:34+00:00|||PASS|||d43a6010fe49b87c878925bd9e35325d|||HPE|||HPE's Q4 Earnings Likely to Reflect Rising Demand Across All Offerings
+2026-11-21T07:33:40+00:00|||PASS|||8ff4bd6ed87b547fb0af3c5cc9de3a4b|||ORCL|||Oracle says its $300 billion OpenAI buildout is fully funded after a $20 billion raise
+2026-11-21T07:33:49+00:00|||PASS|||7858774c51b3bce8a13148aaa2635ada|||CRM|||Salesforce Layoff Alert: How to Play CRM Stock Amid Another Round of Job Cuts
+2026-11-21T07:33:59+00:00|||PASS|||53862766117b8efbef8496c5acbe8c25|||ZS|||Crowd Pleaser….Crowdstrike Wants to Buy Zscaler
+2026-11-21T07:34:00+00:00|||PASS|||19ac415eeea44ef0d5c58855dd182747|||ZS|||CrowdStrike weighs Zscaler buyout in potential cybersecurity mega-deal - Bloomberg
+2026-11-21T07:34:01+00:00|||PASS|||350debbaa71297d1e263305f5e68a492|||ZS|||CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler
+2026-11-21T07:34:02+00:00|||PASS|||c838b28ad91088f554208d4d48e0c7bd|||ZS|||Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor
+2026-11-21T07:34:27+00:00|||PASS|||ecfdbb92940b0083eb274e129cbd98f0|||SPCX|||SpaceX Lenders Want to Stop Musk From Launching $40 Billion in Nvidia Chips Into Orbit
