@@ -1492,3 +1492,9 @@
 0001079500-26-000015|||2026-11-21|||DIGEST|||GLXY|||4 Form 4 內部人小額買進：DEASON DOUGLAS R（董事）：7,500 股，均價 $13.25，約 $99,375|||https://www.sec.gov/Archives/edgar/data/1859392/000107950026000015/xslF345X06/wk-form4_1795208698.xml
 0001380615-26-000016|||2026-11-21|||SENT|||GLXY|||利多｜【內部人公開市場買進】|||https://www.sec.gov/Archives/edgar/data/1859392/000138061526000016/xslF345X06/wk-form4_1795208483.xml
 0002010300-26-000041|||2026-11-21|||SKIP|||ISRG|||4
+0001213900-26-122852|||2026-11-21|||SKIP|||ONDS|||4
+0001213900-26-122851|||2026-11-21|||SKIP|||ONDS|||4
+0001213900-26-122850|||2026-11-21|||SKIP|||ONDS|||4
+0001213900-26-122849|||2026-11-21|||SENT|||ONDS|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1646188/000121390026122849/xsl144X01/primary_doc.xml
+0001213900-26-122848|||2026-11-21|||SENT|||ONDS|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1646188/000121390026122848/xsl144X01/primary_doc.xml
+0001213900-26-122846|||2026-11-21|||SENT|||ONDS|||留意｜【內部人預告賣股 Form 144】|||https://www.sec.gov/Archives/edgar/data/1646188/000121390026122846/xsl144X01/primary_doc.xml
