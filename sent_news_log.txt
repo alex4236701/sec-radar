@@ -1,23 +1,4 @@
-@@HEARTBEAT|||2026-11-20|||2026-10-21T13:41:10+00:00
-2026-11-07T00:10:07+00:00|||PASS|||7307e42b452c4c55750603d09c3cf59b|||GOOGL|||Google Acquires Qualcomm Stake Through Modular Purchase
-2026-11-07T00:10:09+00:00|||PASS|||0ea43ab5057aa2998e6cf0ef7c76b4c8|||GOOGL|||Alphabet takes $548 million stake in partner Qualcomm in data center push By Reuters
-2026-11-07T00:10:13+00:00|||PASS|||c70fcd8060872949a2e982cc1c6fe339|||GOOGL|||Google acquires Wyoming data center site from AI infrastructure firm Crusoe
-2026-11-07T00:10:16+00:00|||PASS|||0f55f97cf5cfd56c0644a1488fe051c9|||GOOGL|||Google Is Spending $17 Billion on a Wyoming Data Center and Says It Will Pay for 100% of Its Power
-2026-11-07T00:10:36+00:00|||PASS|||81a83d0b077ea8dfc516c97c969ac9dc|||FCEL|||FuelCell Energy Inc. stock rises Friday, outperforms market
-2026-11-07T00:10:54+00:00|||SENT|||d08356f8c9f73629acebdf80971e0460|||TSLA|||SpaceX Land Deal, Tesla Merger Dealt Election Blow. Space Stocks Rebound.|||SpaceX 土地交易、Tesla 合併案遭遇選舉打擊；太空股反彈
-2026-11-07T00:10:58+00:00|||PASS|||03aba8d64651ea216344305777d80125|||TSLA|||How Elon Musk's SpaceX, Tesla lost $420B in market value this week
-2026-11-07T00:11:07+00:00|||PASS|||2ac37ce042f2313c57fc0516f12071ae|||QCOM|||Google Acquires Qualcomm Stake Through Modular Purchase
-2026-11-07T00:11:14+00:00|||SENT|||81c663277f58824d9d5b9a8a74718f1c|||QCOM|||Alphabet takes $548 million stake in partner Qualcomm in data center push By Reuters|||Alphabet在資料中心布局中，斥資$548 million取得合作夥伴Qualcomm的股權
-2026-11-07T00:11:33+00:00|||PASS|||d2ecc56ebed19fd2f0224df99e4eb336|||LRCX|||Own a Semiconductor ETF? Lam Research’s Buyback Move Affects You
-2026-11-07T00:11:57+00:00|||SENT|||d91b30f14ef1f552a34d40f8cad19d5a|||LITE|||Lumentum Stocks Rise 4.38% as AI Optics Rebound Builds on $5 Billion Design Win|||Lumentum股價上漲4.38%，AI光學反彈延續，受惠於$5 Billion設計案
-2026-11-07T00:12:20+00:00|||PASS|||9bc059f1204c42d0b968d1bdbfbd2b70|||CRWV|||Stock Market Up, Still Suffers Stiff Weekly Loss; Inflation Data, CoreWeave Earnings Due
-2026-11-07T00:12:34+00:00|||SENT|||8414641c44a7ff443157e95ac265c055|||IBM|||IBM, AMD, And Oak Ridge Unveil Quantum Error Correction Platform|||IBM、AMD 與 Oak Ridge 發表量子錯誤更正平台
-2026-11-07T00:12:38+00:00|||PASS|||ce9f9bb6023068d23d3a10d5ed1a9ccc|||IBM|||IBM Unveils Its Most Advanced Quantum Computer in Chicago, Marking a Milestone for Illinois's Quantum Future
-2026-11-07T00:13:08+00:00|||PASS|||01f01eb6062c6dfd7cb34b3a5a2f59a4|||SPCX|||Elon Musk opens the door for a big SpaceX acquisition
-2026-11-07T00:13:10+00:00|||PASS|||271246a244075ad414f068e210731f31|||SPCX|||Elon Musk Says SpaceX Sales Are ‘Exploding’—and Forecasts Revenue Twice Wall Street’s Estimate
-2026-11-07T00:13:12+00:00|||PASS|||a882d8559bc2535ffe015004743195ea|||SPCX|||Google's $900 Million SpaceX Bet Is Now Worth $69 Billion. It Added Millions More Shares
-2026-11-07T00:13:25+00:00|||PASS|||afc656ffdf4e0b0d5124a9ee56d85093|||LEU|||Centrus Energy surges as Roth raises to Buy as near-term concerns subside (LEU:NYSE)
-2026-11-07T00:13:45+00:00|||PASS|||9ecdef113968b12a791d671d36e23413|||LLY|||Hims & Hers inks deal with Eli Lilly to offer branded weight loss drugs
+@@HEARTBEAT|||2026-11-21|||2026-10-21T13:41:10+00:00
 2026-11-07T06:20:19+00:00|||PASS|||f77133509aea5936673af88d518cf3e3|||GOOGL|||Google acquires Wyoming data center site from AI infrastructure firm Crusoe By Reuters
 2026-11-07T06:20:42+00:00|||PASS|||96f3a25186ded39a56d369ff8fc49c55|||CAT|||The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us.
 2026-11-07T06:20:51+00:00|||PASS|||29eabe1b0f978fa8775dc2e2acb05301|||AMZN|||Tech layoffs 2026: Tracking the job losses across Canva, Squarespace, Amazon, Microsoft, Apple, Meta and others
@@ -1400,3 +1381,29 @@
 2026-11-20T20:38:10+00:00|||PASS|||c8675d0eb7a886dac704fe055ec1d8df|||SPCX|||SpaceX Eyes “At Least $32 Billion” of AI Chip Debt the Day Its Biggest Compute Tenant Goes Public
 2026-11-20T20:38:29+00:00|||PASS|||1b7b9c2dc49a1df1650c2fc1029aee71|||PWR|||Earnings Estimates Moving Higher for Quanta Services (PWR): Time to Buy?
 2026-11-20T20:38:55+00:00|||PASS|||9716623aec694d8718146e374324f3c6|||HOOD|||Watch Robinhood’s Quirk on ETFs and the Next Generation of Investors
+2026-11-21T02:35:26+00:00|||PASS|||6357e28e9105e05a499293e93f620770|||GOOGL|||Waymo files two new NHTSA recalls days after California bans its freeway driving
+2026-11-21T02:36:04+00:00|||PASS|||28efc3686156f2ea9e1d6607fbb1360b|||AMZN|||Amazon's split personality: AWS embraces bot commerce while main site enforces bans
+2026-11-21T02:36:10+00:00|||PASS|||1aae5b7077c6487e59f249298173ca3e|||TSLA|||Should Tesla (TSLA) Investors Watch Its Merger Talks And Cybercab FSD Rollout?
+2026-11-21T02:36:13+00:00|||PASS|||74fdca3ba28460ea5d554f6e83c726c3|||TSLA|||$17B Tesla manufacturing plant led October’s construction starts rebound
+2026-11-21T02:36:21+00:00|||SENT|||be2eb2ef82abd7cc9df7824793103e9d|||TSLA|||A California Antitrust Suit Says Tesla Sold Hertz Model 3s Below Cost in a $4.2 Billion Deal. Hertz Later Ate $245 Million|||加州反壟斷訴訟稱，Tesla 在一筆 $4.2 Billion 交易中以低於成本價格售出 Hertz Model 3；Hertz 後來承受 $245 Million 損失
+2026-11-21T02:36:25+00:00|||PASS|||34a89e766bd6a23fb4af4bb3a8d6d0ba|||NVDA|||Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices
+2026-11-21T02:36:27+00:00|||PASS|||1e4ddaacd6bf6abe2b987871f005d398|||NVDA|||Nvidia suffers worst week since 2008, as SEC probe report fuels post-Huang turmoil
+2026-11-21T02:36:28+00:00|||PASS|||a0f204010aa26320bfecd93b28dff4f6|||NVDA|||Watch Nvidia Plunges as SEC Probe Deepens AI Market Selloff | Closing Bell
+2026-11-21T02:36:29+00:00|||PASS|||66525ab91192e02df9791c12a5ac5c77|||NVDA|||Nvidia faces US regulator’s probe into its accounting
+2026-11-21T02:36:30+00:00|||PASS|||c252dfd0394b80aa0e5794d44b4ae5cb|||NVDA|||Nvidia’s Stock Slide Deepens After Report of SEC Accounting Probe
+2026-11-21T02:36:32+00:00|||PASS|||99ae009af35c0a58bfe10687a536262b|||NVDA|||Nvidia Stock Keeps Falling As California Opens A Probe Into Its China Risk
+2026-11-21T02:36:33+00:00|||PASS|||69c4adec1527bc8dd5460984514d0746|||NVDA|||Nvidia Stock Plunge Wipes Out Nearly $500 Billion in One Day as SEC Reportedly Probes Its Accounting
+2026-11-21T02:36:41+00:00|||PASS|||291f23ea37bfa37e04fc501c5863875a|||INTC|||How to Play INTC Stock as Intel Launches Another Round of Layoffs
+2026-11-21T02:36:51+00:00|||SENT|||47afea0152fa7317e9315b2d2361516c|||SKHY|||SoftBank’s Masayoshi Son Explored $1 Trillion Moonshot Buyout of SK Hynix|||SoftBank 的 Masayoshi Son 曾探索以 $1 trillion 收購 SK Hynix
+2026-11-21T02:36:53+00:00|||PASS|||c102c6efe7dffa79f66b941ae44d4518|||SKHY|||NASDAQ: SKHY Investigation: SK hynix Inc. Investors are Encouraged to Contact Kessler Topaz Meltzer & Check, LLP
+2026-11-21T02:37:59+00:00|||SENT|||47862999e59c389c4f03cdf79e033483|||ZS|||CrowdStrike-Zscaler Reported Merger Talks Could Spark One of Cybersecurity’s Biggest Deals Ever: ZS Stock|||CrowdStrike與Zscaler傳出合併洽談，可能促成網路安全業史上最大交易之一：ZS股票
+2026-11-21T02:38:01+00:00|||PASS|||9ba94a67c958f72ef0bdc3b0329d4f6a|||ZS|||CrowdStrike reportedly in talks to acquire cybersecurity provider Zscaler
+2026-11-21T02:38:02+00:00|||PASS|||5e54acb659e4d025a1eed4caa74b5fcd|||ZS|||CrowdStrike is in talks to buy Zscaler, and only one stock liked the news
+2026-11-21T02:38:03+00:00|||PASS|||e19754d356840aa7173a10829a591e6f|||ZS|||Zscaler stock soars on reports that CrowdStrike is eyeing a possible buyout
+2026-11-21T02:38:04+00:00|||PASS|||24adc13a713f80f63746f7e211d8b74d|||ZS|||CrowdStrike in talks to acquire Zscaler, sources say
+2026-11-21T02:38:05+00:00|||PASS|||dd4f3336eeb99daa1fd8a06bf58dd2d2|||ZS|||CrowdStrike in Talks to Buy Zscaler
+2026-11-21T02:38:06+00:00|||PASS|||614491cadb70c3d19cc7ffaf75589f6d|||ZS|||Watch CrowdStrike Said in Talks to Buy Cybersecurity Firm Zscaler
+2026-11-21T02:38:07+00:00|||PASS|||72bfd31ac01cbe8f3fa997b0b860548a|||ZS|||CrowdStrike in talks to acquire Zscaler, sources say By Reuters
+2026-11-21T02:38:35+00:00|||SENT|||2f5f148f8654ee1d20776204fb6dadf9|||SPCX|||SpaceX Plans to Spend $2.8 Billion on Gas Turbines. Here’s What That Much Natural Gas Demand Means for Pipeline Investors.|||SpaceX計畫斥資$2.8 Billion購買燃氣渦輪機。這麼大的天然氣需求對管線投資者意味著什麼。
+2026-11-21T02:38:37+00:00|||PASS|||afb70b8887adfc0aef848dd96a99e0bc|||SPCX|||Analysis-Wall Street banks set for banner year as Anthropic, SpaceX IPOs generate $1 billion in fees By Reuters
+2026-11-21T02:38:40+00:00|||SENT|||751a5390cad99556090899e955d65916|||SPCX|||Suspected SpaceX Starship Debris and Dead Wildlife Trigger Mexico Probe|||疑似 SpaceX Starship 殘骸與野生動物死亡促使墨西哥展開調查
