@@ -1,20 +1,4 @@
-@@HEARTBEAT|||2026-11-21|||2026-10-21T13:41:10+00:00
-2026-11-08T06:26:56+00:00|||SENT|||044db83ac0c2f2add650c7d1eeac8a62|||CRUS|||Learn Why The Bull Case For Cirrus Logic Stock Could Change Following Buyback Expansion|||了解 Cirrus Logic 股票的看多理由為何可能因回購計畫擴大而改變
-2026-11-08T06:27:12+00:00|||PASS|||009edf76e5246d62ecae67fe8e9f2c8b|||VSH|||Vishay Intertechnology, Inc. 2026 Q3 - Results - Earnings Call Presentation (NYSE:VSH) 2026-11-07
-2026-11-08T06:27:17+00:00|||PASS|||44a755ff141a78afa965f1acae79aefa|||AVGO|||Anthropic’s “Down Quarter” Highlights Broadcom’s $161 Billion Risk
-2026-11-08T06:27:24+00:00|||PASS|||c3dfbbd9c62d07cc63a831e8e7fecdf9|||CAT|||Caterpillar Inc. TDR Overview (CAT80)
-2026-11-08T06:27:27+00:00|||PASS|||92487b51d195c7b13effe93b1b969ed1|||RRX|||Regal Rexnord Corporation 2026 Q3 - Results - Earnings Call Presentation (NYSE:RRX) 2026-11-06
-2026-11-08T06:27:35+00:00|||PASS|||0dd1ef513e927fd1c1e7c52c33a1f9a0|||META|||Meta strategy chief Dave Wehner leaves to become CFO of Fireworks AI
-2026-11-08T06:27:37+00:00|||PASS|||dc024793184f93134d909fc1bdf6ac19|||META|||Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO
-2026-11-08T06:27:38+00:00|||PASS|||c96d6be31d3991e4b2620d523935f4bc|||AAPL|||Tech layoffs 2026: Tracking the job losses across Canva, Squarespace, Amazon, Microsoft, Apple, Meta and others
-2026-11-08T06:27:45+00:00|||SENT|||262c334f6ba3ad9a4057331baf690c2c|||NVDA|||"Congress will investigate": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties|||「國會將展開調查」：Nvidia 執行長 Jensen Huang 面臨與中國間諜關係指控的調查
-2026-11-08T06:27:48+00:00|||PASS|||14835262f941c2d6dacf850c9c72a58a|||AMD|||AMD: AI Panic Meets Outsized CPU/GPU Gains - Upgrade To Buy
-2026-11-08T06:27:52+00:00|||PASS|||28f88d2c5689faa1b0a18c1a0d6c3091|||QCOM|||Alphabet Acquires Qualcomm Stake Through Modular Purchase
-2026-11-08T06:28:27+00:00|||PASS|||e071dda75a03d99551e867e4b6106409|||LITE|||Coherent Surges 13% as Investors Revisit $20 Billion AI Deal After Sell-Off; Lumentum Climbs 4%, Applied Optoelectronics Gains 3%
-2026-11-08T06:29:23+00:00|||PASS|||1b9212730be3de916ed7209f741ff320|||SPCX|||SpaceX sets Nov. 13 date for Starship launch and catch
-2026-11-08T06:29:26+00:00|||PASS|||4b6b01fd661e02ceb8be64dc615bfc42|||SPCX|||Alphabet (GOOGL) Expands SpaceX Stake to $69 Billion and Deepens AI Ties
-2026-11-08T06:29:27+00:00|||PASS|||834abd5d644ad06c317bd797676bfc15|||SPCX|||Better IPO to Buy: Anthropic vs. SpaceX
-2026-11-08T06:29:39+00:00|||PASS|||bf591662e0179864a898da9528215b6d|||LEU|||What Centrus Energy (LEU) Said on Its Q3 Earnings Call
+@@HEARTBEAT|||2026-11-22|||2026-10-21T13:41:10+00:00
 2026-11-08T20:40:25+00:00|||PASS|||970e802861cfd08674ac21ec98d0063c|||MKSI|||MKS (MKSI) Beat Q3 Guidance, Is The Stock Still Cheap?
 2026-11-08T20:40:35+00:00|||PASS|||fa92e1e1f2582c5ddffbbf1c037b16de|||VSH|||What Vishay Precision Group (VPG) Said on Its Q3 Earnings Call
 2026-11-08T20:40:41+00:00|||PASS|||319ed34ca48c4c8bcaee76fb7310d7dd|||COHR|||Coherent Corp. Company & People | COHR
@@ -1419,3 +1403,17 @@
 2026-11-21T16:20:08+00:00|||PASS|||43c6ef38d03dd9fefe1f77dff899a75b|||ZS|||CrowdStrike Said in Talks to Buy Cybersecurity Firm Zscaler
 2026-11-21T16:20:13+00:00|||PASS|||efcb49ed2505ab7ce05bea47e5b95ed1|||AKAM|||Akamai Technologies Turns Away AI Business as Power Shortage Meets $14 Billion Deal Surge
 2026-11-21T16:21:13+00:00|||SENT|||7e4f0dbd2702a7f590f21625af3b0f7c|||NEE|||SCC staff, Dominion-NextEra clash over customer protections in $67B merger|||SCC staff、Dominion 與 NextEra 就 $67B 合併案的客戶保障措施發生分歧
+2026-11-22T07:13:15+00:00|||PASS|||53ea020559d4df1cce5430014eb86635|||GOOGL|||Waymo Files Two Recalls After Robotaxis Entered Closed Lanes
+2026-11-22T07:13:47+00:00|||PASS|||8ee5806edab597db9a64013fa3ffe640|||MSFT|||Microsoft CEO Satya Nadella addresses buyout offered to about 60,000 employees
+2026-11-22T07:13:55+00:00|||SENT|||53771b5836e518f502cd46225deb5e77|||AMZN|||Amazon nearing $7.5B deal to buy AI start-up Decart: FT|||Amazon接近以$7.5B收購AI新創公司Decart：FT
+2026-11-22T07:14:02+00:00|||PASS|||5f0ad8d6b383e7fdc5dc0fab5a87423b|||TSLA|||Elon Musk's Net Worth Takes a $64 Billion Hit in a Day as Tesla and SpaceX Falter Amid AI Bubble Risks
+2026-11-22T07:14:05+00:00|||PASS|||d5f0028ead53d215e6ce058fb8c8ac97|||NVDA|||Nvidia faces US accounting probe amid deepening turmoil: media
+2026-11-22T07:14:06+00:00|||PASS|||de30230e238906e18b11cfa686264346|||NVDA|||Nvidia Stock Has Suffered $2.75 Trillion Wipeout as Charts Point to a Drop to $100
+2026-11-22T07:14:12+00:00|||SENT|||515ea3d8ff336366075f96b35a5df733|||NVDA|||Nvidia probe in California extends to potential criminal violations: Bloomberg|||Nvidia在加州的調查擴大至可能涉及刑事違規：Bloomberg
+2026-11-22T07:14:21+00:00|||PASS|||5aac3d291772134a7027276c52bb91ea|||TSM|||TSMC Sinks 20% in a Week on Nvidia Jitters and New US Chip Curbs on China. Time to Buy?
+2026-11-22T07:15:06+00:00|||PASS|||024b3e3933be9386f864c1545f5d4a24|||DELL|||Michael Dell's Net Worth Falls $88 Billion From Peak: Can Dell Earnings Turn the Tide?
+2026-11-22T07:15:24+00:00|||PASS|||fab41d1cd5dea3a45dcef5ac0c86f9c8|||PANW|||CrowdStrike-Zscaler Merger Could Make Cybersecurity Rival ‘More Formidable’ Against Palo Alto Networks, Says Jefferies
+2026-11-22T07:15:49+00:00|||PASS|||6a1c015a87b02c73e1aaefc915494e51|||SPCX|||Elon Musk's Net Worth Takes a $64 Billion Hit in a Day as Tesla and SpaceX Falter Amid AI Bubble Risks
+2026-11-22T07:15:53+00:00|||PASS|||fcc13bfcc3e8d2c739dd4605fa72c374|||SPCX|||SpaceX Is Paying Up to 8.36% on $44 Billion of Debt for Nvidia Chips
+2026-11-22T07:16:26+00:00|||PASS|||4d72f2c9b20f538855f2622a7822587d|||BE|||Should You Invest $1,000 in Bloom Energy Right Now?
+2026-11-22T07:16:38+00:00|||PASS|||1ebbc9b2bebc43f7c0879f020b0daaa1|||VST|||1 Compelling Reason to Buy Vistra Stock Before November Ends
