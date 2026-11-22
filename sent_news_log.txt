@@ -1417,3 +1417,14 @@
 2026-11-22T07:15:53+00:00|||PASS|||fcc13bfcc3e8d2c739dd4605fa72c374|||SPCX|||SpaceX Is Paying Up to 8.36% on $44 Billion of Debt for Nvidia Chips
 2026-11-22T07:16:26+00:00|||PASS|||4d72f2c9b20f538855f2622a7822587d|||BE|||Should You Invest $1,000 in Bloom Energy Right Now?
 2026-11-22T07:16:38+00:00|||PASS|||1ebbc9b2bebc43f7c0879f020b0daaa1|||VST|||1 Compelling Reason to Buy Vistra Stock Before November Ends
+2026-11-22T16:31:55+00:00|||PASS|||3cf5182b9820f7a34b4a56bd7aa6e96c|||AMZN|||China-linked hackers used AI agents to exploit a MONAI Label zero-day, Amazon says
+2026-11-22T16:31:59+00:00|||PASS|||e266bd2510a2b12e25796154526ba75b|||META|||Mark Zuckerberg’s Meta Platforms Is Pouring Up to $145 Billion Into AI This Year. Investors Should Watch This 1 Number.
+2026-11-22T16:32:03+00:00|||PASS|||de5c744b86d89baed4acf2f1962a1749|||TSLA|||This Week in TSLA: Cybercab's Deliveries, SpaceX-Tesla Merger Talk, Model Y Without Steering Wheel and More
+2026-11-22T16:32:08+00:00|||SENT|||936b4d9700d7a04fd6069fe4672d096c|||TSLA|||Elon Musk's Tesla and SpaceX Each Formed a Special Committee to Explore a Merger as His AI Spending Accelerates. Here's Why Combining Them Could Reshape How Investors Value Tesla's Robotaxi Business.|||Elon Musk 的 Tesla 與 SpaceX 各自成立特別委員會探討合併；隨著其 AI 支出加速，合併可能重塑投資人對 Tesla Robotaxi 業務的估值。
+2026-11-22T16:32:14+00:00|||SENT|||8eb9c08a697884367341dfbd8e3a7efe|||NVDA|||Nvidia (NVDA) CEO Jensen Huang Resigned As The SEC Opened An Accounting Probe|||Nvidia 執行長 Jensen Huang 在 SEC 展開會計調查之際辭職
+2026-11-22T16:32:17+00:00|||PASS|||ca1c4f6e803f3d7da6da2a7ffe88d147|||NVDA|||Prediction: This Will Be Nvidia’s Stock Price in 2027 After Its Phenomenal Q3 Results
+2026-11-22T16:33:11+00:00|||PASS|||10ef93231030421bf7120f092f2b4ec0|||DELL|||Dell Stock Before Nov 24: Can A $95 Billion Backlog Still Make Money?
+2026-11-22T16:33:55+00:00|||PASS|||a2a41b3a363a733b02cf6ab42f2bd671|||SPCX|||This Week in TSLA: Cybercab's Deliveries, SpaceX-Tesla Merger Talk, Model Y Without Steering Wheel and More
+2026-11-22T16:33:59+00:00|||SENT|||45afd811ad7674872caa2fd74b4fcaa0|||SPCX|||Lenders back SpaceX's $43 billion Nvidia GPU deal but worry the collateral could end up in orbit, making it impossible to reclaim if Musk defaults — five-year 'hell-or-high-water' lease may lack a written Earth-only guarantee|||貸方支持 SpaceX 的 $43 billion Nvidia GPU 交易，但擔心若 Musk 違約，抵押品可能進入軌道而無法收回；五年「無論如何都須履約」租約可能沒有書面保證設備只留在地球
+2026-11-22T16:34:02+00:00|||PASS|||8ab86663af6797aaf37c11efcfcb5f14|||SPCX|||Elon Musk's SpaceX is betting $74 billion on AI data centers. Texas and Arizona want to know who pays for the power
+2026-11-22T16:34:45+00:00|||PASS|||c6606427f5de83eb37b0c75743de8e2b|||GLXY|||Galaxy Digital director Douglas Deason acquires $200,850 in shares By Investing.com
