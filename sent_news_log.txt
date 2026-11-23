@@ -1,54 +1,4 @@
-@@HEARTBEAT|||2026-11-22|||2026-10-21T13:41:10+00:00
-2026-11-08T20:40:25+00:00|||PASS|||970e802861cfd08674ac21ec98d0063c|||MKSI|||MKS (MKSI) Beat Q3 Guidance, Is The Stock Still Cheap?
-2026-11-08T20:40:35+00:00|||PASS|||fa92e1e1f2582c5ddffbbf1c037b16de|||VSH|||What Vishay Precision Group (VPG) Said on Its Q3 Earnings Call
-2026-11-08T20:40:41+00:00|||PASS|||319ed34ca48c4c8bcaee76fb7310d7dd|||COHR|||Coherent Corp. Company & People | COHR
-2026-11-08T20:40:45+00:00|||PASS|||db7801a9469ef6202dc8b692b7a5974c|||GLW|||The top 5 analyst questions from Owens Corning’s Q3 2026 earnings call
-2026-11-08T20:40:56+00:00|||PASS|||603a8f1ab02a963e65bfb411c6ea763f|||AMZN|||DoorDash’s $17 billion Instacart bet faces new threat from Amazon, Uber
-2026-11-08T20:41:02+00:00|||PASS|||a2ee92a256aea8ac9163fa83cb5ef2f7|||TSLA|||Ron Baron Has Made $30B Betting On Elon Musk — Now He Sees ‘Hundreds Of Billions’ More Coming From His TSLA, SPCX Investments
-2026-11-08T20:41:06+00:00|||PASS|||5392e32d84be394f9dac3cec959c756b|||NVDA|||Nvidia launches probe into reported espionage plot targeting CEO Jensen Huang
-2026-11-08T20:41:09+00:00|||PASS|||cfdbdc8633837701ff19d5a29800d79a|||NVDA|||Nvidia opens probe after report that CEO Huang was target of foreign intelligence
-2026-11-08T20:41:12+00:00|||PASS|||bd5adefba8d8d20dfa23ba385362f4e8|||NVDA|||Nvidia Board Is Launching Investigation After Reporting That CEO Targeted By Chinese Informant
-2026-11-08T20:41:14+00:00|||PASS|||bf912c033cb3eff738f6abf66b0b6075|||NVDA|||Nvidia launches probe after report CEO Huang was target of foreign intelligence By Reuters
-2026-11-08T20:41:16+00:00|||PASS|||340a35b5dfcbd51c5fcd4f9390337252|||NVDA|||Nvidia CEO Jensen Huang admits affair, board to launch investigation
-2026-11-08T20:41:21+00:00|||PASS|||eb5406e99eac00bf5218c338037bf56c|||NVDA|||Nvidia Board to Probe Spying Case After CEO Admits Affair
-2026-11-08T20:41:23+00:00|||PASS|||b4ae96f578d621578dd6bf5dc01af22c|||NVDA|||Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy
-2026-11-08T20:41:27+00:00|||PASS|||b733e93b228b96c470914224236a17be|||NVDA|||Investigation Finds Chinese Military-Linked Firms Somehow Gained Approval To Assemble NVIDIA H200 AI GPUs, Highlighting A Half-Baked U.S. Approval System
-2026-11-08T20:42:10+00:00|||PASS|||22560522abd9369b28149a92621534c1|||CSCO|||Cisco Systems Has Suffered $145 Billion Wipeout. Will Earnings Change This?
-2026-11-08T20:43:05+00:00|||PASS|||65378ac7967ede7965e649decb1fd963|||SPCX|||NASA's $10 billion Moon base deal is a ceiling, not a payout for SpaceX
-2026-11-08T20:43:10+00:00|||SENT|||e448ee0cf1775fee3b8553a0511806d5|||RKLB|||SpaceX Rival Rocket Lab Reports Mixed Earnings, AST Space Up Next|||SpaceX競爭對手Rocket Lab公布好壞參半的財報，AST Space緊接登場
-2026-11-08T20:43:34+00:00|||PASS|||ae87b2f07f5e64dd6804d2c2e2a5570b|||IONQ|||IonQ's Record Revenue Includes a Big SkyWater Boost: Does That Change the Story?
-2026-11-08T20:43:47+00:00|||PASS|||20db8332cb2fb96cf59a49a48e962b78|||RSG|||Ward in talks over Republic of Ireland contract extension
-2026-11-09T08:28:09+00:00|||PASS|||1f51c1152cbecc58629ad03ffb4e1d1b|||UUUU|||What Energy Fuels (EFR) Said on Its Q3 Earnings Call
-2026-11-09T08:28:23+00:00|||PASS|||d68bbf633e216d23b5ca011e0e7a17c8|||VSH|||What Vishay Intertechnology (VSH) Said on Its Q3 Earnings Call
-2026-11-09T08:28:38+00:00|||PASS|||9287fbf3866c835bd59bdb96255c582f|||RDW|||5 revealing analyst questions from Redwire’s Q3 2026 earnings call
-2026-11-09T08:28:43+00:00|||PASS|||7259f71e621fc9e0dbe0eb455eb8eae1|||AAPL|||Apple Won’t “Play in Traffic” on AI. It’s Up 28% in a Year: Too Late to Buy?
-2026-11-09T08:28:47+00:00|||PASS|||27527c644c004fd957187f8e09d7bb1c|||TSLA|||Tesla to halt Cybertruck production in eight months: Musk
-2026-11-09T08:28:50+00:00|||PASS|||e69530811d009e9e4aef06fd1393a796|||TSLA|||Tesla seeks 10-year school property tax break for proposed $10 billion solar cell plant
-2026-11-09T08:28:51+00:00|||PASS|||99d44abf7aedaa5206e557091cdabc12|||TSLA|||Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'
-2026-11-09T08:28:55+00:00|||PASS|||e25d4f3d31fba0da66429b2c96fd4487|||NVDA|||Nvidia Shares Dip on Robinhood as Huang Affair Spurs Board Probe
-2026-11-09T08:28:57+00:00|||PASS|||4e53854525425fcc7d10201dcaf12b47|||NVDA|||Nvidia to Probe Spying Case After CEO Admits Infidelity
-2026-11-09T08:28:59+00:00|||PASS|||d4ce45fb8b867a0ffd12f42152c56bb0|||NVDA|||Asian Markets at Risk of Pressure on Nvidia Probe: Markets Wrap
-2026-11-09T08:29:01+00:00|||PASS|||a8daa3cba1697e0cb148e0904ecbb6f9|||NVDA|||What we know about Nvidia's probe into CEO Jensen Huang
-2026-11-09T08:29:02+00:00|||PASS|||e463462fdf53b3894bc6777b8131b584|||NVDA|||Trump backs Nvidia's Huang amid affair, spy investigation
-2026-11-09T08:29:04+00:00|||PASS|||aa0106c926263e841d1eb61baf9d2f64|||NVDA|||Reactions to Nvidia's probe into CEO Jensen Huang
-2026-11-09T08:29:05+00:00|||PASS|||2ce61815f26d856d4064d31c73157d46|||NVDA|||Nvidia Board Launches Probe In CEO Jensen Huang Spying Case. The Stock Is Falling.
-2026-11-09T08:29:08+00:00|||PASS|||5407047e065b66c542676abf8a59e1d7|||NVDA|||Nvidia Faces Governance Overhang: Jensen Huang’s Affair Admission Sparks Board Probe, Analysts Warn Of Leadership Risks
-2026-11-09T08:29:10+00:00|||PASS|||3e2f1108614e45098d608625610eb0ea|||AMD|||AMD: $100 Billion Revenue Target Appears Set (NASDAQ:AMD)
-2026-11-09T08:30:08+00:00|||PASS|||30170575685ff6d516e68068c0d97601|||ORCL|||Oracle Just Walked Away From a $7 Billion Tencent Deal. Here’s What It Means for ORCL Stock.
-2026-11-09T08:30:14+00:00|||PASS|||1d14940ff0bc2c797e8e59ae7e3d5c69|||PLTR|||Palantir alumni launch plan to ‘wake sleeping giants’ of European defence
-2026-11-09T08:30:23+00:00|||SENT|||856c63788f68beaf07eb4c4a6ff620bd|||IBM|||EU sues IBM and two European companies over troubled border system, FT reports|||《金融时报》报道，欧盟就陷入困境的边境系统起诉 IBM 及两家欧洲公司
-2026-11-09T08:30:32+00:00|||PASS|||fa5b19b3a0e594cb861afe8b249591f9|||NET|||What Cloudflare (NET) Said on Its Q3 Earnings Call
-2026-11-09T08:30:55+00:00|||PASS|||11bfe051d6845d90169c8102935bc8d4|||SPCX|||Elon Musk's BTC-holding firm SpaceX plans a $24 billion supercomputer
-2026-11-09T08:31:00+00:00|||SENT|||185646848f69493b77f59bb382bef6f5|||SPCX|||Musk says SpaceX annual recurring revenue likely to top US$500 billion by December 2027|||Musk稱SpaceX年度經常性收入可能在2027年12月前超過US$500 billion
-2026-11-09T08:31:03+00:00|||PASS|||d0d265dd9dbe186ba0065381bcb1df98|||SPCX|||Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'
-2026-11-09T08:31:07+00:00|||SENT|||b5d29c45614ad6b1090c0cc91123a1b9|||SPCX|||SpaceX (SPCX) Lands $45 Billion AI Deal As New Contracts Recast Its Growth Story|||SpaceX (SPCX) 簽下 $45 Billion AI 合約，新合約重塑其成長故事
-2026-11-09T08:31:36+00:00|||PASS|||7766896393da5f37643993b813dfacaa|||CEG|||Constellation Software (TSX:CSU) Stock Faces Q3 Earnings Margin Squeeze
-2026-11-09T08:31:39+00:00|||PASS|||f9d8dbfa2a283697fd3ce40a9e03e1e7|||VST|||Vistra prices $1.5 billion junior subordinated notes offering By Investing.com
-2026-11-09T08:31:49+00:00|||PASS|||15ce6ad391b9cb3a329a2f4bd3c15280|||XEL|||Business People: Securian taps retired Xcel CEO to lead board
-2026-11-09T08:31:53+00:00|||SENT|||122038156f9e78cb98be4502f9f9e25f|||QNT|||[PRNewswire] Quantinuum Reports Third Quarter 2026 Results|||Quantinuum公布2026年第三季度業績
-2026-11-09T08:32:02+00:00|||SENT|||8db014f1ac7f7f8c4a6e2668d6ced9f0|||TMO|||What Does Thermo Fisher Scientific (TMO) Mean By A New $5 Billion Buyback?|||Thermo Fisher Scientific (TMO) 的新 $5 Billion 庫藏股回購代表什麼？
-2026-11-09T08:32:10+00:00|||PASS|||4e81263b80c5663bcd50e7f537b310da|||HUM|||What Humana (HUM) Said on Its Q3 Earnings Call
-2026-11-09T08:32:13+00:00|||PASS|||0a640e2096ee9aa864034a708fa9a577|||OSCR|||What Oscar Health (OSCR) Said on Its Q3 Earnings Call
+@@HEARTBEAT|||2026-11-23|||2026-10-21T13:41:10+00:00
 2026-11-09T19:57:23+00:00|||PASS|||93323aec43e7d2a005844df9e7cf91c4|||WULF|||TeraWulf Analysts Stay Bullish After Google Backstops $19 Billion Anthropic Lease
 2026-11-09T19:57:30+00:00|||PASS|||d2ea8003d81a37e712f150b36a20f8be|||GOOGL|||Waymo Cited for Safety Violations for Months After 2025 Recall
 2026-11-09T19:57:37+00:00|||SENT|||b70f608336f73b76cc15e6d2bb9b9f67|||GOOGL|||US opens probe into Waymo vehicles over school bus safety violations|||美國因 Waymo 車輛違反校車安全規定而展開調查
@@ -1428,3 +1378,22 @@
 2026-11-22T16:33:59+00:00|||SENT|||45afd811ad7674872caa2fd74b4fcaa0|||SPCX|||Lenders back SpaceX's $43 billion Nvidia GPU deal but worry the collateral could end up in orbit, making it impossible to reclaim if Musk defaults — five-year 'hell-or-high-water' lease may lack a written Earth-only guarantee|||貸方支持 SpaceX 的 $43 billion Nvidia GPU 交易，但擔心若 Musk 違約，抵押品可能進入軌道而無法收回；五年「無論如何都須履約」租約可能沒有書面保證設備只留在地球
 2026-11-22T16:34:02+00:00|||PASS|||8ab86663af6797aaf37c11efcfcb5f14|||SPCX|||Elon Musk's SpaceX is betting $74 billion on AI data centers. Texas and Arizona want to know who pays for the power
 2026-11-22T16:34:45+00:00|||PASS|||c6606427f5de83eb37b0c75743de8e2b|||GLXY|||Galaxy Digital director Douglas Deason acquires $200,850 in shares By Investing.com
+2026-11-23T09:30:32+00:00|||PASS|||8b33a21e98f4b99109a01dd6b7a25f75|||AMKR|||ASE, SPIL to overtake Amkor in 2027 as server CPUs shift beyond TSMC CoWoS
+2026-11-23T09:30:52+00:00|||PASS|||fe59608b995e4cde2cb24c7e2435d448|||RDW|||ICW0.MU interactive stock chart | RDW Fds-RDW Next Gen.E.M.Eq.FdA stock
+2026-11-23T09:30:57+00:00|||PASS|||0ee4c95f347956919f408aa9ff03b267|||MSFT|||Microsoft Outage and FAA Ground Stop Are 'Just the Opening Chapter' Top Cyber Expert Says as AI Gives Hackers a 'Negative Seven Days' Head Start
+2026-11-23T09:31:06+00:00|||PASS|||712ef7af40ae28255b0a295254a506c8|||TSLA|||Tesla Model Y's Full Self-Driving Stops Dead at Green Light, Owner Forced To Accelerate Through Intersection
+2026-11-23T09:31:09+00:00|||PASS|||aca48f7fc7784607d3c95322ab89a4f4|||NVDA|||Anthropic Stock Trend, Jensen Huang’s Potential Return As Nvidia CEO And Dell’s Q4 Results To Keep Tech Investors Busy This Week
+2026-11-23T09:31:10+00:00|||PASS|||9d37e6b9a721bdc2a24415d9168493b8|||NVDA|||Trump calls for Nvidia to rehire Jensen Huang amid China probe (NVDA:NASDAQ)
+2026-11-23T09:31:14+00:00|||SENT|||d73ebf063d29f8de76b8a1f4c374d90b|||NVDA|||US seeks answers on Nvidia's sale of chips to China, Bessent says|||Bessent稱美國要求Nvidia說明對中國銷售晶片一事
+2026-11-23T09:31:19+00:00|||PASS|||d4856f68514f7cd0e853a0ff0f698a2a|||MRVL|||Marvell Technology and Lumentum Selloff Raises Questions Over Pending Merger
+2026-11-23T09:31:30+00:00|||PASS|||97577929edbbc35a3c07840545205d3d|||QCOM|||Qualcomm’s Diversification Gamble Is Paying Off, As New Estimates Show It Has Built An $8 Billion Automotive Chip Business To Lead The Industry In 2027
+2026-11-23T09:31:34+00:00|||PASS|||6be9283c90a347aab03a03028555f17c|||INTC|||Exclusive: Could An “AI Nose” Have Stopped Intel’s $600 Million Israel Fab Disaster? Inside The $9 Million Bet By Ainos To Give Chip Factories a Sense of Smell
+2026-11-23T09:31:50+00:00|||PASS|||f5a7a2e718b8bbce7cbff7b29eff3e52|||SKHY|||Trinity Fab in talks to use SK Hynix's EUV tools
+2026-11-23T09:32:22+00:00|||PASS|||04ee3cd8243c5cbd56209c7bd064bc60|||ENTG|||Entegris and Kioxia Expand Collaboration on 3D NAND Materials Development
+2026-11-23T09:32:28+00:00|||PASS|||2862d3e4858fefa583e77cac93892b5a|||LITE|||Marvell Technology and Lumentum Selloff Raises Questions Over Pending Merger
+2026-11-23T09:32:43+00:00|||PASS|||17abd3ab217ba36781d7357d535bb41b|||DELL|||Anthropic Stock Trend, Jensen Huang’s Potential Return As Nvidia CEO And Dell’s Q4 Results To Keep Tech Investors Busy This Week
+2026-11-23T09:32:44+00:00|||PASS|||feb2d7c656e24e72eae498d7f6dda5fd|||DELL|||Dell Could Swing $25.2 Billion After Earnings
+2026-11-23T09:32:49+00:00|||PASS|||2d604a5e261025d4c9b217ac693f9f92|||ORCL|||Billionaire David Tepper’s Appaloosa Opened a $172 Million Stake in Oracle
+2026-11-23T09:32:52+00:00|||PASS|||a51c6eecdd6d36e283622d4f55901ea4|||CRWV|||CoreWeave (CRWV) Stock Gets An AI Demand Jolt From A Record $81.3 Billion IPO
+2026-11-23T09:33:07+00:00|||SENT|||250fb620b277c301c578deedb5cad413|||PANW|||Palo Alto Networks' Q1 FY2027 Revenue Rises 39%, Operating Profit Falls 69%|||Palo Alto Networks FY2027第一季營收上升39%，營業利潤下跌69%
+2026-11-23T09:33:11+00:00|||PASS|||22b1c61d14089bbcca377ab1dcb0761e|||ZS|||CrowdStrike-Zscaler Acquisition Talks Reported: 5 Things To Know
