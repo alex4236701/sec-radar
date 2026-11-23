@@ -1,1 +1,106 @@
-[]
+[
+ {
+  "date": "2026-11-23",
+  "form": "4",
+  "holding": true,
+  "text": "Form 4 員工／高管持股計畫統一買進（非主動買進）：1 份申報，合計 8,900 股，約 $50,996，均價 $5.73",
+  "ticker": "RDW",
+  "url": "https://www.sec.gov/Archives/edgar/data/1819810/000181981026000146/xslF345X06/wk-form4_1795468158.xml"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：SHELLEY L REYNOLDS（高階主管），2,343 股，約 $578,299",
+  "ticker": "AMZN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000195004726011447/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：GRECH FAMILY TRUST U/A DTD 03/10/2015（高階主管），628 股，約 $102,483",
+  "ticker": "QCOM",
+  "url": "https://www.sec.gov/Archives/edgar/data/804328/000195004726011458/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：ALPER ILKBAHAR（高階主管），3,474 股，約 $275,280",
+  "ticker": "SNDK",
+  "url": "https://www.sec.gov/Archives/edgar/data/2023554/000195004726011452/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：CYNTHIA LOCK TREGILLIS（高階主管），684 股，約 $206,889",
+  "ticker": "WDC",
+  "url": "https://www.sec.gov/Archives/edgar/data/106040/000195004726011428/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "8-K",
+  "holding": false,
+  "text": "8-K 股東會投票結果（項目 5.07）",
+  "ticker": "LITE",
+  "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026075535/lite-20261118.htm"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：WUPEN YUEN（高階主管），500 股，約 $281,535",
+  "ticker": "LITE",
+  "url": "https://www.sec.gov/Archives/edgar/data/1633978/000195004726011424/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Radakovich Lynn Vojvodich（董事），2,022 股，約 $766,338",
+  "ticker": "DELL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1571996/000195917326008202/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "4",
+  "holding": false,
+  "text": "Form 4 內部人小額買進：Wolff Benjamin G（董事、高階主管（PRESIDENT & CEO））：5,000 股，均價 $2.75，約 $13,750",
+  "ticker": "PDYN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1826681/000136861826000017/xslF345X06/form4-11232026_061102.xml"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "SCHEDULE 13G",
+  "holding": false,
+  "text": "13G 被動型持股超過 5%：D. E. SHAW & CO, L.P.，持股 5.00%",
+  "ticker": "MP",
+  "url": "https://www.sec.gov/Archives/edgar/data/1801368/000110465926131054/xslSCHEDULE_13G_X02/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "4",
+  "holding": false,
+  "text": "Form 4 內部人小額買進：2 份，合計約 $145,329（未達 $100,000 推卡門檻）",
+  "ticker": "ETN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1551182/000110465926131076/xslF345X06/tm2630470-2_4seq1.xml"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Plagens Anthony J（高階主管），1,874 股，約 $685,919",
+  "ticker": "TLN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1622536/000195917326008223/xsl144X01/primary_doc.xml"
+ },
+ {
+  "date": "2026-11-23",
+  "form": "144",
+  "holding": false,
+  "text": "Form 144 內部人預告賣股：Weintraub Alexander J.（高階主管），1,500 股，約 $193,230",
+  "ticker": "DUK",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326160/000195917326008206/xsl144X01/primary_doc.xml"
+ }
+]
