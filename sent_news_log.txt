@@ -1,45 +1,4 @@
 @@HEARTBEAT|||2026-11-24|||2026-10-21T13:41:10+00:00
-2026-11-10T08:41:20+00:00|||PASS|||77961c4f324435cb7f3801212743bb9b|||EOSE|||Eos Energy Enterprises, Inc. 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:EOSE) 2026-11-09
-2026-11-10T08:41:38+00:00|||PASS|||19b1f0464644e7911c2f067129d77199|||WOLF|||Wolfspeed, Inc. 2027 Q1 - Results - Earnings Call Presentation (NYSE:WOLF) 2026-11-09
-2026-11-10T08:41:46+00:00|||PASS|||1e0c652ba9f4bc9db7fd84aaa54e148f|||FCEL|||URGENT FCEL DEADLINE: FuelCell Energy, Inc. Investors Have
-2026-11-10T08:41:48+00:00|||PASS|||69445f160c2f0d778b3ac34afcd0aa6b|||FCEL|||DEADLINE ALERT for FuelCell Energy, Inc. (FCEL) and Lincoln
-2026-11-10T08:41:52+00:00|||SENT|||8b00eb3ae644ad445f074f5a5fd203f8|||GEV|||GE Vernova Continues Wind Energy Expansion in Germany With New Order From Stadtwerke Heidenheim AG|||GE Vernova 持續擴大在德國的風能業務，獲得 Stadtwerke Heidenheim AG 新訂單
-2026-11-10T08:41:58+00:00|||SENT|||9000e071e4a0f87dbb1437b4d8fcd63e|||CAT|||Anthropic Grabs 1.7 Gigawatts of Caterpillar Generators for $3.4 Billion. The Power Deal Barely Dents an $895 Billion Problem.|||Anthropic以$3.4 Billion購買1.7 Gigawatts的Caterpillar發電機，但這筆電力交易對$895 Billion的問題影響有限
-2026-11-10T08:42:10+00:00|||PASS|||1cb5fd31dc6cbebcad749c19ee4e78ab|||META|||Meta cut 8,000 jobs and canceled 6,000 planned hires while budgeting up to $135 billion for AI
-2026-11-10T08:42:16+00:00|||PASS|||6fc6681f96e647e82e87da5a86dfd434|||TSLA|||Tesla's $10 Billion 'Project Crystal Sun' Takes Shape Near Houston as Elon Musk Eyes TSLA's Largest US So
-2026-11-10T08:42:17+00:00|||PASS|||64f46c76d8a3066f3b0cff13889eb1bb|||TSLA|||Nvidia, Palantir, and Tesla Are Sending Shockwaves Through Wall Street With This $53 Billion Warning
-2026-11-10T08:42:20+00:00|||PASS|||8c4c170dea82e03af59158278e1dc451|||NVDA|||Nvidia’s Intervention in Chip Probe Brings Fresh Scrutiny
-2026-11-10T08:42:22+00:00|||PASS|||8338bbc55523b14a3e51bef10cd20963|||NVDA|||The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips
-2026-11-10T08:42:24+00:00|||PASS|||0b76172a3177369977ffc297812f204e|||NVDA|||A short seller flagged Nvidia CEO's ties to a suspected Chinese spy six months before the scandal
-2026-11-10T08:42:25+00:00|||PASS|||1d4208ff94c647fc85218cd4fd0c6467|||NVDA|||Nvidia Shares Slump on Spy Probe
-2026-11-10T08:42:37+00:00|||PASS|||9b75e5bf9c20b72e1860b0d4d6eaeb53|||TSM|||TSMC's October sales soar almost 60% year-on-year to hit high
-2026-11-10T08:42:40+00:00|||PASS|||16e864956ff832fbf03806acb3a272d7|||TSM|||TSMC October revenue jumps nearly 60% on strong AI chip demand (TSM:NYSE)
-2026-11-10T08:42:41+00:00|||PASS|||3d04af3576e3e2d4a243e997427bbfcb|||TSM|||TSMC's October sales jump as global chip boom rolls on
-2026-11-10T08:42:48+00:00|||PASS|||b40de28647f2a359aa7d9d2af7f1b4e5|||SKHY|||Nvidia probe fuels push for China chip curbs, raising risks for Samsung, SK Hynix
-2026-11-10T08:42:52+00:00|||PASS|||ee1d691e43234a43ed8844fb4c6da430|||WDC|||Western Digital stock sale disclosed by John J Mr McGuire III
-2026-11-10T08:42:59+00:00|||PASS|||4235a184c7b58f17b444ea15f02c2d98|||LRCX|||Lam Research Korea Names Kim Tae-won as New CEO
-2026-11-10T08:43:04+00:00|||SENT|||58941d8b165b4952e71862bd96dcc9fc|||LRCX|||LRCX Gains 8% on a $25B Buyback Plan: Is the Stock Worth Holding Now?|||LRCX 因 $25B 庫藏股計畫上漲 8%：現在值得繼續持有嗎？
-2026-11-10T08:43:11+00:00|||PASS|||f0865a2c1032af6c7f2e9a0893aca46d|||ONTO|||Onto Innovation (ONTO) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
-2026-11-10T08:43:15+00:00|||SENT|||80dbc7f6fc0fe170407c2afe286fc49e|||ONTO|||Onto Innovation (ONTO) Q3 Earnings and Revenues Surpass Estimates|||Onto Innovation (ONTO) 第三季獲利與營收超越預期
-2026-11-10T08:43:28+00:00|||SENT|||25308a007dea007bc9b572a8240a9173|||TER|||Teradyne Introduces Omnyx Edge, Inline Board Test for Physical and Edge AI|||Teradyne 推出 Omnyx Edge，面向實體與邊緣 AI 的在線電路板測試產品
-2026-11-10T08:43:54+00:00|||SENT|||4c7c70e6d037282a4a273dbb6858981e|||IFNNY|||Infineon FY27 revenue outlook tops forecasts on AI demand; cash flow disappoints|||Infineon FY27營收展望因AI需求優於預期；現金流令人失望
-2026-11-10T08:43:58+00:00|||PASS|||d04e66e54099d9ab80ffd22b275bfe94|||IFNNY|||SOLUM, Infineon Collaborate on HVDC Power Systems for AI Data Centers
-2026-11-10T08:44:14+00:00|||PASS|||fef950a13e5311e84a56ec7c7a85722c|||NOW|||Kyndryl Expands Partnership with ServiceNow to Enable Trusted Autonomous Operations
-2026-11-10T08:44:21+00:00|||PASS|||def840cd762ba0fed8fe881076b067aa|||ZETA|||What Zeta Global (ZETA) Said on Its Q3 Earnings Call
-2026-11-10T08:44:25+00:00|||SENT|||5e0fae09b9541d5253b42bb745d2cbb1|||ZETA|||Zeta Global Holdings (ZETA) Tops Q3 Earnings and Revenue Estimates|||Zeta Global Holdings (ZETA) 第三季獲利與營收優於預期
-2026-11-10T08:44:42+00:00|||PASS|||b452399f4c4e15f3e5514c649e74fc53|||LTRX|||What Lantronix (LTRX) Said on Its Q1 Earnings Call
-2026-11-10T08:44:46+00:00|||SENT|||106483d9c871f7e1d3edaddf12997c27|||LTRX|||Lantronix, Inc. (LTRX) Tops Q1 Earnings and Revenue Estimates|||Lantronix, Inc. (LTRX) 第一季獲利與營收均超出預期
-2026-11-10T08:45:03+00:00|||PASS|||0d5907b07fb7079ffc6ff026c84db5c0|||SPCX|||SPCX Stock Logs 2-Day Winning Streak: Barclays Calls T-Mobile 'Cleanest' Fit For Potential SpaceX Buyout
-2026-11-10T08:45:06+00:00|||PASS|||815c5cea1dfd51875cecade4bc7ad49b|||RKLB|||RKLB Stock Tumbles Over 8% Overnight as Neutron Delays Overshadow Record Revenue — but Analyst Sees Rocke
-2026-11-10T08:45:10+00:00|||PASS|||e9d7f43fed06256be1a17d248a8dab98|||RKLB|||RKLB Stock Sinks After-Hours On Q3 Earnings Miss, But Neutron Launches Now Fetch $70M – And New Buyers Face A 2030s Wait
-2026-11-10T08:45:14+00:00|||PASS|||9a9d6dd0475c4901d8bae5add64f6290|||RKLB|||Rocket Lab Corporation (RKLB) Reports Q3 Loss, Tops Revenue Estimates
-2026-11-10T08:45:15+00:00|||PASS|||fd07fbe5533c3da16a50dc857dcb5fd3|||RKLB|||Rocket Lab Corporation (RKLB) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
-2026-11-10T08:45:19+00:00|||SENT|||5bb5ba9bd83852f22b0ad567f41667fe|||RKLB|||Rocket Lab Lands Over $515M in Neutron Launch Deals from Constellation Operators in Q3|||Rocket Lab 在 Q3 與星座營運商敲定超過 $515M 的 Neutron 發射交易
-2026-11-10T08:45:32+00:00|||PASS|||5d6e70ba81959e939f67816aa485adf8|||PPTA|||Perpetua Resources (PPTA) Wins $2.9 Billion Loan Approval. What Comes Next?
-2026-11-10T08:45:57+00:00|||PASS|||8b0eeb27a0ff034f83e55dc35a254800|||DUK|||Watch Betsy Duke on Post-Midterms Inflation Outlook
-2026-11-10T08:46:09+00:00|||PASS|||328618b9f112ec8130a34b11c1f7a0a5|||COIN|||Coinbase, Kalshi and Payward backs CFTC in lawsuit over single-stock perp futures
-2026-11-10T08:46:18+00:00|||PASS|||2b5c847718214a7226286ddd49b4cdd4|||ISRG|||NASA Awards Intuitive Machines Spot In $10 Billion Lunar Program - Intuitive Machines (NASDAQ:LUNR)
-2026-11-10T08:46:23+00:00|||SENT|||ac8cc7caaa7dca87c066705c359a3a70|||HUM|||Humana Lifts Outlook as Quarterly Revenue Jumps|||Humana 上調展望，季度營收大幅增加
 2026-11-10T17:12:54+00:00|||SENT|||b817a3f4f7d5cbcc68995986b7116dc9|||GOOGL|||Nvidia, Alphabet, and Micron Just Agreed to Buy $26 Billion of Stock in One of Their Biggest Customers|||Nvidia、Alphabet 和 Micron 剛同意購買其最大客戶之一的 $26 Billion 股票
 2026-11-10T17:13:04+00:00|||PASS|||836d04025fd67b3855d2f1db76636a8c|||GOOGL|||Fervo CEO Says Cape Station on Track as Google Deal Lifts Backlog to $11.9 Billion
 2026-11-10T17:13:12+00:00|||PASS|||c86d087559fc4a77ab8114681cbd07dd|||GOOGL|||Google, Nvidia and Microsoft Are Among 7 Tech Giants Putting $26 Billion Into Anthropic’s IPO
@@ -1359,3 +1318,42 @@
 2026-11-24T00:12:22+00:00|||SENT|||e262e9eacac28fef0ac16482bbb85aed|||LLY|||Lilly’s Buyout Spree Sees A New Huntington’s Disease Bet – Here’s Why Lilly Is Acquiring LoQus23|||Lilly 收購 LoQus23，押注亨丁頓舞蹈症治療
 2026-11-24T00:12:36+00:00|||SENT|||846ccaf41ce0fe634167f4735ca89c5f|||HUM|||UnitedHealth, Humana and CVS Shares Fall as Medicare Advantage Rating Changes Threaten $107 Billion in Payments|||UnitedHealth、Humana 和 CVS 股價下跌，Medicare Advantage 評級變動恐威脅 $107 Billion 款項
 2026-11-24T00:12:46+00:00|||PASS|||2c152fef9cffbfc4368449b4e53b7074|||CVS|||CVS Health’s Planned Breakup Hasn’t Quieted Antitrust Critics
+2026-11-24T11:26:23+00:00|||PASS|||696b1b016da61924ce1d413636dcf074|||ONDS|||ONDS Stock Ticks Higher Overnight: Ondas CEO Plans To Slow Acquisition Push, Doubles Down On $1.1B 2027 Revenue Target
+2026-11-24T11:26:30+00:00|||PASS|||f9a05f68a95e0fedb6b41a1b664bf8d4|||NVTS|||Navitas Credit Announces Completion of $675M Asset-Backed
+2026-11-24T11:26:46+00:00|||SENT|||bdce6e6b6af13fc3097ce8ae18332da5|||MSFT|||Microsoft admits hackers accessed clients’ private data|||Microsoft承認駭客曾存取客戶私人資料
+2026-11-24T11:26:50+00:00|||PASS|||e4ea7c208b4027ecddb9e76422318c1c|||AMZN|||Amazon to acquire Decart’s AI optimisation technology
+2026-11-24T11:26:53+00:00|||SENT|||d7dc36662cb8917aeafd279bb1aa1e18|||AMZN|||Amazon faces FAA probe after delivery drone strikes Michigan fiber cable, garage|||Amazon因配送無人機撞上密西根州光纖電纜與車庫，面臨FAA調查
+2026-11-24T11:26:59+00:00|||PASS|||c4315e4c95642e724a0cfeadb8cec2fe|||META|||Meta pauses Class C share issuance amid shareholder lawsuit By Reuters
+2026-11-24T11:27:02+00:00|||PASS|||7f98cb36a7e29e4170f6498bd60f123f|||META|||Meta pauses Class C share issuance amid shareholder lawsuit
+2026-11-24T11:27:06+00:00|||PASS|||1705aa4543dd267d0c309b217fc1c3dc|||TSLA|||Self-driving race: Mercedes wins German approval ahead of Tesla
+2026-11-24T11:27:09+00:00|||SENT|||c6e427e67e40c267b7a029de29c171a6|||TSLA|||SpaceX, Tesla appoint five directors to guide merger talks, FT reports By Reuters|||Reuters 報導：SpaceX、Tesla 任命五名董事指導合併談判
+2026-11-24T11:27:11+00:00|||PASS|||bb2ce0526488cdf8ab176a471aa30aee|||TSLA|||Charged: Wall Street warms to Tesla as merger review takes center stage
+2026-11-24T11:27:15+00:00|||PASS|||4fc648efedcec751fb7fd17973fef911|||NVDA|||Nvidia Could Generate $741 Billion in Revenue Next Year. Here’s What That Means for the Stock.
+2026-11-24T11:27:16+00:00|||PASS|||53b3c55f0a4be0e3aa021e01cd9587e2|||NVDA|||Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal
+2026-11-24T11:27:18+00:00|||PASS|||62515fb466c0ef381a23cb4936458350|||AMD|||AMD Stock Rallies Nearly 8% as a Bernstein Analyst Remains Bullish Despite the Hunterbrook Short Report
+2026-11-24T11:27:22+00:00|||SENT|||d5b89734e826af3efcce1d47595859b0|||AMD|||How to Play AMD Stock as Hunterbrook Slams the Company With a New Short Report|||Hunterbrook發布新的做空報告抨擊AMD，AMD股票該如何操作
+2026-11-24T11:27:32+00:00|||PASS|||ed1db9ad8597674c8aaa06603d5c2d29|||TSM|||TSMC eyes US$22.6 billion Texas campus for 2nm chips
+2026-11-24T11:27:34+00:00|||PASS|||df33406c8225f8f9aa69a969308a98b7|||TSM|||TSMC gains $158 billion in value in one day as Jensen Huang returns as Nvidia CEO
+2026-11-24T11:27:42+00:00|||SENT|||e892eef764788241afff67495c881d08|||SKHY|||SoftBank's Masayoshi explored $1T buyout of SK Hynix - The Information|||SoftBank 的孫正義曾探討以 $1T 收購 SK Hynix
+2026-11-24T11:27:44+00:00|||PASS|||c6687687f3e95c59a462384821017bc4|||SKHY|||The Enigma of SoftBank’s $1 Trillion SK Hynix Buyout Attempt
+2026-11-24T11:27:46+00:00|||PASS|||90e550b4417b8c71acbaaf8f45c96e2f|||SKHY|||Why SoftBank weighed a US$1 trillion SK Hynix buyout before backing off
+2026-11-24T11:27:55+00:00|||PASS|||bc91c923c0e4c6e890cf8b91f3a2f4bf|||LRCX|||Lam Research Stock What Record Revenue And AI Demand Mean Now
+2026-11-24T11:28:19+00:00|||PASS|||a2a471daaf77a14059cf30fd0208c111|||CSCO|||Cisco, OpenAI launch open-source project to counter AI-driven cyberattacks
+2026-11-24T11:28:31+00:00|||PASS|||343ee34fc672147efc45d6b692d90f05|||DELL|||Dell’s AI Growth Comes at a Cost as Investors Await Q3 Results
+2026-11-24T11:28:34+00:00|||PASS|||544972d8257003b67e865d822e0fb2ba|||HPE|||HPE Stock Tumbles After Earnings Beat. Strong AI Demand Isn’t Enough.
+2026-11-24T11:28:36+00:00|||PASS|||52933785efe85828fb532d71783e22a2|||HPE|||CEO Antonio Neri Says HPE Circuit To Packet Device Worked ‘As Configured’ In FAA Network Shutdown: CRN Exclusive
+2026-11-24T11:28:46+00:00|||PASS|||1d68d44de0b2eca7a15ef2f3f2ad2884|||CRM|||DataGroomr Introduces MCP Server to Bring Salesforce Data Quality Management into AI Assistants
+2026-11-24T11:28:52+00:00|||PASS|||989c18b05a14115749044917d3155d2f|||ZETA|||Zeta Global Targets $2.3 Billion in 2028 Revenue as Organic Growth Accelerates
+2026-11-24T11:28:58+00:00|||PASS|||520ee0714105a626ce81bdaf99aaf5cd|||ZS|||Davis Polk, Wilson Sonsini Aid CrowdStrike’s Plan to Buy Zscaler
+2026-11-24T11:29:00+00:00|||PASS|||f41b0d434e9f6ddb496c8b664e178daf|||ZS|||CrowdStrike to buy Zscaler in record-setting $43.9B cybersecurity deal
+2026-11-24T11:29:01+00:00|||PASS|||06f48332af75c1fcc0b6607d84b6e3ff|||ZS|||Zscaler Stock Surged on CrowdStrike's $43.9 Billion Buyout. Here's How Much Shareholders Will Actually Get
+2026-11-24T11:29:02+00:00|||PASS|||6c8acf84d10ac8312899971ec2b5b98a|||ZS|||CrowdStrike: The Zscaler Merger Is A Game Changer (Rating Upgrade) (NASDAQ:CRWD)
+2026-11-24T11:29:04+00:00|||PASS|||e0544232f5ac453f7fe2551f1ecc7664|||ZS|||Investors are missing the bigger picture in CrowdStrike's deal to buy Zscaler
+2026-11-24T11:29:07+00:00|||SENT|||af393be58b712a04adfb82dd4d2bb33c|||ZS|||Zscaler’s Chaudhrys to Reap $14.5 Billion From CrowdStrike Deal|||Zscaler創辦人Chaudhrys將從CrowdStrike交易中獲得$14.5 Billion
+2026-11-24T11:29:12+00:00|||PASS|||fa328b890dc9fe4b6dd3c5d4b248e3df|||ZS|||CrowdStrike to Buy Zscaler for $43.9 Billion in AI Security Push
+2026-11-24T11:29:14+00:00|||PASS|||0bb8303bc6cc69c32ad5fdba546b6ebf|||ZS|||CrowdStrike Stock Drops 11% on $43.9 Billion Zscaler Deal on Nov. 23
+2026-11-24T11:29:28+00:00|||SENT|||436432b4a39760b61fd01a4061900a3e|||BB|||BB Stock Rises Overnight: BlackBerry Takes On Browser Security With New Windows Launch Amid US Tech Outage|||BB 股價隔夜上漲：BlackBerry 推出 Windows 新品，進軍瀏覽器安全，正值美國科技服務中斷
+2026-11-24T11:29:45+00:00|||SENT|||bfcd1ca43efd49e8bb880a456fb64e18|||SPCX|||Elon Musk's $3.5 Trillion SpaceX-Tesla Merger Gets a Five-Director Team — But They Face a Tough Test: Report|||Elon Musk 的 $3.5 Trillion SpaceX-Tesla 合併成立五人董事團隊，但他們面臨艱難考驗：報導
+2026-11-24T11:29:47+00:00|||PASS|||3834aad299d165c8c3f5e23cc26837e4|||SPCX|||Not Starlink. Not Starship. This SpaceX Business Could Be Worth $80 Billion on Its Own.
+2026-11-24T11:30:27+00:00|||PASS|||02bbec31c03d52e6432a23f9f17200be|||CRCL|||DOJ moves to forfeit $1.1 billion in frozen USDC from Binance hack as billions remain unrecovered
+2026-11-24T11:30:32+00:00|||PASS|||6b834829d9ff55f34eeb4df4db86825a|||COIN|||California court terminates lawsuit against Coinbase over TerraUSD purchases
