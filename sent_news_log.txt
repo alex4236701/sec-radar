@@ -1,92 +1,4 @@
-@@HEARTBEAT|||2026-11-23|||2026-10-21T13:41:10+00:00
-2026-11-09T19:57:23+00:00|||PASS|||93323aec43e7d2a005844df9e7cf91c4|||WULF|||TeraWulf Analysts Stay Bullish After Google Backstops $19 Billion Anthropic Lease
-2026-11-09T19:57:30+00:00|||PASS|||d2ea8003d81a37e712f150b36a20f8be|||GOOGL|||Waymo Cited for Safety Violations for Months After 2025 Recall
-2026-11-09T19:57:37+00:00|||SENT|||b70f608336f73b76cc15e6d2bb9b9f67|||GOOGL|||US opens probe into Waymo vehicles over school bus safety violations|||美國因 Waymo 車輛違反校車安全規定而展開調查
-2026-11-09T19:57:43+00:00|||PASS|||fa1948dd4093d84e5643a01b57c26f4a|||GOOGL|||TeraWulf Analysts Stay Bullish After Google Backstops $19 Billion Anthropic Lease
-2026-11-09T19:57:47+00:00|||PASS|||79fe23f7d315d636ef23e0f29781faaf|||GOOGL|||Google Expands AI Chip Portfolio as Nvidia Faces Investigation Involving CEO
-2026-11-09T19:57:50+00:00|||PASS|||9288075c8efc9d98b81acd145d872846|||MU|||Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%
-2026-11-09T19:57:58+00:00|||PASS|||19a0f03554f66ff037d69bd86bae4479|||ONDS|||What To Expect In Markets This Week: CRWV, CSCO, NBIS, LUNR, ONDS, CBRS Earnings, CPI, Fed Speeches And More
-2026-11-09T19:58:02+00:00|||PASS|||79a3bd2f25e2aac7849051089b1ad6e5|||VSH|||Vishay Intertechnology to Showcase Passive and
-2026-11-09T19:58:06+00:00|||PASS|||fa7a618afc69718082c45c89aa905871|||AVGO|||Broadcom Inc. to Announce Fourth Quarter and Fiscal Year 2026 Financial Results on Wednesday, December 9, 2026
-2026-11-09T19:58:13+00:00|||SENT|||a53ded6f524fd4ef6a8a688895342b1c|||GLW|||Corning stock dips on filing for $2 billion equity distribution program|||Corning因申報$2 billion股權分銷計畫而股價下跌
-2026-11-09T19:58:18+00:00|||PASS|||ccc2497ff43f9991241c1ba74423cbf3|||GEV|||GE Vernova Soars 7% as Constellation Raises Guidance, Easing Data-Center Moratorium Fears
-2026-11-09T19:58:26+00:00|||PASS|||8078660ed574f1cf65b7f85b28b08848|||MSFT|||Would You Take the Money? Microsoft Is Offering Employees Its Biggest Buyout Offer to Date.
-2026-11-09T19:58:29+00:00|||PASS|||5f41a8fd01d946171fe6eddb0267d42d|||AMZN|||Instacart points to Walmart and Amazon as reasons its merger with DoorDash should be approved
-2026-11-09T19:58:31+00:00|||PASS|||f198dc07c92e3505cebdb8e93aa1ec84|||AMZN|||Amazon Generated $202 Billion in Quarterly Sales. Most of Its Operating Profit Came From Just 1 Business.
-2026-11-09T19:58:34+00:00|||PASS|||71dafcfc1c8fe49f28c1414b0208766b|||AAPL|||Apple Reclaims $5 Trillion Crown: What's Going On?
-2026-11-09T19:58:36+00:00|||PASS|||f54c4b366f9dbb7cb34074c37a4311ca|||AAPL|||Apple adds ability to buy extra usage in Creator Studio in AI monetization push
-2026-11-09T19:58:37+00:00|||PASS|||44ba385507d9607510c929b213138157|||AAPL|||Apple's Market Value Grew From $350 Billion to $4 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Apple's Next Chapter Under John Ternus.
-2026-11-09T19:58:47+00:00|||PASS|||812f166d0b6a8d38846b2690ea64b3aa|||TSLA|||How Tesla Stock Could Move Amid Roadster Reveal and Reported SpaceX Merger
-2026-11-09T19:58:50+00:00|||PASS|||b170bf4d7d4af381cd07698e32bf0612|||NVDA|||Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO
-2026-11-09T19:58:52+00:00|||PASS|||9d37da9c20ce34167675be993ee49d86|||NVDA|||Internal probe into CEO Jensen Huang and 'foreign intelligence' weighs on high-flying Nvidia shares
-2026-11-09T19:58:54+00:00|||PASS|||4323a2c92d85aad14531c9cda331ab5c|||NVDA|||Jensen Huang exit odds are low on prediction markets after Nvidia probe
-2026-11-09T19:58:56+00:00|||PASS|||0f401cf732802efe796c7c56c071d270|||NVDA|||Nvidia Opens Investigation Into Jensen Huang’s Relationship With Suspected Chinese Spy
-2026-11-09T19:58:57+00:00|||PASS|||eeacfa779f207cd21c7dbc245662fa87|||NVDA|||Meet Nico Caprez, Jensen Huang's son-in-law and 'consigliere' who could replace him as Nvidia's CEO
-2026-11-09T19:58:58+00:00|||PASS|||21cb0f18f6f832ac740c886b2aad5eae|||NVDA|||Analysts say Nvidia CEO unlikely to be ousted over affair, but raise questions about company's future
-2026-11-09T19:58:59+00:00|||PASS|||341d9cb31ab8438da5b602a40b443734|||NVDA|||Nvidia's investigation into CEO Huang's affair puts a spotlight on chip billionaire's personal life
-2026-11-09T19:59:01+00:00|||PASS|||550d05d1759b690d704c69c415f32a45|||NVDA|||Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang
-2026-11-09T19:59:03+00:00|||PASS|||c163e370c2569c94c79d5dd004c15e43|||AMD|||AMD's $100 billion AI opportunity raises a Wall Street question
-2026-11-09T19:59:18+00:00|||PASS|||8810518ac6f5f001d449001b540a725f|||STX|||Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%
-2026-11-09T19:59:46+00:00|||PASS|||7ff28a0fd6503b1a580ab4fb2e209802|||CSCO|||What Analyst Projections for Key Metrics Reveal About Cisco (CSCO) Q1 Earnings
-2026-11-09T19:59:53+00:00|||PASS|||bc8dbd5614ca543e373f57735d687575|||MPWR|||Reed Semiconductor Prevails in Patent Lawsuit Brought by Monolithic Power Systems
-2026-11-09T20:00:06+00:00|||PASS|||a5691e4f5d7bf84faf3065181588ccd1|||ORCL|||Oracle's $1.55 Million Grant Helps Trinity Community Commons Bring Its Neighborhood Vision to Life in Nashville
-2026-11-09T20:00:08+00:00|||PASS|||132e2a53b928f443271fac94ca31901f|||CRWV|||Options Action: CoreWeave reports earnings Tuesday
-2026-11-09T20:00:11+00:00|||PASS|||e9b5919e8b7c519e42666513d56a0cb6|||NBIS|||Nebius Could Swing $6.56 Billion After Earnings
-2026-11-09T20:00:14+00:00|||PASS|||ef14e6f62bca19560fd558a9ce35bb6c|||PLTR|||Nvidia, Palantir, and Tesla Are Sending Shockwaves Through Wall Street With This $53 Billion Warning
-2026-11-09T20:00:22+00:00|||PASS|||609e21aced1721d5ab3b2a7d032b89e4|||IBM|||IBM deploys Quantum System Two in Chicago, Illinois
-2026-11-09T20:00:37+00:00|||SENT|||83467161eca88372c4bca6ae8ab22cd0|||AKAM|||Akamai predicts revenue to exceed $7bn in 2028, driven by cloud infrastructure services growth|||Akamai 預測 2028 年營收將超過 $7bn，受雲端基礎設施服務成長帶動
-2026-11-09T20:00:42+00:00|||SENT|||9a5b93f8c330c542fa30478432b024b3|||AKAM|||Akamai proposes $2.2 billion convertible notes offering|||Akamai 提議發行 $2.2 billion 可轉換票據
-2026-11-09T20:01:03+00:00|||PASS|||4f95cd32e0e4ff433c7c3fa25b741eee|||AVAV|||Why Drone Maker AeroVironment’s Stock Is Rocketing on This Sub-$1 Billion Deal
-2026-11-09T20:01:11+00:00|||PASS|||2193390057962613ed6dd81a4be622ae|||SPCX|||SpaceX plans $24 billion power plant in Starbase, Texas
-2026-11-09T20:01:13+00:00|||PASS|||7c5785b09188d92bd8491b40baaeb923|||SPCX|||SpaceX Plans $24 Billion Data Center and Gas Plant in Texas
-2026-11-09T20:01:17+00:00|||PASS|||3c42c532f63a8c46403d1dbc98e73128|||SPCX|||SpaceX Stocks Rise 5.80% After Winning Spot in NASA's $10 Billion Lunar Pool
-2026-11-09T20:01:22+00:00|||SENT|||0a8b0809198e25771ac5b6183c2d50fe|||SPCX|||SpaceX, Rocket Lab blast higher as NASA hands out $10 billion in moon base awards|||NASA 頒發 $10 billion 月球基地合約，SpaceX、Rocket Lab 股價大漲
-2026-11-09T20:01:26+00:00|||PASS|||157b9115a438ca98622a51821065d5ab|||SPCX|||How Tesla Stock Could Move Amid Roadster Reveal and Reported SpaceX Merger
-2026-11-09T20:01:27+00:00|||PASS|||3abf417d49fcd3062ace6cb2327850c6|||SPCX|||Tesla–SpaceX Union Would Test Texas Business Code Merger Process
-2026-11-09T20:01:55+00:00|||PASS|||6e63d75898f6526e701a73d61c7ede98|||CEG|||Data-Center Moratoriums? They Aren’t Showing Up in Constellation Energy’s Guidance.
-2026-11-09T20:01:56+00:00|||PASS|||655bcd516bda21db6968270fb653552f|||CEG|||Nuke Stock Constellation Fueled By Earnings; NRG Hits Gas On Buybacks
-2026-11-09T20:02:02+00:00|||SENT|||caf16cfcf8030b81facbb98246af3eca|||CEG|||GE Vernova Soars 7% as Constellation Raises Guidance, Easing Data-Center Moratorium Fears|||GE Vernova 飆升 7%，因 Constellation 上調指引，降低資料中心暫停令疑慮
-2026-11-09T20:02:09+00:00|||PASS|||8aabaa3918c4f68922c9493b74bbc0fd|||NRG|||What NRG Energy (NRG) Said on Its Q3 Earnings Call
-2026-11-09T20:02:13+00:00|||SENT|||22003af795fdb0806ae42c34aa2ec51b|||NRG|||NRG Energy Stocks Surge 9.81% on $4 Billion Gas Plant Sale and Buybacks|||NRG Energy因$4 Billion燃氣電廠出售及庫藏股回購，股價大漲9.81%
-2026-11-09T20:02:15+00:00|||PASS|||fcc5e37a1a0383938196f74d1e640519|||NRG|||Crude Oil Falls Over 3%; NRG Energy Shares Jump After Strong Q3 Results
-2026-11-09T20:02:17+00:00|||PASS|||b6c9d828f073ea178d5dc5546fa74fe5|||NRG|||Nuke Stock Constellation Fueled By Earnings; NRG Hits Gas On Buybacks
-2026-11-09T20:02:20+00:00|||SENT|||1a478708d43a43f46c529388503ccee6|||NRG|||NRG Energy Q3 Earnings Beat Estimates on LS Power Asset Gains|||NRG Energy受LS Power資產收益帶動，第三季獲利優於預期
-2026-11-09T20:02:29+00:00|||PASS|||9d159e6b78d8c150dfeb34a7ffed2888|||XEL|||Xcel Brands explores sale of non-core legacy assets By Investing.com
-2026-11-09T20:02:33+00:00|||PASS|||289b7d0235a5c22280a8ab305288cb47|||CRCL|||Coinbase and PNC Bank expand partnership with USDC payments for corporate clients
-2026-11-09T20:02:42+00:00|||PASS|||1163050de0a0a8080bd2f74fcf1bae6c|||COIN|||Coinbase and PNC Bank expand partnership with USDC payments for corporate clients
-2026-11-09T20:02:51+00:00|||SENT|||e58b6823668dd5d793a0d6c1c1fb6189|||LLY|||Eli Lilly’s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval|||Eli Lilly 的 Foundayo 減重藥在後期試驗中改善睡眠呼吸中止症，為核准鋪路
-2026-11-09T20:02:56+00:00|||PASS|||559ef83601a6c2b3f95935216ee4c2ff|||MOH|||Roma will not release Molina for Argentina duty despite World Cup ban being reduced
-2026-11-09T20:02:58+00:00|||PASS|||4bfae85a17c8c472cf6402304ff91d29|||ISRG|||NASA Awards Intuitive Machines Spot In $10 Billion Lunar Program
-2026-11-09T20:02:59+00:00|||PASS|||092b137f820e82929fb186ccf9ffb6b1|||ISRG|||Intuitive Machines Selected for NASA Lunar Delivery Contract with Potential $15 Billion Programme Ceiling
-2026-11-09T20:03:00+00:00|||PASS|||d8e983f3816d789cf385bfbde8abea97|||ISRG|||Intuitive Machines Selected for NASA's Next-Generation Lunar Delivery Contract to Support Moon Base
-2026-11-09T20:03:03+00:00|||PASS|||b16288866fbe2c6016c68244481b6a2a|||HUM|||Humana Analysts Raise Their Forecasts After Q3 Results
-2026-11-09T20:03:07+00:00|||PASS|||0bad2546ef8f3a274c8b02c5265c5080|||WM|||Joseph Wm Foran Takes a Bullish Stance: Acquires $256K In Matador Resources Stock
-2026-11-09T22:33:45+00:00|||PASS|||f3d64d97927a143fdf3ee294d4056849|||GOOGL|||Waymo Faces Fresh Federal Probe as Robotaxis Keep Blowing Past Stopped School Buses
-2026-11-09T22:33:46+00:00|||PASS|||a4d62352b51c5a8c996b3cc88c9c5f6c|||GOOGL|||Alphabet’s Wing to invest $125M in new delivery drone factory
-2026-11-09T22:34:03+00:00|||PASS|||7e0e9ea7bdb7b284963111ae57de19f0|||AVGO|||Broadcom Stocks Jump 8.21% as Investors Eye $21.7 Billion AI Revenue Guide
-2026-11-09T22:34:13+00:00|||PASS|||5f969405ca0ebece623a2278e3ed72ed|||CAT|||Caterpillar Stocks Jump 6.61% as Anthropic Takes Over $3.4 Billion Generator Order
-2026-11-09T22:34:30+00:00|||SENT|||47329a1e081c3e18710e83fd3d5b87ca|||NVDA|||Nvidia Intervened in US Probe of Megaspeed Chip Smuggling|||Nvidia介入美國對Megaspeed晶片走私的調查
-2026-11-09T22:34:36+00:00|||PASS|||640d07f93c4282842a205b148c83ae64|||NVDA|||Nvidia Stock Slides After Chip Maker Opens Probe
-2026-11-09T22:34:37+00:00|||PASS|||8b419866acbba54f2e98f13462641ead|||NVDA|||Nvidia-Backed Fireworks AI Notifies Customers of Its Second Hack in Weeks
-2026-11-09T22:34:40+00:00|||PASS|||b1712ce2d5ffb7297391e93c10aeea82|||NVDA|||What to Know About Nvidia’s Investigation of CEO Jensen Huang
-2026-11-09T22:34:41+00:00|||PASS|||0353f1e4ba1e2ac7312ac6e6c01f0cbc|||NVDA|||Nasdaq defies Nvidia impact as Huang faces espionage affair probe
-2026-11-09T22:34:43+00:00|||PASS|||2a2aa3ee3bb5dc9cf6d69b7a8705a279|||NVDA|||What to Know About Nvidia’s Investigation After CEO’s Affair
-2026-11-09T22:34:58+00:00|||PASS|||3ff220f6eba7f41e1e431f246991ee22|||WDC|||Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%
-2026-11-09T22:35:05+00:00|||SENT|||1aa4ae9b0571f1326df5d3b018faddc6|||ASML|||ASML Raises 2026 Guidance as AI Demand Accelerates Capacity Expansion|||ASML 因 AI 需求加速產能擴張而上調 2026 年指引
-2026-11-09T22:35:27+00:00|||SENT|||239d6abc6fe93c38556b030b4ad3146c|||ENTG|||Entegris targets 15% revenue growth, authorizes $500M buyback|||Entegris設定營收成長15%目標，批准$500M庫藏股計畫
-2026-11-09T22:35:39+00:00|||PASS|||734a08f6e5a867aaa38ff5369fc0be0d|||CSCO|||Cisco Unveils Frontier AI Red Teaming and Agent Observability to Secure the Agentic Enterprise
-2026-11-09T22:35:53+00:00|||PASS|||09cc8c48010b2251c29aba01fb886d17|||HPE|||Royal Australasian College of Surgeons Targets AU$2.1 Million in Savings With HPE Private Cloud
-2026-11-09T22:35:57+00:00|||PASS|||da3e067b9b722cf5e4104430c1f86c06|||CRWV|||CoreWeave faces earnings as neocloud debt, customers and politics all bite
-2026-11-09T22:35:58+00:00|||PASS|||57adfa593c8a8f483a0c10524a482447|||CRWV|||CoreWeave Could Swing $4.85 Billion In Value After Earnings
-2026-11-09T22:36:00+00:00|||PASS|||a04b017de4e6acc039ad0d863dfd64bb|||CRWV|||CoreWeave Has a $104 Billion Backlog. Now It Also Has a Political Problem.
-2026-11-09T22:36:39+00:00|||PASS|||6d5218b7daac5bee92f5448c7d35a4b8|||SPCX|||SpaceX plans $24 billion gas power plant, data center project in Texas
-2026-11-09T22:36:52+00:00|||SENT|||431c155b50cdf56dd5e7360bd227c8b9|||USAR|||USA Rare Earth Shares Dip After Q3 Misses Estimates|||USA Rare Earth 股價在第三季業績未達預期後下跌
-2026-11-09T22:37:01+00:00|||PASS|||1a8bd6814ee0058b14d5dd88e4e8a683|||SOLS|||Solstice Advanced Materials Reaches Key Development Milestone for Next-Generation Foam Blowing Agent
-2026-11-09T22:37:20+00:00|||PASS|||7f4e2c9a1238d5917d4bec88ebce3c2a|||NRG|||LS Power to Acquire Six Natural Gas Power Generation Assets from NRG Energy
-2026-11-09T22:37:29+00:00|||SENT|||45c6421282a5c1a2c180e446ee6faf0c|||NEE|||Giant Merger of NextEra and Dominion Could Fail Amid Anger Over Electricity Bills|||NextEra與Dominion的大型合併案可能因電費不滿而告吹
-2026-11-09T22:37:40+00:00|||SENT|||fad1bb8c96edbdb2825ea6e93b5dc843|||COIN|||Coinbase gets final OCC approval to run its custody business as a national trust bank|||Coinbase 獲 OCC 最終批准，以國家信託銀行形式經營託管業務
-2026-11-09T22:37:47+00:00|||PASS|||18539317b87ef053c83c04acd6eab4fa|||LLY|||Eli Lilly May Have Just Found a New $23 Billion Market for Its GLP-1 Pill
-2026-11-09T22:37:52+00:00|||PASS|||a86ca7b13e10627cfa4178d2b3790e26|||ISRG|||Intuitive Machines Stock (LUNR): What Options Traders and Financial Analysts Expect Ahead of Q3 Earnings
+@@HEARTBEAT|||2026-11-24|||2026-10-21T13:41:10+00:00
 2026-11-10T08:41:20+00:00|||PASS|||77961c4f324435cb7f3801212743bb9b|||EOSE|||Eos Energy Enterprises, Inc. 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:EOSE) 2026-11-09
 2026-11-10T08:41:38+00:00|||PASS|||19b1f0464644e7911c2f067129d77199|||WOLF|||Wolfspeed, Inc. 2027 Q1 - Results - Earnings Call Presentation (NYSE:WOLF) 2026-11-09
 2026-11-10T08:41:46+00:00|||PASS|||1e0c652ba9f4bc9db7fd84aaa54e148f|||FCEL|||URGENT FCEL DEADLINE: FuelCell Energy, Inc. Investors Have
@@ -1397,3 +1309,53 @@
 2026-11-23T09:32:52+00:00|||PASS|||a51c6eecdd6d36e283622d4f55901ea4|||CRWV|||CoreWeave (CRWV) Stock Gets An AI Demand Jolt From A Record $81.3 Billion IPO
 2026-11-23T09:33:07+00:00|||SENT|||250fb620b277c301c578deedb5cad413|||PANW|||Palo Alto Networks' Q1 FY2027 Revenue Rises 39%, Operating Profit Falls 69%|||Palo Alto Networks FY2027第一季營收上升39%，營業利潤下跌69%
 2026-11-23T09:33:11+00:00|||PASS|||22b1c61d14089bbcca377ab1dcb0761e|||ZS|||CrowdStrike-Zscaler Acquisition Talks Reported: 5 Things To Know
+2026-11-24T00:07:30+00:00|||PASS|||899dc5a49cedde742262e11f9169d4a8|||AVGO|||Is Broadcom Stock's Drop A Chance To Buy?
+2026-11-24T00:07:36+00:00|||PASS|||d62a3f7b885ec3a3f653ce21ab7d063f|||FCEL|||FuelCell Energy approves 2027 long-term incentive plan for executive officers By Investing.com
+2026-11-24T00:07:42+00:00|||PASS|||cdca9a9e2be5e8c48e77cff3965ae97a|||RRX|||Regal Rexnord Corp. (RRX): Demand Outlook Intact Despite Near-Term Pressures
+2026-11-24T00:07:50+00:00|||PASS|||328387a3e16a249a4a108285ecd76d00|||MSFT|||Norway says hackers exploited Microsoft security flaw to attack energy firms Equinor, Skagerak Energi
+2026-11-24T00:07:52+00:00|||PASS|||cdda7f53a08e070a127baf0513bbafc8|||MSFT|||Microsoft mega outage: Report reveals testing gaps and emails that never arrived
+2026-11-24T00:07:53+00:00|||PASS|||6369048e7e520098d239bd78c74b918e|||MSFT|||Nvidia Adds Record $888 Billion as Jensen Huang Returns - Microsoft (NASDAQ:MSFT), NVIDIA (NASDAQ:NVDA)
+2026-11-24T00:08:00+00:00|||SENT|||99d155ea1f9e49a62f4a7c0460f6d7fc|||AMZN|||Amazon to acquire AI startup Decart's chip software, hire founders|||Amazon 將收購 AI 新創 Decart 的晶片軟體並聘用創辦人
+2026-11-24T00:08:05+00:00|||PASS|||25c2cb49b4522a1a837546bc35c0f4a1|||META|||SpaceX Is “Following the Exact Same Pattern That Meta Followed” After Its IPO, per Steve Jurvetson. Time to Buy?
+2026-11-24T00:08:06+00:00|||PASS|||2a3d3360b6030e64b70b748e42164d8d|||META|||George Soros, Cathie Wood and 45 Other Big Funds Bought Meta Last Quarter. It’s Down 18% Since. Time to Buy?
+2026-11-24T00:08:10+00:00|||PASS|||50f8968708b8efbec299ebf51a79a829|||TSLA|||Tesla (TSLA) Is Advancing Toward A $3.5 Trillion Merger
+2026-11-24T00:08:10+00:00|||PASS|||f6aecc61c1d2cd010884ab37dbb586f1|||TSLA|||Tesla Soars 13% as FSD V15 Rolls Out: Musk Calls It a “Banger Release”
+2026-11-24T00:08:13+00:00|||PASS|||8c01906d98bfb6217c1e6035ef3040d1|||NVDA|||$2.8 trillion: The value of Huang's return to Nvidia
+2026-11-24T00:08:15+00:00|||PASS|||8d9b33aa6fb2fda8af2b6f88f57c217c|||NVDA|||Bets Against Nvidia Stock Lost $11.3 Billion on Monday. The Wild Swings Are Just Starting.
+2026-11-24T00:08:17+00:00|||PASS|||97879bc2a92b332ff49002213e519d0e|||AMD|||AMD: 80% Growth, $49 Billion In Commitments, And The Cash-Flow Test (Rating Downgrade)
+2026-11-24T00:08:20+00:00|||PASS|||fc16c620bc17d5b183738ab9e93d9e76|||MRVL|||Marvell Q3: A $90 Billion AI Reckoning Is Coming (NASDAQ:MRVL)
+2026-11-24T00:08:27+00:00|||SENT|||3c18be4e6af811f9da9e8a5a88925ce0|||ARM|||Arm locks in CEO Rene Haas through 2033, ending Nvidia succession speculation|||Arm 將 CEO Rene Haas 留任至 2033 年，終結其接任 Nvidia CEO 的猜測
+2026-11-24T00:08:33+00:00|||PASS|||db0f3fb56f1cecb43aff61d1b6ec50db|||TSM|||Taiwan Semiconductor Short Interest Climbs After Q3 Results
+2026-11-24T00:08:39+00:00|||PASS|||33962f4cc60bfbc5aabbd4a36bf8eb16|||SKHY|||SK hynix advances 21% on tech surge, report of potential SoftBank buyout (SKHY:NASDAQ)
+2026-11-24T00:08:48+00:00|||PASS|||858f7337dbe22913015519f09c451e87|||ASML|||ASML reports €557m share buyback transactions last week By Investing.com
+2026-11-24T00:08:51+00:00|||PASS|||038dd8f67bd4adb2d2e7cb5286a2d707|||ASML|||ASML reports €557m share buyback transactions last week
+2026-11-24T00:09:12+00:00|||PASS|||06c8dfa7d962a5ba7d19a5fd511bba1a|||SMTC|||Semtech (SMTC) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
+2026-11-24T00:09:15+00:00|||SENT|||9a3b0a103570220a71f6cebf7d82a829|||SMTC|||Semtech (SMTC) Q3 Earnings and Revenues Surpass Estimates|||Semtech (SMTC) 第三季獲利與營收超出預期
+2026-11-24T00:09:23+00:00|||PASS|||9ba3d86fb13f5ff597a0424872e026b0|||CSCO|||Cisco, OpenAI Launch Project to Safeguard Agentic AI
+2026-11-24T00:09:25+00:00|||PASS|||d18bc5a4c6994ffa627347ea707ce51b|||CSCO|||Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks
+2026-11-24T00:09:35+00:00|||PASS|||2d7cc368afd33630be8f2027fa90e253|||ADI|||Analog Devices To Rally Over 66%? Here Are 10 Top Analyst Forecasts For Monday
+2026-11-24T00:09:38+00:00|||PASS|||9d29d48f097e0c5206f43269975dc42f|||DELL|||Dell and HPE report earnings after a 20% rally on AI server price hikes
+2026-11-24T00:09:42+00:00|||PASS|||f918b705e8da8f88393aab850e8f3965|||HPE|||HPE’s stock slides despite record revenue growth and upbeat forecast
+2026-11-24T00:09:43+00:00|||PASS|||408cd9017f1f0a4b1e77df1058bc8243|||HPE|||HPE Stock Drops After Earnings Beat. Here’s Why.
+2026-11-24T00:09:48+00:00|||SENT|||322214844dc2af330cf771d9d6dd1510|||HPE|||HPE delivers quarterly results beat, raises guidance; stocks slips after big rally By Investing.com|||HPE季度業績優於預期、上調財測；股價在大漲後回落
+2026-11-24T00:09:51+00:00|||PASS|||bc0b631c64efca16bc6d1589ee55f985|||HPE|||Dell and HPE report earnings after a 20% rally on AI server price hikes
+2026-11-24T00:09:57+00:00|||SENT|||5e6ac3589c4f55d76d68d43d60e774fe|||VRT|||Vertiv launches medium-voltage UPS for AI data center sector|||Vertiv 推出面向 AI 資料中心產業的中壓 UPS
+2026-11-24T00:10:08+00:00|||PASS|||da376b140ccf64ae9c3c5e9259baa2a7|||CRM|||Salesforce Ex-CEO's AI Startup Sierra Hits $30 Billion Valuation. It Doubled In Just Six Months.
+2026-11-24T00:10:09+00:00|||PASS|||242697f7f7ad8719365648d4f6e98df4|||CRM|||Salesforce: I See Limited Downside Prior To Q3 Earnings, Stock's Quality Still Solid (CRM)
+2026-11-24T00:10:17+00:00|||PASS|||51343d354551fb633d3656e78801f0c8|||PANW|||Palo Alto Networks' Acquisition Spree Continues - Palo Alto Networks (NASDAQ:PANW)
+2026-11-24T00:10:21+00:00|||SENT|||76ec04bcceed4e28349912adbdb59c2e|||PANW|||Palo Alto Networks in talks to buy AI cyber startup Terra - Calcalist|||Palo Alto Networks 傳正洽談收購 AI 網路安全新創 Terra
+2026-11-24T00:10:30+00:00|||SENT|||7a52ab1c198829054fddfea7b5aaf856|||ZS|||CrowdStrike CEO defends Zscaler acquisition, calls it a 'winning combination'|||CrowdStrike CEO 為收購 Zscaler 辯護，稱這是「雙贏組合」
+2026-11-24T00:10:35+00:00|||SENT|||0d074cd97b9ebd2931e3c3865c326965|||ZS|||CrowdStrike to buy Zscaler for $44B in cyber mega-merger|||CrowdStrike 將以 $44B 收購 Zscaler，促成網路安全業大型合併
+2026-11-24T00:11:00+00:00|||PASS|||8693f1da5b7296f90f5baca797694c24|||SPCX|||SpaceX Is “Following the Exact Same Pattern That Meta Followed” After Its IPO, per Steve Jurvetson. Time to Buy?
+2026-11-24T00:11:01+00:00|||PASS|||cb645c29ed26ae389d8e8b1057aba3d2|||SPCX|||Anthropic options post solid debut, trailing SpaceX record
+2026-11-24T00:11:06+00:00|||SENT|||08f8cfd471b5b0aaf75da06eef24a8ed|||SPCX|||Apollo and Goldman Sachs lead $44bn SpaceX GPU financing deal|||Apollo 和 Goldman Sachs 領銜 $44bn SpaceX GPU 融資交易
+2026-11-24T00:11:08+00:00|||PASS|||b1b9c501c7f90209a15cdc07d095b942|||SPCX|||SpaceX Stock Rebounds as Musk Starlink Talk Fuels Hopes of Tesla Merger
+2026-11-24T00:11:30+00:00|||PASS|||3fa25ff36cf08ad97b192beaecaf80f9|||CMI|||Cummins’ $23 Million Secrets Loss to C3.ai Cut to $1.5 Million
+2026-11-24T00:11:50+00:00|||SENT|||67e518e9daf5ff9de8f8aff7ebc7e4dc|||NEE|||DOJ closes NextEra-Dominion antitrust probe as state hearings continue|||DOJ結束對NextEra-Dominion的反壟斷調查，州級聽證會仍在進行
+2026-11-24T00:11:57+00:00|||PASS|||79d817e61a0eace44a789be44fa6bdf3|||CRCL|||DOJ Moves to Forfeit Over $1.1B in USDC From the Binance Hack
+2026-11-24T00:12:05+00:00|||SENT|||c06503d4e51984e9b4fdb3e73ddb3900|||CRCL|||DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens|||美國司法部尋求沒收與 Binance 遭駭事件相關的 $1.17 billion USDC；Circle 可能發行替代代幣
+2026-11-24T00:12:18+00:00|||PASS|||1d954ec72d082c6c645bdbf00e270a51|||LLY|||Lilly to acquire Huntington's disease drug developer LoQus23 for up to $725 million
+2026-11-24T00:12:20+00:00|||PASS|||3bb9e2f82dfd4e610ed0780157f8c5a7|||LLY|||Eli Lilly (LLY) Acquires Huntington's Disease Drug Developer
+2026-11-24T00:12:22+00:00|||SENT|||e262e9eacac28fef0ac16482bbb85aed|||LLY|||Lilly’s Buyout Spree Sees A New Huntington’s Disease Bet – Here’s Why Lilly Is Acquiring LoQus23|||Lilly 收購 LoQus23，押注亨丁頓舞蹈症治療
+2026-11-24T00:12:36+00:00|||SENT|||846ccaf41ce0fe634167f4735ca89c5f|||HUM|||UnitedHealth, Humana and CVS Shares Fall as Medicare Advantage Rating Changes Threaten $107 Billion in Payments|||UnitedHealth、Humana 和 CVS 股價下跌，Medicare Advantage 評級變動恐威脅 $107 Billion 款項
+2026-11-24T00:12:46+00:00|||PASS|||2c152fef9cffbfc4368449b4e53b7074|||CVS|||CVS Health’s Planned Breakup Hasn’t Quieted Antitrust Critics
