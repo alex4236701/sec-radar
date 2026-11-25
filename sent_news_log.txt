@@ -1,45 +1,4 @@
 @@HEARTBEAT|||2026-11-25|||2026-10-21T13:41:10+00:00
-2026-11-11T00:43:34+00:00|||PASS|||c78c7753b7f132fbaa19b7a09780d72c|||MU|||Micron Technology Stocks Slip 1.27% as Hot CPI Overshadows $1 Billion Anthropic Bet
-2026-11-11T00:43:39+00:00|||PASS|||46c80e58c73eb1f95116357303ad0475|||TTMI|||3 Key Reasons to Buy TTMI Stock Despite a 54% Six-Month Slide
-2026-11-11T00:43:57+00:00|||PASS|||faa3a780714382569074eac28fa01a59|||GEV|||GE Vernova to spend $34.5M expanding Louisiana transformer manufacturing capacity
-2026-11-11T00:44:04+00:00|||PASS|||2861fd3a6f2e12ca0de26807f56744b9|||MSFT|||Microsoft Briefly Overtakes Nvidia as Jensen Huang Affair Helps Erase $1.8 Trillion Lead
-2026-11-11T00:44:07+00:00|||PASS|||79bfc976033fa67e93b5089bfb1bb86c|||MSFT|||Microsoft Is Back Above $4 Trillion and Only $266 Billion Behind Nvidia
-2026-11-11T00:44:09+00:00|||PASS|||3074cd8efec90b5052eda79c462dc617|||MSFT|||Microsoft challenges Trump's new ban over major AI risk
-2026-11-11T00:44:20+00:00|||SENT|||4dfbfd7a30b8dccf96332b2ddb84e9ba|||NVDA|||Scoop: Commerce Department received national security warning on Nvidia CEO affair|||獨家：商務部收到關於 Nvidia CEO 事件的國家安全警告
-2026-11-11T00:44:27+00:00|||PASS|||a16a4871498274c2f3dae7602b247c92|||NVDA|||Law Firm Wachtell Lipton to Lead Nvidia Internal Investigation
-2026-11-11T00:44:27+00:00|||PASS|||c45085d606197cd3548b9c59b62a0a34|||NVDA|||Microsoft Briefly Overtakes Nvidia as Jensen Huang Affair Helps Erase $1.8 Trillion Lead
-2026-11-11T00:44:29+00:00|||PASS|||6921497b6756d4d3539c645ec0bc577e|||NVDA|||Nvidia’s Bull Case Hinges on CEO Huang Surviving China Spy Probe
-2026-11-11T00:44:33+00:00|||PASS|||341b0745ba8391b24d276a25a25dc067|||NVDA|||Nvidia Erases 2026 Gains as Republicans Threaten Jensen Huang With Subpoena
-2026-11-11T00:44:36+00:00|||PASS|||c47d3815c349c408fe3deedebccd1031|||NVDA|||Nvidia Hires Wachtell Lipton to Investigate CEO Jensen Huang’s Affair With Chinese Executive
-2026-11-11T00:44:38+00:00|||PASS|||144db7cf4987761a3e22ea9a9f3f03c5|||NVDA|||What to Know About Nvidia’s Investigation of Its C.E.O.
-2026-11-11T00:44:49+00:00|||PASS|||9a9e684005b6415e40fc6fd86439b884|||TSM|||TSMC posts record October sales as AI chip demand shrugs off the selloff
-2026-11-11T00:44:51+00:00|||PASS|||2277a381989c888093df3e16cab41006|||TSM|||TSMC's October Sales Climb 14.7% Sequentially
-2026-11-11T00:45:44+00:00|||SENT|||e9ac10545048fc72998f638a069f45dc|||CRWV|||Watch CoreWeave Boosts Forecast, Easing Slowdown Concerns|||關注：CoreWeave 上調預測，緩解成長放緩疑慮
-2026-11-11T00:45:48+00:00|||PASS|||8845db64b891fededac29983e8d556f3|||CRWV|||CoreWeave plans multibillion-dollar chip-backed debt deal
-2026-11-11T00:45:50+00:00|||PASS|||33f0fb5d63a50cb4e45f32d8ff27da3e|||CRWV|||CoreWeave Earnings Beat Expectations, Assuaging Market Nervousness
-2026-11-11T00:45:51+00:00|||PASS|||0c652e0f8cce9825c523a460bfb94013|||CRWV|||'Fast Money' traders react to CoreWeave earnings
-2026-11-11T00:45:59+00:00|||SENT|||8c6438ba6d0a515ae37599a1a103baea|||CRWV|||CoreWeave Earnings, Revenue Top Views. Cash Burn Less Than Expected.|||CoreWeave 財報、營收優於預期，現金消耗低於預期
-2026-11-11T00:46:36+00:00|||SENT|||ff3fe4dfe656069f7ce84cd97996a41b|||AMPX|||Amprius Technologies (AMPX) Reports Q3 Loss, Beats Revenue Estimates|||Amprius Technologies (AMPX) 公布第三季虧損，營收優於預期
-2026-11-11T00:46:43+00:00|||SENT|||71047b421759fe650f3df3a46c5a75a5|||VELO|||Velo3D Stock Tumbles on Mixed Q3 Earnings|||Velo3D 股價因第三季業績好壞參半而大跌
-2026-11-11T00:46:48+00:00|||PASS|||3aac4da270977c0140e7e48f978e6336|||SPCX|||SpaceX proposes $24 billion data center, power plant in Starbase
-2026-11-11T00:46:49+00:00|||PASS|||b8fa18bb79d2a3aca5ecb71cb9b4a589|||SPCX|||SpaceX Could Profit From AI Data Center Crackdown, Deutsche Bank Says as It Raises 2028 Forecast
-2026-11-11T00:46:52+00:00|||PASS|||a16f97fa23c6ead65e300e7a5d960566|||PL|||One Reason To Buy Planet Labs Stock
-2026-11-11T00:47:37+00:00|||PASS|||f3d128158fb011b995ece9e8b5db4323|||LLY|||Hims & Hers Drops 18% as Q3 Loss and Profit Outlook Cut Disappoint; Novo Nordisk Slides 2%, Eli Lilly Holds Steady
-2026-11-11T08:03:30+00:00|||PASS|||5f18e02c9565132124c692e4503b78e4|||GOOGL|||‘That’s The Bet’: Palmer Luckey Backs Elon Musk’s $150 Billion Robotaxi Ambitions as Tesla Tops Waymo in Texas
-2026-11-11T08:03:53+00:00|||PASS|||17715fa0b395f87d704cff87d3adeae0|||GEV|||GE Vernova's Backlog Hit $197 Billion and the Stock Fell Anyway. Here's What a $10,000 Investment Could Be Worth by 2030.
-2026-11-11T08:04:04+00:00|||PASS|||b5937e125ca6edecdc63fe739ab28f13|||AMZN|||Amazon’s Cloud Computing Business Already Brings in More Revenue Than 476 Companies in the S&P 500. Here’s What It Would Take to Reach $1 Trillion.
-2026-11-11T08:04:10+00:00|||PASS|||0eb9369b0938bb7f92597087001ec385|||TSLA|||‘That’s The Bet’: Palmer Luckey Backs Elon Musk’s $150 Billion Robotaxi Ambitions as Tesla Tops Waymo in Texas
-2026-11-11T08:04:13+00:00|||PASS|||ea48ef36c95fa5c68924adb12d04fe5d|||NVDA|||Jensen Huang probe puts Nvidia board's independence to test
-2026-11-11T08:04:15+00:00|||PASS|||7f8cd8d66a0ff6cd9f8b204468543b10|||NVDA|||Senior Republican on US Senate banking panel calls on Nvidia CEO Huang to resign
-2026-11-11T08:04:16+00:00|||PASS|||5fceb6dd82f9d62dcfa0534e3fe297c5|||NVDA|||Nvidia-backed AI cloud firm Nscale considers delaying $35 billion listing, the Telegraph reports
-2026-11-11T08:04:25+00:00|||SENT|||89fd910b8072a49991e92f84b5318e9a|||AMD|||Stock Market Today, Nov. 10: AMD Rises on Plan to Invest $2.5 Billion in Anthropic|||股市今日，11月10日：AMD計劃向Anthropic投資$2.5 Billion，股價上漲
-2026-11-11T08:04:32+00:00|||PASS|||0451a620ff48baced0b9b573a6268030|||QCOM|||Qualcomm begins global layoffs; up to 1,000 jobs may be cut in India
-2026-11-11T08:04:41+00:00|||PASS|||940dfa6a52d495c82a8e9bd8f947cb2e|||SKHY|||Samsung, SK hynix price targets diverge nearly threefold over AI outlook
-2026-11-11T08:05:11+00:00|||PASS|||508bd8e5c02143efcc6d17a6da941e79|||AXTI|||AXT (AXTI) Stock Seems Reasonably Valued As Record Revenue Reshapes Earnings
-2026-11-11T08:05:21+00:00|||PASS|||db76f545f11ae9402c41bf45a766f0c1|||IFNNY|||Infineon Unveils RISC-V Automotive MCU, AURIX RC1
-2026-11-11T08:05:31+00:00|||PASS|||59d4cc86980afafaea10c0de60a8d768|||CRWV|||CoreWeave beats on earnings, stock pops in extended trading
-2026-11-11T08:06:53+00:00|||PASS|||e972f4c31a91d32f6e304524c9522902|||HOOD|||Robinhood Settles Users’ Cash Sweep Suit for Nearly $17 Million
-2026-11-11T08:07:00+00:00|||PASS|||4237ccc53b720e9978b5265e55d17e07|||ISRG|||Intuitive Machines (LUNR) Lands NASA Lunar Contract With Up To $15 Billion Scope
 2026-11-11T17:21:31+00:00|||PASS|||8b7530a2ff8c3904759b8734c1496586|||GOOGL|||Alphabet or CoreWeave: Which AI Stock Is Better to Buy in a Market Crash?
 2026-11-11T17:21:47+00:00|||PASS|||3ae9e9ab49751f55b88e87d35a39d37c|||AVGO|||NVIDIA Falls 4% as Board Probe of Jensen Huang Weighs on Shares; AMD and Broadcom Gain 3%
 2026-11-11T17:21:54+00:00|||SENT|||c30639d967257f87133b4c9af4b59dbd|||COHR|||[News] Coherent Signs Long-Term Supply Agreement with China-Based VOT for 6-Inch InP Substrates|||Coherent 與中國 VOT 簽署 6 英寸 InP 基板長期供應協議
@@ -1338,3 +1297,40 @@
 2026-11-24T22:43:03+00:00|||PASS|||81078b278412f9319f423c1c89e19be6|||CRCL|||Justice Department Moves to Forfeit $1.1B in USDC From North Korea's Binance Hack
 2026-11-24T22:43:07+00:00|||PASS|||7a69227c68b8dff1d0395e5811803daa|||COIN|||Europol operation involving Binance, Coinbase and Chainalysis traces more than $28.5 million in crypto behind illegal streaming services
 2026-11-24T22:43:10+00:00|||PASS|||7c4ac711c5dc6d7f663dbfa188ab4d05|||HOOD|||Robinhood co-leads $5 million seed round for onchain trading platform Rialto
+2026-11-25T10:10:44+00:00|||PASS|||f38a74f6ce5ab8bc5d26ba6b99139e31|||GOOGL|||Malaysia Regulator Sues Google, Seeks Nearly $150 Million Over YouTube Content
+2026-11-25T10:10:45+00:00|||PASS|||18a3070d565d7074bd62282bba48e1c7|||GOOGL|||AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads Hit Records As NVDA, ANT Tumble
+2026-11-25T10:10:49+00:00|||SENT|||94ea956aca75111ee80b4d3a0d1d9e18|||GOOGL|||Malaysia’s MCMC sues Google for RM300mil over YouTube content|||馬來西亞 MCMC 因 YouTube 內容向 Google 提起 RM300mil 訴訟
+2026-11-25T10:10:56+00:00|||SENT|||0b631681fe432b7f7743b34db017829b|||MU|||Samsung, Micron to pay up to US$1.5 billion in patent fees|||Samsung、Micron 將支付最高 US$1.5 billion 專利費
+2026-11-25T10:11:09+00:00|||PASS|||52e41c073a9670afb93e8ad05200639e|||VSH|||Vishay launches LoRa wireless sensor module for industry By Investing.com
+2026-11-25T10:11:16+00:00|||PASS|||2040f0c3ebeb1ac31f17cb1049f9fd7b|||AVGO|||Billionaire David Tepper Dumped Appaloosa's Stake in AMD and Broadcom and Piled Into an Artificial Intelligence (AI) Stock Trading at 44x Forward Adjusted EPS
+2026-11-25T10:11:30+00:00|||PASS|||16f0c2a90e2e40c304cbcb844c2aa4a4|||MSFT|||Microsoft declares internal Code Red after nearly 24-hour Microsoft 365 outage
+2026-11-25T10:11:32+00:00|||PASS|||b67c7855ceeb1b060fdc32c34b2d9fab|||MSFT|||Microsoft Declares 'Code Red' as Memos Reveal a 'Fog of War' During the Outlook Outage
+2026-11-25T10:11:33+00:00|||PASS|||663f64bdf580b46b2020c5a5411e9558|||MSFT|||Microsoft issues ‘Code Red’ alert following outage: Report
+2026-11-25T10:11:38+00:00|||PASS|||14be78d3595c799d8ccdce51c7a837f0|||AAPL|||Tim Cook Could Have Purchased Any of 489 S&P 500 Companies With $903 Billion. Instead, He Bought Something That Transformed Apple Forever.
+2026-11-25T10:11:40+00:00|||PASS|||04f7b30647512c52d1e6590b63b6b6d5|||TSLA|||Tesla's $3.5 trillion merger talks have a surprising catch
+2026-11-25T10:11:41+00:00|||PASS|||d6b01700528ae1e8afb00c6cef9645bd|||TSLA|||Thinking of Buying SpaceX Stock? Gary Black Says Wait for a Potential Tesla Merger to Send It Below $100
+2026-11-25T10:11:45+00:00|||PASS|||3f8cf6f056c33c839e66600aa00e229f|||NVDA|||Donald Trump Floats Jensen Huang Pardon, US Stake In Nvidia – But NVDA Loses Momentum
+2026-11-25T10:11:47+00:00|||PASS|||b05ae20723979e3ac62c46554d585990|||AMD|||Billionaire David Tepper Dumped Appaloosa's Stake in AMD and Broadcom and Piled Into an Artificial Intelligence (AI) Stock Trading at 44x Forward Adjusted EPS
+2026-11-25T10:11:48+00:00|||PASS|||61890b1700f4b77b86112d64dade3098|||AMD|||1 Reason to Buy AMD Stock Before 2027
+2026-11-25T10:11:56+00:00|||PASS|||21b9e6b796b66dbcd4261ce4ec61fcee|||TSM|||TSMC plans celebration for Arizona milestone as it weighs US$22.6 billion Texas campus
+2026-11-25T10:11:57+00:00|||PASS|||ff7c1d4a7a956d5fa8417dc7a5f75670|||TSM|||Taipower to pour NT$109.6 billion into grid for TSMC-led chip boom in southern Taiwan
+2026-11-25T10:12:43+00:00|||PASS|||6a0ac7ef1211d167e510982536fbd1a1|||CSCO|||Cisco Unveils Shirudo to Bridge Security Patch Gaps
+2026-11-25T10:12:45+00:00|||PASS|||86dd6e2bfdaaecf7d082d87ea280a149|||NOK|||Aixtron and Nokia Strengthen InP Photonics Collaboration
+2026-11-25T10:12:56+00:00|||PASS|||0c1c881054eaa2cfac7b393c575f60d9|||DELL|||Dell and HP beat expectations, but their fortunes are diverging as AI dynamics crush the PC market
+2026-11-25T10:12:57+00:00|||PASS|||8197350f799eac05fd434c35b3226e02|||DELL|||Large-Cap Stocks: The Biggest Earnings Winners Grind Sandisk, Dell Into The Dust
+2026-11-25T10:13:02+00:00|||PASS|||948c74ba27d78f83341db19f1ea74461|||ORCL|||AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads Hit Records As NVDA, ANT Tumble
+2026-11-25T10:13:04+00:00|||PASS|||0799fefda4453c119c784a9b5e60599b|||ORCL|||Billionaire David Tepper Bought $172 Million of Oracle. Oracle Is Targeting “More Than $30 Billion” of Free Cash Flow
+2026-11-25T10:13:06+00:00|||PASS|||c1495f39d42eded1bd1ee719e5331cee|||CRWV|||AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads Hit Records As NVDA, ANT Tumble
+2026-11-25T10:13:39+00:00|||PASS|||74674fc82fb9eda0d293f8fe6cb1419b|||ZS|||CrowdStrike foresees stronger channel momentum with Zscaler acquisition
+2026-11-25T10:13:39+00:00|||PASS|||db48959cdf2f32ea1479b63c2c8b2123|||ZS|||CrowdStrike agrees to US$43.9B Zscaler acquisition
+2026-11-25T10:13:41+00:00|||PASS|||c454727ac1db18c0af25c8b06ffca521|||ZS|||CrowdStrike to Acquire Zscaler: Can it Boost Falcon Platform Growth?
+2026-11-25T10:13:55+00:00|||PASS|||23d8c64ee72c23f7d42d62bc9c500f6c|||AMBA|||Ambarella and Liquid AI Partner to Accelerate Device-Native Agentic AI for Physical AI Applications
+2026-11-25T10:14:07+00:00|||PASS|||c7f61d11919e5dd90309bcfe9aca9bb1|||SPCX|||Ross Gerber Warns SpaceX Could ‘Dilute’ Shareholders With TSLA Stock Amid Merger Talks, Explains Why He A
+2026-11-25T10:14:07+00:00|||PASS|||55787a7cf339014cc37d451b50d95e66|||SPCX|||AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads Hit Records As NVDA, ANT Tumble
+2026-11-25T10:14:09+00:00|||PASS|||2e6c117977ea5dcc81f3f0a851eeece5|||SPCX|||Jensen Huang's Return Could Make a Tesla/SpaceX Merger More Likely
+2026-11-25T10:14:09+00:00|||PASS|||e0a9a4b23c2ef5d346d7d24a8dc56867|||SPCX|||Thinking of Buying SpaceX Stock? Gary Black Says Wait for a Potential Tesla Merger to Send It Below $100
+2026-11-25T10:14:10+00:00|||PASS|||fdae31d059b8ba9f2ac8d4f2dec2eff8|||SPCX|||Dear SpaceX Stock Fans, ANT’s IPO Just Gave You a Reason to Buy — But Don’t Go All In Yet
+2026-11-25T10:14:29+00:00|||SENT|||979168a939900de9b5cb5625c3dc8e31|||TE|||T1 Energy (TE) Scrutinized Over Accounting Matters Following SEC Investigation -- HBSS|||T1 Energy (TE) 因 SEC 調查而遭檢視會計事項——HBSS
+2026-11-25T10:14:54+00:00|||PASS|||9d20f56b26509df01f62aa13baf5e056|||CRCL|||Payward's Krak plans early 2027 launch of US credit cards with bitcoin cashback, including one secured by USDC
+2026-11-25T10:15:01+00:00|||PASS|||1f0d2c52a6645162e2925161e0b8eacf|||TMO|||Thermo Fisher Scientific nabs FDA expanded use clearance for EXENT analyser system
+2026-11-25T10:15:03+00:00|||PASS|||b64931394c9960568627c21d48b54794|||LLY|||DePauw University awarded $5 million from Lilly Endowment Inc. for AI initiatives
