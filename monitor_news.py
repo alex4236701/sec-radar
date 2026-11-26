@@ -13,6 +13,7 @@ import requests
 # ==================== 環境變數與路徑設定 ====================
 DISCORD_NEWS_WEBHOOK = os.environ.get("DISCORD_NEWS_WEBHOOK")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+ANTHROPIC_API_KEY = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
 # SEC 要求真實聯絡資訊，例如 "sec-radar your_email@example.com"，請放在 GitHub Secrets
 SEC_USER_AGENT = (os.environ.get("SEC_USER_AGENT") or "").strip()
 
@@ -23,6 +24,16 @@ TW_TZ = timezone(timedelta(hours=8))
 UTC_TZ = timezone.utc
 
 # ==================== AI 模型設定（想換模型只改這裡）====================
+# 【主力】Claude：花的是 Max 方案每月附送的 Claude API 額度（GitHub Secret：ANTHROPIC_API_KEY）
+# 【備援】OpenAI：Claude 沒設金鑰、額度用完或暫時故障時，自動改用下面的 OPENAI_MODEL
+# Claude 常見選擇（2026 年 11 月官網價格，每一百萬 token 的美元價格）：
+#   "claude-sonnet-5-5"  目前使用。判斷力好，輸入 2、輸出 10；固定規則有快取，快取部分只要 0.1
+#   "claude-haiku-5-5"   最便宜，輸入 0.1、輸出 0.5，判斷力比 Sonnet 差一些
+#   "claude-opus-5-5"    更聰明但貴一倍（輸入 4、輸出 20），新聞判讀不需要
+# 也可以在 GitHub Secrets 設定 CLAUDE_MODEL 來覆蓋這裡的設定，不必改檔案
+CLAUDE_MODEL = (os.environ.get("CLAUDE_MODEL") or "").strip() or "claude-sonnet-5-5"
+CLAUDE_MAX_TOKENS = 1024        # 單次回覆最多幾個 token（判讀結果很短，1024 綽綽有餘）
+
 # 常見選擇（都用同一把 OPENAI_API_KEY，價格為 2026 年 10 月 OpenAI 官網，每一百萬 token 的美元價格）：
 #   "gpt-6-luna"   目前使用。新一代最便宜的模型，比 gpt-4o-mini 還便宜（輸入 0.05、輸出 0.25 美元）
 #   "gpt-6.1-sol"  新一代主力模型，判斷力更好，費用約 luna 的二十倍（輸入 1 美元、輸出 5 美元）
@@ -593,7 +604,7 @@ def clean_alias_list(values):
 
 
 def ask_ai_for_aliases(ticker, official_name):
-    if not OPENAI_API_KEY:
+    if not (ANTHROPIC_API_KEY or OPENAI_API_KEY):
         return None
     prompt = f"""You help match news headlines to a US-listed stock.
 Ticker: {ticker}
@@ -610,7 +621,7 @@ Rules:
 2. Do not include generic words alone (e.g. "Energy", "Technology"), and do not include product names that other companies also use.
 3. ticker_is_common_word is true when the ticker is an ordinary word, currency, common abbreviation or another organization's acronym (e.g. NOW, NET, SNOW, ASX, NOK).
 4. If you do not recognize the company and the official name is unknown, set known to false and leave the lists empty. Never guess."""
-    content = openai_chat_json([{"role": "user", "content": prompt}], temperature=0, attempts=2)
+    content = ai_chat_json([{"role": "user", "content": prompt}], temperature=0, attempts=2)
     if content is None:
         return None
     try:
@@ -1360,7 +1371,11 @@ def send_run_summary(stats, total, is_alert, ai_alert=False):
         f"AI 判定不推：{stats['ai_pass']} 則",
         f"成功推播：{stats['pushed']} 則",
         f"AI 呼叫失敗：{stats['ai_error']} 則",
-        *([f"AI 失敗原因：{AI_STATE['fatal'] or AI_STATE['last_error'] or '不明'}"] if stats["ai_error"] else []),
+        f"AI 判讀由誰完成：Claude（{CLAUDE_MODEL}）{AI_USAGE['claude']} 次，備援 OpenAI（{OPENAI_MODEL}）{AI_USAGE['openai']} 次",
+        *([f"Claude 沒用上的原因：{CLAUDE_STATE['fatal'] or CLAUDE_STATE['last_error']}"]
+          if AI_USAGE["openai"] and (CLAUDE_STATE["fatal"] or CLAUDE_STATE["last_error"]) else []),
+        *([f"AI 失敗原因：{CLAUDE_STATE['fatal'] or CLAUDE_STATE['last_error'] or '不明'}（Claude）；"
+           f"{AI_STATE['fatal'] or AI_STATE['last_error'] or '不明'}（OpenAI）"] if stats["ai_error"] else []),
         f"超過單檔上限、留到下次判讀：{stats['ai_deferred']} 則",
         f"已達單檔每日推播上限而略過：{stats['daily_capped']} 則",
         f"推播失敗（下次重試）：{stats['push_failed']} 則",
@@ -1505,7 +1520,119 @@ def openai_chat_json(messages, temperature=0.1, attempts=3):
     return None
 
 
-# 新聞判讀的固定規則。放在 system 訊息、每次內容都一樣，OpenAI 會自動快取這一段，輸入費用大約只要一成
+# ==================== Claude（主力）====================
+CLAUDE_STATE = {"last_error": "", "fatal": ""}   # fatal 有值 = 這輪不再呼叫 Claude，直接用 OpenAI 備援
+AI_USAGE = {"claude": 0, "openai": 0}            # 本輪實際由誰完成判讀，放進健康回報
+
+
+def explain_claude_error(status_code, data, raw_text):
+    """把 Claude 的錯誤翻成白話；回傳 (說明, 是否這輪不用再試)"""
+    err = data.get("error", {}) if isinstance(data, dict) else {}
+    if not isinstance(err, dict):
+        err = {"message": str(err)}
+    etype = str(err.get("type") or "").lower()
+    msg = str(err.get("message") or raw_text or "")[:200]
+    lower = msg.lower()
+    if "credit balance" in lower or "billing" in lower or "credits" in lower:
+        return "Claude API 額度用完（每月附送的額度下個月才會補），本輪改用 OpenAI 備援", True
+    if status_code == 401 or etype == "authentication_error":
+        return "Claude 金鑰無效或已停用，需要更新 GitHub Secret 的 ANTHROPIC_API_KEY", True
+    if status_code == 403 or etype == "permission_error":
+        return f"Claude 拒絕存取（帳戶或權限問題）：{msg[:120]}", True
+    if status_code == 404 or etype == "not_found_error" or ("model" in lower and "not found" in lower):
+        return f"Claude 模型 {CLAUDE_MODEL} 不存在或已停用，需要換模型", True
+    if status_code == 429 or etype == "rate_limit_error":
+        return f"Claude 請求太頻繁（限流）：{msg[:120]}", False
+    if status_code == 529 or etype == "overloaded_error":
+        return "Claude 伺服器忙碌中（overloaded）", False
+    if status_code >= 500:
+        return f"Claude 伺服器暫時故障（HTTP {status_code}）", False
+    return f"Claude 錯誤（HTTP {status_code}）：{msg[:120]}", False
+
+
+def claude_chat_json(messages, temperature=0.1, attempts=3):
+    """
+    呼叫 Claude，要求回傳 JSON 文字；失敗回傳 None。
+    messages 沿用 OpenAI 的格式（system / user），這裡自動轉成 Claude 的格式。
+    固定的 system 規則會加上快取標記，同一輪內重複的部分只收約 5% 的輸入費用。
+    """
+    if not ANTHROPIC_API_KEY:
+        CLAUDE_STATE["fatal"] = CLAUDE_STATE["last_error"] = "沒有設定 ANTHROPIC_API_KEY"
+        return None
+    if CLAUDE_STATE["fatal"]:
+        return None
+    system_text = "\n\n".join(m["content"] for m in messages if m["role"] == "system")
+    chat = [{"role": m["role"], "content": m["content"]} for m in messages if m["role"] != "system"]
+    if chat:
+        chat[-1]["content"] += "\n\n（請只輸出一個 JSON 物件，不要加任何說明文字或程式碼框。）"
+    payload = {"model": CLAUDE_MODEL, "max_tokens": CLAUDE_MAX_TOKENS,
+               "messages": chat, "temperature": temperature}
+    if system_text:
+        payload["system"] = [{"type": "text", "text": system_text,
+                              "cache_control": {"type": "ephemeral"}}]
+    headers = {"x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01",
+               "content-type": "application/json"}
+
+    tries = 0
+    while tries < attempts:
+        tries += 1
+        try:
+            res = requests.post("https://api.anthropic.com/v1/messages",
+                                headers=headers, json=payload, timeout=60)
+            try:
+                data = res.json()
+            except Exception:
+                data = {}
+            if res.status_code != 200 or data.get("type") == "error":
+                err = data.get("error", {}) if isinstance(data, dict) else {}
+                lower = str(err.get("message", "") if isinstance(err, dict) else err).lower()
+                # 有些模型不接受 temperature：拿掉後重試，不算一次失敗
+                if res.status_code == 400 and "temperature" in lower and "temperature" in payload:
+                    payload.pop("temperature")
+                    tries -= 1
+                    print(f"      ℹ️ [Claude 模型 {CLAUDE_MODEL} 不支援 temperature] 已自動移除後重試", flush=True)
+                    continue
+                reason, fatal = explain_claude_error(res.status_code, data, res.text)
+                CLAUDE_STATE["last_error"] = reason
+                if fatal:
+                    CLAUDE_STATE["fatal"] = reason
+                    print(f"      🛑 [Claude] {reason}", flush=True)
+                    return None
+                print(f"      ⚠️ [Claude] {reason}，稍後重試", flush=True)
+                time.sleep(3 * tries)
+                continue
+            text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text").strip()
+            # 去掉可能出現的 ```json 程式碼框，只留 JSON 本體
+            m = re.search(r"\{[\s\S]*\}", text)
+            if m:
+                return m.group(0)
+            if text.upper().startswith("PASS"):
+                return text
+            CLAUDE_STATE["last_error"] = f"Claude 回覆不是 JSON：{text[:80]}"
+            print(f"      ⚠️ [Claude 回覆格式不對] {text[:120]}", flush=True)
+        except Exception as e:
+            CLAUDE_STATE["last_error"] = f"連不上 Claude 或逾時：{str(e)[:100]}"
+            print(f"      ⚠️ [Claude 呼叫異常] {e}", flush=True)
+            time.sleep(2)
+    return None
+
+
+def ai_chat_json(messages, temperature=0.1, attempts=3):
+    """先用 Claude；Claude 沒設定、額度用完或失敗時，自動改用 OpenAI（gpt-6-luna）備援"""
+    if ANTHROPIC_API_KEY and not CLAUDE_STATE["fatal"]:
+        content = claude_chat_json(messages, temperature=temperature, attempts=attempts)
+        if content is not None:
+            AI_USAGE["claude"] += 1
+            return content
+        if OPENAI_API_KEY:
+            print(f"      ↪️ [改用 OpenAI 備援 {OPENAI_MODEL}]", flush=True)
+    content = openai_chat_json(messages, temperature=temperature, attempts=attempts)
+    if content is not None:
+        AI_USAGE["openai"] += 1
+    return content
+
+
+# 新聞判讀的固定規則。放在 system 訊息、每次內容都一樣，Claude 與 OpenAI 都會快取這一段，輸入費用大約只要一成
 NEWS_SYSTEM_PROMPT = """你是一位嚴謹的美股買方研究員，只根據提供的資訊說話，絕不編造細節，只輸出 JSON。
 使用者訊息會給你一家公司（本公司）和一則即時消息，請依照以下規則判讀。
 
@@ -1576,8 +1703,8 @@ def summarize_with_ai(ticker, context, recent_titles=None):
     回傳 (狀態, 事件類型, 摘要, 中文標題, 方向)
     狀態：OK（放行）、PASS（不推）、ERROR（呼叫失敗，下次重試）
     """
-    if not OPENAI_API_KEY:
-        print("      ❌ [環境變數警告] 未設定 OPENAI_API_KEY！", flush=True)
+    if not (ANTHROPIC_API_KEY or OPENAI_API_KEY):
+        print("      ❌ [環境變數警告] ANTHROPIC_API_KEY 與 OPENAI_API_KEY 都沒有設定！", flush=True)
         return "ERROR", "", "", "", ""
 
     company_name = get_display_name(ticker)
@@ -1600,7 +1727,7 @@ def summarize_with_ai(ticker, context, recent_titles=None):
     ]
 
     for attempt in range(2):
-        content = openai_chat_json(messages, temperature=0.1, attempts=3)
+        content = ai_chat_json(messages, temperature=0.1, attempts=3)
         if content is None:
             return "ERROR", "", "", "", ""
         try:

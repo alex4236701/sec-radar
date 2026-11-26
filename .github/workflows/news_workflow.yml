@@ -45,6 +45,11 @@ jobs:
       - name: Run News Monitor Script
         env:
           DISCORD_NEWS_WEBHOOK: ${{ secrets.DISCORD_NEWS_WEBHOOK }}
+          # 主力 AI：Claude（用 Max 方案每月附送的 API 額度）
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 可選：想換 Claude 模型時，在 GitHub Secrets 新增 CLAUDE_MODEL（例如 claude-haiku-5-5），沒設定就用程式預設
+          CLAUDE_MODEL: ${{ secrets.CLAUDE_MODEL }}
+          # 備援 AI：Claude 失敗或額度用完時改用 OpenAI
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # 可選：想換 AI 模型時，在 GitHub Secrets 新增 OPENAI_MODEL（例如 gpt-5-mini），沒設定就用程式預設
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
