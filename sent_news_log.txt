@@ -1323,3 +1323,12 @@
 2026-11-26T11:24:48+00:00|||PASS|||9b0f1260f6ad2a3be756a2d131e1baeb|||ORCL|||Oracle Spends $28.5 Billion A Quarter Building. Who Covers The Wait?
 2026-11-26T11:25:27+00:00|||PASS|||dde586c58ab189b850609cfa3d289137|||SPCX|||Why SpaceX’s Approval for Data Centers Is Impossible for Rivals to Copy
 2026-11-26T11:25:29+00:00|||PASS|||3af23f6affe1a5fc96fb11ee28f3941c|||RKLB|||Rocket Lab: The Last Chance To Buy Before Neutron Takes Flight
+2026-11-26T12:11:47+00:00|||PASS|||ef6ccdd086ac51fde7f2eaaa977ca36e|||META|||Dutch groups ask court to halt Meta smart glasses sales over privacy concerns
+2026-11-26T12:11:51+00:00|||PASS|||b7ad4ff3c169cc99ac603128d81c2f09|||TSLA|||Cathie Wood Buys More SpaceX Amid Tesla Merger Talks — Ron Baron Says SpaceX Could Make $50B A Year From One Data Center
+2026-11-26T12:11:54+00:00|||PASS|||5c25da677eca03503c53d17ca49404b4|||NVDA|||Nvidia: Upgrade To Hold, Too Early To Buy (NASDAQ:NVDA)
+2026-11-26T12:11:57+00:00|||SENT|||6a1cb776bbaddf90ddb726a464a914f7|||NVDA|||Nvidia Reportedly Halts AI Server Shipments to Four Southeast Asian Countries Amid Tighter US Export Controls|||Nvidia 據報停止向四個東南亞國家出貨 AI 伺服器，美國出口管制趨嚴
+2026-11-26T12:12:11+00:00|||PASS|||6f01b505e3e434238fd8c13ca1927452|||TSM|||Taiwan Semiconductor Manufacturing (TSM) May Make Its $22.6 Billion Texas Plant Conditional
+2026-11-26T12:13:52+00:00|||PASS|||c1f95f0a6d2de2e8c9c9d43b44b9f8c3|||SPCX|||PODCAST: Trump's tariff blitz, Musk's SpaceX pledge and Nazi guest house reno
+2026-11-26T12:13:55+00:00|||PASS|||83fb9a85e45c7877bdead2f8106f0c92|||SPCX|||Musk pledges two SpaceX shares for every US child in $18 billion AI charm offensive
+2026-11-26T12:13:55+00:00|||PASS|||2759551cd8dc548c8f30654b61f2c4ce|||SPCX|||SpaceX Wins Government Approval to Launch Space Data Centers
+2026-11-26T12:14:26+00:00|||SENT|||709123aa28e581cf7e4335fe455a11d5|||BE|||Quanta inks $367m deal with Bloom Energy for two fuel cell anchored microgrid systems|||Quanta 與 Bloom Energy 簽下 $367m 合約，採購兩套以燃料電池為核心的微電網系統
