@@ -62,7 +62,12 @@ MAX_RUN_MINUTES = 20             # 整輪最多跑幾分鐘（workflow 上限 30
 FORM4_CARD_MIN_VALUE = 100_000       # 內部人公開市場買進達到這個金額（美元）才推卡，未達的併入每日通知
 FORM4_HOLDING_MIN_VALUE = 20_000     # 持股的門檻放寬
 FORM4_PLAN_CLUSTER = 3               # 同一天有幾位以上內部人用同一價格買進，就當作公司持股計畫統一代買
-FORM144_CARD_MIN_VALUE = 1_000_000  # Form 144 預計賣出金額達到這個數字（美元）才單獨推卡；持股一律推卡
+# Form 144 預告賣股：持股一律推卡；非持股要賣到公司總股數的 FORM144_CARD_MIN_PCT（%）以上，
+# 或金額達 FORM144_CARD_BIG_VALUE（美元）才推卡，其餘併入每日通知（2026-11-26 改，原本是金額 100 萬美元）
+FORM144_CARD_MIN_PCT = 0.05
+FORM144_CARD_BIG_VALUE = 100_000_000
+FORM144_CARD_MIN_VALUE = 1_000_000  # 申報沒寫公司總股數、算不出比例時，退回用這個金額門檻
+AI_RETRY_MAX = 3                 # 可由 AI 判定不推的申報（非持股 8-K 5.02/7.01/8.01、6-K），AI 失敗時最多試幾輪才照推
 DOC_TEXT_LIMIT = 4500            # 送 AI 的原文長度上限（字元）
 # 卡片上方附一段「事件影響」文字：整段複製、貼到該股的研究專案，就能請 Claude 判斷這則申報對研究的影響
 # 手機長按訊息選「複製文字」就會整段複製；不想要這段，把 True 改成 False
@@ -443,6 +448,21 @@ AI_QUOTA_TEXT = "• **【AI 解讀】**：今日 AI 解讀額度已用完（控
 
 AI_PASS = "PASS"
 
+
+def should_retry_ai(f, summary, allow_pass):
+    """
+    可由 AI 判定不推的申報，AI 這次沒判成（失敗或今日額度用完）時先不推，留到下一輪再判，
+    避免 AI 壞掉時本來會被判不推的申報全部推出來。額度用完不算次數（隔天額度恢復再判）；
+    真的失敗累計 AI_RETRY_MAX 輪後，照舊推卡並註明 AI 解讀無法取得。
+    """
+    if not allow_pass:
+        return None
+    if summary == AI_QUOTA_TEXT:
+        return {"action": "retry", "count": False}
+    if summary == AI_FAILED_TEXT and f.get("_ai_retries", 0) + 1 < AI_RETRY_MAX:
+        return {"action": "retry", "count": True}
+    return None
+
 # AI 判斷「不值得推播」的標準（只用在 8-K 的 5.02、7.01、8.01 和 6-K，而且不是持股時）
 AI_PASS_RULES = """
 【先判斷值不值得推播】：
@@ -584,10 +604,34 @@ PLAN_FOOTNOTE_RE = re.compile(
     r"dividend\s+reinvestment|\bDRIP\b|401\s*\(k\)|payroll\s+deduction|savings\s+plan", re.I)
 
 
+def tx_plan_text(tx, footnotes):
+    """
+    只取「這一筆買進」自己標註的說明：交易欄位上的附註、持有方式（例如 By ESPP Trust）。
+    交易後持股總數那一欄的附註（例如「持股含 9,678 股員工購股計畫股份」）講的是原本的持股，
+    和這次買進無關，不算（2026-11-26 修正：ROK、RDW 執行長自己買股曾被誤判成員工計畫）。
+    """
+    parts = []
+
+    def walk(elem):
+        name = local_name(elem.tag)
+        if name == "postTransactionAmounts":
+            return
+        if name == "footnoteId":
+            parts.append(footnotes.get(elem.get("id", ""), ""))
+        if name == "natureOfOwnership":
+            parts.append(" ".join(t.strip() for t in elem.itertext() if t.strip()))
+        for child in elem:
+            walk(child)
+
+    walk(tx)
+    return " ".join(parts)
+
+
 def parse_form4(xml_text):
     """
     回傳 dict：申報人、身分、公開市場買進股數與金額（只算交易代碼 P）、
-    是否註明員工持股／購股計畫、是否依 10b5-1 計畫
+    是否為員工持股／購股計畫代買、是否依 10b5-1 計畫。
+    同一份申報裡如果同時有「自己買」和「計畫代買」，只算自己買的部分；全部都是計畫代買才標成計畫。
     """
     root = ET.fromstring(xml_text.encode("utf-8") if isinstance(xml_text, str) else xml_text)
     owners, roles = [], []
@@ -603,7 +647,9 @@ def parse_form4(xml_text):
             roles.append(f"高階主管（{find_text(ro, 'officerTitle') or '職稱未填'}）")
         if find_text(ro, "isTenPercentOwner") in ("1", "true"):
             roles.append("10% 以上大股東")
-    shares_total, value_total = 0.0, 0.0
+    footnotes = {e.get("id", ""): " ".join(t.strip() for t in e.itertext() if t.strip())
+                 for e in root.iter() if local_name(e.tag) == "footnote"}
+    totals = {"real": [0.0, 0.0], "plan": [0.0, 0.0]}   # [股數, 金額]
     for tx in root.iter():
         if local_name(tx.tag) != "nonDerivativeTransaction":
             continue
@@ -613,13 +659,15 @@ def parse_form4(xml_text):
             continue
         shares = to_float(find_text(tx, "transactionShares", "value")) or 0.0
         price = to_float(find_text(tx, "transactionPricePerShare", "value")) or 0.0
-        shares_total += shares
-        value_total += shares * price
-    notes = " ".join((e.text or "") for e in root.iter() if local_name(e.tag) in ("footnote", "remarks"))
+        kind = "plan" if PLAN_FOOTNOTE_RE.search(tx_plan_text(tx, footnotes)) else "real"
+        totals[kind][0] += shares
+        totals[kind][1] += shares * price
+    is_plan = totals["real"][0] <= 0 and totals["plan"][0] > 0
+    shares_total, value_total = totals["plan"] if is_plan else totals["real"]
     return {"owner": "、".join(owners) or "未知", "role": "、".join(dict.fromkeys(roles)) or "未註明",
             "shares": shares_total, "value": value_total,
             "avg": value_total / shares_total if shares_total else 0.0,
-            "plan_note": bool(PLAN_FOOTNOTE_RE.search(notes)),
+            "plan_note": is_plan,
             "rule_10b5": find_text(root, "aff10b5One") in ("1", "true")}
 
 
@@ -703,37 +751,84 @@ def relation_zh(text):
 
 
 def parse_form144(xml_text):
+    """
+    回傳 dict：賣方、身分、預計賣出股數、市值、公司總股數、預計日期、10b5-1 計畫採用日。
+    一份 144 可能有好幾行（不同券商或股票類別），股數與市值加總；總股數取最大的那行。
+    """
     root = ET.fromstring(xml_text.encode("utf-8") if isinstance(xml_text, str) else xml_text)
     seller = find_text(root, "nameOfPersonForWhoseAccountTheSecuritiesAreToBeSold")
     relations = [relation_zh(e.text or "") for e in root.iter()
                  if local_name(e.tag) == "relationshipToIssuer" and (e.text or "").strip()]
     relations = [r for r in relations if r]
-    shares = to_float(find_text(root, "noOfUnitsSold"))
-    value = to_float(find_text(root, "aggregateMarketValue"))
-    sale_date = find_text(root, "approxSaleDate")
-    return seller, "、".join(dict.fromkeys(relations)), shares, value, sale_date
+    shares, value, outstanding, sale_date = None, None, None, None
+    for e in root.iter():
+        name = local_name(e.tag)
+        v = to_float(e.text) if e.text else None
+        if name == "noOfUnitsSold" and v is not None:
+            shares = (shares or 0) + v
+        elif name == "aggregateMarketValue" and v is not None:
+            value = (value or 0) + v
+        elif name == "noOfUnitsOutstanding" and v is not None:
+            outstanding = max(outstanding or 0, v)
+        elif name == "approxSaleDate" and not sale_date:
+            sale_date = (e.text or "").strip() or None
+    plan_date = None
+    for e in root.iter():
+        # 1933 年的日期是 SEC 表單的佔位值，不是真的計畫日期
+        if "planadoption" in local_name(e.tag).lower() and (e.text or "").strip() \
+                and not e.text.strip().endswith("1933"):
+            plan_date = e.text.strip()
+            break
+    pct = shares / outstanding * 100 if shares and outstanding else None
+    return {"seller": seller, "relation": "、".join(dict.fromkeys(relations)), "shares": shares,
+            "value": value, "outstanding": outstanding, "pct": pct, "sale_date": sale_date,
+            "plan_date": plan_date}
+
+
+def form144_is_big(ticker, info):
+    """
+    持股一律推卡；非持股看「這次要賣掉公司總股數的幾 %」，達 FORM144_CARD_MIN_PCT 或金額達
+    FORM144_CARD_BIG_VALUE 才推卡。2026-11 抽 20 份實際推過卡的 144，最高只賣 0.03%，
+    大多是大公司主管依 10b5-1 計畫或股票獎酬變現的例行賣股，所以門檻訂在 0.05%；
+    金額門檻訂 1 億美元，因為 PLTR 技術長依計畫幾乎每週賣約 5,000 萬美元，5,000 萬會每週推一次。
+    申報沒寫總股數時，退回舊規則（金額達 FORM144_CARD_MIN_VALUE）。
+    """
+    if ticker in HOLDINGS:
+        return True
+    value = info.get("value") or 0
+    if info.get("pct") is None:
+        return value >= FORM144_CARD_MIN_VALUE
+    return info["pct"] >= FORM144_CARD_MIN_PCT or value >= FORM144_CARD_BIG_VALUE
+
+
+def form144_size_text(info):
+    share_text = f"{info['shares']:,.0f} 股" if info.get("shares") else "股數未知"
+    pct_text = f"（佔總股數 {info['pct']:.3f}%）" if info.get("pct") is not None else ""
+    return f"{share_text}{pct_text}，約 {fmt_money(info.get('value'))}"
 
 
 def handle_form144(ticker, f, cik):
-    seller, relation, shares, value, sale_date = None, "", None, None, None
+    info = {"seller": None, "relation": "", "shares": None, "value": None, "outstanding": None,
+            "pct": None, "sale_date": None, "plan_date": None}
     try:
         xml_text = sec_get(filing_raw_url(cik, f["accessionNumber"], f["primaryDocument"])).text
-        seller, relation, shares, value, sale_date = parse_form144(xml_text)
+        info = parse_form144(xml_text)
     except (ET.ParseError, SecNotFound):
         pass
-    who = f"{seller or '申報人未知'}" + (f"（{relation}）" if relation else "")
-    share_text = f"{shares:,.0f} 股" if shares else "股數未知"
-    if ticker in HOLDINGS or (value is not None and value >= FORM144_CARD_MIN_VALUE):
+    who = f"{info['seller'] or '申報人未知'}" + (f"（{info['relation']}）" if info["relation"] else "")
+    plan_text = f"，依 {info['plan_date']} 採用的 10b5-1 售股計畫" if info.get("plan_date") else ""
+    size = form144_size_text(info)
+    if form144_is_big(ticker, info):
         summary = (f"• **【申報人】**：{who}\n"
-                   f"• **【預計賣出】**：{share_text}，市值約 {fmt_money(value)}，預計日期 {sale_date or '未填'}\n"
+                   f"• **【預計賣出】**：{size}，預計日期 {info['sale_date'] or '未填'}{plan_text}\n"
                    f"• **【解讀】**：Form 144 是內部人「預告」要賣股，實際成交會在之後的 Form 4 揭露；"
                    f"常見原因包含既定的 10b5-1 售股計畫或股票獎酬變現。")
         decision = card(ticker, "【內部人預告賣股 Form 144】", "留意", f"{f['form']} (擬出售證券通知)", summary)
         # 同一檔同一次掃描有好幾份 144（例如大股東用好幾個基金帳戶分開申報），會合併成一張卡
-        decision["f144"] = {"line": f"{who}：{share_text}，約 {fmt_money(value)}，預計 {sale_date or '未填'}",
-                            "value": value or 0}
+        decision["f144"] = {"line": f"{who}：{size}，預計 {info['sale_date'] or '未填'}",
+                            "value": info.get("value") or 0}
         return decision
-    return digest(f"Form 144 內部人預告賣股：{who}，{share_text}，約 {fmt_money(value)}")
+    return digest(f"Form 144 內部人預告賣股：{who}，{size}{plan_text}")
 
 
 PERCENT_TAG_RE = re.compile(r"<(?:\w+:)?(\w*[Pp]ercent\w*)[^>]*>\s*([\d.]+)\s*<", re.S)
@@ -881,9 +976,9 @@ def handle_registration(ticker, f, cik):
     if form.endswith("/A"):
         return digest(f"{form} 註冊文件修正")
     if form in ("S-3ASR", "F-3ASR"):
-        return card(ticker, "📄 【大型公司例行貨架登記】", "例行", f"{form} (自動生效貨架登記)",
-                    "• **【說明】**：只有大型公司能用的自動生效貨架登記，多數是每三年例行更新，"
-                    "不代表馬上要發股；真正發行時會另有 424B 申報。")
+        # 大型公司每三年例行更新的自動生效貨架登記，不代表馬上要發股；真正發行時另有 424B 申報會推卡
+        # 2026-11-26 起改成併入每日通知，不再單獨推灰卡（持股也一樣）
+        return digest(f"{form} 大型公司例行貨架登記（自動生效，真正發行時另有 424B 申報）")
     if form in ("S-3", "F-3"):
         return card(ticker, "📑 【融資額度登記（貨架）】", "留意", f"{form} (貨架登記申請)",
                     "• **【說明】**：申請未來三年內可隨時發行股票或債券的總額度。"
@@ -935,6 +1030,9 @@ def handle_6k(ticker, f, cik, stats):
                            allow_pass=ticker not in HOLDINGS)
     if summary == AI_PASS:
         return skip("AI 判定 6-K 不重要")
+    retry = should_retry_ai(f, summary, ticker not in HOLDINGS)
+    if retry:
+        return retry
     return card(ticker, "🌍 【外國公司重大公告 6-K】", None, f"{f['form']} (外國發行人重大備案)", summary)
 
 
@@ -963,6 +1061,9 @@ def handle_8k(ticker, f, cik, stats):
     summary = ai_summarize(ticker, f"8-K 項目 {items_str or '未標示'}", doc_text, stats, allow_pass=allow_pass)
     if summary == AI_PASS:
         return skip(f"AI 判定 8-K 不重要（項目 {items_str or '未標示'}）")
+    retry = should_retry_ai(f, summary, allow_pass)
+    if retry:
+        return retry
     if tokens & HIGH_IMPACT_8K_ITEMS:
         return card(ticker, "⚡ 【8-K 重大申報】", None, f"{f['form']} (核心項目: {items_str})", summary)
     return card(ticker, "📑 【8-K 公告解讀】", None, f"{f['form']} (項目: {items_str or '未標示'})", summary)
@@ -1395,7 +1496,20 @@ def fetch_sec_filings(cik):
 def process_ticker(ticker, cik, state, stats, bootstrap):
     filings = fetch_sec_filings(cik)
     stats["sec_ok"] += 1
-    targets = [f for f in filings if f["form"].upper() in TARGET_FORMS and f["accessionNumber"] not in state["history"]]
+    def ai_retries(acc):
+        """上次 AI 沒判成、等著重試的申報，紀錄狀態是 AIRETRY 加次數（例如 AIRETRY1）"""
+        status = state["history"].get(acc, ("", ""))[1]
+        return int(status[7:] or 0) if status.startswith("AIRETRY") and status[7:].isdigit() else None
+
+    targets = []
+    for f in filings:
+        if f["form"].upper() not in TARGET_FORMS:
+            continue
+        retries = ai_retries(f["accessionNumber"])
+        if f["accessionNumber"] in state["history"] and retries is None:
+            continue
+        f["_ai_retries"] = retries or 0
+        targets.append(f)
     if not targets:
         print("近期無新的追蹤表單", flush=True)
         return
@@ -1429,6 +1543,14 @@ def process_ticker(ticker, cik, state, stats, bootstrap):
             print(f"      ❌ [程式處理錯誤] {type(e).__name__}: {e}", flush=True)
             continue
 
+        if decision["action"] == "retry":
+            if decision["count"]:
+                n = f["_ai_retries"] + 1
+                record(state, acc, f"AIRETRY{n}", ticker, f"{form} AI 未判成，第 {n} 次，下輪重試")
+                print(f"      ⏳ [AI 未判成] 先不推，下一輪重試（第 {n}/{AI_RETRY_MAX} 次）", flush=True)
+            else:
+                print("      ⏳ [今日 AI 額度已用完] 先不推，額度恢復後再判", flush=True)
+            continue
         if decision["action"] == "f4":
             pending_f4.append((f, decision["f4"]))
             continue
