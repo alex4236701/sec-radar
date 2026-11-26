@@ -13,6 +13,7 @@ import requests
 # ==================== 環境變數與路徑設定 ====================
 DISCORD_SEC_WEBHOOK = os.environ.get("DISCORD_SEC_WEBHOOK") or os.environ.get("DISCORD_NEWS_WEBHOOK")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+ANTHROPIC_API_KEY = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 # SEC 要求真實聯絡資訊，例如 "sec-radar your_email@example.com"，請放在 GitHub Secrets，不要寫在程式裡
 SEC_USER_AGENT = (os.environ.get("SEC_USER_AGENT") or "").strip()
@@ -29,7 +30,15 @@ UTC_TZ = timezone.utc
 ET_TZ = timezone(timedelta(hours=-4))
 
 # ==================== AI 模型設定 ====================
-# 主力：OpenAI；失敗時改用 Gemini 備援。和新聞雷達用同一個模型（價格為每一百萬 token 的美元價格）：
+# 順序：Claude（主力）→ OpenAI（第一備援）→ Gemini（第二備援），前一個失敗才換下一個
+# 【主力】Claude：花的是 Max 方案每月附送的 Claude API 額度（GitHub Secret：ANTHROPIC_API_KEY）
+#   "claude-sonnet-5-5"  目前使用。判斷力好，輸入 2、輸出 10 美元（每一百萬 token）
+#   "claude-haiku-5-5"   最便宜，輸入 0.1、輸出 0.5 美元，判斷力比 Sonnet 差一些
+# 想換 Claude 模型時，在 GitHub Secrets 設定 SEC_CLAUDE_MODEL（只影響 SEC 雷達；新聞雷達看的是 CLAUDE_MODEL）
+CLAUDE_MODEL = (os.environ.get("SEC_CLAUDE_MODEL") or "").strip() or "claude-sonnet-5-5"
+CLAUDE_STATE = {"fatal": "", "last_error": ""}   # fatal 有值 = 這輪不再呼叫 Claude（額度用完、金鑰錯誤等）
+ENGINE_USAGE = {"Claude": 0, "OpenAI": 0, "Gemini": 0}   # 本輪實際由誰完成解讀，放進健康回報
+# 【第一備援】OpenAI。和新聞雷達用同一個模型（價格為每一百萬 token 的美元價格）：
 #   "gpt-6-luna"   目前使用。新一代最便宜的模型（輸入 0.05、輸出 0.25 美元）
 #   "gpt-6.1-sol"  判斷力更好，費用約 luna 的二十倍（輸入 1 美元、輸出 5 美元）
 #   "gpt-4o-mini"  舊模型（輸入 0.15、輸出 0.6 美元）
@@ -48,7 +57,7 @@ FETCH_FAIL_ALERT_RATIO = 0.20    # 抓取失敗比例超過此值，推播警報
 ALERT_COOLDOWN_HOURS = 3         # 警報至少間隔幾小時，避免 SEC 封鎖時每小時洗版
 MAX_CONSECUTIVE_FETCH_FAILS = 8  # 連續幾檔抓取失敗就判定被封鎖，提前結束並警報
 DAILY_REPORT_HOUR_TW = 7         # 每天台灣時間幾點之後的第一次執行，推播健康回報與合併通知
-MAX_AI_PER_DAY = 120             # 每天最多呼叫 AI 幾次（以 gpt-6-luna 計，就算天天用滿，一個月也不到 1 美元）
+MAX_AI_PER_DAY = 120             # 每天最多呼叫 AI 幾次（以 Claude Sonnet 5.5 計，就算天天用滿，一個月約 30 多美元，在每月附送額度內）
 MAX_RUN_MINUTES = 20             # 整輪最多跑幾分鐘（workflow 上限 30 分鐘）
 FORM4_CARD_MIN_VALUE = 100_000       # 內部人公開市場買進達到這個金額（美元）才推卡，未達的併入每日通知
 FORM4_HOLDING_MIN_VALUE = 20_000     # 持股的門檻放寬
@@ -297,7 +306,7 @@ def openai_text(prompt, attempts=2):
     payload = {
         "model": OPENAI_MODEL,
         "messages": [
-            {"role": "system", "content": "你是一位硬核買方機構研究員，講求事實與數據，說話自然順暢，嚴格輸出指定格式。"},
+            {"role": "system", "content": SYSTEM_TEXT},
             {"role": "user", "content": prompt},
         ],
     }
@@ -335,6 +344,60 @@ def openai_text(prompt, attempts=2):
                 return content
         except Exception as e:
             print(f"      ⚠️ [OpenAI 呼叫異常] {type(e).__name__}", flush=True)
+            time.sleep(2)
+    return None
+
+
+SYSTEM_TEXT = "你是一位硬核買方機構研究員，講求事實與數據，說話自然順暢，嚴格輸出指定格式。"
+
+
+def claude_text(prompt, attempts=2):
+    """呼叫 Claude，回傳文字；失敗回傳 None。額度用完或金鑰錯誤時，這輪剩下的申報直接走備援"""
+    if not ANTHROPIC_API_KEY or CLAUDE_STATE["fatal"]:
+        return None
+    payload = {"model": CLAUDE_MODEL, "max_tokens": 1024, "temperature": 0.1,
+               "system": SYSTEM_TEXT, "messages": [{"role": "user", "content": prompt}]}
+    headers = {"x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01",
+               "content-type": "application/json"}
+    tries = 0
+    while tries < attempts:
+        tries += 1
+        try:
+            res = requests.post("https://api.anthropic.com/v1/messages", headers=headers, json=payload, timeout=60)
+            try:
+                data = res.json()
+            except Exception:
+                data = {}
+            if res.status_code == 200 and data.get("type") != "error":
+                text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text").strip()
+                if text:
+                    return text
+                CLAUDE_STATE["last_error"] = "Claude 回覆空白"
+                continue
+            err = data.get("error", {}) if isinstance(data, dict) else {}
+            etype = str(err.get("type", "") if isinstance(err, dict) else "").lower()
+            msg = str(err.get("message", "") if isinstance(err, dict) else err)[:150]
+            lower = msg.lower()
+            if res.status_code == 400 and "temperature" in lower and "temperature" in payload:
+                payload.pop("temperature")   # 模型不接受 temperature 就拿掉重試，不算一次失敗
+                tries -= 1
+                continue
+            if "credit balance" in lower or "billing" in lower or "credits" in lower:
+                CLAUDE_STATE["fatal"] = "Claude API 額度用完（每月附送的額度下個月才會補）"
+            elif res.status_code == 401 or etype == "authentication_error":
+                CLAUDE_STATE["fatal"] = "Claude 金鑰無效或已停用，需要更新 GitHub Secret 的 ANTHROPIC_API_KEY"
+            elif res.status_code in (403, 404) or etype in ("permission_error", "not_found_error"):
+                CLAUDE_STATE["fatal"] = f"Claude 拒絕存取或模型 {CLAUDE_MODEL} 不存在：{msg[:100]}"
+            if CLAUDE_STATE["fatal"]:
+                CLAUDE_STATE["last_error"] = CLAUDE_STATE["fatal"]
+                print(f"      🛑 [Claude] {CLAUDE_STATE['fatal']}，本輪改用備援", flush=True)
+                return None
+            CLAUDE_STATE["last_error"] = f"Claude 錯誤（HTTP {res.status_code}）：{msg[:100]}"
+            print(f"      ⚠️ [Claude] {CLAUDE_STATE['last_error']}，稍後重試", flush=True)
+            time.sleep(3 * tries)
+        except Exception as e:
+            CLAUDE_STATE["last_error"] = f"連不上 Claude 或逾時：{type(e).__name__}"
+            print(f"      ⚠️ [Claude 呼叫異常] {type(e).__name__}", flush=True)
             time.sleep(2)
     return None
 
@@ -402,7 +465,7 @@ def ai_summarize(ticker, filing_context, doc_text, stats, allow_pass=False):
     """
     if not doc_text or len(doc_text.strip()) < 40:
         return "• **【AI 解讀】**：申報內文過短或無法擷取，請點擊標題閱讀原文。"
-    if not OPENAI_API_KEY and not GEMINI_API_KEY:
+    if not ANTHROPIC_API_KEY and not OPENAI_API_KEY and not GEMINI_API_KEY:
         return "• **【AI 解讀】**：未設定 AI 金鑰，請點擊標題閱讀原文。"
     if AI_USAGE["count"] >= MAX_AI_PER_DAY:
         stats["ai_quota"] += 1
@@ -425,11 +488,20 @@ def ai_summarize(ticker, filing_context, doc_text, stats, allow_pass=False):
 """
     AI_USAGE["count"] += 1
     stats["ai_calls"] += 1
-    text = openai_text(prompt)
+    text = claude_text(prompt)
+    engine = "Claude"
+    if not text:
+        if ANTHROPIC_API_KEY and OPENAI_API_KEY:
+            print(f"      🛡️ [備援] Claude 未成功，改用 OpenAI（{OPENAI_MODEL}）", flush=True)
+        text = openai_text(prompt)
+        engine = "OpenAI"
     if not text:
         if GEMINI_API_KEY:
             print("      🛡️ [備援] OpenAI 未成功，改用 Gemini", flush=True)
         text = gemini_text(prompt)
+        engine = "Gemini"
+    if text:
+        ENGINE_USAGE[engine] += 1
     if not text:
         stats["ai_failed"] += 1
         return AI_FAILED_TEXT
@@ -1058,6 +1130,9 @@ def health_lines(stats, total):
         f"推播卡片：{stats['pushed']} 則；推播失敗（下次重試）：{stats['push_failed']} 則",
         f"併入每日通知：{stats['digested']} 則；略過例行 6-K：{stats['routine_6k']} 則；略過其他例行申報：{stats['skipped']} 則",
         f"AI 呼叫：{stats['ai_calls']} 次（今日累計 {AI_USAGE['count']}/{MAX_AI_PER_DAY}），AI 判定不重要而不推：{stats['ai_pass']} 則，AI 失敗：{stats['ai_failed']} 次",
+        f"AI 解讀由誰完成：Claude（{CLAUDE_MODEL}）{ENGINE_USAGE['Claude']} 次，備援 OpenAI（{OPENAI_MODEL}）{ENGINE_USAGE['OpenAI']} 次，Gemini {ENGINE_USAGE['Gemini']} 次",
+        *([f"Claude 沒用上的原因：{CLAUDE_STATE['fatal'] or CLAUDE_STATE['last_error']}"]
+          if (ENGINE_USAGE["OpenAI"] or ENGINE_USAGE["Gemini"] or stats["ai_failed"]) and (CLAUDE_STATE["fatal"] or CLAUDE_STATE["last_error"]) else []),
     ]
     if stats["doc_failed"]:
         lines.append(f"申報內文抓取失敗（下次重試）：{stats['doc_failed']} 則")

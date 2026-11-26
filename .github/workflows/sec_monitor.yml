@@ -49,6 +49,10 @@ jobs:
           # SEC 專用頻道；沒設定就推到新聞頻道
           DISCORD_SEC_WEBHOOK: ${{ secrets.DISCORD_SEC_WEBHOOK }}
           DISCORD_NEWS_WEBHOOK: ${{ secrets.DISCORD_NEWS_WEBHOOK }}
+          # 主力 AI：Claude（用 Max 方案每月附送的 API 額度）；失敗時依序改用 OpenAI、Gemini
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 可選：想換 Claude 模型時，在 GitHub Secrets 新增 SEC_CLAUDE_MODEL（例如 claude-haiku-5-5）
+          SEC_CLAUDE_MODEL: ${{ secrets.SEC_CLAUDE_MODEL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           # 可選：想換 AI 模型時才需要設定，沒設定就用程式預設（gpt-6-luna、gemini-3.6-flash）
