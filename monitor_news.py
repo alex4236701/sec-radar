@@ -366,7 +366,7 @@ ALWAYS_JUNK_PATTERNS = [
 # 2026-11-26 從「一律排除」移出來：真的財報稿常寫「Reports Q3 Results and Schedules Conference Call」，
 # 「CFO to step down ahead of earnings」「files for Chapter 11, schedules hearing」也曾被誤殺
 SCHEDULE_JUNK_PATTERNS = [
-    r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
+    r"\bschedul\w*\b(?:\s+\S+){0,6}?\s+(?:results|earnings|call|conference|webcast|release|meeting|date|presentation)\b", r"\bto\s+host\b", r"\bwebcast\b",
     r"\bconference\s+call\b", r"\binvestor\s+conference\b", r"\bfireside\s+chat\b",
     r"\broadshow\b", r"\bannual\s+meeting\b", r"\bproxy\s+statement\b",
     r"\bahead\s+of\s+(?:its\s+)?earnings\b", r"\bbefore\s+(?:its\s+)?earnings\b",
@@ -1613,7 +1613,7 @@ def openai_chat_json(messages, temperature=0.1, attempts=3):
 
 
 # ==================== Claude（主力）====================
-CLAUDE_STATE = {"last_error": "", "fatal": ""}   # fatal 有值 = 這輪不再呼叫 Claude，直接用 OpenAI 備援
+CLAUDE_STATE = {"last_error": "", "fatal": "", "no_temperature": False}   # fatal 有值 = 這輪不再呼叫 Claude，直接用 OpenAI 備援；no_temperature = 這個模型不收 temperature
 AI_USAGE = {"claude": 0, "openai": 0}            # 本輪實際由誰完成判讀，放進健康回報
 
 
@@ -1657,8 +1657,9 @@ def claude_chat_json(messages, temperature=0.1, attempts=3):
     chat = [{"role": m["role"], "content": m["content"]} for m in messages if m["role"] != "system"]
     if chat:
         chat[-1]["content"] += "\n\n（請只輸出一個 JSON 物件，不要加任何說明文字或程式碼框。）"
-    payload = {"model": CLAUDE_MODEL, "max_tokens": CLAUDE_MAX_TOKENS,
-               "messages": chat, "temperature": temperature}
+    payload = {"model": CLAUDE_MODEL, "max_tokens": CLAUDE_MAX_TOKENS, "messages": chat}
+    if not CLAUDE_STATE["no_temperature"]:
+        payload["temperature"] = temperature
     if system_text:
         payload["system"] = [{"type": "text", "text": system_text,
                               "cache_control": {"type": "ephemeral"}}]
@@ -1682,7 +1683,9 @@ def claude_chat_json(messages, temperature=0.1, attempts=3):
                 if res.status_code == 400 and "temperature" in lower and "temperature" in payload:
                     payload.pop("temperature")
                     tries -= 1
-                    print(f"      ℹ️ [Claude 模型 {CLAUDE_MODEL} 不支援 temperature] 已自動移除後重試", flush=True)
+                    # 記住這個模型不收 temperature，這輪後面的呼叫直接不帶，不用每則都先失敗一次
+                    CLAUDE_STATE["no_temperature"] = True
+                    print(f"      ℹ️ [Claude 模型 {CLAUDE_MODEL} 不支援 temperature] 已自動移除，這輪之後都不再帶", flush=True)
                     continue
                 reason, fatal = explain_claude_error(res.status_code, data, res.text)
                 CLAUDE_STATE["last_error"] = reason
