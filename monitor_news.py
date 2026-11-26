@@ -322,8 +322,6 @@ ALWAYS_JUNK_PATTERNS = [
     r"\b(?:up|down|gains?|drops?|falls?|slips?|surges?|climbs?|plunges?)\s+\d+(?:\.\d+)?%\s+since\s+(?:(?:its|the|last)\s+)*earnings\b",
     r"\bcan\s+[\w\s.']+?\s+(?:rally|run|momentum|surge|gains?|streak)\s+continue\b",
     r"\bwill\s+the\s+(?:rally|surge|run|momentum|streak)\s+continue\b",
-    r"\bahead\s+of\s+(?:its\s+)?earnings\b",
-    r"\bbefore\s+(?:its\s+)?earnings\b",
     r"\bwhat\s+to\s+expect\s+(?:from|for)\s+earnings\b",
     r"\bearnings\s+(?:preview|whisper|scorecard|recap)\b",
     r"\bshould\s+you\s+(?:buy|sell|hold)\b",
@@ -344,10 +342,15 @@ ALWAYS_JUNK_PATTERNS = [
     r"\bcramer\b", r"\blightning\s+round\b", r"\bmad\s+money\b",
     r"\breporting\s+date\b", r"\bearnings\s+(?:release\s+)?date\b", r"\bdate\s+(?:for|of)\s+[\w\s]*results\b",
 
-    # 例行會議、電話會排程
-    r"\bto\s+report\b", r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
-    r"\bconference\s+call\b", r"\binvestor\s+conference\b", r"\bfireside\s+chat\b",
-    r"\broadshow\b", r"\bannual\s+meeting\b", r"\bproxy\s+statement\b",
+    # 財報預告（「X to report Q3 results」「will announce results」）
+    r"\bto\s+report\b", r"\bwill\s+(?:report|announce|release)\b",
+
+    # 投資建議、評論文的固定句型（2026-11-26 加：曾推出「Here Are the Next Steps for Investors」這類文章）
+    r"\bnext\s+steps?\s+for\s+investors\b", r"\bhow\s+to\s+play\b",
+    r"\bwhat\s+(?:investors|shareholders)\s+should\s+(?:do|know)\b",
+    r"\bwhat\s+it\s+means\s+for\s+(?:investors|shareholders|the\s+stock)\b",
+    r"\bwhat\s+comes\s+next\b", r"\bundervaluation\b", r"\bcase\s+(?:is\s+|still\s+)?intact\b",
+    r"\bthe\s+next\s+big\s+[\w-]+\s+(?:winner|stock|play)\b",
 
     # 產業研報、評選獲獎與公關軟文
     r"\bmarket\s+size\b", r"\bcagr\b", r"\bmarket\s+research\b",
@@ -358,6 +361,41 @@ ALWAYS_JUNK_PATTERNS = [
     r"\bgoogle\.org\b", r"\bcharit\w*\b", r"\bnonprofits?\b", r"\bphilanthrop\w*\b",
     r"\bscholarships?\b", r"\bsponsorship\b", r"\bvolunteer\w*\b",
 ]
+
+# 例行會議、電話會議排程、財報前夕：只有「沒有實質事件」時才排除。
+# 2026-11-26 從「一律排除」移出來：真的財報稿常寫「Reports Q3 Results and Schedules Conference Call」，
+# 「CFO to step down ahead of earnings」「files for Chapter 11, schedules hearing」也曾被誤殺
+SCHEDULE_JUNK_PATTERNS = [
+    r"\bschedules?\b", r"\bto\s+host\b", r"\bwebcast\b",
+    r"\bconference\s+call\b", r"\binvestor\s+conference\b", r"\bfireside\s+chat\b",
+    r"\broadshow\b", r"\bannual\s+meeting\b", r"\bproxy\s+statement\b",
+    r"\bahead\s+of\s+(?:its\s+)?earnings\b", r"\bbefore\s+(?:its\s+)?earnings\b",
+]
+# 命中排程字眼時，要有下面這些「真的發生了」的事件才放行
+SCHEDULE_OVERRIDE_PATTERNS = [
+    # 已公布財報：reports / announces / posts ... results（results 後面不能緊接 conference、call、webcast、date）
+    r"\b(?:reports?|reported|announces?|announced|posts?|posted|delivers?|delivered)\b[^;:|]*?\b(?:results|earnings|revenue)\b(?!\s+(?:conference|call|webcast|date|release))",
+    # 財測調整
+    r"\b(?:raises?|lifts?|boosts?|hikes?|lowers?|cuts?|slashes?|reduces?|trims?|withdraws?)\s+(?:its\s+)?(?:full[\s-]year\s+|annual\s+|quarterly\s+|fiscal\s+|20\d\d\s+)?(?:guidance|outlook|forecast)\b",
+    # 高層異動
+    r"\b(?:ceo|cfo|coo|cto|chief\s+executive|chief\s+financial|chairman|president)\b.*\b(?:resign\w*|steps?\s+down|depart\w*|retire\w*|ousted|fired|exit\w*|leav\w*|replac\w*|succe\w*|appoint\w*|names?|named|hires?)\b",
+    r"\b(?:resign\w*|steps?\s+down|depart\w*|ousts?|ousted|appoint\w*|names?|named|hires?)\b.*\b(?:ceo|cfo|chief\s+executive|chief\s+financial)\b",
+    # 破產、調查、併購
+    r"\bchapter\s+11\b", r"\bbankruptcy\b", r"\bdelist\w*\b", r"\bprobe\b", r"\binvestigation\b",
+    r"\bsubpoena\b", r"\bacquisition\b", r"\bto\s+acquire\b", r"\bmerger\b",
+]
+# 「排定時間」類字眼：有這些字的就算有 results 也是預告，不放行
+SCHEDULE_TIMING_WORDS = r"\b(?:date|dates|timing|when\s+to\s+expect)\b"
+
+
+def is_schedule_junk(title):
+    """會議、排程、財報前夕類標題，而且沒有真的發生的事件 → True（排除）"""
+    if not matches_any(title, SCHEDULE_JUNK_PATTERNS):
+        return False
+    if re.search(SCHEDULE_TIMING_WORDS, title, flags=re.IGNORECASE):
+        return True
+    return not matches_any(title, SCHEDULE_OVERRIDE_PATTERNS)
+
 
 # 同業回顧、財報比較文（StockStory 等寫手的固定格式，Yahoo 常在幾個月後轉載）
 # 例如「Bloom Energy (NYSE:BE) Q2 Earnings: Leading The Renewable Energy Pack」
@@ -416,14 +454,14 @@ STRONG_EVENT_PATTERNS = [
     r"\bchapter\s+11\b", r"\bbankruptcy\b", r"\bgoing\s+concern\b", r"\bdelist\w*\b",
     r"\bdefault\b", r"\brestructur\w*\b",
     # 調查、訴訟、禁令
-    r"\bantitrust\b", r"\bprobe\b", r"\binvestigation\b", r"\bsubpoena\b", r"\binjunction\b",
+    r"\bantitrust\b", r"\bprob(?:e|es|ed|ing)\b", r"\binvestigation\b", r"\bsubpoena\b", r"\binjunction\b",
     r"\bsues\b", r"\blawsuit\b", r"\bpatent\s+infringement\b", r"\bfined\b", r"\bfines?\s+\$",
     r"\bexport\s+(?:control|ban|curb|restriction|license)s?\b", r"\bsanction\w*\b",
     r"\btariffs?\b", r"\bban(?:s|ned)?\b", r"\bentity\s+list\b",
     r"\bchips\s+act\b",
     # 高層異動
     r"\b(?:ceo|cfo|coo|cto|chief\s+executive|chief\s+financial|chairman|president)\b.*\b(?:resign\w*|steps?\s+down|depart\w*|retire\w*|ousted|fired|exit\w*|leav\w*|replac\w*|succe\w*|appoint\w*|names?|named|hires?)\b",
-    r"\b(?:resign\w*|steps?\s+down|appoint\w*|names?|named|hires?)\b.*\b(?:ceo|cfo|chief\s+executive|chief\s+financial)\b",
+    r"\b(?:resign\w*|steps?\s+down|depart\w*|ousts?|ousted|appoint\w*|names?|named|hires?)\b.*\b(?:ceo|cfo|chief\s+executive|chief\s+financial)\b",
     # 做空與重大負面事件
     r"\bshort[\s-]seller\b", r"\bshort\s+report\b", r"\bhindenburg\b", r"\bmuddy\s+waters\b",
     r"\bcitron\b", r"\bspruce\s+point\b", r"\bkerrisdale\b", r"\bgrizzly\b",
@@ -927,6 +965,8 @@ def evaluate_title(ticker, title, snippet, source_tier, relax=None):
     """
     if matches_any(title, ALWAYS_JUNK_PATTERNS):
         return False, "排除規則"
+    if is_schedule_junk(title):
+        return False, "排程預告"
     if matches_any(title, PEER_RECAP_PATTERNS):
         return False, "同業回顧文"
     if is_buyer_side_order(ticker, title):
@@ -990,7 +1030,21 @@ EVENT_WORD_FAMILIES = {
     "offer": "@offer", "offering": "@offer", "placement": "@offer",
     "earning": "@earn", "result": "@earn", "guidance": "@earn", "outlook": "@earn", "forecast": "@earn",
     "quarter": "@earn", "q1": "@earn", "q2": "@earn", "q3": "@earn", "q4": "@earn",
+    # 2026-11-26 補：比對前會先去掉字尾，earnings 會變成 earn，原本這裡只有 earning，所以「財報」從來沒被認出來
+    "earn": "@earn", "beat": "@earn", "miss": "@earn", "revenue": "@earn", "eps": "@earn", "profit": "@earn",
+    # 高層離職（原本只有任命）
+    "resign": "@lead", "resignation": "@lead", "stepp": "@lead", "depart": "@lead", "departure": "@lead",
+    "oust": "@lead", "exit": "@lead", "retire": "@lead", "retir": "@lead", "successor": "@lead",
+    "succeed": "@lead", "replace": "@lead", "replac": "@lead",
+    # 調查
+    "probe": "@probe", "prob": "@probe", "investigation": "@probe", "investigate": "@probe",
+    "investigat": "@probe", "subpoena": "@probe", "inquiry": "@probe",
+    # 駭客與資安事件
+    "hack": "@cyber", "hacker": "@cyber", "breach": "@cyber", "breache": "@cyber", "leak": "@cyber",
+    "ransomware": "@cyber", "cyberattack": "@cyber",
 }
+# 有明確「事件類別」的字；新標題出現舊標題沒有的類別（例如舊的是執行長下台、新的多了調查），就是新的事，不算重複
+DEDUP_EVENT_CLASSES = {"@acq", "@merge", "@lead", "@offer", "@earn", "@probe", "@cyber"}
 # 職位名稱：兩則人事新聞都提到同一個職位（例如都是 CFO），視為同一件事
 ROLE_WORDS = {"ceo", "cfo", "coo", "cto", "chairman", "president"}
 # 太常見、不能用來判斷「是不是同一件事」的字
@@ -1078,6 +1132,8 @@ def is_duplicate_news(ticker, new_title, history_entries):
         old_words = extract_core_words(h["title"]) - alias_tokens
         if not old_words:
             continue
+        if (new_words & DEDUP_EVENT_CLASSES) - old_words:
+            continue
         union = new_words | old_words
         similarity = len(new_words & old_words) / len(union) if union else 0
         if similarity >= 0.35:
@@ -1089,7 +1145,7 @@ def is_duplicate_news(ticker, new_title, history_entries):
             return True
         shared = new_words & old_words
         shared_names = {t for t in shared_specific if not any(ch.isdigit() for ch in t)}
-        shared_events = shared & {"@acq", "@merge", "@lead", "@offer"}
+        shared_events = shared & {"@acq", "@merge", "@lead", "@offer", "@probe", "@cyber"}
         shared_other = {w for w in shared if not w.startswith("@") and w not in GENERIC_DEDUP_WORDS}
         # 共享同一個專有名詞（例如被收購的 INVENTVM），而且是同一類事件（都是收購、都是人事）→ 同一件事
         if shared_names and shared_events:
@@ -1116,6 +1172,37 @@ def sent_under_other_ticker(ticker, title, history_entries):
         if " ".join(re.sub(r"[^\w\s]", "", h["title"].lower()).split()) == key:
             return True
     return False
+
+
+# 本輪掃描的所有代號（main 會填入），跨代號去重用
+ALL_TICKERS = []
+
+
+def other_tickers_named(ticker, title, history_entries):
+    """標題裡也提到的其他觀察股（只看 72 小時內有推過新聞的，省時間）"""
+    cutoff = datetime.now(UTC_TZ) - timedelta(hours=DEDUP_WINDOW_HOURS)
+    recent = {h["ticker"] for h in history_entries
+              if h["status"] == "SENT" and h["ticker"] != ticker and h["time"] >= cutoff}
+    return [t for t in ALL_TICKERS if t in recent and matches_target_entity(t, title)]
+
+
+def duplicate_under_other_ticker(ticker, title, history_entries):
+    """
+    同一件事已經用標題裡提到的另一檔推過（例如 SpaceX 與 Tesla 合併案，TSLA、SPCX 各推一次），
+    就不再用這檔推第二次。回傳那個代號，沒有就回傳 None（2026-11-26 加）
+    """
+    for other in other_tickers_named(ticker, title, history_entries):
+        if is_duplicate_news(other, title, history_entries):
+            return other
+    return None
+
+
+def related_recent_titles(ticker, title, history_entries):
+    """給 AI 對照的「最近已推過」：本檔的，加上標題裡提到的其他觀察股的"""
+    titles = recent_sent_titles(ticker, history_entries)
+    for other in other_tickers_named(ticker, title, history_entries):
+        titles += [f"（{other}）{t}" for t in recent_sent_titles(other, history_entries)[:5]]
+    return titles
 
 
 # ==================== 歷史紀錄 ====================
@@ -1384,6 +1471,11 @@ def send_run_summary(stats, total, is_alert, ai_alert=False):
         lines.append(f"因執行超時未掃描：{len(stats['timed_out'])} 檔")
     if AUTO_NAMED_THIS_RUN:
         lines.append("新代號已自動產生新聞名稱：" + "；".join(AUTO_NAMED_THIS_RUN))
+    skipped_src = stats.get("source_skipped") or {}
+    if skipped_src:
+        top = sorted(skipped_src.items(), key=lambda kv: -kv[1])[:10]
+        lines.append(f"本輪來源不在名單而略過（標題本身會過關）：共 {sum(skipped_src.values())} 則；最多的來源："
+                     + "、".join(f"{name} {n}" for name, n in top))
     if ai_alert and not is_alert:
         title = "🚨 新聞巡檢異常：AI 判讀失敗，新聞全部沒推"
         color = 0xC0392B
@@ -1708,14 +1800,14 @@ def summarize_with_ai(ticker, context, recent_titles=None):
         return "ERROR", "", "", "", ""
 
     company_name = get_display_name(ticker)
-    recent_block = "\n".join(f"{i}. {t}" for i, t in enumerate((recent_titles or [])[:10], 1)) or "（無）"
+    recent_block = "\n".join(f"{i}. {t}" for i, t in enumerate((recent_titles or [])[:15], 1)) or "（無）"
     holding_note = ("這檔是使用者的持股，重要性門檻可以略為放寬，但重要性門檻第 4 點仍然適用。\n"
                     if ticker in HOLDINGS else "")
     prompt = f"""請判讀【{ticker} - {company_name}】的這則即時消息。
 {holding_note}
 今天日期（台灣時間）：{datetime.now(TW_TZ).strftime("%Y-%m-%d")}
 
-最近三天已推播過的本公司新聞：
+最近三天已推播過的本公司新聞（括號標代號的，是標題裡也提到的其他觀察股推過的新聞）：
 {recent_block}
 
 新聞快訊內容：
@@ -1827,14 +1919,19 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
 
         source_name = item["source"]
         source_tier = get_source_tier(source_name)
-        if not source_tier:
-            continue
         if not is_within_hours(item["pub_date_raw"], NEWS_WINDOW_HOURS):
             continue
 
         # 拿掉 Google 標題尾巴的「 - 來源名稱」，避免來源名稱被誤認成公司名稱
         clean_title = re.sub(r"\s+[\-–—]\s+[^\-–—]+$", "", item["raw_title"]).strip()
         if not clean_title or not matches_target_entity(ticker, clean_title):
+            continue
+        if not source_tier:
+            # 來源不在名單上：不推，但記下「標題本身會過關」的來源，健康回報列出最常見的幾家，
+            # 用來判斷名單要不要加（2026-11-26 加）
+            if evaluate_title(ticker, clean_title, item["snippet"], "PRIMARY", relax=relax)[0]:
+                skipped = stats.setdefault("source_skipped", {})
+                skipped[source_name] = skipped.get(source_name, 0) + 1
             continue
 
         fingerprint = make_news_fingerprint(ticker, clean_title)
@@ -1845,7 +1942,7 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
         if not passed:
             if reason == "超大型股非重大事件":
                 stats["mega_skipped"] = stats.get("mega_skipped", 0) + 1
-            elif reason in ("同業回顧文", "本公司是買方", "例行股息"):
+            elif reason in ("同業回顧文", "本公司是買方", "例行股息", "排程預告"):
                 print(f"      [{reason}] 略過：{clean_title[:60]}", flush=True)
             continue
 
@@ -1855,6 +1952,11 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
 
         if sent_under_other_ticker(ticker, clean_title, history_entries):
             print(f"      [其他代號已推過] 略過：{clean_title[:60]}", flush=True)
+            continue
+
+        other = duplicate_under_other_ticker(ticker, clean_title, history_entries)
+        if other:
+            print(f"      [同一件事已用 {other} 推過] 略過：{clean_title[:60]}", flush=True)
             continue
 
         sent_24h = count_sent_last_24h(ticker, history_entries)
@@ -1878,7 +1980,7 @@ def check_and_process_ticker(ticker, seen_fps, history_entries, stats):
             pass
 
         context = f"標題: {clean_title}\n來源: {source_name}\n發布時間（台灣）: {pub_tw_str}\n摘要: {item['snippet']}"
-        recent_titles = recent_sent_titles(ticker, history_entries)
+        recent_titles = related_recent_titles(ticker, clean_title, history_entries)
         status, event_type, summary, title_zh, direction = summarize_with_ai(ticker, context, recent_titles)
 
         if status == "ERROR":
@@ -1936,6 +2038,7 @@ def main():
     holdings = load_holdings()
     # 持股排最前面優先掃描；持股就算不在 tickers.txt 也會自動加入
     tickers = holdings + [t for t in watchlist if t not in HOLDINGS]
+    ALL_TICKERS[:] = tickers
 
     prepare_names_for_missing(tickers)
 
@@ -1996,6 +2099,10 @@ def main():
           f"送 AI {stats['ai_checked']} 則，推播 {stats['pushed']} 則，"
           f"清除過期紀錄 {removed} 條", flush=True)
     print(f"ℹ️ 超大型股非重大事件略過 {stats.get('mega_skipped', 0)} 則（不逐則列出）", flush=True)
+    skipped_src = stats.get("source_skipped") or {}
+    if skipped_src:
+        top = sorted(skipped_src.items(), key=lambda kv: -kv[1])[:10]
+        print("ℹ️ 來源不在名單而略過（標題本身會過關）：" + "、".join(f"{k} {v}" for k, v in top), flush=True)
     print("==========================================", flush=True)
 
 
