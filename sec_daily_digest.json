@@ -1,18 +1,1 @@
-[
- {
-  "date": "2026-11-25",
-  "form": "144",
-  "holding": false,
-  "text": "Form 144 內部人預告賣股：Schulz Tamara L（高階主管），589 股，約 $27,023",
-  "ticker": "CRCL",
-  "url": "https://www.sec.gov/Archives/edgar/data/1876042/000195917326008307/xsl144X01/primary_doc.xml"
- },
- {
-  "date": "2026-11-25",
-  "form": "144",
-  "holding": false,
-  "text": "Form 144 內部人預告賣股：DeSantis Christopher P.（高階主管），2,493 股，約 $620,757",
-  "ticker": "WM",
-  "url": "https://www.sec.gov/Archives/edgar/data/823768/000195917326008316/xsl144X01/primary_doc.xml"
- }
-]
+[]
