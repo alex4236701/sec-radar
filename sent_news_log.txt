@@ -1317,3 +1317,6 @@
 2026-11-26T09:53:29+00:00|||PASS|||6558863811601ccb224b0286cbbfbbf2|||ASML|||ASML CEO Warns Total Chip Export Ban Will Backfire And Push China To Triple Down On Domestic Rivals, “Don’t Completely Frustrate A Country”
 2026-11-26T09:54:07+00:00|||PASS|||14a6b94a1a66ed0788c7a7872d7d22f7|||DELL|||Dell's $132 Billion AI Backlog Can't Stop a Share Slide
 2026-11-26T09:54:50+00:00|||PASS|||66202194a32c3745d353513fc9f4d0ac|||SPCX|||Musk makes $18 billion SpaceX stock pledge for every kid in America
+2026-11-26T11:20:03+00:00|||SENT|||e1732556c477855658948ccd73b7477f|||TSM|||TSMC’s $22.6 billion Texas plan wouldn’t make 2nm-or-better chips until 2031|||TSMC 的 $22.6 billion 德州計畫要到 2031 年才會生產 2nm 或更先進晶片
+2026-11-26T11:21:41+00:00|||PASS|||dde586c58ab189b850609cfa3d289137|||SPCX|||Why SpaceX’s Approval for Data Centers Is Impossible for Rivals to Copy
+2026-11-26T11:21:43+00:00|||PASS|||3af23f6affe1a5fc96fb11ee28f3941c|||RKLB|||Rocket Lab: The Last Chance To Buy Before Neutron Takes Flight
