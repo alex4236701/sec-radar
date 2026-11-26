@@ -1,15 +1,4 @@
 @@HEARTBEAT|||2026-11-26|||2026-10-21T13:41:10+00:00
-2026-11-12T08:41:01+00:00|||PASS|||bc9dd798c878842eedfae38ffbf23204|||WOLF|||Wolfspeed returns to GaN as CEO touts vertical integration
-2026-11-12T08:41:22+00:00|||PASS|||705168d9a32cf478fbb30f713f284056|||META|||Russell Brand Still Has One Major Social Media Platform After Meta Ban: ‘Stay Tuned’
-2026-11-12T08:41:27+00:00|||PASS|||c81a36ef22c6f251f9ec492e3b27ee6a|||NVDA|||Congressional Stock-Trading Ban Advocate Ro Khanna, Spouse Sold Nvidia Shares At Peak Before Spy Scandal Emerged
-2026-11-12T08:41:29+00:00|||PASS|||5708d932f8f1cd6eff5fed83be3007b7|||NVDA|||Nvidia’s Next CEO Could Come From Inside – Or Arm: Here’s Who Traders Are Watching In The Succession Race
-2026-11-12T08:41:30+00:00|||PASS|||b9cc62ba443b1a1d2fc4dcaacb4231bf|||NVDA|||Nvidia has lost $450 billion since Jensen Huang admitted to an affair. Millions of 401(k)s are exposed
-2026-11-12T08:41:36+00:00|||PASS|||3278ba7cf164ac386c1076974953b6d4|||ARM|||Nvidia’s Next CEO Could Come From Inside – Or Arm: Here’s Who Traders Are Watching In The Succession Race
-2026-11-12T08:42:27+00:00|||PASS|||72e4c35ed826cfb572c584dce846973b|||DELL|||Dell Sinks 12% in a Week on Texas Data Center Fears: “A Moratorium, a Ban”
-2026-11-12T08:42:38+00:00|||SENT|||0a98a7871f4beaeac81621dbb8f9db81|||CRWV|||CoreWeave CEO addresses "volatility in the capital markets" as company posts $3.66bn in revenue|||CoreWeave CEO 回應「資本市場波動」，公司公布營收 $3.66bn
-2026-11-12T08:42:40+00:00|||PASS|||7a0a3c1d9d426dd5e704321a5fc5c870|||CRWV|||Watch CoreWeave Earnings Triggers AI Boost
-2026-11-12T08:43:20+00:00|||PASS|||1ac135f27ee84978ac7ed445cabc44b7|||SPCX|||From SpaceX to Anthropic, markets have a new playbook for mega-share debuts
-2026-11-12T08:44:12+00:00|||SENT|||43924283070b83d1db787c5c2b48acf0|||LLY|||China approves Eli Lilly’s weight-loss pill orforglipron|||中國核准 Eli Lilly 的減重藥 orforglipron
 2026-11-12T17:41:10+00:00|||PASS|||fc64964ef8edd0751efd218806426f70|||WULF|||Inside CoreWeave’s Earnings! Plus, TeraWulf’s Naz Khan & SpaceX’s Anthropic Contract Cut?
 2026-11-12T17:41:15+00:00|||PASS|||4594c5391d20d24846ed8c759c0f6787|||WULF|||TeraWulf COO: 83% of Revenue Now Comes From AI as Lake Mariner Nears Completion
 2026-11-12T17:41:16+00:00|||PASS|||f7095d9fb3d722b274ef0f60298eed8f|||WULF|||TeraWulf Stock Rises With AI Infrastructure Stocks After CoreWeave Earnings
@@ -1317,3 +1306,14 @@
 2026-11-26T04:16:40+00:00|||PASS|||0e43076b24a0b2c32f4b3d59ad92553f|||SPCX|||SpaceX Gets Approval to Launch One Million Satellites for Orbital Data Centers
 2026-11-26T04:16:41+00:00|||PASS|||711e5d9339ea8065de3d86effb1c5039|||SPCX|||Tesla and SpaceX stocks sink as merger concerns mount
 2026-11-26T04:17:09+00:00|||SENT|||14ffce11b9077e7ac1ff2fc86ada7d26|||CEG|||LS Power Completes Acquisition of 4.4 GW Natural Gas Generation Assets from Constellation|||LS Power 完成收購 Constellation 的 4.4 GW 天然氣發電資產
+2026-11-26T09:52:18+00:00|||PASS|||9e44bee68bbe4a9fda2782b42af49b86|||MU|||Micron Technology (MU) Products Are Exempt From New US Tariffs
+2026-11-26T09:52:45+00:00|||PASS|||a12a80215c0fdfbec2a5e90d244d7b73|||FCEL|||FuelCell Energy Inc. stock rises Wednesday, outperforms market
+2026-11-26T09:52:54+00:00|||PASS|||43982219a28f3c5de5f23ae59edb4aad|||MSFT|||Microsoft Launches ‘Code Red’ After 24-Hour Outage, Wants Critical Fixes Deployed Worldwide in Just 1 Hou
+2026-11-26T09:52:58+00:00|||PASS|||b7bbf7f4842d284a00e326a9f7574fdf|||META|||Meta battles political storm in India as Congress party sues, stages protests
+2026-11-26T09:53:02+00:00|||PASS|||de346f0b6d286f60d5a504a138411b76|||TSLA|||Is Space Exploration Technologies (SPCX) Cheap As Tesla Merger Talks Raise Valuation Questions?
+2026-11-26T09:53:10+00:00|||PASS|||555e175fa498b3dff522b0ddf72e3c69|||INTC|||Intel’s Next-Gen Razor Lake-AX Chip Smiles For The Camera, Features A Massive Multi-Tile Die With Four On-Package LPDDR5X Memory Sites
+2026-11-26T09:53:14+00:00|||SENT|||f1e1b8b208abf392f021efb1c27824a3|||INTC|||Intel lawsuit details Trump's push for US$8.9 billion stake|||Intel 訴訟詳述 Trump 推動取得 US$8.9 billion 持股
+2026-11-26T09:53:22+00:00|||PASS|||748fd44f8fe7527ad162371676008c65|||SKHY|||Huawei Teases Next-Gen AI Memory Chip to Take On Samsung, Hynix
+2026-11-26T09:53:29+00:00|||PASS|||6558863811601ccb224b0286cbbfbbf2|||ASML|||ASML CEO Warns Total Chip Export Ban Will Backfire And Push China To Triple Down On Domestic Rivals, “Don’t Completely Frustrate A Country”
+2026-11-26T09:54:07+00:00|||PASS|||14a6b94a1a66ed0788c7a7872d7d22f7|||DELL|||Dell's $132 Billion AI Backlog Can't Stop a Share Slide
+2026-11-26T09:54:50+00:00|||PASS|||66202194a32c3745d353513fc9f4d0ac|||SPCX|||Musk makes $18 billion SpaceX stock pledge for every kid in America
