@@ -36,7 +36,7 @@ ET_TZ = timezone(timedelta(hours=-4))
 #   "claude-haiku-5-5"   最便宜，輸入 0.1、輸出 0.5 美元，判斷力比 Sonnet 差一些
 # 想換 Claude 模型時，在 GitHub Secrets 設定 SEC_CLAUDE_MODEL（只影響 SEC 雷達；新聞雷達看的是 CLAUDE_MODEL）
 CLAUDE_MODEL = (os.environ.get("SEC_CLAUDE_MODEL") or "").strip() or "claude-sonnet-5-5"
-CLAUDE_STATE = {"fatal": "", "last_error": ""}   # fatal 有值 = 這輪不再呼叫 Claude（額度用完、金鑰錯誤等）
+CLAUDE_STATE = {"fatal": "", "last_error": "", "no_temperature": False}   # fatal 有值 = 這輪不再呼叫 Claude（額度用完、金鑰錯誤等）；no_temperature = 這個模型不收 temperature
 ENGINE_USAGE = {"Claude": 0, "OpenAI": 0, "Gemini": 0}   # 本輪實際由誰完成解讀，放進健康回報
 # 【第一備援】OpenAI。和新聞雷達用同一個模型（價格為每一百萬 token 的美元價格）：
 #   "gpt-6-luna"   目前使用。新一代最便宜的模型（輸入 0.05、輸出 0.25 美元）
@@ -360,8 +360,10 @@ def claude_text(prompt, attempts=2):
     """呼叫 Claude，回傳文字；失敗回傳 None。額度用完或金鑰錯誤時，這輪剩下的申報直接走備援"""
     if not ANTHROPIC_API_KEY or CLAUDE_STATE["fatal"]:
         return None
-    payload = {"model": CLAUDE_MODEL, "max_tokens": 1024, "temperature": 0.1,
+    payload = {"model": CLAUDE_MODEL, "max_tokens": 1024,
                "system": SYSTEM_TEXT, "messages": [{"role": "user", "content": prompt}]}
+    if not CLAUDE_STATE["no_temperature"]:
+        payload["temperature"] = 0.1
     headers = {"x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01",
                "content-type": "application/json"}
     tries = 0
@@ -385,6 +387,7 @@ def claude_text(prompt, attempts=2):
             lower = msg.lower()
             if res.status_code == 400 and "temperature" in lower and "temperature" in payload:
                 payload.pop("temperature")   # 模型不接受 temperature 就拿掉重試，不算一次失敗
+                CLAUDE_STATE["no_temperature"] = True   # 記住，這輪後面的申報直接不帶
                 tries -= 1
                 continue
             if "credit balance" in lower or "billing" in lower or "credits" in lower:
