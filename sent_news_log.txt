@@ -1332,3 +1332,5 @@
 2026-11-26T12:13:55+00:00|||PASS|||83fb9a85e45c7877bdead2f8106f0c92|||SPCX|||Musk pledges two SpaceX shares for every US child in $18 billion AI charm offensive
 2026-11-26T12:13:55+00:00|||PASS|||2759551cd8dc548c8f30654b61f2c4ce|||SPCX|||SpaceX Wins Government Approval to Launch Space Data Centers
 2026-11-26T12:14:26+00:00|||SENT|||709123aa28e581cf7e4335fe455a11d5|||BE|||Quanta inks $367m deal with Bloom Energy for two fuel cell anchored microgrid systems|||Quanta 與 Bloom Energy 簽下 $367m 合約，採購兩套以燃料電池為核心的微電網系統
+2026-11-26T12:20:48+00:00|||PASS|||f6393b28ea9719fb6d2134b2533cc5e0|||AMZN|||Amazon India e-commerce exports hit $27bn, eyes $80bn by 2030
+2026-11-26T12:21:00+00:00|||PASS|||b6b9256048f6b3f12ef88644c0ad60ae|||INTC|||Trump administration pressured Intel into accepting gov’t stake in company, lawsuit documents allege
