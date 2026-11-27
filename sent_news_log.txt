@@ -1,67 +1,4 @@
-@@HEARTBEAT|||2026-11-26|||2026-10-21T13:41:10+00:00
-2026-11-13T01:15:33+00:00|||SENT|||03efded0c861c51d760f020c276e03cd|||VUZI|||Vuzix earnings beat, revenue fell short of estimates|||Vuzix 獲利優於預期，營收低於預期
-2026-11-13T01:15:37+00:00|||PASS|||2682cb86c67a97b016764b322f92f346|||VUZI|||Vuzix Reports Third Quarter 2026 Results
-2026-11-13T01:15:44+00:00|||PASS|||50f6c9b947c495cd7ee2b4766f2918f9|||NVTS|||Navitas files second patent lawsuit against Renesas
-2026-11-13T01:15:55+00:00|||PASS|||ee611689efe22ad500d9cbe9e0e17386|||ECL|||Ecolab Inc. stock underperforms Thursday when compared to competitors
-2026-11-13T01:16:01+00:00|||PASS|||adfffafd394c10840c179fee45ba9d69|||MSFT|||Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide
-2026-11-13T01:16:04+00:00|||PASS|||67c51ef8db00399b762e2022e5d47aed|||MSFT|||Outlook, Teams and More Microsoft Programs Disrupted by Outage
-2026-11-13T01:16:06+00:00|||PASS|||7de593dd1300054bffcfb93f4ad227f3|||MSFT|||Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands
-2026-11-13T01:16:08+00:00|||PASS|||73081cd617bbb53034570760ebd0f255|||MSFT|||Microsoft restores services after global Outlook and Teams outage hits more than 130,000 users
-2026-11-13T01:16:11+00:00|||PASS|||adb32f121524c371a677b7aa5ec1b708|||MSFT|||Microsoft struggling to fix massive cloud outage that's taken down email and Intune
-2026-11-13T01:16:14+00:00|||PASS|||4e2cbf310282c159cde98384a731578a|||MSFT|||Microsoft outage disrupts Outlook, Teams, and Copilot for users 'in any region'
-2026-11-13T01:16:17+00:00|||PASS|||f043b04600253737ec58e10364bd7f0a|||MSFT|||Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams
-2026-11-13T01:16:18+00:00|||PASS|||381791de3e1f384de2c57386c867aac1|||MSFT|||Widespread Microsoft outage takes down Outlook and other 365 services
-2026-11-13T01:16:21+00:00|||PASS|||cdae3bdfe7cd771fa8d2bb5a84d6b6e2|||AMZN|||Amazon Has Quietly Recouped Its Post Q3 Earnings Losses. AMZN Stock Could Hit $300 Next.
-2026-11-13T01:16:26+00:00|||SENT|||f464388e39cad70ab576fa41a3f9fd3f|||META|||Meta faces July trial in Washington, DC data privacy lawsuit|||Meta 面臨華盛頓特區資料隱私訴訟，審判定於 7 月
-2026-11-13T01:16:34+00:00|||PASS|||3ded333a209c117adcd146cef6edec9f|||AAPL|||China Renaissance Upgraded Apple (AAPL) to Buy. DZ Bank Cut It to Sell. Here’s the Split
-2026-11-13T01:16:36+00:00|||PASS|||0df44210b347f75020690b9f54e426a4|||TSLA|||Elon Musk Makes Bold $10 Trillion Net Worth Remark as He Predicts Tesla Cybercab Will Dominate Ride-Hailing: ‘Obvious to Anyone With Eyes and a Brain’
-2026-11-13T01:16:37+00:00|||PASS|||96778d1d64160b1b5a14c54fbe7e5ef4|||TSLA|||Why Retail Investors Are Watching AI Infrastructure Stocks After Tesla SpaceX Merger Talk
-2026-11-13T01:16:39+00:00|||PASS|||a1068f1d3cc8f8c2122010c3b5aaec15|||TSLA|||Elon Musk Could Announce Tesla-SpaceX Merger By December: Report
-2026-11-13T01:16:41+00:00|||PASS|||8d144612abd35a0b0fc5f3848c8da23c|||TSLA|||SpaceX and Tesla could announce merger deal as soon as December: Report
-2026-11-13T01:16:44+00:00|||PASS|||d7036099b5c70b10a43aaef49392be35|||TSLA|||SpaceX and Tesla Could Announce Merger as Soon as December
-2026-11-13T01:16:48+00:00|||SENT|||4997f821fa08dec851f04aa171fddb64|||TSLA|||SpaceX, Tesla merger talks progress, Bloomberg News reports|||Bloomberg News 報導，SpaceX 與 Tesla 合併談判取得進展
-2026-11-13T01:16:51+00:00|||PASS|||c4e44ddfdcc81b583dd41dbcca277484|||TSLA|||SpaceX-Tesla Merger Could Come Soon: What Do Shareholders Get?
-2026-11-13T01:16:52+00:00|||PASS|||d9e44f2642ce96ea7074947b5288d149|||TSLA|||Tesla Stock Best Run in a Year on SpaceX Merger Report - Tesla (NASDAQ:TSLA)
-2026-11-13T01:16:54+00:00|||PASS|||109ec4fbed28a21503a9e5372f6fc6ab|||NVDA|||Nvidia market cap plunges $490 billion following former CEO Huang's affair scandals
-2026-11-13T01:16:56+00:00|||PASS|||a0e6e9e84da5452f15a445a1f9be431c|||NVDA|||Nvidia Tumbles as its CEO Jensen Huang Departs Amid Multiplying Scandals | Markets P.M. for Nov. 12
-2026-11-13T01:16:57+00:00|||PASS|||2b03565d1187d7cbc20837e4649f657a|||NVDA|||Nvidia PE falls to 14-year low, but CEO exit and AI worries cloud the bargain
-2026-11-13T01:16:59+00:00|||PASS|||b2a92e3a9d682fc4c83b2ed7440948df|||NVDA|||Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation
-2026-11-13T01:17:00+00:00|||PASS|||2015b0373a2b79a6e3760bccde2a3d00|||NVDA|||Experts react to Nvidia CEO Jensen Huang’s resignation and succession plan
-2026-11-13T01:17:01+00:00|||PASS|||4fe689ce53569bef8402ca9668ef6f00|||NVDA|||Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation
-2026-11-13T01:17:07+00:00|||PASS|||d57d1cddf6b1420e5df7f536ad66757f|||QCOM|||Qualcomm begins India job cuts as handset chip sales slide
-2026-11-13T01:17:11+00:00|||PASS|||ab19e7d91eac7c01424ceb5f4b9c29da|||INTC|||Nvidia CEO Resignation: My Notes From Intel’s 2018 Episode (NASDAQ:NVDA)
-2026-11-13T01:17:12+00:00|||PASS|||59c1a626524e812f5a776ad51c3ce14e|||INTC|||Intel, RadixArk Collaborate to Advance Open AI Inference on Intel Platforms
-2026-11-13T01:17:13+00:00|||PASS|||e0d9683a3856a6a16bdc4014bcac1811|||INTC|||After Intel’s Worst Day on Record, CEO Lip-Bu Tan Buys $9.7 Million in Stock
-2026-11-13T01:17:28+00:00|||PASS|||806ed39d5d1537b00a89bd3301ffe767|||AMAT|||What Applied Materials (AMAT) Said on Its Q4 Earnings Call
-2026-11-13T01:17:32+00:00|||SENT|||4908d0443e5261c7efe4737b01550f2a|||AMAT|||Applied Materials Reports Q4 Earnings, Raises Guidance as AI Drives Strong Chip Demand|||Applied Materials公布第四季財報，並在AI帶動晶片需求強勁下上調財測
-2026-11-13T01:18:01+00:00|||SENT|||e59150b2b9f337f9bbb6506f18031a8f|||CSCO|||Cisco Systems Delivers Record Q1 Results, Raises FY27 Outlook|||Cisco Systems創下第一季業績紀錄，上調FY27展望
-2026-11-13T01:18:03+00:00|||PASS|||01aa3a4d2d58e68e7a9fdc93b673f5be|||CSCO|||Cisco shares pop on earnings beat
-2026-11-13T01:18:05+00:00|||PASS|||21fb36d60e13be5fab1388ef42e86603|||CSCO|||Cisco Stock Rises After Earnings Breeze Past Estimates
-2026-11-13T01:18:06+00:00|||PASS|||8e57949be4aee821a4606e54e199d583|||CSCO|||Cisco Stock: Cisco Earnings, Revenue Top Estimates On AI Data Center Growth
-2026-11-13T01:18:12+00:00|||SENT|||c831c9d5b96b3433f273321e09c89237|||CSCO|||Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year|||Cisco 財報優於預期，稱 AI 基礎設施營收本財年將翻倍
-2026-11-13T01:18:23+00:00|||PASS|||b3219c266be0c8c636d6e774aa2bac54|||TXN|||Criminal IP Launches New TI Feed App on Splunkbase for Automated Threat Detection
-2026-11-13T01:18:26+00:00|||PASS|||43d227472d821dbcd582f3795a9bdb91|||ADI|||ADIG INVESTOR ALERT: Investigation of ADI Global Distribution Inc. Announced by Holzer & Holzer, LLC
-2026-11-13T01:18:30+00:00|||SENT|||d63361c47adf9573a0c3c05f8e8a48bf|||ADI|||ADI Announces Third Quarter 2026 Financial Results and Updates Full-Year Outlook|||ADI公布2026年第三季財務業績並更新全年展望
-2026-11-13T01:18:39+00:00|||PASS|||64d058247bc5c8a9338ffbfe81c92d89|||ORCL|||Oracle breaks ground on $4.5bn headquarters in Nashville
-2026-11-13T01:18:43+00:00|||PASS|||0c84fb86f19b6612514e05a87150f9f9|||CRWV|||CoreWeave's $4 Billion Loan Plan Comes With a Catch
-2026-11-13T01:18:45+00:00|||PASS|||cf4a58f13b9d01f5f8d4b63f855ac0ff|||CRWV|||CoreWeave CEO Intrator Has Sold $794 Million in Stock. Why He’s Pausing Now.
-2026-11-13T01:18:50+00:00|||PASS|||cfe9f431a2f63f02b3edd4f75d7d211e|||NBIS|||Nebius tests the neocloud playbook with $40 billion in planned spending
-2026-11-13T01:19:11+00:00|||SENT|||6455152ffbced19290f092cf861f8fd1|||AKAM|||Akamai closes $2.5 billion convertible notes offering|||Akamai 完成 $2.5 billion 可轉換票據發行
-2026-11-13T01:19:29+00:00|||PASS|||85372930b0dd08816c3034f10e2b8560|||AVAV|||Ondas Retreats 5% Despite Record Revenue and Raised Outlook; Red Cat Drops 4%, AeroVironment Holds Steady
-2026-11-13T01:19:34+00:00|||PASS|||c8ddbb10ecb16821df62638f1bf67b8a|||SPCX|||Why Retail Investors Are Watching AI Infrastructure Stocks After Tesla SpaceX Merger Talk
-2026-11-13T01:19:39+00:00|||SENT|||40ed64d7d0e82651300746e561bccf5c|||SPCX|||Elon Musk Could Announce Tesla-SpaceX Merger By December: Report|||報導：Elon Musk 可能在 12 月前宣布 Tesla 與 SpaceX 合併
-2026-11-13T01:19:42+00:00|||PASS|||7b65888a196598fe1ed42e05b863e643|||SPCX|||SpaceX, Telsa merger talks begin to take shape
-2026-11-13T01:19:43+00:00|||PASS|||c084c2e054bb1dc6275f90a6c0fffc95|||SPCX|||Tesla Stock Best Run in a Year on SpaceX Merger Report - Tesla (NASDAQ:TSLA)
-2026-11-13T01:19:43+00:00|||PASS|||e090af4a08755db50946baf98d78e6c7|||SPCX|||Would a Tesla–SpaceX Merger Be Bullish for Bitcoin? Careful What You Wish For
-2026-11-13T01:19:45+00:00|||PASS|||69074cf233d64550e19fbf9700f009e7|||SPCX|||SpaceX and Tesla advance merger talks toward potentially record-breaking deal: Report
-2026-11-13T01:19:46+00:00|||PASS|||4f80a697e8338fcb38519f6480ffdf11|||SPCX|||SpaceX and Tesla Talks on Record Merger Are Said to Progress
-2026-11-13T01:19:48+00:00|||PASS|||6d6b2fdf35cbb7f44528a06fd87ddda5|||SPCX|||SpaceX's bid for Grain's lowband spectrum takes a step forward
-2026-11-13T01:20:09+00:00|||PASS|||27c7ca2d9a59c77e32a9a27230c1283a|||CMI|||Cummins reveals damning truth about whether Smith and Warner bans were fair
-2026-11-13T01:20:26+00:00|||PASS|||7054d376a8583afba8ac55c7a5407093|||NEE|||Spanberger on Dominion/NextEra merger: ‘Trust us’ won’t cut it
-2026-11-13T01:20:30+00:00|||SENT|||891f38cfee70351de6e44145ed819135|||NEE|||NextEra Energy (NEE): Shareholders Approve the Dominion Deal. What Comes Next for the Merger?|||NextEra Energy (NEE)：股東批准與Dominion的交易，合併接下來會如何發展？
-2026-11-13T01:20:44+00:00|||SENT|||8404936b4d1c1630ae8963ccf1ebb803|||HOOD|||Louisiana sues Kalshi, Robinhood and other prediction markets in escalating regulatory fight|||Louisiana 起訴 Kalshi、Robinhood 及其他預測市場業者，監管爭端進一步升高
-2026-11-13T01:20:51+00:00|||PASS|||cea19c554ea23e15965b12a538449eb4|||LLY|||Lilly breaks ground in Pennsylvania's Lehigh Valley on a $3.5 billion site to make next-generation obesity medicines, the latest of 10 new U.S. sites since 2020
-2026-11-13T01:20:56+00:00|||SENT|||22e7fdfe1ca60e38417c0aad230860f6|||LLY|||Eli Lilly Just Raised Its 2026 Sales Forecast to as Much as $92 Billion. But Is Viking Therapeutics the Next Big Obesity Winner?|||Eli Lilly剛將2026年銷售預測上調至最高$92 Billion。但Viking Therapeutics會是下一個減重市場大贏家嗎？
+@@HEARTBEAT|||2026-11-27|||2026-10-21T13:41:10+00:00
 2026-11-13T08:30:45+00:00|||PASS|||a685a6cc36261a443e6deaa7e73755f4|||VUZI|||Vuzix: Q3 Earnings Snapshot
 2026-11-13T08:30:51+00:00|||PASS|||4af3293c01cdd310638b2fd82540e252|||AVGO|||Broadcom (AVGO) Stock Gets A Fresh AI Opening After Rival CEO Exit
 2026-11-13T08:31:06+00:00|||PASS|||29ea132ae66acbe8c6aaf9c3975bb72b|||MSFT|||Microsoft outage hits hundreds of millions, CNBC anchors can't read your emails
@@ -1244,3 +1181,15 @@
 2026-11-26T21:48:08+00:00|||PASS|||9076e58880b438b78985f6a422506d17|||SNOW|||Exploring Analyst Estimates for Snowflake (SNOW) Q3 Earnings, Beyond Revenue and EPS
 2026-11-26T21:48:17+00:00|||PASS|||bdc1acfb70b527bba5da2c209f5fb1a5|||PANW|||Palo Alto Networks (PANW) Hit With Fraud Lawsuit After $4.5 Billion AI Deal
 2026-11-26T21:49:21+00:00|||PASS|||a72eac9541715fbabb3c34c5877846bf|||NEE|||Backlash over AI power costs threatens $67bn NextEra-Dominion deal
+2026-11-27T04:21:26+00:00|||SENT|||4143f335c13b0e620af85c65c3218ebe|||MU|||Micron (MU) Has Secured $32 Billion in Customer Commitments. Here’s Why That Matters|||Micron (MU) 已取得 $32 billion 客戶承諾，這點為何重要
+2026-11-27T04:21:51+00:00|||PASS|||99c46b439f8e34cbf7d9fd22d68cbd1e|||ECL|||Water and Wastewater Treatment Equipment - Global Strategic Business Report: Capitalize on the US$81.7 Billion 2030 Market as Veolia, Xylem, Ecolab, and Toray Reshape Competition
+2026-11-27T04:21:58+00:00|||PASS|||37dccdbc227664289581d976b87081ff|||AMZN|||Amazon tried to kill Musk’s plan for 1 million AI satellites. The FCC chair scolded it and gave SpaceX the green light
+2026-11-27T04:22:02+00:00|||PASS|||0c77ade76af8e6b85180aed6f471d6b5|||TSLA|||What Could Tesla (TSLA) Merger Talks Mean For Its Stock?
+2026-11-27T04:22:06+00:00|||PASS|||381b34ae0273c10c9e092c6018e007b6|||NVDA|||Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions
+2026-11-27T04:22:07+00:00|||PASS|||0b82530ed26f8962063cab923cba7d1d|||NVDA|||'Very bullish on ASEAN' despite Nvidia chip export curbs to the region: BNY
+2026-11-27T04:22:07+00:00|||PASS|||40d2251177742ea709b4846d2007894d|||NVDA|||S&P’s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150
+2026-11-27T04:22:18+00:00|||PASS|||7bfd2541f4aa489273390dd3dc693303|||INTC|||Nvidia Just Revealed a Major $19 Billion Vote of Confidence in Intel Stock
+2026-11-27T04:22:31+00:00|||PASS|||129c6347c69f1403743282396898f94f|||ASML|||Forget ASML: Tokyo Electron Has More China Sales at Stake in the MATCH Act
+2026-11-27T04:23:25+00:00|||PASS|||9d6dfe5e9e9bf7b5bc95a6fe0751293c|||CRWV|||CoreWeave’s Swaps Price a 68% Default Chance. That’s Bad News for Galaxy Digital
+2026-11-27T04:23:41+00:00|||PASS|||5a3cff002e6ddbd5f054d5747e585698|||ZS|||Was CrowdStrike’s $43.9 Billion Bid for Zscaler the Right Move at the Wrong Time?
+2026-11-27T04:24:37+00:00|||PASS|||8d68b961ebced4f6fa4c4abdcaf893de|||DUK|||'We're gonna do everything we can to restore power,' Duke Energy crews respond as more than 15K customers deal with Thanksgiving power outage
