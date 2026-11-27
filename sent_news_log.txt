@@ -1,31 +1,4 @@
 @@HEARTBEAT|||2026-11-27|||2026-10-21T13:41:10+00:00
-2026-11-13T08:30:45+00:00|||PASS|||a685a6cc36261a443e6deaa7e73755f4|||VUZI|||Vuzix: Q3 Earnings Snapshot
-2026-11-13T08:30:51+00:00|||PASS|||4af3293c01cdd310638b2fd82540e252|||AVGO|||Broadcom (AVGO) Stock Gets A Fresh AI Opening After Rival CEO Exit
-2026-11-13T08:31:06+00:00|||PASS|||29ea132ae66acbe8c6aaf9c3975bb72b|||MSFT|||Microsoft outage hits hundreds of millions, CNBC anchors can't read your emails
-2026-11-13T08:31:08+00:00|||PASS|||aae868eed8921231d243cd1c2a261e3b|||MSFT|||Microsoft fixes stall as outage hits Outlook and Teams in 74 countries
-2026-11-13T08:31:11+00:00|||PASS|||d1924bc7d154b0ac94dc334e2f3c6176|||MSFT|||Microsoft outage hits companies and governments worldwide as it struggles to restore services
-2026-11-13T08:31:13+00:00|||PASS|||2f2a0e918a6fbae288737d6be504f480|||MSFT|||Microsoft Outage Gums Up Markets, Forces Traders to Use Phones
-2026-11-13T08:31:16+00:00|||PASS|||0a0d00c85755751f773bdfa6bdeb34c4|||MSFT|||Microsoft's massive M365 outage stretches past 12 hours as its fixes keep failing
-2026-11-13T08:31:19+00:00|||PASS|||12c011c251b83f2176c6e3eec76fb23b|||MSFT|||Microsoft races to restore services after global outage
-2026-11-13T08:31:22+00:00|||PASS|||e2a55c9a7e2ac3f169154de00bb3b485|||MSFT|||Microsoft Working to Fix Widespread Outage
-2026-11-13T08:31:24+00:00|||PASS|||915d422d27695d014033d58c0c42e4c7|||MSFT|||Microsoft battling to fix global Outlook outage
-2026-11-13T08:31:29+00:00|||PASS|||ff4750d073aa622055532b4355d59fd5|||TSLA|||Would a Tesla–SpaceX Merger Be Bullish for Bitcoin? Careful What You Wish For
-2026-11-13T08:31:35+00:00|||SENT|||b956df5fbf03e94b6432826220d0e652|||TSLA|||SpaceX could announce $1.5 trillion Tesla merger in December: report|||報導：SpaceX 可能於12月宣布 1.5 trillion 美元的 Tesla 合併
-2026-11-13T08:31:40+00:00|||PASS|||a981b5dbd20f277b6e0dde4f192ea117|||NVDA|||Billionaire KoGuan Vows Not to Buy Nvidia Stock as Huang Quits
-2026-11-13T08:31:42+00:00|||PASS|||5dbf370d95d4b450de05b50449a8ed7d|||NVDA|||Alice Huang-Linked Firm Procured Banned Nvidia Chips in China
-2026-11-13T08:31:43+00:00|||PASS|||285343a16f42eb497b3d4d05cab26ecb|||NVDA|||Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion
-2026-11-13T08:31:45+00:00|||PASS|||98a0ed6ff8e80b8a1c3b078a1c11aecc|||NVDA|||Who Could Replace Jensen Huang as Nvidia’s CEO? Here Are 7 Candidates.
-2026-11-13T08:31:46+00:00|||PASS|||6119498105e1df0c0fb650d6768152c5|||NVDA|||AI stocks pare losses as investors assess fallout of Nvidia CEO's exit
-2026-11-13T08:31:51+00:00|||PASS|||267bd2aac4ec781247a7e6324c2e1cdf|||QCOM|||[News] Qualcomm Reportedly Begins First Wave of India Layoffs, with Over 1,000 Jobs at Risk
-2026-11-13T08:32:10+00:00|||SENT|||1dcfe8a567512c9325ebf6d649bb0768|||PENG|||Penguin Solutions Launches AI Platform Operations Services to Accelerate Customers’ Time to Value and Safeguard SLA Achievement|||Penguin Solutions推出AI平台營運服務，以加快客戶取得價值的速度並確保SLA達成
-2026-11-13T08:32:18+00:00|||SENT|||02ef2f9c4b8e84bf21515b536ec6caeb|||AMAT|||Applied Materials posts impressive 53% jump in revenue as it beats expectations again|||Applied Materials 營收大增 53%，再度超出預期
-2026-11-13T08:32:45+00:00|||PASS|||50f0a45e5e961e54c8d5a670a8b0fcef|||CSCO|||Cisco CEO Sees 'Multi-Billion-Dollar Networking Super Cycle' As Agentic AI Demand Surges
-2026-11-13T08:32:57+00:00|||PASS|||5a8bcab0bceab5a61f113a88ad00f550|||DELL|||Super Micro Slides 7% Despite Gartner’s $957 Billion AI Server Forecast; Dell Falls 4%, Hewlett Packard Enterprise Dips
-2026-11-13T08:33:04+00:00|||PASS|||7ec7afa526377f5d0c0ae64954b357f7|||NBIS|||Nebius stock crashes 20% as $45 billion AI gamble raises fears
-2026-11-13T08:33:06+00:00|||PASS|||2c4363aa3f69c64d69615afd8c848d3a|||CIFR|||Applied Digital Sinks 8% as Nebius Outlook and NVIDIA CEO Exit Hit AI Data Center Stocks; Cipher Digital Falls 4%, TeraWulf Slides 3%
-2026-11-13T08:33:42+00:00|||PASS|||f6560bcdb9c453c50bc54352dc171e58|||SPCX|||SpaceX: The $120.5 Billion AI Contract May Indicate A Valuation Problem
-2026-11-13T08:33:44+00:00|||PASS|||145449c467e84fd1b85494a538586921|||SPCX|||SpaceX, Tesla merger talks progress, Bloomberg News reports By Reuters
-2026-11-13T08:34:41+00:00|||PASS|||2ecd772eee4227c451b4d7f55273f965|||APP|||AppLovin Just Ripped 47% in a Month: Is It Too Late to Buy APP Stock Now?
 2026-11-13T17:18:46+00:00|||PASS|||6897911da4c93158431cd3e5e11e83cd|||AVGO|||AMD Soars 6%, Broadcom Up 6% as Nvidia CEO Jensen Huang Exits
 2026-11-13T17:19:01+00:00|||PASS|||5d13c85783f54cf1f1bddc489ff8136f|||MSFT|||Microsoft’s massive Outlook outage continues
 2026-11-13T17:19:02+00:00|||PASS|||c0ee35896842c5e2b9d63ca77bd3efdf|||MSFT|||What to do if Microsoft has another outage – and how to prepare for it
@@ -1193,3 +1166,13 @@
 2026-11-27T04:23:25+00:00|||PASS|||9d6dfe5e9e9bf7b5bc95a6fe0751293c|||CRWV|||CoreWeave’s Swaps Price a 68% Default Chance. That’s Bad News for Galaxy Digital
 2026-11-27T04:23:41+00:00|||PASS|||5a3cff002e6ddbd5f054d5747e585698|||ZS|||Was CrowdStrike’s $43.9 Billion Bid for Zscaler the Right Move at the Wrong Time?
 2026-11-27T04:24:37+00:00|||PASS|||8d68b961ebced4f6fa4c4abdcaf893de|||DUK|||'We're gonna do everything we can to restore power,' Duke Energy crews respond as more than 15K customers deal with Thanksgiving power outage
+2026-11-27T09:57:25+00:00|||PASS|||4587840cb41925883263af1c6ceb195f|||GEV|||GE Vernova (GEV) Faces a Delivery Test as Its Backlog Reaches $197 Billion
+2026-11-27T09:57:33+00:00|||PASS|||ba359268420c6f9d078118fa15a2dea0|||AMZN|||Amazon , Walmart Battle for $124 Billion Holiday Shopping Market
+2026-11-27T09:57:36+00:00|||PASS|||016aa9f542034121670fd86b196ac285|||META|||Japan's JERA in talks with Anthropic, Meta on AI data centers
+2026-11-27T09:57:37+00:00|||PASS|||d0af905b2b8772a90f7d58117782e2e0|||META|||Japan’s Jera in talks with Anthropic, Meta, Amazon on data centers- Nikkei
+2026-11-27T09:57:44+00:00|||SENT|||dd3f651b6c7497afd951d4be320deaed|||TSLA|||Tesla plans to acquire German manufacturing systems group EMAG|||Tesla 計劃收購德國製造系統集團 EMAG
+2026-11-27T09:57:47+00:00|||PASS|||4f9263d066398dc18c1f5989660e385e|||TSLA|||US Could Ban China-Linked Connected Cars as Bipartisan Push Gathers Steam: What It Means for Tesla, Ford and GM
+2026-11-27T09:57:54+00:00|||PASS|||cba8733db7981b2de0f6c50b43c14977|||INTC|||Intel Razor Lake-AX Targets Early 2028 Launch: MoP Chips With Up To 28 CPU, 32 GPU Cores & 96 GB Memory While MoB Expected To Scale Up To 52 Cores & 192 GB Memory
+2026-11-27T09:58:08+00:00|||SENT|||e05ad6abb06af33a637562bea2ad43d2|||ASML|||ASML Caught in US-China Chip Battle as Netherlands Vows to Resist Trump’s Proposed Export Curbs: ‘We Will|||ASML 捲入美中晶片戰，荷蘭誓言抵制川普提議的出口管制：「We Will」
+2026-11-27T09:59:36+00:00|||PASS|||caf9a3d9cf7379ba4aa0d4259c3edf91|||SPCX|||Elon Musk Pledges Annual SpaceX Share Giveaway to Every American Child After $18 Billion Trump Accounts D
+2026-11-27T10:00:19+00:00|||PASS|||c10e1dbaaed18a2252e5f70e3dadb54c|||CRCL|||Binance Lifts Withdrawal Suspension After Record $6.3 Billion Hack, but USDC Withdrawals Stay Paused
