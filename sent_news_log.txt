@@ -1,19 +1,4 @@
 @@HEARTBEAT|||2026-11-28|||2026-10-21T13:41:10+00:00
-2026-11-14T06:51:07+00:00|||PASS|||cbbd9cf676cbb8af45d17ea79cb73caf|||RDW|||Did Revenue Miss Just Shift Redwire (RDW) Investment Narrative?
-2026-11-14T06:51:11+00:00|||PASS|||4295532575b147bdb439e706874a946d|||MSFT|||Microsoft says services experiencing ‘broad recovery’ after global outage
-2026-11-14T06:51:12+00:00|||PASS|||d82c013e7b2632b795e77155d9d0aa9f|||MSFT|||The Microsoft outage means no incessant email chimes or message pings, but still we stayed online
-2026-11-14T06:51:14+00:00|||PASS|||a209265f4ba6b7f519736dd9863222de|||MSFT|||Microsoft updates on outage disrupting Outlook email, Teams, and Copilot for users
-2026-11-14T06:51:16+00:00|||PASS|||e43b76fb8e9ef35ed47fb05aa5071407|||MSFT|||Microsoft’s latest email outage turned into a full-blown global cloud crisis
-2026-11-14T06:51:17+00:00|||PASS|||b1af2726167cb25ff02d717a1e8e5329|||MSFT|||Microsoft Outage Sends Traders Back to Phones and Fax
-2026-11-14T06:51:21+00:00|||PASS|||bd0a317dfbf24c14e5319900b2454b15|||META|||Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more
-2026-11-14T06:51:22+00:00|||PASS|||b561d6914eca4f390ac6d9aa473bffa4|||META|||Tech layoffs tracker 2026: All the job losses across Disney, Amazon, Microsoft, Apple, Meta and more
-2026-11-14T06:51:24+00:00|||PASS|||5cfe9afb44aac9b0bf302026dbcc8460|||AAPL|||Tech layoffs tracker 2026: All the job losses across Disney, Amazon, Microsoft, Apple, Meta and more
-2026-11-14T06:51:31+00:00|||SENT|||0013d62926980d406b96dbe0a20ec860|||TSLA|||Tesla invites select customers to buy a Cybercab for $29,990|||Tesla 邀請部分客戶以 $29,990 購買 Cybercab
-2026-11-14T06:51:37+00:00|||PASS|||333ffe49a261aa82d40b94251e7cd73d|||NVDA|||Jensen Huang will forfeit $108 million in Nvidia stock awards — a minuscule 0.08% of his $138.4 billion fortune
-2026-11-14T06:51:38+00:00|||PASS|||5aa95832eac6675ba3449b914f846b33|||NVDA|||Rene Haas, Ian Buck, Chris Malachowsky: Wall Street zeroes in on potential Nvidia CEO successors
-2026-11-14T06:51:44+00:00|||PASS|||1d2fe699d5b56b59702c7b00737b40dc|||ARM|||Nvidia Yet to Hire Search Firm for Jensen Huang's Successor as Arm CEO Rene Haas Reportedly Emerges as Po
-2026-11-14T06:53:22+00:00|||SENT|||3d1eb86790d7232be21eb39e161e46cb|||SPCX|||SpaceX Starship launch successful, but a booster went boom.|||SpaceX Starship 發射成功，但助推器爆炸。
-2026-11-14T06:54:07+00:00|||PASS|||4c1d53b949b72206f484d931907aa039|||HOOD|||Supreme Court Agrees To Hear Robinhood Appeal In 2021 IPO Investor Lawsuit - GameStop (NYSE:GME)
 2026-11-14T15:15:23+00:00|||PASS|||a8bc809baee7ea028ab7d3987a3aebc1|||FCEL|||FuelCell Energy Inc. stock falls Friday, underperforms market
 2026-11-14T15:15:26+00:00|||PASS|||aaa24559606f4079344d9e984df1dd0a|||CAT|||Trade Tracker: Kevin Simpson buys more Caterpillar
 2026-11-14T15:15:41+00:00|||PASS|||11bb552411877806a6d43c9c967e7ad2|||MSFT|||Microsoft Service Restored After Widespread Outage, Company Says
@@ -1097,3 +1082,5 @@
 2026-11-28T03:28:56+00:00|||PASS|||fb0a61fe760b3e03fcd5a49fdcb1c645|||SPCX|||SpaceX’s One Million Data Center Satellites Got FCC Approval, But Plans To Park Unneeded Satellites Around The Sun Are On Hold
 2026-11-28T03:28:57+00:00|||PASS|||7c2a256a6b6ad205362cd7764eb74b48|||SPCX|||Musk’s $18 billion SpaceX pledge could give shares to every U.S. child
 2026-11-28T03:29:24+00:00|||PASS|||eab4436637ad9b82569e26d61eec2be5|||CEG|||Constellation Acquisition draws $5,000 for extension of business combination deadline
+2026-11-28T08:14:38+00:00|||PASS|||8bc25b0c7ea42e6dd4a5f754e544429e|||TSLA|||Tesla Stock And Other Tariff Protected Manufacturers Investors Are Watching
+2026-11-28T08:14:45+00:00|||PASS|||347a2ce489debcd9a79a501e25e3279f|||QCOM|||Qualcomm CEO, CFO to get $65 million in stock rewards amid layoffs worldwide
