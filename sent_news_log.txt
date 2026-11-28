@@ -1,17 +1,4 @@
 @@HEARTBEAT|||2026-11-28|||2026-10-21T13:41:10+00:00
-2026-11-14T15:15:23+00:00|||PASS|||a8bc809baee7ea028ab7d3987a3aebc1|||FCEL|||FuelCell Energy Inc. stock falls Friday, underperforms market
-2026-11-14T15:15:26+00:00|||PASS|||aaa24559606f4079344d9e984df1dd0a|||CAT|||Trade Tracker: Kevin Simpson buys more Caterpillar
-2026-11-14T15:15:41+00:00|||PASS|||11bb552411877806a6d43c9c967e7ad2|||MSFT|||Microsoft Service Restored After Widespread Outage, Company Says
-2026-11-14T15:15:44+00:00|||PASS|||0c42bc89617f8bb427f42cf603e87c53|||MSFT|||Microsoft says services fully restored after hourslong global outage
-2026-11-14T15:15:47+00:00|||PASS|||d06a20125ac5d7eded437f1eacbf17bb|||MSFT|||Microsoft consumer services recover after global outage, enterprise issues persist
-2026-11-14T15:15:48+00:00|||PASS|||216a60262d3c2d3c66da811d6290109d|||MSFT|||World in brief: Bessent blames Lutnick for lax chip controls; Microsoft outage enters second day
-2026-11-14T15:15:55+00:00|||PASS|||e4a627ce1245fdd6f46f5a03c5911a6b|||TSLA|||Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print
-2026-11-14T15:15:58+00:00|||PASS|||a16f7b6c127cd0e05fb9f8c5afdbe34d|||TSLA|||SpaceX’s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger
-2026-11-14T15:16:02+00:00|||PASS|||8a8113adc0e4ae3c0085156153f172f7|||TSLA|||Tesla's $10 billion solar factory would turn silicon into panels and employ nearly 10,000 people
-2026-11-14T15:16:11+00:00|||PASS|||2e267313b7bf5060282cbe0201f7f83f|||INTC|||Intel Razor Lake Gets Its First Linux Kernel Patch Ahead Of A 2028 Launch, With Desktop Chips Expected To Reuse Nova Lake-S’s LGA 1954 Socket
-2026-11-14T15:16:18+00:00|||PASS|||7d73537964bfddf8198558f4938c2c4d|||TSM|||TSMC gets record NT$167.6 billion in aid from U.S., Japan, Germany, China
-2026-11-14T15:17:06+00:00|||PASS|||705f35fc1953a41b62c81477d0e3af4b|||DELL|||Super Micro Slides 3% as Reported DOJ Smuggling Probe Weighs for a Second Day; Dell Sinks 8%, NVIDIA Retreats 4%
-2026-11-14T15:17:12+00:00|||PASS|||98309000ac700a73b692af5564dd6f4e|||ORCL|||Oracle Now Gets “$16 Billion a Year” per Gigawatt, Up From $10 Billion
 2026-11-15T06:55:58+00:00|||PASS|||43aae3e175609d555dec5926e3477e56|||GLW|||Corning Inc. stock underperforms Friday when compared to competitors
 2026-11-15T06:56:02+00:00|||PASS|||e5104f6310f57c219a912a21ff727c67|||GEV|||GE Vernova Inc. stock falls Friday, underperforms market
 2026-11-15T06:56:09+00:00|||PASS|||34d7362a74f016f8de4ca5e19f47d202|||RDW|||What Does Redwire (RDW) Need To Prove After Its CTO Hire And Army Order?
@@ -1084,3 +1071,13 @@
 2026-11-28T03:29:24+00:00|||PASS|||eab4436637ad9b82569e26d61eec2be5|||CEG|||Constellation Acquisition draws $5,000 for extension of business combination deadline
 2026-11-28T08:14:38+00:00|||PASS|||8bc25b0c7ea42e6dd4a5f754e544429e|||TSLA|||Tesla Stock And Other Tariff Protected Manufacturers Investors Are Watching
 2026-11-28T08:14:45+00:00|||PASS|||347a2ce489debcd9a79a501e25e3279f|||QCOM|||Qualcomm CEO, CFO to get $65 million in stock rewards amid layoffs worldwide
+2026-11-28T17:04:17+00:00|||PASS|||29c159296f3e3360596301a4a47198f4|||AMZN|||Tech layoffs tracker 2026: All the job losses across Disney, Intel, Amazon, Microsoft, Apple, Meta and others
+2026-11-28T17:04:23+00:00|||PASS|||b20fcfc4ee98bff0dd7bee15868d8e8c|||TSLA|||Elon Musk’s SpaceX Could Fall Below $100 on Tesla Merger, Former Goldman Sachs CIO Warn
+2026-11-28T17:04:27+00:00|||PASS|||6e24ee97138f0a98e3960cc51a8eb56d|||NVDA|||Banned Nvidia Blackwell AI racks surface in China — data center tied to $14M loan and alleged spy Alice Huang
+2026-11-28T17:04:28+00:00|||PASS|||a90f5c5c441495c89dff1ab0b84abb5e|||NVDA|||Dell Soars 14% in a Week, Nvidia Up 20%, as Jensen Huang Returns. Dell’s Record Quarter Wasn’t Why
+2026-11-28T17:04:28+00:00|||PASS|||86b0b686f2c9c076ef2c755606b69648|||NVDA|||President Donald Trump Just Floated the Idea of the U.S. Government Buying a Stake in Nvidia -- but It Wouldn't Fix the Company's Biggest Flaw
+2026-11-28T17:05:26+00:00|||PASS|||afaec712a9add90eaab0841260cf0c7c|||DELL|||Dell Stocks Jump 5.28% as $132.3 Billion AI Backlog Keeps Buyers Coming
+2026-11-28T17:05:35+00:00|||PASS|||2d227e140527b2e78de3e655ca1d15c5|||PLTR|||Palantir CEO says only trade workers or those with neurodivergence will succeed in the AI era
+2026-11-28T17:05:48+00:00|||PASS|||4fc04d104b83d64ae03e2a13f260ed29|||ZS|||What Does Zscaler (ZS) Joining A $43.9 Billion Deal Mean For Investors?
+2026-11-28T17:06:11+00:00|||PASS|||e362d6acdb086092055ef415179d20b2|||SPCX|||Elon Musk’s SpaceX Could Fall Below $100 on Tesla Merger, Former Goldman Sachs CIO Warn
+2026-11-28T17:06:13+00:00|||PASS|||54d13d0f0e3c8c5d97ad0a435fa24c1a|||SPCX|||Musk Will Give Every U.S. Child a SpaceX Share “Every Year.” That’s About $9 Billion a Year at Today’s Price
