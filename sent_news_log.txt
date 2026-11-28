@@ -1,39 +1,4 @@
-@@HEARTBEAT|||2026-11-27|||2026-10-21T13:41:10+00:00
-2026-11-14T00:56:15+00:00|||PASS|||5f19141d78856563123558e25c64fc11|||GOOGL|||Google finally has an answer to Meta’s Ray-Ban smart glasses
-2026-11-14T00:56:39+00:00|||PASS|||182942daf94352fd701df3a2a82438d4|||CAT|||Caterpillar Financial Services issues $1 billion in new notes due 2028
-2026-11-14T00:56:50+00:00|||SENT|||5fa2d003715dc834e65af77e5b1d69ff|||MSFT|||Massive Microsoft outage disrupts businesses, government agencies worldwide|||Microsoft大規模故障擾亂全球企業與政府機構運作
-2026-11-14T00:56:53+00:00|||PASS|||d0cad8b7421f0e85d38223ebdc551896|||MSFT|||DAS Technology Gives Retailers a Competitive Advantage During Microsoft Outage
-2026-11-14T00:56:55+00:00|||PASS|||425e86922575a4471b0378b1c61c1db5|||MSFT|||Microsoft outage shows the risks of relying on a single technology provider for essential services
-2026-11-14T00:56:56+00:00|||PASS|||dc37b4d053fb26d18ea8d5626b0ab0a3|||MSFT|||Inside Microsoft’s Rush to Get Back Online After a Global Outage
-2026-11-14T00:56:58+00:00|||PASS|||678ac5dcac004acaab8db018b40a64e8|||MSFT|||How the Microsoft outage impacted courts and governments
-2026-11-14T00:57:01+00:00|||PASS|||58e5efd278bff0d6a67ed76b2532b5aa|||MSFT|||Microsoft Says Outage Disrupting Outlook Is Improving
-2026-11-14T00:57:03+00:00|||PASS|||060a474aed44ff9951a7371166014c9e|||MSFT|||Microsoft’s massive Outlook outage might be over
-2026-11-14T00:57:04+00:00|||PASS|||fb93c1fe667bbc37cdc7706e2b366e0c|||MSFT|||Microsoft’s global outage may be worse than Amazon’s or CrowdStrike’s, expert says
-2026-11-14T00:57:08+00:00|||PASS|||c8daf7da9e74c2d287cbbea047737a60|||META|||Google finally has an answer to Meta’s Ray-Ban smart glasses
-2026-11-14T00:57:09+00:00|||PASS|||26f998fe4f495bbd9d50cd7686749ff7|||META|||Facebook feud between former N.J. officials erupts into lawsuit over sexual harassment claim
-2026-11-14T00:57:11+00:00|||PASS|||f0b54277c1208d26cceda29be0352592|||AAPL|||Whale Rock Capital takes new stake in Microsoft, exits Apple, among Q3 moves (HPE:NYSE)
-2026-11-14T00:57:14+00:00|||PASS|||ac37195e52b8859f1e07ad40e20bac43|||TSLA|||SpaceX, Tesla Merger Puts Musk At Forefront Of 'Revolutionary' Tech, Analyst Says
-2026-11-14T00:57:15+00:00|||PASS|||2635017e9a21dba686514fb9837da12b|||TSLA|||Investors Just Got Big News on a SpaceX-Tesla Merger
-2026-11-14T00:57:16+00:00|||PASS|||4d3720aab8bd581c375a7ee12b8002d9|||TSLA|||1 Million Reasons to Buy the Dip in Tesla Stock (You Can Thank Terafab)
-2026-11-14T00:57:18+00:00|||PASS|||ce760a2e1d99bc4891a28db037f76cb2|||TSLA|||Tesla vs. BYD: One Has a $14 Billion Problem, and the Other Has a Sky-High Valuation
-2026-11-14T00:57:20+00:00|||PASS|||700a4f3135469caec9ab5eb3f5351fe1|||NVDA|||Wall Street Loses a Powerful Dealmaker After Nvidia’s CEO Is Ousted
-2026-11-14T00:57:23+00:00|||PASS|||8f99364f88fda120c8616940bcd0bc57|||NVDA|||Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!
-2026-11-14T00:57:24+00:00|||PASS|||9d10f50b97f71c8c6ea5a22b496f511c|||NVDA|||Nvidia stock slips as investors digest CEO exit, broader chip sell-off accelerates
-2026-11-14T00:57:25+00:00|||PASS|||159977879b032faccf05a12f26c93041|||NVDA|||Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion
-2026-11-14T00:57:30+00:00|||PASS|||9e7a9aa2f8a7e529e1d9f7ee9bc7f006|||QCOM|||Qualcomm announces $4 billion senior notes offering with multiple maturities
-2026-11-14T00:57:33+00:00|||PASS|||a06f47a26aba47d8dcdbf08905213108|||ARM|||Nvidia board reportedly approached Arm CEO Rene Haas during replacement search — Jensen Huang’s transgressions leave Nvidia scrambling to fill a massive void
-2026-11-14T00:57:35+00:00|||PASS|||ca0dc3a3914c7c78e440f3d400a2833a|||ARM|||Nvidia approached Arm CEO Rene Haas to succeed Jensen Huang: report
-2026-11-14T00:57:38+00:00|||PASS|||fe5803fb8d7b5b222d7d0c40cd2b0588|||INTC|||Soros Fund ramps up Intel stake to over $340 million in third quarter
-2026-11-14T00:58:16+00:00|||PASS|||85eaf4617680c9ff0d1a3ac3f63d4d78|||CSCO|||Cisco CEO on trusting Nvidia chips after Jensen Huang's exit: 'Absolutely'
-2026-11-14T00:58:30+00:00|||PASS|||7c9274057955e5cb4c9c1cdfb66e120e|||HPE|||Whale Rock Capital takes new stake in Microsoft, exits Apple, among Q3 moves (HPE:NYSE)
-2026-11-14T00:58:37+00:00|||PASS|||b5733d04d294388ad0f968d6ba1c370e|||CRWV|||CRWV Q3 Earnings Impress, Outlook Raised: How to Play the Stock Now?
-2026-11-14T00:59:20+00:00|||SENT|||4d699f5d161a6dfb71b2e536ac65022d|||SPCX|||SpaceX Launches Starship on Ambitious Bid to Catch Spacecraft|||SpaceX 發射 Starship，積極嘗試捕捉航天器
-2026-11-14T00:59:23+00:00|||PASS|||417a21f942507c27775218f3966d5f30|||SPCX|||SpaceX’s Big Day: A Historic Starship Launch, a Tesla Merger Under Scrutiny, and a $74 Billion AI Bet
-2026-11-14T00:59:24+00:00|||PASS|||1625190738ed623cdce80db7f7293a63|||SPCX|||Investors Just Got Big News on a SpaceX-Tesla Merger
-2026-11-14T00:59:42+00:00|||PASS|||989943a048ed06fb83f72adee3b67645|||LEU|||Centrus, Oklo deal secures fuel for Ohio reactor deployment
-2026-11-14T01:00:13+00:00|||PASS|||96864af1681885e5018ced859eae8c40|||COIN|||Coinbase CEO Brian Armstrong reacts to Jensen Huang probe and Binance hack
-2026-11-14T01:00:16+00:00|||PASS|||e2ec03e60e693aca29bf53a5c4c7bf7f|||HOOD|||Robinhood's $2.1 Billion IPO Returns To Haunt It. Supreme Court Takes Up Investor Lawsuit
-2026-11-14T01:00:17+00:00|||PASS|||23bf0f4bb46db4313ce7d18388fe5d8a|||HOOD|||SCOTUS to consider Robinhood's appeal to block IPO-related lawsuit (HOOD:NASDAQ)
+@@HEARTBEAT|||2026-11-28|||2026-10-21T13:41:10+00:00
 2026-11-14T06:51:07+00:00|||PASS|||cbbd9cf676cbb8af45d17ea79cb73caf|||RDW|||Did Revenue Miss Just Shift Redwire (RDW) Investment Narrative?
 2026-11-14T06:51:11+00:00|||PASS|||4295532575b147bdb439e706874a946d|||MSFT|||Microsoft says services experiencing ‘broad recovery’ after global outage
 2026-11-14T06:51:12+00:00|||PASS|||d82c013e7b2632b795e77155d9d0aa9f|||MSFT|||The Microsoft outage means no incessant email chimes or message pings, but still we stayed online
@@ -1123,3 +1088,12 @@
 2026-11-27T21:33:10+00:00|||PASS|||d82c22d7397b6e82d81545e56fef1c0c|||CEG|||Form 8K Constellation Acquisition Corp I Class A For: 27 November
 2026-11-27T21:33:31+00:00|||PASS|||f1cf0f0efa996eaf1f782f6e4e662d66|||LLY|||Prediction: Eli Lilly’s $92 Billion Revenue Outlook Could Be Just the Beginning
 2026-11-27T21:33:45+00:00|||PASS|||c64173eddf6c64e674c39a7eb2db7a34|||WM|||Recycling Hack from an Expert That Will Change Your Waste Management
+2026-11-28T03:26:27+00:00|||PASS|||6cbce9cff0b74976f1419ce43d9a3ba0|||AMKR|||Amkor Technology (AMKR) Stock May Trade At A Discount To Its Earnings Power
+2026-11-28T03:26:49+00:00|||PASS|||81a83d0b077ea8dfc516c97c969ac9dc|||FCEL|||FuelCell Energy Inc. stock rises Friday, outperforms market
+2026-11-28T03:27:00+00:00|||PASS|||4b99c8fc23ab05c724201337b091044a|||META|||Meta whistleblower Wynn-Williams wants Britain's NDA ban to cover old deals
+2026-11-28T03:27:05+00:00|||PASS|||3096400ea3539bed63a2da14030772da|||NVDA|||Opinion | Nvidia and Failing U.S. Export Controls
+2026-11-28T03:27:12+00:00|||SENT|||b0a439d03c14ab7a8a9796a3daaa2d64|||AMD|||AMD Shares Just Got Crushed on a Short Report. Why the Drop Is a Golden Buying Opportunity.|||AMD 股價因做空報告遭重挫，為何這波下跌是黃金買點
+2026-11-28T03:28:10+00:00|||SENT|||1860b73aa7a7a9363fa4fea418b430e6|||ADI|||Analog Devices Profit, Revenue Rise but Forecast Is Mixed|||Analog Devices 獲利與營收成長，但財測好壞參半
+2026-11-28T03:28:56+00:00|||PASS|||fb0a61fe760b3e03fcd5a49fdcb1c645|||SPCX|||SpaceX’s One Million Data Center Satellites Got FCC Approval, But Plans To Park Unneeded Satellites Around The Sun Are On Hold
+2026-11-28T03:28:57+00:00|||PASS|||7c2a256a6b6ad205362cd7764eb74b48|||SPCX|||Musk’s $18 billion SpaceX pledge could give shares to every U.S. child
+2026-11-28T03:29:24+00:00|||PASS|||eab4436637ad9b82569e26d61eec2be5|||CEG|||Constellation Acquisition draws $5,000 for extension of business combination deadline
